@@ -1,0 +1,1198 @@
+
+
+ 
+  
+  Generate a QR Code using Python - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Python 
+        If Else 
+        For Loop 
+        Function 
+        Array 
+        String 
+        Regex 
+        List 
+        Set 
+        Tuple 
+        Dictionary 
+        Programs 
+        Numpy 
+        Interview Questions 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Python Tutorial 
+      
+      
+      Python Tutorial 
+      Python Features 
+      Python History 
+      Python Applications 
+      Python Install 
+      Python Example 
+      Python Variables 
+      Python Data Types 
+      Python Keywords 
+      Python Literals 
+      Python Operators 
+      Python Comments 
+      Python If else 
+      Python Loops 
+      Python For Loop 
+      Python While Loop 
+      Python Break 
+      Python Continue 
+      Python Pass 
+      Python Strings 
+      Python Lists 
+      Python Tuples 
+      Python List Vs Tuple 
+      Python Sets 
+      Python Dictionary 
+      Python Functions 
+      Python Built-in Functions 
+      Python Lambda Functions 
+      Python Files I/O 
+      Python Modules 
+      Python Exceptions 
+      Python Date 
+      Python Regex 
+      Python Sending Email 
+      Read CSV File 
+      Write CSV File 
+      Read Excel File 
+      Write Excel File 
+      Python Assert 
+      Python List Comprehension 
+      Python Collection Module 
+      Python Math Module 
+      Python OS Module 
+      Python Random Module 
+      Python Statistics Module 
+      Python Sys Module 
+      Python IDEs 
+      Python Arrays 
+      Command Line Arguments 
+      Python Magic Method 
+      Python Stack & Queue 
+      PySpark MLlib 
+      Python Decorator 
+      Python Generators 
+      Web Scraping Using Python 
+      Python JSON 
+      Python Itertools 
+      Python Multiprocessing 
+      How to Calculate Distance between Two Points using GEOPY 
+      Gmail API in Python 
+      How to Plot the Google Map using folium package in Python 
+      Grid Search in Python 
+      Python High Order Function 
+      nsetools in Python 
+      Python program to find the nth Fibonacci Number 
+      Python OpenCV object detection 
+      Python SimpleImputer module 
+      Second Largest Number in Python 
+      
+      
+      Python OOPs 
+      
+      
+      Python OOPs Concepts 
+      Python Object Class 
+      Python Constructors 
+      Python Inheritance 
+      Abstraction in Python 
+      
+      
+      Python MySQL 
+      
+      
+      Environment Setup 
+      Database Connection 
+      Creating New Database 
+      Creating Tables 
+      Insert Operation 
+      Read Operation 
+      Update Operation 
+      Join Operation 
+      Performing Transactions 
+      
+      
+      Python MongoDB 
+      
+      
+      Python MongoDB 
+      
+      
+      Python SQLite 
+      
+      
+      Python SQLite 
+      
+      
+      Python Questions 
+      
+      
+      How to install Python in Windows 
+      How to reverse a string in Python 
+      How to read CSV file in Python 
+      How to run Python Program 
+      How to take input in Python 
+      How to convert list to string in Python 
+      How to append element in the list 
+      How to compare two lists in Python 
+      How to convert int to string in Python 
+      How to create a dictionary in Python 
+      How to create a virtual environment in Python 
+      How to declare a variable in Python 
+      How to install matplotlib in Python 
+      How to install OpenCV in Python 
+      How to print in same line in Python 
+      How to read JSON file in Python 
+      How to read a text file in Python 
+      How to use for loop in Python 
+      Is Python scripting language 
+      How long does it take to learn Python 
+      How to concatenate two strings in Python 
+      How to connect Database in Python 
+      How to convert list to dictionary in Python 
+      How to declare a global variable in Python 
+      How to reverse a number in Python 
+      What is an object in Python 
+      Which is the fastest implementation of Python 
+      How to clear Python shell 
+      How to create a DataFrames in Python 
+      How to develop a game in Python 
+      How to install Tkinter in Python 
+      How to plot a graph in Python 
+      How to print pattern in Python 
+      How to remove an element from a list in Python 
+      How to Round number in Python 
+      How to sort a dictionary in Python 
+      Strong Number in Python 
+      How to Convert Text to Speech in Python  
+      Bubble Sort in Python 
+      Logging in Python 
+      Insertion Sort in Python 
+      Binary Search in Python 
+      Linear Search in Python 
+      Python vs Scala 
+      Queue in Python 
+      Stack in Python 
+      Heap Sort in Python 
+      Palindrome program in python 
+      Program of Cumulative sum in python 
+      Merge Sort in Python 
+      Python Matrix 
+      Python Unit Testing 
+      Forensics & Virtualization 
+      Best Books to Learn Python 
+      Best Books to Learn Django 
+      GCD of two number in python 
+      Python Program to generate a Random String 
+      How to One Hot Encode Sequence Data in Python 
+      How to write square root in Python 
+      Pointer in Python 
+      Python 2D array 
+      Python Memory Management 
+      Python Libraries for Data Visualization 
+      How to call a function in Python 
+      Git Modules in Python 
+      Top Python Frameworks for Gaming 
+      Python Audio Modules 
+      Wikipedia Module in Python 
+      Python random randrange() 
+      Permutation and Combination in Python 
+      Getopt module in Python 
+      Merge two Dictionaries in Python 
+      Multithreading in Python 3 
+      Static in Python 
+      How to get the current date in Python 
+      argparse in Python 
+      Python tqdm Module 
+      Caesar Cipher in Python 
+      Tokenizer in Python 
+      How to add two lists in Python 
+      Shallow Copy and Deep Copy in Python 
+      Atom Python 
+      Contains in Python 
+      Label Encoding in Python 
+      Django vs. Node JS 
+      Python Frameworks 
+      How to create a vector in Python using NumPy 
+      Pickle Module of Python 
+      How to convert Bytes to string in Python 
+      Python Program to Find Anagram 
+      How to convert List to Set 
+      Python vs JavaScript 
+      Python Holidays Module 
+      FuzzyWuzzy Python Library 
+      Dask Python 
+      Dask Python (Part 2) 
+      Mode in Python 
+      Menu-Driven Programs in Python 
+      Python Array vs. List 
+      What is duck typing in Python 
+      PEP 8 in Python 
+      Python User Groups 
+      Basic Commands in Python 
+      F String in Python 
+      How Brython Works 
+      How to use Brython in the Browser 
+      Arima Model in Python 
+      Python Modulus Operator 
+      MATLAB vs. Python 
+      Method Resolution Order in Python 
+      Monkey Patching in Python 
+      Python __call__ method 
+      Python heapq module 
+      Python Substring 
+      Project ideas for Python Beginners 
+      Python Faker 
+      Fizz-Buzz Program in Python 
+      Tabula Python 
+      Python Program to Print Prime Factor of Given Number 
+      Python Program to Print Pascal Triangle 
+      NamedTuple in Python 
+      OrderedDict in Python 
+      T-Test in Python 
+      Python return statement 
+      Getter and Setter in Python 
+      Enum class in Python 
+      Destructors in Python 
+      Curve Fit in Python 
+      Converting CSV to JSON in Python 
+      Underscore (_) in Python 
+      Set vs List in Python 
+      Locating and Executing Modules 
+      Flatten List in Python 
+      Pair Plot in Python 
+      Data Hiding in Python 
+      Python Program to Find Intersection of Two Lists 
+      How to Create Requirements.txt File in Python 
+      Tic-Tac-Toe in Python 
+      Python Asynchronous Programming - asyncio and await 
+      Python main() function 
+      strftime() function in Python 
+      Verbose Flag in Python Regex 
+      Python AST Module 
+      Python Requests Module - HTTP Request 
+      Shutil Module in Python 
+      Python epoch to Datetime 
+      Python del Statement 
+      Looping technique in Python 
+      Metaprogramming with Metaclasses in Python 
+      Precision Handling in Python 
+      Python Join List 
+      strip() function in Python 
+      Gradient Descent Algorithm 
+      Prettytable in Python 
+      Sentiment Analysis in Python 
+      Convert Python List to NumPy Arrays 
+      Traceback in Python 
+      Time clock() Method in Python 
+      Deque in Python 
+      Dictionary Comprehension in Python 
+      Python Data Analytics 
+      Python seek() Method 
+      Ternary Operator in Python 
+      How to Calculate the Area of the Circle using Python 
+      How to Write in Text File using Python 
+      Python KeyError 
+      Python super() Function 
+      max() function in Python 
+      Fraction Module in Python 
+      Popular Python Framework to Build API 
+      How to Check Python version 
+      Python %s - String Formatting 
+      Python seaborn Library 
+      Countplot in Python 
+      range() Vs. Xrange() Python 
+      Wordcloud Package in Python 
+      Convert dataframe into list 
+      ANOVA Test in Python 
+      Python program to find compound interest 
+      Ansible in Python 
+      Python Important Tips and Tricks 
+      Python Coroutines 
+      Double Underscores in Python 
+      re.search() VS re.findall() in Python Regex 
+      How to install statsmodels in Python 
+      Cos in Python 
+      vif in Python 
+      __add__ Method in Python 
+      Ethical Hacking with Python 
+      Class Variable vs Instance 
+      Perfect Number in Python 
+      EOL in Python 
+      Python Program to convert Hexadecimal String to Decimal String 
+      Different Methods in Python for Swapping Two Numbers without using third variable 
+      How to Change Plot Size in Matplotlib 
+      How to Get the Zip Code in Python 
+      Eel in Python 
+      Assignment Operators in Python 
+      Speech Recognition python 
+      Yield vs Return in Python 
+      Graphene Python 
+      Name Mangling in Python 
+      Python combination without itertools 
+      Python Comprehensions 
+      InfluxDB in Python 
+      Kafka Tutorial in Python 
+      Augmented Assignment Expressions in Python 
+      Python (x,y) Software 
+      Python Event-Driven programming 
+      Python Semaphore 
+      Python sorted reverse 
+      Automorphic Number in Python 
+      sizeof in Python 
+      Python Program for accepting the strings which contains all vowels 
+      Class-based views vs Function-Based Views 
+      How to handle cookies in Django 
+      agg() function in Python 
+      Amicable Numbers in Python 
+      Context Manager in Python 
+      Create BMI Calculator using Python 
+      String to Binary in Python 
+      What is script mode in Python 
+      Best Python libraries for Machine Learning 
+      Python Program to Display Calendar of Given Year 
+      How to open URL in Python 
+      Broken Pipe Error in Python 
+      Code Template for Creating Objects in Python 
+      Python program to calculate the best time to buy and sell stock 
+      Tuple to String in Python 
+      Kadane's Algorithm in Python 
+      Loggers in Django 
+      Weather App in Django 
+      Missing Data Conundrum: Exploration and Imputation Techniques 
+      Different Methods of Array Rotation in Python 
+      What is Operator Overloading in Python 
+      Defaultdict in Python 
+      Operator Module in Python 
+      Spinner Widget in the kivy Library of Python 
+      Number Plate Recognition using Python 
+      Obfuscating a Python program 
+      Convert string to dictionary in Python 
+      Convert string to JSON in Python 
+      DBSCAN algorithm in Python 
+      How to Write a Code for Printing the Python Exception/Error Hierarchy 
+      Principal Component Analysis (PCA) with Python 
+      Python Program to Find Number of Days Between Two Given Dates 
+      Object Recognition using Python 
+      Python VLC module 
+      Set to list in Python 
+      String to int in Python 
+      Internet of Things with Python 
+      Python pysftp module 
+      Amazing hacks of Python 
+      Average of list in Python 
+      Check Installed Modules in Python 
+      choice() in Python 
+      Convert List to dataframe in Python 
+      Convert String to Float in Python 
+      Decorators with Parameters in Python 
+      Dynamic Typing in Python 
+      Fabs in Python 
+      How to Remove Decimal in Python 
+      Python Closure 
+      Python Glob Module 
+      Writing a Python Module 
+      Modules vs Packages in Python 
+      SNMP module in Python 
+      Average of list in Python 
+      Append vs Extend vs Insert in Python 
+      How to Remove Duplicates from a list in Python 
+      Remove Multiple Characters from a String in Python 
+      Shuffle in Python 
+      floor() and ceil() Functions in Python 
+      sqrt(): Math Function of Python 
+      Python yfinance Module 
+      Difflib module in Python 
+      Convert the Column Type from String to Datetime Format in Pandas DataFrame 
+      Python wxPython Module 
+      Random Uniform Python 
+      Relational Operators in Python 
+      String to List in Python 
+      Chatbot in Python 
+      How to Convert float to int in Python 
+      Multiply All Elements in list of Python 
+      module vs function in Python 
+      Reverse a tuple in Python 
+      Tuple to Dictionary in Python 
+      datetime.timedelta() Function of Python 
+      Python Bio Module 
+      Python Dash Module 
+      How to Select rows in Pandas DataFrame Based on Conditions 
+      Typecasting in Python 
+      Dateutil module in Python 
+      Getpass module in Python 
+      Python Wand library 
+      Generate a QR Code using Python 
+      Best Python PDF Library 
+      Python Cachetools Module 
+      Python Cmdparser Module 
+      Python Dash module 
+      Python Emoji Module 
+      Python Nmap Module 
+      Python PyLab Module 
+      Working with PDF files in Python 
+      PDF Handling in Python 
+      Manipulating PDF using Python 
+      List All Functions from a Python Module 
+      Python list of Dictionaries 
+      Python Shelve Module 
+      Creating Interactive PDF forms using Python 
+      Python Newspaper Module 
+      How to Connect Wi-Fi using Python 
+      Best Python Libraries used for Ethical Hacking 
+      
+      
+      Python Tkinter (GUI) 
+      
+      
+      Python Tkinter 
+      Tkinter Button 
+      Tkinter Canvas 
+      Tkinter Checkbutton 
+      Tkinter Entry 
+      Tkinter Frame 
+      Tkinter Label 
+      Tkinter Listbox 
+      Tkinter Menubutton 
+      Tkinter Menu 
+      Tkinter Message 
+      Tkinter Radiobutton 
+      Tkinter Scale 
+      Tkinter Scrollbar 
+      Tkinter Text 
+      Tkinter Toplevel 
+      Tkinter Spinbox 
+      Tkinter PanedWindow 
+      Tkinter LabelFrame 
+      Tkinter MessageBox 
+      
+      
+      Python Web Blocker 
+      
+      
+      Introduction 
+      Building Python Script 
+      Script Deployment on Linux 
+      Script Deployment on Windows 
+      
+      
+      Python MCQ 
+      
+      
+      Python MCQ 
+      Python MCQ Part 2 
+      
+      
+      Related Tutorials 
+      
+      
+      NumPy Tutorial 
+      Django Tutorial 
+      Flask Tutorial 
+      Pandas Tutorial 
+      Pytorch Tutorial 
+      Pygame Tutorial 
+      Matplotlib Tutorial 
+      OpenCV Tutorial 
+      Openpyxl Tutorial 
+      Python CGI 
+      Python Design Pattern 
+      
+      
+      Python Programs 
+      
+      
+      Python Programs 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Generate a QR Code using Python Understanding the QR Code 
+            
+            QR code is a machine-readable barcode designed in two-dimensional pixelated form. 
+            The QR code can be used to store a range of data. 
+            QR in QR code is abbreviated for Quick Response. 
+            QR code was invented in the year 1994 by Masahiro Hara, a Japanese engineer from Automobile Manufacturer Denso Wave, in order to track the movement of car parts. 
+            The popularity of the QR code has increased in the later 2010s with improvement in optical proficiencies of Mobile Phones and their extensive acceptance. 
+            At the moment, QR codes are being utilized for a wide range of applications such as making online payments, checking hotel menus, sharing Wi-Fi passwords, obtaining cost and other information of products, and a lot more. 
+            QR codes have become so famous that now every new smartphone comes with a built-in QR code reader. 
+            In the following tutorial, we will learn to generate and read a QR code using the Python programming language. So, let's get started. Generating QR Code using Python Python is a programming language that provides different modules and packages that allow us to generate a QR code. For this tutorial, we will be working with the qrcode package in order to generate the code. However, in order to start working with the package, we have to install it. Installing the Python qrcode package We can install the qrcode package with the help of the pip installer using the following command: Syntax: 
+           
+            
+$ pip install qrcode
+
+            The package will be installed in the system as the version of Python and pip. Verifying the Installation In order to check whether the package has been installed in the system properly or not, we can try importing the package and execute the program. Once the installation is complete, create a new Python file and type the following syntax in it. Example: 
+           
+            
+# importing the required module
+import qrcode
+
+            Now, save the file and run the file using the following command in the command prompt. Syntax: 
+           
+            
+$ python <file-name>.py
+
+            If the program runs without raising any import error, the module is installed properly. Else it is recommended to reinstall the package and refer to its official documentation. Now, let us understand start working with the qrcode library. Generating a Simple QR Code We can generate a simple QR code using the make function of qrcode and pass the data as its parameter. Let us consider the following example that produces a QR code that reads "Welcome to Javatpoint". Example: 
+           
+            
+# importing the qrcode library
+import qrcode
+# generating a QR code using the make() function
+qr_img = qrcode.make("Welcome to Javatpoint.")
+# saving the image file
+qr_img.save("qr-img.jpg")
+
+            Output:  Explanation: In the above snippet of code, we have imported the qrcode library and defined a variable that uses the make() function of the qrcode library to generate a QR code. We have then saved the code using the save() function in the directory. We can use the smartphone in order to read the above QR code. Caution: Do not use the smartphone to read random QR codes because they may contain malicious code/links. Generating an Advanced QR Code The programmers can customize a QR code using a QRCode object which consists of the parameters shown in the following table: 
+            
+            
+              
+              S.No. 
+              Parameter 
+              Description 
+              
+              
+              1 
+              version 
+              There are forty (40) versions of the QR code, which regulates the size of the code. Version 1 is the smallest, whereas version 40 is the largest. Version 1 will generate a 21x21 matrix QR code. 
+              
+              
+              2 
+              error_correction 
+               This parameter is used to control the Error Correction utilized for the QR code. This varies from 7% to 30% correction of the errors as below: 
+                
+                ERROR_CORRECT_L: up to 7% 
+                ERROR_CORRECT_M: up to 15% 
+                ERROR_CORRECT_Q: up to 25% 
+                ERROR_CORRECT_H: up to 30% 
+                 
+              
+              
+              3 
+              box_size 
+              This parameter is used to regulate the number of pixels in the individual block of the QR code. 
+              
+              
+              4 
+              border 
+              This parameter is used to control the thickness of the border. The default border is 4 pixels thick. 
+              
+            
+            We can use the following functions of the QRCode object in order to create a QR code. 
+            
+            
+              
+              S.No. 
+              Functions 
+              Description 
+              
+              
+              1 
+              add_data() 
+              We can pass the content of the QR code as a parameter to this function. 
+              
+              
+              2 
+              make() 
+               In case where we are not sure about which version of QR code to utilize, we can set automatically the version by: 
+                
+                Setting version argument to None, and 
+                Setting fit argument of the make() function to True. 
+                 
+              
+              
+              3 
+              make_image() 
+              This function is used to generate the QR code. We can also use it in order to set the fill color and background color of the QR code with the help of the fill_color and back_color parameters. 
+              
+            
+            Let us consider the following example in order to generate a QR code which points towards the Python tutorial. Example: 
+           
+            
+# importing the qrcode module
+import qrcode
+# creating a QRCode object
+obj_qr = qrcode.QRCode(
+    version = 1,
+    error_correction = qrcode.constants.ERROR_CORRECT_L,
+    box_size = 10,
+    border = 4,
+)
+# using the add_data() function
+obj_qr.add_data("https://www.javatpoint.com/python-tutorial")
+# using the make() function
+obj_qr.make(fit = True)
+# using the make_image() function
+qr_img = obj_qr.make_image(fill_color = "cyan", back_color = "black")
+# saving the QR code image
+qr_img.save("qr-img1.png")
+
+            Output:  Explanation: In the above snippet of code, we have imported the qrcode library. We have then created an instance of the QRCode class of the qrcode library. We have used different parameters in order to customize the QR code. We have then used the add_data() function to include the information for the QR code. We have also used the make() and make_image() functions to generate the QR code image. At last, we have saved the image file in the directory using the save() function. How to read a QR Code? We will utilize the OpenCV library in order to read the QR code. If the package is not installed in the system, we can use the following command in order to install it using the pip installer: Syntax: 
+           
+            
+$ pip install cv2
+
+            Once the installation is done, we can head onto the decoding section of the QR code. In order to decode the code, we will be using the detectAndDecode function of QRCodeDetector object of OpenCV. Let us consider the snippet of code for the same. Example: 
+           
+            
+# importing the OpenCV library
+import cv2
+# reading the image
+qr_img = cv2.imread("qr-img1.png")
+# using the QRCodeDetector() function
+qr_det = cv2.QRCodeDetector()
+# using the detectAndDecode() function
+val, pts, st_code = qr_det.detectAndDecode(qr_img)
+# printing the value
+print("Information:", val)
+
+            Output: 
+           
+            Information: https://www.javatpoint.com/python-tutorial  
+
+            Explanation: In the above snippet of code, we have imported the cv2 library. We have then used the imread() function to read the image from the directory and the QRCodeDectector() function to detect the QR code in the image. We have then used the detectAndDecode() function and printed the value for the users. As a result, the detectAndDecode function returns the content of the QR code, coordinates of the corners of the box, and binarized QR code. 
+            
+            
+            Next Topic
+            Best Python PDF Library 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

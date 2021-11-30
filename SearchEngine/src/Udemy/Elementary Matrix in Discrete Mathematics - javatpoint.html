@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Elementary Matrix in Discrete Mathematics - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Elementary Matrix in Discrete Mathematics - javatpoint">
+  <meta property="og:description" content="Elementary Matrix in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc."> 
+  <meta name="keywords" content="discrete mathematics, tutorial, dms, introduction, sets, sets theory, types of sets, set operations, algebra of sets, multisets, mathematical induction, relations, functions and algorithms, recursively, logic and propositional calculus, techniques of counting, probability, graphs">
+  <meta name="description" content="Elementary Matrix in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/elementary-matrix-in-discrete-mathematics"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Elementary Matrix in Discrete Mathematics - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Elementary Matrix in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/elementary-matrix-in-discrete-mathematics">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="dbms-tutorial">DBMS</a></li> 
+       <li><a href="data-structure-tutorial">DS</a></li> 
+       <li><a href="discrete-mathematics-tutorial" class="selected">DMS</a></li> 
+       <li><a href="daa-tutorial">DAA</a></li> 
+       <li><a href="graph-theory-tutorial">Graph Theory</a></li> 
+       <li><a href="control-system-tutorial">Control System</a></li> 
+       <li><a href="aptitude/quantitative">Aptitude</a></li> 
+       <li><a href="selenium-tutorial">Selenium</a></li> 
+       <li><a href="kotlin-tutorial">Kotlin</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+       <li><a href="training">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Discrete Mathematics</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-tutorial">Discrete Mathematics</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Sets Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sets-introduction">Sets Introduction</a> 
+      <a href="types-of-sets">Types of Sets</a> 
+      <a href="sets-operations">Sets Operations</a> 
+      <a href="algebra-of-sets">Algebra of Sets</a> 
+      <a href="multisets">Multisets</a> 
+      <a href="inclusion-exclusion-principle">Inclusion-Exclusion Principle</a> 
+      <a href="mathematical-induction">Mathematical Induction</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Relations</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="binary-relation">Binary Relation</a> 
+      <a href="representation-of-relations">Representation of Relations</a> 
+      <a href="composition-of-relations">Composition of Relations</a> 
+      <a href="types-of-relations">Types of Relations</a> 
+      <a href="closure-properties-of-relations">Closure Properties of Relations</a> 
+      <a href="equivalence-relations">Equivalence Relations</a> 
+      <a href="partial-ordering-relations">Partial Ordering Relations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Functions &amp; Algorithms</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="functions">Functions</a> 
+      <a href="types-of-functions">Types of Functions</a> 
+      <a href="identity-functions">Identity Functions</a> 
+      <a href="compositions-of-functions">Composition of Functions</a> 
+      <a href="mathematical-functions">Mathematical Functions</a> 
+      <a href="algorithms-and-functions">Algorithms &amp; Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Logic &amp; Propositional</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="propositions-and-compound-statements">Propositions &amp; Compound Statements</a> 
+      <a href="basic-logical-operations">Basic Logical Operations</a> 
+      <a href="conditional-and-biconditional-statements">Conditional &amp; Biconditional Statements</a> 
+      <a href="tautologies-and-contradiction">Tautologies &amp; Contradictions</a> 
+      <a href="predicate-logic">Predicate Logic</a> 
+      <a href="normal-forms">Normal Forms</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Counting Techniques</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="basic-counting-principles">Basic Counting Principles</a> 
+      <a href="permutation-and-combinations">Permutations &amp; Combinations</a> 
+      <a href="pigeonhole-principle">Pigeonhole Principle</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Recurrence Relations</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="recurrence-relations">Recurrence Relations</a> 
+      <a href="linear-recurrence-relations-with-constant-coefficients">Linear Recurrence Relations with Constant Coefficients</a> 
+      <a href="particular-solution">Particular Solution</a> 
+      <a href="total-solution">Total Solution</a> 
+      <a href="generating-functions">Generating Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Probability Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="probability">Probability</a> 
+      <a href="addition-theorem">Addition Theorem</a> 
+      <a href="multiplication-theorem">Multiplication Theorem</a> 
+      <a href="conditional-probability">Conditional Probability</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Graph Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="introduction-of-graphs">Introduction of Graphs</a> 
+      <a href="types-of-graphs">Types of Graphs</a> 
+      <a href="representation-of-graphs">Representation of Graphs</a> 
+      <a href="isomorphic-and-homeomorphic-graphs">Isomorphic and Homeomorphic Graphs</a> 
+      <a href="regular-and-bipartite-graphs">Regular and Bipartite Graphs</a> 
+      <a href="planar-and-non-planar-graphs">Planar and Non-Planar Graphs</a> 
+      <a href="discrete-mathematics-dijkstras-algorithm">Dijkstra's Algorithm</a> 
+      <a href="discrete-mathematics-travelling-salesman-problem">Travelling Salesman Problem</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Binary Trees</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-introduction-of-trees">Introduction of Trees</a> 
+      <a href="discrete-mathematics-binary-trees">Binary Trees</a> 
+      <a href="discrete-mathematics-traversing-binary-trees">Traversing Binary Trees</a> 
+      <a href="discrete-mathematics-binary-search-trees">Binary Search Trees</a> 
+      <a href="discrete-mathematics-minimum-spanning-tree">Minimum Spanning Tree</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Operator &amp; Postulates</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-binary-operation">Binary Operation</a> 
+      <a href="discrete-mathematics-properties-of-binary-operations">Property of Binary Operations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Group Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-semigroup">SemiGroup</a> 
+      <a href="discrete-mathematics-group">Group</a> 
+      <a href="discrete-mathematics-subgroup">SubGroup</a> 
+      <a href="discrete-mathematics-normal-subgroup">Normal Subgroup</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Ordered Sets &amp; Lattices</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-partially-ordered-sets">Partially Ordered Sets</a> 
+      <a href="discrete-mathematics-hasse-diagrams">Hasse Diagrams</a> 
+      <a href="discrete-mathematics-lattices">Lattices</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Boolean Algebra</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-boolean-algebra">Boolean Algebra</a> 
+      <a href="discrete-mathematics-boolean-expression">Boolean Expression</a> 
+      <a href="discrete-mathematics-canonical-forms">Canonical Forms</a> 
+      <a href="discrete-mathematics-logic-gates-and-circuits">Logic Gates &amp; Circuits</a> 
+      <a href="discrete-mathematics-karnaugh-maps">Karnaugh Maps</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="proof-of-de-morgans-law">Proof of De Morgan's Law</a> 
+      <a href="discrete-mathematics-for-computer-science">Discrete mathematics for Computer Science</a> 
+      <a href="abelian-groups-in-discrete-mathematics">Abelian Groups in Discrete Mathematics</a> 
+      <a href="applications-of-discrete-mathematics-in-computer-science">Applications of Discrete Mathematics in Computer Science</a> 
+      <a href="rings-in-discrete-mathematics">Rings in Discrete Mathematics</a> 
+      <a href="order-of-group-in-discrete-mathematics">Order of Group in Discrete Mathematics</a> 
+      <a href="principle-of-duality-in-discrete-mathematics">Principle of Duality in Discrete Mathematics</a> 
+      <a href="atomic-propositions-in-discrete-mathematics">Atomic Propositions in Discrete Mathematics</a> 
+      <a href="applications-of-tree-in-discrete-mathematics">Applications of Tree in Discrete Mathematics</a> 
+      <a href="quantifiers-in-discrete-mathematics">Quantifiers</a> 
+      <a href="algebraic-structure-in-discrete-mathematics">Algebraic Structure</a> 
+      <a href="counting-principle">Counting principle</a> 
+      <a href="bijective-function-in-discrete-mathematics">Bijective Function in Discrete Mathematics</a> 
+      <a href="multinomial-theorem">Multinomial Theorem</a> 
+      <a href="lagranges-mean-value-theorem">Lagrange's Mean Value Theorem</a> 
+      <a href="cauchys-mean-value-theorem">Cauchy's Mean Value Theorem</a> 
+      <a href="rolles-mean-value-theorem">Rolle's Mean Value Theorem</a> 
+      <a href="semantic-difference-between-set-and-type">Semantic difference between Set and Type</a> 
+      <a href="application-of-group-theory-in-discrete-mathematics">Application of Group Theory in Discrete Mathematics</a> 
+      <a href="directed-and-undirected-graph-in-discrete-mathematics">Directed and Undirected graph in Discrete Mathematics</a> 
+      <a href="bayes-formula-for-conditional-probability">Bayes Formula for Conditional probability</a> 
+      <a href="function-vs-relation-in-discrete-mathematics">Difference between Function and Relation in Discrete Mathematics</a> 
+      <a href="recursive-functions-in-discrete-mathematics">Recursive functions in discrete mathematics</a> 
+      <a href="arguments-in-discrete-mathematics">Arguments in Discrete Mathematics</a> 
+      <a href="elementary-matrix-in-discrete-mathematics">Elementary Matrix in Discrete Mathematics</a> 
+      <a href="hypergeometric-distribution-in-discrete-mathematics">Hypergeometric Distribution in Discrete Mathematics</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DMS MCQ</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-mcq">Discrete Matehmatics MCQ</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="hypergeometric-distribution-in-discrete-mathematics">next &#x2192;</a> 
+            <a class="next" href="arguments-in-discrete-mathematics">&#x2190; prev</a> 
+           </div> <h1 class="h1">Elementary Matrix in Discrete Mathematics</h1> <p>To learn the elementary matrix, we have to first learn about the matrix and identity matrix. After that, we can understand the concept of an elementary matrix.</p> <h2 class="h2">Matrix</h2> <p>The matrix can be described as a set of numbers, which are arranged in rows and columns. These numbers are known as the entries or elements of the matrix. The square brackets are used to cover these types of elements. Suppose there is n number of rows and m number of columns. In this case, the matrix will be known as n by m matrix and can be written as "n * m". There is also a square matrix n*n, which can be described as a collection of n rows and n columns of order n.</p> <p><strong>For example:</strong> In this example, we will show a 3*3 matrix.</p> <p><strong>Solution:</strong> 3*3 matrix means there are 3 rows and 3 columns. That means total 9 elements. The 3*3 matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics.png" alt="Elementary Matrix in Discrete Mathematics"> <h2 class="h2">Identity Matrix</h2> <p>An identity matrix can be described as a square matrix of any order in which all the elements of main diagonal will contain the value 1, and all the other elements will contain the value 0. The order of an identity matrix will always be n. So we can say that the dimension of an identity matrix is n * n. That means the amount of rows and columns is always equal in this matrix. The representation of an identity matrix with different dimensions is described as below:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics2.png" alt="Elementary Matrix in Discrete Mathematics"> <h2 class="h2">Elementary Matrix</h2> <p>The elementary matrix is also a type of square matrix. The elementary matrix and identity matrix are similar to each other. The only difference is that there will be one elementary rows or columns operation among three on the identity matrix in the elementary matrix. The rows operations in an elementary matrix are described as follows:</p> <p><strong>R1:</strong> Multiply the element of one row with a non-zero real number.</p> <p><strong>R2:</strong> Swapping two rows</p> <p><strong>R3:</strong> Adding of a constant k time one row to another row.</p> <p>Here R1, R2, R3 are used to represent the row operations. When we apply the row operation to any matrix, then it will be known as the elementary row operations. In contrast, the columns operations in an elementary matrix are described as follows:</p> <p>C1: Multiply the element of one column with a non-zero real number.</p> <p>C2: Swapping two columns</p> <p>C3: Adding of a constant k time one column to another column.</p> <p>Here C1, C2, C3 are used to represent the column operations. When we apply the column operation to any matrix, then it will be known as the elementary column operations.</p> <p>As we know that the elementary matrix is obtained from the identity matrix, and the identity matrix is always square. That's why the elementary matrix will also be square always.</p> <p><strong>Example:</strong> In this example, we will show four elementary matrices and the operations that are used to generate these matrices.</p> <p><strong>Solution:</strong></p> 
+           <ol class="points"> 
+            <li>The following matrix will be generated by multiplying the second row of identity matrix (I<sub>2</sub>) by -3.<br> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics3.png" alt="Elementary Matrix in Discrete Mathematics"></li> 
+            <li>The following matrix will be generated by interchanging the second and fourth rows of identity matrix (I<sub>4</sub>).<br> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics4.png" alt="Elementary Matrix in Discrete Mathematics"></li> 
+            <li>The following matrix will be generated by adding three times the third row of an identity matrix (I<sub>3</sub>) to the first row.<br> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics5.png" alt="Elementary Matrix in Discrete Mathematics"></li> 
+            <li>The following matrix will be generated by multiplying the first row of an identity matrix (I<sub>3</sub>) by 1.<br> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics6.png" alt="Elementary Matrix in Discrete Mathematics"></li> 
+           </ol> <p>The general linear group of the invertible matrices can be generated with the help of an elementary matrix. The elementary row operation will be represented when the elementary matrix performs the left multiplication or pre multiplication. The elementary column operation will be represented when the elementary matrix performs the right multiplication or post multiplication. The Gaussian elimination uses the elementary row operation so that it can reduce the matrix to row echelon form. The elementary row operations are also used by the gauss Jordan elimination so that they can further reduce the matrix to row echelon form. The examples of elementary row operations are described as follows:</p> <p><strong>Example:</strong> In this example, we will consider a matrix A, which is given as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics7.png" alt="Elementary Matrix in Discrete Mathematics"> <p>In this matrix A, we will perform the following elementary row operations like this:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics8.png" alt="Elementary Matrix in Discrete Mathematics"> <p>In this elementary row operation, the elementary matrix will correspond in the following way:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics9.png" alt="Elementary Matrix in Discrete Mathematics"> <p>We can see that we will get the following matrix when the same elementary row operation is performed on identity matrix I. The result of multiplication of EA and the elementary row operation on matrix A is the same. The multiplication of E and A is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics10.png" alt="Elementary Matrix in Discrete Mathematics"> <p>For the other elementary row operation, the same is also true. We can also perform the inverse operation on every elementary matrix. If we do the inverse of an elementary matrix, it will also be the elementary matrix. We can prove this concept by performing the reverse row operation on the identity matrix. The reverse row operations are described as follows:</p> 
+           <ul class="points"> 
+            <li>The reverse of R<sub>i</sub> &#x2192; kR<sub>i</sub> will be R<sub>i</sub> &#x2192; 1/k R<sub>i</sub>.</li> 
+            <li>The reverse of R<sub>i</sub> &#x2192; kR<sub>j</sub> + R<sub>i</sub> will be R<sub>i</sub> &#x2192; &#x2212;kR<sub>j</sub> + R<sub>i</sub>.</li> 
+            <li>The reverse of R<sub>i </sub>&#x2194; R<sub>j</sub> will be R<sub>i </sub>&#x2194; R<sub>j</sub>.</li> 
+           </ul> <p>We can perform the elementary row transformation by using the elementary matrices. It is also used to provide a constructive tool that can be used to find out the inverse matrix and also determine the LU-decomposition. The examples of elementary matrices and their inverse are described as follows, and we can check every matrix by multiplying the matrices. If the matrices are inverse, their multiplication will be I.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics11.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The elementary matrix has a very important fact, i.e., if matrix A is invertible, we are also able to write it as a multiplication of elementary matrices.</p> <h3 class="h3">Properties of Elementary Matrices</h3> <p>All the elementary matrices are non-singular. The inverse of all non-singular elementary matrices will also be the elementary matrix. There are various properties of an elementary matrix, which are shown as follows:</p> <p>1. If there is a matrix, which interchanges two rows, then the inverse of this matrix will be itself.</p> <p><strong>For example:</strong> Suppose there is a matrix, which is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics12.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The inverse of this matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics13.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The computation of the matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics14.png" alt="Elementary Matrix in Discrete Mathematics"> <p>2. If there is an elementary matrix that is used to simulate (mR<sub>i</sub>) &#x2194; (R<sub>i</sub>), then the inverse of this type of matrix will also be the elementary matrix that simulates (1/m R<sub>i</sub>) &#x2194; (R<sub>i</sub>).</p> <p><strong>For example:</strong> Suppose there is a matrix, which is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics15.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The inverse of this matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics16.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The computation of the matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics17.png" alt="Elementary Matrix in Discrete Mathematics"> <p>3. If there is an elementary matrix that is used to simulate (R<sub>j</sub> + mR<sub>i</sub>) &#x2194; (R<sub>j</sub>), then the inverse of this type of matrix will also be the elementary matrix that simulates (R<sub>j</sub> - mR<sub>i</sub>) &#x2194; (R<sub>j</sub>).</p> <p><strong>For example:</strong> Suppose there is a matrix, which is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics18.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The inverse of this matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics19.png" alt="Elementary Matrix in Discrete Mathematics"> <p>The computation of the matrix is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics20.png" alt="Elementary Matrix in Discrete Mathematics"> <h3 class="h3">Examples of Elementary Matrix</h3> <p><strong>Example 1:</strong> In this example, we have to determine that whether the given matrix A is elementary or not.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics21.png" alt="Elementary Matrix in Discrete Mathematics"> <p><strong>Solution:</strong> As we know, the elementary matrix is always the square matrix, and the above matrix is not a square matrix. That's why we can say that matrix A is not an elementary matrix.</p> <p><strong>Example 2:</strong> In this example, we have to determine that whether the given matrix A is an elementary matrix or not.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics22.png" alt="Elementary Matrix in Discrete Mathematics"> <p><strong>Solution:</strong> The 2*2 size of identity matrix (I<sub>2</sub>) is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics23.png" alt="Elementary Matrix in Discrete Mathematics"> <p>If the second row of an identity matrix (I<sub>2</sub>) is multiplied by -3, we are able to get the above matrix A as a result. So we can say that matrix A is an elementary matrix.</p> <p><strong>Example 3:</strong> In this example, we have to determine that whether the given matrix A is an elementary matrix or not.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics24.png" alt="Elementary Matrix in Discrete Mathematics"> <p><strong>Solution:</strong> The 3*3 size of identity matrix (I<sub>3</sub>) is described as follows:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics25.png" alt="Elementary Matrix in Discrete Mathematics"> <p>If we multiply the first row of I<sub>3</sub> by 7, we are able to get the following matrix:</p> <img src="https://static.javatpoint.com/tutorial/dms/images/elementary-matrix-in-discrete-mathematics26.png" alt="Elementary Matrix in Discrete Mathematics"> <p>As we can see that this matrix is not equal to the given matrix A because the third row of matrix A and generated matrix are not the same. We are also not able to perform a single row or column operation so that we can get given matrix A from identity matrix I3. That's why we can say that the elementary matrix is not described by the given matrix A.</p> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="hypergeometric-distribution-in-discrete-mathematics">Hypergeometric Distribution in Discrete Mathematics</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="arguments-in-discrete-mathematics">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="hypergeometric-distribution-in-discrete-mathematics">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ec8a8989888e8d8f87ac868d9a8d989c83858298c28f8381">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/elementary-matrix-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/elementary-matrix-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/elementary-matrix-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="503822103a31263124203f393e247e333f3d">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b0d8c2f0dad1c6d1c4c0dfd9dec49ed3dfdd9e">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

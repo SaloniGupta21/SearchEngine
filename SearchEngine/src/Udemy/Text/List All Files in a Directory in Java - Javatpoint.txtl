@@ -1,0 +1,168 @@
+List All Files in a Directory in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev List All Files in a Directory in Java In this section, we are going to learn how one can list all the files that are present in a directory. Note that a directory may contain a subdirectory, and that subdirectory may contain some files. We have to list these files, too, as these files are also part of the main directory. However, for the sake of simplicity, we will first look at the scenario where subdirectories are not present. Directory without having Sub-directories It means a folder is only containing files. Steps to print the files of a directory are mentioned below. Step 1: Create a File Object for the directory. Step 2: Obtain the array of files of that directory. Step 3: Recursively, print the name of files (with extension) one by one. Implementation The following code prints the file names mentioned in the folder called Documents. The following snapshot shows the files present in the folder named Documents. FileName: DisplayFileExample.java 
+// import statement
+import java.io.File;
+public class DisplayFileExample
+{
+public void printFileNames(File[] a, int i, int lvl)
+{
+// base case of the recursion
+// i == a.length means the directory has 
+// no more files. Hence, the recursion has to stop
+if(i == a.length)
+{
+return;
+}
+// checking if the encountered object is a file or not
+if(a[i].isFile())
+{
+System.out.println(a[i].getName());
+}
+// recursively printing files from the directory
+// i + 1 means look for the next file
+printFileNames(a, i + 1, lvl);
+}
+// Main Method
+public static void main(String[] argvs)
+{
+// Providing the full path for the directory
+String path = "E:\\Documents";
+// creating a file object
+File fObj = new File(path);
+// creating on object of the class DisplayFileExample
+DisplayFileExample obj = new DisplayFileExample();
+if(fObj.exists() && fObj.isDirectory())
+{
+// array for the files of the directory pointed by fObj
+File a[] = fObj.listFiles();
+// display statements
+System.out.println("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+System.out.println("Displaying Files from the directory : " + fObj);
+System.out.println("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+// Calling the method
+obj.printFileNames(a, 0, 0);
+}
+}
+}
+ Output: = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Displaying Files from the directory: E:\Documents
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+30004399657726 report 2.pdf
+30004399657726 report.pdf
+5010XXXXXX8778-13 Mar 2017 TO 12 Apr 2017.pdf
+a b c.txt
+asp.net tutorial.pdf
+coding Standards.pdf
+CS121Lec01.pdf
+Databases for beginners.pdf
+DBMS ME CS (gate2016.info).pdf
+lec1.pdf
+New Text Document.txt
+Programming Interview Questions.docx
+Rk - Database Management Systems 3rd Edition.pdf
+slip201611605845.pdf
+slip201611605845_2.pdf
+Task 1.pdf
+The Normal Forms2.ppt
+ Directory with Subdirectories It means a folder contains files as well as subfolders. Steps to print the files of a directory and its subdirectory are mentioned below. Step 1: Create a File Object for the directory. Step 2: Obtain the array of files and subdirectory of that directory. Step 3: If array[j] is a file, then display the file name and recursively go to the next element of the array[j]. Step 4: If array[j] is a directory, then display then directory name, and repeat from step 2. Implementation We have already seen the contents of the folder named Documents. Now, we create some folders inside Documents and store number of files in it. Observe the following snapshots. The above snapshot shows the Documents directory has 3 sub-directories named (New folder - 1, New folder - 2, New folder - 3). The following snapshot shows the content of the folder named New folder - 1 The following snapshot shows the content of the folder named New folder - 2 The following snapshot shows the content of the folder named New folder - 3 After the creation of folders, we can write the code on the basis of the steps defined above. FileName: DisplayFileExample1.java 
+// import statement
+import java.io.File;
+public class DisplayFileExample1
+{
+public void printFileNames(File[] a, int i, int lvl)
+{
+// base case of the recursion
+// i == a.length means the directory has 
+// no more files. Hence, the recursion has to stop
+if(i == a.length)
+{
+return;
+}
+// tabs for providing the indentation
+// for the files of sub-directory
+for (int j = 0; j < lvl; j++)
+{
+System.out.print("\t");
+}
+// checking if the encountered object is a file or not
+if(a[i].isFile())
+{
+System.out.println(a[i].getName());
+}
+// for sub-directories
+else if(a[i].isDirectory())
+{
+System.out.println("[" + a[i].getName() + "]");
+// recursion for sub-directories
+printFileNames(a[i].listFiles(), 0, lvl + 1);
+}
+// recursively printing files from the directory
+// i + 1 means look for the next file
+printFileNames(a, i + 1, lvl);
+}
+// Main Method
+public static void main(String[] argvs)
+{
+// Providing the full path for the directory
+String path = "E:\\Documents";
+// creating a file object
+File fObj = new File(path);
+// creating on object of the class DisplayFileExample1
+DisplayFileExample1 obj = new DisplayFileExample1();
+if(fObj.exists() && fObj.isDirectory())
+{
+// array for the files of the directory pointed by fObj
+File a[] = fObj.listFiles();
+// display statements
+System.out.println("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+System.out.println("Displaying Files from the directory: " + fObj);
+System.out.println("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =");
+// Calling the method
+obj.printFileNames(a, 0, 0);
+}
+}
+}
+ Output: = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Displaying Files from the directory: E:\Documents
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+30004399657726 report 2.pdf
+30004399657726 report.pdf
+5010XXXXXX8778-13 Mar 2017 TO 12 Apr 2017.pdf
+a b c.txt
+asp.net tutorial.pdf
+coding Standards.pdf
+CS121Lec01.pdf
+Databases for beginners.pdf
+DBMS ME CS (gate2016.info).pdf
+lec1.pdf
+[New folder  - 1]
+        How to call private method from another class in java.docx
+        Java CardLayout.docx
+        Java GridBagLayout.docx
+        Java SpringLayout.docx
+        ordinal number in java.docx
+        tetrahedral number in java.docx
+[New folder  - 2]
+        output onlinepngtools (13).png
+        output onlinepngtools (14).png
+        output onlinepngtools (15).png
+        output onlinepngtools (16).png
+        output onlinepngtools (17).png
+        output onlinepngtools (18).png
+[New folder  - 3]
+        Java Regular Expressions.docx
+        n1 (7).png
+        n2 (3).png
+        n3.png
+        n4.png
+        String vs StringBuffer.docx
+        StringBuffer in Java.docx
+        StringBuffer vs StringBuilder.docx
+        StringBuilder in Java.docx
+New Text Document.txt
+Programming Interview Questions.docx
+Rk - Database Management Systems 3rd Edition.pdf
+slip201611605845.pdf
+slip201611605845_2.pdf
+Task 1.pdf
+The Normal Forms2.ppt
+ Next Topic TDD Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

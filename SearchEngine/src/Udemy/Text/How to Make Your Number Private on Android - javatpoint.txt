@@ -1,0 +1,1067 @@
+
+
+ 
+  
+  How to Make Your Number Private on Android - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Android 
+       Java 
+       Servlet 
+       JSP 
+       Struts2 
+       Mail API 
+       Hibernate 
+       Spring 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Android Training 
+      
+      Android Tutorial 
+      
+      
+      Android Introduction 
+      What is Android 
+      History and Version 
+      Android Architecture 
+      Core Building Blocks 
+      Android Emulator 
+      Install Android 
+      Setup Eclipse 
+      Hello Android example 
+      Internal Details 
+      Dalvik VM 
+      AndroidManifest.xml 
+      R.java 
+      Hide Title Bar 
+      Screen Orientation 
+      
+      
+      Android Widgets 
+      
+      
+      UI Widgets 
+      Working with Button 
+      Toast 
+      Custom Toast 
+      ToggleButton 
+      CheckBox 
+      Custom CheckBox 
+      RadioButton 
+      Dynamic RadioButton 
+      Custom RadioButton 
+      AlertDialog 
+      Spinner 
+      AutoCompleteTextView 
+      ListView 
+      Custom ListView 
+      RatingBar 
+      WebView 
+      SeekBar 
+      DatePicker 
+      TimePicker 
+      Analog and Digital 
+      ProgressBar 
+      Vertical ScrollView 
+      Horizontal ScrollView 
+      ImageSwitcher 
+      ImageSlider 
+      ViewStub 
+      TabLayout 
+      TabLayout with FrameLayout 
+      SearchView 
+      SearchView on Toolbar 
+      EditText with TextWatcher 
+      
+      
+      Activity and Intents 
+      
+      
+      Activity LifeCycle 
+      Implicit Intent 
+      Explicit Intent 
+      StartActivityForResult 
+      Share App Data 
+      
+      
+      Android Fragments 
+      
+      
+      Android Fragments 
+      
+      
+      Android Menu 
+      
+      
+      Option Menu 
+      Context Menu 
+      Popup Menu 
+      
+      
+      Android Service 
+      
+      
+      Android Service 
+      
+      
+      Android AlarmManager 
+      
+      
+      Android AlarmManager 
+      
+      
+      Android Storage 
+      
+      
+      Android Preferences 
+      Internal Storage 
+      External Storage 
+      
+      
+      Android SQLite 
+      
+      
+      SQLite Tutorial 
+      SQLite Spinner 
+      
+      
+      XML and JSON 
+      
+      
+      XML Parsing SAX 
+      XML Parsing DOM 
+      XMLPullParser 
+      JSON Parsing 
+      
+      
+      Android Multimedia 
+      
+      
+      MediaPlayer: Audio 
+      VideoView: Video 
+      Recording Media 
+      
+      
+      Android Speech 
+      
+      
+      TextToSpeech1 
+      TextToSpeech2 
+      
+      
+      Android Telephony 
+      
+      
+      TelephonyManager 
+      Get Call State 
+      Get Call State 2 
+      Simple Caller Talker 
+      Phone Call 
+      Send SMS 
+      Send Email 
+      
+      
+      Android Device 
+      
+      
+      Bluetooth Tutorial 
+      List Paired Devices 
+      WIFI 
+      
+      
+      Camera Tutorial 
+      
+      
+      Camera Tutorial 
+      
+      
+      Sensor Tutorial 
+      
+      
+      Sensor Tutorial 
+      
+      
+      Android Graphics 
+      
+      
+      Android Graphics 
+      
+      
+      Android Animation 
+      
+      
+      Android Animation 
+      
+      
+      Android Web Service 
+      
+      
+      Android Web Service 
+      
+      
+      Google Map 
+      
+      
+      Android Google Map 
+      Current Location 
+      Search Location 
+      
+      
+      Adding Ads 
+      
+      
+      Android Google Admob 
+      1) Banner Ads 
+      2) Interstitial Ads 
+      
+      
+      Android Examples 
+      
+      
+      QR/Bar Code Scanner 
+      RSS Feed Reader 
+      Volley Fetch JSON 
+      Android Linkify 
+      Intro Slider 
+      RecyclerView List 
+      Swipe Del RecyclerView 
+      Swipe Refresh Activity 
+      Volley Library Registration Log-in Log-out 
+      Network Connectivity Services 
+      Firebase Authentication - Google Login 
+      Android Notification 
+      Using Google reCAPTCHA 
+      
+      
+      Android Social 
+      
+      
+      Integrating Google Sign-In 
+      Integrating LinkedIn 
+      Integrating Twitter 
+      
+      
+      Android Versions 
+      
+      
+      Android Versions 
+      Android KitKat 
+      Android Lollipop 
+      Android Marshmallow 
+      Android Nougat 
+      Android Oreo 
+      Android Pie 
+      Android 10 
+      
+      
+      Android Misc 
+      
+      
+      Android Device Manager 
+      Android Studio 
+      Android Auto 
+      Android File Transfer 
+      Android Messages 
+      Android TV 
+      Android Screenshot 
+      Android Pay 
+      Android Watch 
+      Android Phones 
+      Android Tablets 
+      Android Find My Phone 
+      Android One 
+      Android Wear OS 
+      Android Data Recovery 
+      Android Antivirus 
+      Android x86 
+      Android vs iPhone 
+      Emulator for PC 
+      Android File Manager 
+      Android ad blocker 
+      Android Podcast App 
+      Fortnite Epic Game 
+      FaceTime for Android 
+      ShowBox for Android 
+      Android App Store 
+      Virus Removal for Android 
+      Clear cache Android 
+      Root Android Device 
+      Android Screen Recorder 
+      Block Number on Android 
+      Canon printer app for Android 
+      Wireless HP printer app for Android 
+      How to Update Android 
+      iMessage for Android 
+      iCloud for Android 
+      Call Recorder for Android 
+      Videoder Android Apk 
+      YouTube Video Downloader for Android 
+      Airdrop for Android 
+      RoboKiller for Android 
+      Clean my Android Phone 
+      How to hide apps, files, and photos on Android 
+      Best weather apps with widgets for Android 
+      File Transfer for Mac 
+      Mobdro for Android 
+      Android Screen Mirroring 
+      Stock market apps 
+      turn On or Off safe mode 
+      Best browsers for Android 
+      Best clocks for Android 
+      Best email apps for Android 
+      Music player for Android 
+      Android smartwatch for women 
+      Best keyboard for Android 
+      Best messaging app for Android 
+      Device cleaner and booster for Android 
+      Wi-Fi calling on Android 
+      Google Assistant app for Android 
+      How to delete apps on Android 
+      Norton Security and Antivirus for Android 
+      Radio apps for Android 
+      Stock Android 
+      Skype for Android 
+      How to transfer contacts from Android to iPhone 
+      Alexa app for Android 
+      Best Casino Games for Android 
+      Volume booster for Android 
+      How to update apps on Android 
+      Epson Print Enabler for Android 
+      Printer apps for Android 
+      Android Beam 
+      Paranoid Android 
+      Do Not Disturb in Android 
+      How to get Android Messages on PC 
+      Android Dark Mode 
+      QVC app for Android 
+      Weather Underground app 
+      What is NFC on Android 
+      Screen time Android 
+      Search by Image: Google Reverse Image Search 
+      How to record screen on Android 
+      How to split screen on Android 
+      Reddit app for Android 
+      TweakBox for Android 
+      Best PS2 Emulators for Android 
+      Pop-up Blocker in Android 
+      Android Easter Egg 
+      Drudge report Android apps 
+      3DS Emulator Android 
+      Terrarium TV App for Android 
+      Best Android Cleaner Apps 
+      Spectrum TV App for Android 
+      Android 11 
+      Radar Detector Apps 
+      Hotspot apps for Android 
+      How to Transfer Contacts from iPhone to Android 
+      Amazon app store for Android 
+      Hangouts App for Android 
+      Omegle Video Chat on Android 
+      Outlook App for Android Mobile 
+      Animoji for Android 
+      What is content://com.android.browser.home/ 
+      Firefox for Android 
+      Movie Apps for Android 
+      POF Free Dating App for Android 
+      PS4 Remote Play for Android 
+      Best Android Games 
+      Best Android TV Boxes 
+      How to Clear Cookies on Android 
+      How to Reset Android Phone 
+      Malwarebytes for Android 
+      How to Find Wi-Fi Password on Android 
+      How to Install APK on Android 
+      How to Unlock Android Phone 
+      How to Block Text Messages on Android 
+      How to Recover Deleted Text Messages and Photos on Android 
+      How to Remove Previously Synced Google Account from Android 
+      How to Transfer Contacts from Android to Android 
+      How to Set up Voicemail on Android 
+      How to Share Wi-Fi Password from iPhone to Android 
+      How to Backup Android Phone 
+      What Version of Android Do I Have 
+      How to Block Website on Android Phone and Computer 
+      Turn on Flash in Chrome 
+      Free Music Downloader mp3 for Android 
+      Who Owns Android 
+      Best Notes App for Android 
+      Barcode scanner apps for Android 
+      How to Connect Android Phone to TV 
+      Best free VPN for Android 
+      Download Google Play Store App for Android 
+      Do AirPods work with Android 
+      How to Download Music from Youtube on Android 
+      How to Empty Trash on Android 
+      How to Print Text Messages from Android 
+      How to Share Location on Android 
+      How to change keyboard on Android phone 
+      How to Hack Wi-Fi password in Android 
+      How to allow or block pop-ups in Chrome browser 
+      How to Enable Cookies on Android 
+      How to see a blocked number and unblock them on Android 
+      How to Track iPhone from an Android Phone 
+      What is my Phone Number on Android 
+      Best Police Radar Detector 
+      How to open TIF or TIFF files on Android 
+      Android Final Year Project Ideas for Computer Science 
+      Android Messages for web 
+      How to Change Font Style in Android Phone 
+      IP Address Format and Table 
+      Best Offline Android Games 
+      Best Camera Apps 
+      Does Apple Watch Work with Android 
+      Fastest Android Emulators 
+      How to Take a screenshot in Android phone 
+      Best Wireless Earbuds for Android 
+      How to Lock Apps on Android 
+      How to turn off Google Assistant on Android 
+      Parental control Android apps 
+      Video player for Android 
+      How to Screen Mirror or Cast Android phone on the TV 
+      Best Learning Apps for Kids 
+      How to Scan QR Code on an Android 
+      How to Find Hidden Apps on Android 
+      How to Delete Downloads on Android 
+      How to Recover Deleted Videos from Android 
+      Best Guitar Learning Apps 
+      Extramarks Learning App 
+      Vedantu Learning App 
+      How to Copy and Paste on your Android 
+      How to Leave a Group Text on Android and iPhone 
+      How to turn off AMBER Alerts on your Android device 
+      How to Move Apps to SD Card on Android 
+      How to delete Preinstalled Apps on Android 
+      How do I Delete Google History on my Android Phone 
+      How to close apps on Android 
+      How to Forward Calls on Android 
+      How to Video Call on Android 
+      How to Delete Gmail Account on Android Phone 
+      How to Get iPhone Emojis on Android 
+      How to Check Airpod Battery on Android 
+      How to download apps on Android 
+      How do I Disable Screen Lock on Android 
+      How to transfer messages from Android to iPhone 
+      How to Unzip or Extract Files on Android Device 
+      How to Block Unknown Numbers on Android 
+      How to Connect Xbox One Controller to Android 
+      How to Make a Conference Call on Android 
+      How to Delete all Emails at once on Android 
+      How to Make Your Number Private on Android 
+      How to make a song as a ringtone on Android 
+      How to Cancel App Subscription on Android 
+      
+      
+      Android MCQ 
+      
+      
+      Android MCQ 
+      
+      
+      Android Interview 
+      
+      
+      Interview Questions 
+      
+      
+      Android Quiz 
+      
+      
+      Android Quiz 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Make Your Number Private on Android Do you want to hide or make your phone number private while making a phone call? You may have many reasons for doing such tricks. Maybe you don't want the person you are calling to know your phone number, or you want to do a prank on your friend, or you want to surprise someone you are calling to talk. There are some tricks or settings that easily make your number private on both Android and iPhone. There might be little difference in the menu to set up such settings depending upon the phone model or OS version you are using. In this article, we will show you several methods in detailed description through which you can make your number private on an Android device. Method 1: Make Your Phone Number Private on Any Phone (dial code *67) One of the fastest and easiest methods to hide or make private your phone number in the United States is dialing a code *67 before the number you call. This method works on any phone that you have, including Android, iPhone, Windows, and even on landline. The code *67 will register your phone number as "Private" and doesn't appear on the receiver's display. You have to dial this code each time you make the call if you want to hide your number.  These are the steps to make your phone number private using the code *67: 
+            
+            Dial the code *67 followed by the receiver's phone number. The best idea is to check this trick with your other phone if you have any or with a friend. For example, if the receiver's phone number is 555-6666, you need to dial *675556666. 
+            Now, look at the receiver phone's screen, and you will see their device's screen show the caller as "Private", "Unknown," or "N/A". 
+            For making calls on another city, you also need to dial "1" and its area code after *67 followed by a number. For example, if receiver phone number is 555-6666, you should dial *6712125556666 (212 is the New York area code). 
+            Method 2: Use Call Settings to Hide Number (No Caller ID) Trick Another alternate method is to hide your phone number by setting your call features. Most Android phones on most mobile carriers facilitate hiding your number by default, and this feature eliminates the unnecessary dialing of code *67 every time you make a call. Below are the steps to hide your phone number using your device's built-in Hide Number setting. If you don't find any such options on your device, it may be possible that your carrier or phone doesn't support it. Make your number private on Android 
+            
+            Tap on the Phone app icon from your app drawer or the bottom of your device's home screen. 
+            Click on the two-dot (or three-dot) menu icon, whatever your phone has at the top-right of the screen. 
+            Select Settings.  
+            Select Carrier call settings (or Calls on some device).  
+            Tap on the Additional settings.  
+            Select SIM if you have dual and then My Number (Caller ID).  
+            Choose Hide Number from the pop-up options.  
+            This hide number feature will make such a setup that your number never appears when you ring someone. The receiver's display will only display any of these options like Private, Blocked, Unknown, or No Caller ID. Later, on another call, if you want to display your number temporarily, you can dial *82 followed by their number. You can roll back these settings to default by repeating the above steps, and at the last steps, select Network Default or Show Number from the pop-up menu. Make your number private on iPhone The iPhone gives in-built settings an option to hide your phone number while making phone calls. Entering the code every time (as discussed above) may be bothersome; such people can enable it permanently through device's settings. Follow the below steps to make your phone number private (hide) on iPhone: 
+            
+            Navigate to Settings on your iPhone. 
+            Scroll down and choose the Phone. 
+            Select Show My Caller ID. 
+            Move the toggle button to the left to hide your Calling ID. 
+            Method 3: Contact your Phone Carrier to Make your Phone Number Private If your device doesn't offer an option to hide your phone number directly, you may also call your phone carrier to make your phone number private. Most service providers facilitate this feature, including T-Mobile, Sprint, Verizon, and AT&T. Users can call their service provider and ask them to help, or you can directly check the official website regarding such information. Look at the links below where you will get a guide, or you may also query to make your number private: 
+            
+            T-Mobile: Look at this link to know how to block your number on T-Mobile. 
+            Sprint: Check this link for how to call someone without showing your phone number on Sprint. 
+            Verizon: Look at the instruction to block caller ID on Verizon. 
+            AT&T: A full guide for making your number private on AT&T. 
+            Generally, the service provider carriers do not charge for making your phone number private. You can also enable this feature permanently. Once you activate this feature in your phone, you can also turn it off temporarily. Dial a code *82, followed by the number you are calling and your number appears on the receiver's display. Method 4: Using third-party apps If you don't find any option to change your phone settings or to call your carriers to make your number private, you can use third-party apps for this. Such apps are called burner apps that change your phone number with another temporary number while making phone calls. However, such an app uses your internet data for making calls. You will find several burner apps over the internet for Android and iOS to download and use. Some of the popular burner apps are Google Voice, Burner, Hushed, etc. Below, we describe how to use the Google Voice app to make your phone number private while making a call. Google Voice Download and open the Google Voice app from Play Store on your Android phone. It allows you to make a phone call via Voice-Over-IP (VOIP) that uses a number offered by Google, and it also connects to your Google account. This number is different from your phone number allotted by your mobile service provider. Follow the below-mentioned steps to set up Google Voice app for hiding your number while making the call. 
+            
+            First of all, you have to set up your Google Voice app and choose a number to make a phone call using Google Voice app.  
+              
+              Launch the app (or visit Google Voice website "https://voice.google.com/" if you are using desktop service) and sign up with your Google account and phone number (US-based). 
+              Read their privacy policy and terms of services to use and click on Continue (if you agree). 
+              Enter the area code that shows the available phone numbers in that city. 
+              Select a phone number to claim it. Once you choose, you will see a confirmation message that says, "You selected 'phone number'". 
+              Click on the Verify It will pop up a screen to send a code to your phone number. Enter your phone number. 
+              Enter the code you received on your number to verify. 
+              Once verified, tap on Finish to complete the setup. 
+              
+            After setting the app, tap on the menu (three horizontal lines) option available at the top-left of the screen. It will display the menu options.  
+            Click on the Settings option.  
+            On the Settings screen, slide the toggle button next to Anonymous caller ID. It hides your caller ID when you make a call using the Google Voice app.  
+            Method 5: Using a Samsung Galaxy The different models of devices have different settings to hide your phone number while calling. However, most Samsung smartphones have similar settings. Here, we are using Samsung Galaxy S9: 
+            
+            From the device's Home screen or app drawer, tap on the Phone app.  
+            Tap on the menu icon (three vertical dots) at the top-right corner of the screen.  
+            From the list of menu options, tap on the Settings.  
+            Scroll down the screen and tap on More Settings.  
+            On the next screen, click on Show my caller ID.  
+            Finally, tap on the caller preference Hide number. It will hide your phone number while making an outgoing call using a Phone app.  
+            Later on, if you again want to show your number back while making a call, go through the above five steps, and finally, at step six, tap on Show number. Limitations to Hiding Your Phone Number There is even some limitation of hiding your phone number, and even they appear on some services. The toll-free services and emergency services numbers like 900, 911 will always be able to see your number, whatever you do settings. Some third-party applications can expose your caller ID, so none of these methods are guaranteed. 
+            
+            
+            Next Topic
+            How to make a song as a ringtone on Android 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

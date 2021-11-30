@@ -1,0 +1,1248 @@
+
+
+ 
+  
+  How to Reverse Linked List in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Reverse Linked List in Java In this section, we will discuss how to reverse a linked list in Java. Reversing a linked list is one of the most prominent topics that is asked in interviews. The task is to reverse a linked list, provided the head or the first node of the linked list is given. Given: Head or the first node of the Linked List (which is 4 in our case) 4 -> 6 -> 7 -> 1 -> 5 - > 8 -> 3 -> 2 -> NULL Return: 2 -> 3 -> 8 -> 5 -> 1 -> 7 -> 6 -> 4 -> NULL Given: 3 -> NULL Return: 3 -> NULL Given: NULL Return: NULL There are two approaches to solve the problem. These two approaches are: 
+            
+            Iterative Approach 
+            Recursive Approach 
+            Let's discuss the iterative approach first. Reversing a Linked List Using Iterative Approach The following are some steps involved in the iterative approach. Step 1: Take three-pointers (previous, current, and next), and initialize them as the following. previous = NULL, current = head, next = NULL. Step 2: Iterating through the linked list using a loop, and do following. 
+           
+            
+// Before changing the next of the current,         
+ // keep the next node          
+next = current -> next         
+// Now changing the next of current          
+// it is where the reversing takes place          
+current -> next = previous          
+// Moving the previous and current forward for one step           
+previous = current         
+current = next 
+
+            Implementation The following code shows the implementation of the reversal of the linked list with the help of steps defined above. FileName: LinkedListIterative.java 
+           
+            
+public class LinkedListIterative 
+{
+
+// head is the first node of the linked list
+static LinkedListNode head;
+
+// class for creating the node of the linked list
+// a node of the linked lists fetches two things: one is the value of the node
+// and other is the pointer that points to the other node
+static class LinkedListNode 
+{
+
+int val; 
+LinkedListNode next;
+
+// constructor of the class LinkedListNode
+LinkedListNode(int no)
+{
+val = no;
+next = null;
+}
+}
+
+// Method for reversing the linked list
+LinkedListNode reverse(LinkedListNode node)
+{
+// doing the initialization 
+// of as per the steps defined 
+LinkedListNode previous = null;
+LinkedListNode curr = node;
+LinkedListNode next = null;
+
+
+while (curr != null) 
+{
+next = curr.next;
+curr.next = previous;
+previous = curr;
+curr = next;
+}
+node = previous;
+return node;
+}
+
+// displays the content of the linked list
+void printList(LinkedListNode nde)
+{
+while (nde != null) 
+{
+System.out.print(nde.val + " ");
+nde = nde.next;
+}
+}
+
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class LinkedListIterative
+LinkedListIterative listObj = new LinkedListIterative();
+
+// 4 -> NULL
+listObj.head = new LinkedListNode(4);
+
+// 4 -> 6 -> NULL
+listObj.head.next = new LinkedListNode(6);
+
+// 4 -> 6 -> 7 -> NULL
+listObj.head.next.next = new LinkedListNode(7);
+
+// 4 -> 6 -> 7 -> 1-> NULL
+listObj.head.next.next.next = new LinkedListNode(1);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> NULL
+listObj.head.next.next.next.next = new LinkedListNode(5);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> NULL
+listObj.head.next.next.next.next.next = new LinkedListNode(8);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> NULL
+listObj.head.next.next.next.next.next.next = new LinkedListNode(3);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> 2 -> NULL
+listObj.head.next.next.next.next.next.next.next = new LinkedListNode(2);
+
+
+System.out.println("The Linked list before reversal is: ");
+listObj.printList(head);
+head = listObj.reverse(head);
+System.out.println("\n");
+System.out.println("After reversal, the linked list is: ");
+listObj.printList(head);
+}
+}
+
+            Output: 
+           
+            The Linked list before reversal is: 
+4 6 7 1 5 8 3 2 
+
+After reversal, the linked list is: 
+2 3 8 5 1 7 6 4
+
+            Time & Space Complexity: The time complexity of the above program is O(n), whereas the space complexity of the program is O(1), where n represents the total number of nodes present in the list. Reverse a LinkedList Using Recursive Approach The following are some steps involved in the recursive approach. Step 1: Split the list given into two parts - the first node and the rest of the linked list. Step 2: Invoke the reverseList() method for the remaining portion of the linked list. Step 3: Join the rest to the first. Step 4: Fix the head pointer. Implementation The following code shows the implementation of the reversal of the linked list with the help of the steps defined above. FileName: LinkedListRecursive.java 
+           
+            
+public class LinkedListRecursive 
+{
+// first node or head of the list
+static LinkedListNode head; 
+
+static class LinkedListNode 
+{
+// for containing the value of the node
+int val;
+
+// the next pointer points to the other node of the list or null
+LinkedListNode next;
+
+// constructor of the class
+LinkedListNode(int d)
+{
+// assigning the values
+val = d;
+next = null;
+}
+}
+
+// method where actual reversing of the list takes place
+public LinkedListNode reverseList(LinkedListNode head)
+{
+// if the head is null or the list
+// contains only one element then reversing the list
+// does not have any impact on the list. Therefore, we 
+// can return the original list without performing any operation
+if (head == null || head.next == null)
+{
+return head;
+}
+
+// reverse the rest (r) of the list and place
+// the first element of the list at the last 
+LinkedListNode r = reverseList(head.next);
+head.next.next = head;
+
+
+head.next = null;
+
+// fixing the head pointer
+return r;
+}
+
+/* Method to display the linked list */
+public void printList(LinkedListNode h)
+{
+LinkedListNode t = h;
+while (t != null) 
+{
+System.out.print(t.val + " ");
+
+// moving to the next node
+t = t.next;
+}
+
+System.out.println();
+}
+
+
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class LinkedListRecursive
+LinkedListRecursive listObj = new LinkedListRecursive();
+
+// 4 -> NULL
+listObj.head = new LinkedListNode(4);
+
+// 4 -> 6 -> NULL
+listObj.head.next = new LinkedListNode(6);
+
+// 4 -> 6 -> 7 -> NULL
+listObj.head.next.next = new LinkedListNode(7);
+
+// 4 -> 6 -> 7 -> 1-> NULL
+listObj.head.next.next.next = new LinkedListNode(1);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> NULL
+listObj.head.next.next.next.next = new LinkedListNode(5);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> NULL
+listObj.head.next.next.next.next.next = new LinkedListNode(8);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> NULL
+listObj.head.next.next.next.next.next.next = new LinkedListNode(3);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> 2 -> NULL
+listObj.head.next.next.next.next.next.next.next = new LinkedListNode(2);
+
+
+System.out.println("The Linked list before reversal is: ");
+listObj.printList(head);
+head = listObj.reverseList(head);
+System.out.println(" ");
+System.out.println("After reversal, the linked list is: ");
+listObj.printList(head);
+}
+}
+
+            Output: 
+           
+            The Linked list before reversal is: 
+4 6 7 1 5 8 3 2 
+ 
+After reversal, the linked list is: 
+2 3 8 5 1 7 6 4
+
+            Time & Space Complexity: The time complexity of the above program is O(n), whereas the space complexity of the program is O(1), where n represents the total number of nodes present in the list. Note that the above program uses the inbuilt stack because of the recursion. For the sake of simplicity, we have ignored the space consumed by the inbuilt stack. Reversing a Linked List Using Stack The following are the steps used when one does the reversal of the linked list using stack. Step 1: Keep the values of the nodes in the stack until all the values of the nodes are entered. Step 2: Update the Head pointer using the value of the last node of the list. Step 3: Keep removing the values of the nodes from the stack and start appending them to the head node until the stack is empty. Step 4: Ensure that after appending work is done, the last node of the list is pointing to NULL. Implementation The following code shows the implementation of the reversal of the linked list with the help of the steps defined above. FileName: LinkedListStack.java 
+           
+            
+// important import statement
+import java.util.*;
+
+public class LinkedListStack
+{
+
+// first node or head of the list
+static LinkedListNode head; 
+
+static class LinkedListNode 
+{
+// for containing the value of the node
+int val;
+
+// the next pointer points to the other node of the list or null
+LinkedListNode next;
+
+// constructor of the class
+LinkedListNode(int d)
+{
+// assigning the values
+val = d;
+next = null;
+}
+}
+
+// method where actual reversing of the list takes place
+public LinkedListNode reverseList(LinkedListNode head, Stack<Integer> stk)
+{
+// if the head is null or the list
+// contains only one element then reversing the list
+// does not have any impact on the list. Therefore, we 
+// can return the original list without performing any operation
+if (head == null || head.next == null)
+{
+return head;
+}
+
+// iterating over the list and putting the value of nodes
+// into the stack stk
+while(head != null)
+{
+    stk.push(head.val);
+    head = head.next;
+}
+
+// head1 refers to the first node of the reversed 
+// linked list
+LinkedListNode head1 = null;
+
+
+while(stk.empty() == false) 
+{
+if(head == null)
+{
+// creating the first node of
+// the reversed linked list
+head1 = new LinkedListNode(stk.peek());
+head = head1;
+stk.pop();
+}
+else
+{
+// creating the remaining nodes of the reversed 
+// linked list
+head.next = new LinkedListNode(stk.peek());
+stk.pop();
+head = head.next;
+}
+
+
+}
+
+// returning the first node 
+// of the reversed linked list
+return head1;
+}
+
+/* Method to display the linked list */
+public void printList(LinkedListNode h)
+{
+LinkedListNode t = h;
+while (t != null) 
+{
+System.out.print(t.val + " ");
+
+// moving to the next node
+t = t.next;
+}
+
+System.out.println();
+}
+
+
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class LinkedListStack
+LinkedListStack listObj = new LinkedListStack();
+
+// 4 -> NULL
+listObj.head = new LinkedListNode(4);
+
+// 4 -> 6 -> NULL
+listObj.head.next = new LinkedListNode(6);
+
+// 4 -> 6 -> 7 -> NULL
+listObj.head.next.next = new LinkedListNode(7);
+
+// 4 -> 6 -> 7 -> 1-> NULL
+listObj.head.next.next.next = new LinkedListNode(1);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> NULL
+listObj.head.next.next.next.next = new LinkedListNode(5);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> NULL
+listObj.head.next.next.next.next.next = new LinkedListNode(8);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> NULL
+listObj.head.next.next.next.next.next.next = new LinkedListNode(3);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> 2 -> NULL
+listObj.head.next.next.next.next.next.next.next = new LinkedListNode(2);
+
+// creating an object of the class Stack
+// the created stack will be empty
+Stack<Integer> stk = new Stack<Integer>();
+
+System.out.println("The Linked list before reversal is: ");
+listObj.printList(head);
+
+head = listObj.reverseList(head, stk);
+System.out.println(" ");
+System.out.println("After reversal, the linked list is: ");
+listObj.printList(head);
+
+}
+}
+
+            Output: 
+           
+            The Linked list before reversal is: 
+4 6 7 1 5 8 3 2 
+ 
+After reversal, the linked list is: 
+2 3 8 5 1 7 6 4
+
+            Time & Space Complexity: The time complexity of the above program is O(n), whereas the space complexity of the program is also O(n), where n represents the total number of nodes present in the list. Reversing a Linked List Using an Array The following are the steps used when one does the reversal of the linked list using an array. Step 1: Count the number of nodes present in the given list. Step 2: Create an integer array such that the size of the array is equal to the size of the list. Step 3: Iterate over the list and fill the array using the value of nodes from left to right. Step 4: From the end of the array, take the array elements one by one and create a list from it such that the last element of the array forms the head of the list. The second last element of the array forms the second node of the list, and so on. Implementation The following code shows the implementation of the reversal of the linked list with the help of the steps defined above. FileName: LinkedListArray.java 
+           
+            
+// important import statement
+import java.util.*;
+
+public class LinkedListArray
+{
+
+// first node or head of the list
+static LinkedListNode head; 
+
+static class LinkedListNode 
+{
+// for containing the value of the node
+int val;
+
+// the next pointer points to the other node of the list or null
+LinkedListNode next;
+
+// constructor of the class
+LinkedListNode(int d)
+{
+// assigning the values
+val = d;
+next = null;
+}
+}
+
+// method for count the total number of nodes 
+// present in the linked list
+public int countNodes(LinkedListNode head)
+{
+// cnt stores the total number of nodes
+// present in the linked list
+int cnt = 0;
+while(head != null)
+{
+// incrementing the count by 1
+cnt = cnt + 1;
+
+// moving the head one step further
+head = head.next;
+}
+
+return cnt;
+}
+
+// method where actual reversing of the list takes place
+public LinkedListNode reverseList(LinkedListNode head, int size)
+{
+// array for storing the values of nodes of the linked list
+int arr[] = new int[size];
+
+// loop for filling the array
+for(int i = 0; i < size; i++)
+{
+arr[i] = head.val;
+head = head.next;
+}
+
+// i stores the last index of the array arr
+int i = size - 1;
+
+// head1 refers to the first node of the linked list
+LinkedListNode head1 = null;
+
+
+while(i >= 0)
+{
+    
+if(head1 == null)
+{
+// creating the first node of the reversed linked list
+head1 = new LinkedListNode(arr[i]);
+head = head1;
+}
+else
+{
+// creating and appending the remaining nodes 
+// of the reversed linked list to the head1
+head.next = new LinkedListNode(arr[i]);
+head = head.next;
+}
+// iterating from end to beginning 
+// therefore, decreasing the i by 1
+i = i - 1;
+
+}
+
+// returning the first node 
+// of the reversed linked list
+return head1;
+
+
+}
+
+
+/* Method to display the linked list */
+public void printList(LinkedListNode h)
+{
+LinkedListNode t = h;
+while (t != null) 
+{
+System.out.print(t.val + " ");
+
+// moving to the next node
+t = t.next;
+}
+
+System.out.println();
+}
+
+
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class LinkedListArray
+LinkedListArray listObj = new LinkedListArray();
+
+// 4 -> NULL
+listObj.head = new LinkedListNode(4);
+
+// 4 -> 6 -> NULL
+listObj.head.next = new LinkedListNode(6);
+
+// 4 -> 6 -> 7 -> NULL
+listObj.head.next.next = new LinkedListNode(7);
+
+// 4 -> 6 -> 7 -> 1-> NULL
+listObj.head.next.next.next = new LinkedListNode(1);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> NULL
+listObj.head.next.next.next.next = new LinkedListNode(5);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> NULL
+listObj.head.next.next.next.next.next = new LinkedListNode(8);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> NULL
+listObj.head.next.next.next.next.next.next = new LinkedListNode(3);
+
+// 4 -> 6 -> 7 -> 1-> 5 -> 8 -> 3 -> 2 -> NULL
+listObj.head.next.next.next.next.next.next.next = new LinkedListNode(2);
+
+
+System.out.println("The Linked list before reversal is: ");
+listObj.printList(head);
+
+// size is the total number of nodes
+// present in the linked list
+int size = listObj.countNodes(head);
+
+head = listObj.reverseList(head, size);
+System.out.println(" ");
+System.out.println("After reversal, the linked list is: ");
+listObj.printList(head);
+
+}
+}
+
+            Output: 
+           
+            The Linked list before reversal is: 
+4 6 7 1 5 8 3 2 
+ 
+After reversal, the linked list is: 
+2 3 8 5 1 7 6 4
+
+            Time & Space Complexity: The time complexity of the above program is O(n), whereas the space complexity of the program is also O(n), where n represents the total number of nodes present in the list. 
+            
+            
+            Next Topic
+            Interchange Diagonal Elements Java Program 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

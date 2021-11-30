@@ -1,0 +1,994 @@
+
+
+ 
+  
+  Hollow Diamond Pattern in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Hollow Diamond Pattern in Java There are many pattern programs are written in Java by programmers for coding practice and cracking interviews. The pattern programs are usually asked in interviews to check the logical thinking and its implementation in program. In this section, we will create Java programs to print hollow diamond patterns using a while loop, do-while loop, and for loop. In the hollow diamond pattern, the first and last row contains only a star, and the rest of the rows contains two stars. We can replace star (*) with any other symbol that we want to print. To print the hollow diamond pattern (as shown in the following figure), we will break the pattern into two sections i.e. upper and lower. Also, we will implement the logic for the upper and lower sections, separately. The logic is applied to all patterns discussed in this section.  Let's implement the logic in the Java program. Using for Loop HollowDiamondPattern1.java 
+           
+            
+import java.util.Scanner;
+public class HollowDiamondPattern1
+{
+public static void main(String args[])
+{
+Scanner scan=new Scanner(System.in);
+System.out.print("Enter the number of rows: ");
+//reads an integer (rows) from the user
+int rows=scan.nextInt();
+System.out.print("Enter the symbol you want to print: "); 
+//reads the symbol from the user
+char symbol=scan.next().charAt(0);
+//prints upper section of the pattern
+for(int i=1; i<=rows; i++)
+{
+for(int j=rows; j>i; j--)
+{
+//prints space      
+System.out.print(" ");
+}
+//prints symbol
+System.out.print(symbol);
+for(int j=1; j<(i-1)*2; j++)
+{
+//prints space    
+System.out.print(" ");
+}
+if(i==1)
+{
+//throws cursor to the next line    
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line        
+System.out.print(symbol+"\n");
+}
+}  
+//prints lower section of the pattern
+for(int i=rows-1; i>=1; i--)
+{
+for(int j=rows; j>i; j--)
+{
+//prints space        
+System.out.print(" ");
+}
+//prints symbol
+System.out.print(symbol);
+for(int j=1; j<(i-1)*2; j++)
+{
+//prints space    
+System.out.print(" ");
+}
+if(i==1)
+{
+//throws cursor to the next line        
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line     
+System.out.print(symbol+"\n");
+}
+}
+}
+}
+
+            Output:  In the above program, we observe that to print the lower half pattern, we have done only changes in the first for loop, the rest of the code is the same. 
+           
+            
+for(int i=1; i<=rows; i++)
+
+            change to: 
+           
+            
+for(int i=rows-1; i>=1; i--)
+
+            Using while Loop In the following Java program, we have replaced the for loop with the while loop only. HollowDiamondPattern2.java 
+           
+            
+import java.util.Scanner;
+public class HollowDiamondPattern2
+{
+public static void main(String args[])
+{
+int i,j;
+Scanner scan=new Scanner(System.in);
+System.out.print("Enter the number of rows: ");
+//reads an integer (rows) from the user
+int rows=scan.nextInt();
+System.out.print("Enter the symbol you want to print: "); 
+//reads the symbol from the user
+char symbol=scan.next().charAt(0);
+i=1;
+//prints upper section of the pattern
+while(i<=rows)
+{
+j=rows;
+while(j>i)
+{
+System.out.print(" ");
+j--;
+} //end of while
+System.out.print(symbol);
+j=1;
+while(j<(i-1)*2)
+{
+System.out.print(" ");
+j++;
+}  //end of while
+if(i==1)
+{
+//throws cursor to the next line        
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line         
+System.out.print(symbol+"\n");
+}
+i++;
+} //end of while loop
+//prints lower section of the pattern
+i=rows-1;
+while( i>=1)
+{
+j=rows;
+while(j>i)
+{
+System.out.print(" ");
+j--;
+}
+//prints symbol
+System.out.print(symbol);
+j=1;
+while(j<(i-1)*2)
+{
+System.out.print(" ");
+j++;
+} //end of while loop
+if(i==1)
+{
+//throws cursor to the next line        
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line            
+System.out.print(symbol+"\n");
+}
+i--;
+} //end of while loop
+}
+}
+Out
+
+            Output:  Using do-while Loop HollowDiamondPattern3.java 
+           
+            
+import java.util.Scanner;
+public class HollowDiamondPattern3
+{
+public static void main(String args[])
+{
+int i,j;
+Scanner scan=new Scanner(System.in);
+System.out.print("Enter the number of rows: ");
+//reads an integer (rows) from the user
+int rows=scan.nextInt();
+System.out.print("Enter the symbol you want to print: "); 
+//reads the symbol from the user
+char symbol=scan.next().charAt(0);
+i=1;
+//prints upper section of the pattern 
+//executes until the condition i<=rows become false
+do
+{
+j=rows;
+//executes until the condition j>=i becomes false
+do
+{
+//prints space    
+System.out.print(" ");
+j--;
+} //end of do
+while(j>=i);
+System.out.print(symbol);
+j=1;
+//executes until the condition (j<(i-1)*2) becomes false
+do
+{
+//prints space    
+System.out.print(" ");
+j++;
+} //end of do
+while(j<(i-1)*2);
+if(i==1)
+{
+//throws cursor to the next line            
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line             
+System.out.print(symbol+"\n");
+}
+i++;
+} //end of do
+while(i<=rows);
+i=rows-1;
+//prints lower section of the pattern
+//executes until the condition i>=1 becomes false
+do
+{
+j=rows;
+//executes until the condition j>=i becomes false
+do
+{
+//prints space    
+System.out.print(" ");
+j--;
+}
+while(j>=i);
+//prints symbol
+System.out.print(symbol);
+j=1;
+//executes until the condition (j<(i-1)*2) becomes false
+do
+{
+//prints space    
+System.out.print(" ");
+j++;
+}  //end of do
+while(j<(i-1)*2);
+if(i==1)
+{
+//throws cursor to the next line            
+System.out.print("\n");
+}
+else
+{
+//prints symbol and throws cursor to the next line             
+System.out.print(symbol+"\n");
+}
+i--;
+}  //end of do
+while(i>=1);
+}
+}
+
+            Output:  Let's see another hollow diamond pattern. To print the following hollow diamond pattern, we will divide the pattern into two sections i.e. upper and lower (as shown in the following figure). Also, we will implement the logic for the upper and lower sections, separately. The upper section contains the first five rows and the lower section contains the last five rows of the diamond pattern.  First, will create a 10*10 matrix. Print the first row with the symbol (*). In the next row (2nd), there are two spaces. We have to calculate space. In the upper section, we observe that the space is going doubled and in the lower section space is decreasing by 2. So, we can calculate the space by using the generalized formula 2*i-2 (where i is the row number). Suppose, we have to calculate space for the third row. 2*3-2 = 4 (space). In the following program, we have used the variable i for rows, j for columns, and k for spaces. HollowDiamondPattern4.java 
+           
+            
+public class HollowDiamondPattern4
+{
+public static void main(String args[])
+{ 
+//logic to print the first half pattern 
+for(int i=1; i<=10; i++)
+{
+for(int j=1; j<=10-i+1; j++)
+{
+System.out.print("*");
+} 
+//loop calculates space
+for(int k=1; k<=2*i-2; k++)
+{
+System.out.print(" ");
+} 
+for(int j=1; j<=10-i+1; j++)
+{
+System.out.print("*");
+} 
+System.out.println();
+}
+//logic to print the second half pattern 
+for(int i=9; i>=1; i--)
+{
+for(int j=i; j<=10; j++)
+{
+System.out.print("*");
+} 
+//loop calculates space
+for(int k=1; k<=(2*i)-2; k++)
+{
+System.out.print(" ");
+} 
+for(int j=i; j<=10; j++)
+{
+System.out.print("*");
+} 
+System.out.println();
+}
+} 
+}
+
+            Output:  
+            
+            
+            Next Topic
+            Normal and Trace of a Matrix in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

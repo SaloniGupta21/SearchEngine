@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <title>All India Pin Code - JavaTpoint</title> 
+  <link rel="SHORTCUT ICON" href="https://www.javatpoint.com/images/logo/icon.png"> 
+  <link rel="stylesheet" type="text/css" href="https://www.javatpoint.com/link.css"> 
+  <meta name="description" content=" Pin Code, Zip Code, all india pincode and zipcode directory including all states and districts of india, postal code or zip code of all places of india."> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <link rel="canonical" href="https://www.javatpoint.com/india-pin-codes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="article"> 
+  <meta name="twitter:title" property="og:title" content="All India Pin Code - JavaTpoint"> 
+  <meta name="twitter:description" property="og:description" content=" Pin Code, Zip Code, all india pincode and zipcode directory including all states and districts of india, postal code or zip code of all places of india."> 
+  <meta property="og:url" content="https://www.javatpoint.com/india-pin-codes"> 
+  <meta property="og:site_name" content="www.javatpoint.com"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@pagejavatpoint"> 
+  <meta name="twitter:domain" content="www.javatpoint.com"> 
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <style>
+select{width:300px;padding:5px 10px 5px 10px;border-radius:3px;border-color: pink;}
+.ifscbox{margin-top:20px;border:1px solid pink;border-radius:2px;background:linear-gradient(#F6Ffe1,#F6Ffe9);padding:10px}
+button.refbtn{margin-left:5%;width:300px;background-color:grey;color:white;font-weight:bold;padding:5px 20px 5px 20px;border:1px solid cyan;}
+</style> 
+  <script type="text/javascript">
+function state()
+{
+document.getElementById('statedrop').disabled = true;
+var xmlhttp;
+var keys=document.dummy.sele2.value;
+
+var urls="http://www.javatpoint.com/pincode/district.jsp?ok="+keys; 
+if (window.XMLHttpRequest)
+  {
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()  {
+  if (xmlhttp.readyState==4)
+    {
+            z=0;
+            var roott=xmlhttp.responseXML.documentElement;
+            var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+
+            while(ress!=null)
+            {
+                    addoptions(ress)
+                    z++
+             var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+            }
+    }
+    function addoptions(reslt)
+    {
+
+        var ct1=document.createElement("OPTION");
+        ct1.text=reslt;
+        ct1.value=reslt;
+        document.dummy.sele3.options.add(ct1);
+
+    }
+}    
+
+xmlhttp.open("GET",urls,true);
+xmlhttp.send();
+}
+</script> 
+  <script type="text/javascript">
+function district()
+{
+document.getElementById('districtdrop').disabled = true;
+var xmlhttp;
+var keys=document.dummy.sele3.value;
+var v=document.dummy.sele2.value;
+
+var urls="http://www.javatpoint.com/pincode/alphabet.jsp?ok="+keys+"&stateValue="+v;
+if (window.XMLHttpRequest)
+  {
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+
+
+
+  if (xmlhttp.readyState==4)
+    {
+            z=0;
+            var roott=xmlhttp.responseXML.documentElement;
+            var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+
+            while(ress!=null)
+            {
+                    addoptions(ress)
+                    z++
+             var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+            }
+    }
+
+    
+
+    function addoptions(reslt)
+    {
+
+        var ct1=document.createElement("OPTION");
+        ct1.text=reslt;
+        ct1.value=reslt;
+        document.dummy.sele4.options.add(ct1);
+
+    }
+}    
+
+xmlhttp.open("GET",urls,true);
+xmlhttp.send();
+}
+</script> 
+  <script type="text/javascript">
+function alphabet()
+{
+document.getElementById('alphabetdrop').disabled = true;
+var xmlhttp;
+var alphabet=document.dummy.sele4.value;
+var district=document.dummy.sele3.value;
+var state=document.dummy.sele2.value;
+var urls="http://www.javatpoint.com/pincode/office.jsp?alphabet="+alphabet+"&stateValue="+state+"&districtValue="+district+"";
+if (window.XMLHttpRequest)
+  {
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4)
+    {
+            z=0;
+            var roott=xmlhttp.responseXML.documentElement;
+            var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+
+            while(ress!=null)
+            {
+                    addoptions(ress)
+                    z++
+             var ress=roott.getElementsByTagName("empname")[z].childNodes[0].nodeValue;
+            }
+    }
+    function addoptions(reslt)
+    {
+
+        var ct1=document.createElement("OPTION");
+        ct1.text=reslt;
+        ct1.value=reslt;
+        document.dummy.sele5.options.add(ct1);
+
+    }
+}    
+
+xmlhttp.open("GET",urls,true);
+xmlhttp.send();
+}
+</script> 
+  <script type="text/javascript">
+var request;
+function office()
+{
+document.getElementById('officedrop').disabled = true;
+var district=document.dummy.sele3.value;
+var office=document.dummy.sele5.value;
+
+var district2=district.trim().toLowerCase();
+district2=district2.split(" ").join("-");
+var office2=office.trim().toLowerCase();
+office2=office2.split(" ").join("-");
+window.location.href = "https://www.javatpoint.com/pincode/"+district2+"/"+office2+"-pin-code"; 
+
+}
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <div id="page" style="margin:-9px;background-color:#f5f5f4;"> 
+   <div id="container"> 
+    <div class="header"> 
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin:0px;padding:0px;text-align:left;margin-left:10px;"> 
+      <a href="https://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:25px;font-weight:bold;">Java</span><span style="color:#666600;font-size:35px;font-weight:bold;">T</span><span style="color:red;font-size:25px;font-weight:bold;">point</span></a> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <form class="navbar-search-m" method="get" action="https://www.google.com/search" target="_blank"> 
+       <input type="text" name="q" class="search-query span2-m" placeholder="Search on javatpoint..." title="Search on Javatpoint"> 
+       <input type="hidden" name="sitesearch" value="www.javatpoint.com"> 
+      </form> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="https://www.javatpoint.com/ifsc-code">IFSC Code</a></li> 
+       <li><a href="https://www.javatpoint.com/india-pin-codes" class="selected">India Pincodes</a></li> 
+       <li><a href="https://www.javatpoint.com/holidays/holidays">Holidays</a></li> 
+       <li><a href="https://www.javatpoint.com/full-form">Full Forms</a></li> 
+       <li><a href="https://www.javatpoint.com/difference-between">Differences</a></li> 
+       <li><a href="https://www.javatpoint.com/comment.jsp">Comment</a></li> 
+       <li><a href="https://www.javatpoint.com/forum">Forum</a></li> 
+       <li><a href="https://training.javatpoint.com/">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div> 
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <button onmouseover="style.color='khaki' " onmouseout="style.color='white'" onclick="showmenu()">Content Menu &#x25bc;</button> 
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins> 
+     <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">India Pin Code</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="https://www.javatpoint.com/pincode/state/andhra-pradesh-pin-code" class="l1">Andhra Pradesh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/arunachal-pradesh-pin-code" class="l1">Arunachal Pradesh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/assam-pin-code" class="l1">Assam</a> 
+      <a href="https://www.javatpoint.com/pincode/state/bihar-pin-code" class="l1">Bihar</a> 
+      <a href="https://www.javatpoint.com/pincode/state/chattisgarh-pin-code" class="l1">Chattisgarh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/chandigarh-pin-code" class="l1">Chandigarh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/delhi-pin-code" class="l1">Delhi</a> 
+      <a href="https://www.javatpoint.com/pincode/state/gujarat-pin-code" class="l1">Gujarat</a> 
+      <a href="https://www.javatpoint.com/pincode/state/haryana-pin-code" class="l1">Haryana</a> 
+      <a href="https://www.javatpoint.com/pincode/state/himachal-pradesh-pin-code" class="l1">Himachal Pradesh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/jammu-&amp;-kashmir-pin-code" class="l1">Jammu &amp; Kashmir</a> 
+      <a href="https://www.javatpoint.com/pincode/state/jharkhand-pin-code" class="l1">Jharkhand</a> 
+      <a href="https://www.javatpoint.com/pincode/state/karnataka-pin-code" class="l1">Karnataka</a> 
+      <a href="https://www.javatpoint.com/pincode/state/kerala-pin-code" class="l1">Kerala</a> 
+      <a href="https://www.javatpoint.com/pincode/state/madhya-pradesh-pin-code" class="l1">Madhya Pradesh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/maharashtra-pin-code" class="l1">Maharashtra</a> 
+      <a href="https://www.javatpoint.com/pincode/state/manipur-pin-code" class="l1">Manipur</a> 
+      <a href="https://www.javatpoint.com/pincode/state/meghalaya-pin-code" class="l1">Meghalaya</a> 
+      <a href="https://www.javatpoint.com/pincode/state/mizoram-pin-code" class="l1">Mizoram</a> 
+      <a href="https://www.javatpoint.com/pincode/state/nagaland-pin-code" class="l1">Nagaland</a> 
+      <a href="https://www.javatpoint.com/pincode/state/odisha-pin-code" class="l1">Odisha</a> 
+      <a href="https://www.javatpoint.com/pincode/state/pondicherry-pin-code" class="l1">Pondicherry</a> 
+      <a href="https://www.javatpoint.com/pincode/state/punjab-pin-code" class="l1">Punjab</a> 
+      <a href="https://www.javatpoint.com/pincode/state/rajasthan-pin-code" class="l1">Rajasthan</a> 
+      <a href="https://www.javatpoint.com/pincode/state/tamil-nadu-pin-code" class="l1">Tamil Nadu</a> 
+      <a href="https://www.javatpoint.com/pincode/state/tripura-pin-code" class="l1">Tripura</a> 
+      <a href="https://www.javatpoint.com/pincode/state/uttar-pradesh-pin-code" class="l1">Uttar Pradesh</a> 
+      <a href="https://www.javatpoint.com/pincode/state/uttarakhand-pin-code" class="l1">Uttarakhand</a> 
+      <a href="https://www.javatpoint.com/pincode/state/west-bengal-pin-code" class="l1">West Bengal</a> 
+     </div> 
+     <table id="leftad"> 
+      <tbody>
+       <tr>
+        <td> <img src="https://www.javatpoint.com/images/wh.JPG" alt="space"> </td>
+       </tr> 
+       <tr>
+        <td> <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script> </td>
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="onlycontent" style="margin-left:10px;margin-top:15px;width:65%;margin-auto;float:left;"> 
+     <div class="right1024" style=""> 
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1219987637"></ins> 
+      <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+     </div> 
+     <div style="margin-left:0px;"> 
+      <div id="city"> 
+       <table>
+        <tbody>
+         <tr>
+          <td> <h1 class="h1">All India Pin Code</h1> <p>Pin Code or Zip Code of India is a six digit unique number to identify the Indian Post Office.</p> <p>Let's see a list of all India Pin Code. There are given a list of all states of India. You can search Pin Code by state or search tool.</p> 
+           <div class="ifscbox"> 
+            <h2 class="h2" style="margin-left:7%">Pin Code Office Search Tool</h2> 
+            <form name="dummy"> 
+             <table style="margin-left: 3em;"> 
+              <tbody>
+               <tr> 
+                <td> <select id="statedrop" name="sele2" onchange="state()"> <option value="home">--State--</option> <option>ANDHRA PRADESH</option> <option>PONDICHERRY</option> <option>ASSAM</option> <option>BIHAR</option> <option>CHATTISGARH</option> <option>DELHI</option> <option>GUJARAT</option> <option>DAMAN &amp; DIU</option> <option>DADRA &amp; NAGAR HAVELI</option> <option>HARYANA</option> <option>HIMACHAL PRADESH</option> <option>JAMMU &amp; KASHMIR</option> <option>JHARKHAND</option> <option>KARNATAKA</option> <option>KERALA</option> <option>LAKSHADWEEP</option> <option>MADHYA PRADESH</option> <option>MAHARASHTRA</option> <option>GOA</option> <option>MANIPUR</option> <option>MIZORAM</option> <option>NAGALAND</option> <option>TRIPURA</option> <option>ARUNACHAL PRADESH</option> <option>MEGHALAYA</option> <option>ODISHA</option> <option>PUNJAB</option> <option>CHANDIGARH</option> <option>RAJASTHAN</option> <option>TAMIL NADU</option> <option>UTTAR PRADESH</option> <option>UTTARAKHAND</option> <option>WEST BENGAL</option> <option>ANDAMAN &amp; NICOBAR ISLANDS</option> <option>SIKKIM</option> </select> </td>
+               </tr> 
+               <tr>
+                <td> <select id="districtdrop" name="sele3" onchange="district()"> <option>--District--</option> </select> </td> 
+               </tr> 
+               <tr>
+                <td> <select id="alphabetdrop" name="sele4" onchange="alphabet()"> <option>--Alphabet--</option> </select> </td> 
+               </tr> 
+               <tr>
+                <td> <select id="officedrop" name="sele5" onchange="office()"> <option>--Pin Code Office--</option> </select> </td> 
+               </tr> 
+               <tr>
+                <td> <span style="color:grey;font-weight:bold;" id="data"></span> </td> 
+               </tr> 
+              </tbody>
+             </table> 
+            </form> 
+            <button class="refbtn" onclick="location.reload()">Refresh Tool</button> 
+           </div> <h2 class="h2">All India State Pin Code</h2> 
+           <div class="homepagelinks"> 
+            <a href="https://www.javatpoint.com/pincode/state/andhra-pradesh-pin-code" class="l1">Andhra Pradesh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/arunachal-pradesh-pin-code" class="l1">Arunachal Pradesh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/assam-pin-code" class="l1">Assam Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/bihar-pin-code" class="l1">Bihar Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/chattisgarh-pin-code" class="l1">Chattisgarh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/chandigarh-pin-code" class="l1">Chandigarh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/delhi-pin-code" class="l1">Delhi Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/gujarat-pin-code" class="l1">Gujarat Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/haryana-pin-code" class="l1">Haryana Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/himachal-pradesh-pin-code" class="l1">Himachal Pradesh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/jammu-&amp;-kashmir-pin-code" class="l1">Jammu &amp; Kashmir Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/jharkhand-pin-code" class="l1">Jharkhand Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/karnataka-pin-code" class="l1">Karnataka Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/kerala-pin-code" class="l1">Kerala Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/madhya-pradesh-pin-code" class="l1">Madhya Pradesh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/maharashtra-pin-code" class="l1">Maharashtra Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/manipur-pin-code" class="l1">Manipur Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/meghalaya-pin-code" class="l1">Meghalaya Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/mizoram-pin-code" class="l1">Mizoram Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/nagaland-pin-code" class="l1">Nagaland Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/odisha-pin-code" class="l1">Odisha Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/pondicherry-pin-code" class="l1">Pondicherry Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/punjab-pin-code" class="l1">Punjab Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/rajasthan-pin-code" class="l1">Rajasthan Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/tamil-nadu-pin-code" class="l1">Tamil Nadu Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/tripura-pin-code" class="l1">Tripura Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/uttar-pradesh-pin-code" class="l1">Uttar Pradesh Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/uttarakhand-pin-code" class="l1">Uttarakhand Pin Codes</a>
+            <br> 
+            <a href="https://www.javatpoint.com/pincode/state/west-bengal-pin-code" class="l1">West Bengal Pin Codes</a>
+            <br> 
+           </div> </td>
+         </tr>
+        </tbody>
+       </table> 
+      </div> 
+     </div> 
+     <br> 
+     <div id="mobilemenu" style="clear:both"> 
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins> 
+      <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+     </div> 
+    </div> 
+    <div id="right" style="width:15%;float:left;margin-left:10px;margin-top:10px;"> 
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+     <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> 
+     <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+     <br>
+     <br>
+     <br>
+     <br> 
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+     <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> 
+     <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+     <br>
+     <br>
+     <br>
+     <br> 
+    </div> 
+    <div id="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+     <ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="2180118716"></ins> 
+     <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+    </div> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1b73695b717a6d7a6f6b7472756f35787476">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="432b31032922352237332c2a2d376d202c2e6d">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>� Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div>   
+ </body>
+</html>

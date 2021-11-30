@@ -1,0 +1,164 @@
+Pancake Number in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Pancake Number in Java In this section, we will discuss what is pancake number and also create Java programs with different approaches to find the pancake number. The pancake number program frequently asked in Java coding interviews and academics. Pancake Number A pancake number Pj represents the maximum number of pieces of a circle or pancake that can be divided using j number of cuts. Pancake numbers are also known as lazy caterer numbers, more formally it is known as central polygonal numbers. Mathematically, the pancake number Pj is represented as: The following diagram shows the pancake numbers for the values j = 0 to j = 5. Pancake Number Java Program The following code shows the implementation of the pancake numbers using the mathematical formula defined above. FileName: PancakeNumberExample.java 
+public class PancakeNumberExample  
+{
+
+// main method 
+public static void main (String argvs[])
+{
+int n = 10;
+
+// loop for finding and printing
+// the first 10 pancake numbers
+for(int j = 0; j < n; j++)
+{
+// using the mathematical formula
+int p = ((j * j) + j + 2) / 2;
+System.out.print("For j = " + j);
+System.out.println(", the pancake number is: " + p);
+}
+
+}
+}
+ Output: For j = 0, the pancake number is: 1
+For j = 1, the pancake number is: 2
+For j = 2, the pancake number is: 4
+For j = 3, the pancake number is: 7
+For j = 4, the pancake number is: 11
+For j = 5, the pancake number is: 16
+For j = 6, the pancake number is: 22
+For j = 7, the pancake number is: 29
+For j = 8, the pancake number is: 37
+For j = 9, the pancake number is: 46
+ Pancake Number Using Combination The pancake numbers can also be obtained using combinations. Using combinations, the pancake numbers are defined as: Pj = 0C0 = 1, for j = 0 Pj = 1C0 + 1C1 = 1 + 1 = 2, for j = 1 For j >= 2, Pj = jC0 + jC1 + jC2 Thus, For j = 2, P2 = 2C0 + 2C1 + 2C2 = 1 + 2 + 1 = 4 For j = 3, P3 = 3C0 + 3C1 + 3C2 = 1 + 3 + 3 = 7 For j = 4, P4 = 4C0 + 4C1 + 4C2 = 1 + 4 + 6 = 11 For j = 5, P5 = 5C0 + 5C1 + 5C2 = 1 + 5 + 10 = 16 Combining the above formula for j = 0, 1, and >= 2, we get Pj = 1, for j = 0, and Pj = j + 1C2 + 1, for j >= 1 Thus, P0 = 1 P1 = 1 + 1C2 + 1 = 2C2 + 1 = 1 + 1 = 2 P2 = 2 + 1C2 + 1 = 3C2 + 1 = 3 + 1 = 4 P3 = 3 + 1C2 + 1 = 4C2 + 1 = 6 + 1 = 7 Pancake Number: Iterative Approach Let's implement the above combination formula to compute the pancake numbers. FileName: PancakeNumberExample1.java 
+public class PancakeNumberExample1  
+{
+public int findPancakeNo(int j)
+{
+// handling the base case
+if(j == 0)
+{
+return 1;
+}
+
+int num = 1;
+
+// for calculating (j + 1)!
+for(int c = 1; c <= j + 1; c++)
+{
+num = num * c;
+}
+
+int denom = 1;
+
+// for calculating ((j + 1) - 2)!
+for(int c = 1; c <= j - 1; c++)
+{
+denom = denom * c;
+}
+
+// caculating (j + 1)!/(((j + 1) - 2)! * 2!) + 1
+num = num / denom;
+num = num / 2;
+num = num + 1;
+
+
+// returning the computed pancake number
+return num;
+
+
+}
+
+// main method 
+public static void main (String argvs[])
+{
+int n = 10;
+
+// creating an object of the class PancakeNumberExample1
+PancakeNumberExample1 obj = new PancakeNumberExample1();
+
+
+// loop for finding and printing
+// the first 10 pancake numbers
+for(int j = 0; j < n; j++)
+{
+// invoking the method findPancakeNo()
+int p = obj.findPancakeNo(j);
+System.out.print("For j = " + j);
+System.out.println(", the pancake number is: " + p);
+}
+
+}
+}
+ Output: For j = 0, the pancake number is: 1
+For j = 1, the pancake number is: 2
+For j = 2, the pancake number is: 4
+For j = 3, the pancake number is: 7
+For j = 4, the pancake number is: 11
+For j = 5, the pancake number is: 16
+For j = 6, the pancake number is: 22
+For j = 7, the pancake number is: 29
+For j = 8, the pancake number is: 37
+For j = 9, the pancake number is: 46
+ Pancake Number: Recursive Approach The combination formula can also be implemented using recursion. The following program shows the same. FileName: PancakeNumberExample2.java 
+public class PancakeNumberExample2  
+{
+public int findPancakeNo(int j, int b)
+{
+// handling the base case
+if(j == 0 || b == 0)
+{
+return 1;
+}
+
+
+// The recursion is based on the nCr = n / r * (n - 1)C(r - 1)
+// property of combination
+int temp = findPancakeNo(j - 1, b - 1);
+temp = (temp * j) / b;
+return temp;
+
+}
+
+// main method 
+public static void main (String argvs[])
+{
+int n = 10;
+
+// creating an object of the class PancakeNumberExample2
+PancakeNumberExample2 obj = new PancakeNumberExample2();
+
+
+// loop for finding and printing
+// the first 10 pancake numbers
+for(int j = 0; j < n; j++)
+{
+// invoking the method findPancakeNo()
+int p;
+
+if(j == 0)
+{
+// for j = 0, p = 1
+p = 1;
+}
+else
+{
+p = obj.findPancakeNo(j + 1, 2) + 1;
+}
+
+System.out.print("For j = " + j);
+System.out.println(", the pancake number is: " + p);
+}
+
+}
+}
+ Output: For j = 0, the pancake number is: 1
+For j = 1, the pancake number is: 2
+For j = 2, the pancake number is: 4
+For j = 3, the pancake number is: 7
+For j = 4, the pancake number is: 11
+For j = 5, the pancake number is: 16
+For j = 6, the pancake number is: 22
+For j = 7, the pancake number is: 29
+For j = 8, the pancake number is: 37
+For j = 9, the pancake number is: 46
+ Next Topic Pancake Sorting in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

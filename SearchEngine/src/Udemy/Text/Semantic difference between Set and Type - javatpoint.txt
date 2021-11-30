@@ -1,0 +1,847 @@
+
+
+ 
+  
+  Semantic difference between Set and Type - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       DBMS 
+       DS 
+       DMS 
+       DAA 
+       Graph Theory 
+       Control System 
+       Aptitude 
+       Selenium 
+       Kotlin 
+       C# 
+       HTML 
+       CSS 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Discrete Mathematics 
+      
+      
+      Discrete Mathematics 
+      
+      
+      Sets Theory 
+      
+      
+      Sets Introduction 
+      Types of Sets 
+      Sets Operations 
+      Algebra of Sets 
+      Multisets 
+      Inclusion-Exclusion Principle 
+      Mathematical Induction 
+      
+      
+      Relations 
+      
+      
+      Binary Relation 
+      Representation of Relations 
+      Composition of Relations 
+      Types of Relations 
+      Closure Properties of Relations 
+      Equivalence Relations 
+      Partial Ordering Relations 
+      
+      
+      Functions & Algorithms 
+      
+      
+      Functions 
+      Types of Functions 
+      Identity Functions 
+      Composition of Functions 
+      Mathematical Functions 
+      Algorithms & Functions 
+      
+      
+      Logic & Propositional 
+      
+      
+      Propositions & Compound Statements 
+      Basic Logical Operations 
+      Conditional & Biconditional Statements 
+      Tautologies & Contradictions 
+      Predicate Logic 
+      Normal Forms 
+      
+      
+      Counting Techniques 
+      
+      
+      Basic Counting Principles 
+      Permutations & Combinations 
+      Pigeonhole Principle 
+      
+      
+      Recurrence Relations 
+      
+      
+      Recurrence Relations 
+      Linear Recurrence Relations with Constant Coefficients 
+      Particular Solution 
+      Total Solution 
+      Generating Functions 
+      
+      
+      Probability Theory 
+      
+      
+      Probability 
+      Addition Theorem 
+      Multiplication Theorem 
+      Conditional Probability 
+      
+      
+      Graph Theory 
+      
+      
+      Introduction of Graphs 
+      Types of Graphs 
+      Representation of Graphs 
+      Isomorphic and Homeomorphic Graphs 
+      Regular and Bipartite Graphs 
+      Planar and Non-Planar Graphs 
+      Dijkstra's Algorithm 
+      Travelling Salesman Problem 
+      
+      
+      Binary Trees 
+      
+      
+      Introduction of Trees 
+      Binary Trees 
+      Traversing Binary Trees 
+      Binary Search Trees 
+      Minimum Spanning Tree 
+      
+      
+      Operator & Postulates 
+      
+      
+      Binary Operation 
+      Property of Binary Operations 
+      
+      
+      Group Theory 
+      
+      
+      SemiGroup 
+      Group 
+      SubGroup 
+      Normal Subgroup 
+      
+      
+      Ordered Sets & Lattices 
+      
+      
+      Partially Ordered Sets 
+      Hasse Diagrams 
+      Lattices 
+      
+      
+      Boolean Algebra 
+      
+      
+      Boolean Algebra 
+      Boolean Expression 
+      Canonical Forms 
+      Logic Gates & Circuits 
+      Karnaugh Maps 
+      
+      
+      Misc 
+      
+      
+      Proof of De Morgan's Law 
+      Discrete mathematics for Computer Science 
+      Abelian Groups in Discrete Mathematics 
+      Applications of Discrete Mathematics in Computer Science 
+      Rings in Discrete Mathematics 
+      Order of Group in Discrete Mathematics 
+      Principle of Duality in Discrete Mathematics 
+      Atomic Propositions in Discrete Mathematics 
+      Applications of Tree in Discrete Mathematics 
+      Quantifiers 
+      Algebraic Structure 
+      Counting principle 
+      Bijective Function in Discrete Mathematics 
+      Multinomial Theorem 
+      Lagrange's Mean Value Theorem 
+      Cauchy's Mean Value Theorem 
+      Rolle's Mean Value Theorem 
+      Semantic difference between Set and Type 
+      Application of Group Theory in Discrete Mathematics 
+      Directed and Undirected graph in Discrete Mathematics 
+      Bayes Formula for Conditional probability 
+      Difference between Function and Relation in Discrete Mathematics 
+      Recursive functions in discrete mathematics 
+      Arguments in Discrete Mathematics 
+      Elementary Matrix in Discrete Mathematics 
+      Hypergeometric Distribution in Discrete Mathematics 
+      
+      
+      DMS MCQ 
+      
+      
+      Discrete Matehmatics MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Semantic difference between Set and Type Sets and types have equivalent notions in their respective theories. They represent a way to build and talk about structured, complex mathematical objects, but the way they are used is quite different. These two terms play a vital role in terms of mathematics as they give rise to set and type theory. Both sets and types are sorts of containers that hold and categorize objects based on their properties. Sets can group many heterogeneous objects together based on their properties and are thus more flexible. On the other hand, types classify objects based on their construction which gives an idea for how to destruct an arbitrary member of a specific type. In this article, we will discuss the semantic difference between set and type in terms of mathematics. What are sets in mathematics? In mathematics, a set is defined as the collection of objects. The objects in a set are known as elements of the set. The elements in a set need to be clearly defined to know whether or not a given object is an element of the set. In a class of students, each student is an element of the class or set of students. Set was founded in the 19th century, and George Cantor is known as the father of set theory. 
+            
+            
+              
+              SYMBOL 
+              SYMBOL NAME 
+              MEANING 
+              
+              
+              {} 
+              Set 
+              It denotes a collection of elements 
+              
+              
+              A ? B 
+              A union B 
+              The elements that belong to set A and Set B 
+              
+              
+              A ? B 
+              A intersection B 
+              The elements that belong to set A and Set B 
+              
+              
+              A ? B 
+              Proper subset 
+              A is a subset of B, but A is not equal to B 
+              
+              
+              A ? B 
+              Subset 
+              A is a subset of B, and Set A is included in set B 
+              
+              
+              A ? B 
+              Not Subset 
+              Set A is not a subset of Set B 
+              
+            
+            Let's understand the set theory concept with the help of an example. If P = the set of whole numbers greater than 2 and less than 7, then P = {3,4,5,6} This is a clearly defined set as we have 3, 4, 5, 6 is greater than 2 and less than 7. Therefore, the set of all tall students in our class does not form a mathematical set as all elements of members are not clearly defined. Ideology of set The ideology of the set is a "collection of objects." Consider pre-defined objects in mathematics. These pre-defined objects can be studied, analyzed, and can put together in different forms based on certain factors. These groups form a collection, and a collection of objects is a set. Applications of set Set has broad application in mathematics. Some most significant applications of the set are given below. 
+            
+            A set is used to construct relations. 
+            Set is used to identify and store unique elements in computer programming. 
+            Set is used in the most important branch of computer science that is digital electronics. 
+            Set is the foundation of Boolean algebra. 
+            Set is the basic foundation of set theory. 
+            Examples based on a set Example 1: Find the solution set of the equation x2 - 9 = 0 in roster form? Solution: Given; x2 - 9 = 0 = x2 - 32 = 0 = (x + 3) (x - 3); {a2 - b2 = (a + b) (a - b)} = 3, -3 Thus, A = {3, -3} Example 2: If P = {1,2,3,4,5,6,7} and Q = {2,5,7,8}, find P-Q and Q-P Solution: P - Q = {1,3,4,6} Q- P = {8} Here, P - Q is not equal to Q- P What is Type? Type in mathematics is a type of collection of values that are produced on evaluation of the term, and type is denoted by T. Type leads the type theory. In other words, type Theory refers to a foundation of Mathematics and an alternative to set theory. Category theory is a very abstract field of Mathematics that is extremely useful to classify and generalize constructions. However, category theory and Type Theory work very well together, and most concepts in type theory can be briefly expressed in categorical terms. 
+            
+            
+              
+              ENGLISH 
+              TYPE THEORY 
+              
+              
+              True 
+              1 
+              
+              
+              False 
+              0 
+              
+              
+              A and B 
+              A×B 
+              
+              
+              A or B 
+              A+B 
+              
+              
+              If A then B 
+              A?B 
+              
+              
+              A if and only if B 
+              A?B × B?A 
+              
+              
+              Not A 
+              A?0 
+              
+            
+            Ideology of type: 
+            
+            Construction is the ideology of type. 
+            In mathematics, the objects are constructed as per the rules. 
+            The organization of different objects based on their construction categorizes them into different types. 
+            In mathematics, objects are constructed uniquely, resulting in unique types. 
+            Features of type: 
+            
+            The type has "Terms" included with it 
+            , and the terms belong to only one type in the type theory. 
+            Numbers are used to representing functions in type theory. Terms "and" and "or" can be encoded as themselves. No, a particular system is required. 
+            Features included with type are dependent types, inductive types, universe types, equality types, and computational components. 
+            If you want to check a term of a particular type, "algorithm is needed." 
+            Applications of Type The type has broad application in mathematics. Some significant applications of type are given below. 
+            
+            Type theory is used in the semantics of the language. 
+            In programming languages, type systems are used to identify bugs. 
+            Gregory Bateson logical level and Double bind notions are derived from type theory. 
+            Proof theorem, proof checkers, and proof assistant use type theory of encoding proofs in mathematics. 
+            Type theory creates practical implementation, programming languages, mathematical foundations, and social sciences. 
+            
+            
+            
+            Next Topic
+            Application of Group Theory in Discrete Mathematics 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

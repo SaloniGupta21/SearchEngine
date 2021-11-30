@@ -1,0 +1,828 @@
+
+
+ 
+  
+  Orphaned Case Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Orphaned Case Java In the previous section, we have discussed the switch statement in detail. In this section, we are going to discuss the rarest error i.e. orphaned case error in Java. Orphaned Case Error In Java, it is the rarest error that does not occur usually. The error occurs while dealing with the switch statement. Reasons to Raise Orphaned Case Error 1. The keyword switch may be capitalizing. For example: 
+           
+            
+//incorrect
+Switch(num)
+{
+//cases
+}
+
+//correct
+switch(num)
+{
+//cases…
+}
+
+            2. The cases may be out of the switch statement. For example, in the following code snippet case 2 is out of the switch statement. 
+           
+            
+switch (n) 
+{  
+case 1:  
+// statements…
+break;   
+}  
+case 2:  
+//statements…
+break;
+
+            3. If switch statement unexpectedly terminated.  
+           
+            
+switch (var); // terminated by ;   
+{ 
+case 1:   
+//statements…   
+break;    
+}  
+
+            4. If we use comparison expression in the case statement.  
+           
+            
+switch(x)
+{
+case x>70:
+System.out.println("True");
+break;
+case 65<x<=70:
+System.out.println("False");
+break;
+}
+
+            How to fix an orphaned case error? 
+            
+            The keyword switch should be in small letters. 
+            Ensure that all the case statements are inside the switch statement. 
+            The switch statement should not be terminated by a semicolon (;). 
+            Case statement should have number (1, 2, 3, …), character ('a', 'A', …), string ("Sunday", "act2102").  
+            Case statement should not have a conditional expression like x>1. 
+            Beside this, we can also use the four wrapper classes (Byte, Short, Integer, and Long) in switch and case statements. For example, consider the following code snippet. 
+            
+           
+            
+Integer age = 18;        
+switch (age)  
+{  
+case (16):            
+System.out.println("You are under 18.");  
+break;  
+case (18):                
+System.out.println("You are eligible for vote.");  
+break;  
+}
+
+            Example of Orphaned Case Error OrphanedCaseError.java 
+           
+            
+public class OrphanedCaseError
+{       
+public static void main(String args[])  
+{         
+Integer age = 18;        
+Switch (age)  //gives orphaned error
+{  
+case (16):            
+System.out.println("You are under 18.");  
+break;  
+case (18):                
+System.out.println("You are eligible for vote.");  
+break;  
+case (65):                
+System.out.println("You are senior citizen.");  
+break;  
+default:  
+System.out.println("Please give the valid age.");  
+break;  
+}             
+}  
+}  
+
+            When we compile the above Java program, it gives an orphaned case error.   In order to overcome the above error, write the switch statement in small letters. After making the changes, compile and run the above code. It gives the following output: 
+           
+            You are eligible for vote.
+
+            Let's see another Java program that raises orphaned case errors. OrphanedCaseErrorExample.java 
+           
+            
+public class OrphanedCaseErrorExample 
+{    
+public static void main(String args[]) 
+{    
+char ch='O';    
+switch(ch)
+{  
+case 'a':   
+case 'e':   
+case 'i':   
+case 'o':   
+case 'u':  
+}
+//case statements that are outside the switch statement  
+case 'A':   
+case 'E':   
+case 'I':   
+case 'O':   
+case 'U':   
+System.out.println("Vowel");
+break;  
+default:   
+System.out.println("Consonant");  
+}  
+}    
+}   
+
+            When we compile the above program, it gives an orphaned case error because the cases having uppercase letters are outside the switch statement.   We can resolve the above error by wrapping the case statements inside the switch statement.  
+            
+            
+            Next Topic
+            Bottom View of a Binary Tree in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

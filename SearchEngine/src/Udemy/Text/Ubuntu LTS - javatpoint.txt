@@ -1,0 +1,1148 @@
+
+
+ 
+  
+  Ubuntu LTS - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Linux 
+       C 
+       Java 
+       Python 
+       Shell Scripting 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Linux Tutorial 
+      
+      
+      Linux Tutorial 
+      What is Linux 
+      Advantages of Linux 
+      Linux History 
+      Linux Features 
+      Linux Bash 
+      Unix vs Linux 
+      Linux vs Windows 
+      Linux Distributions 
+      Linux Licensing 
+      Set Environment Variable 
+      Linux Set Command 
+      Linux export Command 
+      
+      
+      Linux Directories 
+      
+      
+      Linux Directories 
+      Linux Home Directory 
+      Linux pwd 
+      Linux cd 
+      Linux Absolute Relative 
+      Linux Path Completion 
+      Linux ls 
+      Linux mkdir 
+      Linux rmdir 
+      Rename Folder in Linux 
+      
+      
+      Linux Commands 
+      
+      
+      Linux commands List 
+      Commands with Example 
+      
+      
+      Linux Users 
+      
+      
+      Linux Users 
+      Linux Create User 
+      Local su Commands 
+      Linux User Management 
+      User Password 
+      Local Groups 
+      Add User to Group 
+      Linux id Command 
+      
+      
+      Linux Files 
+      
+      
+      Linux Files 
+      Linux File System 
+      Linux Create File 
+      Linux file 
+      Linux touch 
+      Linux rm 
+      Linux cp 
+      Linux mv 
+      Linux rename 
+      Linux install Command 
+      Linux read Command 
+      
+      
+      Linux File Contents 
+      
+      
+      Linux File Contents 
+      Open File in Linux 
+      Linux Edit File 
+      Linux which command 
+      Linux head 
+      Linux tail 
+      Linux cat 
+      Linux tac 
+      Linux more 
+      Linux less 
+      Linux strings command 
+      Linux Print 
+      
+      
+      Linux Process 
+      
+      
+      Kill Process Linux 
+      Linux terminating 
+      1) Linux kill 
+      2) Linux killall 
+      3) Linux pkill 
+      4) Linux xkill 
+      Nohup Command 
+      Linux at command 
+      Linux exit command 
+      
+      
+      Linux File Hierarchy 
+      
+      
+      Linux File Hierarchy 
+      Binary Directories 
+      Configuration Directories 
+      Data Directories 
+      Memory Directories 
+      Usr Directory 
+      var Directory 
+      Non-standard directories 
+      
+      
+      Linux Filters 
+      
+      
+      Linux Filters 
+      Linux cat 
+      Linux cut 
+      Linux grep 
+      Linux comm 
+      Linux sed 
+      Linux tee 
+      Linux tr 
+      Linux uniq 
+      Linux wc 
+      Linux od 
+      Linux sort 
+      Linux gzip 
+      
+      
+      AWK Command 
+      
+      
+      Linux AWK Command 
+      
+      
+      Programming with Linux 
+      
+      
+      Linux make command 
+      GCC Linux 
+      
+      
+      Linux I/O Redirection 
+      
+      
+      Linux I/O Redirection 
+      Linux Input Redirection 
+      Linux Output Redirection 
+      Linux Error Redirection 
+      
+      
+      Linux Unix Tools 
+      
+      
+      Linux Unix Tools 
+      Linux Find 
+      Linux Locate 
+      Linux Date 
+      Linux Cal 
+      Linux Sleep 
+      Linux Time 
+      Linux zcat/zmore 
+      Linux bzip2 / bunzip2 
+      Linux bzcat / bzmore 
+      Linux df 
+      
+      
+      Linux Regex 
+      
+      
+      Linux expr command 
+      Linux RegEx 
+      Linux Grep RegEx 
+      Linux rename RegEx 
+      Linux Sed RegEx 
+      
+      
+      File Security 
+      
+      
+      Linux File OwnerShip 
+      Linux chgrp Command 
+      Linux File Permission 
+      Linux chmod Command 
+      Linux chown command 
+      Linux Advance Permission 
+      Linux File Links 
+      1) Linux Inodes 
+      2) Linux Link Directories 
+      3) Linux Hard links 
+      4) Linux Soft links 
+      5) Linux Remove link 
+      
+      
+      Shell Commands 
+      
+      
+      Linux Shell Commands 
+      Linux Aliases 
+      Linux Arguments 
+      Linux Displaying Shell 
+      Linux Control Operators 
+      1) Semicolon 
+      2) Ampersand 
+      3) Dollar Question Mark 
+      4) Double Ampersand 
+      5) Double Vertical Bar 
+      6) Combining && and || 
+      7) Pound Sign 
+      8) ESC 
+      Linux File Globbing 
+      Linux Shell Embedding 
+      Linux Shell History 
+      Linux history Command 
+      Linux History Commands 
+      Linux Histroy Size 
+      Linux Bang Bang 
+      
+      
+      Linux Networking 
+      
+      
+      Linux Networking 
+      1) Linux ifconfig 
+      2) Linux ip 
+      Linux telnet Command 
+      SSH Linux 
+      Linux mail Command 
+      3) Linux traceroute 
+      4) Linux tracepath 
+      5) Linux ping 
+      6) Linux netstat 
+      7) Linux ss 
+      8) Linux dig 
+      9) Linux nslookup 
+      10) Linux route 
+      11) Linux host 
+      12) Linux arp 
+      13) Linux iwconfig 
+      14) Linux hostname 
+      15) Linux curl & wget 
+      Linux Curl Command 
+      16) Linux mtr 
+      17) Linux whois 
+      18) Linux ifplugstatus 
+      
+      
+      Linux Misc 
+      
+      
+      chkconfig command in Linux 
+      How to change user password in Linux 
+      Awk Command Usage 
+      How to unzip files in Linux 
+      Linux chroot Command 
+      Linux Watch Command 
+      Ubuntu Vs. Kali Linux 
+      Clear cache Linux 
+      7 QC Tools 
+      Linux Process Memory Usage 
+      Linux Tree Command 
+      Wine Linux 
+      Linux Commands to Check Disk Space 
+      Manjaro Vs. Ubuntu 
+      Architecture of Linux 
+      Linux Lite 
+      Linux Shell 
+      Linux Meaning 
+      Linux Foundation 
+      Linux List Directories 
+      Linux Shortcuts 
+      Best Linux Distro 
+      Who command in Linux 
+      Linux Server 
+      Debian vs Ubuntu 
+      Types of Files in Unix 
+      Linux Daemon 
+      Linux Zip Command 
+      CPU Utilization in Linux 
+      Linux Terminal 
+      Linux sudo 
+      Basic Linux Commands 
+      How to Check RAM in Linux 
+      Linux List Users 
+      Kill command 
+      Tar command 
+      Linux Find File 
+      Echo command 
+      Linux Change or set Password 
+      SSH Command 
+      What is sshd in Linux 
+      Linux Screen Command 
+      Linux Check Disk Space 
+      Run command in Linux 
+      Linux Memory Management 
+      Linux Reboot Command 
+      How to Inspect the Memory in Linux 
+      Ubuntu GNOME 
+      How to check open ports in Linux 
+      Linux vs Ubuntu 
+      Ping command in Linux 
+      Linux Source Command 
+      Linux Terminal Shortcuts 
+      Find IP Address in Linux 
+      Linux date Command 
+      Linux hosts (file) 
+      UNIX operating system 
+      Linux dpkg command 
+      Latest Kernel Linux Version 
+      Linux Package Manager 
+      Linux proc 
+      Linux Task Manager 
+      Linux Signals 
+      Parrot OS vs. Kali Linux 
+      Ubuntu Features 
+      Linux ISO 
+      Putty Command in Linux 
+      Check OS Version in Linux 
+      Linux Change Timezone 
+      Linux Load Average 
+      Linux Firewall 
+      RPM Command in Linux 
+      Cron Command 
+      Linux Change Hostname 
+      Ubuntu Disable Firewall 
+      Latest Release of Ubuntu 
+      Ubuntu Logo 
+      Ubuntu MATE 
+      Ubuntu Nvidia Drivers 
+      Zoom Ubuntu 
+      Install tar.gz Ubuntu 
+      Ubuntu Screen Recorder 
+      Ubuntu Server 
+      Ubuntu Wallpaper 
+      xVideoServiceThief Ubuntu Linux Free 
+      Restart Apache Ubuntu 
+      Ubuntu 20.04 LTS 
+      Ubuntu Bootable USB 
+      Ubuntu Desktop 
+      Ubuntu Font 
+      X videoservicethief Ubuntu 18 command 
+      Ubuntu Games 
+      Ubuntu Update Command 
+      Ubuntu LTS 
+      vscode for Ubuntu 
+      Android Studio Ubuntu 
+      AnyDesk Ubuntu 
+      Ask Ubuntu 
+      Boot Repair Ubuntu 
+      Install AWS CLI Ubuntu 
+      Install NVM Ubuntu 
+      Install JDK Ubuntu 
+      Install RVM Ubuntu 
+      Install Skype Ubuntu 
+      Ubuntu Budgie 
+      
+      
+      Linux Editors 
+      
+      
+      Linux Text Editors 
+      
+      
+      Linux vi Editor 
+      
+      
+      Vi Editor 
+      1) switch 
+      2) move 
+      3) jump 
+      4) delete 
+      5) undo and repeat 
+      6) cut, copy, paste 
+      7) cut, copy, paste blocks 
+      8) Start and end 
+      9) Joining 
+      10) word 
+      11) Search 
+      12) Replace all 
+      13) Text Buffers 
+      14) Abbreviations 
+      
+      
+      Linux System Admin 
+      
+      
+      Linux Admin Commands 
+      Linux uptime 
+      Linux service 
+       Linux pmap 
+       Linux wget command 
+      Linux ftp or sftp 
+      Linux free Command 
+      Linux top 
+      Linux last 
+      Linux ps 
+      Linux shutdown 
+      Linux info 
+      Linux env 
+      Linux du 
+      Linux init 
+      Linux Nano Editor 
+       Linux shred 
+      Linux mount 
+      Linux route 
+      
+      
+      Linux Man Pages 
+      
+      
+      Linux man 
+      Linux man -a 
+      Linux man -aw 
+      Linux man -f 
+      Linux man -k(apropos) 
+      Linux man whereis 
+      Whatis command in Linux 
+      
+      
+      Error Codes 
+      
+      
+      Linux Error Codes 
+      
+      
+      Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Ubuntu LTS LTS is short for "Long Term Support". Support means that during the release lifetime, there is a promise for updating the patch and maintaining the software. There is a precise development cycle in which contributors and engineers add to the release body. A longer cycle of beta testing, where more bug fixing and testing takes place for focusing on the stability and performance of the release. The software could become a security hazard without LTS. Vulnerabilities improve over time and systems become disclosed and implement poorly the longer they endure out-of-date. Besides, the system of the users will begin to fall behind if users attach with a similar version too long. The moves of the development forward while a few key aspects are backported to the previous releases occasionally. Ubuntu developers produce a fresh Ubuntu server and Ubuntu desktop version every six months. It means that always we will have the greatest and latest applications that the world of open-source will has to provide. Ubuntu OS is created with security. We get free updates of security for 9 months (at least) on the server and desktop. 
+            
+            A new Long Term Support version is published every two years. 
+            A version of LTS (Long-Term Support) had 3 years of support on the 12.04 LTS version of Ubuntu and 5 five years on the Ubuntu server in previous versions. 
+            Starting with the 12.04 LTS release of Ubuntu, both releases received 5 years of support. 
+            Ubuntu makes the best work present for everyone on similar free terms, there are no other charges for an LTS release. 
+            Upgrades to the new releases of Ubuntu are always free. 
+            The designation of LTS uses only to some particular Ubuntu archive subsets. The LTS might not use to every remix and flavor of Ubuntu. 
+            For instance, for the 8.04 LTS release, Kubuntu select for moving to the 4.0 version of KDE and did not publish an LTS version. In the 10.04 version, The Netbook Edition wasn't an LTS version. The project would determine which flavors would be LTS and the duration of the support for all, early in the development cycle of an LTS. 
+            What is an LTS version? An LTS of Ubuntu is a promise from Canonical for supporting and maintaining an Ubuntu release for 5 years. Canonical releases a fresh LTS in which every development from the 2 years acquired into an up-to-date and feature-rich version. These versions concentrate on stability and performance enhancement. An LTS is what Ubuntu suggests to large-scale enterprises, businesses, and normal users. However, there are developer releases every six months during those 2 years for dynamic users. These versions are kept relevant and up-to-date, with the greatest and latest contributors, but are supported for only 9 months at once. Whether we are a multinational corporation, an SME, or an individual user, reliability is important. The focus of Ubuntu is on maintaining security, trust, and reliability. The first LTS of Ubuntu with the support of 5 years was the 12.04 version of Ubuntu. Since then, the releases of Ubuntu have held a similar 2 years cadence. It is a good place for pointing out the convention of naming. Regardless of a developer release or an LTS, the convention of naming leads with the trails and year whether it's in October or April release. The upcoming release would be in 2020 October and be known as the 20.10 version. Also, an LTS is an opportunity for shining a light on the community of Ubuntu. Contributions from millions of developers enter together in a version that would be suggested to users to come for many years. The community faiths enough in Ubuntu that are various official Ubuntu flavors that depend on continuous development for their success. The trust moves both ways, all flavors publish an LTS along with similar flavors are approved by the complete Ubuntu archive and Ubuntu release cadence for updates and packages. Plan details of Releases 
+            
+            The developers of Ubuntu begin stabilizing the version early by limiting the range of new features significantly. They will select which feature they package into an LTS version, then which one they leave out and permit for users for optionally downloading and using from an isolated archive. 
+            Ignore structural modifications as far as possible, like modifying the default group of applications, several library transitions, and system layer modifications. Furthermore, they specify an LTS to be: 
+              
+              Compatibility with new hardware: Ubuntu will establish point versions during the development cycle for providing functional support for desktop hardware and the new server. 
+              Enterprise focused: Ubuntu is targeting multiple desktop and server installations, in which an average user is risk-averse moderately. 
+              More tested: Ubuntu will minimize the development window and maximize the Beta cycle to permit more bug fixing and testing. 
+              and clearly define that it's not: 
+            Cutting-edge: Beginning with the development cycle of the 14.04 LTS version, automatic complete package import implemented from Debian unstable. It is because of using ProposedMigration within the Ubuntu archive. 
+            Feature-based version: Ubuntu will concentrate on crystallizing functionality of available features, versus defining new ones, excluding for inside the area of Desktop Experience and Online Services. 
+              
+              Exceptions for preferred projects would be documented. 
+              Due to these 2 development areas are new relatively and they still need new features for satisfying the original causes for their creation. 
+               
+            Ubuntu LTS releases Some of the LTS releases of Ubuntu are listed and discussed below: Ubuntu 14.04 The 14.04 LTS of Ubuntu would be supported for five years for Ubuntu Kylin, Eubuntu, Kubuntu, Ubuntu Core, Ubuntu Server, and Ubuntu Desktop. All other flavors would be supported for three years. Ubuntu 14.04 LTS Features The 14.04.5 point version will ship by default with an X stack and updated kernel in an effort for supporting a wider range of hardware on an existing release of LTS. This new hardware enablement stack would be comprised of the X stack and kernel from the 16.04 release (Xenial). Those running cloud or virtual images should not require this new hardware enablement stack and hence it is suggested that they continue on the actual Trusty stack. There are some options for remaining on the actual Trusty stack. Install using a previous 14.04.1 or 14.04.0 point update and release. The previous 14.04.1 or 14.04.0 releases can be archived at http://old-releases.ubuntu.com/ Perform an upgrade and update to Trusty through a previous release of Ubuntu. Those installing using the 14.04.02 point media and by default a new will receive automatically a new hardware enablement stack. Implement a network install with the netboot images instead of the new xenial-netboot, wily-netboot, vivid-netboot, or utopic-netboot images.  1. Updated Packages Software of every type and package application is being updated over at a rapid pace as with all new releases. Several of these packages continued from an automatic sync from the unstable branch of Debian and others have been pulled explicitly in for the 14.04 LTS of Ubuntu. 2. The 4.4 version of Linux Kernel The 14.04.5 point version by default will ship with the new 4.4 version of Linux Kernel from the matching X.org stack and the 16.04 version of Ubuntu. It is based on the Extended Upstream Stable Kernel 4.4.0 Release. The purpose of giving a new kernel within the 14.04.5 point version is for the hardware enablement. 3. The 3.4 version of Python Eventually, we intend for shipping only Python 3 along with the desktop image of Ubuntu, not Python 2. The 14.04 LTS image of Ubuntu goes through this process. However, we can transform everything into Python 3 for the 14.04 LTS version of Ubuntu. If we have our programs that are based on Python 2. But, Python 2 will go on to be available (like a Python package) for a certain future. Although, we must consider porting our code to Python 3 for best supporting Ubuntu future versions. 4. AppArmor 
+            
+            It has several features in the 14.04 LTS version of Ubuntu. 
+            It supports the signal's fine-grained mediation. 
+            It supports ptrace fine-grained mediation. 
+            It improves DBus mediation. 
+            It has newer abstractions for many applications that are running upon Unity. 
+            It has various new tunables that are supporting dovecot, directories of XDG users, and more. 
+            It has several updates for policy in support of bug fixes and new features. 
+            It has a new variable, i.e., @{profile_name} for referencing the latest profile name in the policy. 
+            AppArmor has new Python3 and Python libraries (python3-apparmor and python-apparmor). 
+            The policy of AppArmor has been accommodated for many packages that can ship it for working with these modifications. However, the local policy might need to be accommodated, especially for ptrace and signal rules. Ubuntu 16.04 LTS Introduction The 16.04 LTS version of Ubuntu would be supported for five years for Ubuntu Kylin, Ubuntu Core, Ubuntu Server, and Ubuntu Desktop. Every other flavor would be supported for three years. Features of Ubuntu 16.04 LTS  
+            
+            Snap application formatThe 16.04 LTS version of Ubuntu defines a new format of application, i.e., 'snap'. It could be installed with the traditional packages of deb. These two formats of packaging quite comfortably live next to each other and make Ubuntu for maintaining its existing processes for updates and development. 
+            Updated PackagesSoftware of every type and package application is being updated and upgraded at a rapid pace as with all new releases. Several of these packages continued from the unstable branch of Debian and others have been pulled explicitly in for the 16.04 version of Ubuntu. 
+            The 4.4 version of Linux KernelThe 16.04 LTS version of Ubuntu works on the basis of the Long-term supported releases of Linux series 4.4. 
+            Python 3By default, Python 2 isn't installed anymore on the touch, cloud, or server images. Python 3 version itself has been updated to the series of 3.5. If we have our programs that are based on the version, i.e., Python 2, then Python 2 would go on to be available (like a Python package) for a certain future. Although, for best supporting Ubuntu future versions, we should try porting our code to Python 3. 
+            OpenSSH 7.2p2The recent releases of OpenSSH disable various pieces of unsafe, legacy, and/or weak cryptography. If we are remotely upgrading any system over SSH, then we should see that we are not depending on these for ensuring that we will continue the access after the process upgrade. 
+            Golang 1.6The toolchain of golang was updated to the series of 1.6 and gccgo was updated to the release candidate 1 of GCC 6.1. Hence, a similar level of standard compiler and library features are given by both of these compilers on each completely supported architecture. 
+            Apt 1.2The 1.2 version of Apt contains the new separation of privilege features that were introduced in the 1.1 version of Apt. Importantly, the users of unprivileged "_apt" are now used if making connections for outgoing networks and parsing the outcomes for several transport methods (like FTP, HTTPS, HTTP, etc). 
+            Ubuntu for z Systems and IBM LinuxONEThe 16.04 version of Ubuntu contains a newer port to z/architecture 64-bit for the mainframe computers of IBM. Practically, it is a complete Cloud and Ubuntu Server port along with the availability of a 95% binary package. 
+            Ubuntu DesktopThe basic theme for the 16.04 version on the desktop is incremental quality improvements and bug fixes. 
+              
+              General 
+                
+                Mostly, GNOME is upgraded to version, i.e., 3.18. GLib updated to 2.48 (related to GNOME 3.20). 
+                All default libraries and applications ported to apply WebKit 2. 
+                Now, the GNOME calendar is by default included. 
+                Chromium upgraded to the 48 version. 
+                Brasero and Empathy are deleted from the default installation. 
+                
+              
+            Compiz and Unity 
+              
+              Improved integration of launcher with devices and file manager 
+              Integrated support for the applications of gtk with headerbars 
+              Support to format removable devices using quicklist 
+              Activate spread of app by Super+Ctrl+W 
+              Improvements to key grabbing of GNOME 
+              An option, i.e., Unity control center for always showing menus 
+              Improvements for spread and switched backends 
+              Better support for dash theming 
+              Support to scale cursors in the environments of HiDPi 
+              The launcher could be gone to the bottom 
+              Display the launching state of icons in the launcher if applications are launched elsewhere 
+               
+            LibreOffice 
+              
+              The 5.1 version of LibreOffice brings many improvements to the whole package. 
+              Some key points are mentioned below: 
+                
+                LibreOffice defaults to the theme, i.e., Breeze in Ubuntu 
+                Improvements to the language bindings and Python scripting 
+                Supports WebDAV by HTTPS 
+                
+              
+            Ubuntu Server 
+              
+              GeneralNow, the mechanism of kernel crash dump supports kernel crash dumps (remote). It's now possible to transfer kernel crash dumps to the remote server with NFS or SSH protocols. 
+               
+            OpenStack MitakaThe 16.04 version of Ubuntu contains the latest release of OpenStack. Mitaka includes the below components: 
+              
+              Barbican - OpenStack Key Manager 
+              Manila - OpenStack Filesystem 
+              Ironic - OpenStack Bare-metal 
+              Designate - OpenStack DNS 
+              Trove - OpenStack Database as a Service 
+              Swift - OpenStack Object Storage 
+              Horizon - OpenStack Dashboard 
+              Heat - OpenStack Orchestration 
+              Aodh and Ceilometer - OpenStack Telemetry 
+              Neutron - OpenStack Networking 
+              Nova - OpenStack Compute 
+              Cinder - OpenStack Block Storage 
+              Glance - OpenStack Imaging 
+              Keystone - OpenStack Identity 
+              
+            Ubuntu 18.04 LTS Introduction The 18.04 version of Ubuntu has a main archive that would be supported for five years. It will provide support for Ubuntu Core, Ubuntu Server, and Ubuntu Desktop. The 18.04 version of Ubuntu Studio would be supported for nine months. Every other flavor would be supported for three years. Ubuntu 18.04 LTS Features  
+            
+            Updated PackagesThe 18.04.4 release of Ubuntu ships using a v5.3 based Linux kernel that was updated from a v5.0 based kernel within the 18.04.3 release. It enables the current peripherals and hardware available from Intel, IBM, and others. The kernel of the 18.04 version provides new aspects that are inherited from upstream. These aspects are mentioned below: 
+              
+              It supports a number of AMD and Intel graphics chipsets. 
+              It includes new default management algorithms of networking queues for improving networking on congested and slow links. 
+              It preliminary supports WiFi 6. 
+              It supports the BTRFS swap file. 
+              It includes a new block controller for I/O latency. 
+              It includes several security-related improvements. 
+              Also, we see remarkable specific achievements of Ubuntu with: 
+              
+              shiftfs filesystem offering improvements for LXD performance 
+              Further Security and AppArmor module improvements 
+              
+            OpenJDKThe 8th version of OpenJDK has moved in the world and will be there for the 18.04 life for providing migration time for scripts, applications, and packages that can not be created using OpenJDK 11. The 8th version of OpenJDK has been updated in the 18.04 version until the 16.04 version of Ubuntu reaches EOL in 2021 April. 
+            OpenSSLThe OpenSSL (default) has been updated from the 1.1.0 version to the 1.1.1 LTS version. This version is bringing high performance and the ability for using TLSv1.3 in chosen packages. 
+            Security ImprovementsIn the 18.04 version of Ubuntu, gcc is as default for compiling applications like PIE (Position Independent Executables) and using immediate bindings as well for making mare productive use of ASLR (Address Space Layout Randomization). Every package inside "main" has been recreated for taking advantage of it along with some exceptions. Mitigation is in place for protecting against Meltdown and Spectre. 
+            Network Configuration 
+              
+              New since v18.04.2ioprovides its improved support for DHCP overrides, IPv6 Privacy Extensions, improved support of error reporting for 802.1x authentication, and WPA Enterprise wifi, and supports IP tunnels as well. 
+              New since v16.04 LTSifupdown has been detracted for ioand it is no longer available on new installs. An installer will produce a file of configuration for netplan.io in a directory, i.e., /etc/netplan. This configuration of netplan renders the configuration of backend-specific by either NetworkManager or systemd-networkd. 
+              
+            Ubuntu Desktop 
+              
+              Fixes and updates in 18.04.2 
+                
+                Fixed the bugs which interrupted the login screen from occurring on early Intel GPUs generation (Atom and Core2 etc) 
+                Fixed the OSK bugs interrupting letters (uppercase) being entered 
+                Fixed leak of memory in Nautilus 
+                Fixed bugs in which 2 application instances were launched when we touched over the dock 
+                Updated version of Thunderbird to the 60.4.0 version 
+                Updated version of LibreOffice to the 6.0.7 version 
+                Updated version of Firefox to the 65 version 
+                Fixed the bugs using notifications startup ordering of Livepatch which is causing some missing notifications 
+                Fixed the bugs that caused the dock for showing over the lock screen 
+                Made a few improvements of performance to GNOME shell 
+                
+              
+            New since v17.10 
+              
+              X is a display server (default). Wayland is facilitated as a Technical Preview and it is supposed to be the display server (default) for the 20.04 LTS version. 
+              The installer provides an option for minimal install for a common desktop platform with the core system and web browser utilities. Several official flavors of the 18.04 desktop are applying this new aspect as well. 
+              Many apps that are offered by GNOME are updated the 3.28 version. 
+              LibreOffice is updated to the 6.0 version. 
+              Now, emoji display in color in almost all apps. To input the emoji, keyboard shortcuts are Ctrl+; or Ctrl+. 
+              Now, the calendar provides its support for the weather forecast. 
+              A few utilities have been changed to the format of snap for newer installs (System Monitor, Logs, Characters, and Calculator). Snap apps give better isolation that permits them to be upgraded to fresh stable versions at the time of the lifecycle of LTS. 
+              By default, the Character app substitutes the previous Character Map. 
+              Ubuntu Software app permits easy switching. 
+              
+            
+            
+            
+            Next Topic
+            vscode for Ubuntu 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

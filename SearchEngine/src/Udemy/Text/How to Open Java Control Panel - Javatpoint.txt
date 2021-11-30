@@ -1,0 +1,786 @@
+
+
+ 
+  
+  How to Open Java Control Panel - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Open Java Control Panel? In this section, we will learn different ways to open the Java control panel. Also, we will discuss the uses of the Java Control Panel. Java Control Panel The Java Control Panel is a multipurpose control panel. It allows us to view and set a wide range of control parameters. The uses of the Java control panel are as follows: 
+            
+            It provides a mechanism for updating older Java versions so that we always have the latest JRE. 
+            It allows us to set options for debugging, applet handling, etc. 
+            It allows us to set runtime parameters for applets that run with Java Plug-in and applications that run with Java Web Start. 
+            It enables us to view an active deployment rule set and to manage the exception site list. 
+            It allows us to control certificates, making it safe to run applets and applications over the network. 
+            It also allows us to view and delete temporary files used by the Java Plug-in. 
+            How to open Java Control Panel? There are many ways to open the Java control panel. 
+            
+            Using Control Panel Window 
+            Directly Access javacpl.exe 
+            Using Start Button 
+            Using System Tray Icon 
+            Using Control Panel Window 
+            
+            Click on the Start 
+            Select the Control Panel.  
+            Click on the Java  
+            Java Control Panel appears on the screen. Directly Access javacpl.exe 
+            
+            Click on the Start 
+            Type the path of exe in the search box.  
+            Click on the javacpl. 
+            Java Control Panel appears on the screen. Using Windows Button 
+            
+            Click on the Start button or press the Windows 
+            Select Configure Java.  
+            Java Control Panel appears on the screen. Another way is: 
+            
+            Press the Windows 
+            Click on All Programs. 
+            Select the Java 
+            Click on Configure Java.  
+            Java Control Panel appears on the screen. Using System Tray Icon 
+            
+            Click on the System tray icon presented at the bottom right corner in the taskbar.  
+            Right-click on the Java 
+            Select the Properties  
+            Java Control Panel appears on the screen.  The Java Control Panel includes the following separately viewable panels: 
+            
+            General 
+            Update 
+            Java 
+            Security 
+            Advanced 
+            Let's discuss the purpose of each tab one by one. General The General tab is subdivided into three panels that are About, Network Setting, and Temporary Internet Files. Since Java 7 another security feature is added to the Control panel that informs that Java is enabled in the browser or not.  About: By clicking on the About button, we can see the version information for the JRE that is installed in the system.  Network Setting: It provides the network-related setting if the system is connected to the network. By default, it uses the network setting of the web browser. Click on the Network Setting button to get the network setting dialog box.  It provides the following four options: 
+            
+            Use browser settings: Choose the option if you want to use the browser's default proxy settings. 
+            Use proxy server: It provides two options either we can set the address and port for the proxy server or click on the Advanced button to get the Advanced Network Settings dialog. In this dialog box, we can set the proxy address and port for Http, Secure, Ftp, and Socks connections. We can also provide a list of proxy connections that we do not want to use.  
+            Use automatic proxy configuration script: By selecting the option, we can provide the URL for the JavaScript file (.js or .pac file) that contains the FindProxyForURLfunction that contains the logic to determine the proxy server to use for a connection request. 
+            Direct connection: Choose the option if you do not want to use a proxy. 
+            Temporary Internet Files: 
+            
+            Press the Settings button to get the Temporary Files Settings dialog from which we can perform the following.  
+            Specify if we want to keep temporary files on the system. 
+            Specify the location where temporary files will be store. 
+            Specify the compression level for JAR files. 
+            Specify the amount of disk space for storing temporary files. 
+            Delete temporary files by pressing the Delete Filesbutton that displays the Delete Files and Applications  
+            From this dialog, we can specify which files we want to delete: 
+              
+              Trace and Log Files 
+              Cached Applications and Applets 
+              Installed Applications and Applets 
+              
+            Restore default settings for the Temporary Files Settings dialog by pressing the Restore Defaults 
+            Press the Viewbutton to get the Java Cache Viewer It enables us to list applications, resources, and deleted applications stored in the Java cache.  
+            In addition, we can perform the following: 
+            
+            Run and visit the Web page of applications. 
+            View the JNLP file of applications and resources. 
+            Update The Update panel, in conjunction with the Java Update Scheduler (jusched.exe), is used to provide the latest Java updates to the end-user. It uses the Java Update Scheduler (jusched.exe) for launching the automatic updates.  Uncheck the auto-update if you do not want to get the notification from time to time. In addition, we can also set the time, date, and frequency (daily, weekly, or monthly) for update notification by clicking on the Advanced button that opens the Automatic Update Advanced Settings.  Click on the Update Now button to get the latest Java update. Java It is used to manage the Java Runtime versions, settings for Java applications, and applets.  Click on the View button to get the Java Runtime Environment Settings. It enlists all the versions that are installed in the system.  
+            
+            Platform: The version of the Java Runtime Environments that are installed in the system. 
+            Product: The full version number of the JRE including the update number. 
+            Location: It is the URL that Java Update Scheduler uses to launch automatic updates. 
+            Path: It is the full pathname of the Java Runtime Environment. 
+            Runtime Parameters: Optional custom options are used to override the Java Plug-in default startup parameters. 
+            Enabled: We can enable and disable Java versions accordingly. If the check box is unchecked, then Java Plug-in and Java Web Start will not use this JRE to launch Java apps. However, the current JRE might be used regardless of this checkbox. The checkbox does not affect standalone applications, it is only for Java in the browser. 
+            Note: If all Java apps are disabled from running in the browser, by de-selecting Enable the Java content in the browser in the Security panel, enabling the JRE here has no effect. Click on the Find button to launch the JRE Finder. It searches for unregistered private Java Runtime Environments installed in the system and adds them to the Java Runtime Versions panel.  Click on the Add button to manually add a Java Runtime Environment to the Java Runtime Versions panel. When we click on the Add button, a new row appears in the Java Runtime Versions panel. However, there are no values for Platform, Product, Path, Runtime Parameters, and Enabled; we must specify these parameters.  Click on the Remove button to remove the selected Java Runtime Environment from the Java Runtime Versions panel. Note: There will always be at least one entry. Security Uncheck the Enable Java content in the browser button, which is selected by default, will prevent any Java application from running in the browser.  It provides the following two security levels, Very High and High. 
+            
+            Very High: Applications that are signed with a valid certificate that is located in the Signer CA KeyStore, and include the Permissions attribute in the manifest for the main JAR file are allowed to run with security prompts. All other applications are blocked. 
+            High: Applications that are signed with a valid or expired certificate that is located in the Signer CA KeyStore, and include the Permissions attribute in the manifest for the main JAR file are allowed to run with security prompts. Applications are also allowed to run with security prompts when the revocation status of the certificate cannot be checked. All other applications are blocked. 
+            Note: There was another security level in the previous versions of the Java called Medium. It is degraded in the later versions. Exception Site List: The exception site list contains a list of URLs that host RIAs (Rich Internet Applications) that users want to run even if the RIAs are normally blocked by security checks. RIAs from the sites listed are allowed to run with applicable security prompts. Click on the Edit Site List button to add, edit, and remove items.  Restore Security Prompts: An option to hide a prompt in the future is included in some security prompts that are shown when an application starts. It is recommended that we must periodically restore the prompts that were hidden. It ensures the continued security of the system. Seeing the prompts again provides an opportunity to review the applications and ensure that you still want them to run. To restore the prompts that were previously hidden, click on the Restore Security Prompts button. It confirms the selection, click on the Restore All button, else click on the Cancel button. When we start the application again, the security prompt for that application is shown.  Certificates: Click Manage Certificates to get the Certificates dialog that looks like the following.  It handles both User and System-Level (enterprise-wide) certificates of the following types: 
+            
+            Trusted 
+            Secure Site 
+            Signer CA 
+            Secure site CA 
+            Client Authentication 
+            Advanced It includes options for Debugging, Java console, Default Java for browsers, Shortcut Creation, JNLP File/MIME Association, Application Installation, Secure Execution Environment, Mixed code security verification, Certificate revocation checks, Advanced Security Settings, and other Miscellaneous options.  
+            
+            
+            Next Topic
+            How to Reverse Linked List in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,1191 @@
+
+
+ 
+  
+  Pattern Matching in SQL - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        SQL 
+        PL/SQL 
+        MySQL 
+        MongoDB 
+        PostgreSQL 
+        SQL Server 
+        Oracle 
+        Cassandra 
+        SQLite 
+        DBMS 
+        Python 
+        Java 
+        Aptitude 
+        Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     Oracle Training 
+      
+      SQL Tutorial 
+      
+      
+      What is SQL 
+      SQL Syntax 
+      SQL Data Types 
+      SQL Operators 
+      
+      
+      SQL Database 
+      
+      
+      SQL CREATE Database 
+      SQL DROP Database 
+      SQL RENAME Database 
+      SQL SELECT Database 
+      
+      
+      SQL Table 
+      
+      
+      What is Table 
+      SQL CREATE TABLE 
+      SQL DROP TABLE 
+      SQL DELETE TABLE 
+      SQL RENAME TABLE 
+      SQL TRUNCATE TABLE 
+      SQL COPY TABLE 
+      SQL TEMP TABLE 
+      SQL ALTER TABLE 
+      
+      
+      SQL Select 
+      
+      
+      SELECT Statement 
+      SQL SELECT UNIQUE 
+      SQL SELECT DISTINCT 
+      SQL SELECT COUNT 
+      SQL SELECT TOP 
+      SQL SELECT FIRST 
+      SQL SELECT LAST 
+      SQL SELECT RANDOM 
+      SQL SELECT IN 
+      SQL SELECT Multiple 
+      SQL SELECT DATE 
+      SQL SELECT SUM 
+      SQL SELECT NULL 
+      
+      
+      SQL Clause 
+      
+      
+      SQL WHERE 
+      SQL AND 
+      SQL OR 
+      SQL WITH 
+      SQL AS 
+      SQL HAVING Clause 
+      
+      
+      SQL Order By 
+      
+      
+      ORDER BY Clause 
+      ORDER BY ASC 
+      ORDER BY DESC 
+      ORDER BY RANDOM 
+      ORDER BY LIMIT 
+      ORDER BY Multiple Cols 
+      
+      
+      SQL Insert 
+      
+      
+      INSERT Statement 
+      INSERT INTO Values 
+      INSERT INTO SELECT 
+      INSERT Multiple Rows 
+      
+      
+      SQL Update 
+      
+      
+      UPDATE Statement 
+      SQL UPDATE JOIN 
+      SQL UPDATE DATE 
+      
+      
+      SQL Delete 
+      
+      
+      DELETE Statement 
+      SQL DELETE TABLE 
+      SQL DELETE ROW 
+      SQL DELETE All Rows 
+      DELETE Duplicate Rows 
+      SQL DELETE DATABASE 
+      SQL DELETE VIEW 
+      SQL DELETE JOIN 
+      
+      
+      SQL Join 
+      
+      
+      SQL JOIN 
+      SQL Outer Join 
+      SQL Left Join 
+      SQL Right Join 
+      SQL Full Join 
+      SQL Cross Join 
+      
+      
+      SQL Keys 
+      
+      
+      Primary Key 
+      Foreign Key 
+      Composite Key 
+      Unique Key 
+      Alternate Key 
+      
+      
+      Difference 
+      
+      
+      SQL vs NoSQL 
+      IN vs EXISTS 
+      Group By vs Order By 
+      WHERE vs HAVING 
+      Where condition in SQL 
+      
+      
+      SQL Injection 
+      
+      
+      SQL Injection 
+      
+      
+      Misc 
+      
+      
+      SQL Formatter 
+      SQL group by 
+      SQL add/drop/update column operation 
+      SQL CAST Function 
+      SQL Comments 
+      SQL CONCAT Function 
+      CTE SQL 
+      How to use distinct in SQL 
+      Joining Three or More Tables in SQL 
+      What is Web SQL 
+      How to create functions in SQL 
+      How to run SQL Script 
+      How to Delete Duplicate Rows in SQL 
+      Nth Highest salary 
+      12 Codd's Rules 
+      SQL EXCEPT 
+      Types of SQL JOIN 
+      Change datatype of column in SQL 
+      SQL Auto Increment 
+      SQL Like 
+      Commit and Rollback in SQL 
+      SQL Concatenate 
+      SQL get month from the date 
+      Savepoint in SQL 
+      SQL ORDER BY DATE 
+      TIME Datatype in SQL 
+      SQL BETWEEN 
+      SQL CRUD Operations 
+      SQL INDEX 
+      Scalar Functions in SQL 
+      SET Operators in SQL 
+      Types of SQL Commands 
+      TCL Commands in SQL 
+      SQL Subquery 
+      SQL View 
+      Constraints in SQL 
+      Pattern Matching in SQL 
+      SQL Date Functions 
+      DDL Commands in SQL 
+      DML Commands in SQL 
+      SQL CASE 
+      SQL Inner Join 
+      SQL IN Operator 
+      Check Constraint in SQL 
+      SQL CLAUSES 
+      SQL LOGICAL OPERATORS 
+      
+      
+      SQL MCQ 
+      
+      
+      SQL MCQ 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      Interview 
+      
+      
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      Quiz 
+      
+      
+      SQL Quiz 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Pattern Matching in SQL 
+            
+            LIKE clause is used to perform the pattern matching task in SQL. 
+            A WHERE clause is generally preceded by a LIKE clause in an SQL query. 
+            LIKE clause searches for a match between the patterns in a query with the pattern in the values present in an SQL table. If the match is successful, then that particular value will be retrieved from the SQL table. 
+            LIKE clause can work with strings and numbers. 
+            The LIKE clause uses the following symbols known as wildcard operators in SQL to perform this pattern-matching task in SQL. 
+            
+            To represent zero, one or more than one character, % (percentage) is used. 
+            To represent a single character _ (underscore) is used. 
+            Let us start with the syntax of a LIKE clause: 
+           
+            SELECT ColumnName1, ColumnName2 FROM TableName WHERE ColumnName LIKE [Expression];
+            Here, Expression refers to the pattern which we want to search for in the values of a table. This expression will include the wildcard operators such as '%' and '_'. To understand this concept practically, let us see some examples. Consider we have a table employee_details created into the database with the following data: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            We will use the same table in all the examples. MySQL database and its syntax is used while writing the queries in the following examples.   (A) Using LIKE clause with % (percentage) Example 1: Write a query to display employee details in which name starts with 'Pr'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Name LIKE 'Pr%';
+            We have used the SELECT query with the WHERE clause applied on the Name column followed by the LIKE clause. We have specified the expression value as 'Pr' in the LIKE clause, followed by the wildcard operator percent (%). So, according to the query, all the records that have names starting with the string 'Pr' followed by any other character will be considered a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            There are two records in the employee_details, which has names starting with the string 'Pr'. Example 2: Write a query to display employee details in which 'ya' is a substring in a name. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Name LIKE '%ya%';
+            We have used the SELECT query with the WHERE clause applied on the Name column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as 'ya' preceded and followed by the wildcard operator percent(%). So, according to the query, all the records which have names containing 'ya' as the substring, followed and preceded by any other character, will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            There are three records in the employee_details, which has names containing 'ya' as a substring. Example 3: Write a query to display employee details in which city name ends with 'i'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE City LIKE '%i';
+            We have used the SELECT query with the WHERE clause applied on the City column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as 'i' preceded by the wildcard operator percent (%). So according to the query, all the records with city names ending with 'i' preceded by any other character will be considered a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+            
+            There are two records in the employee_details, which has city names ending with 'i'. Example 4: Write a query to display employee details in which age number starts with 2. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Age LIKE '2%';
+            We have used the SELECT query with the WHERE clause applied on the Age column followed by the LIKE clause. We have specified the expression value as '2' in the LIKE clause, preceded by the wildcard operator percent (%). So, according to the query, all the records that have age numbers starting with '2' followed by any other number will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+            
+            There are three records in the employee_details, which has an age number starting with the digit '2'. Example 5: Write a query to display employee details in which salary contains a number 50 in between. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Salary LIKE '%50%';
+            We have used the SELECT query with the WHERE clause applied on the salary column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as '50' preceded and followed by the wildcard operator percent (%). So, according to the query, all the records that have salary numbers as 50 in between and preceded and followed by any other number will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+            
+            There is only one record in the employee_details, which has salary number '50' in between. (B) Using LIKE clause with _ (underscore) Example 1:  Write a query to display employee details in which city name starts with 'Na', ends with 'ik', and contains any single character between 'Na' and 'ik'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE City LIKE 'Na_ik';
+            We have used the SELECT query with the WHERE clause applied on the City column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as 'Na' followed by the wildcard operator underscore (_) with the string 'ik'. So, according to the query, all the records that have city names starting with 'Na' followed by any single character and ending with 'ik' will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+            
+            There are two records in the employee_details, which has city names starting with 'Na' and ending with 'ik'. Example 2: Write a query to display employee details in which salary contains a number starting with '3' succeeding any two digits and finally ends with '00'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Salary LIKE '3__00';
+            We have used the SELECT query with the WHERE clause applied on the Salary column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as '3' followed by the wildcard operator underscore (_) twice with the numbers '00'. So, according to the query, all the records that have a salary starting with 3 followed by any number and ending with '00' will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+            
+            There are two records in the employee_details, which has salary starting with the digit 3 and ending with double zero (00). (C) Using LIKE clause with % and _ operator in a single query Example 1: Write a query to display employee details in which employee name contains 'a' at fifth position. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Name LIKE '____a%';
+            We have used the SELECT query with the WHERE clause applied on the Name column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as the wildcard operator underscore (_) five times, followed by 'a' with another wildcard operator percentage (%). So according to the query, all the records which has names starting with any five alphabets followed by an alphabet 'a' and ending with any other alphabet will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            There are three records in the employee_details, which has a name starting with any five alphabet followed by 'a' and ending with any alphabet.   Example 2: Write a query to display employee details in which salary contains a substring '00' starting from the 5th position. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Salary LIKE '__00%';
+            We have used the SELECT query with the WHERE clause applied on the Salary column followed by the LIKE clause. In the LIKE clause, we have specified the expression value as the wildcard operator underscore (_) twice, followed by double zero ending with another wildcard operator percentage (%). So, according to the query, all the records that have salary starting with any two digits followed by a double zero and ending with any number will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              1 
+              Priyanka Bagul 
+              Nasik 
+              26000 
+              20 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            There are four records in the employee_details, which has salary starting with any two digits followed by double zero and ending with any number. (D) Using LIKE clause with NOT operator Example 1: Write a query to display employee details in which employee name is not like 'Priya'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE Name NOT LIKE 'Priya%';
+            We have used the SELECT query with the WHERE clause applied on the Name column followed by the LIKE clause preceded by NOT. In the LIKE clause, we have specified the expression value as 'Priya' followed by the wildcard operator percentage (%). So, according to the query, all the records that have names not starting with 'Priya' followed by any alphabet will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+              
+              4 
+              Neeta Desai 
+              Nasik 
+              39500 
+              21 
+              
+            
+            There are three records in the employee_details, which has names not starting with 'Priya' followed by any alphabets. Example 2: Write a query to display employee details in which employee name is not like any single character followed by 'Na' and ending with 'ik'. Query: 
+           
+            mysql> SELECT * FROM employee_details WHERE City NOT LIKE 'Na_ik';
+            We have used the SELECT query with the WHERE clause applied on the City column followed by the LIKE clause preceded by NOT. In the LIKE clause, we have specified the expression value as 'Na' followed by the wildcard operator underscore (_) with 'ik'. So, according to the query, all the records that have names not starting with 'Priya' followed by any alphabet will be considered as a part of the output. You will get the following table as output: 
+            
+            
+              
+              ID 
+              Name 
+              City 
+              Salary 
+              Age 
+              
+              
+              2 
+              Riya Sharma 
+              Mumbai 
+              72000 
+              28 
+              
+              
+              3 
+              Neha Verma 
+              Varanasi 
+              37000 
+              19 
+              
+              
+              5 
+              Priya Wagh 
+              Udaipur 
+              60000 
+              32 
+              
+            
+            There are three records in the employee_details, which has employee names not starting with 'Na' followed by any single alphabet and ending with 'ik'. 
+            
+            
+            Next Topic
+            SQL Date Functions 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,932 @@
+
+
+ 
+  
+  Compatibility mode in Excel - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Excel 
+       MS Word 
+       PowerPoint 
+       C 
+       C# 
+       Java 
+       PHP 
+       HTML 
+       SQL 
+       PL/SQL 
+       Python 
+       Web Services 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      MS Excel Tutorial 
+      
+      
+      Excel Tutorial 
+      Workbook Window 
+      Create & Open Workbooks 
+      MS Excel Online 
+      Excel vs Google Sheets 
+      Office Button 
+      Ribbon and Tabs 
+      Features of Tabs 
+      Quick Access Toolbar 
+      Mini Toolbar 
+      Title, Help, Zoom, View 
+      
+      
+      Excel Worksheet 
+      
+      
+      Worksheet, Row, Column 
+      Moving on Worksheet 
+      Enter Data 
+      Select Data 
+      Delete Data 
+      Move Data 
+      Copy Paste Data 
+      Spell Check 
+      Insert Symbols 
+      
+      
+      Excel Calculation 
+      
+      
+      Addition 
+      Sigma Addition 
+      Subtraction 
+      Calculate Average 
+      Sigma Average 
+      
+      
+      Excel Fill Handle 
+      
+      
+      Fill Handle 
+      Fill Handle with Text 
+      Text with Numbers 
+      Fill Handle with Dates 
+      
+      
+      Excel Formula 
+      
+      
+      Create Formula 
+      Fill Handle in Formula 
+      Relative Referencing 
+      Absolute Referencing 
+      Instruction for Typing 
+      Quick Excel Functions 
+      
+      
+      Excel IF 
+      
+      
+      If Function 
+      If with Calculations 
+      Excel COUNTIF 
+      Advanced If 
+      
+      
+      Excel Advanced 
+      
+      
+      Excel Macros 
+      Excel sumif 
+      Excel vlookup 
+      What is Pivot Table 
+      Excel ISNA 
+      Find & Remove Duplicates 
+      Create drop-down List 
+      Merge cells in Excel 
+      
+      
+      Misc 
+      
+      
+      How to enable macros in excel 
+      How to calculate age in Excel 
+      How to create a Pivot Table in excel 
+      How to enable the Developer Tab in Excel 
+      How to Calculate Standard Deviation in Excel 
+      How to Calculate Time Difference in Excel 
+      How to Freeze Cells in Excel 
+      What-if Analysis in Excel 
+      How To Insert Checkbox in MS Excel 
+      How To Insert PDF in MS Excel 
+      How to change the Date Format in Excel 
+      How to compare two Excel sheet 
+      How To Apply Filter In Excel 
+      How To Move Columns In Excel 
+      How to add or remove Hyperlink in Excel 
+      How to calculate Mean in Excel 
+      How to Separate text in Excel 
+      How to recover a macro in Excel 
+      How to recover a Corrupted Excel file 
+      How to recover an Excel file 
+      How to remove comma in Excel 
+      How to sum a column in Excel 
+      How to remove the filter in Excel 
+      How to remove gridlines in Excel 
+      How To Convert Excel To CSV 
+      How To Create Table in Excel 
+      How to Calculate IRR in Excel 
+      How to Count Characters in Excel 
+      How to Make an Excel Sheet 
+      How to Replace Words in Excel 
+      How to Sort by Date in Excel 
+      How to hide formulas in Excel 
+      How to subtract in excel 
+      How to use the IF function in Excel 
+      How To Create A Graph In Excel 
+      How to use concatenate in Excel 
+      How to spell check in Excel 
+      How to Change Lowercase to Uppercase in Excel 
+      How to Create a Dashboard in Excel 
+      How to Delete Duplicate Rows in Excel 
+      How to use sumifs formula in Excel 
+      How to add page break in Excel 
+      How to remove the page break in Excel 
+      How to Convert Columns to Rows in Excel 
+      How to Convert Number to Words in Excel 
+      How to Make a Table in Excel 
+      How to Put Tick Mark in Excel 
+      How to Remove Passwords from Excel File 
+      How to Wrap Text in Excel 
+      How to insert comments in Excel 
+      How to add/remove Password from Excel 
+      How to use MS Excel 
+      How to sort in Excel 
+      How to record a macro in Excel 
+      How Many Rows and Columns in Excel 2007 
+      How to Search in Excel 
+      How to add a text box in Excel 
+      How to save Excel document 
+      How to set background image in Excel 
+      How to use COUNTIF function in Excel 
+      How to import the data from CSV file in Excel 
+      How to unlock scroll lock in Excel 
+      What is a cell in Excel 
+      Uses of MS Excel 
+      How to Reduce Excel File Size 
+      How to Save Excel File as PDF 
+      ODS to Excel 
+      How to lock cells in Excel 
+      How to unlock cells in Excel 
+      Hyperlink in Excel 
+      How to compare two columns in Excel 
+      Conditional formatting in Excel 
+      How to define custom rules for conditional formatting in Excel 
+      Data validation in Excel 
+      Apply data validation in Excel 
+      Remove spaces in Excel 
+      How to Save Excel File 
+      Watermark in Excel 
+      How to unhide columns in Excel 
+      How to delete blank rows in Excel 
+      Excel round off formula 
+      How to Add Watermark in Excel 
+      How to Remove Watermark in Excel 
+      Excel Save As Shortcut 
+      Excel Shortcut Keys 
+      Excel match function 
+      HLOOKUP formula in Excel 
+      What is the file extension for Excel 
+      Offset function in Excel 
+      Compound interest formula in Excel 
+      Excel password remover 
+      FV() function in Excel 
+      MS Excel Definition 
+      What is Excel 
+      Excelity login 
+      Income tax calculating formula in Excel 
+      Google Excel Spreadsheet 
+      Online Excel Viewer 
+      Online Excel Editor 
+      How to make pie charts in excel 
+      How to calculate number of days between two dates in Excel 
+      Excel Download 
+      Download MS Office 2019 using command prompt 
+      Download Windows and MS office activator 
+      Excel Header and Footer 
+      Excel to JPG 
+      JPG to Excel 
+      Salary slip format in Excel 
+      How to count colored cells in Excel 
+      Excel Substring formula 
+      CSV to Excel 
+      Word to Excel 
+      Regression analysis in Excel 
+      How to calculate CAGR in Excel 
+      Excel to Word 
+      Percentage formula in Excel 
+      Mail merge in Excel 
+      How to unhide rows in Excel 
+      How to Split Cells in Excel 
+      Current Date in Excel 
+      Index function in Excel 
+      How to remove formula in Excel 
+      Excel Features 
+      Flash Fill in Excel 
+      How to convert Excel to JSON 
+      Convert Excel to JSON using VBA code 
+      Round formula in Excel 
+      Excel formula 
+      Ratio in Excel 
+      Excel Delete Row Shortcut 
+      Insert Column Excel Shortcut 
+      Excel not equal to operator 
+      Logical operators in Excel 
+      Delete Data in Excel 
+      Excel Slicer 
+      Excel Difference Between Two Dates 
+      Excel Filter Shortcut 
+      Excel Charts 
+      Excel text function 
+      Excel LOOKUP() function 
+      MS Excel Grade Formula 
+      10 Disadvantages of Microsoft Excel 
+      Shortcut Keys in Excel 2010 
+      Advanced Formulas in Excel 
+      Excel Merge Cells Shortcut 
+      Excel Paste Special Shortcut 
+      INDIRECT() function in Excel 
+      What is Relative Reference in Excel 
+      Excel Sum Shortcut 
+      Redo Shortcut in Excel 
+      Arrow key is not working in Excel 
+      Type of charts in Excel 
+      Nested If Function in Excel 
+      Lower() in excel 
+      Proper() in excel 
+      Types of References in Excel 
+      AND Function in Excel 
+      How to do subtraction in Excel 
+      Excel MAX() Function 
+      How to delete a Sheet in Excel 
+      How to Insert Chart in Excel 
+      Excel ISERROR() function 
+      Excel add-ins 
+      IF() in excel 
+      REPT() in excel 
+      What is Formatting in Excel 
+      OR Function in Excel 
+      Solver in Excel 
+      Excel AVERAGE() Function 
+      Excel MIN() Function 
+      Format Painter in Excel 
+      COUNTA function in excel 
+      Excel mid function 
+      Excel right function 
+      Excel Choose Function 
+      How to Use RIGHT Function in Excel 
+      NOT Function in Excel 
+      Excel COUNT() Function 
+      Line Chart Excel 
+      Excel RAND() function 
+      Excel find() function 
+      Excel tricks 
+      Dollar function in excel 
+      Left formula in excel 
+      Randbetween function in excel 
+      ROUNDDOWN Function in Excel 
+      Tenure Formula in Excel 
+      Excel TODAY and NOW 
+      How to unhide worksheet in Excel 
+      Freeze panes in Excel 
+      Excel PMT Function 
+      NETWORKDAYS Formula in Excel 
+      Pivot Chart in Excel 
+      Excel Hide Shortcut 
+      Unhide Shortcut in Excel 
+      Range in Excel 
+      Strikethrough in Excel 
+      How to password protect an Excel sheet 
+      Page Orientation in Excel 
+      Area Chart in Excel 
+      Bubble Chart Excel 
+      Autofill in Excel 
+      Convert rows to columns 
+      Analysis ToolPak 
+      Zoom In/Out in Excel 
+      Excel Format Painter Shortcut 
+      Excel Wrap Text Shortcut 
+      Uppercase Shortcut in Excel 
+      How to make a bar chart in Excel 
+      JSON to Excel 
+      Sparkline chart 
+      Why MS Excel is Important 
+      Waterfall Chart Excel 
+      Excel IRR formula 
+      Excel Pareto chart 
+      Column Chart 
+      Formatting Charts 
+      Pie Chart 
+      Doughnut Chart Excel 
+      Scatter Plot Excel 
+      Text to column in Excel 
+      Excel IFERROR() function 
+      Excel Median() function 
+      Gantt Chart Excel 
+      Consolidate data in Excel 
+      Excel Strikethrough Shortcut 
+      Flow Chart Excel 
+      Organization Chart Excel 
+      Excel box plot 
+      Excel Transpose Function 
+      Circular reference in Excel 
+      Excel Filter Function 
+      Excel VAR.S() Function 
+      Email Workbook 
+      Share Workbook 
+      Correlation in Excel 
+      How many sheets are there in excel workbook by default 
+      What is Mod Function in Excel 
+      Compatibility mode in Excel 
+      How to unprotect Excel sheet without password 
+      Adding Graphics 
+      Translate Worksheet 
+      Excel Large Function 
+      Excel Rank Function 
+      Cross Referencing in Excel 
+      Using Themes in Excel 
+      Excel IFNA Function 
+      Excel TRIM Function 
+      Excel DATEVALUE Function 
+      Excel SUBSTITUTE Function 
+      Special Symbols in Excel 
+      
+      
+      Shortcut Keys 
+      
+      
+      Excel Shortcut Keys 
+      
+      
+      Interview Questions 
+      
+      
+      Excel Interview 
+      HR Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Compatibility mode in Excel Compatibility mode is a viewing mode for the Excel files. An Excel document in compatibility mode is viewable by everyone in all versions of Excel (older and newer). There are several versions of Excel released till now. The document created in the newer version may not be compatible with the older release of Excel. It depends on the data stored in that Excel workbook. For example, a feature implemented in Excel 2016 is not compatible enough in Excel 2013 and would not display data properly. This chapter contains all the essential information for the compatibility mode along with the example using screenshots to step by step explanation. Compatibility issue An Excel file runs in compatibility mode after you save it in an older format of Excel. You can also face this compatibility issue if your Excel software has been upgraded to the newer version of Excel. But the files that you have created are not upgraded. You can run the compatibility checker to find which features and functionality are not available in the previously created file for the upgraded software. Thus, you can resolve it before sharing it with other users. Properties of compatibility mode for Excel file 
+            
+            If an Excel file is in compatibility mode, you can use any new feature or functionality that a newer version of Excel provides. 
+            If you want to use all the features of Excel, you have to convert the file from compatibility mode to normal mode by changing the Excel file format to the current application version. 
+            Save a document in compatibility mode Excel allows its users to save the document in compatibility mode. Compatibility mode applies to a file when you save a document for the older version of Excel. You can enter to compatibility mode when a document is created, especially for it.  To save an Excel document in compatibility mode, follow the steps below: Step 1: Create a document to learn how to save in compatibility mode. Step 2: Go to the File and then click Save as option.  The default format to save the Excel file is .xlsx if you simply save the file. Step 3: Choose a folder on your computer to save this Excel file.  The next step is to choose an older version format (.xls) of Excel to save the file in compatibility mode. Step 4: Click the Save as type dropdown list and choose Excel 97-2003 Workbook file format from the dropdown list.  Step 5: Provide the name of this file and click the Save button.  This Excel file is successfully saved in compatibility mode. Check if document is in compatibility mode An Excel file runs in compatibility mode after you save it in an older format of Excel. The Excel users can easily find if an Excel document is in compatibility mode for their Excel software. The document name at the top of the Excel file will look like this: filename.xls [Compatibility Mode] when you will open an Excel file. See that the below document is in compatibility mode, whose name is shown as testbook [Compatibility Mode] - Excel.  This was the document that we had created in previous steps. Find the compatibility mode of Excel document Suppose you receive an Excel document from someone else, you would not be aware of the version of Excel in which it has been created. By just seeing an Excel document, a user cannot find that which compatibility mode an Excel document is using. Excel offers a compatibility checker to check the compatibility mode of the document. Run this compatibility checker to check what compatibility mode is used by the document you have opened. It is helpful when you receive a document from someone else. Follow the steps to find the compatibility mode of an Excel document: Step 1: First of all, open the Excel document that is already in compatibility mode. We have this document that is already in compatibility mode.  Step 2: Now, click on the File option and then click the Info tab at the left of the Excel backscreen.  Step 3: Click the Check for Issues dropdown button and then select the Choose compatibility option from that list.  Step 4: You will get back to your document, where either convert your document in earlier version of Excel or use in the same format. See the compatibility mode that you are using for this document now. Leave the compatibility mode of Excel document When an Excel document is in compatibility mode, you might not be able to access all the functionality of your Excel in that workbook. So, to make the workbook fully functional, you can leave the compatibility mode to normal mode. This will help the users to get the fully functional and accessible Excel file. You should be aware with the following point before leaving the compatibility mode: 
+            
+            The user can leave the compatibility mode or you can say that convert the file from compatibility mode to normal mode. 
+            By leaving from the compatibility mode, you can get all the features enabled for your file according to the current version of Excel. 
+            After conversion, the original workbook will be deleted cannot be restored back. 
+            Do not convert the document from compatibility mode if any other user is also working with that workbook in an older Excel version. Once the user leaves the compatibility mode, it will permanently change to the normal mode. Hence, Excel will also issue a warning regarding this that the document might look different after conversion. Following are the steps to leave the compatibility mode: Step 1: Open the targeted compatibility mode Excel file. My targeted Excel file is in compatibility mode.  Step 2: Now, just go to the File tab and click the Info at the left side of the Excel backscreen.  Step 3: Click the Convert Compatibility Mode button to change the file to normal mode temporarily.  Step 4: Click the OK without doing anything on this popup, and your file will leave the compatibility mode.  Step 5: Excel will display you a popup message that your file is successfully changed to the current file format. Click Yes to reopen the workbook to get the enhanced feature.  Step 6: You can also see that the Compatibility Mode has been removed from file name. It can now run in a newer version of Excel with all functionality.  One can leave the compatibility mode works by following these steps. Turn off the compatibility mode Sometimes, users face a new issue that all the Excel documents are opening in compatibility mode. However, they do not have all files designed for an older version of Excel. This type of issue can occur because of the default setting of Excel that may set to use the workbook in compatibility mode being an older version. If you are also facing this type of issue, don't worry, this issue can be resolved. We will brief you step by step: Step 1: Open MS Excel or open an existing Excel document. Step 2: Click the File menu and navigate to the More… and then Options option on the left side of the Excel backscreen.  Step 3: An Excel Options window panel will open, where go to the Save tab on this panel.  Step 4: Click on the dropdown button next to the Save files in this format and choose Excel workbook (.xlsx) format from the list.  Step 5: In the end, hit OK to save this change.  Your file will now open normally in the current version of Excel. 
+            
+            
+            Next Topic
+            How to unprotect Excel sheet without password 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

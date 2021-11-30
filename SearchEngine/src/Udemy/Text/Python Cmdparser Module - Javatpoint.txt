@@ -1,0 +1,1154 @@
+
+
+ 
+  
+  Python Cmdparser Module - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Python 
+        If Else 
+        For Loop 
+        Function 
+        Array 
+        String 
+        Regex 
+        List 
+        Set 
+        Tuple 
+        Dictionary 
+        Programs 
+        Numpy 
+        Interview Questions 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Python Tutorial 
+      
+      
+      Python Tutorial 
+      Python Features 
+      Python History 
+      Python Applications 
+      Python Install 
+      Python Example 
+      Python Variables 
+      Python Data Types 
+      Python Keywords 
+      Python Literals 
+      Python Operators 
+      Python Comments 
+      Python If else 
+      Python Loops 
+      Python For Loop 
+      Python While Loop 
+      Python Break 
+      Python Continue 
+      Python Pass 
+      Python Strings 
+      Python Lists 
+      Python Tuples 
+      Python List Vs Tuple 
+      Python Sets 
+      Python Dictionary 
+      Python Functions 
+      Python Built-in Functions 
+      Python Lambda Functions 
+      Python Files I/O 
+      Python Modules 
+      Python Exceptions 
+      Python Date 
+      Python Regex 
+      Python Sending Email 
+      Read CSV File 
+      Write CSV File 
+      Read Excel File 
+      Write Excel File 
+      Python Assert 
+      Python List Comprehension 
+      Python Collection Module 
+      Python Math Module 
+      Python OS Module 
+      Python Random Module 
+      Python Statistics Module 
+      Python Sys Module 
+      Python IDEs 
+      Python Arrays 
+      Command Line Arguments 
+      Python Magic Method 
+      Python Stack & Queue 
+      PySpark MLlib 
+      Python Decorator 
+      Python Generators 
+      Web Scraping Using Python 
+      Python JSON 
+      Python Itertools 
+      Python Multiprocessing 
+      How to Calculate Distance between Two Points using GEOPY 
+      Gmail API in Python 
+      How to Plot the Google Map using folium package in Python 
+      Grid Search in Python 
+      Python High Order Function 
+      nsetools in Python 
+      Python program to find the nth Fibonacci Number 
+      Python OpenCV object detection 
+      Python SimpleImputer module 
+      Second Largest Number in Python 
+      
+      
+      Python OOPs 
+      
+      
+      Python OOPs Concepts 
+      Python Object Class 
+      Python Constructors 
+      Python Inheritance 
+      Abstraction in Python 
+      
+      
+      Python MySQL 
+      
+      
+      Environment Setup 
+      Database Connection 
+      Creating New Database 
+      Creating Tables 
+      Insert Operation 
+      Read Operation 
+      Update Operation 
+      Join Operation 
+      Performing Transactions 
+      
+      
+      Python MongoDB 
+      
+      
+      Python MongoDB 
+      
+      
+      Python SQLite 
+      
+      
+      Python SQLite 
+      
+      
+      Python Questions 
+      
+      
+      How to install Python in Windows 
+      How to reverse a string in Python 
+      How to read CSV file in Python 
+      How to run Python Program 
+      How to take input in Python 
+      How to convert list to string in Python 
+      How to append element in the list 
+      How to compare two lists in Python 
+      How to convert int to string in Python 
+      How to create a dictionary in Python 
+      How to create a virtual environment in Python 
+      How to declare a variable in Python 
+      How to install matplotlib in Python 
+      How to install OpenCV in Python 
+      How to print in same line in Python 
+      How to read JSON file in Python 
+      How to read a text file in Python 
+      How to use for loop in Python 
+      Is Python scripting language 
+      How long does it take to learn Python 
+      How to concatenate two strings in Python 
+      How to connect Database in Python 
+      How to convert list to dictionary in Python 
+      How to declare a global variable in Python 
+      How to reverse a number in Python 
+      What is an object in Python 
+      Which is the fastest implementation of Python 
+      How to clear Python shell 
+      How to create a DataFrames in Python 
+      How to develop a game in Python 
+      How to install Tkinter in Python 
+      How to plot a graph in Python 
+      How to print pattern in Python 
+      How to remove an element from a list in Python 
+      How to Round number in Python 
+      How to sort a dictionary in Python 
+      Strong Number in Python 
+      How to Convert Text to Speech in Python  
+      Bubble Sort in Python 
+      Logging in Python 
+      Insertion Sort in Python 
+      Binary Search in Python 
+      Linear Search in Python 
+      Python vs Scala 
+      Queue in Python 
+      Stack in Python 
+      Heap Sort in Python 
+      Palindrome program in python 
+      Program of Cumulative sum in python 
+      Merge Sort in Python 
+      Python Matrix 
+      Python Unit Testing 
+      Forensics & Virtualization 
+      Best Books to Learn Python 
+      Best Books to Learn Django 
+      GCD of two number in python 
+      Python Program to generate a Random String 
+      How to One Hot Encode Sequence Data in Python 
+      How to write square root in Python 
+      Pointer in Python 
+      Python 2D array 
+      Python Memory Management 
+      Python Libraries for Data Visualization 
+      How to call a function in Python 
+      Git Modules in Python 
+      Top Python Frameworks for Gaming 
+      Python Audio Modules 
+      Wikipedia Module in Python 
+      Python random randrange() 
+      Permutation and Combination in Python 
+      Getopt module in Python 
+      Merge two Dictionaries in Python 
+      Multithreading in Python 3 
+      Static in Python 
+      How to get the current date in Python 
+      argparse in Python 
+      Python tqdm Module 
+      Caesar Cipher in Python 
+      Tokenizer in Python 
+      How to add two lists in Python 
+      Shallow Copy and Deep Copy in Python 
+      Atom Python 
+      Contains in Python 
+      Label Encoding in Python 
+      Django vs. Node JS 
+      Python Frameworks 
+      How to create a vector in Python using NumPy 
+      Pickle Module of Python 
+      How to convert Bytes to string in Python 
+      Python Program to Find Anagram 
+      How to convert List to Set 
+      Python vs JavaScript 
+      Python Holidays Module 
+      FuzzyWuzzy Python Library 
+      Dask Python 
+      Dask Python (Part 2) 
+      Mode in Python 
+      Menu-Driven Programs in Python 
+      Python Array vs. List 
+      What is duck typing in Python 
+      PEP 8 in Python 
+      Python User Groups 
+      Basic Commands in Python 
+      F String in Python 
+      How Brython Works 
+      How to use Brython in the Browser 
+      Arima Model in Python 
+      Python Modulus Operator 
+      MATLAB vs. Python 
+      Method Resolution Order in Python 
+      Monkey Patching in Python 
+      Python __call__ method 
+      Python heapq module 
+      Python Substring 
+      Project ideas for Python Beginners 
+      Python Faker 
+      Fizz-Buzz Program in Python 
+      Tabula Python 
+      Python Program to Print Prime Factor of Given Number 
+      Python Program to Print Pascal Triangle 
+      NamedTuple in Python 
+      OrderedDict in Python 
+      T-Test in Python 
+      Python return statement 
+      Getter and Setter in Python 
+      Enum class in Python 
+      Destructors in Python 
+      Curve Fit in Python 
+      Converting CSV to JSON in Python 
+      Underscore (_) in Python 
+      Set vs List in Python 
+      Locating and Executing Modules 
+      Flatten List in Python 
+      Pair Plot in Python 
+      Data Hiding in Python 
+      Python Program to Find Intersection of Two Lists 
+      How to Create Requirements.txt File in Python 
+      Tic-Tac-Toe in Python 
+      Python Asynchronous Programming - asyncio and await 
+      Python main() function 
+      strftime() function in Python 
+      Verbose Flag in Python Regex 
+      Python AST Module 
+      Python Requests Module - HTTP Request 
+      Shutil Module in Python 
+      Python epoch to Datetime 
+      Python del Statement 
+      Looping technique in Python 
+      Metaprogramming with Metaclasses in Python 
+      Precision Handling in Python 
+      Python Join List 
+      strip() function in Python 
+      Gradient Descent Algorithm 
+      Prettytable in Python 
+      Sentiment Analysis in Python 
+      Convert Python List to NumPy Arrays 
+      Traceback in Python 
+      Time clock() Method in Python 
+      Deque in Python 
+      Dictionary Comprehension in Python 
+      Python Data Analytics 
+      Python seek() Method 
+      Ternary Operator in Python 
+      How to Calculate the Area of the Circle using Python 
+      How to Write in Text File using Python 
+      Python KeyError 
+      Python super() Function 
+      max() function in Python 
+      Fraction Module in Python 
+      Popular Python Framework to Build API 
+      How to Check Python version 
+      Python %s - String Formatting 
+      Python seaborn Library 
+      Countplot in Python 
+      range() Vs. Xrange() Python 
+      Wordcloud Package in Python 
+      Convert dataframe into list 
+      ANOVA Test in Python 
+      Python program to find compound interest 
+      Ansible in Python 
+      Python Important Tips and Tricks 
+      Python Coroutines 
+      Double Underscores in Python 
+      re.search() VS re.findall() in Python Regex 
+      How to install statsmodels in Python 
+      Cos in Python 
+      vif in Python 
+      __add__ Method in Python 
+      Ethical Hacking with Python 
+      Class Variable vs Instance 
+      Perfect Number in Python 
+      EOL in Python 
+      Python Program to convert Hexadecimal String to Decimal String 
+      Different Methods in Python for Swapping Two Numbers without using third variable 
+      How to Change Plot Size in Matplotlib 
+      How to Get the Zip Code in Python 
+      Eel in Python 
+      Assignment Operators in Python 
+      Speech Recognition python 
+      Yield vs Return in Python 
+      Graphene Python 
+      Name Mangling in Python 
+      Python combination without itertools 
+      Python Comprehensions 
+      InfluxDB in Python 
+      Kafka Tutorial in Python 
+      Augmented Assignment Expressions in Python 
+      Python (x,y) Software 
+      Python Event-Driven programming 
+      Python Semaphore 
+      Python sorted reverse 
+      Automorphic Number in Python 
+      sizeof in Python 
+      Python Program for accepting the strings which contains all vowels 
+      Class-based views vs Function-Based Views 
+      How to handle cookies in Django 
+      agg() function in Python 
+      Amicable Numbers in Python 
+      Context Manager in Python 
+      Create BMI Calculator using Python 
+      String to Binary in Python 
+      What is script mode in Python 
+      Best Python libraries for Machine Learning 
+      Python Program to Display Calendar of Given Year 
+      How to open URL in Python 
+      Broken Pipe Error in Python 
+      Code Template for Creating Objects in Python 
+      Python program to calculate the best time to buy and sell stock 
+      Tuple to String in Python 
+      Kadane's Algorithm in Python 
+      Loggers in Django 
+      Weather App in Django 
+      Missing Data Conundrum: Exploration and Imputation Techniques 
+      Different Methods of Array Rotation in Python 
+      What is Operator Overloading in Python 
+      Defaultdict in Python 
+      Operator Module in Python 
+      Spinner Widget in the kivy Library of Python 
+      Number Plate Recognition using Python 
+      Obfuscating a Python program 
+      Convert string to dictionary in Python 
+      Convert string to JSON in Python 
+      DBSCAN algorithm in Python 
+      How to Write a Code for Printing the Python Exception/Error Hierarchy 
+      Principal Component Analysis (PCA) with Python 
+      Python Program to Find Number of Days Between Two Given Dates 
+      Object Recognition using Python 
+      Python VLC module 
+      Set to list in Python 
+      String to int in Python 
+      Internet of Things with Python 
+      Python pysftp module 
+      Amazing hacks of Python 
+      Average of list in Python 
+      Check Installed Modules in Python 
+      choice() in Python 
+      Convert List to dataframe in Python 
+      Convert String to Float in Python 
+      Decorators with Parameters in Python 
+      Dynamic Typing in Python 
+      Fabs in Python 
+      How to Remove Decimal in Python 
+      Python Closure 
+      Python Glob Module 
+      Writing a Python Module 
+      Modules vs Packages in Python 
+      SNMP module in Python 
+      Average of list in Python 
+      Append vs Extend vs Insert in Python 
+      How to Remove Duplicates from a list in Python 
+      Remove Multiple Characters from a String in Python 
+      Shuffle in Python 
+      floor() and ceil() Functions in Python 
+      sqrt(): Math Function of Python 
+      Python yfinance Module 
+      Difflib module in Python 
+      Convert the Column Type from String to Datetime Format in Pandas DataFrame 
+      Python wxPython Module 
+      Random Uniform Python 
+      Relational Operators in Python 
+      String to List in Python 
+      Chatbot in Python 
+      How to Convert float to int in Python 
+      Multiply All Elements in list of Python 
+      module vs function in Python 
+      Reverse a tuple in Python 
+      Tuple to Dictionary in Python 
+      datetime.timedelta() Function of Python 
+      Python Bio Module 
+      Python Dash Module 
+      How to Select rows in Pandas DataFrame Based on Conditions 
+      Typecasting in Python 
+      Dateutil module in Python 
+      Getpass module in Python 
+      Python Wand library 
+      Generate a QR Code using Python 
+      Best Python PDF Library 
+      Python Cachetools Module 
+      Python Cmdparser Module 
+      Python Dash module 
+      Python Emoji Module 
+      Python Nmap Module 
+      Python PyLab Module 
+      Working with PDF files in Python 
+      PDF Handling in Python 
+      Manipulating PDF using Python 
+      List All Functions from a Python Module 
+      Python list of Dictionaries 
+      Python Shelve Module 
+      Creating Interactive PDF forms using Python 
+      Python Newspaper Module 
+      How to Connect Wi-Fi using Python 
+      Best Python Libraries used for Ethical Hacking 
+      
+      
+      Python Tkinter (GUI) 
+      
+      
+      Python Tkinter 
+      Tkinter Button 
+      Tkinter Canvas 
+      Tkinter Checkbutton 
+      Tkinter Entry 
+      Tkinter Frame 
+      Tkinter Label 
+      Tkinter Listbox 
+      Tkinter Menubutton 
+      Tkinter Menu 
+      Tkinter Message 
+      Tkinter Radiobutton 
+      Tkinter Scale 
+      Tkinter Scrollbar 
+      Tkinter Text 
+      Tkinter Toplevel 
+      Tkinter Spinbox 
+      Tkinter PanedWindow 
+      Tkinter LabelFrame 
+      Tkinter MessageBox 
+      
+      
+      Python Web Blocker 
+      
+      
+      Introduction 
+      Building Python Script 
+      Script Deployment on Linux 
+      Script Deployment on Windows 
+      
+      
+      Python MCQ 
+      
+      
+      Python MCQ 
+      Python MCQ Part 2 
+      
+      
+      Related Tutorials 
+      
+      
+      NumPy Tutorial 
+      Django Tutorial 
+      Flask Tutorial 
+      Pandas Tutorial 
+      Pytorch Tutorial 
+      Pygame Tutorial 
+      Matplotlib Tutorial 
+      OpenCV Tutorial 
+      Openpyxl Tutorial 
+      Python CGI 
+      Python Design Pattern 
+      
+      
+      Python Programs 
+      
+      
+      Python Programs 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Python Cmdparser Module Sometimes, we have to write commands using the command prompt terminal, and this terminal which interprets the inline commands written for various purposes, is called command interpreters. We can write and build a framework which we will use to write line-oriented command interpreters, and for achieving this task, sometimes we have to use classes. A class that provides a framework for command interpreters so that we can write line-oriented commands is known as the cmd class. Now, many of us wonder what the uses of cmd class and how it is helpful to us are. A cmd class is very useful for creating prototypes, test harnesses that will be later wrapped, and administrative tools present in a more sophisticated manner. Therefore, to perform all these tasks and create these tools, we have to use a command-line interface, and this can be easily built using a cmd class. The use of command-line interpreters has become very rare because Graphical User Interface (GUI) in most applications has been increased nowadays. Therefore, users are more attracted to using these applications only instead of using a simple line-oriented command interpreter but using a command-line interface has its own advantages. Following are the several advantages of using a command-line interface or interpreter: 
+            
+            These command-line interpreters don't have any GUI-based interfaces; that's why CPU and memory resources far from cheaper computers are also available. 
+            Creating a text-oriented document with the command-line interpreter is very easy, and we can create it very fastly. 
+            As the command line interpreters are portable, therefore, we can run them anywhere on any device. 
+            It is very easy to open a file in the command line interpreter, and this method is way faster than getting into drivers and searching into the menu for files. 
+            These are some major advantages of command-line interpreters, and that's why most users even today prefer them over many GUI-based applications whose interfaces are way more attractive. After seeing these advantages, we can understand and conclude that it is how much useful to build a command-line interpreter with the cmd class. It will not only help us in our professional life and professional tasks, but it will also be helpful in our personal projects. Many of us would be surprised to hear that the cmd class is also present in the Python packages, and therefore it is possible to create a framework for command-line interface using a Python program. We are going to learn about the Cmdparser module in Python in which we will see the use of cmd class, and we will build a framework for command line interpreter using this module. Cmdparser Module in Python Cmdparser Module is a Python package that comes with two sub-modules in it which are very useful for us to write text command parsers and create a framework for the command-line interface. Cmdparser Module also uses the cmd class & functions of this in it, and we will use these functions in the programs to build a parse tree to perform name matching operation. Cmdparser Module in Python uses the built-in cmd module of Python and calls it for creating a framework for the command-line interface. The Cmdparser Module of Python contains the two sub-modules or Python packages that are following: 
+            
+            datetimeparse 
+            cmdparser 
+            In this tutorial, we will learn about the implementation and working of both sub-modules of the Cmdparser package and use them in a Python program to create a simple parse tree. Cmdparser Module: Installation If we want to use functions and sub-modules of the Cmdparser Module in a Python program, we should ensure that this module is present in our system because it is not an in-built module of Python. Therefore, if the Cmdparser Module is not already present in our system, we have to install it to move further with the implementation part of its sub-modules. We can install the Cmdparser Module through various installation processes, but here we will use the pip installer to perform this task because it is the easiest and simplest way to do it. Write the following command in the terminal shell to install the Cmdparser Module in our system through pip installer: 
+           
+            
+pip install cmdparser
+
+            After writing the command given above, we have to press the enter key and wait for some time as it will take a while to install this module successfully.  The Cmdparser Module is now successfully installed in our system as we can see that, and now, we can work with it and its sub-modules by importing it into the program. We will first look at the overview and implementation of the cmdparser sub-module of the Cmdparser package, and then we will go through the overview of the datetimeparser sub-module. Cmdparser Module: Overview of cmdparser sub-module: cmdparser sub-module from the Cmdparser package of Python allows us to create parse tree structure with the help of textual command specifications like the one given below: 
+           
+            
+fries( scam | ham [eggs] | peas [omelette [...]] )
+
+            We can check this particular command string using the parse tree structures. The cmdparser sub-module also allows us to validate partial command strings' completion to be listed for the parse tree. Let's understand this concept by making a parse tree from a Python program using the textual command specification we have listed above. Example: Look at the following Python program where we have created a parse tree from the cmdparser sub-module and then matched tokens with the parse tree: 
+           
+            
+# Import cmdparser package from cmdparser module
+from cmdparser import cmdparser
+# Creating a sample parse tree
+parseTree = cmdparser.parse_spec("abcd (efgh|ijkl) <mnop> [qrst]")
+# Matching tokens from parse tree
+parseTree.check_match(("abcd", "efgh", "something"))
+parseTree.check_match(("abcd", "efgh", "anything", "uvwx")) # Will throw an error 
+# Completing parse tree in the output
+parseTree.get_completions(("abcd", ))
+
+            Output: 
+           
+            "command invalid somewhere in: 'uvwx'"
+{'efgh', 'ijkl'}
+
+              Explanation: We have first imported the cmdparser sub-module from the cmdparser package to create a parse tree with tokens in the program. After that, we have created a sample parse tree in the parseTree variable using the parse_spec() function from the cmdparser package. Inside the parse tree, we have only defined static tokens and used them later for matching. After that, we used the parse_match() of the cmdparser package to match the tokens from the parse tree we defined. In the second matching, the parse tree will throw an error as "uvwx" is not a static token defined in the package. In last, we used the parse_completions() function to complete the rest of the tokens from the parse tree. This function will print the rest of the static tokens of the parse tree in the output. Now, as we can see in the output, the rest of the static tokens from the parse is printed, and before that, an error for the "uvwx" token is also printed. We used static tokens in the parse, which we have created in the example given above, but we can also create parse trees with the help of dynamic tokens using the Cmdparser Module. While we are creating a parse tree having dynamic tokens in it, we can set up the dynamic tokens where the list of strings is accepted, and this list of strings in the dynamic tokens changes over time. We can also use dynamic tokens where the arbitrary string or list of strings can be accepted while we are dealing with a fixed token string. If we want to look at the specifications of all the classes available in the Cmdparser Module for setting up dynamic tokens, we can check the docstrings of the module. Here, we will understand this by creating a parse tree with dynamic tokens using the Cmdparser Module classes. Look at the following example where we created a parse tree using dynamic tokens from the Cmdparser Module. Example 2: Look at the following Python program where we created a parse tree with dynamic tokens to accept a dynamic list of strings: 
+           
+            
+# Import cmdparser from Cmdparser module
+from cmdparser import cmdparser
+# Class having fruit names as token
+class tokenOfFruit(Cmdparser.Token):
+	def get_values(self, context):
+		return ["watermelon", "melon", "orange", "grapes", "lichi", "mango", "apple", "banana", "strawberry", "guava", "greenapple"] # Tokens of class with fruit name values
+# Default function for identification
+def myIdentfictionFactory(token):
+	if token == "number":
+		return Cmdparser.IntegerToken(token) # If token is a number
+	elif token == "fruit":
+		return tokenOfFruit(token) # If token is a fruit name
+	return None
+# Creating a parse tree with fruit and number token in it
+parseTree = Cmdparser.parse_spec("keep <number> <fruit> packet", ident_factory = myIdentfictionFactory)
+cmdFields = {}
+# Matching with the parse tree
+parseTree.check_match(("keep", "26", "mango", "packet"), fields = cmdFields)
+parseTree.check_match(("keep", "all", "orange", "packet"))
+# Getting completions from the parse tree
+parseTree.get_completions(("keep", "24",))
+
+            Output: 
+           
+            "'all' is not a valid 
+             
+              "
+{'apple',
+ 'banana',
+ 'grapes',
+ 'greenapple',
+ 'guava',
+ 'lichi',
+ 'mango',
+ 'melon',
+ 'orange',
+ 'strawberry',
+ 'watermelon'}
+
+             
+              Explanation: After importing the cmdparser sub-module package from the Cmdparser Module, we created a class with fruit names as tokens of the parse tree in the program. The fruit names we defined inside the 'tokenOfFurits' class will work as the static tokens of the parse tree, and for retrieving the values of fruit names from the class, we have defined a default function inside the class. Then, we have defined another function (myIdentificationFactory) that will accept dynamic tokens in the parse tree, and it will accept numeric values (numbers) as matching values. To set up dynamic tokens with a numeric value, we used IntegerToken() function from the Cmdparser package, and thus it will make this a dynamic token that will accept any integer value as a matching value from the parse tree. After that, we used parse_spec() function to create the parse tree having number and fruit as dynamic tokens and "keep" & "packet" as static tokens. Then, we used the check_match() function and gave token values in it to perform the matching operation from the parse tree. We can see in the output that when we haven't provided a number, it will throw a matching error. In last, when we used the get_completions() function with the parse tree, all the fruit values used as a token is printed in the output. Classes in the cmdparser sub-module: Following are the four classes available inside the cmdparser sub-package that are suitable as base classes for creating user-derived tokens (static as well as dynamic): 
+            
+            Token: Token is the base class from the cmdparser sub-package, and it is useful when one of the sets of fixed values is suitable in the parse tree we are creating. In the parse tree, where the list of string values can be static or dynamic, this class can be used to create and accept tokens. We have to override the get_values() method if we want to return a list of valid tokens as a list of strings from the parse tree in the result. 
+            AnyToken: This base class is similar to the Token class of the sub-package, but any string is to be expected in the result while using the AnyToken base class. If we want to perform validation of the tokens, we can do this via the validate() method available in the sub-module. But, before using the validate() method, we should note that validate() method doesn't allow the tab-completion because it is called only during the entire command is parsed. AnyToken base class also requires the convert() method while calling the list of strings (both static and dynamic). 
+            AnyTokenString: The AnyTokenString base class is very similar to the AnyToken class in terms of the function performed by both base classes. But, in the AnyTokenString class, all the remaining items from the values we defined on the command line are consumed during the parsing. 
+            Subtree: The subtree base class from the cmdparser sub-package matches the entire command from the parse tree we created and stores the result of the matching process against the specified token in the dictionary fields. While using the subtree class, we have to pass the command specification string to the class's constructor, and then type classes will override the convert() method to interpret the command. 
+            Cmdparser Module: Overview of datetimeparser Sub-Module: Datetimeparser sub-module from the Cmdparser package adds some specific token types in the creation of parse tree, which will help to parse human-readable specifications related to date and time format. In the datetimeparser sub-module, both absolute and relative types of dates are specified, and these types can be converted to other instances also whenever required and as appropriate. Following are the examples of types of dates in the datetimeparser sub-module: 
+            
+            02 November 2020 
+            01: 28 on Thursday last week etc. 
+            Classes in the datetimeparser Sub-Module: Following are the five classes available inside the datetimeparser sub-package of the Cmdparser Module that is suitable as base classes for creating user-derived tokens (static as well as dynamic): 
+            
+            TimeSubtree: TimeSubtree class of the datetimeparser sub-module is used to parse the time of a day given in 12 or 24-hour format inside a parse tree. The returned value after parsing the time given is as returned with the help of time.localtime() function. 
+            DateSubtree: DateSubtree class from the datetimeparser sub-module acts similar to the TimeSubtree class. DateSubtree class includes literals for the different date formats, i.e., days from a week related to the current day (Monday last week), literal date (01-11-2021), descriptive date version (01-November-2021), as well as today, yesterday, and tomorrow along with parse calendar dates. The return value in the case of DateSubtree class is the datetime.date instance from the parse tree. 
+            DateTimeSubtree: After reading the description of the first two base classes of the datetimeparser sub-module, we can get a basic idea of DateTimeSubtree class by its name. DateTimeSubtree class parses specifications from both date and time given in the parse tree. DateTimeSubtree accepts a combination of TimeSubtree and DateSubtree phrases or a phrase of RelativeTimeSubtree class (We will read next about this class) to parse the specifications of both date and time. In the case of a phrase is from RelativeTimeSubtree class, the time is taken in the relative format according to the time given. The returned value for the DateTimeSubtree class is the datetime.datetime instance value. 
+            RelativeTimeSubtree: The RelativeTimeSubtree base class from the datetimeparser sub-module returns from the wrapper class as its return value. The RelativeTimeSubtree class is used to parse phrases given in the format, which indicates a time offset from the present time, such as two days ago, three hours ago, etc. The returned value in the case of RelativeTimeSubtree class is an instance of cmdparser.DateDelta class (A wrapper class from the datetimeparser sub-module) contains a datetime.timedelta instance. 
+            CLassCalenderPeriodSubtree: The CLassCalenderPeriodSubtree is the last base class from the datetimeparser sub-module, and it parses the specification of calender periods given from the past. The return value in the case of this class is 2-tuple of instances from the datetime.date, which represents the following in the return value format: ranges of date specified from the calendar, where the first date from the range is inclusive and the second date from the range is exclusive etc. 
+            Conclusion We read about Cmdparser Module in this tutorial, and we learned how we could create an interface of cmdparser using the packages of this Module. We learned about both cmdparser and datetimeparser sub-modules of the Cmdparser package in Python and how these are helpful in creating tokens for the parse tree. In last, we looked at the base classes of both sub-modules of the Cmdparser package and learned how these classes are helpful in parsing the specifications given for a token of the parse tree. 
+            
+            
+            Next Topic
+            Python Dash module 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

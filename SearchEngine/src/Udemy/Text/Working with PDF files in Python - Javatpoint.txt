@@ -1,0 +1,1424 @@
+
+
+ 
+  
+  Working with PDF files in Python - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Python 
+        If Else 
+        For Loop 
+        Function 
+        Array 
+        String 
+        Regex 
+        List 
+        Set 
+        Tuple 
+        Dictionary 
+        Programs 
+        Numpy 
+        Interview Questions 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Python Tutorial 
+      
+      
+      Python Tutorial 
+      Python Features 
+      Python History 
+      Python Applications 
+      Python Install 
+      Python Example 
+      Python Variables 
+      Python Data Types 
+      Python Keywords 
+      Python Literals 
+      Python Operators 
+      Python Comments 
+      Python If else 
+      Python Loops 
+      Python For Loop 
+      Python While Loop 
+      Python Break 
+      Python Continue 
+      Python Pass 
+      Python Strings 
+      Python Lists 
+      Python Tuples 
+      Python List Vs Tuple 
+      Python Sets 
+      Python Dictionary 
+      Python Functions 
+      Python Built-in Functions 
+      Python Lambda Functions 
+      Python Files I/O 
+      Python Modules 
+      Python Exceptions 
+      Python Date 
+      Python Regex 
+      Python Sending Email 
+      Read CSV File 
+      Write CSV File 
+      Read Excel File 
+      Write Excel File 
+      Python Assert 
+      Python List Comprehension 
+      Python Collection Module 
+      Python Math Module 
+      Python OS Module 
+      Python Random Module 
+      Python Statistics Module 
+      Python Sys Module 
+      Python IDEs 
+      Python Arrays 
+      Command Line Arguments 
+      Python Magic Method 
+      Python Stack & Queue 
+      PySpark MLlib 
+      Python Decorator 
+      Python Generators 
+      Web Scraping Using Python 
+      Python JSON 
+      Python Itertools 
+      Python Multiprocessing 
+      How to Calculate Distance between Two Points using GEOPY 
+      Gmail API in Python 
+      How to Plot the Google Map using folium package in Python 
+      Grid Search in Python 
+      Python High Order Function 
+      nsetools in Python 
+      Python program to find the nth Fibonacci Number 
+      Python OpenCV object detection 
+      Python SimpleImputer module 
+      Second Largest Number in Python 
+      
+      
+      Python OOPs 
+      
+      
+      Python OOPs Concepts 
+      Python Object Class 
+      Python Constructors 
+      Python Inheritance 
+      Abstraction in Python 
+      
+      
+      Python MySQL 
+      
+      
+      Environment Setup 
+      Database Connection 
+      Creating New Database 
+      Creating Tables 
+      Insert Operation 
+      Read Operation 
+      Update Operation 
+      Join Operation 
+      Performing Transactions 
+      
+      
+      Python MongoDB 
+      
+      
+      Python MongoDB 
+      
+      
+      Python SQLite 
+      
+      
+      Python SQLite 
+      
+      
+      Python Questions 
+      
+      
+      How to install Python in Windows 
+      How to reverse a string in Python 
+      How to read CSV file in Python 
+      How to run Python Program 
+      How to take input in Python 
+      How to convert list to string in Python 
+      How to append element in the list 
+      How to compare two lists in Python 
+      How to convert int to string in Python 
+      How to create a dictionary in Python 
+      How to create a virtual environment in Python 
+      How to declare a variable in Python 
+      How to install matplotlib in Python 
+      How to install OpenCV in Python 
+      How to print in same line in Python 
+      How to read JSON file in Python 
+      How to read a text file in Python 
+      How to use for loop in Python 
+      Is Python scripting language 
+      How long does it take to learn Python 
+      How to concatenate two strings in Python 
+      How to connect Database in Python 
+      How to convert list to dictionary in Python 
+      How to declare a global variable in Python 
+      How to reverse a number in Python 
+      What is an object in Python 
+      Which is the fastest implementation of Python 
+      How to clear Python shell 
+      How to create a DataFrames in Python 
+      How to develop a game in Python 
+      How to install Tkinter in Python 
+      How to plot a graph in Python 
+      How to print pattern in Python 
+      How to remove an element from a list in Python 
+      How to Round number in Python 
+      How to sort a dictionary in Python 
+      Strong Number in Python 
+      How to Convert Text to Speech in Python  
+      Bubble Sort in Python 
+      Logging in Python 
+      Insertion Sort in Python 
+      Binary Search in Python 
+      Linear Search in Python 
+      Python vs Scala 
+      Queue in Python 
+      Stack in Python 
+      Heap Sort in Python 
+      Palindrome program in python 
+      Program of Cumulative sum in python 
+      Merge Sort in Python 
+      Python Matrix 
+      Python Unit Testing 
+      Forensics & Virtualization 
+      Best Books to Learn Python 
+      Best Books to Learn Django 
+      GCD of two number in python 
+      Python Program to generate a Random String 
+      How to One Hot Encode Sequence Data in Python 
+      How to write square root in Python 
+      Pointer in Python 
+      Python 2D array 
+      Python Memory Management 
+      Python Libraries for Data Visualization 
+      How to call a function in Python 
+      Git Modules in Python 
+      Top Python Frameworks for Gaming 
+      Python Audio Modules 
+      Wikipedia Module in Python 
+      Python random randrange() 
+      Permutation and Combination in Python 
+      Getopt module in Python 
+      Merge two Dictionaries in Python 
+      Multithreading in Python 3 
+      Static in Python 
+      How to get the current date in Python 
+      argparse in Python 
+      Python tqdm Module 
+      Caesar Cipher in Python 
+      Tokenizer in Python 
+      How to add two lists in Python 
+      Shallow Copy and Deep Copy in Python 
+      Atom Python 
+      Contains in Python 
+      Label Encoding in Python 
+      Django vs. Node JS 
+      Python Frameworks 
+      How to create a vector in Python using NumPy 
+      Pickle Module of Python 
+      How to convert Bytes to string in Python 
+      Python Program to Find Anagram 
+      How to convert List to Set 
+      Python vs JavaScript 
+      Python Holidays Module 
+      FuzzyWuzzy Python Library 
+      Dask Python 
+      Dask Python (Part 2) 
+      Mode in Python 
+      Menu-Driven Programs in Python 
+      Python Array vs. List 
+      What is duck typing in Python 
+      PEP 8 in Python 
+      Python User Groups 
+      Basic Commands in Python 
+      F String in Python 
+      How Brython Works 
+      How to use Brython in the Browser 
+      Arima Model in Python 
+      Python Modulus Operator 
+      MATLAB vs. Python 
+      Method Resolution Order in Python 
+      Monkey Patching in Python 
+      Python __call__ method 
+      Python heapq module 
+      Python Substring 
+      Project ideas for Python Beginners 
+      Python Faker 
+      Fizz-Buzz Program in Python 
+      Tabula Python 
+      Python Program to Print Prime Factor of Given Number 
+      Python Program to Print Pascal Triangle 
+      NamedTuple in Python 
+      OrderedDict in Python 
+      T-Test in Python 
+      Python return statement 
+      Getter and Setter in Python 
+      Enum class in Python 
+      Destructors in Python 
+      Curve Fit in Python 
+      Converting CSV to JSON in Python 
+      Underscore (_) in Python 
+      Set vs List in Python 
+      Locating and Executing Modules 
+      Flatten List in Python 
+      Pair Plot in Python 
+      Data Hiding in Python 
+      Python Program to Find Intersection of Two Lists 
+      How to Create Requirements.txt File in Python 
+      Tic-Tac-Toe in Python 
+      Python Asynchronous Programming - asyncio and await 
+      Python main() function 
+      strftime() function in Python 
+      Verbose Flag in Python Regex 
+      Python AST Module 
+      Python Requests Module - HTTP Request 
+      Shutil Module in Python 
+      Python epoch to Datetime 
+      Python del Statement 
+      Looping technique in Python 
+      Metaprogramming with Metaclasses in Python 
+      Precision Handling in Python 
+      Python Join List 
+      strip() function in Python 
+      Gradient Descent Algorithm 
+      Prettytable in Python 
+      Sentiment Analysis in Python 
+      Convert Python List to NumPy Arrays 
+      Traceback in Python 
+      Time clock() Method in Python 
+      Deque in Python 
+      Dictionary Comprehension in Python 
+      Python Data Analytics 
+      Python seek() Method 
+      Ternary Operator in Python 
+      How to Calculate the Area of the Circle using Python 
+      How to Write in Text File using Python 
+      Python KeyError 
+      Python super() Function 
+      max() function in Python 
+      Fraction Module in Python 
+      Popular Python Framework to Build API 
+      How to Check Python version 
+      Python %s - String Formatting 
+      Python seaborn Library 
+      Countplot in Python 
+      range() Vs. Xrange() Python 
+      Wordcloud Package in Python 
+      Convert dataframe into list 
+      ANOVA Test in Python 
+      Python program to find compound interest 
+      Ansible in Python 
+      Python Important Tips and Tricks 
+      Python Coroutines 
+      Double Underscores in Python 
+      re.search() VS re.findall() in Python Regex 
+      How to install statsmodels in Python 
+      Cos in Python 
+      vif in Python 
+      __add__ Method in Python 
+      Ethical Hacking with Python 
+      Class Variable vs Instance 
+      Perfect Number in Python 
+      EOL in Python 
+      Python Program to convert Hexadecimal String to Decimal String 
+      Different Methods in Python for Swapping Two Numbers without using third variable 
+      How to Change Plot Size in Matplotlib 
+      How to Get the Zip Code in Python 
+      Eel in Python 
+      Assignment Operators in Python 
+      Speech Recognition python 
+      Yield vs Return in Python 
+      Graphene Python 
+      Name Mangling in Python 
+      Python combination without itertools 
+      Python Comprehensions 
+      InfluxDB in Python 
+      Kafka Tutorial in Python 
+      Augmented Assignment Expressions in Python 
+      Python (x,y) Software 
+      Python Event-Driven programming 
+      Python Semaphore 
+      Python sorted reverse 
+      Automorphic Number in Python 
+      sizeof in Python 
+      Python Program for accepting the strings which contains all vowels 
+      Class-based views vs Function-Based Views 
+      How to handle cookies in Django 
+      agg() function in Python 
+      Amicable Numbers in Python 
+      Context Manager in Python 
+      Create BMI Calculator using Python 
+      String to Binary in Python 
+      What is script mode in Python 
+      Best Python libraries for Machine Learning 
+      Python Program to Display Calendar of Given Year 
+      How to open URL in Python 
+      Broken Pipe Error in Python 
+      Code Template for Creating Objects in Python 
+      Python program to calculate the best time to buy and sell stock 
+      Tuple to String in Python 
+      Kadane's Algorithm in Python 
+      Loggers in Django 
+      Weather App in Django 
+      Missing Data Conundrum: Exploration and Imputation Techniques 
+      Different Methods of Array Rotation in Python 
+      What is Operator Overloading in Python 
+      Defaultdict in Python 
+      Operator Module in Python 
+      Spinner Widget in the kivy Library of Python 
+      Number Plate Recognition using Python 
+      Obfuscating a Python program 
+      Convert string to dictionary in Python 
+      Convert string to JSON in Python 
+      DBSCAN algorithm in Python 
+      How to Write a Code for Printing the Python Exception/Error Hierarchy 
+      Principal Component Analysis (PCA) with Python 
+      Python Program to Find Number of Days Between Two Given Dates 
+      Object Recognition using Python 
+      Python VLC module 
+      Set to list in Python 
+      String to int in Python 
+      Internet of Things with Python 
+      Python pysftp module 
+      Amazing hacks of Python 
+      Average of list in Python 
+      Check Installed Modules in Python 
+      choice() in Python 
+      Convert List to dataframe in Python 
+      Convert String to Float in Python 
+      Decorators with Parameters in Python 
+      Dynamic Typing in Python 
+      Fabs in Python 
+      How to Remove Decimal in Python 
+      Python Closure 
+      Python Glob Module 
+      Writing a Python Module 
+      Modules vs Packages in Python 
+      SNMP module in Python 
+      Average of list in Python 
+      Append vs Extend vs Insert in Python 
+      How to Remove Duplicates from a list in Python 
+      Remove Multiple Characters from a String in Python 
+      Shuffle in Python 
+      floor() and ceil() Functions in Python 
+      sqrt(): Math Function of Python 
+      Python yfinance Module 
+      Difflib module in Python 
+      Convert the Column Type from String to Datetime Format in Pandas DataFrame 
+      Python wxPython Module 
+      Random Uniform Python 
+      Relational Operators in Python 
+      String to List in Python 
+      Chatbot in Python 
+      How to Convert float to int in Python 
+      Multiply All Elements in list of Python 
+      module vs function in Python 
+      Reverse a tuple in Python 
+      Tuple to Dictionary in Python 
+      datetime.timedelta() Function of Python 
+      Python Bio Module 
+      Python Dash Module 
+      How to Select rows in Pandas DataFrame Based on Conditions 
+      Typecasting in Python 
+      Dateutil module in Python 
+      Getpass module in Python 
+      Python Wand library 
+      Generate a QR Code using Python 
+      Best Python PDF Library 
+      Python Cachetools Module 
+      Python Cmdparser Module 
+      Python Dash module 
+      Python Emoji Module 
+      Python Nmap Module 
+      Python PyLab Module 
+      Working with PDF files in Python 
+      PDF Handling in Python 
+      Manipulating PDF using Python 
+      List All Functions from a Python Module 
+      Python list of Dictionaries 
+      Python Shelve Module 
+      Creating Interactive PDF forms using Python 
+      Python Newspaper Module 
+      How to Connect Wi-Fi using Python 
+      Best Python Libraries used for Ethical Hacking 
+      
+      
+      Python Tkinter (GUI) 
+      
+      
+      Python Tkinter 
+      Tkinter Button 
+      Tkinter Canvas 
+      Tkinter Checkbutton 
+      Tkinter Entry 
+      Tkinter Frame 
+      Tkinter Label 
+      Tkinter Listbox 
+      Tkinter Menubutton 
+      Tkinter Menu 
+      Tkinter Message 
+      Tkinter Radiobutton 
+      Tkinter Scale 
+      Tkinter Scrollbar 
+      Tkinter Text 
+      Tkinter Toplevel 
+      Tkinter Spinbox 
+      Tkinter PanedWindow 
+      Tkinter LabelFrame 
+      Tkinter MessageBox 
+      
+      
+      Python Web Blocker 
+      
+      
+      Introduction 
+      Building Python Script 
+      Script Deployment on Linux 
+      Script Deployment on Windows 
+      
+      
+      Python MCQ 
+      
+      
+      Python MCQ 
+      Python MCQ Part 2 
+      
+      
+      Related Tutorials 
+      
+      
+      NumPy Tutorial 
+      Django Tutorial 
+      Flask Tutorial 
+      Pandas Tutorial 
+      Pytorch Tutorial 
+      Pygame Tutorial 
+      Matplotlib Tutorial 
+      OpenCV Tutorial 
+      Openpyxl Tutorial 
+      Python CGI 
+      Python Design Pattern 
+      
+      
+      Python Programs 
+      
+      
+      Python Programs 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Working with PDF files in Python As in today's world, we all are familiar with PDF files because they are one of the most widely used digital formats of documents. The full form of pdf is "Portable Document Format," which uses the ".pdf" extension to save the document files. This is independent of software-hardware or operating systems, and it can be used for presenting or exchanging documents reliably. PDF was invented by Adobe, and this is now an open standard maintained by the international organization for standardization. The PDF file can also contain links or buttons form fields, audio-video, or other business logic for better interaction with the users or the viewers. In this tutorial, we will discuss how we can perform various operations: 
+            
+            How to extract text from PDF 
+            How to rotate pages of the PDF 
+            How to merge two PDF together 
+            How to split a PDF file 
+            How to add watermarks to the PDF pages 
+            We can perform all these operations by using a simple Python script. Installation For interacting with PDF files, we will be using a 3rd party module, that is, PyPDF2. The PyPDF2 is an inbuilt library of Python, which is used as a PDF toolkit. This module is capable of: 
+            
+            It can extract the information of the documents such as title, author name, and many more. 
+            It can split the pages of the document file. 
+            It can crop the pages of the PDF document file. 
+            It can you merge the multiple pages into a single page inside the PDF document file. 
+            It can encrypt and decrypt PDF files. 
+            For installing PyPDF2 we can use the following command from the command line: 
+           
+            
+!pip3 install PyPDF2
+
+            The name of this module is case-sensitive, so we have to make sure that the "y" is in lowercase and everything in the name of the module is in uppercase. Operations on PDF File using PyPDF2 Module In this section, we will discuss various operations that we can perform on PDF files by using the PyPDF2 module in Python. 1. How to Extract Text from PDF Document File. We can extract the text from the PDF file by using the PyPDF2 module in Python by using the following approach. Approach: For extracting the text from the PDF file using Python, we will follow the following steps: Step 1: We will open the PDF file named 'exp.pdf' in binary mode and save the file object as "pdf_File_Object". 
+           
+            
+pdf_File_Object = open('exp.pdf', 'rb')
+
+            Step 2: We will create an object "pdf_Reader" for the "PDFFileReader" class of the "PyPDF2" module, and then we will pass the PDF file object and get the object for reading the PDF. 
+           
+            
+pdf_Reader = PDF.PdfFileReader(pdf_File_Object)
+
+            Step 3: For getting the number of pages in the PDF document file, we will use the numPages 
+           
+            
+print("No. of pages in the given PDF file: ", pdf_Reader.numPages)
+
+            Step 4: We will create an object "page_Object" for PageObject class of the "PyPDF2" The PDF reader object has the function "getPage()" which takes the page number as an argument and returns the object of the page. 
+           
+            
+page_Object = pdf_Reader.getPage(0)
+
+            Step 5: We will use extract text which is a function of page object for extracting text from the PDF page. Step 6: At last, we will close the PDF document file object. 
+           
+            
+pdf_File_Object.close()
+
+            Code: 
+           
+            
+import PyPDF2 as PDF
+ 
+# Here we will create a pdf file object
+pdf_File_Object = open('exp.pdf', 'rb')
+ 
+# Here, we will creat a pdf reader object
+pdf_Reader = PDF.PdfFileReader(pdf_File_Object)
+ 
+# Now we will print number of pages in pdf file
+print("No. of pages in the given PDF file: ", pdf_Reader.numPages)
+ 
+# Here, create a page object
+page_Object = pdf_Reader.getPage(0)
+ 
+# Now, we will extract text from page
+print(page_Object.extractText())
+ 
+# At last, close the pdf file object
+pdf_File_Object.close()
+
+            Output: 
+           
+            No. of pages in the given PDF file:  10
+ 
+GUIDELINES
+*
+ 
+ 
+FOR 
+ 
+RE
+-
+OPENING OF CAMPUS 
+ 
+IN VIEW OF COVID
+-
+19 PANDEMIC
+ 
+(FOR 
+STUDENTS
+)
+ 
+2021
+-
+22
+
+            This has printed the text of the first page of the PDF file in output. 2. How to Rotate PDF File Pages We can rotate the pages of PDF file using PyPDF2 module in Python. Approach: For rotating the pages of the given pdf file, we will be using the following steps: Step 1: We will create a PDF reader object for the original PDF. Step 2: We will write the rotated pages to the new PDF file. For writing Into the PDF file, we will use the object of the pdfFileWriter class of the PyPDF2 
+           
+            
+pdf_Writer = PDF.PdfFileWriter()
+
+            Step 3: We will iterate each page of the original PDF document file. We will get page object getPage() function of the PDF reader class. then we will rotate the page by using the rotateClockwise() function of the page object class. 
+           
+            
+for page in range(pdf_Reader.numPages):
+page_Object = pdf_Reader.getPage(page)
+page_Object.rotateClockwise(rotation_1)
+pdf_Writer.addPage(page_Object)
+
+            Step 4: We will add pages PDF writer object using the addPage() function of the PDF writer class by passing the rotated page object. Step 5: Then, we will write the PDF pages to the newly created PDF file. We can do this by opening the new file object and writing PDF pages by using the write() function off the PDF writer object. 
+           
+            
+new_File = open(new_File_Name, 'wb')
+pdf_Writer.write(new_File)
+
+            Step 6: We will close the original PDF file object end the newly created new file object. 
+           
+            
+pdf_File_Object.close()
+new_File.close()
+
+            Code: 
+           
+            
+# Frst, we will import the modules
+import PyPDF2 as PDF
+ 
+def PDF_rotate(original_File_Name, new_File_Name, rotation_1):
+ 
+    # Then, we will create a pdf File object of original pdf
+    pdf_File_Object = open(original_File_Name, 'rb')
+    
+    # Then, we will create a pdf Reader object
+    pdf_Reader = PDF.PdfFileReader(pdf_File_Object)
+ 
+    # Then we will create a pdf writer object for new pdf
+    pdf_Writer = PDF.PdfFileWriter()
+     
+    # Now, we will rotate each page of the PDF document
+    for page in range(pdf_Reader.numPages):
+ 
+        # Then, we will create rotated page object
+        page_Object = pdf_Reader.getPage(page)
+        page_Object.rotateClockwise(rotation_1)
+ 
+        # We will add the rotated page object to pdf writer
+        pdf_Writer.addPage(page_Object)
+ 
+    # Now we will open a new pdf file object
+    new_File = open(new_File_Name, 'wb')
+     
+    # We will write the rotated pages to new file
+    pdf_Writer.write(new_File)
+ 
+    # At last, we will close the original pdf file object
+    pdf_File_Object.close()
+     
+    # And now, we will close the new pdf file object
+    new_File.close()
+     
+ 
+def main():
+ 
+    # original pdf file name
+    original_File_Name = 'exp.pdf'
+    
+    # new pdf file name
+    new_File_Name = 'rotated_exp.pdf'
+     
+    # rotation angle
+    rotation_1 = 270
+   
+    # calling the PDF_rotate function
+    PDF_rotate(original_File_Name, new_File_Name, rotation_1)
+     
+if __name__ == "__main__":
+    # calling the main function
+    main()
+
+            Output: Original File:  Rotated File:  3. How to Merge two PDF Files. We can merge two PDF files by using the PyPDF2 module in Python. Approach: For merging two PDF files in Python, we will be using the following steps: Step 1: For merging two PDf files, we will be using a pre-built class, pdfFileMerger of the PyPDF2 
+           
+            
+We will create an object called pdf_Merger of PDF merger class:
+pdf_Merger = PDF.PdfFileMerger()
+
+            Step 2: Then, we will append the file object of each PDF to the PDF merger object using the append() 
+           
+            
+for pdf in pdf:
+pdf_Merger.append(pdf)
+
+            Step 3: At last, we will write the pdf pages to the output pdf file by using the write method of the PDF merger object. 
+           
+            
+with open(output_1, 'wb') as K:
+pdf_Merger.write(K)
+
+            Code: 
+           
+            
+# First, we will import the modules
+import PyPDF2 as PDF
+ 
+ 
+def PDF_merge(pdf, output_1):
+    # Here, we will create pdf file merger object
+    pdf_Merger = PDF.PdfFileMerger()
+ 
+    # now, we will append pdfs one by one
+    for pdf in pdf:
+        pdf_Merger.append(pdf)
+ 
+    # then, we will write combined pdf to output pdf file
+    with open(output_1, 'wb') as K:
+        pdf_Merger.write(K)
+ 
+ 
+def main():
+    # here, we will select the pdf files to merge
+    pdf = ['exp.pdf', 'rotated_exp.pdf']
+ 
+    # Here, we will create output pdf file name
+    output_1 = 'combined_exp.pdf'
+ 
+    # Now, we will call pdf merge function
+    PDF_merge(pdf = pdf, output_1 = output_1)
+ 
+ 
+if __name__ == "__main__":
+    # At last we will call the main function
+    main()
+
+            Output: The output of this code will be in the form of a combined PDF named combined_exp.pdf, which is obtained by merging exp.pdf and rotate_exp.pdf file.  4. How to Split PDF File We can split the PDF document file in Python using the PyPDF2 module according to our requirements. In this code, we will not use a new function or class, and we will be using simple logic and iterations. The splits of the pdf will be created according to the list of splits_1 we would be passing.  Code: 
+           
+            
+# First, we will import the modules
+import PyPDF2 as PDF
+ 
+def PDF_split(pdf_1, splits_1):
+    # here, we will create an input pdf file object
+    pdf_File_Object = open(pdf_1, 'rb')
+     
+    # here, we will create pdf reader object
+    pdf_Reader = PDF.PdfFileReader(pdf_File_Object)
+     
+    # Now we will start indexing of first slice
+    start = 0
+     
+    # then we will start indexing of last slice
+    end = splits_1[0]
+     
+     
+    for g in range(len(splits_1) + 1):
+        # we will create pdf writer object for (g + 1)th split
+        pdf_Writer = PDF.PdfFileWriter()
+         
+        # output pdf file name
+        output_pdf = pdf_1.split('.pdf')[0] + str(g) + '.pdf'
+         
+        # Now, we will add pages to pdf writer object
+        for page_1 in range(start, end):
+            pdf_Writer.addPage(pdf_Reader.getPage(page_1))
+         
+        # Here, we will write split pdf pages to pdf file
+        with open(output_pdf, "wb") as K:
+            pdf_Writer.write(K)
+ 
+        # Now, we will interchange page split start position for next split
+        start = end
+        try:
+            # then, we will set split end position for next split
+            end = splits_1[g + 1]
+        except IndexError:
+            # then, we will set split end position for last split
+            end = pdf_Reader.numPages
+         
+    # Now, we will close the input pdf file object
+    pdf_File_Object.close()
+             
+def main():
+    # pdf file to split
+    pdf_1 = 'exp.pdf'
+     
+    # split page positions
+    splits_1 = [2,4]
+     
+    # we will call PDF_split function to split pdf
+    PDF_split(pdf_1, splits_1)
+ 
+if __name__ == "__main__":
+    # at last, we will call the main function
+    main()
+
+            Output: The output of this code will generate 3 new pdf files, which are the split files of the main pdf. We can check in the PDF folder. It contains 3 new pdf files.   5. How to Add Watermark to PDF Pages. We can add watermark to the pages of PDF document files using the PyPDF2 module in Python. Approach: In this, we will follow every step same as the page rotation example, the only difference is: 
+           
+            
+wm_page_Object = add_watermark(user_watermark, pdf_Reader.getPage(page_1))
+
+            The page object will be converted into the watermark page object by using the add_watermark() function. For understanding what the add_watermark() function do, we can see the following example: 
+           
+            
+wm_File_Object = open(wm_File, 'rb')
+pdf_Reader = PDF.PdfFileReader(wm_File_Object) 
+page_Object.mergePage(pdf_Reader.getPage(0))
+wm_File_Object.close()
+return page_Object
+
+            In this, first, we created a pdf reader object of the water_mark.pdf file. For the passed page object, we have used the mergepage() function, which has passed the page object of the first page of the water_mark pdf reader object. This will cause an overlay of water_mark pdf over the passed page object.  Code: 
+           
+            
+# First, we will import the modules
+import PyPDF2 as PDF
+ 
+def add_watermark_1(wm_File, page_Object):
+    # here, we will open watermark pdf file
+    wm_File_Object = open(wm_File, 'rb')
+    
+    # Now, we will create pdf reader object of watermark pdf file
+    pdf_Reader = PDF.PdfFileReader(wm_File_Object)
+     
+    # then, we will merge watermark pdf's first page with passed page object.
+    page_Object.mergePage(pdf_Reader.getPage(3))
+     
+    # Here, we will close the watermark pdf file object
+    wm_File_Object.close()
+     
+    # we will return watermarked page object
+    return page_Object
+ 
+def main():
+    # Now, we will create watermark pdf file name
+    user_watermark = 'water_mark.pdf'
+    
+    # original pdf file name
+    original_File_Name = 'exp.pdf'
+     
+    # new pdf file name
+    new_File_Name = 'watermarked_exp.pdf'
+     
+    # now, we will create pdf File object of original pdf
+    pdf_File_Object = open(original_File_Name, 'rb')
+     
+    # here, we will create a pdf Reader object
+    pdf_Reader = PDF.PdfFileReader(pdf_File_Object)
+ 
+    # create a pdf writer object for new pdf
+    pdf_Writer = PDF.PdfFileWriter()
+     
+    # add watermark to each page
+    for page_1 in range(pdf_Reader.numPages):
+        # Now, we will create watermarked page object
+        wm_page_Object = add_watermark(user_watermark, pdf_Reader.getPage(page_1))
+         
+        # then, we will add watermarked page object to pdf writer
+        pdf_Writer.addPage(wm_page_Object)
+ 
+    # new pdf file object
+    new_File = open(new_File_Name, 'wb')
+     
+    # we will then write watermarked pages to new file
+    pdf_Writer.write(new_File)
+ 
+    # close the original pdf file object
+    pdf_File_Object.close()
+    # close the new pdf file object
+    new_File.close()
+ 
+if __name__ == "__main__":
+    # call the main function
+    main()
+
+            Output: water_mark.pdf:  user_watermark.pdf file:  The above code will generate a user_Watermark.pdf file which has the watermark of the water_mark.pdf file. Conclusion In this tutorial, we have discussed how we can operate different functions on PDF files using Python and its modules' functions and methods. 
+            
+            
+            Next Topic
+            PDF Handling in Python 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

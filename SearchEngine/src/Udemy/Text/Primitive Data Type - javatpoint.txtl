@@ -1,0 +1,83 @@
+Primitive Data Type - javatpoint ? SCROLL TO TOP Home Data Structure C C++ C# Java SQL HTML CSS JavaScript Ajax Android Cloud Design Pattern Quiz Projects Interview Q Comment Forum DS Tutorial DS Tutorial DS Introduction DS Algorithm Asymptotic Analysis DS Pointer DS Structure DS Array DS Array 2D Array DS Linked List Linked List Types of Linked List Singly Linked List Doubly Linked List Circular Linked List Circular Doubly List Skip list in DS DS Stack DS Stack Array Implementation Linked List Implementation DS Queue DS Queue Types of Queues Array Representation Linked List Representation Circular Queue Deque Priority Queue DS Tree DS Tree Binary Tree Binary Search Tree AVL Tree B Tree B+ Tree DS Graph DS Graph Graph Implementation BFS Algorithm DFS Algorithm Spanning Tree DS Searching Linear Search Binary Search DS Sorting Bubble Sort Bucket Sort Comb Sort Counting Sort Heap Sort Insertion Sort Merge Sort Quick Sort Radix Sort Selection Sort Shell Sort Bitonic Sort Cocktail Sort Cycle Sort Tim Sort Differences Linear vs non-linear Array vs linked list Stack vs queue Linear vs Circular Queue Linear Search vs Binary Search Singly Linked List vs Doubly Linked List Binary vs Binary Search Tree Tree vs Graph Binary Search tree vs AVL tree Red Black Tree vs AVL tree B tree vs B+ tree Quick Sort vs Merge Sort BFS vs DFS Stack vs Heap Bubble sort vs. Selection sort Stack vs Array Full Binary Tree vs Complete Binary Tree Binary Tree vs B Tree Primitive vs non-primitive data structure Data types vs data structure Misc Trie Data Structure Heap Data Structure Splay Tree Fundamental of the DS Hash Table Preorder Traversal Tree Traversal Implementation of Queue using Stacks Implementation of Stack using Queue Binomial Heap Postorder Traversal Sparse Matrix Detect loop in a Linked list Inorder Traversal Convert Infix to Postfix notation Convert infix to prefix notation Conversion of Prefix to Postfix expression Conversion of Postfix to Prefix expression Remove the loop in a Linked List Implement two stacks in an array Reverse a stack using recursion Detect cycle in a directed graph Optimal Binary Search Tree Priority Queue using Linked list Balanced Binary Search Tree Boundary Traversal of Binary tree Diagonal Traversal of Binary Tree Vertical Traversal of a Binary tree Graph Algorithms Time Complexity of Sorting Algorithms Applications of Stack in Data Structure Dictionary Data Structure Structured Data and Unstructured Data List Data Structure Types of Tree in Data Structure Abstract data type in data structure Disjoint set data structure Dynamic Data Structure Hash Function in Data Structure Complete Binary Tree Threaded Binary Tree Diameter of Binary Tree Height of Binary Tree Inorder Tree Traversal without Stack Enumeration of Binary Trees Maximum Width of a Binary Tree Types of Graph in Data Structure Primitive Data Type Semi-Structured Data Advance Data Structures Sort an Array of 0's, 1's, and 2's Stock Span Problem Implementation of Deque by Circular Array Rotate Operation in Linked List DS MCQ Data Structure MCQ next ? ? prev Primitive Data Type Primitive is the most fundamental data type usable in the Programming language. There are eight primitive data types: Boolean, byte, character, short, int, long, float, and double. In a Programming language, these data types serve as the foundation for data manipulation. All basic data types are built-in into the majority of programming languages. Furthermore, many languages provide a set of composite data types. Primitive data types may or may not have a one-to-one correspondence with objects in the computer's memory, depending on the language and its implementation. However, operations on basic primitive data types are typically thought to be the fastest language constructs. For example, integer addition can be performed as a single machine instruction, and some processors provide specific instructions for processing character sequences with a single instruction. The C standard specifically states that "a 'plain' int object has the natural size suggested by the execution environment's architecture". On a 32-bit architecture, this means that int will most likely be 32 bits long. Value types are always basic primitive types. Most programming languages do not allow programmes to change the behaviour or capabilities of primitive (built-in or basic) data types. Smalltalk is an exception, allowing all data types to be extended within a programme, expanding the operations that can be performed on them or even redefining the built-in operations. Such data types serve a single purpose: they contain pure, simple values of a type. Because these data types are defined by default in the Programming languages type system, they come with a set of predefined operations. Such primitive types cannot have new operations defined. There are three more types of primitives in the Java type system: Short, int, long, float, and double are the numerical primitives. These primitive data types can only store numbers. Simple arithmetic (addition, subtraction, etc.) or comparison operations are associated with such data types (greater than, equal to, etc.) Textual primitives include bytes and characters. Characters are stored in these primitive data types (that can be Unicode alphabets or even numbers). Textual manipulation operations are associated with data types (comparing two words, joining characters to make words, etc.). However, byte and char can perform arithmetic operations as well. Primitives with boolean and null values: boolean and null. The actual number of primitive data types available is determined by the programming language that is used. Strings, for instance, are a composite but built-in data type in C#, even as they are integrated to a primitive data type that is both basic and built-in in advanced accents of BASIC and JavaScript. Considering the Java Programming language, the primitive data structures include integers, floats, characters, and pointers. In general, there are 8 data types. They are as follows: Boolean data type byte data type char data type short data type int data type long data type float data type double data type Boolean Data Type A Boolean data type comprises a single bit of information that can only store true or false values. True or false conditions are tracked using this data type, and Boolean data types are also used to store the result of various conditions. Let's write a small program and see how it works. 
+class booleanDataType{
+public static void main(String args[]){
+// Setting the values for boolean data type
+boolean Java = true;
+boolean Python = false;
+System.out.println(Java);   // Output will be true
+System.out.println(Python);  // Output will be false
+}
+}
+ Byte Data Type The byte data type is an illustration of a primitive data type. It is a signed two's complement integer of 8 bits, and it stores whole numbers ranging from -128 to 127. A byte data type is useful for saving large amounts of memory. Let's write a small program and see how it works. 
+class ByteExample {
+public static void main(String[] args) {
+byte n, a;
+n = 127;
+a=177;
+System.out.println(n); // prints 127
+System.out.println(a); // throws an error because it cannot store more than 127 bits
+}
+}
+ Char Data Type A single character is stored in this data type, and the character must be enclosed in single quotes, such as 'E' or 'e'. You can also use ASCII values to display specific characters. Let's look at a simple example to see how it works. 
+public class PrimitiveDataType{
+	public static void main(String[] args) {
+		//storing a single character
+		char  alpha = 'J';
+ 		//storing the ASCII of the respective character or alphabets
+		char a = 65;
+		char b = 66, 
+		char c = 67;		
+		System.out.println(alpha); // prints J
+		System.out.println(a); // Displays 65
+		System.out.println(b); // Displays 66
+		System.out.println(c); // Displays 67
+
+	}//end of main function
+}//end of PrimitiveDataType class
+ Short Data Type A short data type is larger than a byte but smaller than an integer, and it saves values ranging from -32,768 to 32767. This data type's default size is 2 bytes. Let's look at an example to understand the short data type better. 
+public class PrimitiveDataType{
+	public static void main(String[] args) {
+		short n= 3435,
+		System.out.println(n); // prints the value present in n i.e. 3435
+
+	}//end of main function
+}//end of PrimitiveDataType class
+ Int Data Type This data type is capable of storing whole numbers ranging from -2147483648 to 2147483647. When creating variables with numeric values, int is generally the preferred data type. 
+public class PrimitiveDataType{
+	public static void main(String[] args) {
+		int num = 5464564;
+		System.out.println(num); // prints 5464564
+	}//end of main function
+}//end of PrimitiveDataType class
+ Long Data Type This data type is a two's complement 64-bit integer. A long data type's default size is 64 bits, and its value ranges from -263 to 263-1. 
+public class PrimitiveDataType{
+	public static void main(String[] args) {		
+		// a variable named num of long is created to store the long value
+		long num = 15000000000L;
+		// The output of the below System.out.println will print 15000000000 that is the value stored in num
+		System.out.println(num); 
+		// a variable named num1 of long is created to store the long value
+		long num1 = 897155L;
+		// The output of the below System.out.println will print 897155 that is the value stored in num1
+		System.out.println(num); 
+	}//end of main function
+}//end of PrimitiveDataType class
+ Float Data Type It would be best to use a floating-point type when you need a number with a decimal, such as 8.88 or 3.14515. This data type supports fractional numbers ranging from 3.4e038 to 3.4e+038. It is important to note that the value should end with an "f." Let's look at a specific example to understand this data type better. 
+public class PrimitiveDataType{
+	public static void main(String[] args) {		
+		// a variable named num of float type is created to store the float value
+		float num =67;
+		// The output of the below System.out.println will print 897155 that is the value stored in num
+		System.out.println(num); // prints the floating number value
+	}//end of main function
+}//end of PrimitiveDataType class
+ Double Data Type The double data type can store fractional numbers from 1.7e-308 to 1.7e+308. Note that you should end the value with a "d": 
+public class PrimitiveDataType{
+	public static void main(String[] args) {		
+		// a variable named num of double type is created to store the double value
+		double num = 79.678d;		
+		// The output of the below System.out.println will print 79.678 that is the value stored in num
+		System.out.println(num); // prints the double number value 
+	}//end of main function
+}//end of PrimitiveDataType class
+ Next Topic # ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

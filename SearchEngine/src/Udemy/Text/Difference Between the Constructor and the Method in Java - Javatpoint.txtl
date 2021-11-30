@@ -1,0 +1,82 @@
+Difference Between the Constructor and the Method in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Difference Between the Constructor and the Method in Java As we know that Java strictly follows the OOPs concepts. All the variables and methods must be presented in the classes. Java classes contain both the constructor and the method. Before understanding the difference between constructor and method, let's recall the constructor and method. Constructor The constructor and method both are different from each other. However, the constructor is used for initializing the object's state. Constructors can also contain data members and member functions in the same way as the method contains. The data members and member functions of the constructor are executed at the time of creating an object of that class. The new keyword plays an important role in creating an instance of the class. Let's take an example and understand how we can create an object of the class and call it the constructor of the class. ConstructorExample.java 
+// import required classes and packages
+package javaTpoint.JavaExample;
+import java.io.*;
+// create a class to understand the working of the constructor
+class TestConstructor {
+	// declare data member
+	int number;
+	String name;
+	// TestConstructor() constructor invoke at the time of creating object of TestConstructorn class 
+	TestConstructor()
+	{
+		System.out.println("Default constructor of TestConstructor class call.");
+	}
+	TestConstructor(int number, String name)
+	{
+		// initialize data member
+		this.number = number;
+		this.name = name;
+		System.out.println("Parameterized constructor of TestConstructor class call.");
+	}
+}
+// create ConstructorExample class that invoke the constructor of TestConstructor
+public class ConstructorExample {
+	// main() method start
+	public static void main(String[] args)
+	{
+		// this would invoke the default constructor.
+		TestConstructor obj1 = new TestConstructor();
+	// Default constructor always provide default values, i.e., 0 and null, to the object
+		System.out.println(obj1.name);
+		System.out.println(obj1.number);
+		// this would invoke the parameterized constructor.
+		TestConstructor obj2 = new TestConstructor(131, "Paul");
+		// parameterized constructor invoke the object with the given value
+		System.out.println(obj2.name);
+		System.out.println(obj2.number);
+	}
+}
+ Output: Method The method is a block of code that is used for performing a particular task. It reduces the length and the repetitive code. It may or may not return a value to the caller. By creating a method, we can reuse the code without retyping the code. Let's take an example of a method to understand how we can create a method and use it in our class. MethodExample.java 
+// import required classes and packages
+package javaTpoint.JavaExample;
+class PerformArithmeticOperation {
+	int sum = 0;
+	int sub = 0;
+	int div = 0;
+	public int addNumbers(int x, int y)
+	{
+		// perform addition of numbers
+		sum = x + y;
+
+		// return calculated sum to the caller
+		return sum;
+	}
+	public int subtractNumber(int x, int y)
+	{
+		// perform subtraction of numbers
+		sub = x - y;
+		// return result to the caller
+		return sub;
+	}
+	public int divideNumbers(int x, int y)
+	{
+		// divide numbers
+		div = x / y;
+		// return result to the caller
+		return div;
+	}
+}
+// create MethodExample class from where we call PerformArithmeticOperation class methods 
+class MethodExample {
+	// main() method start
+	public static void main(String[] args)
+	{
+		// create object of the PerformArithmeticOperation
+		PerformArithmeticOperation obj = new PerformArithmeticOperation();
+		System.out.println("Sum: "+ obj.addNumbers(10, 20));
+		System.out.println("Subtract: "+ obj.subtractNumber(30, 10));
+		System.out.println("Divide: "+ obj.divideNumbers(10, 5));
+	}
+}
+ Output: Difference Between Constructor and Method The following table shows the key differences between constructor and method. Sr. No. Constructor Method 1. A block of code that initialize at the time of creating a new object of the class is called constructor. A set of statements that performs specific task with and without returning value to the caller is known as method. 2. It is mainly used for initializing the object. It is mainly used to reuse the code without writing the code again. 3. It is implicitly invoked by the system. A method is called by the programmer. 4. The new keyword plays an important role in invoking the constructor. Method calls are responsible for invoking methods. 5. It has no return type. It can or cannot return any value to the caller. So, it has a return type. 6. The constructor name will always be the same as the class name. We can use any name for the method name, such as addRow, addNum and subNumbers etc. 7. A class can have more than one parameterized constructor. But constructors should have different parameters. A class can also have more than one method with the same name but different in arguments and datatypes. 8. Sub-class cannot inherit parent class constructor. Sub-class can inherit the method of the parent class. Next Topic Difference Between Access Specifiers and Modifiers ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

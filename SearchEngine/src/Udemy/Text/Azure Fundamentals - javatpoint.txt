@@ -1,0 +1,765 @@
+
+
+ 
+  
+  Azure Fundamentals - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Microsoft Azure 
+       IoT 
+       Computer Network 
+       Control System 
+       Java 
+       HTML 
+       CSS 
+       Aptitude 
+       Selenium 
+       Kotlin 
+       C# 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Microsoft Azure Tutorial 
+      
+      
+      Microsoft Azure Tutorial 
+      Cloud Computing Overview 
+      Azure Portal 
+      
+      
+      Azure Storage Service 
+      
+      
+      Storage Service 
+      Azure Storage Account 
+      Azure Blob Storage 
+      Creating a Container 
+      Blob Configuration 
+      Azure Storage Security 
+      Azure File Storage 
+      Table & Queue Storage 
+      Azure Disk Storage 
+      Storage Monitoring 
+      Storage Resource Tools 
+      
+      
+      Network Services 
+      
+      
+      Azure Network Service 
+      Azure Virtual Network 
+      Azure Network Security 
+      Azure Network Interface 
+      Availability Zones & Sets 
+      Azure Load Balancer 
+      Azure VNet Connectivity 
+      
+      
+      Compute Services 
+      
+      
+      Azure Compute Service 
+      Azure Virtual Machines 
+      Azure VM Storage 
+      Virtual Machine Scale Set 
+      Azure Backup 
+      Azure VM Security 
+      Azure VM Monitoring 
+      Azure Cloud Service 
+      
+      
+      App Services 
+      
+      
+      Azure App Services 
+      Azure Web App 
+      Azure Mobile App 
+      Azure Notification Hub 
+      Azure API Apps 
+      App Service Backup 
+      App Service Security 
+      App Service Monitoring 
+      Azure CDN 
+      Azure Media Service 
+      
+      
+      Database Service 
+      
+      
+      Azure Database service 
+      Azure SQL Database 
+      SQL Database Configuration 
+      SQL Managed Instance 
+      Azure COSMOS DB 
+      Azure Data Factory 
+      SQL Data Warehouse 
+      
+      
+      Azure DevOps 
+      
+      
+      Azure DevOps 
+      DevOps Repository 
+      DevOps Pipeline 
+      What is Cold Storage in Ms Azure 
+      
+      
+      Misc 
+      
+      
+      What is MS Azure Functions 
+      What is ETL 
+      What is Microsoft Azure Instance 
+      What is Databrick 
+      Why is PowerShell Used 
+      What is a Notebook in Ms Azure 
+      What is Azure Resource Manager 
+      What is a container group In Microsoft Azure 
+      What is Microsoft Azure Functions Premium plan 
+      What is Microsoft Azure Subscription 
+      What is Azure Lighthouse 
+      Active Directory Identity in Azure and access management operations 
+      What is Privileged Access Management for Active Directory Domain Services in Azure 
+      Difference between Azure DevOps Server and Azure DevOps Services 
+      Azure Fundamentals 
+      
+      
+      Interview Questions 
+      
+      
+      Azure Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Azure Fundamentals Azure is a cloud computing platform with an ever-expanding set of services that help you build solutions to meet your business goals. Azure services range from simple web services for hosting your business presence in the cloud to running virtualized computers to run your custom software solutions. Azure offers many cloud-based services such as remote storage, database hosting, and centralized account management. Azure also offers new capabilities such as AI and the Internet of Things (IoT). In this module, you'll take an entry-level, end-to-end look at Azure and its capabilities. You'll get a solid foundation for Azure fundamentals to work through the learning paths available. What are Azure Fundamentals? Azure Fundamentals is a series of six learning paths that introduce you to Azure and its many services and features. Whether you're interested in learning about cloud security best practices, the core of Azure for computing network, storage, and database services, or exploring the cutting edge in IoT and machine learning, check out our curated guide to Azure. Azure Fundamentals include interactive exercises that give you hands-on experience with Azure. Many exercises offer a temporary Azure environment called Sandbox, which allows you to learn freely and at your own pace. Technical IT experience is not required; However, having general IT knowledge will help you make the most of your learning experience. Why should I take Azure Fundamentals? Whether you're just getting started with the cloud or you already have cloud experience and are new to Azure, Azure Fundamentals give you everything you need to get started. Whatever your goals, Azure Fundamentals has something for you. Take Azure's fundamentals if you: 
+            
+            Have a general interest in Azure or the cloud. 
+            Want to earn official certification from Microsoft. 
+            The Azure Fundamentals Learning Path Series can help you prepare for the AZ-900 Exam: Microsoft Azure Fundamentals. This exam covers six knowledge domain areas: AZ-900 Domain Area Describe cloud concepts 20-25% Describe Core Azure Services 15-20% Describe key solutions and management tools on Azure 10-15% Describe general security and network security features 10-15% Describe identity, governance, privacy, and compliance features 20-25% Describe Azure cost management and service level agreements 10-15% Each domain area maps to a learning path in Azure Fundamentals. The percentage shows the relative weightage of each area in the exam. The higher the percentage, the more questions will be there in that part of the exam. Be sure to read the exam page for specific information about what skills are involved in each area. This training helps you develop a comprehensive understanding of Azure. Having real-world experience will help reinforce concepts so that you are throughly prepared for exams or apply your skills on the job. What is Azure? Azure Cloud is an ever-expanding set of services that help your organization meet your current and future business challenges. Azure gives you the freedom to build, manage and deploy applications across a vast global network using the tools and frameworks of your choice. What does Azure provide? With Azure, you have everything you need to build your next great solution. The following table lists the many benefits that Azure provides for ease of invoicing with Objective. Be ready for the future: Microsoft's constant innovation supports your growth today and your product vision for tomorrow. Build on Your Terms: You have options. With a commitment to open-source and support for all languages and frameworks, you can build as you wish and deploy wherever you want. Operate the hybrid seamlessly: on-premises, in the cloud, and on edge--we'll meet you where you are. Integrate and manage your environment with tools and services designed for hybrid cloud solutions. Trust your cloud: Get security from the ground up, backed by a team of experts, and proactive compliance trusted by enterprises, governments, and startups. What can I do with Azure? Azure provides over 100 services that enable you to do everything from running your existing applications on virtual machines to exploring new software paradigms, such as intelligent bots and mixed reality. Many teams start exploring the cloud by moving their existing applications to virtual machines running in Azure. Migrating your existing apps to virtual machines is a good start, but the cloud is much more than a separate place to run your virtual machines. For example, Azure offers AI and machine-learning services that communicate naturally with your users through sight, hearing, and speech. It also provides storage solutions that dynamically grow to accommodate large amounts of data, and Azure services enable solutions that would not have been possible without the power of the cloud. What is Azure Portal? Azure Portal is a web-based, integrated console that provides an alternative to command-line tools. With the Azure Portal, you can manage your Azure subscription using the graphical user interface. You can do this: 
+            
+            Build, manage and monitor everything from simple web apps to complex cloud deployments. 
+            Create custom dashboards for an organized view of resources. 
+            Configure accessibility options for the optimum experience. 
+            The Azure Portal is designed for flexibility and constant availability. It maintains a presence in each Azure datacenter. This configuration makes the Azure portal resilient to isolated datacenter failures and prevents network slowdowns by being closer to users. The Azure Portal is constantly updated, and maintenance activities do not require any downtime.  What is Azure Marketplace? The Azure Marketplace helps users connect with Microsoft partners, independent software vendors, and startups, providing customized solutions and services to run on Azure. Azure Marketplace customers can find, try, purchase, and provision applications and services from hundreds of leading service providers. All solutions and services are certified to run on Azure.  The solution catalog spans several industry categories such as open-source container platforms, virtual machine images, databases, application build and deployment software, developer tools, threat detection, and blockchain. Using the Azure Marketplace, you can quickly and reliably provide a complete solution hosted in your Azure environment. At the time of writing, there are over 8,000 lists. The Azure Marketplace is designed for IT professionals and cloud developers interested in business and IT software. Microsoft partners also use it as a launch point for all joint go-to-market activities. Azure Services Tour Azure can help you tackle tough business challenges. You bring your needs, creativity, and favorite software development tools. Azure brings a vast global infrastructure that is always available for you to build your applications on. Let's take a quick tour of the high-end services provided by Azure. Azure Services Here's a big-picture view of the services and features available in Azure.  Let's take a closer look at the most commonly used categories: 
+            
+            Networking 
+            Storage 
+            mobile 
+            database 
+            Web 
+            Internet of Things (IoT) 
+            big Data 
+            NS 
+            DevOps 
+            Compute services are often one of the primary reasons why companies move to the Azure platform. Azure provides many options for hosting applications and services. Here are some examples of computing services in Azure. 
+            
+            Azure Virtual Machines: Windows or Linux virtual machines (VMs) hosted in Azure. 
+            Azure Virtual Machine Scale Set: Scaling to Windows or Linux VMs hosted in Azure. 
+            Azure Kubernetes Service: Cluster management for VMs running containerized services. 
+            Azure Service Fabric: Distributed systems platform that runs in Azure or on-premises. 
+            Azure batch: Managed service for parallel and high-performance computing applications. 
+            Azure Container Instance: Containerized apps run on Azure without provisioning servers or VMs. 
+            Azure Functions: An event-driven, serverless compute service. 
+            Networking Connecting compute resources and providing access to applications is the core function of Azure Networking. Networking functionality in Azure includes a range of options for connecting the outside world to services and features in the global Azure datacenter. Here are some examples of networking services in Azure. 
+            
+            Azure Virtual Network: Connects VMs to incoming virtual private network (VPN) connections. 
+            Azure Load Balancer: Balances inbound and outbound connections to applications or service endpoints. 
+            Azure Application Gateway: Optimizes app server farm delivery while increasing application security. 
+            Azure VPN Gateway: Accesses Azure Virtual Networks through high-performance VPN gateways. 
+            Azure DNS: Provides ultra-fast DNS responses and ultra-high domain availability. 
+            Azure Content Delivery Network: Delivers high-bandwidth content to customers globally. 
+            Azure DDoS Protection: Protects Azure-hosted applications from distributed denial of service (DDOS) attacks. 
+            Azure Traffic Manager: Distributes network traffic across Azure regions worldwide. 
+            Azure ExpressRoute: Connects to Azure over high-bandwidth dedicated secure connections. 
+            Azure Network Watcher: Monitors and diagnoses network issues by using scenario-based analysis. 
+            Azure Firewall: Implements high-security, high-availability firewall with unlimited scalability. 
+            Azure Virtual WAN: Creates a unified wide area network (WAN) that connects local and remote sites. 
+            Storage Azure provides four main types of storage services. 
+            
+            Azure Blob storage: Storage service for very large objects, such as video files or bitmaps. 
+            Azure File Storage: File shares that can be accessed and managed like a file server. 
+            Azure Queue Storage: A data store for queuing and reliably distributing messages between applications. 
+            Azure table storage: Table storage is a service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design. 
+            All of these services share several common features: 
+            
+            Durable and highly available with redundancy and replication. 
+            Secure through automatic encryption and role-based access control. 
+            Scalable with virtually unlimited storage. 
+            Manage, maintain and handle any problems that are important to you. 
+            It can be accessed from anywhere in the world over HTTP or HTTPS. 
+            Mobile With Azure, developers can quickly and easily build mobile back-end services for iOS, Android, and Windows apps. Features that used to take time and increase project risks, such as adding corporate sign-in and connecting to on-premises resources such as SAP, Oracle, SQL Server, and SharePoint, are now easy to include. Other features of this service include: 
+            
+            Offline data synchronization. 
+            Connectivity to on-premises data. 
+            Broadcast push notifications. 
+            Autoscaling to meet business needs. 
+            Database Azure provides several database services to store a wide variety of data types and volumes. And with global connectivity, this data becomes immediately available to the users. 
+            
+            Azure Cosmos DB: Globally distributed database that supports NoSQL options. 
+            Azure SQL Database: Fully managed relational database with auto-scale, integral intelligence, and robust security. 
+            Azure Database for MySQL: Fully managed and scalable MySQL relational database with high availability and security. 
+            Azure Database for PostgreSQL: Fully managed and scalable PostgreSQL relational database with high availability and security. 
+            SQL Server on Azure Virtual Machine: A service is hosting enterprise SQL Server apps in the cloud. 
+            Azure Synapse Analytics: Fully managed data warehouse with overall security at every level at no extra cost. 
+            Azure Database Migration Service: Service that migrates databases to the cloud without any application code changes. 
+            Azure Cache for Redis: Fully managed service caches are frequently used to reduce data and application latency and static data. 
+            Azure Database for MariaDB: Fully managed and scalable MariaDB relational database with high availability and security. 
+            Web: In today's business world, it is important to have a good web experience. Azure includes first-class support for building and hosting Web apps and HTTP-based Web services. The following Azure services are focused on web hosting. 
+            Description 
+            
+            Azure App Service: Quickly create powerful cloud web-based apps. 
+            Azure Notification Hubs : Send push notifications to any platform from any back end. 
+            Azure API Management: Publish APIs to developers, partners, and employees securely and at scale. 
+            Azure Cognitive Search: Deploy this fully managed search as a service. 
+            Web Apps feature of Azure App Service: Create and deploy mission-critical web apps at scale. 
+            Azure SignalR Service: Add real-time web functionalities easily. 
+            IoT: People can access more information than ever before. Personal digital assistants led to smartphones, and now there are smartwatches, smart thermostats, and even smart refrigerators. Personal computers used to be the norm, and now the Internet allows any online-enabled object to access valuable information. The ability for devices to collect and then relay information for data analysis is called IoT. 
+            Many services can help and drive an end-to-end solution for IoT on Azure. IoT central A fully managed global IoT software as a service (SaaS) solution makes it easy to connect, monitor, and manage IoT assets at scale. Azure IoT Hub Messaging hub that provides secure communication and monitoring between millions of IoT devices. IoT edge A fully managed service allows data analysis models to be pushed directly to IoT devices, allowing them to react quickly to state changes without consulting a cloud-based AI model. Big Data: Data comes in all forms and sizes. When we talk about big data, we are talking about the huge amount of data. Data from weather systems, communication systems, genomic research, imaging platforms, and many other scenarios generate hundreds of gigabytes of data. This amount of data makes it difficult to analyze and make decisions, and it is often so large that traditional forms of processing and analysis are no longer suitable. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,869 @@
+
+
+ 
+  
+  Dual Mode Operations in Operating System - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Dual Mode Operations in Operating System The dual-mode operations in the operating system protect the operating system from illegal users. We accomplish this defense by designating some of the system instructions as privileged instructions that can cause harm. The hardware only allows for the execution of privileged instructions in kernel mode. An example of a privileged instruction is the command to switch to user mode. Other examples include monitoring of I/O, controlling timers and handling interruptions. To ensure proper operating system execution, we must differentiate between machine code execution and user-defined code. Most computer systems have embraced offering hardware support that helps distinguish between different execution modes. We have two modes of the operating system: user mode and kernel mode. Mode bit is required to identify in which particular mode the current instruction is executing. If the mode bit is 1, it operates user mode, and if the mode bit is 0, it operates in kernel mode. NOTE: At the booting time of the system, it always starts with the kernel mode. Types of Dual Mode in Operating System The operating system has two modes of operation to ensure it works correctly: user mode and kernel mode. 1. User Mode When the computer system runs user applications like file creation or any other application program in the User Mode, this mode does not have direct access to the computer's hardware. For performing hardware related tasks, like when the user application requests for a service from the operating system or some interrupt occurs, in these cases, the system must switch to the Kernel Mode. The mode bit of the user mode is 1. This means that if the mode bit of the system's processor is 1, then the system will be in the User Mode.  2. Kernel Mode  All the bottom level tasks of the Operating system are performed in the Kernel Mode. As the Kernel space has direct access to the hardware of the system, so the kernel-mode handles all the processes which require hardware support. Apart from this, the main functionality of the Kernel Mode is to execute privileged instructions.  These privileged instructions are not provided with user access, and that's why these instructions cannot be processed in the User mode. So, all the processes and instructions that the user is restricted to interfere with are executed in the Kernel Mode of the Operating System. The mode bit for the Kernel Mode is 0. So, for the system to function in the Kernel Mode, the Mode bit of the processor must be equal to 0. Example With the mode bit, we can distinguish between a task executed on behalf of the operating system and one executed on behalf of the user.  
+            
+            When the computer system executes on behalf of a user application, the system is in user mode. 
+            However, when a user application requests a service from the operating system via a system call, it must transition from user to kernel mode to fulfill the request. As we can say, this architectural enhancement is useful for many other aspects of system operation. 
+            At system boot time, the hardware starts in kernel mode. 
+            The operating system is then loaded and starts user applications in user mode. 
+            Whenever a trap or interrupt occurs, the hardware switches from user mode to kernel mode, changing the mode bit's state to 0. 
+            Thus, whenever the operating system gains control of the computer, it is in kernel mode. 
+            The system always switches to user modeby setting the mode bit to 1 before passing control to a user program. 
+            Need for Dual-Mode Operations Certain types of processes are to be made hidden from the user, and certain tasks that do not require any type of hardware support. Using the dual mode of the OS, these tasks can be deal with separately. Also, the Operating System needs to function in the dual mode because the Kernel Level programs perform all the bottom level functions of the OS like process management, Memory management, etc. If the user alters these, then this can cause an entire system failure. So, for specifying the access to the users only to the tasks of their use, Dual Mode is necessary for an Operating system. So, whenever the system works on the user applications, it is in the User mode. Whenever the user requests some hardware services, a transition from User mode to Kernel mode occurs, and this is done by changing the mode bit from 1 to 0. And for returning back into the User mode, the mode bit is again changed to 1. User Mode and Kernel Mode Switching In its life span, a process executes in user mode and kernel mode. The user mode is a normal mode where the process has limited access. However, the kernel-mode is the privileged mode where the process has unrestricted access to system resources like hardware, memory, etc. A process can access services like hardware I/O by executing accessing kernel data in kernel mode. Anything related to process management, I/O hardware management, and memory management requires a process to execute in Kernel mode. This is important to know that a process in Kernel mode get power to access any device and memory, and same time any crash in kernel mode brings down the whole system. But any crash in user mode brings down the faulty process only. The kernel provides System Call Interface (SCI), which are entry points for user processes to enter kernel mode. System calls are the only way through which a process can go into kernel mode from user mode. The below diagram explains user mode to kernel mode switching in detail.  
+            
+            When in user mode, the application process makes a call to Glibc, which is a library used by software programmers. 
+            Glibc library knows the proper way of calling System Call for different architectures. It set up passing arguments as per architecture's Application Binary Interface (ABI) to prepare for System Call entry. 
+            Now Glibc calls Software Interrupt instruction for ARM, which puts the processor into Supervisor mode by updating Mode bits of CPSR register and jumps to vector address 0x08. 
+            Till now, process execution was in User mode. After SWI instruction execution, the process is allowed to execute kernel code. Memory Management Unit (MMU) will now allow kernel Virtual memory access and execution for this process. 
+            From Vector address 0x08, process execution loads and jumps to SW Interrupt handler routine, vector_swi()for ARM. 
+            In vector_swi(), System Call Number (SCNO) is extracted from SWI instruction, and execution jumps to system call function using SCNO as an index in system call table sys_call_table. 
+            After System Call execution, in the return path, userspace registers are restored before starting execution in User Mode. 
+            Why do we need Switching? There are two main reasons behind the switching between User mode and kernel mode, such as: 
+            
+            If everything were to run in a single-mode, we would end up with Microsoft's issue in the earlier versions of Windows. If a process were able to exploit a vulnerability, that process then could control the system. 
+            Certain conditions are known as a trap, an exception or a system fault typically caused by an exceptional condition such as division by zero, invalid memory access, etc. If the process is running in kernel mode, such a trap situation can crash the entire operating system. A process in user mode that encounters a trap situation only crashes the user-mode process. 
+            So, the overhead of switching is acceptable to ensure a more stable, secure system. Difference between User Mode and Kernel Mode A computer operates either in user mode or kernel mode. The difference between User Mode and Kernel Mode is that user mode is the restricted mode in which the applications are running, and kernel-mode is the privileged mode the computer enters when accessing hardware resources. The computer is switching between these two modes. Frequent context switching can slow down the speed, but it is impossible to execute all processes in the kernel mode. That is because; if one process fails, the whole operating system might fail. Below are some more differences between User mode and kernel mode, such as: 
+            
+            
+              
+              Terms 
+              User Mode 
+              Kernel Mode 
+              
+              
+              Definition 
+              User Mode is a restricted mode, which the application programs are executing and starts. 
+              Kernel Mode is the privileged mode, which the computer enters when accessing hardware resources. 
+              
+              
+              Modes 
+              User Mode is considered as the slave mode or the restricted mode. 
+              Kernel mode is the system mode, master mode or the privileged mode. 
+              
+              
+              Address Space 
+              In User mode, a process gets its own address space. 
+              In Kernel Mode, processes get a single address space. 
+              
+              
+              Interruptions 
+              In User Mode, if an interrupt occurs, only one process fails. 
+              In Kernel Mode, if an interrupt occurs, the whole operating system might fail. 
+              
+              
+              Restrictions 
+              In user mode, there are restrictions to access kernel programs. Cannot access them directly. 
+              In kernel mode, both user programs and kernel programs can access. 
+              
+            
+            
+            
+            
+            Next Topic
+            What is Access Token in Operating System 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

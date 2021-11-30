@@ -1,0 +1,770 @@
+
+
+ 
+  
+  Social Engineering in Kali Linux - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Java 
+       Kali Linux 
+       Ethical Hacking 
+       Linux 
+       Shell Scripting 
+       C 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Python 
+       Android 
+       Quiz 
+       Projects 
+       Interview Q 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Kali Linux Tutorial 
+      
+      
+      Kali Linux Tutorial 
+      Install Kali Linux 
+      Configuring & Updating 
+      Kali Linux Commands 
+      
+      
+      Kali Linux Tools 
+      
+      
+      Information Gathering Tools 
+      Vulnerability Analysis Tools 
+      Exploitation Tools 
+      Wireless Attack Tools 
+      Forensic Tools 
+      Web Application Tools 
+      Stress Testing Tools 
+      Sniffing & Spoofing Tools 
+      Password Attack Tools 
+      Maintaining Access Tools 
+      Reverse Engineering Tools 
+      Hardware Hacking Tools 
+      Reporting Tools 
+      Hacking Wifi using Kali Linux 
+      
+      
+      Misc. 
+      
+      
+      Kali Linux Latest Version 
+      Kali Linux net hunter 
+      Making a Kali Bootable USB Drive 
+      Kali Linux - Terminal 
+      Kali Linux root password reset 
+      Enable Root User in Kali Linux 
+      How to hack a Facebook account using Kali Linux 
+      How to Install XAMPP in Kali Linux 
+      How to run a java program on Kail Linux 
+      How to install XDM on Kali Linux 
+      Features of Kali Linux 
+      Use of Kali Linux 
+      How to install VPNbook on Kali Linux 
+      How to Check Kali Linux Version 
+      Kali Linux System Requirements 
+      Advantages and Disadvantages of Kali Linux 
+      Kali Linux Tools List 
+      How to install AnyDesk on Kali Linux 
+      Best WiFi Adapters for Kali Linux 
+      Install Mozilla Firefox In Kali Linux 
+      Kali Linux vs Fedora 
+      Sqlmap in Kali Linux 
+      Skipfish in Kali Linux 
+      Kali Linux Basic Commands 
+      Kali Linux Shortcut Keys 
+      How to take Screenshot in Kali Linux 
+      How to Update Kali Linux 
+      How to Change Time in Kali Linux 
+      Kill Process 
+      Social Engineering in Kali Linux 
+      
+      
+      Interview Questions 
+      
+      
+      Kali Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Social Engineering in Kali Linux The term "social engineering" is derived from the words "social" and "engineering," where "social" refers to personal, professions, and our day-in-day-out lives. On the other hand, "engineering" involves comprehensive processes to complete a work such that the defined goal is met. In other words, it is a set of methods. When social and engineering is combined, we get social engineering, which involves intrusion based on human interaction. It is a non-technical intrusion in which a person is often tricked into breaking the general security guidelines already set in an institution. Social Engineering Toolkit Social engineering toolkit is a free and open-source tool which is used for social engineering attacks like phishing, sending SMS, faking phone, etc. It is a free tool that comes with Kali Linux, or we can download and install it directly from Github. The Social Engineering Toolkit is designed and developed by a programmer named Dave Kennedy. Security researchers and penetration testers use this tool to check cybersecurity issues in systems all over the world. The goal of the social engineering toolkit is to perform attacking techniques on their machines. This toolkit also includes website vector attacks and custom vector attacks, which allow us to clone any website, perform phishing attacks. Features of Social Engineering Toolkit The following are the features of the social engineering toolkit: 
+            
+            Social Engineering Toolkit is free and open source. 
+            Social Engineering Toolkit is portable, which means we can quickly switch attack vectors. 
+            Social Engineering Toolkit supports integration with third-party modules. 
+            Social Engineering Toolkit is already installed in our Kali Linux, but we can also download and install it from Github. 
+            Social Engineering Toolkit is a multi-platform tool; we can run it in Windows, Linux, and Unix. 
+            Social Engineering Toolkit contains access to the Fast-Track Penetration Testing platform. 
+            Social Engineering Toolkit offers various attack vectors like Website Attacks, Infection Media Generator, Website Attacks, etc. 
+            Uses of Social Engineering Toolkit There are various uses of social engineering toolkit: 
+            
+            Web Attack 
+            Mass Mailer Attack 
+            Phishing Attacks 
+            Create a Payload and Listener 
+            1. Web Attack In SET, a web attack is a module. This module combines various options to attack the victim remotely. Using this module, we can create a payload and distribute the payload to our victim browser using the Metasploit browser exploit. Web attack has Credential Harvester method that allows us to clone any website for a phishing attack and send the link of that webpage to the victim to get information from user and password fields. 2. Phishing Attacks We can use the Social Engineering Toolkit to perform phishing attacks on our victims. Using SET, we can create phishing pages for a variety of websites, including Google, Facebook, Instagram, etc. SET will generate a link of the option which we have selected, and then we can send that URL to the victim once the victim clicks on that URL and he/she will see a legitimate webpage of a real website that is essentially a phishing page. Once he/she has entered his/her ID password, we will get that ID password on our terminal screen, this is how a phishing attack using SET works. 3. Create a Payload and Listener When we execute the Social Engineering Toolkit for the first time. We will see option 4th which is used to generate a payload and listener by using that SET module, we may develop malicious payloads for Windows, including Shell Reverse_TCP, Shell Reverse_ HTTPS TCP X64, Meterpreter Reverse, and Reverse_TCP Meterpreter. These payloads can be used in the same way that we use metasploitable payloads. 4. Mass Mailer Attack In the social engineering toolkit, mass mailer attacker is a module which we used to send a large number of emails on target mail account, for which we can also use our own Gmail account or we can own a server for that. These are some of the attack vectors which we can use using the Social Engineering Toolkit. When we will run the SET, we will enjoy it because it is quite simple to use. Phases in Social Engineering There are various phases of social engineering before the final result is obtained. This includes: 
+            
+            Research Phase 
+            Hook Phase 
+            Play Phase 
+            Exit Phase 
+            1. Research Phase In the research phase, the information related to the goal is collected. Whether the objective is a firm or an individual, the first phase is the same. There are so many ways by which attackers can get the information related to their targets. These include obtaining documents from the public domain, visiting the website for the institution concerned, and in some cases, constructive face-to-face interactions. Besides, dumpster diving is also necessary at this stage of the attack. 2. Hook Phase The Hook phase is the second phase of the attack. In this phase, the attacker initiates a discussion with their victim target. After the hook, the phase is the phase of play that strengthens the connection between the attacker and the target. The attacker takes advantage of this opportunity to investigate getting the information they desire. 3. Exit Phase This is the final phase, and the attacker must be careful not to set up a situation that would make the target suspect in any manner. The idea is to exit the target without giving any indication of action. We can start these steps through various social engineering tools which are pre-installed in Kali Linux, while other tools need to be installed manually. We don't have to be concerned because Social Engineering Toolkit is an open-source penetration testing platform that focuses on social engineering. This suite of tools has been fine-tuned to allow us to launch attacks in a matter of seconds. Installation of Social Engineering Toolkit There are various steps that we have to use in order to install the social engineering toolkit: Step 1: First, we have to open the Kali Linux Terminal and move to Desktop. 
+           
+            
+cd Desktop
+
+              Step 2: Now, we are on a desktop so use the following command in order to create a new directory called SEToolkit.  
+           
+            
+mkdir  SEToolkit
+
+              Step 3: Now, we are in the Desktop directory though we have created a SEToolkit directory so go to SEToolkit directory using the following command. 
+           
+            
+cd SEToolkit
+
+              Step 4: Now we're in the SEToolkit directory, we will need to clone SEToolkit from GitHub in order to utilize it. 
+           
+            
+git clone https://github.com/trustedsec/social-engineer-toolkit setoolkit/
+
+              Step 5: Now, the Social Engineering Toolkit has been downloaded to our directory, we have to use the following command in order to navigate to the social engineering toolkit's internal directory. 
+           
+            
+cd setoolkit
+
+              Step 6: Now we have successfully downloaded the social engineering toolkit in our directory SEToolkit. Now we can use the following command to install the requirements. 
+           
+            
+pip3 install -r requirements.text
+
+              Step 7: All the requirements have been downloaded to our setoolkit. Now it's time to install the requirements we have downloaded. 
+           
+            
+python setup.py 
+
+              Step 8: Finally all the installation process is complete now it's time to run the Social Engineering Toolkit. We have to type the following command in order to run the SEToolkit. 
+           
+            
+Setoolkit
+
+            Step 9: At this point, setoolkit will ask us (y) or (n). When we type y, our social engineering toolkit will start running. 
+           
+            
+Y
+
+              Step 10: Now our SEToolkit has been downloaded on our system, it's, time to use it. Now, we have to select the option from the following options. Option 2 is the one we've chosen.  Website Attack Vectors: 
+           
+            
+Option 2
+
+            Step 11: Now, we are ready to set up a phishing page, we'll go with option 3, which is a credential harvester attack method. 
+           
+            
+option 3
+
+              Step 12: Since we are making a phishing page; we'll go with option 1, which is a web template. 
+           
+            
+option 1 
+
+              Step 13: The social engineering tool will now create a phishing page on our localhost.  Step 14: Choose option 2 in order to create a Google phishing page, and a phishing page will be generated on our localhost.  Step 15: A phishing page for Google is being created using the social engineering toolkit. As we can see, SEToolkit generate a phishing page of Google on our localhost (i.e., on our IP address). The social engineering toolset works in this manner. The social engineering toolkit will design our phishing page. Once the victim types the id password in the fields the id password will be shown on our terminal where SET is running.   Social Engineering Toolkit Usage The Social-Engineer Toolkit (SET) is an open-source penetration testing framework which is designed for social engineering. SET includes several custom attack vectors that enable us to launch a believable attack in a short amount of time. Human behaviors are used in these types of tools in order to trick them into the attack vectors. Let's have a look at how the Social-Engineer Toolkit can be used: Step 1: In order to open SET, we have to go to Applications ? Social Engineering Tools ? Click "SET" Social Engineering Tool.  Step 2: It will ask if we agree with the terms of usage. Type 'y' as seen in the image below.  Step 3: Most of the menus shown in the below screenshot are self-explanatory, and the most important of them is No. 1 "Social Engineering Attack".  Step 4: Next, we have to Type "1" and then press Enter. A submenu will open. If we again hit the Enter button, we will see the explanations of each submenu.  We can use the Spear-phishing module to create custom email messages and deliver them to our targeted victims along with attached FileFormatmalicious payloads. For example, sending a malicious PDF document if the victim opens, it will compromise the system. If we need to spoof our email address, make sure "Sendmail" is installed (apt-get install sendmail) and modify the config/set_config SENDMAIL=OFF flag to SENDMAIL=ON. The spear-phishing attack can be carried out in two ways: 
+            
+            Perform a Mass Email Attack 
+            Create a FileFormat Payload and a Social-Engineering Template. 
+            The first way is to let SET handle the whole thing (option 1), while the second is to write our own FileFormat payload and utilize it in our own attack. We have to Type "99" in order to go back to the main menu and then type "2" to go to "The web attack vectors".  The web attack module is a one-of-a-kind method of compromising the intended victim by combing numerous web-based attacks. This module is utilized to carry out phishing attacks against the victim if they click on the link. Clicking on a link can trigger a variety of attacks. We have to type "99" in order to rerun the main menu and then we have to type "3". The infectious USB/CD/DVD module will generate an autorun.inf file and a Metasploit payload. On a USB drive, the payload and autorun file is burned or copied. When a DVD, USB, or CD is loaded into the victim's machine, it will trigger an autorun feature (if autorun is enabled) and ideally, compromise the system. We can choose the attack vector we want to use: bug file format or directly executable. There are various options for Infectious Media Generator: 
+            
+            File-format Exploits 
+            Standard Metasploit Executable 
+            We have to Type "99" to go back to the main menu. Then, type "4" to go to "The web attack vectors".  An easy way is to create a payload and a listener to create a Metasploit payload. It will export the exe file for us and create a listener. We will need to convince the victim to download the exe file and execute it to get the shell. We have to Type "99" in order to go back to the main menu and then we have to type "5" to get to "The web attack vectors".  We can use the mass mailer attack in order to send many emails to victims and customize the messages. The mass e-mailer has two options; the first is to send an email to a single email address. The second options permit us to import a list of all recipient's email, and it will send our message to as many individuals on that list as we desire. 
+            
+            E-Mail Attack Single Email Address 
+            E-Mail Attack Mass Mailer 
+            Type "99" to go back to the main menu and then we have to type "9" to go to "Powershell Attack Vector".  The Powershell Attack Vector module permits us to create PowerShell-specific attacks. These attacks enable us to use PowerShell that is included by default in all operating systems Windows Vista and above. PowerShell offers a rich environment for deploying payloads and performing functions that are or triggered by preventative technology. 
+            
+            Powershell Alphanumeric Shellcode Injector 
+            Powershell Reverse Shell 
+            Powershell Bind Shell 
+            Powershell Dump SAM Database 
+            Top 5 Tools for Social Engineering in Kali Linux The following are the 5 tools for social engineering in Kali Linux: 
+            
+            Maltego 
+            Social Engineering Toolkit (SET) 
+            Wifiphisher 
+            Metasploit MSF 
+            MSFvenom Payload Creator (MSFPC) 
+            1. Maltego Maltego is an open-source intelligence (OSINT) investigation tool that displays how various bits of information are connected. We can use Maltego in order to find connections between people and several information assets, including email addresses, screen names, and social profiles, and other information which connect a person to a service or organization. With all of this information, we can simulate a social engineering attack in order to help us evaluate our employees' security awareness. Maltego may be started via the Kali whisker menu or by going to Applications> Kali Linux > Top 10 Security Tools > and selecting Maltego five.  Maltego has a graphical user interface that makes it simple to see relationships. Advantages of Maltego The following are the advantages of Maltego: 
+            
+            It is easy and quick to install. 
+            Maltego uses Java to make it available on Windows, Linux, and Mac. 
+            It has a graphical user interface that makes it simple to see relationships. 
+            It can help a user to discover hidden information. 
+            It offers a user with a powerful search utility. 
+            We can use Maltego for the information gathering phase before launching an attack. 
+            It uses a powerful and flexible framework that we can quickly customize to meet the requirements of the users. 
+            2. Social Engineering Toolkit (SET) The Social Engineering Toolkit (SET) is an open-source, python-driven toolkit for social engineering penetration testing. SET offers several custom attack vectors that allow us to quickly set up a reliable attack in no time. SET comes with a website tool that converts our Kali Linux into a web server with a variety of exploits which can compromise most browsers. The aim is to provide our target a link that routes them via our site that automatically downloads and executes the exploit on their system. To make the exploit looks more authentic, we can use the pre-templates in SET to clone a legitimate website. SET contains pre-formatted phishing pages for prominent websites such as Google, Yahoo, Facebook, and Twitter. If we want to open SET in Kali Linux then we have to go to Applications > KaliLinux > Exploitation Tools > Social Engineering Toolkit | toolkit or type setoolkit as a shell prompt.  3. Wifiphisher Wifiphisher is a one-of-a-kind social engineering tool that automates phishing attacks on Wi-Fi networks in order to obtain the WPA/WPA2 passwords of a target user base. The tool can select any nearby Wi-Fi access point, jam it (de-authenticate all users), and create a cloned access point that does not need a password to join. Anyone who connects to the evil twin-like open network is presented with a seemingly legitimate phishing page asking for the Wi-Fi passwords to download a firmware update that is cited as the reason the Wi-Fi is not working. Once the target has entered the password, Wifiphisher sends an alert, pausing for a while. After transmitting the captured password, it will display a fake reboot timer and a fake update screen to give us time in order to test the captured password. It is a useful tool for evaluating our security defenses against Wi-Fi-based social engineering. By entering the following command, we can install wifiphisher: 
+           
+            
+$ sudo apt-get install wifiphisher
+
+              Features of Wifiphisher The following are the features of Wifiphisher: 
+            
+            Wifiphisher is flexible and supports a wide range of arguments, as well as a large number of community-driven phishing templates. 
+            Wifiphisher is open-source and has an active community of developers and users. 
+            It offers a very user-friendly interactive Textual User Interface. 
+            It is modular in the sense that it allows users to develop both simple and complex custom modules in Python. 
+            4. Metasploit MSF Metasploit Framework is a penetration testing tool that may be used to find, exploit, and evaluate security flaws. It delivers the content, tools, and infrastructure to perform penetration testing as well as comprehensive security auditing. One of the powerful features packed into Metasploit is the option to set up a fake SMB server. This implies that when someone on the network tries to access the server, their system must show their credentials in terms of their "domain password hash". If we wait long enough, we might be able to capture domain credentials when users try to connect to the SMB server. Sending an embedded UNC path to the target can help us collect their domain credentials when they click on it. MSF is updated often, and new exploits are added as soon as their creators publish them. Metasploit can be started via the Kali Linux menu or by typing the following command in the terminal. 
+           
+            
+$ msfconsole -h
+
+              5. MSFvenom Payload Creator (MSFPC) MSFPC is a simple-to-use tool that makes it easy to create basic payloads. It allows users to generate payloads without having to type long MSFvenom commands. With this generator, we can create payloads with a minimum of one argument. We can use MSFPC to generate payloads for Windows, Linux, and Android. Its script is a huge timesaver when we need to quickly create simple payloads. Despite the fact that this does not include encoding to help bypass antivirus virus, it can still be helpful to know.  Sometimes all we need to do is create a short payload, deliver it somewhere, and continue with our routine. In such a scenario, msfpc.sh can be useful. In order to utilize MSFPC, all we have to do is define the payload we need by either the file extension or the platform we will be dropping it on. Typing msfpc in the terminal will enable us to run the tool. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

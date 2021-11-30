@@ -1,0 +1,182 @@
+Java Set to List - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Java Set to List In this section, we will discuss how to convert Set (HashSet or TreeSet) into List (ArrayList or LinkedList). There are the following ways to convert Set to List in Java: Native Approach Using Constructor (ArrayList or LinkedList) Using ArrayList addAll() Method Using Stream in Java Native Approach The logic for the native approach is very simple. In this approach, we simply create a Set (HashSet or TreeSet) and iterate over the Set and add all the elements of the Set to the list with the help of a loop. SetToListExample1.java 
+import java.util.*;
+public class SetToListExample1
+{
+public static void main(String args[]) 
+{
+//creating a Set of type String 
+Set<String> set = new HashSet<String>();
+//adding elements to the Set
+set.add("Bordeaux");
+set.add("Cannes");
+set.add("Chamonix");
+set.add("Chartres");
+set.add("Clermont-Ferrand");
+set.add("Limoges");
+set.add("Marseille");
+set.add("Nice");
+set.add("Paris");
+//determines the size of Set
+int n = set.size();
+//creates an ArrayList of size n
+List<String> list = new ArrayList<String>(n);
+//loop iterates over Set
+for (String x : set)
+//adds elements to the list
+list.add(x);
+System.out.println("ArrayList is: ");
+//loop iterates over List
+for (String x : list)
+//prints the elements
+System.out.println(x);
+}
+}
+ Output:  ArrayList is: 
+Cannes
+Bordeaux
+Marseille
+Nice
+Clermont-Ferrand
+Chartres
+Limoges
+Chamonix
+Paris
+ Using Constructor (ArrayList or LinkedList Class) The logic is the same as above. The only difference is that we have used the constructor of the ArrayList and LinkedList class and passed set elements to the constructor. 
+List<String> list = new ArrayList<String>(set);
+List<String> lList = new LinkedList<String>(set);	
+ SetToListExample2.java 
+import java.util.*;
+public class SetToListExample2 
+{
+public static void main(String args[]) 
+{
+//creating a HashSet of type String
+Set<String> set= new HashSet<String>();
+//adding elements to the Set
+set.add("Sharjah");
+set.add("Dubai");
+set.add("Abu Dhabi");
+set.add("Kalba");
+set.add("Dhaid");
+set.add("Hatta");
+//creates an ArrayList using constructor and passing elements to the constructor 
+List<String> list = new ArrayList<String>(set);
+System.out.println("ArrayList is: ");
+//loop iterates over the list
+for (String x : list)
+//prints the ArrayList
+System.out.println(x);
+System.out.println("\nLinkedList is: ");
+//creates LinkedList using constructor and passing elements to the constructor 
+List<String> lList = new LinkedList<String>(set);	
+//loop iterates over LinkedList
+for (String x : lList)
+//prints the LinkedList
+System.out.println(x);	
+}
+}
+ Output: ArrayList is: 
+Sharjah
+Dhaid
+Kalba
+Hatta
+Dubai
+Abu Dhabi
+
+LinkedList is: 
+Sharjah
+Dhaid
+Kalba
+Hatta
+Dubai
+Abu Dhabi
+ Using ArrayList.addAll() Method The ArrayList.addAll() method appends all the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's Iterator. It overrides the addAll() method of the AbstractCollection class. SetToListExample3.java 
+import java.util.*;
+public class SetToListExample3
+{
+public static void main(String args[]) 
+{
+//converting HashSet to ArrayList
+//creating a HashSet of type String
+Set<String> set = new HashSet<String>();
+//adding elements to the Set
+set.add("Texas");
+set.add("California");
+set.add("Illinois");
+set.add("Dallas");
+set.add("San Jose");
+set.add("California");
+set.add("Austin");
+set.add("Columbus");
+//creates a constructor of the ArrayList class
+List<String> list = new ArrayList<String>();
+//adding the set elements to the list using the addAll() method
+list.addAll(set);
+System.out.println("ArrayList is: ");
+//loop iterates over the LinkedList
+for (String x : list)
+//prints the ArrayList
+System.out.println(x);
+//converting HashSet to LinkedList
+List<String> linkList = new LinkedList<String>();
+//adding Set elements to the LinkedList using the addAll() method
+linkList.addAll(set);
+System.out.println("\nLinkedList is: ");
+//loop iterates over the LinkedList
+for (String x : linkList)
+//prints the LinkedList
+System.out.println(x);	
+}
+}
+ Output: ArrayList is: 
+Texas
+Illinois
+Columbus
+California
+Austin
+Dallas
+San Jose
+
+LinkedList is: 
+Texas
+Illinois
+Columbus
+California
+Austin
+Dallas
+San Jose
+ Using Stream in Java If we use Stream to convert Set to List, first, we will convert Set to stream and then convert the stream to list. It works only in Java 8 or later versions. 
+List<String> list = set.stream().collect(Collectors.toList());
+ stream(): The method stream() returns a regular object stream of a set or list. Stream.collect(): The collect() method of the Stream class is used to accumulate elements of any Stream into a Collection. Collectors.toList(): The method returns a Collector that collects the input elements into a new List. Let's see an example. SetToListExample4.java 
+import java.util.*;
+import java.util.stream.*;
+public class SetToListExample4
+{
+public static void main(String args[]) 
+{
+//Creating a hash set of strings
+Set<String> set = new HashSet<String>();
+//adding elements to the Set
+set.add("London");
+set.add("England");
+set.add("Wales");
+set.add("Scotland");
+set.add("Bristol");
+set.add("Cambridge");
+//converts set to stream and then stream to list
+List<String> list = set.stream().collect(Collectors.toList());
+System.out.println("List is: ");
+//loop iterates over the list
+for (String x : list)
+//prints the list elements 
+System.out.println(x);
+}
+}
+ Output: List is: 
+Cambridge
+Bristol
+Wales
+London
+England
+Scotland
+ Next Topic Level Order Traversal of a Binary Tree in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

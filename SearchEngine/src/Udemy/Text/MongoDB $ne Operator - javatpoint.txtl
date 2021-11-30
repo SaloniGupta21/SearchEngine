@@ -1,0 +1,204 @@
+MongoDB $ne Operator - javatpoint ? SCROLL TO TOP Home MongoDB SQL PL/SQL MySQL PostgreSQL SQL Server Oracle SQLite Cassandra DBMS Python Java Aptitude Interview Q MongoDB Tutorial MongoDB Tutorial No SQL Databases Advantages over RDBMS MongoDB Data Types Install MongoDB MongoDB Data Modeling MongoDB Operators Query & Projection Operator MongoDB Update Operator Aggregation Pipeline Stages MongoDB limit() MongoDB sort() Query Modifiers Database Commands Aggregation Commands Geospatial Command Query & Write Operation Commands Query Plan Cache Commands Authentication Commands User Management Commands Role Management Commands Replication Commands Sharding Commands Session Commands Database Create Database Drop Database Collection Create Collection Drop Collection CRUD: Documents Insert Documents Update Documents Delete Documents Query Documents SQL to MongoDB Mapping MongoDB text search MongoDB Shell MongoDB Shell Shell Collection Methods Cursor Methods MongoDB Database Commands Query Plan Cache Methods User Management Methods Role Management Methods MongoDB Replication Methods Bulk Operation Methods Connection Methods Sharding Methods MongoDB Cloud MongoDB Stitch MongoDB Atlas MongoDB Cloud Manager MongoDB Ops Manager MongoDB Tools MongoDB Compass MongoDB BI connector Differences Cassandra vs MongoDB Couchdb vs MongoDB Redis vs MongoDB Connectivity Java MongoDB PHP MongoDB Python MongoDB Node.js MongoDB Misc MongoDB Upsert MongoDB $and Operator MongoDB $not Operator MongoDB $or Operator MongoDB $in Operator MongoDB $nor Operator MongoDB find() Method MongoDB $group operator MongoDB Regex MongoDB $exp Operator MongoDB $unwind operator MongoDB $abs Operator MongoDB $floor Operator MongoDB $ceil Operator MongoDB $log Operator MongoDB $mod Operator MongoDB $divide Operator MongoDB $multiply Operator MongoDB $pow Operator MongoDB $sqrt Operator MongoDB $subtract Operator MongoDB $trunc Operator MongoDB $round Operator MongoDB $ln Operator MongoDB $log10 Operator MongoDB $cmp Operator MongoDB $concat Operator MongoDB $nin Operator MongoDB $gt Operator MongoDB $gte Operator MongoDB $lt Operator MongoDB $eq Operator MongoDB $lte Operator MongoDB $ne Operator MongoDB $size Operator MongoDB $rename operator Interview Questions MongoDB Interview SQL Interview PL/SQL Interview next ? ? prev MongoDB $ne Operator What is the $ne operator in MongoDB? MongoDB provides a variety of comparison query operators. The $ne (Not equal) operator is one of those operators. The $ne (Not equal) operator is used to select the documents where the field's value does not equal to the given value. You can use this operator in the update, find, like method as per your requirements. Syntax of the $ne operator: 
+{ field : { $ne : value } }
+ Examples: In the following examples, we are working with: 
+Database: JavaTpoint
+Collection: employee
+Document: Six documents that contain the details of the employees.
+ >db.employee.find()
+        {
+                "_id" : 1,
+                "name" : "John",
+                "father_name" : "Thomas",
+                "department" : "Contain Writting",
+                "experience" : 2,
+                "language" : { "C#", "python", "java" },
+                "mobile_no" : 9856321478,
+                "gender" : "Male",
+                "salary" : 22000,
+                "age" : 26
+        }
+        {
+                "_id" : 2,
+                "name" : "William",
+                "father_name" : "Rebort",
+                "department" : "Softwre Tester",
+                "experience" : 1,
+                "language" : { "C#", "python" },
+                "mobile_no" : 7896541478,
+                "gender" : "Male",
+                "salary" : 20000,
+                "age" : 21
+        }
+        {
+                "_id" : 3,
+                "name" : "Ava",
+                "father_name" : "William",
+                "department" : "Marketing manager",
+                "experience" : 5,
+                "language" : { "C#", "C++", "java" },
+                "mobile_no" : 8789654178,
+                "gender" : "Female",
+                "salary" : 36500,
+                "age" : 25 
+        }
+        {
+                "_id" : 4,
+                "name" : "Olivia",
+                "father_name" : "Noah",
+                "department" : null,
+                "experience" : 4,
+                "language" : { "C++", "java" },
+                "mobile_no" : 9045641478,
+                "gender" : "Female",
+                "salary" : 30000,
+                "age" : 27 
+        }
+        {
+                "_id" : 5,
+                "name" : "Elijah",
+                "father_name" : "John",
+                "department" : "HR",
+                "experience" : 0,
+                "language" : { "C++", "HTML", "java" },
+                "mobile_no" : 6589741230,
+                "gender" : "Male",
+                "salary" : 15000,
+                "age" : 20
+        }
+        {
+                "_id" : 6,
+                "name" : "John",
+                "father_name" : "Liam",
+                "department" : "Softwre Tester",
+                "experience" : 10,
+                "language" : { "C#", "CSS", "HTML" },
+                "mobile_no" : 9014536987,
+                "gender" : "Male",
+                "salary" : 55000,
+                "age" : 30 
+        }
+ Example 1: Using $ne operator In this example, we are looking for only male employees. In other words, we are looking for documents where gender is not equal to the female. 
+>db.employee.find({ gender : { $ne : Female }}).pretty()
+ Output: {
+    "_id" : 1,
+    "name" : "John",
+    "father_name" : "Thomas",
+    "department" : "Contain Writting",
+    "experience" : 2,
+    "language" : { "C#", "python", "java" },
+    "mobile_no" : 9856321478,
+    "gender" : "Male",
+    "salary" : 22000,
+    "age" : 26
+}
+{
+    "_id" : 2,
+    "name" : "William",
+    "father_name" : "Rebort",
+    "department" : "Softwre Tester",
+    "experience" : 1,
+    "language" : { "C#", "python"},
+    "mobile_no" : 7896541478,
+    "gender" : "Male",
+    "salary" : 20000,
+    "age" : 21
+}
+{
+    "_id" : 5,
+    "name" : "Elijah",
+    "father_name" : "John",
+    "department" : "HR",
+    "experience" : 0,
+    "language" : { "C++", "HTML", "java" },
+    "mobile_no" : 6589741230,
+    "gender" : "Male",
+    "salary" : 15000,
+    "age" : 20
+}
+{
+    "_id" : 6,
+    "name" : "John",
+    "father_name" : "Liam",
+    "department" : "Softwre Tester",
+    "experience" : 10,
+    "language" : { "C#", "CSS", "HTML" },
+    "mobile_no" : 9014536987,
+    "gender" : "Male",
+    "salary" : 55000,
+    "age" : 30 
+}
+ Example 2: Another example In this example, we are selecting only those employees whose salary field value is not equal to 25000. 
+>db.employee.find({ salary : { $ne : 25000 }}).pretty()
+ Output: {
+    "_id" : 1,
+    "name" : "John",
+    "father_name" : "Thomas",
+    "department" : "Contain Writting",
+    "experience" : 2,
+    "language" : { "C#", "python", "java" },
+    "mobile_no" : 9856321478,
+    "gender" : "Male",
+    "salary" : 22000,
+    "age" : 26
+}
+{
+    "_id" : 2,
+    "name" : "William",
+    "father_name" : "Rebort",
+    "department" : "Softwre Tester",
+    "experience" : 1,
+    "language" : { "C#", "python"},
+    "mobile_no" : 7896541478,
+    "gender" : "Male",
+    "salary" : 20000,
+    "age" : 21
+}
+{
+    "_id" : 3,
+    "name" : "Ava",
+    "father_name" : "William",
+    "department" : "Marketing manager",
+    "experience" : 5,
+    "language" : { "C#", "C++", "java" },
+    "mobile_no" : 8789654178,
+    "gender" : "Female",
+    "salary" : 36500,
+    "age" : 25 
+}
+{
+    "_id" : 4,
+    "name" : "Olivia",
+    "father_name" : "Noah",
+    "department" : null,
+    "experience" : 4,
+    "language" : { "C++", "java" },
+    "mobile_no" : 9045641478,
+    "gender" : "Female",
+    "salary" : 30000,
+    "age" : 27 
+}
+{
+    "_id" : 5,
+    "name" : "Elijah",
+    "father_name" : "John",
+    "department" : "HR",
+    "experience" : 0,
+    "language" : { "C++", "HTML", "java" },
+    "mobile_no" : 6589741230,
+    "gender" : "Male",
+    "salary" : 15000,
+    "age" : 20
+}
+{
+    "_id" : 6,
+    "name" : "John",
+    "father_name" : "Liam",
+    "department" : "Softwre Tester",
+    "experience" : 10,
+    "language" : { "C#", "CSS", "HTML" },
+    "mobile_no" : 9014536987,
+    "gender" : "Male",
+    "salary" : 55000,
+    "age" : 30 
+}
+ Next Topic MongoDB $size Operator ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

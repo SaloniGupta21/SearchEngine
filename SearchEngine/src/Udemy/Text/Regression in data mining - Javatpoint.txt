@@ -1,0 +1,669 @@
+
+
+ 
+  
+  Regression in data mining - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Java 
+       Data Mining 
+       Machine Learning 
+       DBMS 
+       AI 
+       Blockchain 
+       Control System 
+       Selenium 
+       CSS 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Data Mining 
+      
+      
+      Data Mining Tutorial 
+      Data Mining Techniques 
+      Implementation Process 
+      Data Mining Architecture 
+      Data Mining KDD Process 
+      Data Mining History 
+      Data Mining Tools 
+      Data Mining vs Machine Learning 
+      Facebook Data Mining 
+      Social Media Data Mining Methods 
+      Data Mining Cluster Analysis 
+      Text Data Mining 
+      Bagging vs Boosting 
+      Data Mining vs Data Warehousing 
+      Social Media Data Mining 
+      Data Mining Bayesian Classification 
+      Data Mining World Wide Web 
+      Different types of Clustering Algorithm 
+      Bitcoin Data Mining 
+      Orange Data Mining 
+      Data Mining vs Big Data 
+      Decision Tree Induction 
+      Educational Data Mining 
+      Data Mining in Healthcare 
+      Apriori Algorithm 
+      Data Integration in Data Mining 
+      Data mining vs Text mining 
+      Discretization in data mining 
+      Redundancy and Correlation in Data Mining 
+      Classification of Data Mining Systems 
+      Data Mining Models 
+      Data mining vs Data Science 
+      Data Mining vs Statistics 
+      Data Mining vs Web Mining 
+      Data Mining vs Data Analysis 
+      Business Intelligence vs Data Mining 
+      Data Mining vs Data Visualization 
+      Data Mining vs Data Analytics 
+      Types of Data Mining 
+      Data Profiling vs Data Mining 
+      Predictive Analytics vs Data Mining 
+      Data Mining vs OLAP 
+      Descriptive vs Predictive Data Mining 
+      Spatial vs Temporal Data Mining 
+      classification vs clustering 
+      Hierarchical clustering in data mining 
+      Density-based clustering in data mining 
+      Aggregation in data mining 
+      Regression in data mining 
+      What is Outlier in data mining 
+      
+      
+      MCQ 
+      
+      
+      Data Mining MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Regression in data mining Regression refers to a data mining technique that is used to predict the numeric values in a given data set. For example, regression might be used to predict the product or service cost or other variables. It is also used in various industries for business and marketing behavior, trend analysis, and financial forecast. In this tutorial, we will understand the concept of regression, types of regression with certain examples. What is regression? Regression refers to a type of supervised machine learning technique that is used to predict any continuous-valued attribute. Regression helps any business organization to analyze the target variable and predictor variable relationships. It is a most significant tool to analyze the data that can be used for financial forecasting and time series modeling. Regression involves the technique of fitting a straight line or a curve on numerous data points. It happens in such a way that the distance between the data points and cure comes out to be the lowest. The most popular types of regression are linear and logistic regressions. Other than that, many other types of regression can be performed depending on their performance on an individual data set. Regression can predict all the dependent data sets, expressed in the expression of independent variables, and the trend is available for a finite period. Regression provides a good way to predict variables, but there are certain restrictions and assumptions like the independence of the variables, inherent normal distributions of the variables. For example, suppose one considers two variables, A and B, and their joint distribution is a bivariate distribution, then by that nature. In that case, these two variables might be independent, but they are also correlated. The marginal distributions of A and B need to be derived and used. Before applying Regression analysis, the data needs to be studied carefully and perform certain preliminary tests to ensure the Regression is applicable. There are non-Parametric tests that are available in such cases. Types of Regression  Regression is divided into five different types 
+            
+            Linear Regression 
+            Logistic Regression 
+            Lasso Regression 
+            Ridge Regression 
+            Polynomial Regression 
+            Linear Regression Linear regression is the type of regression that forms a relationship between the target variable and one or more independent variables utilizing a straight line. The given equation represents the equation of linear regression Y = a + b*X + e. Where, a represents the intercept b represents the slope of the regression line e represents the error X and Y represent the predictor and target variables, respectively. If X is made up of more than one variable, termed as multiple linear equations. In linear regression, the best fit line is achieved utilizing the least squared method, and it minimizes the total sum of the squares of the deviations from each data point to the line of regression. Here, the positive and negative deviations do not get canceled as all the deviations are squared. Polynomial Regression If the power of the independent variable is more than 1 in the regression equation, it is termed a polynomial equation. With the help of the example given below, we will understand the concept of polynomial regression. Y = a + b * x2 In the particular regression, the best fit line is not considered a straight line like a linear equation; however, it represents a curve fitted to all the data points. Applying linear regression techniques can lead to overfitting when you are tempted to minimize your errors by making the curve more complex. Therefore, always try to fit the curve by generalizing it o the issue. Logistic Regression When the dependent variable is binary in nature, i.e., 0 and 1, true or false, success or failure, the logistic regression technique comes into existence. Here, the target value (Y) ranges from 0 to 1, and it is primarily used for classification-based problems. Unlike linear regression, it does not need any independent and dependent variables to have a linear relationship. Ridge Regression Ride regression refers to a process that is used to analyze various regression data that have the issue of multicollinearity. Multicollinearity is the existence of a linear correlation between two independent variables. Ridge regression exists when the least square estimates are the least biased with high variance, so they are quite different from the real value. However, by adding a degree of bias to the estimated regression value, the errors are reduced by applying ridge regression. Lasso Regression The term LASSO stands for Least Absolute Shrinkage and Selection Operator. Lasso regression is a linear type of regression that utilizes shrinkage. In Lasso regression, all the data points are shrunk towards a central point, also known as the mean. The lasso process is most fitted for simple and sparse models with fewer parameters than other regression. This type of regression is well fitted for models that suffer from multicollinearity. Application of Regression Regression is a very popular technique, and it has wide applications in businesses and industries. The regression procedure involves the predictor variable and response variable. The major application of regression is given below. 
+            
+            Environmental modeling 
+            Analyzing Business and marketing behavior 
+            Financial predictors or forecasting 
+            Analyzing the new trends and patterns. 
+            Difference between Regression and Classification in data mining Regression and classification are quite similar to each other. Classification and Regression are two significant prediction issues that are used in data mining. If you have given a training set of inputs and outputs and learn a function that relates the two, that hopefully enables you to predict outputs given inputs on new data. The only difference is that in classification, the outputs are discrete, whereas, in regression, the outputs are not. But the concepts are blurred, as in "logistic regression", which can be interpreted as either a classification or a regression method. So, it becomes difficult for the user to understand when to use classification and regression. Difference between Regression and Classification in data mining   
+            
+            
+              
+              Regression 
+              Classification 
+              
+              
+              Regression refers to a type of supervised machine learning technique that is used to predict any continuous-valued attribute. 
+              Classification refers to a process of assigning predefined class labels to instances based on their attributes. 
+              
+              
+              In regression, the nature of the predicted data is ordered. 
+              In classification, the nature of the predicated data is unordered. 
+              
+              
+              The regression can be further divided into linear regression and non-linear regression. 
+              Classification is divided into two categories: binary classifier and multi-class classifier. 
+              
+              
+              In the regression process, the calculations are basically done by utilizing the root mean square error. 
+              In the classification process, the calculations are basically done by measuring the efficiency. 
+              
+              
+              Examples of regressions are regression tree, linear regression, etc. 
+              The examples of classifications are the decision tree. 
+              
+            
+            The regression analysis usually enables us to compare the effects of various kinds of feature variables measured on numerous scales. Such as prediction of the land prices based on the locality, total area, surroundings, etc. These results help market researchers or data analysts to remove the useless feature and evaluate the best features to calculate efficient models.  
+            
+            
+            Next Topic
+            What is Outlier in data mining 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

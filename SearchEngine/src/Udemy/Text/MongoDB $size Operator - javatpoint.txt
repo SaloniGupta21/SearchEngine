@@ -1,0 +1,919 @@
+
+
+ 
+  
+  MongoDB $size Operator - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        MongoDB 
+        SQL 
+        PL/SQL 
+        MySQL 
+        PostgreSQL 
+        SQL Server 
+        Oracle 
+        SQLite 
+        Cassandra 
+        DBMS 
+        Python 
+        Java 
+        Aptitude 
+        Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      MongoDB Tutorial 
+      
+      
+      MongoDB Tutorial 
+      No SQL Databases 
+      Advantages over RDBMS 
+      MongoDB Data Types 
+      Install MongoDB 
+      MongoDB Data Modeling 
+      
+      
+      MongoDB Operators 
+      
+      
+      Query & Projection Operator 
+      MongoDB Update Operator 
+      Aggregation Pipeline Stages 
+      MongoDB limit() 
+      MongoDB sort() 
+      Query Modifiers 
+      
+      
+      Database Commands 
+      
+      
+      Aggregation Commands 
+      Geospatial Command 
+      Query & Write Operation Commands 
+      Query Plan Cache Commands 
+      Authentication Commands 
+      User Management Commands 
+      Role Management Commands 
+      Replication Commands 
+      Sharding Commands 
+      Session Commands 
+      
+      
+      Database 
+      
+      
+      Create Database 
+      Drop Database 
+      
+      
+      Collection 
+      
+      
+      Create Collection 
+      Drop Collection 
+      
+      
+      CRUD: Documents 
+      
+      
+      Insert Documents 
+      Update Documents 
+      Delete Documents 
+      Query Documents 
+      SQL to MongoDB Mapping 
+      MongoDB text search 
+      
+      
+      MongoDB Shell 
+      
+      
+      MongoDB Shell 
+      Shell Collection Methods 
+      Cursor Methods 
+      MongoDB Database Commands 
+      Query Plan Cache Methods 
+      User Management Methods 
+      Role Management Methods 
+      MongoDB Replication Methods 
+      Bulk Operation Methods 
+      Connection Methods 
+      Sharding Methods 
+      
+      
+      MongoDB Cloud 
+      
+      
+      MongoDB Stitch 
+      MongoDB Atlas 
+      MongoDB Cloud Manager 
+      MongoDB Ops Manager 
+      
+      
+      MongoDB Tools 
+      
+      
+      MongoDB Compass 
+      MongoDB BI connector 
+      
+      
+      Differences 
+      
+      
+      Cassandra vs MongoDB 
+      Couchdb vs MongoDB 
+      Redis vs MongoDB 
+      
+      
+      Connectivity 
+      
+      
+      Java MongoDB 
+      PHP MongoDB 
+      Python MongoDB 
+      Node.js MongoDB 
+      
+      
+      Misc 
+      
+      
+      MongoDB Upsert 
+      MongoDB $and Operator 
+      MongoDB $not Operator 
+      MongoDB $or Operator 
+      MongoDB $in Operator 
+      MongoDB $nor Operator 
+      MongoDB find() Method 
+      MongoDB $group operator 
+      MongoDB Regex 
+      MongoDB $exp Operator 
+      MongoDB $unwind operator 
+      MongoDB $abs Operator 
+      MongoDB $floor Operator 
+      MongoDB $ceil Operator 
+      MongoDB $log Operator 
+      MongoDB $mod Operator 
+      MongoDB $divide Operator 
+      MongoDB $multiply Operator 
+      MongoDB $pow Operator 
+      MongoDB $sqrt Operator 
+      MongoDB $subtract Operator 
+      MongoDB $trunc Operator 
+      MongoDB $round Operator 
+      MongoDB $ln Operator 
+      MongoDB $log10 Operator 
+      MongoDB $cmp Operator 
+      MongoDB $concat Operator 
+      MongoDB $nin Operator 
+      MongoDB $gt Operator 
+      MongoDB $gte Operator 
+      MongoDB $lt Operator 
+      MongoDB $eq Operator 
+      MongoDB $lte Operator 
+      MongoDB $ne Operator 
+      MongoDB $size Operator 
+      MongoDB $rename operator 
+      
+      
+      Interview Questions 
+      
+      
+      MongoDB Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            MongoDB $size Operator What is the $size operator in MongoDB? MongoDB provides a variety of array expression operators, and the $size operator is one of those operators. The $size operator is used to find the total number of elements present in the given array, and it is also used in the aggregation pipeline stages. Syntax of the $size operator: 
+           
+            
+{ $size: <expression> }
+
+            Important points:  
+            
+            If the argument is missing, then it gives the error. 
+            If the argument does not resolve to an array, then it gives the error. 
+            Examples: In the following examples, we are working with: 
+           
+            
+Database: JavaTpoint
+Collection: students
+Document: Six documents that contain the details of the students
+
+            
+           
+            >db.students.find().pretty()
+{
+   "_id" : 1,
+   "name" : "Jonny",
+   "class" : "X",
+   "rollNo" : 401,
+   "age" : 18,
+   "marks" : [ 55, 60, 70, 45, 95, 68 ],
+   "extraMarks" : {
+                    "practical" : [ 21, 18, 25, 30 ],
+                    "attendance" : [ 5, 9 ]
+                  }
+   "gender" : "Male",
+   "bloodgroup" : "A+"
+}
+{
+   "_id" : 2,
+   "name" : "Carry",
+   "class" : "IX",
+   "rollNo" : 35,
+   "age" : 17,
+   "marks" : [ 85, 40, 90, 75, 85, 77 ],
+   "gender" : "Male",
+   "bloodgroup" : "B+"
+}
+{
+   "_id" : 3,
+   "name" : "Jin",
+   "class" : "IX",
+   "rollNo" : 49,
+   "age" : 17,
+   "marks" : [ 85, 70, 80, 95, 94, 81 ],
+   "gender" : "Female",
+   "bloodgroup" : "O+"
+}
+{
+   "_id" : 4,
+   "name" : "Thomas",
+   "class" : "X",
+   "rollNo" : 61,
+   "age" : 18,
+   "marks" : [ 91, 65, 71, 63, 98, 76 ],
+   "extraMarks" : {
+                    "practical" : [ 26, 28, 25, 29 ],
+                    "attendance" : [ 8, 8 ]
+                  }
+   "gender" : "Male",
+   "bloodgroup" : "A+"
+}
+{
+   "_id" : 5,
+   "name" : "Mia",
+   "class" : "IX",
+   "rollNo" : 308,
+   "age" : 17,
+   "marks" : [ 97, 98, 95, 98 ],
+   "gender" : "Female",
+   "bloodgroup" : "B+"
+}
+{
+   "_id" : 6,
+   "name" : "Oats",
+   "class" : "IX",
+   "rollNo" : 75,
+   "age" : 18,
+   "marks" : [ 99, 98, 98, 95, 96 ],
+   "gender" : "Male",
+   "bloodgroup" : "A+"
+}
+
+            Example 1: Using $size operator In this example, we are going to find the total size of the "marks" field using the $size operator. 
+           
+            
+db.students.aggregate(
+   [
+     { $match : { class : "IX" }},
+     {
+       $project:
+          {
+            _id : 0,
+            name : 1,
+            class : 1,
+            rollNo : 1,
+            marks : 1,
+            gender : 1,
+            markssize : { $size: "$marks" }
+          }
+     }
+   ]
+)
+
+            Output: 
+           
+            {
+   "name" : "Carry",
+   "class" : "IX",
+   "rollNo" : 35,
+   "marks" : [ 85, 40, 90, 75, 85, 77 ],
+   "gender" : "Male",
+   "markssize" : 6
+}
+{
+   "name" : "Jin",
+   "class" : "IX",
+   "rollNo" : 49,
+   "marks" : [ 85, 70, 80, 95, 94, 81 ],
+   "gender" : "Female",
+   "markssize" : 6
+}
+{
+   "name" : "Mia",
+   "class" : "IX",
+   "rollNo" : 308,
+   "marks" : [ 97, 98, 95, 98 ],
+   "gender" : "Female",
+   "markssize" : 4
+}
+{
+   "name" : "Oats",
+   "class" : "IX",
+   "rollNo" : 75,
+   "marks" : [ 99, 98, 98, 95, 96 ],
+   "gender" : "Male",
+   "markssize" : 5
+}
+
+            Example 2: Using $size operator in the embedded document In this example, we are going to find the total size of the extraMarks.practical field using the $size operator. 
+           
+            
+db.students.aggregate(
+   [
+     { $match : { class : "X" }},
+     {
+       $project:
+          {
+            _id : 0,
+            name : 1,
+            class : 1,
+            rollNo : 1,
+            marks : 1,
+            extraMarks : 1
+            gender : 1,
+            result : { $size: "$extraMarks.practical" }
+          }
+     }
+   ]
+)
+
+            Output: 
+           
+            {
+   "name" : "Jonny",
+   "class" : "X",
+   "rollNo" : 401,
+   "marks" : [ 55, 60, 70, 45, 95, 68 ],
+   "extraMarks" : {
+                    "practical" : [ 21, 18, 25, 30 ],
+                    "attendance" : [ 5, 9 ]
+                  }
+   "gender" : "Male",
+   "result" : 4
+}
+{
+   "name" : "Thomas",
+   "class" : "X",
+   "rollNo" : 61,
+   "marks" : [ 91, 65, 71, 63, 98, 76 ],
+   "extraMarks" : {
+                    "practical" : [ 26, 28, 25, 29 ],
+                    "attendance" : [ 8, 8 ]
+                  }
+   "gender" : "Male",
+   "result" : 4
+}
+
+            
+            
+            
+            Next Topic
+            MongoDB $rename operator 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

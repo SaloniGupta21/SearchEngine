@@ -1,0 +1,929 @@
+
+
+ 
+  
+  How to Find Length of Integer in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Find Length of Integer in Java? In this section, we will learn the different approaches to find the length of an integer in Java. The length of an integer means the total number of digits present in that integer. We can find the length of integer by using the following approaches: 
+            
+            Using while loop 
+            Using String 
+            Using Continuous Multiplication 
+            Using Logarithm 
+            Using Recusion 
+            Let's discuss one by one. Using while loop We can find the length of an integer using a while loop. Observe the following code. FileName: IntegerLengthExample.java 
+           
+            
+public class IntegerLengthExample
+{
+// method to find the number of digits present in the number n
+public int countDig(int n)
+{
+int count = 0;
+while(n != 0)
+{
+// removing the last digit of the number n
+n = n / 10;
+// increasing count by 1
+count = count + 1;
+}
+return count;
+}
+// main method
+public static void main(String argvs[])
+{
+// input array
+int arr[] = {78, 9, 2345, 899009, 1, 414, 34, 1000, 2749};
+// size of the input arrray
+int size = arr.length;
+// creating an object of the class IntegerLengthExample
+IntegerLengthExample obj = new IntegerLengthExample();
+for(int i = 0; i < size; i++)
+{
+int count = obj.countDig(arr[i]);
+System.out.println("The length of the number " + arr[i] + " is " + count);
+}
+}
+}
+
+            Output: 
+           
+            The length of the number 78 is 2
+The length of the number 9 is 1
+The length of the number 2345 is 4
+The length of the number 899009 is 6
+The length of the number 1 is 1
+The length of the number 414 is 3
+The length of the number 34 is 2
+The length of the number 1000 is 4
+The length of the number 2749 is 4
+
+            Using String Another idea can be to convert the number into a string and then compute its size. The size of the string gives the length of the string. The following program depicts the same. FileName: IntegerLengthExample1.java 
+           
+            
+public class IntegerLengthExample1
+{
+// method to find the number of digits present in the number n
+public int countDig(int n)
+{
+// converting the number n to a string
+String str = Integer.toString(n);
+// computing the size of the string
+int size = str.length();
+return size;
+}
+// main method
+public static void main(String argvs[])
+{
+// input array
+int arr[] = {78, 9, 2345, 899009, 1, 414, 34, 1000, 2749};
+// size of the input arrray
+int size = arr.length;
+// creating an object of the class IntegerLengthExample1
+IntegerLengthExample1 obj = new IntegerLengthExample1();
+for(int i = 0; i < size; i++)
+{
+int count = obj.countDig(arr[i]);
+System.out.println("The length of the number " + arr[i] + " is " + count);
+}
+}
+}
+
+            Output: 
+           
+            The length of the number 78 is 2
+The length of the number 9 is 1
+The length of the number 2345 is 4
+The length of the number 899009 is 6
+The length of the number 1 is 1
+The length of the number 414 is 3
+The length of the number 34 is 2
+The length of the number 1000 is 4
+The length of the number 2749 is 4
+
+            Using Continuous Multiplication We can multiply a number 1 by 10 until it becomes greater than the number n. Each time we multiply by 10, we increment a variable count by 1. The final value of the count gives the length of the integer n. Let's understand it with the help of the following program. FileName: IntegerLengthExample2.java 
+           
+            
+public class IntegerLengthExample2
+{
+// method to find the number of digits present in the number n
+public int countDig(int n)
+{
+int temp = 1;
+int count = 0;
+while(temp <= n)
+{
+// multiplying temp by 10
+temp = temp * 10;
+// increasing the value of count by 1
+count = count + 1;
+}
+// count contains the total number of 
+// digits present in the number n
+return count;
+}
+// main method
+public static void main(String argvs[])
+{
+// input array
+int arr[] = {78, 9, 2345, 899009, 1, 414, 34, 1000, 2749};
+// size of the input arrray
+int size = arr.length;
+// creating an object of the class IntegerLengthExample2
+IntegerLengthExample2 obj = new IntegerLengthExample2();
+for(int i = 0; i < size; i++)
+{
+int count = obj.countDig(arr[i]);
+System.out.println("The length of the number " + arr[i] + " is " + count);
+}
+}
+}
+
+            Output: 
+           
+            The length of the number 78 is 2
+The length of the number 9 is 1
+The length of the number 2345 is 4
+The length of the number 899009 is 6
+The length of the number 1 is 1
+The length of the number 414 is 3
+The length of the number 34 is 2
+The length of the number 1000 is 4
+The length of the number 2749 is 4
+
+            Using Logarithm We can also use log to find the length of an integer. Observe the following program. FileName: IntegerLengthExample3.java 
+           
+            
+public class IntegerLengthExample3
+{
+// method to find the number of digits present in the number n
+public int countDig(int n)
+{
+// finding the length of the number n using the log10() method
+int len = (int) (Math.log10(n) + 1);
+// returning the  length
+return len;
+}
+// main method
+public static void main(String argvs[])
+{
+// input array
+int arr[] = {78, 9, 2345, 899009, 1, 414, 34, 1000, 2749};
+// size of the input arrray
+int size = arr.length;
+// creating an object of the class IntegerLengthExample3
+IntegerLengthExample3 obj = new IntegerLengthExample3();
+for(int i = 0; i < size; i++)
+{
+int count = obj.countDig(arr[i]);
+System.out.println("The length of the number " + arr[i] + " is " + count);
+}
+}
+}
+
+            Output: 
+           
+            The length of the number 78 is 2
+The length of the number 9 is 1
+The length of the number 2345 is 4
+The length of the number 899009 is 6
+The length of the number 1 is 1
+The length of the number 414 is 3
+The length of the number 34 is 2
+The length of the number 1000 is 4
+The length of the number 2749 is 4
+
+            Using Recursion We can also use recursion to find out the length of an integer. The following program demonstrates the same. FileName: IntegerLengthExample4.java 
+           
+            
+public class IntegerLengthExample4
+{
+// method to find the number of digits present in the number n
+public int countDig(int n)
+{
+// handling base case
+if(n / 10 == 0)
+{
+return 1;
+}
+// recrusively finding the length of the integer n
+return 1 + countDig(n / 10);
+}
+// main method
+public static void main(String argvs[])
+{
+// input array
+int arr[] = {78, 9, 2345, 899009, 1, 414, 34, 1000, 2749};
+// size of the input array
+int size = arr.length;
+// creating an object of the class IntegerLengthExample4
+IntegerLengthExample4 obj = new IntegerLengthExample4();
+for(int i = 0; i < size; i++)
+{
+int count = obj.countDig(arr[i]);
+System.out.println("The length of the number " + arr[i] + " is " + count);
+}
+}
+}
+
+            Output: 
+           
+            The length of the number 78 is 2
+The length of the number 9 is 1
+The length of the number 2345 is 4
+The length of the number 899009 is 6
+The length of the number 1 is 1
+The length of the number 414 is 3
+The length of the number 34 is 2
+The length of the number 1000 is 4
+The length of the number 2749 is 4
+
+            
+            
+            
+            Next Topic
+            Java 8 filters 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,869 @@
+
+
+ 
+  
+  Java Get File Size - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Java Get File Size In this previous section of the Java IO, we have discussed various file operations such as write to file, read a file, rename a file, etc. In this section, we are going to discuss how to get the file size through a Java program. There are the following ways to get the file size in Java. 
+            
+            Using Java IO 
+             Using NIO Library 
+              
+              Files.size() Method 
+              FileChannel.size() Method 
+               
+            Using Apache Commons IO 
+            Using Java IO The Java IO package provides the classes that deal with file-related operations. In the same way, the Java IO package provides the File class that contains the length() method. That returns the size of the specified file in bytes. It returns an unspecified value if the file denotes a directory. The way can be used if you are using Java 7 or previous versions. The Java File class is used to represent an abstract representation of file and directory pathnames. It belongs to the java.io package. In the following program, we have created a constructor of the Files class and parsed the path of the file as a parameter. We have used the following methods of the class are: exists(): The method checks whether the file or directory denoted by this abstract pathname exists or not. It returns true if and only if the specified path exists, false otherwise. isFile(): The method checks whether the file denoted by this abstract pathname is a normal file. A file is normal if it is not a directory and, in addition, satisfies other system-dependent criteria. Any non-directory file created by a Java application is guaranteed to be a normal file. It returns true if and only if the file denoted by this abstract pathname exists and is a normal file, false otherwise. length(): The method returns the length of the file denoted by this abstract pathname. The return value is unspecified if this pathname represents a directory. The length, in bytes, of the file is denoted by this abstract pathname, or 0L if the file does not exist. Let's see the Java program. GetFileSize1.java 
+           
+            
+import java.io.File;
+public class GetFileSize1 
+{
+//path of the file	
+static final String PATH = "C:\\Users\\Anubhav\\Desktop\\AMCAT ENGLISH.pdf";
+public static void main(String args[]) 
+{
+//creating a constructor of the File class and passing the path of the file	
+File file = new File(PATH);
+//checks if the specified exists or the specified file is a normal file (not a directory)
+if (!file.exists() || !file.isFile()) 
+return;
+//prints file size in bytes
+System.out.println(sizeInBytes(file));
+//prints file size in KB
+System.out.println(sizeInKiloBytes(file));
+//prints file size in MB
+System.out.println(sizeInMegaBytes(file));
+}
+//the method calculates the file size in megabytes
+private static String sizeInMegaBytes(File file) 
+{
+return (double) file.length() / (1024 * 1024) + " mb";
+}
+//the method calculates the file size in kilobytes
+private static String sizeInKiloBytes(File file) 
+{
+return (double) file.length() / 1024 + " kb";
+}
+//the method calculates the file size in bytes
+private static String sizeInBytes(File file) 
+{
+return file.length() + " bytes";
+}
+}
+
+            Output:  Using Java NIO Library NIO is another Java IO library. It provides a different way of working with I/O in comparison to the standard IO library. It is an alternate IO API. The library is based on a buffer-oriented, channel-based approach for I/O operations. Files.size() Method The Java NIO library provides the class named Files. It belongs to java.nio.file package. The class provides static methods that operate on files, directories, or other types of files. In most cases, the methods defined in the class delegates to the associated file system provider to perform the file operations. In order to get the file size, the Files class provides the size() method. The syntax of the size() method is: 
+           
+            
+public static long size(Path path) throws IOException
+
+            The method accepts the path of the file as a parameter and returns the file size in bytes. GetFileSize2.java 
+           
+            
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+public class GetFileSize2 
+{
+public static void main(String args[]) 
+{
+//path of the file	
+String fileName = "C:\\Users\\Anubhav\\Desktop\\morning_bird.mp3";
+//method calling
+getFileSize(fileName);
+}
+//function that calculates the size of the file
+private static void getFileSize(String fileName) 
+{
+//Path: It is an interface that is used to locate a file in a file system 
+//it typically represents a system-dependent file path
+//Paths: It is a class that consists exclusively of static methods 
+//it returns a Path by converting a path string or URI
+//the get() method converts the given URI to a Path object
+Path path = Paths.get(fileName);
+try 
+{
+//invoking the size() method of the Files class that returns the file size in bytes
+//and storing the size in a variable named bytes
+long bytes = Files.size(path);
+//invoking the format() method of the String class 
+//that returns a formatted string using the specified format string and arguments
+System.out.println(String.format("%, d bytes", bytes));
+System.out.println(String.format("%, d kilobytes", bytes / 1024));
+} 
+catch (IOException e) 
+{
+e.printStackTrace();
+}
+}
+}
+
+            Output:  FileChannel.size() Method Java NIO library provides another class named FileChannel class. It is an abstract class that belongs to the java.nio.channels package. The class provides channels for reading, writing, mapping, and manipulating a file. It provides the size() method to get the size of the file. It returns the current size of this channel's file, measured in bytes. 
+           
+            
+public abstract long size() throws IOException
+
+            Let's see the Java program. GetFileSize3.java 
+           
+            
+import java.io.IOException;
+import java.nio.channels.FileChannel;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+public class GetFileSize3 
+{
+//path of the file		
+static final String PATH = "E:\\pics\\fresh_fruits.jpg";
+public static void main(String args[]) 
+{
+//Path: It is an interface that is used to locate a file in a file system 
+//it typically represents a system-dependent file path
+//Paths: It is a class that consists exclusively of static methods 
+//it returns a Path by converting a path string or URI	
+//the get() method converts the given URI to a Path object
+Path path = Paths.get(PATH);
+//creating a reference variable of the FileChannel class
+FileChannel fc;
+try 
+{
+//opens or creates a file, returning a file channel to access the file	
+//an invocation of this method behaves in exactly the same way as the invocation
+//fc.open(file, opts, new FileAttribute<?>[0]);
+fc = FileChannel.open(path);
+//the size() method returns the file size in bytes
+long fileSize = fc.size();
+//prints the file size
+System.out.println(fileSize + " bytes");
+//invoking the close() method of the Channel interface that closes the path
+fc.close();
+} 
+catch (IOException e) 
+{
+e.printStackTrace();
+}
+}
+}
+
+            Output: 
+           
+            1382132 bytes   
+
+            Using Apache Commons IO Apache commons is a third-party library that provides general file manipulations utilities. The classes belong to the org.apache.commons.io package. Using FileUtils.sizeOf() Method The class provides the sizeOf() method to get the file size in bytes. Syntax: 
+           
+            
+public static long sizeOf(File file)
+
+            The method accepts a file or directory as a parameter. Note that the parameter must not be null. It returns the length (in bytes) of the file if the parameter is a regular file. If the argument is a directory then the size (bytes) of the directory is calculated recursively. Note: It does not detect the overflow. So, we can get the negative file size due to overflow. Before running the following program, ensure that the commons-io-2.4.jar file is added to the project. GetFileSize4.java 
+           
+            
+import java.io.File;
+import org.apache.commons.io.FileUtils;
+public class GetFileSize4 
+{
+//path of the file	
+static final String PATH = "D:\\SKYPE\\Skype-8.37.0.98.exe";
+public static void main(String args[]) 
+{
+//creating the File class constructor and passing the file path into it
+File file = new File(PATH);
+//get the file size
+long fileSize = FileUtils.sizeOf(file);
+//prints the file size
+System.out.println("The file size is: " +fileSize + " bytes");
+}
+}
+
+            Output: 
+           
+            The file size is: 65042816 bytes 
+
+            
+            
+            
+            Next Topic
+            Internal Working of ArrayList in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

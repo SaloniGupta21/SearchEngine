@@ -1,0 +1,427 @@
+Bootstrap 4 Button Groups - Javatpoint ? SCROLL TO TOP Home Bootstrap 4 Bootstrap HTML JavaScript jQuery jQuery UI CSS XML JSON C Java PHP Ajax Quiz Projects Interview Q Bootstrap 4 Tutorial Bootstrap 4 Tutorial Environment setup Bootstrap 4 Layout Bootstrap 4 Buttons Bootstrap 4 Dropdown Bootstrap 4 Spinners Bootstrap 4 Badges Bootstrap 4 Progress Bars Bootstrap 4 Jumbotron Bootstrap 4 Text Bootstrap 4 Pagination Bootstrap 4 Carousel Bootstrap 4 Scrollspy Bootstrap 4 Tooltip Bootstrap 4 Accordion Bootstrap 4 Login Form Bootstrap 4 Checkboxes Bootstrap 4 Radio Button Bootstrap 4 Toast Bootstrap 4 registration form Bootstrap 4 Popover Bootstrap 4 testimonial slider Bootstrap 4 footer Bootstrap 4 Contact form Bootstrap 4 search box Bootstrap 4 File Upload Bootstrap 4 Sidebar Bootstrap 4 Data table Bootstrap 4 toggle switch Bootstrap 4 Header Bootstrap 4 Tabs Bootstrap 4 Flexbox Bootstrap 4 Modal Bootstrap 4 Input groups Bootstrap 4 Responsive Table Bootstrap 4 colors Bootstrap 4 Button Groups Multi step progress bar in Bootstrap 4 Typography in Bootstrap 4 Bootstrap 4 custom form Bootstrap 4 Datepicker MCQ Bootstrap 4 MCQ next ? ? prev Bootstrap 4 Button Groups In this article, we will understand about the Bootstrap 4 button groups in detail. What do you mean by Button Groups in Bootstrap 4? In Bootstrap 4, Button groups allow multiple buttons to be group together on a single line. This is useful when you want to place items like alignment buttons together. Let's take the various examples of bootstrap 4 Button Groups. Example 1: 
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Bootstrap 4 Button Groups Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+</head>
+<style>  
+h2 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-size: 2.5em;
+  padding: 70px 0 0 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;    
+  text-align: center;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+}  
+button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+button:hover {
+  color: #3498db;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+body {  
+    background-size: 400% 400%;  
+           margin: 2rem;  
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+    animation: gradient 15s ease infinite;  
+    height: 100vh;  
+	color: black;
+}  
+@keyframes gradient {  
+    0% {  
+        background-position: 0% 50%;  
+    }  
+    50% {  
+        background-position: 100% 50%;  
+    }  
+    100% {  
+        background-position: 0% 50%;  
+    }  
+} 
+</style> 
+<body>
+<div class="container">
+  <h2> Bootstrap 4 Button Groups Example </h2>
+ <div class="btn-group">
+    <button type="button" class="btn btn-primary"> Button 1 </button>
+    <button type="button" class="btn btn-primary"> Button 2 </button>
+    <button type="button" class="btn btn-primary"> Button 3 </button>
+  </div>
+</div>
+</body>
+</html>
+ Explanation: In the above example, we have created a button group example. For this we have used a .btn-group class to create a button group. Output: Following is the output of this example: Example 2: 
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Bootstrap 4 vertical Button Groups Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+</head>
+<style>  
+h2 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-size: 2.5em;
+  padding: 70px 0 0 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;    
+  text-align: center;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+}  
+button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+button:hover {
+  color: #3498db;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+body {  
+    background-size: 400% 400%;  
+           margin: 2rem;  
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+    animation: gradient 15s ease infinite;  
+    height: 100vh;  
+	color: black;
+}  
+@keyframes gradient {  
+    0% {  
+        background-position: 0% 50%;  
+    }  
+    50% {  
+        background-position: 100% 50%;  
+    }  
+    100% {  
+        background-position: 0% 50%;  
+    }  
+} 
+</style> 
+<body>
+<div class="container">
+  <h2> Bootstrap 4 Vertical Button Groups Example </h2>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary"> Button 1 </button>
+    <button type="button" class="btn btn-primary"> Button 2 </button>
+    <button type="button" class="btn btn-primary"> Button 3 </button>
+  </div>
+</div>
+</body>
+</html>
+ Explanation: In the above example, we have created a vertical input button group example. For this we have used a .btn-group- vertical class to create a button group vertical. Output: Following is the output of this example: Example 3: 
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Bootstrap 4 Button Groups Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+</head>
+<style>  
+h2 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-size: 2.5em;
+  padding: 70px 0 0 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;    
+  text-align: center;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+}  
+button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+button:hover {
+  color: #3498db;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+body {  
+    background-size: 400% 400%;  
+           margin: 2rem;  
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+    animation: gradient 15s ease infinite;  
+    height: 100vh;  
+	color: black;
+}  
+@keyframes gradient {  
+    0% {  
+        background-position: 0% 50%;  
+    }  
+    50% {  
+        background-position: 100% 50%;  
+    }  
+    100% {  
+        background-position: 0% 50%;  
+    }  
+} 
+</style> 
+<body>
+<div class="container">
+  <h2> Bootstrap 4 Vertical Button Groups Example </h2>
+ <div class="btn-group-vertical">
+  <button type="button" class="btn btn-primary"> Button 1 </button>
+  <button type="button" class="btn btn-primary"> Button 2 </button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Button 3
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"> Dropdown menu1 </a>
+      <a class="dropdown-item" href="#"> Dropdown menu2 </a>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+ Explanation: In the above example, we have created a button group example. For this we have used a .btn-group class to create a button group. Output: Following is the output of this example: Example 4: 
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Bootstrap 4 Button Groups Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+</head>
+<style>  
+h2 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-size: 2.5em;
+  padding: 70px 0 0 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;    
+  text-align: center;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+}  
+button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+body {  
+    background-size: 400% 400%;  
+           margin: 2rem;  
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+    animation: gradient 15s ease infinite;  
+    height: 100vh;  
+	color: black;
+}  
+@keyframes gradient {  
+    0% {  
+        background-position: 0% 50%;  
+    }  
+    50% {  
+        background-position: 100% 50%;  
+    }  
+    100% {  
+        background-position: 0% 50%;  
+    }  
+} 
+body,
+html {
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #111e6c;
+  transition: all 1s ease;
+  padding-top: 70px;
+}
+.main:before {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  filter: alpha(opacity=90);
+}
+.main-text {
+  top: 20%;
+  left: auto;
+  right: auto;
+  position: relative;
+  color: #111e6c;
+}
+.btn-circle
+{
+  border-radius: 50%;
+  background: #111e6c;
+  padding: 6px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-lg {
+  padding: 18px 28px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 50px;
+}
+.c2a-btn {
+  margin: 48px auto 0;
+  margin: 4.8rem auto 0;
+}
+.btn-default {
+  color: #fff;
+  background-color: #111e6c;
+  border-color: #111e6c;
+  transition: all 1s ease;
+}
+.btn-group-lg > .btn
+{
+  padding: 18px 28px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 50px;
+}
+.btn-lg {
+  padding: 18px 28px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 50px;
+}
+.btn-group .btn-or {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  box-shadow: 0;
+  border: 2px solid #fff;
+}
+</style> 
+<body>
+<div class="container-fluid main">
+  <div class="text-center main-text">
+     <h2> Bootstrap 4 Button Groups Example </h2>
+    <div class="c2a-btn footer-c2a-btn">
+      <div class="btn-group btn-group-lg" role="group" aria-label="Call to action">
+        <a type="button" class="btn btn-default btn-lg" href="#"> Button 1 </a>
+        <span class="btn-circle btn-or">or</span>
+        <a type="button" class="btn btn-default btn-lg" href="#"> Button 2 </a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+ Explanation: In the above example, we have created a button group example. For this we have used a .btn-group class to create a button group. Output: Following is the output of this example: Next Topic Multi step progress bar in Bootstrap 4 ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

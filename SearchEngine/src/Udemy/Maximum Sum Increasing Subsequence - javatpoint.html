@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Maximum Sum Increasing Subsequence - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Maximum Sum Increasing Subsequence - javatpoint">
+  <meta property="og:description" content="Maximum Sum Increasing Subsequence with daa tutorial, introduction, Algorithm, Asymptotic Analysis, Control Structure, Recurrence, Master Method, Recursion Tree Method, Sorting Algorithm, Bubble Sort, Selection Sort, Insertion Sort, Binary Search, Merge Sort, Counting Sort, etc."> 
+  <meta name="keywords" content="daa tutorial, introduction, algorithm, asymptotic analysis, algorithm control structure, recurrence, master method, recursion tree method, simple sorting algorithm, bubble sort, selection sort, insertion sort, divide and conquer, binary search, merge sort, counting sort, lower bound theory">
+  <meta name="description" content="Maximum Sum Increasing Subsequence with daa tutorial, introduction, Algorithm, Asymptotic Analysis, Control Structure, Recurrence, Master Method, Recursion Tree Method, Sorting Algorithm, Bubble Sort, Selection Sort, Insertion Sort, Binary Search, Merge Sort, Counting Sort, etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/maximum-sum-increasing-subsequence"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Maximum Sum Increasing Subsequence - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Maximum Sum Increasing Subsequence with daa tutorial, introduction, Algorithm, Asymptotic Analysis, Control Structure, Recurrence, Master Method, Recursion Tree Method, Sorting Algorithm, Bubble Sort, Selection Sort, Insertion Sort, Binary Search, Merge Sort, Counting Sort, etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/maximum-sum-increasing-subsequence">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="data-structure-tutorial">DS</a></li> 
+       <li><a href="daa-tutorial" class="selected">DAA</a></li> 
+       <li><a href="dbms-tutorial">DBMS</a></li> 
+       <li><a href="aptitude/quantitative">Aptitude</a></li> 
+       <li><a href="selenium-tutorial">Selenium</a></li> 
+       <li><a href="kotlin-tutorial">Kotlin</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+       <li><a href="training">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DAA Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-tutorial">DAA Tutorial</a> 
+      <a href="daa-algorithm">DAA Algorithm</a> 
+      <a href="daa-need-of-algorithm">Need of Algorithm</a> 
+      <a href="daa-complexity-of-algorithm">Complexity of Algorithm</a> 
+      <a href="daa-algorithm-design-techniques">Algorithm Design Techniques</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Asymptotic Analysis</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-asymptotic-analysis-of-algorithms">Asymptotic Analysis</a> 
+      <a href="daa-analyzing-algorithm-control-structure">Analyzing Algorithm Control Structure</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Recurrence</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-recurrence-relation">Recurrence Relation</a> 
+      <a href="daa-recursion-tree-method">Recursion Tree Method</a> 
+      <a href="daa-master-method">Master Method</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Analysis of Sorting</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-bubble-sort">Bubble Sort</a> 
+      <a href="daa-selection-sort">Selection Sort</a> 
+      <a href="daa-insertion-sort">Insertion Sort</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Divide and Conquer</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="divide-and-conquer-introduction">Introduction</a> 
+      <a href="daa-max-min-problem">Max-Min Problem</a> 
+      <a href="daa-binary-search">Binary Search</a> 
+      <a href="daa-merge-sort">Merge Sort</a> 
+      <a href="daa-tower-of-hanoi">Tower of Hanoi</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Sorting</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-binary-heap-sort">Binary Heap</a> 
+      <a href="daa-quick-sort">Quick Sort</a> 
+      <a href="daa-stable-sorting">Stable Sorting</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Lower bound Theory </span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-lower-bound-theory">Lower bound Theory </a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Sorting in Linear Time</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-linear-time-sorting">Linear Time</a> 
+      <a href="daa-counting-sort">Counting Sort</a> 
+      <a href="daa-bucket-sort">Bucket Sort</a> 
+      <a href="daa-radix-sort">Radix Sort</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Hashing</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-hashing">Hashing</a> 
+      <a href="daa-hash-tables">Hash Tables</a> 
+      <a href="daa-hashing-method">Hashing Method</a> 
+      <a href="daa-open-addressing-techniques">Open Addressing Techniques</a> 
+      <a href="daa-hash-function">Hash Function</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Binary Search Trees</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-binary-search-trees">Binary Search</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Red Black Tree</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-red-black-tree">Red Black Tree</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Dynamic Programming</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="dynamic-programming">Dynamic Programming</a> 
+      <a href="divide-and-conquer-method-vs-dynamic-programming">Divide &amp; Conquer Method vs Dynamic Programming</a> 
+      <a href="fibonacci-sequence">Fibonacci sequence</a> 
+      <a href="matrix-chain-multiplication">Matrix Chain Multiplication</a> 
+      <a href="matrix-chain-multiplication-example">Matrix Chain Multiplication Example</a> 
+      <a href="matrix-chain-multiplication-algorithm">Matrix Chain Multiplication Algorithm</a> 
+      <a href="longest-common-sequence">Longest Common Sequence</a> 
+      <a href="longest-common-sequence-algorithm">Longest Common Sequence Algorithm</a> 
+      <a href="0-1-knapsack-problem">0/1 Knapsack Problem</a> 
+      <a href="daa-dutch-national-flag">DUTCH NATIONAL FLAG</a> 
+      <a href="daa-longest-palindrome-subsequence">Longest Palindrome Subsequence</a> 
+      <a href="longest-increasing-subsequence">Longest Increasing Subsequence</a> 
+      <a href="longest-common-subsequence">Longest Common Subsequence</a> 
+      <a href="tabulation-vs-memoization">Tabulation vs Memoization</a> 
+      <a href="how-to-solve-a-dynamic-programming-problem">How to solve a dynamic programming problem</a> 
+      <a href="optimal-substructure-property">Optimal Substructure Property</a> 
+      <a href="overlapping-sub-problems">Overlapping sub-problems</a> 
+      <a href="dynamic-programming-vs-greedy-approach">Dynamic programming vs Greedy approach</a> 
+      <a href="regular-expression-matching">Regular Expression Matching</a> 
+      <a href="branch-and-bound-vs-backtracking">Branch and bound vs backtracking</a> 
+      <a href="branch-and-bound">Branch and bound</a> 
+      <a href="longest-repeated-subsequence">Longest Repeated Subsequence</a> 
+      <a href="longest-common-substring">Longest Common Substring</a> 
+      <a href="shortest-common-supersequence">Shortest Common Supersequence</a> 
+      <a href="dynamic-programming-vs-divide-and-conquer">Dynamic Programming vs Divide and Conquer</a> 
+      <a href="maximum-sum-increasing-subsequence">Maximum Sum Increasing Subsequence</a> 
+      <a href="wildcard-pattern-matching">Wildcard Pattern Matching</a> 
+      <a href="largest-sum-contiguous-subarray">Largest Sum Contiguous Subarray</a> 
+      <a href="shortest-sum-contiguous-subarray">Shortest Sum Contiguous Subarray</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Greedy Algorithm</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="greedy-algorithms">Greedy Algorithms</a> 
+      <a href="activity-selection-problem">Activity Selection Problem</a> 
+      <a href="fractional-knapsack-problem">Fractional Knapsack problem</a> 
+      <a href="huffman-coding">Huffman Codes</a> 
+      <a href="huffman-coding-algorithm">Algorithm of Huffman Code</a> 
+      <a href="activity-or-task-scheduling-problem">Activity or Task Scheduling Problem</a> 
+      <a href="travelling-sales-person-problem">Travelling Sales Person Problem</a> 
+      <a href="dynamic-programming-vs-greedy-method">Dynamic Programming vs Greedy Method</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Backtracking</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="backtracking-introduction">Backtracking Introduction</a> 
+      <a href="recursive-maze-algorithm">Recursive Maze Algorithm</a> 
+      <a href="hamiltonian-circuit-problems">Hamiltonian Circuit Problems</a> 
+      <a href="subset-sum-problems">Subset Sum Problems</a> 
+      <a href="n-queens-problems">N Queens Problems</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">MST</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="minimum-spanning-tree-introduction">MST Introduction</a> 
+      <a href="applications-of-minimum-spanning-tree">MST Applications</a> 
+      <a href="kruskals-minimum-spanning-tree-algorithm">Kruskal's Algorithm</a> 
+      <a href="prims-minimum-spanning-tree-algorithm">Prim's Algorithm</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Shortest Path</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="single-source-shortest-paths">Introduction</a> 
+      <a href="negative-weight-edges">Negative Weight Edges </a> 
+      <a href="representing-shortest-path">Representing Shortest Path</a> 
+      <a href="relaxation">Relaxation</a> 
+      <a href="dijkstras-algorithm">Dijkstra's Algorithm</a> 
+      <a href="bellman-ford-algorithm">Bellman-Ford Algorithm</a> 
+      <a href="single-source-shortest-path-in-a-directed-acyclic-graphs">Single Source Shortest Path in a directed Acyclic Graphs</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">All-Pairs Shortest Paths</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="all-pairs-shortest-paths">Introduction</a> 
+      <a href="floyd-warshall-algorithm">Floyd-Warshall Algorithm</a> 
+      <a href="johnsons-algorithm">Johnson's Algorithm</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Maximum Flow</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-flow-networks-and-flows">Flow networks and Flows</a> 
+      <a href="daa-network-flow-problems">Network Flow Problems</a> 
+      <a href="daa-ford-fulkerson-algorithm">Ford Fulkerson Algorithm</a> 
+      <a href="daa-maximum-bipartite-matching">Maximum bipartite matching</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Sorting Networks</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-comparison-network">Comparison Network</a> 
+      <a href="daa-bitonic-sorting-network">Bitonic Sorting Network</a> 
+      <a href="daa-merging-network">Merging Network</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Complexity Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-complexity-classes">Complexity Classes</a> 
+      <a href="daa-polynomial-time-verification">Polynomial Time Verification</a> 
+      <a href="daa-np-completeness">NP-Completeness</a> 
+      <a href="daa-circuit-satisfiability">Circuit Satisfiability</a> 
+      <a href="daa-3-cnf-satisfiability">3-CNF Satisfiability</a> 
+      <a href="daa-clique-problem">Clique Problem</a> 
+      <a href="daa-vertex-cover-problem">Vertex Cover Problem</a> 
+      <a href="daa-subset-sum-problem">Subset-Sum Problem</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Approximation Algo</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-approximate-algorithms">Introduction</a> 
+      <a href="daa-approximation-algorithm-vertex-cover">Vertex Cover</a> 
+      <a href="daa-traveling-salesman-problem">Travelling Salesman Problem</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">String Matching</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-string-matching-introduction">Introduction</a> 
+      <a href="daa-naive-string-matching-algorithm">Naive String Matching Algorithm</a> 
+      <a href="daa-rabin-karp-algorithm">Rabin-Karp-Algorithm</a> 
+      <a href="daa-string-matching-with-finite-automata">String Matching with Finite Automata</a> 
+      <a href="daa-knuth-morris-pratt-algorithm">Knuth-Morris-Pratt Algorithm</a> 
+      <a href="daa-boyer-moore-algorithm">Boyer-Moore Algorithm</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Interview Questions</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="daa-interview-questions">DAA Interview Questions</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="wildcard-pattern-matching">next &#x2192;</a> 
+            <a class="next" href="dynamic-programming-vs-divide-and-conquer">&#x2190; prev</a> 
+           </div> <h1 class="h1">Maximum Sum Increasing Subsequence</h1> <p>The maximum sum increasing subsequence is a subsequence of a list of integers where the sum is maximum and, in a subsequence, all the elements are sorted in increasing order.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+For example:
+Consider the array of a given integers:
+A[] = {3, 2, 6, 4, 5, 1}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>Maximum sum increasing subsequence is {3, 4, 5}   
+</pre>
+           </div> <p><strong>Let's consider one more example to understand it clearly.</strong></p> <p><strong>Consider an array which is given below:</strong></p> <p><strong>Array: 4, 6, 1, 3, 8, 4, 6</strong></p> <p>Here, we consider three arrays; the first array stores the array values, the second array stores the maximum value, and the third array stores the actual sequence.</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence1.png" alt="Maximum Sum Increasing Subsequence"> <p>Initially, the second array stores the values of the array which is given in the problem and the third array stores the index corresponding to each value shown as below:</p> <p>Assume two variables, 'i' and 'j'. For every 'i', 'j' will run till the 'i-1'. Compare the value at 'i' with a value at 'j'.</p> <p><strong>When i=0, j=0</strong></p> <p><strong>A[i]=4</strong></p> <p><strong>A[j] = 4</strong></p> <p>Since the values at 'i' and 'j' are the same, we will increment the value of 'i' and the value of 'i' becomes 1.</p> <p><strong>When i=1, j =0</strong></p> <p><strong>A[i] = 6</strong></p> <p><strong>A[j] = 4</strong></p> <p>Since A[i] &gt; A[j] so we will add the values at 'i' and 'j', i.e., (6+4) equals to 10. We will replace the value 6 by 10 at i=1 in the second array. The value 1 is replaced by 0 at index i=1 in the third array and the value of 'i' is incremented shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence2.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=2, j=0</strong></p> <p>A[i] = 1</p> <p>A[j] = 4</p> <p>Since A[i]&lt;A[j] so there will be no addition, and the value of 'j' gets incremented. The value of 'j' becomes 1.</p> <p><strong>When i=2, j=1</strong></p> <p><strong>A[i] = 1</strong></p> <p><strong>A[j] = 6</strong></p> <p>Since A[j] &gt; A[i] so there will be no addition, and the value of 'i' gets incremented. The value of 'i' becomes 3, and the value of 'j' is set to 0.</p> <p><strong>When i=3, j=0</strong></p> <p>A[3] = 3</p> <p>A[0] = 4</p> <p>Since A[j] &gt; A[i] so there will be no addition, and the value of 'j' gets incremented. The value of 'j' becomes 1.</p> <p><strong>When i=3, j=1</strong></p> <p>A[3] = 3</p> <p>A[1] = 6</p> <p>Since A[i]&lt;A[j] so there will be no addition, and the value of 'j' gets incremented. The value of 'j' becomes 2.</p> <p><strong>When i=3, j=2</strong></p> <p>A[3] = 3</p> <p>A[2] = 1</p> <p>Since A[i] &gt; A[j] so we will add the values at 'i' and 'j', i.e., (3+1) equals to 4. We will replace the value 3 by 4 at i=3 in the second array. The value 3 is replaced by 2 at index i=3 in the third array and the value of 'i' is incremented shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence3.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=4, j=0</strong></p> <p>A[4] = 8</p> <p>A[j] = 4</p> <p>Since A[i] &gt; A[j], so we will add the values at 'i' and 'j', i.e., (8+4) equals to 12. We will replace the value 8 by 12 at i=4 in the second array. The value 4 is replaced by 0 at index i=4 in the third array, and the value of 'j' is incremented shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence4.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=4, j=1</strong></p> <p><strong>A[4] = 8</strong></p> <p><strong>A[1] = 6</strong></p> <p>Since A[i] &gt; A[j] so we will add the values at 'i' and 'j'. The value corresponding to j in the second array is 10 so we will add (8+10) equals to 18. Since 18&gt;12, so 12 will be replaced by 18 in the second array. The value 0 is replaced by 1 at the index 4 in the third array shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence5.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=4, j=2</strong></p> <p><strong>A[4] = 8</strong></p> <p><strong>A[2] = 1</strong></p> <p>Since A[i]&gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 1, so we will add (8+1) equals to 9. The value 9 is less than the value 18, so there will be no replacement.</p> <p><strong>When i=4, j=3</strong></p> <p>A[4] = 8</p> <p>A[3] = 3</p> <p>Since A[i]&gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 4 so we will add (8+4) equals to 12. The value 12 is less than the value 18 so there will be no replacement. The value of 'i' gets incremented.</p> <p><strong>When i=5, j=0</strong></p> <p>A[5] = 4</p> <p>A[0] = 4</p> <p>Since the value at 'j' is not less than the value at 'i' so we will increment the value of 'j'.</p> <p><strong>When i=5, j=1</strong></p> <p>A[5] = 4</p> <p>A[1] = 6</p> <p>Since A[i] is less than A[j] so the value of 'j' will be incremented.</p> <p><strong>When i=5, j=2</strong></p> <p>A[5] = 4</p> <p>A[2] = 1</p> <p>Since A[i]&gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 1, so we will add (1+4) equals to 5. The value 5 is greater than the value 4, so 4 will be replaced by 5 at index 5 in the second array. The value 5 is replaced by 2 at index 5 in the third array shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence6.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=5, j=3</strong></p> <p>A[5] = 4</p> <p>A[3] = 3</p> <p>Since A[i] &gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 4, so we will add (4+4) equals to 8. The value 8 is greater than the value 5 so 5 will be replaced by 8 at index 5 in the second array. The value 2 is replaced by 3 at index 5 in the third array.</p> <p><strong>When i=5, j=4</strong></p> <p>A[5] = 4</p> <p>A[4] = 8</p> <p>Since A[j] &gt; A[i] so the value of 'i' gets incremented. The value of 'i' becomes 6 and 'j' is set to 0.</p> <p><strong>When i=6, j=0</strong></p> <p>A[6] = 6</p> <p>A[0] = 4</p> <p>Since A[i] &gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 4, so we will add (4+6) equals 10. The value 10 is greater than the value 6, so 6 will be replaced by 10 at index 6 in the second array. The value 6 is replaced by 0 at index 6 in the third array.</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence7.png" alt="Maximum Sum Increasing Subsequence"> <p><strong>When i=6, j=1</strong></p> <p>A[6] = 6</p> <p>A[1] = 6</p> <p>Since A[6] == A[1] so the value of 'j' gets incremented. The value of 'j' equals to 2.</p> <p><strong>When i=6, j=2</strong></p> <p><strong>A[6] = 6</strong></p> <p><strong>A[2] = 1</strong></p> <p>Since A[i] &gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 1, so we will add (1+6) equals 7. The value 7 is less than the value 10, so there will be no replacement.</p> <p><strong>When i=6, j=3</strong></p> <p>A[6] = 6</p> <p>A[3] = 3</p> <p>Since A[i] &gt;A[j], so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 4, so we will add (4+6) equals 10. The calculated value is the same as the value at index 6 in the second array.</p> <p><strong>When i=6, j=4</strong></p> <p>A[6] = 6</p> <p>A[4] = 8</p> <p>Since A[j] &gt; A[i] so there will be no replacement. The value of 'j' gets incremented and becomes 5.</p> <p><strong>When i=6, j=5</strong></p> <p>A[6] = 6</p> <p>A[5] = 4</p> <p>Since A[i] &gt;A[j] so we will add the values at 'i' and 'j'. The value corresponding to 'j' in the second array is 8, so we will add (8+6) equals 14. The value 14 is greater than the value 10, so 10 will be replaced by 14 at index 6 in the second array. The value 0 is replaced by 5 at index 6 in the third array shown as below:</p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence8.png" alt="Maximum Sum Increasing Subsequence"> <p>As we can observe in the maximum value array that 18 is the maximum sum of increasing subsequence. Now we will find the elements in the subsequence that forms 18 as the sum.</p> <p>The element corresponding to the 18 is 8; therefore, the first element in the subsequence is 8.</p> <p><strong>Subsequence: 8</strong></p> <p>The value corresponding to 18 in the actual sequence array is 1. The value at index 1 is 6. Therefore, the second element in the subsequence is 6.</p> <p><strong>Subsequence: 6, 8</strong></p> <p>Move to index 1 in the actual sequence array. The value at index 1 is 0. The value at index 0 in an array is 4. So, the third element in the subsequence is 4.</p> <p><strong>Subsequence: 4, 6, 8</strong></p> <p><strong>Implementation in C</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// Program to calculate the maximum sum increasing subsequence 
+#include &lt;stdio.h&gt;
+// maximum_sum returns the maximum sum of increasing subsequence
+int maximum_sum(int a[], int n)
+{
+    int i, j;
+    int maximum_sum[n];
+    int max=0;
+    // Initializing the maximum_sum[] values for all the indexes 
+    for (int i=0; i&lt;n ; i++)
+    {
+        maximum_sum[i] = a[i];
+    }    
+    // Computing the values for all the indexes of maximum_sum[]
+    for(int i=0; i&lt;n; i++)
+    {
+        for(int j=0; j&lt;i; j++)
+        {
+            if((a[i]&gt;a[j]) &amp;&amp; (maximum_sum[i]&lt; (maximum_sum[j]+a[i]) ))
+            {
+                maximum_sum[i] = maximum_sum[j] + a[i];
+            }
+        }
+    }
+ // Calculating the maximum element from the maximum_sum[] array
+    for(int i = 0; i&lt;n; i++)
+    {        
+        //printf("%d,", maximum_sum[i]);
+        if(max &lt; maximum_sum[i])
+        {
+            max = maximum_sum[i];
+        }
+    }
+ return max;
+}
+// main() method
+int main()
+{
+  int arr[5] = {1, 5, 6, 4, 3}; // array initialization
+  int size = sizeof(arr)/sizeof(arr[0]);
+
+  printf("Maximum sum of increasing subsequence is : %d", maximum_sum(arr, size));
+  return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> <img src="https://static.javatpoint.com/tutorial/daa/images/maximum-sum-increasing-subsequence9.png" alt="Maximum Sum Increasing Subsequence"> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="wildcard-pattern-matching">Wildcard Pattern Matching</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="dynamic-programming-vs-divide-and-conquer">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="wildcard-pattern-matching">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cdaba8a8a9afacaea68da7acbbacb9bda2a4a3b9e3aea2a0">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/maximum-sum-increasing-subsequence"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/maximum-sum-increasing-subsequence"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/maximum-sum-increasing-subsequence"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="38504a7852594e594c485751564c165b5755">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="711903311b10071005011e181f055f121e1c5f">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

@@ -1,0 +1,340 @@
+Vertical Order Traversal of a Binary Tree in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Vertical Order Traversal of a Binary Tree in Java In this section, we will discuss the vertical order traversal of a binary tree in Java and the different approaches to achieve it. In the vertical order traversal, we print the node of the binary tree vertically, i.e., from top to bottom. For example, consider the following binary tree. The vertical order traversal is: 
+1
+2
+4  3  6
+5  18
+7
+19
+ Approach 1: Using Horizontal Distance In this approach, we traverse the tree only once and find the maximum and minimum horizontal distance by taking root as the reference. Assume that the root node of the binary tree is located at a distance of 0. Also, assume that going one step in the left direction is -1, and going one step in the right direction is +1. For the above-mentioned binary tree, the minimum distance is -2 (node with the value of 1), and the maximum distance is 3 (node with the value of 19). After finding the minimum and maximum distances from the root, iterate across each vertical line within the range minimum to maximum. While iterating for each vertical line, print the nodes that are present on the vertical line (see the above diagram). Implementation Let's see the implementation of the vertical order traversal of a binary tree using the horizontal distance approach. FileName: VerticalTraversalExample.java 
+// a node of a binary tree
+class TreeNode 
+{
+// for holding value of the node
+int val;
+// for referring to the other nodes 
+// left for the left child and right to the right child
+TreeNode left, right;
+// constructor of the class TreeNode
+// the construct initializes the class fields
+public TreeNode(int i)
+{
+val = i;
+right = left = null;
+}
+}
+// a class for storing the farthest value in the left as well as in the right direction from 
+// the root node 
+class Values
+{
+public int maximum;
+public int minimum;
+}
+public class VerticalTraversalExample
+{
+TreeNode r;
+Values v = new Values();
+// A utility method to look for the minimum and maximum distances with respect to  
+// root.
+void findMinMaximum(TreeNode nde, Values min, Values max, int h)
+{
+// the base case
+if (nde == null)
+{
+return;
+}
+// Updating the minimum and maximum
+if (h < min.minimum)
+{
+min.minimum = h;
+}
+else if (h > max.maximum)
+{
+max.maximum = h;
+}
+// applying recursion for the right and left subtrees
+findMinMaximum(nde.left, min, max, h - 1);
+findMinMaximum(nde.right, min, max, h + 1);
+}
+// A utility method for displaying all of the nodes on the given line_num.
+// h is the horizontal distance of the current node by taking root as the reference.
+void displayVerticalLine(TreeNode nde, int line_num, int h)
+{
+// the base case
+if (nde == null)
+{
+return;
+}
+// If the node is lying on the line number
+// print the value of that node
+if (h == line_num)
+{
+System.out.print(nde.val + " ");
+}
+// applying recursion for the right and left subtrees
+displayVerticalLine(nde.left, line_num, h - 1);
+displayVerticalLine(nde.right, line_num, h + 1);
+}
+// The main method that displays the given binary tree in
+// the vertical order
+void verticalOrder(TreeNode nde)
+{
+// Find min and max distances with resepect to root
+findMinMaximum(nde, v, v, 0);
+// iterating across all of the possible vertical lines beginning from
+// the left most line and displaying the nodes line by line
+for (int line_num = v.minimum; line_num <= v.maximum; line_num++)
+{
+displayVerticalLine(nde, line_num, 0);
+System.out.println("");
+}
+}
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class VerticalTraversalExample 
+VerticalTraversalExample tree = new VerticalTraversalExample();
+// constructing the binary tree as shown 
+// in the above diagram
+tree.r = new TreeNode(4);
+tree.r.left = new TreeNode(2);
+tree.r.right = new TreeNode(5);
+tree.r.left.left = new TreeNode(1);
+tree.r.left.right = new TreeNode(3);
+tree.r.right.left = new TreeNode(6);
+tree.r.right.right = new TreeNode(7);
+tree.r.right.left.right = new TreeNode(18);
+tree.r.right.right.right = new TreeNode(19);
+// print statement
+System.out.println("The vertical order traversal of the binary tree is :");
+// invoking method verticalOrder()
+tree.verticalOrder(tree.r);
+}
+}
+ Output: The vertical order traversal of the binary tree is:
+1 
+2 
+4 3 6 
+5 18 
+7 
+19   
+ Time Complexity: The time complexity of the above algorithm is O(wid * no), where "wid" is the width of the given binary tree, and "no" is the number of nodes in the binary tree. In the worst case, the value of wid can be O(no) (for example, think of a complete tree) and, in such a case, the time complexity can become O(no2). Approach 2: Using TreeMap In the previous approach, we have discussed an O(no2) solution. In this approach, we will be using the TreeMap, which gives a better solution than the TreeMap. In this approach also, it is required to check the horizontal distances of all the nodes using the root node as the reference. Similar to the previous approach, when we move to a node which is one unit left of the root node, the horizontal distance is considered as -1. For the node on the right side of the root node, the horizontal distance is considered as +1. While performing the preorder traversal of the tree, we can compute the horizontal distances. For every horizontal distance value, a list of nodes is maintained in the TreeMap. Implementation Let's see the implementation of the vertical order traversal of a binary tree using the TreeMap. FileName: VerticalTraversalExample1.java 
+// important import statement
+import java.util.TreeMap;
+import java.util.Map.Entry;
+import java.util.Vector;
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// l and r represent the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = l = null;
+}
+}
+public class VerticalTraversalExample1
+{
+BinaryTreeNode rt;
+// A utility method to keep the vertical order traversal of nodes in the map 'tm'
+// 'horDis' is the horizontal distance of the current node from the root.
+// the initial value of the 'horDis' is 0
+public void getVerticalOrder(BinaryTreeNode rt, int horDis, TreeMap<Integer, Vector<Integer>> tm)
+{
+// the base case
+if(rt == null)
+{
+return;
+}
+// getting the list of vector at 'horDis'
+Vector<Integer> vec = tm.get(horDis);
+// storing the current node in the map 'tm'
+if(vec == null)
+{
+vec = new Vector<>();
+vec.add(rt.v);
+}
+else
+{
+vec.add(rt.v);
+}
+// doing the preorder traversal of the tree
+tm.put(horDis, vec);
+// storing the nodes in the left subtree
+getVerticalOrder(rt.l, horDis - 1, tm);
+// storing the nodes in the right subtree
+getVerticalOrder(rt.r, horDis + 1, tm);
+}
+// the following method prints the value of the node in the vertical order
+public void printVerticalOrder(BinaryTreeNode rt)
+{
+// creating a tree map and storing the vertical order in the map using
+// the method getVerticalOrder()
+TreeMap<Integer, Vector<Integer>> tm = new TreeMap<>();
+int horDis = 0;
+getVerticalOrder(rt, horDis, tm);
+// traversing the map tm and printing the value of nodes at every 
+// horizontal distance (horDis)
+for (Entry<Integer, Vector<Integer>> en : tm.entrySet())
+{
+System.out.println(en.getValue());
+}
+}
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class VerticalTraversalExample1 
+VerticalTraversalExample1 tree = new VerticalTraversalExample1();
+// constructing the binary tree as shown 
+// in the above diagram
+tree.rt = new BinaryTreeNode ( 4 );
+tree.rt.l = new BinaryTreeNode ( 2 );
+tree.rt.r = new BinaryTreeNode ( 5 );
+tree.rt.l.l = new BinaryTreeNode ( 1 );
+tree.rt.l.r = new BinaryTreeNode ( 3 );
+tree.rt.r.l = new BinaryTreeNode ( 6 );
+tree.rt.r.r = new BinaryTreeNode ( 7 );
+tree.rt.r.l.r = new BinaryTreeNode ( 18 );
+tree.rt.r.r.r = new BinaryTreeNode ( 19 );
+// print statement
+System.out.println("The vertical order traversal of the binary tree is: ");
+// invoking the method printVerticalOrder() for printing the nodes in vertical order
+tree.printVerticalOrder(tree.rt);
+}
+}
+ Output: The vertical order traversal of the binary tree is:
+[1]
+[2]
+[4, 3, 6]
+[5, 18]
+[7]
+[19]    
+ Time Complexity: The above solution is based on the technique of hashing, whose time complexity is considered as O(n), where n is the total number of nodes present in the binary tree. Note that the O(n) time complexity is achieved when we use a good hashing method, which permits the retrieval as well as the insertion operation in O(1) time. Approach 3: Using Level Order Traversal One can also use the concept of the level order traversal to achieve the vertical order traversal. We take the help of a queue to do the traversal of nodes. Each element of the queue provides information about the horizontal distance and the node of the binary tree. Similar to other approaches, in this approach also, we find the horizontal distance by taking the root node of the tree as the reference point. Also, the leftward movement from the root node adds -1 on each of the successive nodes. Similarly, the rightward movement from the root node adds +1 on each successive node. After the level order traversal of the tree is completed, we pop out the elements from the queue one by one. The vertical lines, as shown in the above diagram, can be considered as a level on which the nodes are lying. To point out which node is lying on the same vertical line can be found out using the horizontal distance (horDis). We can put these nodes in an array list, and corresponding to the list, there will be the horizontal distance. We put the list and the horizontal distance in a map. Eventually, we iterate over the map to display the results. Implementation Let's see the implementation of the vertical order traversal of a binary tree using the level order traversal. FileName: VerticalTraversalExample1.java 
+// important import statements
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Queue;
+import java.util.LinkedList;
+import java.util.ArrayList;
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// l and r represents the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = null;
+l = null;
+}
+}
+class QueObj 
+{
+int horDis;
+BinaryTreeNode node;
+// constructor of the class QueObj
+QueObj(int horDis, BinaryTreeNode nde)
+{
+this.horDis = horDis;
+this.node = nde;
+}
+}
+public class VerticalTraversalExample2 
+{
+BinaryTreeNode rt;
+// The method to display the vertical order of the binary tree with 
+// the given paratmeter r
+public void printVerticalOrder(BinaryTreeNode r)
+{
+// handling the base case
+if (r == null)
+{
+return;
+}
+// Creating the map and storing the vertical order in
+// the map using the method getVerticalOrder()
+TreeMap<Integer, ArrayList<Integer> > tm = new TreeMap<>();
+int horDis = 0;
+// Creating a queue to achieve the level order traversal.
+// Every item in the queue is the node and
+// its horizontal distance.
+Queue<QueObj> q = new LinkedList<QueObj>();
+q.add(new QueObj(0, r));
+while (!q.isEmpty()) 
+{
+// performing pop from the queue front
+QueObj t = q.poll();
+horDis = t.horDis;
+BinaryTreeNode node = t.node;
+// insert date of the node in the hash array
+if (tm.containsKey(horDis)) 
+{
+tm.get(horDis).add(node.v);
+}
+else 
+{
+ArrayList<Integer> alist = new ArrayList<>();
+alist.add(node.v);
+tm.put(horDis, alist);
+}
+if (node.l != null)
+{
+q.add(new QueObj(horDis - 1, node.l));
+}
+if (node.r != null)
+{
+q.add(new QueObj(horDis + 1, node.r));
+}
+}
+// Traversing the map and displaying the nodes at
+// the every horizontal distance (horDis)
+for (Map.Entry<Integer, ArrayList<Integer> > entry : tm.entrySet()) 
+{
+ArrayList<Integer> alist = entry.getValue();
+for (Integer in : alist)
+{
+System.out.print(in + " ");
+}
+System.out.println();
+}
+}
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class VerticalTraversalExample2
+VerticalTraversalExample2 tree = new VerticalTraversalExample2();
+// constructing the binary tree as shown 
+// in the above diagram
+tree.rt = new BinaryTreeNode ( 4 );
+tree.rt.l = new BinaryTreeNode ( 2 );
+tree.rt.r = new BinaryTreeNode ( 5 );
+tree.rt.l.l = new BinaryTreeNode ( 1 );
+tree.rt.l.r = new BinaryTreeNode ( 3 );
+tree.rt.r.l = new BinaryTreeNode ( 6 );
+tree.rt.r.r = new BinaryTreeNode ( 7 );
+tree.rt.r.l.r = new BinaryTreeNode ( 18 );
+tree.rt.r.r.r = new BinaryTreeNode ( 19 );
+// print statement
+System.out.println("The vertical order traversal of the binary tree is: ");
+// invoking the method printVerticalOrder() for printing the nodes in the vertical order
+tree.printVerticalOrder(tree.rt);
+}
+}
+ Output: The vertical order traversal of the binary tree is: 
+1 
+2 
+4 3 6 
+5 18 
+7 
+19   
+ Time Complexity: The time complexity of the above program is O(n), where n is the total number of nodes present in the tree. Next Topic Group By in Java 8 ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

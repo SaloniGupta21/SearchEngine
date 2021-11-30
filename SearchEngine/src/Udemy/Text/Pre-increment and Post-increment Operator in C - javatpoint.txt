@@ -1,0 +1,1083 @@
+
+
+ 
+  
+  Pre-increment and Post-increment Operator in C - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     C/C++ Training 
+      
+      C Tutorial 
+      
+      
+      What is C Language 
+      History of C  
+      Features of C 
+      How to install C 
+      First C Program 
+      Compilation Process in C 
+      printf scanf 
+      Variables in C 
+      Data Types in c 
+      Keywords in c 
+      C Identifiers 
+      C Operators 
+      C Comments 
+      C Format Specifier 
+      C Escape Sequence 
+      ASCII value in C 
+      Constants in C 
+      Literals in C 
+      Tokens in C 
+      C Boolean 
+      Static in C 
+      Programming Errors in C 
+      Compile time vs Runtime 
+      Conditional Operator in C 
+      Bitwise Operator in C 
+      2s complement in C 
+      C Fundamental Test 
+      
+      
+      C Control Statements 
+      
+      
+      C if-else 
+      C switch 
+      if-else vs switch 
+      C Loops 
+      C do-while loop 
+      C while loop 
+      C for loop 
+      Nested Loops in C 
+      Infinite Loop in C 
+      C break 
+      C continue 
+      C goto 
+      Type Casting 
+      C Control Statement Test 
+      
+      
+      C Functions 
+      
+      
+      What is function 
+      Call: Value & Reference 
+      Recursion in c 
+      Storage Classes 
+      C Functions Test 
+      
+      
+      C Array 
+      
+      
+      1-D Array 
+      2-D Array 
+      Return an Array in C 
+      Array to Function 
+      C Array Test 
+      
+      
+      C Pointers 
+      
+      
+      C Pointers 
+      C Pointer to Pointer 
+      C Pointer Arithmetic 
+      Dangling Pointers in C 
+      sizeof() operator in C 
+      const Pointer in C 
+      void pointer in C 
+      C Dereference Pointer 
+      Null Pointer in C 
+      C Function Pointer 
+      Function pointer as argument in C 
+      C Pointers Test 
+      
+      
+      C Dynamic Memory 
+      
+      
+      Dynamic memory 
+      
+      
+      C Strings 
+      
+      
+      String in C 
+      C gets() & puts() 
+      C String Functions 
+      C strlen() 
+      C strcpy() 
+      C strcat() 
+      C strcmp() 
+      C strrev() 
+      C strlwr() 
+      C strupr() 
+      C strstr() 
+      C String Test 
+      
+      
+      C Math 
+      
+      
+      C Math Functions 
+      
+      
+      C Structure Union 
+      
+      
+      C Structure 
+      typedef in C 
+      C Array of Structures 
+      C Nested Structure 
+      Structure Padding in C 
+      C Union 
+      C Structure Test 
+      
+      
+      C File Handling 
+      
+      
+      C File Handling 
+      C fprintf() fscanf() 
+      C fputc() fgetc() 
+      C fputs() fgets() 
+      C fseek() 
+      C rewind() 
+      C ftell() 
+      
+      
+      C Preprocessor 
+      
+      
+      C Preprocessor 
+      C Macros 
+      C #include 
+      C #define 
+      C #undef 
+      C #ifdef 
+      C #ifndef 
+      C #if 
+      C #else 
+      C #error 
+      C #pragma 
+      C Preprocessor Test 
+      
+      
+      C Command Line 
+      
+      
+      Command Line Arguments 
+      
+      
+      C Misc 
+      
+      
+      C Expressions 
+      Data Segments 
+      Flow of C Program 
+      Classification of Programming Languages 
+      Enum in C 
+      What is getch() in C 
+      What is the function call in C 
+      typedef vs define in C 
+      
+      
+      C Programming Test 
+      
+      
+      C Programming Test 
+      
+      
+      C Programs 
+      
+      
+      Top 10+ C Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      C program to compare the two strings 
+      Strings Concatenation in C 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Count the number of digits in C 
+      Reverse Number 
+      Swap Number 
+      Print "Hello" without ; 
+      Assembly code in C 
+      C program without main 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Hexadecimal to Binary 
+      Hexadecimal to Decimal 
+      Octal to Hexadecimal in C 
+      Strong number in C 
+      Star Program in C 
+      itoa Function in C 
+      Extra Long Factorials in C 
+      Leap year program in C 
+      Perfect Number Program in C 
+      Variables vs Constants 
+      Round Robin Program in C with Output 
+      C Program to find the roots of quadratic equation 
+      Type Casting vs Type Conversion 
+      How to run a C program in Visual Studio Code 
+      Modulus Operator in C/C++ 
+      Sum of first N natural numbers in C 
+      Big O Notation in C 
+      LCM of two numbers in C 
+      while loop vs do-while loop in C 
+      Memory Layout in C 
+      Balanced Parenthesis in C 
+      Binary to Decimal Number in C 
+      GCD of two numbers in C 
+      Getchar() function in C 
+      flowchart in C 
+      Simpson Method 
+      Pyramid Patterns in C 
+      Random Function in C 
+      Floyd's Triangle in C 
+      C Header Files 
+      abs() function in C 
+      Atoi() function in C 
+      Structure Pointer in C 
+      sprintf() in C 
+      Range of Int in C 
+      C Program to convert 24 Hour time to 12 Hour time 
+      What is double in C 
+      What is the main in C 
+      Calculator Program in C 
+      Calloc in C 
+      user-defined vs library function in C 
+      Memset C 
+      ASCII Table in C 
+      Static function in C 
+      Reverse a String in C 
+      Twin Prime Numbers in C 
+      strchr() function in C 
+      Structure of a C program 
+      Power Function in C 
+      Malloc in C 
+      Table Program in C 
+      Types of Recursion in C 
+      Convert Uppercase to Lowercase in C 
+      Unary Operator in C 
+      Arithmetic Operator in C 
+      Ceil Function in C 
+      Relational Operator in C 
+      Assignment Operator in C 
+      Pre-increment and Post-increment Operator in C 
+      Pointer vs array in C 
+      Restrict keyword in C 
+      The exit() function in C 
+      Const Qualifier in C 
+      Sequence Points in C 
+      Anagram in C 
+      Increment and Decrement Operators in C 
+      Logical AND Operator in C 
+      Shift Operators in C 
+      Near, Far, and Huge pointers in C language 
+      Magic Number in C 
+      Remove Duplicate Elements from an Array in C 
+      Generic Linked list in C 
+      isalnum() function in C 
+      isalpha() function in C 
+      Bisection Method in C 
+      snprintf() function in C 
+      
+      
+      MCQ 
+      
+      
+      C language MCQ 
+      C language MCQ Part 2 
+      
+      
+      Math 
+      
+      
+      Prime Numbers List 
+      Composite Numbers List 
+      Square Numbers List 
+      Binary Numbers List 
+      Fibonacci Numbers List 
+      Ounces in a Cup 
+      Ounces in a Pound 
+      Ounces in a Gallon 
+      Ounces in a Liter 
+      Ounces in a Pint 
+      Ounces in a Quart 
+      Ounces in a Tablespoon 
+      
+      
+      C Interview 
+      
+      
+      C Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Pre-increment and Post-increment Operator in C Increment operators are the operator of the C programming language used to increase the given variable's value by 1. The increment operator can increase the given value by 1 before assigning it to the variable. On the other hand, the increment operator can increase the given value by 1 after assigning the variable. The increment operator is represented as the double plus (++) symbol, which means the value is incremented by 1.  Properties of the Increment operator There are some properties of the increment operator, as follows: 
+            
+            The increment operator is used to increase the current value of the variable by 1. 
+            We can only use these operators with variables. 
+            It is the operator represented by the double plus (++) symbol. 
+            There are two types of the increment operators 
+            
+            Pre-increment operator 
+            Post-increment operator 
+            Pre-increment operator The pre-increment operator is represented as the double plus (++a) symbol, appended before the variable's name. The pre-increment operator is used to increment the value of an operand by 1 before using it in the mathematical expression. In other words, the value of a variable is first incremented, and then the updated value is used in the expression. Syntax 
+           
+            
+x = ++a;
+
+            In the above syntax, the value of variable 'a' is first incremented by 1 before using in the expression. Example 1: Let's create a simple program to use the pre-increment operator in C programming language. Program1.c 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+// declaration of the variables
+int a = 7;
+int b = 2
+
+// print the value of the increment operator
+printf (" Use the pre-increment operator " );
+printf (" The value of a is %d ", a);
+printf (" The value of b is %d ", b);
+// use pre-increment operator
+b = ++a;
+printf (" After using the pre-increment operator ");
+printf (" The value of a is %d ", a);
+printf (" The value of b is %d ", b);
+return 0;
+}     
+
+            Output 
+           
+            Use the pre-increment operator
+The value of a is 7
+The value of b is 2
+After using the pre-increment operator
+The value of a is 8
+The value of b is 10
+
+            Example 2: Let's create another program to use the pre-increment operator in mathematical expression. Program2.c 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+	// declare integer variables
+	int a, b, c, d, x;
+	
+	// initialization of the variables
+	a = 5;
+	b = 7;
+	c = 12;
+	d = 15;
+	
+	// use pre-increment operator in the mathematical expression
+	x = ++a + ++b + ++c + ++d;
+	printf ( " The value of x is: %d ", x);
+	
+	// print the updated value of a, b, c, and d
+	printf (" \n The updated value of a = %d, b = %d, c = %d and d = %d ", a, b, c, d);
+	return 0;	
+}
+
+            Output 
+           
+            The value of x is: 43
+ The updated value of a = 6, b = 8, c = 13 and d = 16
+
+            Post-increment Operator Post-increment is an increment operator, represented as the double plus (a++) symbol followed by an operator 'a'. It increments the value of the operand by 1 after using it in the mathematical expression. In other words, the variable's original value is used in the expression first, and then the post-increment operator updates the operand value by 1. Syntax 
+           
+            
+x = a++;
+
+            In the above syntax, the operand 'a' value is assigned to the variable x, and then the post increment operator increases or updates the value of 'a' by 1. Example 1: Let's create a simple program to use the post-increment operator in C programming language. Program1.c 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+// declaration of the variables
+int a = 7;
+int b = 0;
+
+// print the value of the increment operator
+printf (" Before using the post-increment operator " );
+printf (" \n The value of a is %d ", a);
+printf (" \n The value of b is %d ", b);
+// use post increment operator
+b = a++;
+printf (" \n\n After using the post-increment operator ");
+printf (" \n The value of a is %d ", a);
+printf (" \n The value of b is %d ", b);
+return 0;
+}     
+
+            Output 
+           
+            Before using the post-increment operator
+ The value of a is 7
+ The value of b is 0
+
+ After using the post-increment operator
+ The value of a is 8
+ The value of b is 7
+
+            Example 2: Let's create another program to use the post-increment operator in mathematical expression. Program2.c 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+	// declare integer variables
+	int a, b, c, d, x;
+	
+	// initialization of the variables
+	a = 5;
+	b = 7;
+	c = 12;
+	d = 15;
+	
+	// use post-increment operator in the mathematical expression
+	x = a++ + b++ + c++ + d++;
+	printf ( " The value of x is: %d ", x);
+	
+	// print the updated value of a, b, c, and d
+	printf (" \n The updated value of a = %d, b = %d, c = %d and d = %d ", a, b, c, d);
+	return 0;
+	
+}
+
+            Output 
+           
+            The value of x is: 39
+ The updated value of a = 6, b = 8, c = 13 and d = 16
+
+            Program to use the Pre-increment and Post-increment Operator Let's create a simple program to use the pre-increment and post-increment operator in the C programming language. Program3.c 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+	int x, y, z, exp;
+	
+	printf (" Enter the value of x: ");
+	scanf (" %d", &x);
+	printf (" \n Enter the value of y: ");
+	scanf (" %d", &y);
+	printf (" \n Enter the value of z: ");
+	scanf (" %d", &z);
+	
+	
+	printf (" \n Before using the increment operator: ");
+	printf (" \n The original value of x: %d", x);
+	printf (" \n The original value of x: %d", y);
+	printf (" \n The original value of x: %d", z);
+	
+	// use pre-increment and post-increment operator
+	exp = x++ + ++x + ++y + y++ + ++z;
+	printf (" \n\n After using the increment operator: ");
+	printf (" \n The result of the expression is: %d", exp);
+	printf (" \n The updated value of x: %d", x);
+	printf (" \n The updated value of y: %d", y);
+	printf (" \n The updated value of z: %d", z);
+	return 0;
+	
+}
+
+            Output 
+           
+            Enter the value of x: 7
+
+ Enter the value of y: 12
+
+ Enter the value of z: 15
+
+ Before using the increment operator:
+ The original value of x: 7
+ The original value of x: 12
+ The original value of x: 15
+
+ After using the increment operator:
+ The result of the expression is: 58
+ The updated value of x: 9
+ The updated value of y: 14
+ The updated value of z: 16
+
+            
+            
+            
+            Next Topic
+            Pointer vs array in C 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

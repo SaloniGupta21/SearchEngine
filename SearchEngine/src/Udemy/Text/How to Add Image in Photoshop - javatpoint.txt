@@ -1,0 +1,607 @@
+
+
+ 
+  
+  How to Add Image in Photoshop - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Photoshop 
+       GIMP 
+       After Effect 
+       Illustrator 
+       Dreamweaver 
+       Adobe InDesign 
+       CorelDRAW 
+       HTML 
+       JavaScript 
+       Java 
+       SQL 
+       Python 
+       Android 
+       Cloud 
+       Servlet 
+       JSP 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Photoshop Tutorial 
+      
+      
+      Photoshop Tutorial 
+      Download & Install 
+      Photoshop Workspace 
+      Shortcut keys 
+      Layers in PS 
+      PS Layer Mask 
+      Smart object in PS 
+      Layer Effects & Styles 
+      Shapes in Photoshop 
+      How to Remove Background of an Image Using Photoshop 
+      How to Resize an Image in Photoshop 
+      Blending Modes in Photoshop 
+      Photoshop Brush Tool 
+      Photoshop Pen Tool 
+      How to Change Color in Photoshop 
+      How to Resize a layer in Photoshop 
+      How to Add Fonts in Photoshop 
+      How to Crop an Image in Photoshop 
+      Photoshop Vs Illustrator 
+      Photoshop Vs Lightroom 
+      Affinity Photo Vs. Photoshop 
+      How to Curve Text in Photoshop 
+      How to Flip an Image in Photoshop 
+      Clipping Mask in Photoshop 
+      How to Deselect in Photoshop 
+      How to Smooth Edges in Photoshop 
+      Drop Shadow in Photoshop 
+      How to Add Image in Photoshop 
+      How to Draw a Line in Photoshop 
+      How to Outline Text in Photoshop 
+      How to Undo/Redo in Photoshop 
+      Make Gif in Photoshop 
+      Blur Tool in Photoshop 
+      Photoshop Filters 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Add Image in Photoshop Photoshop is an excellent tool for image editing. We can open and add any image in Photoshop using its built-in features. Its layering feature allows us to open multiple images and composite them for a composite view of the image. For example, we can add a company logo or add more than one product to an image. By adding images in Photoshop, we can create image graphics and provide a special effect to grab the viewer's attention. We have to open an image in the Photoshop workspace, and by opening an image, it will be available for editing in our Photoshop workspace. When we add a new image, automatically it will be added as a new layer in the existing document file. It is useful for combining the different elements into one image. There are several ways of adding the images in the Photoshop workspace. We will discuss few ways to add an image in Photoshop. Further, we will see how to add multiple images and position them. To better understand how the image layers work, you should have a good understanding of the layers. Let's discuss how to add an image in Photoshop: Adding an Image in Photoshop There are different ways of adding the images in the Photoshop workspace, but we are going to discuss the two most popular ways followed by professionals. By Dragging the Image into Photoshop It is the most convenient way followed by professionals to add an image. To add a new image using this method, we have to drag the image from our file system and drop it to our workspace at its respective position. We can open it with a new file or onto an existing file. If we want to add it in a new document, just drop it to the tab bar of the document, and it will open the image in a new document window. If we want to add it to an existing document, then drop it to the document opened in the workspace. It will open the image in a new layer. We can adjust the position of the image after dragging it onto the document; We can scale, reposition or move this image according to our requirements. By Using the Open Feature We can also use the open feature of Photoshop to open an image. The open option resides under the file menu. We can select the Open option by navigating to the File-> Open option from the menu bar given at the top of the workspace. Alternatively, we can press the Ctrl+O keys as a shortcut to open the image and add it to the Photoshop workspace.  It will open the file explorer of your PC, navigate to the directory where the image is placed and select it.  It will open the image and add it to our workspace. We can perform editing on this image. Our image will look as follows:  Now, the image is successfully added to our workspace. We can perform editing on this image. We can resize this image, add filters, crop, and perform other editing operations according to our requirements. We can also add images onto this image to composite several images for making complete image graphics. Let's understand how to add images to an existing image. How to Add Multiple Images in Photoshop We can add multiple photos to our existing image. All the images will be added in a new layer. The layer size will be equal to the existing image, but the image size will be different from the layer size. We can adjust the image size position according to our needs. To open the image onto an existing image, drag and drop the image into our workspace. It will open the image over the existing image. It will be opened as follows:  To resize the image, we can stretch the handles given at the edge of the added image. To stretch it equally from all corners, use the Shift+Alt+Drag shortcuts key combination. It will prevent the image from distorting its dimensions and keep the original view of the image. Once we are done with resizing the image, press the Enter key. After adding the image and specify the size, we can use different Photoshop tools such as move, transform, filters, etc., to edit it. We need to target that particular image layer to edit the image that we want. The image layers can be seen in the layers panel given at the bottom right corner of the workspace. If the layers panel is not visible in your workspace, you can manually view it by pressing the f7 key or navigating to the Window-> Workspace menu. How to Copy Images within Two Projects in Photoshop Sometimes, we are working on two different projects, and we need to add an image in our project from another project. We can simply copy an image from the project and paste it into another project. It will be placed at the same location where it is in the first project. However, the copy and paste technique will also work for the images outside of the Photoshop workspace. We can copy the image from file system or web and paste it into our Photoshop workspace. But this technique works best for images that are already opened in Photoshop. To copy an image, open the document and press the Ctrl+C key combination or navigate to the Edit-> Copy menu. Make sure to select the image that you are copying. Once the image is copied, navigate to another project, press the Ctrl+V key combination, or select the paste option from the Edit menu. It will add the image that you have copied from the other project. Thus we can copy an image in Photoshop workspace. How to Add an Image Inside of a Shape Sometimes we need to add an image inside a shape. Let's suppose we want to place an image inside a circle, rectangle, heart, or any other shape. Depending on the type of shape you want to create. We can place our image inside of this shape using the clipping mask feature of Photoshop. Using the clipping mask, we can merge two layers. The clipping mask stands for merging an image into a shape, where the term clipping stands for a shape or path, and the mask stands for the images. Let's understand how to add an image inside of a shape. First, we need to create a new document. To create a new document, press the Ctrl+N keys and specify the document size and click Ok to create a new file. Once the file is created, we can create shapes on it. For example, we are using the Ellipse tool. We can activate the ellipse tool by pressing the U key or selecting it from the toolbox at the workspace's left. Once the ellipse tool is activated, create a circle by holding the Shift key.  Now, it's time to add the image into our Photoshop workspace. We can use the traditional drag and drop technique to add the image to our file.  It will overwrite the existing shape layer. Don't worry; our shape layer is safe and will remain unchanged because the image will be added to a new layer. Now, navigate to the Layers panel and arrange our layers. Keep the shape layer at the bottom of the layer. The main layer will always be at the bottom of the Layers panel.  If the layers panel is not visible, then press the f7 key or navigate to the Window-> Workspace-> Reset Essentials menu to reset the default workspace. Now, create a clipping mask, press the Alt key and take the mouse cursor over the edge of the shape layer. The cursor pointer will be converted in to clip pointer. When it is converted, click on the edge of the layers. It will clip the image with the shapes. Consider the below image:  From the above image, we have precisely clipped the image with the circle shape. Just like the above-discussed process, we can add any image within any shape as per requirement. After the clipping mask is applied, we can also customize our image, such as scale, resize, etc., after the clipping mask is applied. Visit our detailed tutorial on Photoshop clipping masks. Summary: By adding images to Photoshop, we can create image graphics and provide a special effect to grab the viewer's attention. It is useful for combining the different elements into one image. There are several ways of adding the images in the Photoshop workspace. We have discussed few useful ways, such as the drag and drop open option and copy & paste options to add an image in Photoshop. Further, we have discussed how to add multiple images and position them, and we have also discussed how to add an image inside a shape. The above-discussed methods will be helpful for you to add an image in Photoshop. Few of them techniques requires a good understanding of other Photoshop concepts such as layers and clipping mask. 
+            
+            
+            Next Topic
+            How to Draw a Line in Photoshop 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,2573 @@
+
+
+ 
+  
+  Longest Common Substring - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       DS 
+       DAA 
+       DBMS 
+       Aptitude 
+       Selenium 
+       Kotlin 
+       C# 
+       HTML 
+       CSS 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      DAA Tutorial 
+      
+      
+      DAA Tutorial 
+      DAA Algorithm 
+      Need of Algorithm 
+      Complexity of Algorithm 
+      Algorithm Design Techniques 
+      
+      
+      Asymptotic Analysis 
+      
+      
+      Asymptotic Analysis 
+      Analyzing Algorithm Control Structure 
+      
+      
+      Recurrence 
+      
+      
+      Recurrence Relation 
+      Recursion Tree Method 
+      Master Method 
+      
+      
+      Analysis of Sorting 
+      
+      
+      Bubble Sort 
+      Selection Sort 
+      Insertion Sort 
+      
+      
+      Divide and Conquer 
+      
+      
+      Introduction 
+      Max-Min Problem 
+      Binary Search 
+      Merge Sort 
+      Tower of Hanoi 
+      
+      
+      Sorting 
+      
+      
+      Binary Heap 
+      Quick Sort 
+      Stable Sorting 
+      
+      
+      Lower bound Theory  
+      
+      
+      Lower bound Theory  
+      
+      
+      Sorting in Linear Time 
+      
+      
+      Linear Time 
+      Counting Sort 
+      Bucket Sort 
+      Radix Sort 
+      
+      
+      Hashing 
+      
+      
+      Hashing 
+      Hash Tables 
+      Hashing Method 
+      Open Addressing Techniques 
+      Hash Function 
+      
+      
+      Binary Search Trees 
+      
+      
+      Binary Search 
+      
+      
+      Red Black Tree 
+      
+      
+      Red Black Tree 
+      
+      
+      Dynamic Programming 
+      
+      
+      Dynamic Programming 
+      Divide & Conquer Method vs Dynamic Programming 
+      Fibonacci sequence 
+      Matrix Chain Multiplication 
+      Matrix Chain Multiplication Example 
+      Matrix Chain Multiplication Algorithm 
+      Longest Common Sequence 
+      Longest Common Sequence Algorithm 
+      0/1 Knapsack Problem 
+      DUTCH NATIONAL FLAG 
+      Longest Palindrome Subsequence 
+      Longest Increasing Subsequence 
+      Longest Common Subsequence 
+      Tabulation vs Memoization 
+      How to solve a dynamic programming problem 
+      Optimal Substructure Property 
+      Overlapping sub-problems 
+      Dynamic programming vs Greedy approach 
+      Regular Expression Matching 
+      Branch and bound vs backtracking 
+      Branch and bound 
+      Longest Repeated Subsequence 
+      Longest Common Substring 
+      Shortest Common Supersequence 
+      Dynamic Programming vs Divide and Conquer 
+      Maximum Sum Increasing Subsequence 
+      Wildcard Pattern Matching 
+      Largest Sum Contiguous Subarray 
+      Shortest Sum Contiguous Subarray 
+      
+      
+      Greedy Algorithm 
+      
+      
+      Greedy Algorithms 
+      Activity Selection Problem 
+      Fractional Knapsack problem 
+      Huffman Codes 
+      Algorithm of Huffman Code 
+      Activity or Task Scheduling Problem 
+      Travelling Sales Person Problem 
+      Dynamic Programming vs Greedy Method 
+      
+      
+      Backtracking 
+      
+      
+      Backtracking Introduction 
+      Recursive Maze Algorithm 
+      Hamiltonian Circuit Problems 
+      Subset Sum Problems 
+      N Queens Problems 
+      
+      
+      MST 
+      
+      
+      MST Introduction 
+      MST Applications 
+      Kruskal's Algorithm 
+      Prim's Algorithm 
+      
+      
+      Shortest Path 
+      
+      
+      Introduction 
+      Negative Weight Edges  
+      Representing Shortest Path 
+      Relaxation 
+      Dijkstra's Algorithm 
+      Bellman-Ford Algorithm 
+      Single Source Shortest Path in a directed Acyclic Graphs 
+      
+      
+      All-Pairs Shortest Paths 
+      
+      
+      Introduction 
+      Floyd-Warshall Algorithm 
+      Johnson's Algorithm 
+      
+      
+      Maximum Flow 
+      
+      
+      Flow networks and Flows 
+      Network Flow Problems 
+      Ford Fulkerson Algorithm 
+      Maximum bipartite matching 
+      
+      
+      Sorting Networks 
+      
+      
+      Comparison Network 
+      Bitonic Sorting Network 
+      Merging Network 
+      
+      
+      Complexity Theory 
+      
+      
+      Complexity Classes 
+      Polynomial Time Verification 
+      NP-Completeness 
+      Circuit Satisfiability 
+      3-CNF Satisfiability 
+      Clique Problem 
+      Vertex Cover Problem 
+      Subset-Sum Problem 
+      
+      
+      Approximation Algo 
+      
+      
+      Introduction 
+      Vertex Cover 
+      Travelling Salesman Problem 
+      
+      
+      String Matching 
+      
+      
+      Introduction 
+      Naive String Matching Algorithm 
+      Rabin-Karp-Algorithm 
+      String Matching with Finite Automata 
+      Knuth-Morris-Pratt Algorithm 
+      Boyer-Moore Algorithm 
+      
+      
+      Interview Questions 
+      
+      
+      DAA Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Longest Common Substring The longest common substring problem is a problem that finds the longest substring of two strings. There is one difference between the Longest common subsequence and the longest common substring. In the case of substring, all the elements in the substring must be in contiguous in a original string and the order of the elements in the substring should be same as in the string. In the case of subsequence, we can miss out some elements which means that it is not mandatory that the elements in the substring should be contiguous. Let's understand through an example. Consider two strings given below: S1: a b c d a f S2: b c d f On comparing the above two strings, we will find that: The longest common substring is bcd. The longest common subsequence is bcdf. For example: The two strings are given below: S1: ABABCD S2: BABCDA On comparing the above two strings, we will find that BABCD is the longest common substring. If we have long strings then it won't be possible to find out the longest common substring. So, we use the dynamic programming approach to solve this problem. Algorithm 
+           
+            
+Consider two strings S1 and S2.
+if (S1[i] == S2[j])
+T[i][j] = T[i-1][j-1] + 1
+else
+T[i][j] = 0
+
+            Consider two strings given below: S1: a b c d a f S2: z b c d f  
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            As we can observe in the above table that the first row represents the first string, i.e., S1, and the first column represents the second string, i.e., S2. When i=0, j =0 where S1[i]= z, S2[j] = a Since there is no common string between S1[i] and S2[j] so the length of the longest common substring would be 0. 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+               
+               
+               
+               
+               
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=0, j=1 where S1[i] = z, S2[j] = ab 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+               
+               
+               
+               
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=0, j=2 where S1[i] = z, S2[j] = abc 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+               
+               
+               
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=0, j = 3 where S1[i] = z, S2[j] = abcd 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+               
+               
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Similarly, we will fill other two columns and table would be: 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=1, j=0 where S1[1] = b, S2[0] = a 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+               
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=1, j=1 where S1[1] = b, S2[1] = b Since there is one common substring between S1[1] and S2[1], i.e., b so the length of the longest common substring would be 1 shown as below: 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+               
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=1, j=2 where S1[1] = b, S2[2] = c 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+               
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'b' and 'c' are not same so we put 0 at S[1][2]. When i=1, j=3 where S1[1] = b, S2[3] = d 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+               
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'b' and 'd' are not same so we put 0 at S[1][3]. When i=1, j= 4 where S1[1] = b, S2[4] = a 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+               
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            When i=1, j=5 where S1[1] = b, S2[5] = f 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'b' and 'f' are not same so we put 0 at S[1][5]. When i=2, j= 0 where S1[2] = c and S2[5] = a 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+               
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'c' and 'a' are not same so we put 0 at S[2][0]. When i=2, j = 1 where S1[2] = 'c' and S2[1] = 'b' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+               
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'c' and 'b' are not same so we put 0 at S[2][1]. When i=2, j=2 where S1[2] = 'c' and S2[2] = 'c' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+               
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since both the characters 'c' are same; therefore, "bc" is the common substring among the strings "zbc" and "abc". The length of the longest common substring is 2. When i=2, j=3 where S1[2] = 'c' and S2[3] = 'd' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+               
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'c' and 'd' are not same so we put 0 at S[2][3]. When i=2, j=4 where S1[2] = 'c' and S2[4] = 'a' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+               
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'c' and 'a' are not same so we put 0 at S[2][4]. When i=2, j=5 where S1[2] = 'c' and S2[5] = 'f' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+               
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'c' and 'f' are different so we put 0 at S[2][5]. When i=3, j=0 where S1[3] = 'd' and S2[0] = 'a' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+               
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'd' and 'a' are different so we put 0 at S[3][0]. When i=3, j=1 where S1[3] = 'd' and S2[1] = 'b' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+              0 
+               
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'd' and 'b' are not same so we put 0 at S[3][1]. When i=3, j=2 where S1[3] = 'd' and S2[2] = 'c' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+              0 
+              0 
+               
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since 'd' and 'c' are not same so we put 0 at S[3][2]. When i=3, j=3 where S1[3] = 'd' and S2[3] = 'd' 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+              0 
+              0 
+              3 
+               
+               
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            Since both the characters, i.e., 'd' is same; therefore, 'bcd' is common substring among the strings 'abcd' and 'zbcd'. The length of longest common substring is 3. Similarly, we will calculate the values of other two columns, i.e., S[3][4] and S[3][5] shown in the below table: 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+              0 
+              0 
+              3 
+              0 
+              0 
+              
+              
+              f 
+              0 
+               
+               
+               
+               
+               
+               
+              
+            
+            The final table would be: 
+            
+            
+              
+               
+               
+              a 
+              b 
+              c 
+              d 
+              a 
+              f 
+              
+              
+               
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              z 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              b 
+              0 
+              0 
+              1 
+              0 
+              0 
+              0 
+              0 
+              
+              
+              c 
+              0 
+              0 
+              0 
+              2 
+              0 
+              0 
+              0 
+              
+              
+              d 
+              0 
+              0 
+              0 
+              0 
+              3 
+              0 
+              0 
+              
+              
+              f 
+              0 
+              0 
+              0 
+              0 
+              0 
+              0 
+              1 
+              
+            
+            As we can observe in the above table that the length of the longest common substring is 3. We can also find the longest common substring from the above table. First, we move to the column having highest value, i.e., 3 and the character corresponding to 3 is 'd', move diagonally across 3 and the number is 2. The character corresponding to 2 is 'c' and again we move diagonally across the 2 and the value is 1. The character corresponding to 1 value is 'b'. Therefore, the substring would be "bcd". 
+            
+            
+            Next Topic
+            Shortest Common Supersequence 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,876 @@
+
+
+ 
+  
+  Zigzag Array in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Zigzag Array in Java In this section, we are going to discuss what is a zigzag array with proper examples. Also, we will create a Java program to convert a simple or ordinary array into a zigzag array and vice-versa. What is a zigzag array? An array is said to be a zigzag array if there are no three consecutive elements of the array are in either increasing or decreasing order. In other words, we can say if there are three elements (say ai, ai+1, ai+2) in the array such that ai < ai+1 < ai+2  or ai > ai+1 > ai+2, the array is not a zigzag array. Hence, we can symbolically represent the condition as follows: 
+           
+            
+a < b > c < b > c < d > f 
+
+            Where a, b, c, d, e, and f are the elements of the array. In short, we can say that array elements must follow less than (<) and greater than (>), order alternatively. Every element is either greater than or less than its neighbors. Example of Zigzag Array The arrays A = [4, 2, 6, 3, 10, 1] and B = [8, 4, 6, 3, 5, 1, 10, 9] are zigzag arrays. Because no three consecutive elements of the array are in either increasing or decreasing order. An array C = [5, 2, 3, 6, 1] is not a zigzag array because the element a1 < a2 < a3 i.e. (2 < 3 < 6). If we remove the third element i.e. 6, the array becomes [5, 2, 3, 1] that is a zigzag array. Other zigzag arrays are:  The following arrays are not zigzag arrays because the elements (that are in red color) do not follow the order.   The following two approaches can be used: Approach 1: Simple Solution 
+            
+            First, short the given array. 
+            Fix the first element. 
+            After that, swap the remaining elements in pairs. It means that swap a[1] and a[2], swap a[3] and a[4], and so on. 
+            For the above approach, the complexity will be O(n log n) and the space complexity is O(1) because no extra space is required. Approach 2: Efficient Solution The second approach provides an efficient solution by performing the bubble short in one pass. It converts the array in the zigzag form in O(n) time. For performing the bubble short, we need to maintain a flag that represents the order (less than (<) or greater than (>)). If the two elements are not in that order then swap those two elements, else not. Algorithm 
+            
+            Set the flag to true. 
+            Traverse over the array from 0 to n-2 (where n is the length of the array). 
+              
+              Check if the flag is true 
+                
+                Check if the current element is greater than the next element. 
+                Swap those values. 
+                
+              Else, check if the current element is greater than the next element. 
+                
+                Check if the current element is lesser than the next element. 
+                Swap those values. 
+                
+              
+            Flip the value of the flag. 
+            Let's see an example. Consider an array A having three elements A = [5, 3, 1]. Here, 5 > 3 > 1. It means not a zigzag array. Suppose, we are processing 3 and 1 which is 3 > 1. So, if we swap 3 and 1 then the relationship becomes 5 > 1 and 1 < 3 and finally, we get the zigzag array i.e. [5, 1, 3]. Convert an Ordinary Array into Zigzag Array Consider an array given below and convert it into a zigzag array.  Initially, the variable flag is set to false. In the following steps, a[i] is the current element and a[i+1] is the next element. 
+           
+            
+if flag=0, the condition i<i+1must be satisfied 
+if flag=1, the condition i>i+1 must be satisfied
+if not, then swap
+
+            Step 1: Keep the first element as it is because the first element does not have its left neighbor and we cannot compare it with the previous element. Here, flag = false and a[i] i.e. 3 is less than a[i+1] i.e. 4. So, we will not swap the elements. Increment i by 1 and set the flag variable to true.  Step 2: Here, flag = true and a[i] i.e. 4 is less than a[i+1] i.e. 6. The condition i>i+1 becomes false. So, we will swap the elements (a[i], a[i+1]). Increment i by 1 and set flag to false.  Step 3: Here, flag = false and a[i] i.e. 4 is greater than a[i+1] i.e. 2. The condition i<i+1 becomes false. So, we will swap the elements (a[i], a[i+1]). Increment i by 1 and set flag to true.  Step 4: Here, flag = true and a[i] i.e. 4 is greater than a[i+1] i.e. 1. The condition i<i+1 becomes false. So, we will not swap the elements (a[i], a[i+1]). Increment i by 1 and set flag to false.  Step 5: Here, flag = false and a[i] i.e. 1 is less than a[i+1] i.e. 6. The condition i<i+1 satisfies. So, we will not swap the elements (a[i], a[i+1]). Increment i by 1 and set flag to true.  Step 6: Here, flag = true and a[i] i.e. 8 is less than a[i+1] i.e. 9. The condition i>i+1 becomes false. So, we will swap the elements (a[i], a[i+1]). Set flag to false.  In the above example, we observe that the flag alternatively becomes true and false. Let's check the array is a zigzag array or not.   
+           
+            
+3 < 6 > 2 < 4 > 1 < 9 > 8
+
+            The above array is a zigzag array because less-than and greater-than operations are placed alternatively. Let's implement the above algorithm in a Java program. ZigzagArrayExample.java 
+           
+            
+import java.util.Arrays;
+public class ZigzagArrayExample
+{
+//function to convert array in zigzag form
+public static void zigZag(int arr[])
+{
+boolean flag = true;
+int temp =0;
+//loop iterate over the array
+for (int i=0; i<=arr.length-2; i++)
+{
+if (flag)
+{
+//execute if elements are in the order a > b > c
+if (arr[i] > arr[i+1])
+{
+//swapping logic
+temp = arr[i];
+arr[i] = arr[i+1];
+arr[i+1] = temp;
+}
+}
+else
+{
+//execute if elements are in the order a < b < c
+if (arr[i] < arr[i+1])
+{
+//swapping logic
+temp = arr[i];
+arr[i] = arr[i+1];
+arr[i+1] = temp;
+}
+}
+if(flag==true)
+flag=false;
+else
+flag=true;
+}
+}
+public static void main(String args[])
+{
+//array to be convert into zigzag form
+int arr[] = {2, 4, 5, 1, 7, 6, 8};
+//function calling
+zigZag(arr);
+//prints the zigzag array
+System.out.println(Arrays.toString(arr));
+}
+}
+
+            Output: 
+           
+            [2, 5, 1, 7, 4, 8, 6]
+
+            Let's see another example. ZigzagArrayExample.java 
+           
+            
+import java.util.Scanner;
+public class ZigzagArrayExample
+{
+public static void main(String args[]) 
+{
+Scanner sc = new Scanner(System.in);
+//declaring an array to store the elements 
+int[] array;
+//size of the array
+int length = 0;
+System.out.print("Enter the number of elements in array: ");
+length = sc.nextInt();
+//mapping the size of the array
+array = new int[length];
+System.out.print("Enter the " + length + " elements: ");
+//reads the array elements from the user
+for (int i = 0; i < length; i++) 
+{
+array[i] = sc.nextInt();
+}
+//function that converts an array into zigzag form
+System.out.print("\nThe zigzag Array is: \n");
+//function calling
+zigzagArray(array, length);
+//iterate over the array
+for (int i = 0; i < length; i++)
+//prints the zigzag array
+System.out.print(+array[i] + "  ");
+System.out.print("\n");
+}
+//function to generate the zigzag array
+public static void zigzagArray(int array[], int n) 
+{
+//initially, set flag to true    
+boolean flag = true;
+//temp variable to be use in swapping
+int temp;
+for (int i = 0; i <= n - 2; i++) 
+{
+if (flag) 
+{
+//execute if elements are in the order a > b > c    
+if (array[i] > array[i + 1]) 
+{
+//swapping elements 
+temp = array[i];
+array[i] = array[i + 1];
+array[i + 1] = temp;
+}
+} 
+else 
+{
+//execute if elements are in the order a < b < c    
+if (array[i] < array[i + 1])
+{
+//swapping elements  
+temp = array[i];
+array[i] = array[i + 1];
+array[i + 1] = temp;
+}
+}
+//set falg to false
+flag = !flag;
+}
+}
+}
+
+            Output:  In order to convert an array into zigzag form, we can also use the following logic: 
+           
+            
+static void zigZag(int array[], int n)
+{
+      for (int i=0; i<n-1; i++)
+            {
+                if(i%2==0 && array[i]>array[i+1])
+                swap(array[i], a[i+1]);
+                else if(i%2==1 && array[i]<array[i+1])
+                swap(array[i], array[i+1]);
+            }
+       return;
+}
+
+            The above logic also works fine. 
+            
+            
+            Next Topic
+            Class Definition in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

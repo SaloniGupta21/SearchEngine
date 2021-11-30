@@ -1,0 +1,954 @@
+
+
+ 
+  
+  Excel Strikethrough Shortcut - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Excel 
+       MS Word 
+       PowerPoint 
+       C 
+       C# 
+       Java 
+       PHP 
+       HTML 
+       SQL 
+       PL/SQL 
+       Python 
+       Web Services 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      MS Excel Tutorial 
+      
+      
+      Excel Tutorial 
+      Workbook Window 
+      Create & Open Workbooks 
+      MS Excel Online 
+      Excel vs Google Sheets 
+      Office Button 
+      Ribbon and Tabs 
+      Features of Tabs 
+      Quick Access Toolbar 
+      Mini Toolbar 
+      Title, Help, Zoom, View 
+      
+      
+      Excel Worksheet 
+      
+      
+      Worksheet, Row, Column 
+      Moving on Worksheet 
+      Enter Data 
+      Select Data 
+      Delete Data 
+      Move Data 
+      Copy Paste Data 
+      Spell Check 
+      Insert Symbols 
+      
+      
+      Excel Calculation 
+      
+      
+      Addition 
+      Sigma Addition 
+      Subtraction 
+      Calculate Average 
+      Sigma Average 
+      
+      
+      Excel Fill Handle 
+      
+      
+      Fill Handle 
+      Fill Handle with Text 
+      Text with Numbers 
+      Fill Handle with Dates 
+      
+      
+      Excel Formula 
+      
+      
+      Create Formula 
+      Fill Handle in Formula 
+      Relative Referencing 
+      Absolute Referencing 
+      Instruction for Typing 
+      Quick Excel Functions 
+      
+      
+      Excel IF 
+      
+      
+      If Function 
+      If with Calculations 
+      Excel COUNTIF 
+      Advanced If 
+      
+      
+      Excel Advanced 
+      
+      
+      Excel Macros 
+      Excel sumif 
+      Excel vlookup 
+      What is Pivot Table 
+      Excel ISNA 
+      Find & Remove Duplicates 
+      Create drop-down List 
+      Merge cells in Excel 
+      
+      
+      Misc 
+      
+      
+      How to enable macros in excel 
+      How to calculate age in Excel 
+      How to create a Pivot Table in excel 
+      How to enable the Developer Tab in Excel 
+      How to Calculate Standard Deviation in Excel 
+      How to Calculate Time Difference in Excel 
+      How to Freeze Cells in Excel 
+      What-if Analysis in Excel 
+      How To Insert Checkbox in MS Excel 
+      How To Insert PDF in MS Excel 
+      How to change the Date Format in Excel 
+      How to compare two Excel sheet 
+      How To Apply Filter In Excel 
+      How To Move Columns In Excel 
+      How to add or remove Hyperlink in Excel 
+      How to calculate Mean in Excel 
+      How to Separate text in Excel 
+      How to recover a macro in Excel 
+      How to recover a Corrupted Excel file 
+      How to recover an Excel file 
+      How to remove comma in Excel 
+      How to sum a column in Excel 
+      How to remove the filter in Excel 
+      How to remove gridlines in Excel 
+      How To Convert Excel To CSV 
+      How To Create Table in Excel 
+      How to Calculate IRR in Excel 
+      How to Count Characters in Excel 
+      How to Make an Excel Sheet 
+      How to Replace Words in Excel 
+      How to Sort by Date in Excel 
+      How to hide formulas in Excel 
+      How to subtract in excel 
+      How to use the IF function in Excel 
+      How To Create A Graph In Excel 
+      How to use concatenate in Excel 
+      How to spell check in Excel 
+      How to Change Lowercase to Uppercase in Excel 
+      How to Create a Dashboard in Excel 
+      How to Delete Duplicate Rows in Excel 
+      How to use sumifs formula in Excel 
+      How to add page break in Excel 
+      How to remove the page break in Excel 
+      How to Convert Columns to Rows in Excel 
+      How to Convert Number to Words in Excel 
+      How to Make a Table in Excel 
+      How to Put Tick Mark in Excel 
+      How to Remove Passwords from Excel File 
+      How to Wrap Text in Excel 
+      How to insert comments in Excel 
+      How to add/remove Password from Excel 
+      How to use MS Excel 
+      How to sort in Excel 
+      How to record a macro in Excel 
+      How Many Rows and Columns in Excel 2007 
+      How to Search in Excel 
+      How to add a text box in Excel 
+      How to save Excel document 
+      How to set background image in Excel 
+      How to use COUNTIF function in Excel 
+      How to import the data from CSV file in Excel 
+      How to unlock scroll lock in Excel 
+      What is a cell in Excel 
+      Uses of MS Excel 
+      How to Reduce Excel File Size 
+      How to Save Excel File as PDF 
+      ODS to Excel 
+      How to lock cells in Excel 
+      How to unlock cells in Excel 
+      Hyperlink in Excel 
+      How to compare two columns in Excel 
+      Conditional formatting in Excel 
+      How to define custom rules for conditional formatting in Excel 
+      Data validation in Excel 
+      Apply data validation in Excel 
+      Remove spaces in Excel 
+      How to Save Excel File 
+      Watermark in Excel 
+      How to unhide columns in Excel 
+      How to delete blank rows in Excel 
+      Excel round off formula 
+      How to Add Watermark in Excel 
+      How to Remove Watermark in Excel 
+      Excel Save As Shortcut 
+      Excel Shortcut Keys 
+      Excel match function 
+      HLOOKUP formula in Excel 
+      What is the file extension for Excel 
+      Offset function in Excel 
+      Compound interest formula in Excel 
+      Excel password remover 
+      FV() function in Excel 
+      MS Excel Definition 
+      What is Excel 
+      Excelity login 
+      Income tax calculating formula in Excel 
+      Google Excel Spreadsheet 
+      Online Excel Viewer 
+      Online Excel Editor 
+      How to make pie charts in excel 
+      How to calculate number of days between two dates in Excel 
+      Excel Download 
+      Download MS Office 2019 using command prompt 
+      Download Windows and MS office activator 
+      Excel Header and Footer 
+      Excel to JPG 
+      JPG to Excel 
+      Salary slip format in Excel 
+      How to count colored cells in Excel 
+      Excel Substring formula 
+      CSV to Excel 
+      Word to Excel 
+      Regression analysis in Excel 
+      How to calculate CAGR in Excel 
+      Excel to Word 
+      Percentage formula in Excel 
+      Mail merge in Excel 
+      How to unhide rows in Excel 
+      How to Split Cells in Excel 
+      Current Date in Excel 
+      Index function in Excel 
+      How to remove formula in Excel 
+      Excel Features 
+      Flash Fill in Excel 
+      How to convert Excel to JSON 
+      Convert Excel to JSON using VBA code 
+      Round formula in Excel 
+      Excel formula 
+      Ratio in Excel 
+      Excel Delete Row Shortcut 
+      Insert Column Excel Shortcut 
+      Excel not equal to operator 
+      Logical operators in Excel 
+      Delete Data in Excel 
+      Excel Slicer 
+      Excel Difference Between Two Dates 
+      Excel Filter Shortcut 
+      Excel Charts 
+      Excel text function 
+      Excel LOOKUP() function 
+      MS Excel Grade Formula 
+      10 Disadvantages of Microsoft Excel 
+      Shortcut Keys in Excel 2010 
+      Advanced Formulas in Excel 
+      Excel Merge Cells Shortcut 
+      Excel Paste Special Shortcut 
+      INDIRECT() function in Excel 
+      What is Relative Reference in Excel 
+      Excel Sum Shortcut 
+      Redo Shortcut in Excel 
+      Arrow key is not working in Excel 
+      Type of charts in Excel 
+      Nested If Function in Excel 
+      Lower() in excel 
+      Proper() in excel 
+      Types of References in Excel 
+      AND Function in Excel 
+      How to do subtraction in Excel 
+      Excel MAX() Function 
+      How to delete a Sheet in Excel 
+      How to Insert Chart in Excel 
+      Excel ISERROR() function 
+      Excel add-ins 
+      IF() in excel 
+      REPT() in excel 
+      What is Formatting in Excel 
+      OR Function in Excel 
+      Solver in Excel 
+      Excel AVERAGE() Function 
+      Excel MIN() Function 
+      Format Painter in Excel 
+      COUNTA function in excel 
+      Excel mid function 
+      Excel right function 
+      Excel Choose Function 
+      How to Use RIGHT Function in Excel 
+      NOT Function in Excel 
+      Excel COUNT() Function 
+      Line Chart Excel 
+      Excel RAND() function 
+      Excel find() function 
+      Excel tricks 
+      Dollar function in excel 
+      Left formula in excel 
+      Randbetween function in excel 
+      ROUNDDOWN Function in Excel 
+      Tenure Formula in Excel 
+      Excel TODAY and NOW 
+      How to unhide worksheet in Excel 
+      Freeze panes in Excel 
+      Excel PMT Function 
+      NETWORKDAYS Formula in Excel 
+      Pivot Chart in Excel 
+      Excel Hide Shortcut 
+      Unhide Shortcut in Excel 
+      Range in Excel 
+      Strikethrough in Excel 
+      How to password protect an Excel sheet 
+      Page Orientation in Excel 
+      Area Chart in Excel 
+      Bubble Chart Excel 
+      Autofill in Excel 
+      Convert rows to columns 
+      Analysis ToolPak 
+      Zoom In/Out in Excel 
+      Excel Format Painter Shortcut 
+      Excel Wrap Text Shortcut 
+      Uppercase Shortcut in Excel 
+      How to make a bar chart in Excel 
+      JSON to Excel 
+      Sparkline chart 
+      Why MS Excel is Important 
+      Waterfall Chart Excel 
+      Excel IRR formula 
+      Excel Pareto chart 
+      Column Chart 
+      Formatting Charts 
+      Pie Chart 
+      Doughnut Chart Excel 
+      Scatter Plot Excel 
+      Text to column in Excel 
+      Excel IFERROR() function 
+      Excel Median() function 
+      Gantt Chart Excel 
+      Consolidate data in Excel 
+      Excel Strikethrough Shortcut 
+      Flow Chart Excel 
+      Organization Chart Excel 
+      Excel box plot 
+      Excel Transpose Function 
+      Circular reference in Excel 
+      Excel Filter Function 
+      Excel VAR.S() Function 
+      Email Workbook 
+      Share Workbook 
+      Correlation in Excel 
+      How many sheets are there in excel workbook by default 
+      What is Mod Function in Excel 
+      Compatibility mode in Excel 
+      How to unprotect Excel sheet without password 
+      Adding Graphics 
+      Translate Worksheet 
+      Excel Large Function 
+      Excel Rank Function 
+      Cross Referencing in Excel 
+      Using Themes in Excel 
+      Excel IFNA Function 
+      Excel TRIM Function 
+      Excel DATEVALUE Function 
+      Excel SUBSTITUTE Function 
+      Special Symbols in Excel 
+      
+      
+      Shortcut Keys 
+      
+      
+      Excel Shortcut Keys 
+      
+      
+      Interview Questions 
+      
+      
+      Excel Interview 
+      HR Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Excel Strikethrough Shortcut MS Excel or Microsoft Excel is powerful spreadsheet software by Microsoft, and it has a distinct range of built-in features and functions. The best thing in Excel is using most of the built-in features using quick shortcuts. When it comes to using strikethrough in Excel, Excel has multiple shortcuts to help us quickly apply it within Excel cells.  This article discusses the various Excel Strikethrough Shortcuts that can help quickly implement or use the Strikethrough feature in Excel. Before discussing the shortcuts to use strikethrough, let us briefly introduce the strikethrough feature and its use in the text editing and highlighting. What is Strikethrough in Excel? Strikethrough is a type of character formatting used for text or values within the selected cells, which draws a horizontal straight line through the cell or selected text. Since it is a format, it can be applied or removed like other formatting or styles in Excel. Generally, the strikethrough feature is used from the Format cells tab on the ribbon. But, it is more often through shortcuts as they make it easier to apply strikethrough in the desired cell(s). Putting a straight line through the cells typically marks that the corresponding task has been done. For example, suppose we are working on different projects listed on the Excel sheet; we can select and apply strikethrough in desired cells if the corresponding projects are completed. This will help us focus only on the pending projects while keeping the records of completed ones. The following image displays cells with a strikethrough in an Excel sheet:  Shortcuts to use Strikethrough in Excel The shortcuts can be used in different ways in Excel for each specific task. Alternately, we can also create a desired shortcut for an individual task that we use more often. Likewise, we have multiple shortcuts for the strikethrough feature, such as: 
+            
+            Strikethrough Shortcut in Quick Access Toolbar 
+            Strikethrough Shortcut on Ribbon 
+            Strikethrough Shortcut in Format Cells Dialogue Box 
+            Strikethrough Shortcut Keyboard Key 
+            We can use any of the above-listed strikethrough shortcuts to apply cross out or create a line through a text and values in Excel cells. Let us discuss each strikethrough shortcut in detail: Strikethrough Shortcut in Quick Access Toolbar The quick access toolbar (QAT) is a great way to access any Excel feature/option with a click. But, we must add the desired shortcut in QAT before we can use it. We only need to add a shortcut once, and we can use it as many times as we need in the future. Adding a Strikethrough Shortcut in a Quick Access Toolbar 
+            
+             First, we need to click the drop-down icon from the QAT and select the More Commands option.  This will launch Excel Options, as shown below:   
+             Next, we must click the drop-down menu and select the All Commands option from the list below 'Choose Command'. Likewise, we need to select the option Strikethrough from the list of commands. After selecting both options, we must click the Add button to insert the desired option in the list displayed on the right-side window.   
+             Once the strikethrough feature is displayed on the right-side window, we need to click the OK button.   Doing this, we can easily add the strikethrough shortcut in QAT.  Once added, we can either use this shortcut using the mouse or the keyboard shortcut (Ctrl + 5, in our case) displayed while hovering a mouse onto the shortcut. Alternately, we can use the Alt method. According to the Alt method, we need to first click the Alt key on the keyboard, which will enable quick shortcut keys on Excel options. We must press the associated key with strikethrough on QAT to use this feature instantly. In our case, it is the numeric key 4. Thus, after adding a strikethrough shortcut in QAT, we must press Alt and then key 4 to instantly use the strikethrough feature for the selected cell(s).   
+            Strikethrough Shortcut on Ribbon When we are using MS Word, we usually see a strikethrough icon under the Home tab. Unfortunately, there is no such shortcut in Excel by default. However, it is easy to add this shortcut on the ribbon and use it instantly whenever needed. Once added, it can be used as many times as needed in the future. We need to perform the following steps to add the strikethrough shortcut on the Excel ribbon: 
+            
+             First, we need to right-click on anywhere within the ribbon and click the option 'Customize the Ribbon' from the list, as shown below:   
+             Next, we need to add a custom group on the ribbon and place our desired shortcut there. For this, we need to select the target tab to add a custom group. In our case, we choose the Home tab. After selecting the desired tab, we need to click the 'New Group' button.   This will instantly add a custom group, as shown below:   
+             With selecting the created custom group, we need to select the option 'Commands Not in the Ribbon' from the drop-down under 'Choose Commands from', as shown below:   
+             Next, we need to find the strikethrough option from the list and click the Add button. After the strikethrough option is displayed on the right side box under the custom group we created, we must click the OK button.   
+             Once the OK button is clicked, we will see that a new shortcut named strikethrough is added on the ribbon under the custom group (whatever name we give to a group) and selected tab. In our case, the strikethrough shortcut is added within the Home tab, as shown below:  As shown in the image above, we can use this shortcut to apply strikethrough to selected cells with just one click whenever needed.  
+            Therefore, if we have our quick access toolbar reserved with other essential shortcuts, it is a good option to add a strikethrough shortcut on the ribbon using the above steps. Strikethrough Shortcut in Format Cells Dialogue Box We can use the strikethrough feature using the format cells dialogue box. Since we can access the format cells dialogue box with a shortcut Ctrl + 1, it is a quick alternate shortcut also to apply a strikethrough. The format cells dialogue box provides several options to adjust formatting to selected cell or range of cells, and we can access strikethrough formatting through it easily by following the steps below: 
+            
+            First, we need to select the cells where we want to apply the strikethrough, adjacent or non-adjacent. 
+             Next, we need to use the shortcut Ctrl+1 to launch the Format Cells dialog box, where the key 1 should only be pressed from the keyboard area, not using the number pad.  Alternately, we can also select 'Format Cells' from the right-click menu options.   
+             In the format cells dialogue box, we must navigate the Font tab and locate the option strikethrough. We need to click the checkbox associated with the strikethrough option under the Effects, as shown below:   
+            Lastly, we must click the OK button or hit the Enter key to apply the changes. This will instantly apply the strikethrough onto selected cells in Excel. 
+            Although this is a slightly longer shortcut than the other shortcuts, it also provides other formatting options. Despite this, keyboard shortcuts are always the fastest way. Strikethrough Shortcut Keyboard Key Using any feature with keyboard keys is one of the quickest and best methods. Excel has predefined keyboard shortcut keys for most of the Excel features. If there is no definite shortcut for any specific task, the Alt key can be oppressed to activate special shortcut keys. When using the strikethrough feature in Excel, we must press the Ctrl key and the numeric key '5' simultaneously. However, we must select the cell or range of cells to apply strikethrough before using the keyboard shortcut key Ctrl + 5. We can use this shortcut for both the adjacent and non-adjacent selection of cells in Excel.  It is important to note that we must use the numeric key '5' from the keyboard area, not from the numeric keypad. Strikethrough Example Although it is easy to apply strikethrough shortcuts, sometimes we may not use them as desired. For example, when using the strikethrough with conditional formatting. We can only strikethrough cells with a defined rule and access the format cells dialogue box opened from the formatting rule window. Let us consider the following excel sheet as an example where we have a list of several tasks, and we want to apply strikethrough on selected tasks based on the input (Task Completed or not) given in the next cells.  Therefore, we first need to select the cells or range of cells to apply the conditional formatting. In our example, we need to apply conditional formatting on column A. Thus, we select the cells from A1 to A8, as shown in the following image:  After selecting effective cells, we need to go to the Home tab and click the Conditional Formatting option. We must select the option New Rule from the drop-down list under the Conditional Formatting.  In the next window, we need to select an option saying, "Use a formula to determine which cells to format". Then, we must write the formula (=B2:B8="YES") without brackets, as shown below:  After entering the formula, we must click the Format button. In the format cells window, we need to go to the Font tab, select the Strikethrough option, and click the OK button.  After clicking the OK button, the desired conditional formatting is applied. After that, whenever we will write YES in the cells next to the tasks, the straight line will be drawn through the task. In our example, it looks like this:  This typically means that there may be cases when we cannot use the strikethrough shortcuts. Important Things to Remember 
+            
+            When we apply strikethrough on Excel cells, it doesn't change the values in cells, and it only draws a line towards text or values in cells. For example, "TEXT" and "TEXT" are the same for Excel or Excel formulas. 
+            When applying strikethrough on certain cells in an Excel sheet, we can select only those cells and use any of the desired shortcuts mentioned above. To select cells from certain parts of the cells, we can use the Ctrl key while clicking on the desired cells using the mouse. 
+            The shortcuts used to apply strikethrough can also be used to remove strikethrough from the selected cells. However, there must be a read/write access to make changes in an Excel sheet. 
+            When adding the strikethrough shortcut on the ribbon, we must remember that we cannot change default groups/categories under certain tabs present in Excel. We must add a custom group as default groups within tabs cannot be altered. 
+            When using strikethrough shortcuts with conditional formatting, we must remember that the range reference must only be the relative range reference, not the absolute range reference. 
+            
+            
+            
+            Next Topic
+            Flow Chart Excel 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

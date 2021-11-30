@@ -1,0 +1,973 @@
+
+
+ 
+  
+  Is_array() Function in PHP - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+     
+       
+        Home 
+        PHP 
+        MySQL 
+        Laravel 
+        WordPress 
+        Magento 2 
+        CodeIgniter 
+        YII 
+        HTML 
+        CSS 
+        JavaScript 
+        jQuery 
+        Python 
+        Java 
+        SQL 
+        Interview Q 
+      
+      
+      
+     
+     
+     
+      
+     
+     
+     PHP Training 
+      
+      PHP Tutorial 
+      
+      
+      PHP Tutorial 
+      Install PHP 
+      PHP Code 
+      PHP Echo 
+      PHP Print 
+      PHP Echo vs Print 
+      PHP Variable 
+      PHP Variable Scope 
+      PHP $ and $$ 
+      PHP Constants 
+      PHP Magic Constants 
+      PHP Data Types 
+      PHP Operators 
+      PHP Comments 
+      
+      
+      Control Statement 
+      
+      
+      PHP If else 
+      PHP Switch 
+      PHP For Loop 
+      PHP foreach loop 
+      PHP While Loop 
+      PHP Do While Loop 
+      PHP Break 
+      PHP Continue 
+      
+      
+      PHP Programs 
+      
+      
+      20 PHP Programs 
+      
+      
+      PHP Functions 
+      
+      
+      PHP Functions 
+      Parameterized Function 
+      PHP Call By Value 
+      PHP Call By Reference 
+      PHP Default Arguments 
+      PHP Variable Arguments 
+      PHP Recursive Function 
+      
+      
+      PHP Arrays 
+      
+      
+      PHP Array 
+      PHP Indexed Array 
+      PHP Associative Array 
+      Multidimensional Array 
+      PHP Array Functions 
+      
+      
+      PHP Strings 
+      
+      
+      PHP String 
+      PHP String Functions 
+      
+      
+      PHP Math 
+      
+      
+      PHP Math Functions 
+      
+      
+      PHP Form 
+      
+      
+      PHP Form: Get Post 
+      
+      
+      PHP Include 
+      
+      
+      PHP include & require 
+      
+      
+      State Management 
+      
+      
+      PHP Cookie 
+      PHP Session 
+      
+      
+      PHP File 
+      
+      
+      PHP File Handling 
+      PHP Open File 
+      PHP Read File 
+      PHP Write File 
+      PHP Append File 
+      PHP Delete File 
+      
+      
+      Upload Download 
+      
+      
+      PHP File Upload 
+      PHP Download File 
+      
+      
+      PHP Misc 
+      
+      
+      require_once 
+      include_once 
+      MVC Architecture 
+      PHP vs. JavaScript 
+      PHP vs. HTML 
+      PHP vs. Node.js 
+      PHP vs Python 
+      PhpStorm 
+      PHP PDO 
+      Top 10 PHP frameworks 
+      phpMyAdmin 
+      Count All Array Elements 
+      Create Newline 
+      Get Current Page URL 
+      Remove First Element from Array 
+      Remove Last Element from Array 
+      Change Date Format 
+      Get IP Address 
+      PHP MySql Login System 
+      var_dump() function 
+      PHP Regular Expressions 
+      preg_match() function 
+      preg_replace() function 
+      isset() function 
+      print_r() function 
+      Types of Errors in PHP 
+      Display All Errors 
+      PHP error_reporting 
+      PHP header() 
+      PHP unset() function 
+      Get & Post Methods 
+      Form Validation 
+      Exception Handling in PHP 
+      PHP try-catch 
+      PHP Pagination 
+      What is a Website 
+      How to make a website 
+      How to cite a website in APA format 
+      How to cite a website in MLA format 
+      How to download video from the website 
+      PHP array_push 
+      break vs continue in PHP 
+      How to Install Composer on Windows 
+      PHPMyAdmin Login 
+      PHP alert 
+      Creation of custom php.ini file in CPanel 
+      Downgrade php 7.4 to 7.3 Ubuntu 
+      Multiple File Upload using Dropzone JS in PHP 
+      PHP Dropzone File Upload on Button Click 
+      PHP find value in an array 
+      PHP Codeigniter 3 Ajax Pagination using Jquery 
+      How to Convert array into string in PHP 
+      PHP Codeigniter 3 Create Dynamic Tree View using Bootstrap Treeview JS 
+      CRUD Operation using PHP & Mongodb 
+      PHP Ajax Multiple Image Upload 
+      PHP Multidimensional Array Search By Value 
+      PHP urlencode() Function 
+      Image Gallery CRUD using PHP MySQL 
+      How to get selected option value in PHP 
+      Array to string conversion in PHP 
+      PHP Contact Form 
+      PHP string Concatenation 
+      PHP Laravel 5.6 - Rest API with Passport 
+      PHP compare dates 
+      PHP Registration Form 
+      PHP ternary operator 
+      PHP basename() Function 
+      Why do we need Interfaces in PHP 
+      file_put_contentss() Function in PHP 
+      Is_array() Function in PHP 
+      
+      
+      PHP Mail 
+      
+      
+      PHP Mail 
+      
+      
+      PHP MySQLi 
+      
+      
+      MySQLi CONNECT 
+      MySQLi CREATE DB 
+      MySQLi CREATE Table 
+      MySQLi INSERT 
+      MySQLi UPDATE 
+      MySQLi DELETE 
+      MySQLi SELECT 
+      MySQLi Order by 
+      
+      
+      PHP JSON 
+      
+      
+      PHP JSON Example 
+      
+      
+      PHP OOPs Concepts 
+      
+      
+      OOPs Concepts 
+      OOPs Abstract Class 
+      OOPs Abstraction 
+      OOPs Access Specifiers 
+      OOPs Const Keyword 
+      OOPs Constructor 
+      OOPs Destructor 
+      Abstract vs Class vs Interface 
+      Encapsulation 
+      Final Keyword 
+      OOPs Functions 
+      OOPs Inheritance 
+      OOPs Interface 
+      OOPs Overloading 
+      OOPs Type Hinting 
+      
+      
+      PHP Topics 
+      
+      
+      Compound Types 
+      PHP Float 
+      PHP Integer 
+      is_null() Function 
+       
+       
+      PHP Boolean 
+       
+      Special Types 
+      Inheritance Task 
+      Special Types 
+      PHP Encryption 
+      Two-way Encryption 
+      Heredoc Syntax 
+      
+      
+      PHP MCQ 
+      
+      
+      PHP MCQ 
+      
+      
+      Related Tutorials 
+      
+      
+      MySQL Tutorial 
+      WordPress Tutorial 
+      CodeIgniter Tutorial 
+      YII Tutorial 
+      Laravel Tutorial 
+      Magento 2 Tutorial 
+      
+      
+      Interview Questions 
+      
+      
+      PHP Interview 
+      WordPress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Is_array() Function in PHP Array - arrays is a specific data type that allows us to store numerous components of a single type of data under a specific variable, this method helps us to reduce the time and energy of creating several variables for every data. We can access every element of an array using an index, for example if we need to store the salaries of 5 different employees, instead of creating 5 variables for every employee we can easily create an array salary with the salaries of all employees inside a single variable salary. In this case creating 5 variables is still a doable task but what if we have to store the salary of 100 or even 1000 employees, in such cases arrays are the best preference. Is _ array ( ) - is another inbuilt function of PHP which is used to evaluate whether a defined variable is an array or a different variable. Syntax: 
+           
+            
+is_array ( $ variable name)
+
+            is_array function accepts a single parameter, $ variable name is the nave of the declared variable which we have to check. The is_array () function returns Boolean value i.e. if the variable is an array it will return TRUE else it will return FALSE. Example 
+           
+            
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a = " good morning " ; //variable a with
+print_r ($a) ; 
+echo " is " ;
+if(is_array ($a) = = 1){
+echo " array " . " < br > " ;
+}
+else{
+echo " not an array " . " <br> " ;
+}
+
+$b = array ( " cyan " , " magenta " ,  " yellow " ) ; //variable with an array
+print_r ($b); // inbuilt PHP function to print array
+echo " is " ;
+if( is_array ($b) = = 1){ 
+echo " an array " . " < br > " ;
+}
+else{
+echo " not an array " . " < br > " ;
+}
+
+$c = array ( " doctor " => " 35LPA " , " engineer " => " 27LPA " , " accountant " => " 20LPA " ) ;
+print_r ($c) ;
+echo " is " ;
+if(is_array ($c) = = 1){
+echo "an array " . " < br > " ;
+}
+else{
+echo " not an array " . " < br > " ;
+}
+
+$d = " cyan , magenta , yellow " ;
+print_r($d);
+echo " is ";
+if(is_array($d) = = 1){
+echo " array " . " < br > " ;
+}
+else{
+echo " not an array " . " < br > " ;
+}
+?>
+
+</body>
+</html>
+
+            Output: 
+           
+            good morning is not an array
+Array ( [0] => cyan [1] => magenta [2] => yellow ) is an array
+Array ( [doctor] => 35LPA [engineer] => 27LPA [accountant] => 20LPA ) is an array
+cyan, magenta, yellow is not an array
+
+            In this program, we have declared multiple variables with different data and with the if else statement we have deduced the output whether the declared variable contains an array or not, we have used is_array function to check whether the declared data is array or not. Example: 
+           
+            
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a1 = 29.99;
+$a2 = 42;
+$a3 = " abc ";
+$a4 = array ( ' A ' ,  ' B ' , ' C ' ) ;
+  
+if (is_array ($a4) ) {
+    print_r($a4);
+    echo " <br> ";
+    foreach($a4 as $value){
+    echo $value . " ";}
+    echo " is an array " . " <br> "  . " <br> ";}
+else
+    echo $a4 . " is not a array value" . " <br> " . " <br> ";
+  
+  
+if (is_array($a1)){
+    print_r($a1);
+    echo "<br>";
+    foreach($a1 as $value){
+    echo $value . " ";}
+    echo " is an array " . " <br> "  . " <br> ";}
+else
+    echo "$a1 is not a array value. \n" . "<br>" . "<br>";
+   
+if (is_array($a2)){
+    print_r($a2);
+    echo "<br>";
+    foreach($a2 as $value){
+    echo $value . " ";}
+    echo " is an array " . " <br> "  . " <br> "; }
+else
+    echo "$a2 is not a array value. \n" . " <br> " . " <br> ";
+  
+if (is_array($a3)){
+    print_r($a3);
+    echo "<br>";
+    foreach($a3 as $value){
+    echo $value . " ";}
+    echo " is an array " . " <br> "  . " <br> ";}
+else
+    echo "$a3 is not a array value. \n" . " <br> ";
+?>
+
+
+</body>
+</html>
+
+            Output: 
+           
+            Array ( [0] => A [1] => B [2] => C ) 
+A B C is an array 
+
+29.99 is not a array value. 
+
+42 is not a array value. 
+
+abc is not a array value.
+
+            In this program, we have declared multiple variables with different data and with the if else statement we have deduced the output whether the declared variable contains an array or not, we have used is_array function to check whether the declared data is array or not. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,614 @@
+
+
+ 
+  
+  NEO Cryptocurrency - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Cryptocurrency 
+       Blockchain 
+       DBMS 
+       HTML 
+       CSS 
+       JavaScript 
+       Selenium 
+       DS 
+       Control System 
+       Java 
+       Selenium 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Cryptocurrency 
+      
+      
+      Cryptocurrency 
+      Top 5 Cryptocurrencies 
+      Cryptocurrency List 
+      How cryptocurrency works 
+      Tron Cryptocurrency 
+      Matic (Polygon) Cryptocurrency 
+      Pi Cryptocurrency Value in INR 
+      Cryptocurrency Exchange in India 
+      Ripple Cryptocurrency 
+      Libra Cryptocurrency 
+      Cryptocurrency Mining 
+      ADA Cryptocurrency 
+      NEO Cryptocurrency 
+      BAT Cryptocurrency 
+      Letter Spacing 
+      Atom Cryptocurrency 
+      Dogecoin 
+      
+      
+      WazirX 
+      
+      
+      WazirX 
+      WazirX Review 
+      Open WazirX Account 
+      Deposit Money in WazirX 
+      Is WazirX safe 
+      Is WazirX legal in India 
+      
+      
+      Payoneer 
+      
+      
+      Payoneer 
+      Payoneer Fees & Timing 
+      Payoneer vs PayPal 
+      Payoneer Alternatives 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            NEO Cryptocurrency  Da HongFei and Erik Zhang established Neo (previously Antshares) in 2014 as an accessible distributed blockchain federated digital platform. Till changing its name to Neo from Antshares in 2017, the project's goal has been to create a "wise industry" by using blockchain applications and innovative contractual to create and handle digital assets. The Neo network is based on a distributed Byzantine fault-tolerant (BFT) consensus mechanism that connects an amount of regionally authorized endpoints and can handle up to 10,000 transactions per second. The non-divisible Neo coin, which creates GAS coins, is the foundation of the Neo Blockchain network. These GAS tokens, a distinct commodity on the system, may be used to fund processing charges and are convertible down to the 0.00000001 unit. The pace of GAS expansion is regulated by a half-life declining mechanism that will produce 100 million GAS over 22 years, and the Genesis Block produced approximately 100 million Neo. The first 50 million Neo was offered to initial traders in a 2016 ICO that generated $4.65 million, with the other 50 million Neo trapped under a shared ledger. Annually, 15 million Neo assets are released, which are utilized to support long-term development objectives by the Neo project group. The resources builders use to build and grow cryptographic protocol programs on the Neo blockchain are at the heart of the Neo extracted operations. Programmers can use X.509 Digital Personalities to link tokens to true identities, which helps them abide by KYC/AML or other compliance standards. Code name- Neo Developer- Da HongFei, Erik Zhang Launched- February 2014 Programming language- C# Code repository- NEO GitHub Official Site- neo.org NEO Updating Erik Zhang initially released Neo 3.0 or N3 to update the present Neo network in 2018 (also called Neo legacy). N3 is a step forward from earlier versions, with more robust and efficient capabilities, a highly modified appearance, and improved performance. Because some aspects of the N3 upgrade are not retroactively similar to the current Neo-traditional network, the N3 objectives will be achieved via a new genesis block. History of NEO Da Hongfei and Erik Zhang established Antshares in 2014, and it was free on GitHub the subsequent day, and the policy document was published in September 2015. 
+            
+            In June 2017, Neo was renamed Antshares to integrate the previous with the modern. The term "neo" comes from the Greek word "o," which means "new," "fresh," and "youth." Besides the renaming, the idea of creating a "digital market" was established. 
+            Neo's parent firm, on-chain, issued one ONT (Ontology token) for every five NEO stored in a customer's bitcoin wallet in March 2018. The Neo network will utilize these coins to decide on firmware upgrades, additional authentication procedures, and other governance concerns. 
+            
+            
+            
+            Next Topic
+            BAT Cryptocurrency 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

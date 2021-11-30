@@ -1,0 +1,671 @@
+
+
+ 
+  
+  Engineering Applications of Artificial Intelligence - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       DBMS 
+       AI 
+       Blockchain 
+       HTML 
+       CSS 
+       JavaScript 
+       Selenium 
+       DS 
+       Control System 
+       Java 
+       Selenium 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Artificial Intelligence 
+      
+      
+      AI Tutorial 
+      AI Introduction 
+      Application of AI 
+      History of AI 
+      Types of AI 
+      
+      
+      Intelligent Agent 
+      
+      
+      Types of Agents 
+      Intelligent Agent 
+      Agent Environment 
+      Turing Test in AI 
+      
+      
+      Problem-solving 
+      
+      
+      Search Algorithms 
+      Uninformed Search Algorithm 
+      Informed Search Algorithms 
+      Hill Climbing Algorithm 
+      Means-Ends Analysis 
+      
+      
+      Adversarial Search 
+      
+      
+      Adversarial search 
+      Minimax Algorithm 
+      Alpha-Beta Pruning 
+      
+      
+      Knowledge Represent 
+      
+      
+      Knowledge Based Agent 
+      Knowledge Representation 
+      Knowledge Representation Techniques 
+      Propositional Logic 
+      Rules of Inference 
+      The Wumpus world 
+      knowledge-base for Wumpus World 
+      First-order logic 
+      Knowledge Engineering in FOL 
+      Inference in First-Order Logic 
+      Unification in FOL 
+      Resolution in FOL 
+      Forward Chaining and backward chaining 
+      Backward Chaining vs Forward Chaining 
+      Reasoning in AI 
+      Inductive vs. Deductive reasoning 
+      
+      
+      Uncertain Knowledge R. 
+      
+      
+      Probabilistic Reasoning in AI 
+      Bayes theorem in AI 
+      Bayesian Belief Network 
+      
+      
+      Misc 
+      
+      
+      Examples of AI 
+      AI Essay 
+      AI in Healthcare 
+      Artificial Intelligence in Education 
+      Artificial Intelligence in Agriculture 
+      Engineering Applications of AI 
+      
+      
+      Subsets of AI 
+      
+      
+      Subsets of AI 
+      Expert Systems 
+      Machine Learning Tutorial 
+      NLP Tutorial 
+      
+      
+      Artificial Intelligence MCQ 
+      
+      
+      Artificial Intelligence MCQ 
+      
+      
+      Related Tutorials 
+      
+      
+      Tensorflow Tutorial 
+      PyTorch Tutorial 
+      Data Science Tutorial 
+      Reinforcement Learning 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Engineering Applications of Artificial Intelligence AI is a prominent fixture in Hollywood films as producers attempt to make movies futuristic. But AI is not a thing of the future as we already use it. It is making considerable contributions across multiple industries, including engineering. In this post, we'll look at the different engineering applications of artificial intelligence.  AI in Engineering: Applications Many scientists are fascinated with the idea of developing a machine that can mimic the human brain. Artificial neural networks, brain-computer interfaces, and trans-humanism all try to replicate the human brain's complexity. But many do realize that it's not that simple. However, we can't discount that while we are still far from bringing this complexity to a machine, AI is significantly making our lives easier. It has already become a vital part of engineering. Let's take a closer look at some engineering applications of artificial intelligence. Application 1: Advanced Robots The growth of AI allowed developers to create machines that can carry out complex manufacturing tasks. The goal is to develop systems that can learn and improve without the need for human intervention. As manufacturing needs continue to expand, we foresee a more significant demand for advanced robots to replace humans in an assembly line. An example is the use of advanced robots in the automobile manufacturing sector. AI systems have evolved from doing simple tasks to performing precise and complex processes that mimic the intricate functions initially reserved for human workers. Application 2: Big Data All industries now rely heavily on data. Information has become a hot commodity that many organizations that want to beat the competition invest in. But no data would be useful without AI systems that allow users to collect, analyze, and give context. Through machine learning (ML), AI can provide organizations with algorithms capable of detecting mistakes and formulating solutions to improve their operations. Engineers can use big data and AI to facilitate large-scale urban projects. The technology can help them identify where people are and what public infrastructure projects they can carry out to address general issues. Application 3: Internet of Things The Internet of Things (IoT) has exploded in the past decade, as many organizations continuously work to get everyone connected. Smart devices have become prevalent, allowing people to remain in touch wherever they may be. Connectivity has benefited the engineering industry, as IoT devices make it possible for specialists to monitor projects remotely. For instance, an engineer can use IoT sensors to monitor how well a system they designed measures soil consolidation, degradation, and environmental impact for the client. By enabling ML on IoT devices, it is possible to achieve "connected intelligence" that allows engineers to do predictive, prescriptive, and adaptive analyses for their projects. Application 4: Image Processing While the image processing component of AI may not have that much of an impact on engineering, it can potentially change practices to a high degree. Engineers can readily identify structural deformities and other potential issues that may not be readily identifiable with the naked eye through image processing algorithms. These engineering applications of artificial intelligence are crucial to ensure the safety of workers on a project. When combined with other data from sensors, image processing can give contextual information that would aid engineers in decision-making. For instance, a construction site's structural integrity can be assessed with the help of AI before construction begins. Application 5: Natural Language Processing Another AI concept that can help engineers is natural language processing (NLP), allowing machines and humans to communicate. Imagine an engineer talking to a tool to get the latter's input on reinforcing an assembly line process in real-time. While this is still a concept, it can be an area worth looking into. The engineering applications of artificial intelligence featured in this post show us that evolution is not something to be scared of. Technology, when used appropriately, can bring about positive outcomes. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

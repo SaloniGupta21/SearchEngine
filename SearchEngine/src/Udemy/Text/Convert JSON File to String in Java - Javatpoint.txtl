@@ -1,0 +1,53 @@
+Convert JSON File to String in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Convert JSON File to String in Java In Java, we can easily convert JSON files to strings. Converting a JSON file into a string is done by reading bytes of data of that file. In order to convert JSON files to string, we use the nio (non-blocking I/O) package(collection of Java programming language APIs that offer features for intensive I/O operations). Suppose, we have a Sample.json file in the system that contains the following data: 
+{
+  "Name" : "Donal",
+  "Mobile" : 89346724,
+  "Boolean" : true,
+  "Pets" : ["Dog", "cat"],
+  "Address" : {
+    "Permanent address" : "INDIA",
+	"current Address" : "AMERICA"
+  }
+}
+ We use the following steps to convert JSON data into a string: Import all the required classes such as Files, Paths, and Scanner. Take input from the user for the location and name. Create convertFileIntoString() In the convertFileIntoString() method, we use the get() method of the Paths class to get the file data. We use the readAllBytes() method of the Files class to read bytes data of the JSON files as a string. We store the returned result of the readAllBytes()and get()methods into a variable and return it to the main() method. In the main() method, we simply print the returned result of the convertFileIntoString() Now, we convert or access data of the Sample.json file by using the above-discussed steps: ReadFileAsString.java 
+// import required classes and packages 
+packagejavaTpoint.javacodes;
+// we use classes of nio package to read bytes data of the JSON file
+importjava.nio.file.Files;
+importjava.nio.file.Paths;
+importjava.util.Scanner;
+// create ReadFileAsString class to convert json file into string
+public class ReadFileAsString {
+	// main() method start
+public static void main(String[] args) throws Exception {	//handle exception
+	// declare fileName, location, and file variable that will store the user entered file name, location, and file data as a string, respectively 
+	String fileName, file, location;
+	// create scanner class object
+	Scanner sc = new Scanner(System.in);  
+System.out.print("Enter the name of the file which you want to convert or access as string: ");  
+        // take input from user and initialize filName variable 
+fileName = sc.nextLine();  
+System.out.print("Enter the laction of the "+fileName+" file: ");  
+        // take input from user and initialize location variable 
+location = sc.nextLine();  
+        // close scanner class obj
+sc.close();
+        // call convertFileIntoString() method that will return the file data as string. We store the returned data into file variable
+file = convertFileIntoString(location+"\\"+fileName);
+        // print the result, i.e., JSON data in form of string
+System.out.println(file);
+    }
+    // create convertFileIntoString() method to convert JSON file into string 
+public static String convertFileIntoString(String file)throws Exception
+    {
+	// declare a variable in which we store the JSON data as a string and return it to the main() method
+	String result;
+	// initialize result variable
+	// we use the get() method of Paths to get the file data
+	// we use readAllBytes() method of Files to read byted data from the files
+	result = new String(Files.readAllBytes(Paths.get(file)));
+	// return result to the main() method
+	return result;
+    }
+}
+ Note: In the above code, we convert the JSON file into a string and store it into the same type variable. So, we can perform all the string operations on the resultant variable. Output: Next Topic Convert Milliseconds to Date in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

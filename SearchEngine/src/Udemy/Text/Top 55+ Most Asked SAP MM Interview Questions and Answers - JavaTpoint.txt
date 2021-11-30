@@ -1,0 +1,1054 @@
+
+
+  
+   
+   
+   
+  
+  
+  
+  
+   
+  Top 55+ Most Asked SAP MM Interview Questions and Answers - JavaTpoint 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+   
+    
+     
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+        
+        
+       
+      
+     
+     
+     
+       
+        Home 
+        Interview Questions 
+        Java 
+        SQL 
+        Python 
+        JavaScript 
+        Angular 
+        Selenium 
+        Spring Boot 
+        HR 
+        C 
+        Data Structure 
+        DBMS 
+        HTML 
+        C# 
+        C++ 
+      
+      
+      
+     
+     
+     
+     
+      
+      All Interview 
+      
+      
+      Interview Tips 
+      JOB/HR Interview 
+      Competency Interview 
+      Business Analyst 
+      Behavioral Interview 
+      
+      
+      Company Interview 
+      
+      
+      Company Interview 
+      IBM Interview 
+      Infosys Interview 
+      Capgemini Interview 
+      Cognizant Interview 
+      Wipro Interview 
+      Accenture Interview 
+      iGate Interview 
+      TCS Interview 
+      HCL Interview 
+      Adobe Interview 
+      Microsoft Interview 
+      DXC Technology Interview 
+      Ericsson Interview 
+      EXL Service Interview 
+      IndiaMART Interview 
+      Intuit Interview 
+      SpaceX Interview 
+      Sapient Interview 
+      Amazon Interview 
+      
+      
+      Technical Interview 
+      
+      
+      C Interview 
+      C++ Interview 
+      Data Structure Interview 
+      Linux Interview 
+      Unix Interview 
+      Shell Scripting 
+      Networking Interview 
+      CCNA Interview 
+      Android Interview 
+      Cloud Computing 
+      Hadoop Interview 
+      Testing/QTP Interview 
+      Selenium Interview 
+      Web Services Interview 
+      OS Interview 
+      Excel Interview 
+      SEO Interview 
+      Digital Marketing 
+      Python Interview 
+      Django Interview 
+      Pascal Interview 
+      Ruby Interview 
+      Ruby on Rails Interview 
+      Memcached Interview 
+      Go Interview 
+      OpenStack Interview 
+      Scala Interview 
+      Control Systems 
+      Electrical Machines 
+      Power System 
+      Digital Electronics 
+      Robotics Interview 
+      TypeScript Interview 
+      Swift Interview 
+      Blockchain Interview 
+      Bitcoin Interview 
+      AWS Interview 
+      Informatica Interview 
+      QA Interview 
+      React Interview 
+      GIT Interview 
+      J2EE Interview 
+      Deep Learning 
+      Salesforce Interview 
+      TestNG Interview 
+      Agile Interview 
+      Machine Learning 
+      API Testing 
+      Algorithm 
+      Java Design Pattern 
+      Teradata 
+      TensorFlow 
+      LINQ 
+      Mainframe 
+      Laravel 
+      JIRA 
+      JCL 
+      Pytorch 
+      ETL Testing 
+      Linked List 
+      DataStage 
+      Tableau 
+      SAP ABAP 
+      DAA 
+      Computer Graphics 
+      Data Science 
+      Software Engineering 
+      Power BI 
+      Xamarin 
+      Ansible 
+      Data Warehouse 
+      Ionic 
+      Devops 
+      React Native 
+      Python Pandas 
+      HTTP Interview 
+      Kali Linux Interview 
+      PowerShell Interview 
+      SharePoint Interview 
+      Talend Interview 
+      Microsoft Azure Interview 
+      R Interview 
+      Flutter Interview 
+      MATLAB Interview 
+      ES6 Interview 
+      RPA Interview 
+      Desktop Support Interview 
+      Angular 8 Interview 
+      GraphQL Interview 
+      Vue.js Interview 
+      Automation Anywhere Interview 
+      AI Interview 
+      UiPath Interview 
+      Blue Prism Interview 
+      SSIS Interview 
+      Mobile Computing Interview 
+      ITIL Interview 
+      SAS Interview 
+      Elasticsearch Interview 
+      Entity Framework Interview 
+      RxJS Interview 
+      Accounting Interview 
+      Electron.js Interview 
+      Knockout JS Interview 
+      Top Angular Interview 
+      IAS Interview Question 
+      Banking Interview 
+      Interview Questions for Freshers 
+      PowerPoint Interview 
+      BPO Interview 
+      Civil Engineering Interview 
+      Apache Spark Interview 
+      Data Mining Interview 
+      Java Support Interview 
+      Kubernetes Interview 
+      Web API Interview 
+      Scrum Master Interview 
+      System Design Interview 
+      SSB Interview Questions 
+      Teachers Interview Questions 
+      Finance Interview Questions 
+      Technical Support Interview 
+      Active Directory Interview 
+      Appium Interview 
+      Cucumber Interview 
+      Full-Stack Developer 
+      ServiceNow Interview 
+      Nursing Interview 
+      Sales Interview 
+      Microservices Interview 
+      Electrical Engineering Interview 
+      Accounts Payable Interview 
+      VISA Interview 
+      VLSI Interview 
+      AutoCAD Interview 
+      Verilog Interview 
+      OOPs Interview 
+      Web Developer Interview 
+      Express.js Interview 
+      CakePHP Interview 
+      Yii Interview 
+      Zend Framework Interview 
+      Java Concurrency Interview 
+      Symfony Interview 
+      Basic Interview 
+      Dynamic Programming Interview 
+      Programming Interview 
+      Next.js Interview 
+      Microsoft Java Interview 
+      AEM Interview 
+      Svelte.js Interview 
+      COBOL Interview 
+      Cyber Security Interview 
+      SQL Query Interview 
+      BGP Interview 
+      Apache Hive Interview 
+      Kafka Interview 
+      Embedded C Interview 
+      Pega Interview 
+      Kotlin Interview 
+      SAP MM Interview 
+      
+      
+      Web Interview 
+      
+      
+      HTML Interview 
+      CSS Interview 
+      JavaScript Interview 
+      jQuery Interview 
+      AngularJS Interview 
+      Angular Interview 
+      Angular 7 Interview 
+      Node.js Interview 
+      AJAX Interview 
+      XML Interview 
+      Dojo Interview 
+      Backbone.js Interview 
+      Ember.js Interview 
+      XHTML Interview 
+      XSLT Interview 
+      XPath Interview 
+      XQuery Interview 
+      XForms Interview 
+      SASS Interview 
+      CoffeeScript Interview 
+      LESS Interview 
+      Perl Interview 
+      Pure.CSS Interview 
+      Materialize Interview 
+      Framework7 Interview 
+      SVG Interview 
+      SAP FICO Interview 
+      
+      
+      PHP Interview 
+      
+      
+      PHP Interview 
+      Wordpress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      Magento Interview 
+      CodeIgniter Interview 
+      Phalcon Interview 
+      
+      
+      .Net Interview 
+      
+      
+      .Net Interview 
+      C# Interview 
+      ASP.NET Interview 
+      ADO.NET Interview 
+      WCF Interview 
+      WPF Interview 
+      Silverlight Interview 
+      F# Interview 
+      
+      
+      Java Interview 
+      
+      
+      Java 1 Interview 
+      Java 2 Interview 
+      Exception & String 
+      Multithreading  
+      Collections Interview 
+      JDBC Interview 
+      Servlet Interview 
+      JSP Interview 
+      EJB Interview 
+      Struts Interview 
+      Hibernate Interview 
+      Spring Interview 
+      Spring Boot Interview 
+      Spring MVC Interview 
+      JPA Interview 
+      Maven Interview 
+      JUnit Interview 
+      JSF Interview 
+      PrimeFaces Interview 
+      RichFaces Interview 
+      GWT Interview 
+      JDB Interview 
+      JOGL Interview 
+      jBPM Interview 
+      Jenkins Interview 
+      Java Constructor Interview 
+      Technical Architect Interview 
+      Array Interview Questions 
+      
+      
+      Database Interview 
+      
+      
+      DBMS Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      Oracle Interview 
+      MySql Interview 
+      SQL Server Interview 
+      MongoDB Interview 
+      Cassandra Interview 
+      DB2 Interview 
+      Access Interview 
+      SQLite Interview 
+      CouchDB Interview 
+      Neo4j Interview 
+      MariaDB Interview 
+      PouchDB Interview 
+      Redis Interview 
+      
+      
+      
+       
+          
+        
+       
+           
+        
+      
+      
+     
+     
+      
+      
+      
+       
+       
+        
+          Top 55+ Most Asked SAP MM Interview Question and Answers 1) What is SAP MM? / What do you understand by SAP MM? We know that SAP stands for Systems, Applications & Products in Data Processing. SAP MM is a functional module in SAP that deals with procurement handling and material management. In SAP MM, MM stands for Material Management. The SAP MM module contains master data, material valuation, invoice verification, material requirement planning, system configuration, transactions, etc., to complete the procurement to pay process. 
+           2) What are the key advantages of SAP MM or SAP Material Management? SAP MM is one of the largest functional modules in SAP. This module mainly deals with the Procurement Process, Master Data (Material & Vendor Master), Inventory Management, Valuation of Material & Account Determination, Material Requirement Planning, Invoice Verification, etc. Following are the main key advantages of SAP MM or SAP Material Management: 
+           
+           SAP MM reduces material costs by avoiding stocking unnecessary or obsolete materials. 
+           In SAP MM, inventory losses are minimized because it provides multi-location inventory. 
+           SAP MM reduces direct labor costs, and labor can be used efficiently. 
+           It can improve the delivery time and increase transparency across the organization. 
+           It provides the lot and serial traceability. 
+           It also provides bin management, scheduling, and resourcing. 
+           It reduces the manufacturing cycle times and can be controlled effectively. 
+           It provides effective inventory management and reduces expenditure on unwanted material storage. 
+           It also provides inventory replenishment and product life cycle management. 
+           
+           3) What are the main master files used in SAP MM? The main master files used in SAP MM are: 
+           
+           Material master file 
+           Inventory master file 
+           Vendor master file 
+           
+           4) What are the most necessary components of SAP MM or SAP Material Management? The most necessary components of SAP MM or SAP Material Management are: 
+           
+           Vendor Selection 
+           Source determination 
+           Invoice Verification 
+           Order Processing 
+           Order follow up 
+           Determine requirements 
+           Goods receipts and Inventory management 
+           
+           5) What do you understand by goods receipt and post goods receipt? Goods Receipt: In SAP MM, goods receipt is the physical inbound transfer for goods or material into the warehouse. It specifies the transfer of goods used to post goods received from external vendors or in-plant production. All goods receipts result in an increase in stock in the warehouse. Post-Goods Receipt: The Post Goods Receipt specifies the reference to the purchase order with which the goods were ordered. It is used to post the receipt of goods with reference orders after purchase. If the material is delivered for some purchase order, it is important for all departments involved that the goods receipt entry in the system references this purchase order. 
+           6) What are the different types of stocks used in SAP MM? Following are the three different types of stocks used in SAP MM: 
+           
+           Valuated Stock 
+           Non-valuated stock 
+           Special Stock 
+           Here, the valuated stock is further divided into three parts: 
+           
+           Unrestricted stock 
+           Blocked stock 
+           Quality Inspection Stock 
+           The Special Stock is classified as follows: 
+           
+           Stock Transport Order 
+           Subcontracting 
+           Consignment 
+           Returnable Transport Packaging 
+           Stock Transport Order 
+           Pipeline Handling 
+           Third-Party Processing 
+           
+           7) What do you understand by Consignment Stock? The Consignment Stocks are used to specify those materials that are still available in the store premises but belong to the owner or seller. When the buyer uses the consignment stocks, he has to pay for them. 
+           8) Which type of document is a purchase requisition, internal, or external document? A purchase requisition is an internal document, and it is the phase in which purchasing department is informed about the requirement of items or services required for business purposes. 
+           9) What are the different info record types in SAP MM? The different info record types in SAP MM are: 
+           
+           Standard 
+           Pipeline 
+           Subcontracting 
+           Consignment 
+           
+           10) What do you understand by an internal procurement? The big corporate organizations own multiple separate businesses or companies. Here, internal procurement is a process of getting material and services from identical companies. So, each of these companies maintains a complete bookkeeping system with separate Balance, Profit & Loss Statements so that when a trade occurs between them, it will be recorded. 
+           11) What do you understand by Special Procurement in SAP MM? In SAP MM, Special Procurement is used to specify those stocks that do not belong to a company, and these are kept at different locations. 
+           12) What are the different steps used in Procurement Lifecycle? Explain them in detail. Following are the different steps used in Procurement Lifecycle: Requirement and Information Gathering The procurement process begins with gathering information about a product and its quantity first. Then for required products and services, it is necessary to look for suppliers who can satisfy the requirements. Supplier Contact This step comes after requirement and information gathering. After gathering requirements, one will look for the suppliers who can fulfill the requirements. Based on that, we can make a quotation request or information request to the suppliers or direct contact with them. Background Review Once the supplier is known, product/service quality is checked, and any necessities for services such as Installation, warranty, and maintenance are investigated. Some samples of the products can be obtained for qualifying examination. Negotiation Some negotiations with suppliers are made regarding the products/services' price, availability, and delivery schedule of the products/services. In this step, a contract is signed, a binding legal document between the supplier and the ordering party. A contract will include all necessary information like price and quantity of material, delivery date, etc. Order fulfillment Ordered material will be shipped, delivered to the ordering party, and the supplier is paid accordingly. Training and Installation of products or services may also be included. Consumption, Maintenance, and Disposal As the products/service is consumed, the performance of the products or services is evaluated, and any follow-up service support, if required, is analyzed. 
+           13) What are the different types of special stocks available in SAP MM? Different types of special stocks available in SAP MM are: 
+           
+           Subcontracting 
+           Consignment 
+           Project 
+           Pipeline 
+           Sales order 
+           Stock transfer 
+           Returnable packaging with a customer, etc. 
+           
+           14) What are some common assignment types in the SAP Material Management system? Following is a list of some common assignment types in the SAP Material Management system: 
+           
+           Purchasing organization to company code 
+           Standard purchasing organization to plant 
+           Plant to Company code 
+           Purchasing organization to Plant 
+           
+           15) What are the important fields in the purchasing view in SAP MM? The most important fields in the purchasing view in SAP MM are: 
+           
+           The base unit of measure 
+           Order unit 
+           Purchasing group 
+           Material group 
+           Valid from 
+           Tax indicator for the material 
+           Manufacturer part number 
+           Manufacturer, etc. 
+           
+           16) What do you understand by a Purchase Order? A Purchase Order is a type of confirmation list that a buyer sends to his sender to confirm the requirements finally. The Purchase Order not only includes the names and quantity of materials, but it also has valuable information like details of purchasing company with a company code, name of material along with the corresponding Plant, and date for delivery of material. 
+           17) What is the importance of the batch record in SAP MM? In SAP MM, a batch is used to specify the quantity of a particular product, which is processed or produced simultaneously with the same parameters. The materials produced in these batches have the same values and characteristics. On the other hand, the batch record is used to give information about a particular batch product and is mainly used in knowing whether the product has gone through GMP (Good Manufacturing Process). 
+           18) How can you link a document to a vendor master record? We can link a document to a vendor master record by using the XK01 transaction code or by using the following menu path: 
+          
+           
+SAP Menu > Logistics > Material Management > Purchasing > Master Data > Vendor > Central > XK01- Create. 
+
+           
+           19) What are some common assignment types in the SAP Material Management system? Some of the most common assignment types in the SAP Material Management system are: 
+           
+           Purchasing organization to company code 
+           Plant to Company code 
+           Standard purchasing organization to plant 
+           Purchasing organization to Plant etc. 
+           
+           20) What type of data mainly the information record contains? The information record mainly contains the data related to the units of measurement, such as the products, vendor price, materials used by specific vendors, etc. It also contains information on the tolerance limit of the under-delivery of data, planned delivery time, vendor evaluation data, availability status for goods, etc. 
+           21) What transaction code is used to delete a batch in SAP MM? In SAP MM, the transaction code MSC2N is used to delete a batch. There is an alternate way to delete a batch record which we can do by flagging the batch master record. 
+           22) How can you release a purchase order? Which Transaction Code is used to display and reset the release of a purchase order? We can release a purchase order at the header level. It is not possible to release a single item in the purchase order, and we have to release all the items at a time. The ME29N Transaction Code is used to display and reset the release of a purchase order. 
+           23) What is the transaction code used to extend the material view in SAP MM? In SAP MM, the transaction code MM50 is used to extend the material view. 
+           24) What do you understand by Consignment Stock? Consignment Stock is the material that is available at our store premises but still belongs to the vendor (seller)/Owner of the material. That's why we have to pay the vendor for utilizing the material from consignment stocks. 
+           25) What do you understand by Source List? What is the transaction code used for creating the Source List? The Source List is used to identify the sources of supply for materials. The transaction code ME01 is used for creating the Source List.  
+           26) What is the full form of ERS in the context of SAP MM? In SAP MM, ERS stands for Evaluated Receipts Settlement. It refers to the process of settling down receipts of the goods automatically. In the ERS process, an agreement between the vendor and the user that vendors do not prepare an invoice for the goods ordered. Rather, the system would automatically generate and post the invoice document based on the purchase order and goods receipts. 
+           27) What are the pre-requisites for creating a purchasing info record in SAP MM? Following is the list of pre-requisites used for creating a purchasing info record in SAP MM: 
+           
+           Material Number 
+           MPN ( Manufacturer Part Number ) 
+           Vendor Number 
+           Organizational level code 
+           
+           28) How can you flag a material for deletion in SAP MM? We can set a deletion flag at the client level, plant level, or storage location level. The Transaction Code MM06 is used to mark material for deletion. 
+           29) How can you change the standard price in the SAP master material? There is no way to update or change the standard price for the material data directly. However, we can perform the following steps to change the standard price: 
+           
+           Fill in the future fields price (MBEW-ZKPRS) and the materials' effective data (MBEW-ZKDAT). 
+           Select Logistics > Material Management > Valuation > Valuation Price Determination > Future Price. 
+           
+           30) What is the use of keeping a record of the information of purchase? It is necessary to keep a record of purchase information because it collects various information of the vendors and the materials supplied by them. For example, the current price at which the vendor sells the material is recorded in the purchase record. 
+           31) What do you understand by the terms Planned delivery and GR processing time? Planned delivery: The term Planned delivery specifies the number of calendar days required to obtain the material. GR processing: The term GR processing specifies the number of workdays required after receiving the material for inspection and placement into storage. 
+           32) What do you understand by Goods Receipt in SAP system? After the vendor process the purchase order, the material is delivered to the ordering party. This process is called a goods receipt. So, the Goods Receipts is the phase in which the ordering party receives the material, and the condition and quality are verified. Once the material is verified against the quality, then the Goods Receipt is posted. 
+           33) What do you understand by purchase requisition? A purchase requisition is a primary document used as part of the accounting method to launch merchandise or supply purchase. We have to process the purchase order for suitable controls, monitor the legitimacy of purchase, and identify the business requirement for the products. 
+           34) What is the full form of RFQ in SAP MM? Why is it used? In SAP MM, the full form of RFQ is Request For Quotation. It is an invitation sent to sellers to provide the quotation showing pricing and the terms and conditions for that purchase. RFQ also contains information about the date of delivery, goods and services, quantity, and submission date. 
+           35) What do you understand by the terms production order and purchase order? Production order: The term production order specifies which material needs to be prepared at which time and location. It is also concerned about the quantity required. It also determines the components and sequence of operations and the order costs that need to be resolved. Purchase order: The Purchase order is issued by the Vendor or the factory to supply a certain quantity of products and services at a particular time and location. 
+           36) What is the purpose of the material valuation? In SAP MM, material valuation is a module necessary to determine the stock value of materials. 
+           37) What is the use of document type in the SAP system? In the SAP system, the document type indicates different procedures for a transaction within the system. 
+           38) What is the storage location in SAP MM? In SAP MM, a storage location is where we can store our stock of goods within the premises of a plant. Each plant has at least one storage location assigned to it. 
+           39) What is the use of Purchase Info Record? The Purchase Info Record is used to store information about the material and the VendorVendor who supplies that material. 
+           40) How can you create a vendor account group in SAP MM? We can create a vendor account group in SAP MM by following the steps given below: Select display IMG > Financial Accounting > Accounts Payable/Receivable >Vendor Accounts > Master Records > Preparation of creating vendor master records > Define Accounts groups with Screen Layout 
+           41) What are the different Procurement types that we can establish Purchase requisition in SAP MM? We can create a purchase requisition for the following procurement types: 
+           
+           Stock transfer: It is used to specify a transfer of material within the organization. 
+           Subcontracting: It is used for sending raw material to the seller and getting back finished material. 
+           Standard: It is used for getting back finished material from the seller. 
+           External service: It is used to specify the availing services from third-party sellers like maintenance. 
+           Consignment: It is used to pay the seller regarding the procuring material available on the company's premises.  
+           
+           42) What do you understand by master data? Master Data is created centrally and is valid for almost all applications, and it remains constant over time, but we have to update it regularly. For example, the VendorVendor is a type of master data, and it is used for creating purchase orders. 
+           43) What do you understand by consumption-based planning (CBP)? CBP stands for Consumption-Based Planning, which is used to forecast to find out the future requirements. It is dependent upon past consumption values. Based on CBP, the net requirement of goods is calculated. CBP is activated either when the stock level comes below a particular reorder point or when the forecast needs to calculate past consumption values. 
+           44) What do you understand by the term material requirement planning (MRP)? In SAP MM, MRP stands for Material Requirement Planning. It is a module or a sort of planning tool in SAP ERP (Enterprise Resource Planning). It is used to assist procurement and production planners in establishing realistic and possible plans to help initiate procurement and production procedures. 
+           45) What is the difference between the terms MRP and CBP? The primary difference between the term CBP and MRP is that when we plan material, we use MRP to predict the requirements of materials based on SOP (sales and operations planning). On the other hand, in CBP, we have to forecast the MM (material management) depending upon the historical demand for materials. 
+           46) What do you understand by a transaction code in SAP MM? A transaction code is made of letters, numbers, or both. It is entered in the command field at the top of an SAP GUI screen. Each function in SAP ERP has an associated SAP transaction code that facilitates you to access any function in SAP directly. A transaction code is also called t-code. 
+           47) What is a material ledger in SAP MM? In SAP MM, a material ledger is used to retain all transactions related to purchasing and using materials for producing goods. Material ledger data is valuation and control data for a material in a plant for a specific posting period. The material ledger contains data for material movements that are relevant to the valuation of the material. 
+           48) How can a vendor return be processed without a purchase order reference? A vendor return can be processed without a purchase order reference by following the steps given below: 
+           
+           First, observe the return column and then select Item Detail > MIGO_GR > Goods Receipt for Purchase Order. 
+           Use the movement type 161 if the intention is to deduct the stock; otherwise, use the 162 to undo the changes. 
+           Ensure that the document is a return purchase order, and then save the document. 
+           We can also use transaction code M21N for this purpose. 
+           
+           49) What do you understand by the Master Production Schedule (MSP) in SAP MM? In SAP MM, MSP stands for Master Production Schedule. It is used to plan for individual commodities that need to produce in each time, such as production, inventory, staffing, etc. It is linked to manufacturing, where the plan shows how much and when each product will be demanded. 
+           50) What is the use of the Confirmation Control Key (CCK)? The Confirmation Control Key or CCK is used to specify whether a notification for shipping is an expected purchase order item or not. 
+           51) What are the different accounts used in Invoicing? Following are the different accounts used in Invoicing: 
+           
+           Vendor accounts 
+           Stock accounts 
+           GR/IR clearing accounts 
+           Tax account 
+           Price differences account Cash difference clearing account Freight clearing account. 
+           
+           52) What is a Batch Information Cockpit in SAP MM? The Batch Information Cockpit (BIC) is the main switching point having a wide range of options for scrutiny and control. In SAP MM, the BIC stores all the information related to analyzing a particular batch at a single location. 
+           53) What do you understand by the Lot Size in SAP MM? In SAP MM, the Lot Size is the number of materials used for re-ordering. It can be static, periodic, optimum, or fixed in attributes. 
+           54) What do you understand by release group in SAP MM? In SAP MM, the release group is a two-digit code assigned with a class and contains one or more release strategies. For example, release group 01 is defined for purchase requisitions, and release group 02 is defined for the purchase order. 
+           55) What is the use of 'Split Valuation' in SAP MM? In SAP MM, the Split Valuation is used in cases where we need to evaluate various material stocks separately. It can be because of different origins, quality, status, etc. In Split Valuation, the material is managed at several partial stocks, which are sub-stocks of main material stock. Any transaction relevant for valuation is carried at this partial stock level. In the accounting view, we define if we need a split valuation for any material. 
+           56) How is Material Valuation associated with Financial Accounting? In SAP MM, Material valuation is directly associated with Financial Accounting. If you make any changes in the stock value, it also updates the G/L account in Financial Accounting. 
+           57) What are the accounts created in SAP MM? What is the importance of the assignment of these accounts? In SAP MM, the assignment of account is necessary for the purchase order item. It is important as it determines the following things: 
+           
+           Account assignment type 
+           An account that will be charged when you post the invoice or goods receipt 
+           Account assignment data that you have to provide 
+           
+           58) How is the list of all reservations in the system displayed? The list of all reservations can be displayed by running the RM07RESL report in SAP MM. To change a batch record, we can use the transaction code MSC2N. Following is the navigation path of changing the batch record: 
+          
+           
+SAP Menu -> Logistics -> Materials Management -> Material Master -> Batch ->> Change
+
+           Note: You should always be aware that the changes in the batch record are also available for review. 
+            
+         
+       
+       
+      
+      
+     You may also like: 
+      
+      Java Interview Questions 
+      SQL Interview Questions 
+      Python Interview Questions 
+      JavaScript Interview Questions 
+      Angular Interview Questions 
+      Selenium Interview Questions 
+      Spring Boot Interview Questions 
+      HR Interview Questions 
+      C Programming Interview Questions 
+      C++ Interview Questions 
+      Data Structure Interview Questions 
+      DBMS Interview Questions 
+      HTML Interview Questions 
+      IAS Interview Questions 
+      Manual Testing Interview Questions 
+      OOPs Interview Questions 
+      .Net Interview Questions 
+      C# Interview Questions 
+      ReactJS Interview Questions 
+      Networking Interview Questions 
+      PHP Interview Questions 
+      CSS Interview Questions 
+      Node.js Interview Questions 
+      Spring Interview Questions 
+      Hibernate Interview Questions 
+      AWS Interview Questions 
+      Accounting Interview Questions 
+      
+      
+      
+      Learn Latest Tutorials 
+       
+        
+        
+          
+         Splunk 
+          
+        
+        
+          
+         SPSS 
+          
+        
+        
+          
+         Swagger 
+          
+        
+        
+          
+         Transact-SQL 
+          
+        
+        
+          
+         Tumblr 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Regex 
+          
+        
+        
+          
+         Reinforcement Learning 
+          
+        
+        
+          
+         R Programming 
+          
+        
+        
+          
+         RxJS 
+          
+        
+        
+          
+         React Native 
+          
+        
+        
+          
+         Python Design Patterns 
+          
+        
+        
+          
+         Python Pillow 
+          
+        
+        
+          
+         Python Turtle 
+          
+        
+        
+          
+         Keras 
+          
+       
+      
+      
+      
+      Preparation 
+       
+        
+        
+          
+         Aptitude 
+          
+        
+        
+          
+         Reasoning 
+          
+        
+        
+          
+         Verbal Ability 
+          
+        
+        
+          
+         Interview Questions 
+          
+        
+        
+          
+         Company Questions 
+          
+       
+      
+      
+      
+      Trending Technologies 
+       
+        
+        
+          
+         Artificial Intelligence 
+          
+        
+        
+          
+         AWS 
+          
+        
+        
+          
+         Selenium 
+          
+        
+        
+          
+         Cloud Computing 
+          
+        
+        
+          
+         Hadoop 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Data Science 
+          
+        
+        
+          
+         Angular 7 
+          
+        
+        
+          
+         Blockchain 
+          
+        
+        
+          
+         Git 
+          
+        
+        
+          
+         Machine Learning 
+          
+        
+        
+          
+         DevOps 
+          
+       
+      
+      
+      
+      B.Tech / MCA 
+       
+        
+        
+          
+         DBMS 
+          
+        
+        
+          
+         Data Structures 
+          
+        
+        
+          
+         DAA 
+          
+        
+        
+          
+         Operating System 
+          
+        
+        
+          
+         Computer Network 
+          
+        
+        
+          
+         Compiler Design 
+          
+        
+        
+          
+         Computer Organization 
+          
+        
+        
+          
+         Discrete Mathematics 
+          
+        
+        
+          
+         Ethical Hacking 
+          
+        
+        
+          
+         Computer Graphics 
+          
+        
+        
+          
+         Software Engineering 
+          
+        
+        
+          
+         Web Technology 
+          
+        
+        
+          
+         Cyber Security 
+          
+        
+        
+          
+         Automata 
+          
+        
+        
+          
+         C Programming 
+          
+        
+        
+          
+         C++ 
+          
+        
+        
+          
+         Java 
+          
+        
+        
+          
+         .Net 
+          
+        
+        
+          
+         Python 
+          
+        
+        
+          
+         Programs 
+          
+        
+        
+          
+         Control System 
+          
+        
+        
+          
+         Data Mining 
+          
+        
+        
+          
+         Data Warehouse 
+          
+       
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+     
+     
+     
+      
+     
+      
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+   
+   
+     
+ 
+

@@ -1,0 +1,933 @@
+
+
+ 
+  
+  Pangram Program in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Pangram Program in Java In this section, we will discuss what is a pangram string. We will also create a Java program to check the given string is a pangram or not. What is pangram string? The string is called a pangram if it contains all the alphabets from a to z or A to Z, ignoring the case sensitivity. Example of Pangram Strings or Sentences The following string/ sentences are pangram strings: 
+            
+            Pack my box with five dozen liquor jugs. 
+            The quick brown fox jumps over the lazy dog. 
+            My ex pub quiz crowd gave joyful thanks. 
+            Cozy sphinx waves quart jug of bad milk. 
+            Fix problem quickly with galvanized jets. 
+            Algorithm 
+            
+            Create a hash table (boolean vector). To mark the characters, present in the string. 
+            Traverse over all the characters in the given string. 
+            If the uppercase letter is found, subtract 'A' to find the index. 
+            If the lowercase letter is found, subtract 'a' to find the index. 
+            Mark the value in the vector as true (character found). 
+            Return false if any character is unmarked (a character not found). 
+            Else, return true. 
+            Pangram Java Program In order to find the pangram string, there are the following two approaches: 
+            
+            Using Frequency Array 
+            Using Traversal 
+            Using Frequency Array 
+            
+            Convert each letter either in lowercase or in uppercase. 
+            Create an array to mark the frequency of each alphabet (from a to z) of the given string. 
+            Traverse over the frequency array. If there is any alphabet that is not present in the frequency array, print "the string is not a pangram string", else print "the string is a pangram string". 
+            Let's implement the above approach in a Java program. PangramStringExample1.java 
+           
+            
+public class PangramStringExample1 
+{
+static int size = 26;
+//function to check if character is a letter or not
+static boolean isLetter(char ch)
+{
+if (!Character.isLetter(ch))
+//returns false if character is not a letter 
+return false;
+//returns true if character is a letter 
+return true;
+}
+//function to check all the letters (a to z) are presented in the given string or not
+static boolean containsAllLetters(String str, int len)
+{
+//converts the given string into lowercase
+str = str.toLowerCase();
+//creating a boolean array that stores the presence of letters
+boolean[] present = new boolean[size];
+//loop traverse over each character of the string
+for (int i = 0; i < len; i++) 
+{
+//checks if the current character is a letter
+if (isLetter(str.charAt(i))) 
+{
+int letter = str.charAt(i) - 'a';
+//marks the current letter as present
+present[letter] = true;
+}
+}
+//loop iterate over every letter of the given string 
+for (int i = 0; i < size; i++) 
+{
+if (!present[i])
+//returns false if the current character is not presented in the string
+return false;
+}
+//returns true if the current character is presented in the string
+return true;
+}
+//driver Code
+public static void main(String args[])
+{
+//string to check
+String str = "Abcdefghijklmnopqrstuvwxyz";
+//determines the length of the given string
+int len = str.length();
+//function calling
+if (containsAllLetters(str, len))
+System.out.println("The given string is a pangram string.");
+else
+System.out.println("The given string is not a pangram string.");
+}
+}
+
+            Output: 
+           
+            The given string is a pangram string.
+
+            Using Traversal In this approach, first, convert all the letters into lowercase letters. After that, traverse over each character from a to z itself. Check if the given string contains all the letters (a to z), if present, print string id pangram, else print string is not pangram. Let's implement the above approach in a Java program. PangramStringExample2.java 
+           
+            
+public class PangramStringExample2
+{
+//function to check if a string contains all the letters (a to z)
+public static void containAllLetters(String string)
+{
+//converts the given string to lowercase
+string = string.toLowerCase();
+boolean allLetterPresent = true;
+//loop iterate over each character of the given string
+for (char ch = 'a'; ch <= 'z'; ch++) 
+{
+//checks if the string does not contains all the letters
+if (!string.contains(String.valueOf(ch))) 
+{
+allLetterPresent = false;
+break;
+}
+}
+//checks if all the letters are presented or not
+if (allLetterPresent)
+//if present, prints pangram
+System.out.println("Pangram String");
+else
+//if present, prints not pangram
+System.out.println("Not a Pangram String");
+}
+//driver code
+public static void main(String args[])
+{
+//string to check
+String string = "Abcdefghijklmnopqrstuvwxyz12";
+//function calling
+containAllLetters(string);
+}
+}
+
+            Output: 
+           
+            Pangram String
+
+            Let's see another approach. In this approach, we have created a Boolean type array named mark[]. Iterate over all the alphabets presented in the string and mark each visited alphabet. Suppose, a or A is found in the string, marked it at index 0. Similarly, for other alphabets. PangramStringExample3.java 
+           
+            
+public class PangramStringExample3
+{
+//function checks whether the string is a pangram or not
+public static boolean isPangram(String string)
+{
+//creating a boolean array to mark the character presented in the string
+//by default all chracters are set to false
+boolean[] mark = new boolean[26];
+//for indexing in mark[]
+int index = 0;
+//loop iterate over all the characters
+for (int i = 0; i < string.length(); i++) 
+{
+//in case of uppercase letter subtract 'A' to find the index 
+if ('A' <= string.charAt(i) && string.charAt(i) <= 'Z') 
+index = string.charAt(i) - 'A';
+//in case of lowercase letter subtract 'a' to find the index 
+else if ('a' <= string.charAt(i) && string.charAt(i) <= 'z')
+index = string.charAt(i) - 'a';
+//if character is other than alphabet
+else
+continue;
+mark[index] = true;
+}
+//return false if any character is unmarked
+for (int i = 0; i <= 25; i++)
+if (mark[i] == false)
+return (false);
+//if all characters were present
+return (true);
+}
+//driver code
+public static void main(String args[])
+{
+String string = "Fix problem quickly with galvanized jets";
+if (isPangram(string) == true)
+System.out.print(string + " is a pangram string.");
+else
+System.out.print(string + " is not a pangram string.");
+}
+} 
+
+            Output: 
+           
+            Fix problem quickly with galvanized jets is a pangram string.
+
+            Let's see another logic for the same. PangramStringExample4.java 
+           
+            
+import java.util.Scanner;
+public class PangramStringExample4
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter the string: ");
+//reads a string from the user
+String str = sc.nextLine();
+//determines the length of the string
+int n=str.length();
+int freq[] = new int[26];
+//loop iterate over all the characters 
+for(int i=0;i<26;i++)
+{
+//initially, each character marked with index 0     
+freq[i]=0;
+}  //end of for loop
+//loop iterate over the given string
+for(int i=0;i<n;i++)
+{
+if(str.charAt(i)!=' ')
+{
+//subtract 'a' from the character at the specified index and increment the freqency index by 1
+//means that chracter is marked
+freq[str.charAt(i)-'a']++;
+}  //end of if
+}  //end of for loop
+int temp=0;
+for(int i=0;i<26;i++)
+{
+//if frequency index is 0, means character is unmarked    
+if(freq[i]==0)
+{
+//set temp to 1 and break the loop    
+temp=1;
+break;
+}
+}  //end of for loop
+//if condition is true, the string is pangram string, else not pangram
+if(temp==1)
+{
+System.out.println("The string is not a pangram string.");
+}
+else
+{
+System.out.println("The string is a pangram string.");
+}
+}
+}
+
+            Output: 
+           
+            Enter the string: pack my box with five dozen liquor jugs
+The string is a pangram string.
+
+            Complexity Time Complexity: Its time complexity is O(n), where n is the length of the string. Space Complexity: Its space complexity is O(1) because it does not require extra space. 
+            
+            
+            Next Topic
+            Top View of a Binary Tree in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

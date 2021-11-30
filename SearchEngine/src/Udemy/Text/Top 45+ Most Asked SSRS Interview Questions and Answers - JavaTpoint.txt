@@ -1,0 +1,1119 @@
+
+
+  
+   
+   
+   
+  
+  
+  
+  
+   
+  Top 45+ Most Asked SSRS Interview Questions and Answers - JavaTpoint 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+   
+    
+     
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+        
+        
+       
+      
+     
+     
+     
+       
+        Home 
+        Interview Questions 
+        Java 
+        SQL 
+        Python 
+        JavaScript 
+        Angular 
+        Selenium 
+        Spring Boot 
+        HR 
+        C 
+        Data Structure 
+        DBMS 
+        HTML 
+        C# 
+        C++ 
+      
+      
+      
+     
+     
+     
+     
+      
+      All Interview 
+      
+      
+      Interview Tips 
+      JOB/HR Interview 
+      Competency Interview 
+      Business Analyst 
+      Behavioral Interview 
+      
+      
+      Company Interview 
+      
+      
+      Company Interview 
+      IBM Interview 
+      Infosys Interview 
+      Capgemini Interview 
+      Cognizant Interview 
+      Wipro Interview 
+      Accenture Interview 
+      iGate Interview 
+      TCS Interview 
+      HCL Interview 
+      Adobe Interview 
+      Microsoft Interview 
+      DXC Technology Interview 
+      Ericsson Interview 
+      EXL Service Interview 
+      IndiaMART Interview 
+      Intuit Interview 
+      SpaceX Interview 
+      Sapient Interview 
+      Amazon Interview 
+      
+      
+      Technical Interview 
+      
+      
+      C Interview 
+      C++ Interview 
+      Data Structure Interview 
+      Linux Interview 
+      Unix Interview 
+      Shell Scripting 
+      Networking Interview 
+      CCNA Interview 
+      Android Interview 
+      Cloud Computing 
+      Hadoop Interview 
+      Testing/QTP Interview 
+      Selenium Interview 
+      Web Services Interview 
+      OS Interview 
+      Excel Interview 
+      SEO Interview 
+      Digital Marketing 
+      Python Interview 
+      Django Interview 
+      Pascal Interview 
+      Ruby Interview 
+      Ruby on Rails Interview 
+      Memcached Interview 
+      Go Interview 
+      OpenStack Interview 
+      Scala Interview 
+      Control Systems 
+      Electrical Machines 
+      Power System 
+      Digital Electronics 
+      Robotics Interview 
+      TypeScript Interview 
+      Swift Interview 
+      Blockchain Interview 
+      Bitcoin Interview 
+      AWS Interview 
+      Informatica Interview 
+      QA Interview 
+      React Interview 
+      GIT Interview 
+      J2EE Interview 
+      Deep Learning 
+      Salesforce Interview 
+      TestNG Interview 
+      Agile Interview 
+      Machine Learning 
+      API Testing 
+      Algorithm 
+      Java Design Pattern 
+      Teradata 
+      TensorFlow 
+      LINQ 
+      Mainframe 
+      Laravel 
+      JIRA 
+      JCL 
+      Pytorch 
+      ETL Testing 
+      Linked List 
+      DataStage 
+      Tableau 
+      SAP ABAP 
+      DAA 
+      Computer Graphics 
+      Data Science 
+      Software Engineering 
+      Power BI 
+      Xamarin 
+      Ansible 
+      Data Warehouse 
+      Ionic 
+      Devops 
+      React Native 
+      Python Pandas 
+      HTTP Interview 
+      Kali Linux Interview 
+      PowerShell Interview 
+      SharePoint Interview 
+      Talend Interview 
+      Microsoft Azure Interview 
+      R Interview 
+      Flutter Interview 
+      MATLAB Interview 
+      ES6 Interview 
+      RPA Interview 
+      Desktop Support Interview 
+      Angular 8 Interview 
+      GraphQL Interview 
+      Vue.js Interview 
+      Automation Anywhere Interview 
+      AI Interview 
+      UiPath Interview 
+      Blue Prism Interview 
+      SSIS Interview 
+      Mobile Computing Interview 
+      ITIL Interview 
+      SAS Interview 
+      Elasticsearch Interview 
+      Entity Framework Interview 
+      RxJS Interview 
+      Accounting Interview 
+      Electron.js Interview 
+      Knockout JS Interview 
+      Top Angular Interview 
+      IAS Interview Question 
+      Banking Interview 
+      Interview Questions for Freshers 
+      PowerPoint Interview 
+      BPO Interview 
+      Civil Engineering Interview 
+      Apache Spark Interview 
+      Data Mining Interview 
+      Java Support Interview 
+      Kubernetes Interview 
+      Web API Interview 
+      Scrum Master Interview 
+      System Design Interview 
+      SSB Interview Questions 
+      Teachers Interview Questions 
+      Finance Interview Questions 
+      Technical Support Interview 
+      Active Directory Interview 
+      Appium Interview 
+      Cucumber Interview 
+      Full-Stack Developer 
+      ServiceNow Interview 
+      Nursing Interview 
+      Sales Interview 
+      Microservices Interview 
+      Electrical Engineering Interview 
+      Accounts Payable Interview 
+      VISA Interview 
+      VLSI Interview 
+      AutoCAD Interview 
+      Verilog Interview 
+      OOPs Interview 
+      Web Developer Interview 
+      Express.js Interview 
+      CakePHP Interview 
+      Yii Interview 
+      Zend Framework Interview 
+      Java Concurrency Interview 
+      Symfony Interview 
+      Basic Interview 
+      Dynamic Programming Interview 
+      Programming Interview 
+      Next.js Interview 
+      Microsoft Java Interview 
+      AEM Interview 
+      Svelte.js Interview 
+      COBOL Interview 
+      Cyber Security Interview 
+      SQL Query Interview 
+      BGP Interview 
+      Apache Hive Interview 
+      Kafka Interview 
+      Embedded C Interview 
+      Pega Interview 
+      Kotlin Interview 
+      SAP MM Interview 
+      
+      
+      Web Interview 
+      
+      
+      HTML Interview 
+      CSS Interview 
+      JavaScript Interview 
+      jQuery Interview 
+      AngularJS Interview 
+      Angular Interview 
+      Angular 7 Interview 
+      Node.js Interview 
+      AJAX Interview 
+      XML Interview 
+      Dojo Interview 
+      Backbone.js Interview 
+      Ember.js Interview 
+      XHTML Interview 
+      XSLT Interview 
+      XPath Interview 
+      XQuery Interview 
+      XForms Interview 
+      SASS Interview 
+      CoffeeScript Interview 
+      LESS Interview 
+      Perl Interview 
+      Pure.CSS Interview 
+      Materialize Interview 
+      Framework7 Interview 
+      SVG Interview 
+      SAP FICO Interview 
+      
+      
+      PHP Interview 
+      
+      
+      PHP Interview 
+      Wordpress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      Magento Interview 
+      CodeIgniter Interview 
+      Phalcon Interview 
+      
+      
+      .Net Interview 
+      
+      
+      .Net Interview 
+      C# Interview 
+      ASP.NET Interview 
+      ADO.NET Interview 
+      WCF Interview 
+      WPF Interview 
+      Silverlight Interview 
+      F# Interview 
+      
+      
+      Java Interview 
+      
+      
+      Java 1 Interview 
+      Java 2 Interview 
+      Exception & String 
+      Multithreading  
+      Collections Interview 
+      JDBC Interview 
+      Servlet Interview 
+      JSP Interview 
+      EJB Interview 
+      Struts Interview 
+      Hibernate Interview 
+      Spring Interview 
+      Spring Boot Interview 
+      Spring MVC Interview 
+      JPA Interview 
+      Maven Interview 
+      JUnit Interview 
+      JSF Interview 
+      PrimeFaces Interview 
+      RichFaces Interview 
+      GWT Interview 
+      JDB Interview 
+      JOGL Interview 
+      jBPM Interview 
+      Jenkins Interview 
+      Java Constructor Interview 
+      Technical Architect Interview 
+      Array Interview Questions 
+      
+      
+      Database Interview 
+      
+      
+      DBMS Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      Oracle Interview 
+      MySql Interview 
+      SQL Server Interview 
+      MongoDB Interview 
+      Cassandra Interview 
+      DB2 Interview 
+      Access Interview 
+      SQLite Interview 
+      CouchDB Interview 
+      Neo4j Interview 
+      MariaDB Interview 
+      PouchDB Interview 
+      Redis Interview 
+      
+      
+      
+       
+          
+        
+       
+           
+        
+      
+      
+     
+     
+      
+      
+      
+       
+       
+        
+          Top 45+ Most Asked SSRS Interview Questions and Answers 1) What is SSRS? / What is the full form of SSRS? SSRS is an acronym that stands for SQL Server Reporting Services. It is a complete server-based reporting platform that consists of functionalities and tools used to store various data sources. The SSRS reporting services consist of a complete set of tools that are used to manage, create and deliver reports and APIs. It also allows developers to synchronize data and report processes in custom applications and synchronize them. SSRS was developed by one of the biggest software companies Microsoft Corporation. 
+           2) Explain the SSRS Architecture?  The SSRS architecture is made of integrated components. It is a multi-tiered application service included with the application, server and data layers. The architecture of SSRS is scalable and modular, and it requires a single installation across multiple computers.   
+           3) What are the important architecture components of SSRS? Following is a list of the most important architecture components of SSRS: 
+           
+           Report Manager 
+           Reporting Designer 
+           Browser Types Supported by Reporting services 
+           Report Server 
+           Report Server command-line utilities 
+           Report Server Database 
+           Reporting Services Extensibility 
+           Data sources supported by Reporting Services 
+           
+           4) What is Tablix in SSRS? In SSRS, the Tablix is a sum of tables with matrices. Every report we create using SSRS technology is based on the Tablix data region. In other words, we can say that Tablix can be managed with the combined capabilities of a table and a matrix. 
+           5) What are data regions? What are the different data regions used in SSRS?? Data regions are the report items that show repeated rows of summarised information from datasets. Following are the different types of data regions: 
+           
+           Chart region 
+           Gauge region 
+           List region 
+           Matrix region 
+           Table region 
+           
+           6) Explain the reporting life cycle of SSRS? The reporting life cycle of SSRS has mainly the following phases: 
+           
+           Development of Reports (Developer): It specifies that we have to design a report that the report developer primarily does. 
+           Management of Reports (DBA): It specifies that DBA needs to ensure it once the report is being developed. 
+           Security: It specifies that only the authorized user should access the report. 
+           Execution: It specifies how the report will be executed to optimize data sources performance. 
+           Scheduling of reports: It is required so that we can execute the report on the scheduled timings. 
+           Report Delivery (DBA + Developer): It specifies that once the report is being developed and executed, the report should be reached to final recipients (business users) who will understand and analyze report data. If it gets any changes, we again go back to the development stage. 
+           
+           7) In which programming language the RDL files are written? RDL files are the extension for XML used for SSRS reporting services. These files are written in XML (Extensible Markup Language).  
+           8) What are the different stages of Report Processing in SSRS? Following are the different stages of Report Processing in SSRS: 
+           
+           Compile: It analyses expressions in the report definitions and saves the compiled intermediate format internally on the server. 
+           Process: It runs dataset queries and combines intermediate format with data and layout. 
+           Render: It sends the processed report to a rendering extension to specify how much information fits on each page. It also creates the page report. 
+           Export: It is used to export the reports to a different file format. 
+           
+           9) What is the Reporting Services Configuration file name in SSRS, and where does it exist? In SSRS, the name of the Reporting Services Configuration file is "Rsreportserver.config". It can be found in settings in Report Manager used in Report Server Web Service and background processes.  
+           10) What are the three different parts of the RDL file in SSRS? The three different parts of the RDL file in SSRS are: 
+           
+           Data: It contains the dataset on which the query is written, and the data set is connected with the data source. 
+           Design: In the design part, you can design reports, create tables and matrix reports. It also facilitates us to drag columns values from the source. 
+           Preview: This part is used to check the preview after the report run. 
+           
+           11) What are the new features included in SSRS? Following are the new features included in SSRS: 
+           
+           Excel File Export: The files can be exported into Excel file formats in the SSRS new version. Earlier files can only be exported into XLS files. 
+           Data Alerts: The new feature in the SSRS new version is the data alert feature. It allows creating of alert thresholds that are evaluated on a user-defined schedule. Also, there is a data alert manager for alerting administrators. 
+           Power View: With the new RDLX file format, SSRS provides a power view feature, a new interactive Business Intelligence feature. 
+           Apart from these newly included features, if you are using SSR on SharePoint, it gives additional benefits like drag and drop ad hoc reporting and sending emails when data changes. SSRS is also cheaper and faster than other software.  
+           12) What are the different types of SSRS reports? Following are the different types of SSRS report: 
+           
+           Parameterized reports 
+           Click through reports 
+           Cached reports 
+           Snapshot reports 
+           Drill through reports 
+           Drill down reports 
+           Sub-reports 
+           Ad-hoc reports 
+           Linked reports etc. 
+           
+           13) What do you understand by a sub-report in SSRS? In SSRS, sub-reports are the subpart of the main reports. We can insert these reports into the main part and pass queries and parameters to subreports just like the main report. A sub-report can be considered an extension to your main report, but it consists of a different data set. For example, if you have prepared a report for students, you can also use a sub-report to show marks associated with each student.  
+           14) What are the different ways to deploy an SSRS report? There are three ways to deploy SSRS reports: 
+           
+           By report server 
+           By visual studio way 
+           By creating the utility 
+           
+           15) What are the different types of servers we can use with SSRS other than SQL Server? By default, most of the time, companies use SQL Server with SSRS, but there are some other servers that we can integrate with SSRS. Following is the list of those servers: 
+           
+           Oracle 
+           ODBC and OLEDB 
+           Hyperion 
+           Teradata 
+           Flat XML files 
+           
+           16) Is it possible to implement data mining in SSRS? How can you implement data mining in SSRS?  Yes. It is possible to implement data mining in SSRS. You can execute the implementation using DMX designer and create data mining queries required for SSRS reports. SSRS facilitates us to create a custom data mining report that contains text and images and export them into HTML, email, and get prints to distribution.  
+           17) What do you understand by the Cache results of the SSRS reports? The Cache results are based on the format of the report. SSRS allows cache reports on the reporting server, and it also provides the built-in caching capability. However, the server only caches for one instance of the report in most cases. It also enables users to access and view reports quickly.  
+           18) What are the different rendering extensions available in SSRS? Following are the top six rendering extensions available in SSRS: 
+           
+           Word 
+           Excel 
+           HTML 
+           XML 
+           CSV or Text 
+           PDF 
+           
+           19) Which tool do the Business Users use to create their reports? Generally, business users or developers use the Report Builder tool to create reports, and it is the best choice for creating reports.  
+           20) What is the role of a report manager in SSRS?  Report manager is a web application in SSRS which is accessed by a URL. The interface of the report manager depends on the permissions of the user. This means the user must be assigned a role to access any functionality or perform any task. A user assigned with the role of full permission can control all the features and menus of the report. A URL must be defined to configure the report manager.  
+           21) What are the open-source software that can be used as an alternative to SSRS? Following are some open-source software that can be used as an alternative to SSRS: 
+           
+           JFree Reports 
+           Jasper Reports 
+           BIRT (Business Intelligence Reporting Tool) 
+           OpenReport 
+           DataVision etc. 
+           
+           22) What are the core components of SSRS? Following are the core components of SSRS: 
+           
+           SSRS requires a set of tools to View, Create and Manage reports. 
+           A report server component can be used to host and process reports in different formats such as PDF, HTML, Excel, and CSV. 
+           An API is used to facilitate developers integrating with custom applications or creating custom tools to manage or build reports. 
+           
+           23) How can we fine-tune reports in SSRS? We can fine-tune the reports in SSRS by using the following steps: 
+           
+           First, make a big server or adopt the reporting services of other database servers. 
+           Store the replicated copy of the data for the advanced installation of the report contents, logic, and characteristics of the report's application. 
+           Resolve the locking issues by adopting no lock. It can also improvise the query of the performance. 
+           
+           24) What are the benefits you can get after using the SSRS Services? Following is the list of benefits that you can get by using Microsoft's SSRS Service: 
+           
+           SSRS permits cross trading reports in different organizations. So, it is exceptionally simple for an additional examination of reports with various document groups. 
+           It provides a quicker delivery of data to a business association, so it gives better solution choices. 
+           It doesn't require a pro to oversee SSRS, so no requirement for costly pro aptitudes. 
+           SSRS facilitates business clients to connect with data without including IT experts. 
+           We can apply security to folders just as reports and is overseen in a determined job order manner. 
+           
+           25) What are the different reporting service components in SSRS? Following are the different reporting service components in SSRS: 
+           
+           Report Designer: It specifies a place where the report is created or designed. 
+           Report Server: It is used to provide services for the delivery of reports and implementations. 
+           Report Manager: It is a web-based administration tool to manage the report server. 
+           
+           26) What data types are used to create Radio Button Parameter Type in SSRS Report? The Boolean data type is used to create Radio Button Parameter Type in SSRS Report. While using the bit-type column to add a query for your report, should set the data type to boolean.  
+           27) What are the different command-line utilities in SSRS? What are their primary functions? Following are the three command-line utilities is SSRS: 
+           
+           exe: The RsConfig.exe command-line utility is used to determine the connection properties from the SSRS instance to the Report Server database. 
+           exe: The RsKeyMgmet.exe command-line utility is used to execute scale-out deployment set-up and encryption key operations. 
+           exe: The Rs.exe command-line utility executes the Report server Script files, which can perform management operations and report deployment. 
+           
+           28) What is the main function of a query parameter? The main function of a query parameter is to filter data in the data source.  
+           29) What are the different types of SSRS command prompt utilities?  In SSRS, many command prompt utilities can be used by a developer to direct the given report server. These utilities will be naturally introduced when you are introducing a report server. Following are some command prompt utilities of SSRS: 
+           
+           RSS Utility: The RSS Utility uses the command file 'RS.exe' to backing Native and SharePoint advancement modes. You can use it if you want to play out a scripted activity. It is also used to send the reports on the report server. 
+           Powershell cmdlets: This is used to introduce Reporting SharePoint administration and intermediary servers. It additionally gives provisioning and overseeing of Reporting administration applications and intermediaries. 
+           Rsconfig utility: This command prompt utility uses the command file 'rsconfig.exe' to support Native improvement mode. This is used to design and deal with the report server association with a storehouse database. 
+           RsKeymgmt utility: This command prompt utility uses the command file 'rskeymgmt.exe'. It is an encoded key administration device used to reinforce, erase, apply and reproduce symmetric keys through the order line. 
+           
+           30) What do you understand by the report snapshot? A report snapshot is a report that contains the layout information and the query results which we have retrieved at a specific point in time.  
+           31) What methods are used to reduce the overhead of Reporting Services data sources? We can use the Cached reports and Snapshots to reduce the overhead of Reporting Services Sources.  
+           32) Does SSRS report the Cache results? Yes. SSRS allows the cache reports over the reporting server. These cache results enable the users to access the reports faster because the report has been saved in your cache memory. 
+           33) What do you understand by data-driven subscriptions? A data-driven subscription provides the solution to use the dynamic subscription data, which we have retrieved at the run time of the external data. It uses static text and default values, which are being used to specify when the subscription is defined.  
+           34) How can we deploy an SSRS report? We can deploy the SSRS report in the following three ways: 
+           
+           By using Visual Studio: We can directly deploy the report in Visual Studio through the solution explorer by declaring the report server URL in project properties at Target Server URL. 
+           By Report Server: We can deploy the report to the report server by browsing the report from the disk location of the server. 
+           By creating the Utility: This is also an option to create a customized utility to deploy the report. 
+           
+           35) How can you store your query in an SSRS report or a Database server? We can store our query in an SSRS report or a Database server by using the storing procedure mentioned in the database server. The biggest advantage of storing the query in this way is it stores the data in the compiled format and gives all the advantages of comparing it using Adhoc reports. We can also store the SQL queries directly in the text form, but this is not a good practice.  
+           36) What is the query parameter? What is the primary purpose of the query parameter? A query parameter can be defined as the combination of parameters attached to the URL's end. Query parameters are used as the URL extension, and it is mainly used to identify the specific content.  
+           37) What are the drawbacks of reporting in SSRS? Earlier, for many years, Microsoft doesn't have any direct solution for reporting with the SQL Server besides Crystal Reports. Now, they have introduced SQL Server Reporting Services, but it also has several drawbacks. Following are the main drawbacks of reporting in SSRS: 
+           
+           Reporting in SSRS is newly introduced do it is complex to understand the complete functionality and structure of this new component. Many users who are more familiar with Crystal Reports find it difficult to use. 
+           SSRS components like Report Builder and Report Designer are meant for different users for different aspects of the reporting process. The user must have a complete understanding and exposure to both to utilize these functions fully and extensively. 
+           Many users face issues when exporting very large reports to Microsoft Excel, which can lead to a loss of data. 
+           
+           38) What is the difference between Tabular and Matrix report in SSRS? Difference between Tabular and Matrix report in SSRS: 
+           
+           Tabular Report: Tabular reports are the most basic type of reports in SSRS. In Tabular reports, each column relates to a column chosen from the database. 
+           Matrix Report: In SSRS, a matrix report is the cross-tabulation of four groups of data. 
+           
+           39) What is the difference between Crystal Reports and SSRS? A list of differences between Crystal Reports and SSRS:  
+           
+           
+             
+             Crystal Reports 
+             SSRS 
+             
+             
+             Crystal Reports are easy to use, and it is built for those who have little or no programming experience. 
+             SSRS is built around SQL Server, and therefore it is more powerful, but it requires someone who has a database background to work with it efficiently. 
+             
+             
+             Crystal Reports provide a drag and drop solution so it would appeal to a broad audience. 
+             SSRS is also easier to put multiple items on a page that work independently of each other. 
+             
+             
+             Crystal Reports supports Windows and IBM environments. 
+             SSRS supports Windows environment only. 
+             
+             
+             Crystal Reports are accessible from PC only. 
+             SSRS Reports exist on your server so that you can access them from any web browser. 
+             
+             
+             Crystal Reports supports more data sources. 
+             SSRS only supports Oracle and Microsoft data sources 
+             
+             
+             Crystal Reports support the export formats HTML, PDF, XML, CSV, Excel, RTF, txt files only. 
+             SSRS support all export formats. 
+             
+             
+             You have to pay an additional cost for Crystal reports. 
+             SSRS is already included in SQL Server installation, so you don't have to pay additional costs. 
+             
+           
+           
+           40) What are the minimum software requirements for the SSRS framework? / What are the software prerequisites to run SSRS successfully on your system?  Following is the list of software required for the SSRS framework / Minimum software prerequisites to run SSRS successfully on your system: 
+           
+           Operating System: Windows Server 2003 (Standard or Enterprise release), Windows 2000 or Windows XP Professional with Service pack 4 or higher. 
+           Processor: Intel Pentium 2 or higher processor. 
+           Hard Disk: 50 MB for report server, 100 MB for .NET framework, 30 MB for report originator, 145 MB for samples/tests. 
+           RAM: Needs a minimum of 256 MB RAM for the report server / 256 MB of RAM and 512 MB or increasingly dependent on necessities. 
+           Database: Needs SQL server 2000 with a minimum administration service pack 3 (usual, enterprise, and developer release). 
+           
+           41) What are the three different parts of the RDL file in Visual Studio?  Following are the three parts of RDL files in Visual Studio: 
+           
+           Data: The data part contains the dataset on which the query is written, and the data set is connected with the data source. 
+           Design: In the design part, you can design the report. It is also used to create tables and matrix reports and drag columns values from the source. 
+           Preview: The preview part is used to check the preview after the report run. 
+           
+           42) What are the multiple roles offered by the SSRS? Following are the multiple roles offered by the SSRS: 
+           
+           Browsers 
+           Content Managers 
+           My Reports 
+           Publishers 
+           Report Builders etc. 
+           
+           43) How can you add Reporting Services reports to your application? Several tools such as Visual Studio / SSDT / BI Data Tools (Standard and Enterprise editions) contain a set of freely redistributable Report Viewer controls that make it easy to embed Reporting Services functionality into custom applications. There are two versions of the Report Viewer, one for rich Windows client applications and one for ASP.NET applications.  
+           44) What do you understand by the term Snapshot Report? In SSRS, the concept of Snapshot Report refers to a pre-executed report containing the format of the data and the dataset utilized for the report. A Snapshot Report contains the following things: 
+           
+           It is utilized to store the report information dependent on calendars and spared to report servers. 
+           It can also generate the report Snapshots in a review design when a client or application demands it. 
+           When you decide on a report depiction for review, the report server gathers the report from the report server database. It presented the information and design present for the report when the preview was made. 
+           
+           45) What are the key advantages of the snapshots report?  Following are some key advantages of the snapshots report: 
+           
+           Report history: The reporting history is used to assemble a background marked by a report while making a report preview. 
+           Consistency: Consistency specifies that the report previews give numerous clients reliable outcomes with indistinguishable information arrangements. 
+           Performance: By booking huge reports to run during off-top hours, you can diminish the preparing sway on the report server during centre business hours. 
+           
+           46) What are the different types of data sources in SSRS? SSRS uses the following types of data sources: 
+           
+           Microsoft SQL Server 
+           OLEDB 
+           Oracle 
+           ODBC 
+           SQL Server Analysis Service 
+           Report Server Model 
+           SAP Net weaver BI 
+           Hyperion 
+           Teradata 
+           XML 
+           
+            
+         
+       
+       
+      
+      
+     You may also like: 
+      
+      Java Interview Questions 
+      SQL Interview Questions 
+      Python Interview Questions 
+      JavaScript Interview Questions 
+      Angular Interview Questions 
+      Selenium Interview Questions 
+      Spring Boot Interview Questions 
+      HR Interview Questions 
+      C Programming Interview Questions 
+      C++ Interview Questions 
+      Data Structure Interview Questions 
+      DBMS Interview Questions 
+      HTML Interview Questions 
+      IAS Interview Questions 
+      Manual Testing Interview Questions 
+      OOPs Interview Questions 
+      .Net Interview Questions 
+      C# Interview Questions 
+      ReactJS Interview Questions 
+      Networking Interview Questions 
+      PHP Interview Questions 
+      CSS Interview Questions 
+      Node.js Interview Questions 
+      Spring Interview Questions 
+      Hibernate Interview Questions 
+      AWS Interview Questions 
+      Accounting Interview Questions 
+      
+      
+      
+      Learn Latest Tutorials 
+       
+        
+        
+          
+         Splunk 
+          
+        
+        
+          
+         SPSS 
+          
+        
+        
+          
+         Swagger 
+          
+        
+        
+          
+         Transact-SQL 
+          
+        
+        
+          
+         Tumblr 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Regex 
+          
+        
+        
+          
+         Reinforcement Learning 
+          
+        
+        
+          
+         R Programming 
+          
+        
+        
+          
+         RxJS 
+          
+        
+        
+          
+         React Native 
+          
+        
+        
+          
+         Python Design Patterns 
+          
+        
+        
+          
+         Python Pillow 
+          
+        
+        
+          
+         Python Turtle 
+          
+        
+        
+          
+         Keras 
+          
+       
+      
+      
+      
+      Preparation 
+       
+        
+        
+          
+         Aptitude 
+          
+        
+        
+          
+         Reasoning 
+          
+        
+        
+          
+         Verbal Ability 
+          
+        
+        
+          
+         Interview Questions 
+          
+        
+        
+          
+         Company Questions 
+          
+       
+      
+      
+      
+      Trending Technologies 
+       
+        
+        
+          
+         Artificial Intelligence 
+          
+        
+        
+          
+         AWS 
+          
+        
+        
+          
+         Selenium 
+          
+        
+        
+          
+         Cloud Computing 
+          
+        
+        
+          
+         Hadoop 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Data Science 
+          
+        
+        
+          
+         Angular 7 
+          
+        
+        
+          
+         Blockchain 
+          
+        
+        
+          
+         Git 
+          
+        
+        
+          
+         Machine Learning 
+          
+        
+        
+          
+         DevOps 
+          
+       
+      
+      
+      
+      B.Tech / MCA 
+       
+        
+        
+          
+         DBMS 
+          
+        
+        
+          
+         Data Structures 
+          
+        
+        
+          
+         DAA 
+          
+        
+        
+          
+         Operating System 
+          
+        
+        
+          
+         Computer Network 
+          
+        
+        
+          
+         Compiler Design 
+          
+        
+        
+          
+         Computer Organization 
+          
+        
+        
+          
+         Discrete Mathematics 
+          
+        
+        
+          
+         Ethical Hacking 
+          
+        
+        
+          
+         Computer Graphics 
+          
+        
+        
+          
+         Software Engineering 
+          
+        
+        
+          
+         Web Technology 
+          
+        
+        
+          
+         Cyber Security 
+          
+        
+        
+          
+         Automata 
+          
+        
+        
+          
+         C Programming 
+          
+        
+        
+          
+         C++ 
+          
+        
+        
+          
+         Java 
+          
+        
+        
+          
+         .Net 
+          
+        
+        
+          
+         Python 
+          
+        
+        
+          
+         Programs 
+          
+        
+        
+          
+         Control System 
+          
+        
+        
+          
+         Data Mining 
+          
+        
+        
+          
+         Data Warehouse 
+          
+       
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+     
+     
+     
+      
+     
+      
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+   
+   
+     
+ 
+

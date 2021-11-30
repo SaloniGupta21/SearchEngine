@@ -1,0 +1,1406 @@
+
+
+ 
+  
+  SQL LOGICAL OPERATORS - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        SQL 
+        PL/SQL 
+        MySQL 
+        MongoDB 
+        PostgreSQL 
+        SQL Server 
+        Oracle 
+        Cassandra 
+        SQLite 
+        DBMS 
+        Python 
+        Java 
+        Aptitude 
+        Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     Oracle Training 
+      
+      SQL Tutorial 
+      
+      
+      What is SQL 
+      SQL Syntax 
+      SQL Data Types 
+      SQL Operators 
+      
+      
+      SQL Database 
+      
+      
+      SQL CREATE Database 
+      SQL DROP Database 
+      SQL RENAME Database 
+      SQL SELECT Database 
+      
+      
+      SQL Table 
+      
+      
+      What is Table 
+      SQL CREATE TABLE 
+      SQL DROP TABLE 
+      SQL DELETE TABLE 
+      SQL RENAME TABLE 
+      SQL TRUNCATE TABLE 
+      SQL COPY TABLE 
+      SQL TEMP TABLE 
+      SQL ALTER TABLE 
+      
+      
+      SQL Select 
+      
+      
+      SELECT Statement 
+      SQL SELECT UNIQUE 
+      SQL SELECT DISTINCT 
+      SQL SELECT COUNT 
+      SQL SELECT TOP 
+      SQL SELECT FIRST 
+      SQL SELECT LAST 
+      SQL SELECT RANDOM 
+      SQL SELECT IN 
+      SQL SELECT Multiple 
+      SQL SELECT DATE 
+      SQL SELECT SUM 
+      SQL SELECT NULL 
+      
+      
+      SQL Clause 
+      
+      
+      SQL WHERE 
+      SQL AND 
+      SQL OR 
+      SQL WITH 
+      SQL AS 
+      SQL HAVING Clause 
+      
+      
+      SQL Order By 
+      
+      
+      ORDER BY Clause 
+      ORDER BY ASC 
+      ORDER BY DESC 
+      ORDER BY RANDOM 
+      ORDER BY LIMIT 
+      ORDER BY Multiple Cols 
+      
+      
+      SQL Insert 
+      
+      
+      INSERT Statement 
+      INSERT INTO Values 
+      INSERT INTO SELECT 
+      INSERT Multiple Rows 
+      
+      
+      SQL Update 
+      
+      
+      UPDATE Statement 
+      SQL UPDATE JOIN 
+      SQL UPDATE DATE 
+      
+      
+      SQL Delete 
+      
+      
+      DELETE Statement 
+      SQL DELETE TABLE 
+      SQL DELETE ROW 
+      SQL DELETE All Rows 
+      DELETE Duplicate Rows 
+      SQL DELETE DATABASE 
+      SQL DELETE VIEW 
+      SQL DELETE JOIN 
+      
+      
+      SQL Join 
+      
+      
+      SQL JOIN 
+      SQL Outer Join 
+      SQL Left Join 
+      SQL Right Join 
+      SQL Full Join 
+      SQL Cross Join 
+      
+      
+      SQL Keys 
+      
+      
+      Primary Key 
+      Foreign Key 
+      Composite Key 
+      Unique Key 
+      Alternate Key 
+      
+      
+      Difference 
+      
+      
+      SQL vs NoSQL 
+      IN vs EXISTS 
+      Group By vs Order By 
+      WHERE vs HAVING 
+      Where condition in SQL 
+      
+      
+      SQL Injection 
+      
+      
+      SQL Injection 
+      
+      
+      Misc 
+      
+      
+      SQL Formatter 
+      SQL group by 
+      SQL add/drop/update column operation 
+      SQL CAST Function 
+      SQL Comments 
+      SQL CONCAT Function 
+      CTE SQL 
+      How to use distinct in SQL 
+      Joining Three or More Tables in SQL 
+      What is Web SQL 
+      How to create functions in SQL 
+      How to run SQL Script 
+      How to Delete Duplicate Rows in SQL 
+      Nth Highest salary 
+      12 Codd's Rules 
+      SQL EXCEPT 
+      Types of SQL JOIN 
+      Change datatype of column in SQL 
+      SQL Auto Increment 
+      SQL Like 
+      Commit and Rollback in SQL 
+      SQL Concatenate 
+      SQL get month from the date 
+      Savepoint in SQL 
+      SQL ORDER BY DATE 
+      TIME Datatype in SQL 
+      SQL BETWEEN 
+      SQL CRUD Operations 
+      SQL INDEX 
+      Scalar Functions in SQL 
+      SET Operators in SQL 
+      Types of SQL Commands 
+      TCL Commands in SQL 
+      SQL Subquery 
+      SQL View 
+      Constraints in SQL 
+      Pattern Matching in SQL 
+      SQL Date Functions 
+      DDL Commands in SQL 
+      DML Commands in SQL 
+      SQL CASE 
+      SQL Inner Join 
+      SQL IN Operator 
+      Check Constraint in SQL 
+      SQL CLAUSES 
+      SQL LOGICAL OPERATORS 
+      
+      
+      SQL MCQ 
+      
+      
+      SQL MCQ 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      Interview 
+      
+      
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      Quiz 
+      
+      
+      SQL Quiz 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            SQL LOGICAL OPERATORS The Logical Operator is nothing but which returns the result in one form, i.e., either it will display the query is true, or the query is false. The results displayed to combine or merge more than one true or false data. The Logical Operators in SQL are as follows: 
+            
+            SQL AND OPERATOR 
+            SQL OR OPERATOR 
+            SQL NOT OPERATOR 
+            SQL BETWEEN OPERATOR 
+            SQL IN OPERATOR 
+            SQL LIKE OPERATOR 
+            Let's understand each and every operator one by one with the help of examples. All the queries in the examples will be written using the MySQL database. Consider we have an employees table with the following data: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              2 
+              Tejaswini Naik 
+              75000 
+              Delhi 
+              System Engineer 
+              2019-12-24 
+              23 
+              
+              
+              3 
+              Anuja Sharma 
+              40000 
+              Jaipur 
+              Manager 
+              2021-08-15 
+              26 
+              
+              
+              4 
+              Anushka Tripathi 
+              90000 
+              Mumbai 
+              Software Tester 
+              2021-06-13 
+              24 
+              
+              
+              5 
+              Rucha Jagtap 
+              45000 
+              Bangalore 
+              Project Manager 
+              2020-08-09 
+              23 
+              
+              
+              6 
+              Rutuja Deshmukh 
+              60000 
+              Bangalore 
+              Manager 
+              2019-07-17 
+              26 
+              
+              
+              7 
+              Swara Baviskar 
+              55000 
+              Jaipur 
+              System Engineer 
+              2021-10-10 
+              24 
+              
+              
+              8 
+              Sana Sheik 
+              45000 
+              Pune 
+              Software Engineer 
+              2020-09-10 
+              26 
+              
+              
+              9 
+              Swati Kumari 
+              50000 
+              Pune 
+              Software Tester 
+              2021-01-01 
+              25 
+              
+              
+              10 
+              Mayuri Patel 
+              60000 
+              Mumbai 
+              Project Manager 
+              2020-10-02 
+              24 
+              
+              
+              11 
+              Simran Khanna 
+              45500 
+              Kolhapur 
+              HR 
+              2019-01-02 
+              26 
+              
+              
+              12 
+              Shivani Wagh 
+              50500 
+              Delhi 
+              Software Developer 
+              2016-09-10 
+              25 
+              
+              
+              13 
+              Kiran Maheshwari 
+              50000 
+              Nashik 
+              HR 
+              2013-12-12 
+              23 
+              
+              
+              14 
+              Tejal Jain 
+              40000 
+              Delhi 
+              Project Manager 
+              2017-11-10 
+              25 
+              
+              
+              15 
+              Mohini Shah 
+              38000 
+              Pune 
+              Software Developer 
+              2019-03-05 
+              20 
+              
+            
+            1. SQL AND Operator The SQL AND operator is used with the where clause in the SQL Query. AND operator in SQL returns only those records which satisfy both the conditions in the SQL query. Let's understand the below example, which explains how to execute AND operator in an SQL query. Example: Write a query to retrieve only those records of employees from the employees table where the designation is 'Project Manager' and the City to which the employee belongs to is Mumbai. Query: 
+           
+            
+mysql> SELECT * FROM employees WHERE City = "Mumbai" AND Designation = "Project Manager";
+
+            Here we have written a SELECT query with a WHERE clause on the City column and Designation column with 'AND' operator in between both the conditions. Any record in the employees table that meets both conditions, i.e., the city to which the employee belongs is Mumbai, and their designation is Project Manager, will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              10 
+              Mayuri Patel 
+              60000 
+              Mumbai 
+              Project Manager 
+              2020-10-02 
+              24 
+              
+            
+            There are only two records in the employees table whose city name is equal to 'Mumbai' and designation name is equal to 'Project Manager'. 2. SQL BETWEEN Operator This operator displays the records which fall between the given ranges in the SQL query. The results of the BETWEEN operator include begin and end values of the given range. Let's understand the below example, which explains how to execute BETWEEN operator in an SQL query. Example: Write a query to retrieve only those records of an employee from the employees table where employee salary lies between 50000 to 90000. Query: 
+           
+            
+mysql> SELECT * FROM employees WHERE Salary BETWEEN 50000 AND 90000;
+
+            Here we have written a SELECT query with a WHERE clause on the Salary column with the 'BETWEEN' operator. BETWEEN operator is followed by beginning and end values 50000 and 90000 respectively with 'AND' operator in between. Any record in the employees table that meets the condition, i.e., the employee's salary is between 50000 and 90000, will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              2 
+              Tejaswini Naik 
+              75000 
+              Delhi 
+              System Engineer 
+              2019-12-24 
+              23 
+              
+              
+              4 
+              Anushka Tripathi 
+              90000 
+              Mumbai 
+              Software Tester 
+              2021-06-13 
+              24 
+              
+              
+              6 
+              Rutuja Deshmukh 
+              60000 
+              Bangalore 
+              Manager 
+              2019-07-17 
+              26 
+              
+              
+              7 
+              Swara Baviskar 
+              55000 
+              Jaipur 
+              System Engineer 
+              2021-10-10 
+              24 
+              
+              
+              9 
+              Swati Kumari 
+              50000 
+              Pune 
+              Software Tester 
+              2021-01-01 
+              25 
+              
+              
+              10 
+              Mayuri Patel 
+              60000 
+              Mumbai 
+              Project Manager 
+              2020-10-02 
+              24 
+              
+              
+              12 
+              Shivani Wagh 
+              50500 
+              Delhi 
+              Software Developer 
+              2016-09-10 
+              25 
+              
+              
+              13 
+              Kiran Maheshwari 
+              50000 
+              Nashik 
+              HR 
+              2013-12-12 
+              23 
+              
+            
+            There are nine records in the employees table whose salary falls between 50000 to 90000. 3. SQL OR Operator The SQL OR operator is used with the where clause in an SQL Query. AND operator in SQL returns only those records that satisfy any of the conditions in the SQL query. Let's understand the below example, which explains how to execute OR operator an SQL query. Example: Write a query to retrieve only those records of employees from the employees table where the employee's designation is 'System Engineer' or the city to which the employee belongs is Mumbai. Query: 
+           
+            
+mysql> SELECT * FROM employees WHERE Designation = "System Engineer" OR City = "Mumbai";
+
+            Here we have written a SELECT query with a WHERE clause on the City column and Designation column with the 'OR' operator in between both the conditions. Any record in the employees table that meets any of the conditions, i.e., the city to which the employee belongs is Mumbai, or their designation is System Engineer, will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              2 
+              Tejaswini Naik 
+              75000 
+              Delhi 
+              System Engineer 
+              2019-12-24 
+              23 
+              
+              
+              4 
+              Anushka Tripathi 
+              90000 
+              Mumbai 
+              Software Tester 
+              2021-06-13 
+              24 
+              
+              
+              7 
+              Swara Baviskar 
+              55000 
+              Jaipur 
+              System Engineer 
+              2021-10-10 
+              24 
+              
+              
+              10 
+              Mayuri Patel 
+              60000 
+              Mumbai 
+              Project Manager 
+              2020-10-02 
+              24 
+              
+            
+            There are only five records in the employees table whose city name is equal to 'Mumbai' or the employee's designation is equal to 'System Engineer'. 4. SQL IN Operator When we want to check for one or more than one value in a single SQL query, we use IN operator with the WHERE clause in a SELECT query. Let's understand the below example, which explains how to execute IN operator in an SQL query. Example: Write a query to retrieve only those records of employees from the employees table where the city to which the employee belongs to is either Mumbai, Bangalore, or Pune. Query:  
+           
+            
+mysql> SELECT * FROM employees WHERE City IN ("Mumbai", "Bangalore", "Pune");
+
+            Here we have written a SELECT query with a WHERE clause on the City column followed by IN operator. Since we wanted only those records that belongs to Mumbai, Bangalore, or Pune, we have passed Mumbai, Bangalore, and Pune as parameters to the IN operator. So, if the City value of any record matches with the places passed to the IN operator will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              4 
+              Anushka Tripathi 
+              90000 
+              Mumbai 
+              Software Tester 
+              2021-06-13 
+              24 
+              
+              
+              5 
+              Rucha Jagtap 
+              45000 
+              Bangalore 
+              Project Manager 
+              2020-08-09 
+              23 
+              
+              
+              6 
+              Rutuja Deshmukh 
+              60000 
+              Bangalore 
+              Manager 
+              2019-07-17 
+              26 
+              
+              
+              8 
+              Sana Sheik 
+              45000 
+              Pune 
+              Software Engineer 
+              2020-09-10 
+              26 
+              
+              
+              9 
+              Swati Kumari 
+              50000 
+              Pune 
+              Software Tester 
+              2021-01-01 
+              25 
+              
+              
+              10 
+              Mayuri Patel 
+              60000 
+              Mumbai 
+              Project Manager 
+              2020-10-02 
+              24 
+              
+              
+              15 
+              Mohini Shah 
+              38000 
+              Pune 
+              Software Developer 
+              2019-03-05 
+              20 
+              
+            
+            There are only eight records in the employees table where the city to which the employee belongs is either Mumbai, Bangalore, or Pune. 5. SQL NOT Operator NOT operator in SQL shows those records from the table where the criteria is not met. NOT operator is used with where clause in a SELECT query. Let's understand the below example, which explains how to execute NOT operator in SQL query. Example: Write a query to retrieve only those records of employees from the employees table where the employee's designation is not Project Manager. Query: 
+           
+            
+mysql> SELECT * FROM employees WHERE NOT Designation = "Project Manager";
+
+            Here we have written a SELECT query with a WHERE clause on the Designation column followed by NOT operator. Since we wanted only those records whose designation is other than a project manager, we have given the designation value as Project Manager to the NOT operator. So, if the designation value of any record does not match with the value given to the NOT operator will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              2 
+              Tejaswini Naik 
+              75000 
+              Delhi 
+              System Engineer 
+              2019-12-24 
+              23 
+              
+              
+              3 
+              Anuja Sharma 
+              40000 
+              Jaipur 
+              Manager 
+              2021-08-15 
+              26 
+              
+              
+              4 
+              Anushka Tripathi 
+              90000 
+              Mumbai 
+              Software Tester 
+              2021-06-13 
+              24 
+              
+              
+              6 
+              Rutuja Deshmukh 
+              60000 
+              Bangalore 
+              Manager 
+              2019-07-17 
+              26 
+              
+              
+              7 
+              Swara Baviskar 
+              55000 
+              Jaipur 
+              System Engineer 
+              2021-10-10 
+              24 
+              
+              
+              8 
+              Sana Sheik 
+              45000 
+              Pune 
+              Software Engineer 
+              2020-09-10 
+              26 
+              
+              
+              9 
+              Swati Kumari 
+              50000 
+              Pune 
+              Software Tester 
+              2021-01-01 
+              25 
+              
+              
+              11 
+              Simran Khanna 
+              45500 
+              Kolhapur 
+              HR 
+              2019-01-02 
+              26 
+              
+              
+              12 
+              Shivani Wagh 
+              50500 
+              Delhi 
+              Software Developer 
+              2016-09-10 
+              25 
+              
+              
+              13 
+              Kiran Maheshwari 
+              50000 
+              Nashik 
+              HR 
+              2013-12-12 
+              23 
+              
+              
+              15 
+              Mohini Shah 
+              38000 
+              Pune 
+              Software Developer 
+              2019-03-05 
+              20 
+              
+            
+            There are eleven records in the employees table whose designation is not a project manager. 6. SQL LIKE Operator LIKE Operator in SQL displays only those data from the table which matches the pattern specified in the query. Percentage (%) and underscore (_) are the two wildcard operators used with LIKE Operator to perform pattern matching tasks. Let's understand the below example, which explains how to execute the LIKE operator in an SQL query. Example: Write a query to retrieve only those records of employees from the employees table whose salary starts with the digit 5. Query: 
+           
+            
+mysql> SELECT * FROM employees WHERE Salary LIKE "5%";
+
+            Here we have written a SELECT query with a WHERE clause on the Salary column followed by the LIKE operator. Since we wanted only those records whose salary starts with the digit 5, we have given the value to the LIKE operator as '5%'. So, if the salary value of any record starts with the digit 5, followed by any other digit will only be considered in output. You will get the following output: 
+            
+            
+              
+              E_ID 
+              Name 
+              Salary 
+              City 
+              Designation 
+              Date_of_Joining 
+              Age 
+              
+              
+              1 
+              Sakshi Kumari 
+              50000 
+              Mumbai 
+              Project Manager 
+              2021-06-20 
+              24 
+              
+              
+              7 
+              Swara Baviskar 
+              55000 
+              Jaipur 
+              System Engineer 
+              2021-10-10 
+              24 
+              
+              
+              9 
+              Swati Kumari 
+              50000 
+              Pune 
+              Software Tester 
+              2021-01-01 
+              25 
+              
+              
+              12 
+              Shivani Wagh 
+              50500 
+              Delhi 
+              Software Developer 
+              2016-09-10 
+              25 
+              
+              
+              13 
+              Kiran Maheshwari 
+              50000 
+              Nashik 
+              HR 
+              2013-12-12 
+              23 
+              
+            
+            There are five records in the employees table whose salary starts with the digit 5. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

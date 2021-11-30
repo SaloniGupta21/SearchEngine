@@ -1,0 +1,1140 @@
+
+
+  
+   
+   
+   
+  
+  
+  
+  
+   
+  Top 40+ Most Asked Embedded C Interview Question and Answers - javatpoint 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+   
+    
+     
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+        
+        
+       
+      
+     
+     
+     
+       
+        Home 
+        Interview Questions 
+        Java 
+        SQL 
+        Python 
+        JavaScript 
+        Angular 
+        Selenium 
+        Spring Boot 
+        HR 
+        C 
+        Data Structure 
+        DBMS 
+        HTML 
+        C# 
+        C++ 
+      
+      
+      
+     
+     
+     
+     
+      
+      All Interview 
+      
+      
+      Interview Tips 
+      JOB/HR Interview 
+      Competency Interview 
+      Business Analyst 
+      Behavioral Interview 
+      
+      
+      Company Interview 
+      
+      
+      Company Interview 
+      IBM Interview 
+      Infosys Interview 
+      Capgemini Interview 
+      Cognizant Interview 
+      Wipro Interview 
+      Accenture Interview 
+      iGate Interview 
+      TCS Interview 
+      HCL Interview 
+      Adobe Interview 
+      Microsoft Interview 
+      DXC Technology Interview 
+      Ericsson Interview 
+      EXL Service Interview 
+      IndiaMART Interview 
+      Intuit Interview 
+      SpaceX Interview 
+      Sapient Interview 
+      Amazon Interview 
+      
+      
+      Technical Interview 
+      
+      
+      C Interview 
+      C++ Interview 
+      Data Structure Interview 
+      Linux Interview 
+      Unix Interview 
+      Shell Scripting 
+      Networking Interview 
+      CCNA Interview 
+      Android Interview 
+      Cloud Computing 
+      Hadoop Interview 
+      Testing/QTP Interview 
+      Selenium Interview 
+      Web Services Interview 
+      OS Interview 
+      Excel Interview 
+      SEO Interview 
+      Digital Marketing 
+      Python Interview 
+      Django Interview 
+      Pascal Interview 
+      Ruby Interview 
+      Ruby on Rails Interview 
+      Memcached Interview 
+      Go Interview 
+      OpenStack Interview 
+      Scala Interview 
+      Control Systems 
+      Electrical Machines 
+      Power System 
+      Digital Electronics 
+      Robotics Interview 
+      TypeScript Interview 
+      Swift Interview 
+      Blockchain Interview 
+      Bitcoin Interview 
+      AWS Interview 
+      Informatica Interview 
+      QA Interview 
+      React Interview 
+      GIT Interview 
+      J2EE Interview 
+      Deep Learning 
+      Salesforce Interview 
+      TestNG Interview 
+      Agile Interview 
+      Machine Learning 
+      API Testing 
+      Algorithm 
+      Java Design Pattern 
+      Teradata 
+      TensorFlow 
+      LINQ 
+      Mainframe 
+      Laravel 
+      JIRA 
+      JCL 
+      Pytorch 
+      ETL Testing 
+      Linked List 
+      DataStage 
+      Tableau 
+      SAP ABAP 
+      DAA 
+      Computer Graphics 
+      Data Science 
+      Software Engineering 
+      Power BI 
+      Xamarin 
+      Ansible 
+      Data Warehouse 
+      Ionic 
+      Devops 
+      React Native 
+      Python Pandas 
+      HTTP Interview 
+      Kali Linux Interview 
+      PowerShell Interview 
+      SharePoint Interview 
+      Talend Interview 
+      Microsoft Azure Interview 
+      R Interview 
+      Flutter Interview 
+      MATLAB Interview 
+      ES6 Interview 
+      RPA Interview 
+      Desktop Support Interview 
+      Angular 8 Interview 
+      GraphQL Interview 
+      Vue.js Interview 
+      Automation Anywhere Interview 
+      AI Interview 
+      UiPath Interview 
+      Blue Prism Interview 
+      SSIS Interview 
+      Mobile Computing Interview 
+      ITIL Interview 
+      SAS Interview 
+      Elasticsearch Interview 
+      Entity Framework Interview 
+      RxJS Interview 
+      Accounting Interview 
+      Electron.js Interview 
+      Knockout JS Interview 
+      Top Angular Interview 
+      IAS Interview Question 
+      Banking Interview 
+      Interview Questions for Freshers 
+      PowerPoint Interview 
+      BPO Interview 
+      Civil Engineering Interview 
+      Apache Spark Interview 
+      Data Mining Interview 
+      Java Support Interview 
+      Kubernetes Interview 
+      Web API Interview 
+      Scrum Master Interview 
+      System Design Interview 
+      SSB Interview Questions 
+      Teachers Interview Questions 
+      Finance Interview Questions 
+      Technical Support Interview 
+      Active Directory Interview 
+      Appium Interview 
+      Cucumber Interview 
+      Full-Stack Developer 
+      ServiceNow Interview 
+      Nursing Interview 
+      Sales Interview 
+      Microservices Interview 
+      Electrical Engineering Interview 
+      Accounts Payable Interview 
+      VISA Interview 
+      VLSI Interview 
+      AutoCAD Interview 
+      Verilog Interview 
+      OOPs Interview 
+      Web Developer Interview 
+      Express.js Interview 
+      CakePHP Interview 
+      Yii Interview 
+      Zend Framework Interview 
+      Java Concurrency Interview 
+      Symfony Interview 
+      Basic Interview 
+      Dynamic Programming Interview 
+      Programming Interview 
+      Next.js Interview 
+      Microsoft Java Interview 
+      AEM Interview 
+      Svelte.js Interview 
+      COBOL Interview 
+      Cyber Security Interview 
+      SQL Query Interview 
+      BGP Interview 
+      Apache Hive Interview 
+      Kafka Interview 
+      Embedded C Interview 
+      Pega Interview 
+      Kotlin Interview 
+      SAP MM Interview 
+      
+      
+      Web Interview 
+      
+      
+      HTML Interview 
+      CSS Interview 
+      JavaScript Interview 
+      jQuery Interview 
+      AngularJS Interview 
+      Angular Interview 
+      Angular 7 Interview 
+      Node.js Interview 
+      AJAX Interview 
+      XML Interview 
+      Dojo Interview 
+      Backbone.js Interview 
+      Ember.js Interview 
+      XHTML Interview 
+      XSLT Interview 
+      XPath Interview 
+      XQuery Interview 
+      XForms Interview 
+      SASS Interview 
+      CoffeeScript Interview 
+      LESS Interview 
+      Perl Interview 
+      Pure.CSS Interview 
+      Materialize Interview 
+      Framework7 Interview 
+      SVG Interview 
+      SAP FICO Interview 
+      
+      
+      PHP Interview 
+      
+      
+      PHP Interview 
+      Wordpress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      Magento Interview 
+      CodeIgniter Interview 
+      Phalcon Interview 
+      
+      
+      .Net Interview 
+      
+      
+      .Net Interview 
+      C# Interview 
+      ASP.NET Interview 
+      ADO.NET Interview 
+      WCF Interview 
+      WPF Interview 
+      Silverlight Interview 
+      F# Interview 
+      
+      
+      Java Interview 
+      
+      
+      Java 1 Interview 
+      Java 2 Interview 
+      Exception & String 
+      Multithreading  
+      Collections Interview 
+      JDBC Interview 
+      Servlet Interview 
+      JSP Interview 
+      EJB Interview 
+      Struts Interview 
+      Hibernate Interview 
+      Spring Interview 
+      Spring Boot Interview 
+      Spring MVC Interview 
+      JPA Interview 
+      Maven Interview 
+      JUnit Interview 
+      JSF Interview 
+      PrimeFaces Interview 
+      RichFaces Interview 
+      GWT Interview 
+      JDB Interview 
+      JOGL Interview 
+      jBPM Interview 
+      Jenkins Interview 
+      Java Constructor Interview 
+      Technical Architect Interview 
+      Array Interview Questions 
+      
+      
+      Database Interview 
+      
+      
+      DBMS Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      Oracle Interview 
+      MySql Interview 
+      SQL Server Interview 
+      MongoDB Interview 
+      Cassandra Interview 
+      DB2 Interview 
+      Access Interview 
+      SQLite Interview 
+      CouchDB Interview 
+      Neo4j Interview 
+      MariaDB Interview 
+      PouchDB Interview 
+      Redis Interview 
+      
+      
+      
+       
+          
+        
+       
+           
+        
+      
+      
+     
+     
+      
+      
+      
+       
+       
+        
+          Top 40+ Most Asked Embedded C Interview Question and Answers 1) What is Embedded C? / What do you understand by Embedded C language? Embedded C is a set of language extensions for the C programming language specified by the C Standards Committee. It is generally used to address commonality issues that exist between C extensions for different embedded systems. Embedded C programming typically requires nonstandard extensions to the C language to support enhanced microprocessor features such as fixed-point arithmetic, multiple distinct memory banks, and basic I/O operations. 
+           2) What do you understand by the embedded system?  An embedded system is a microprocessor-based computer hardware system and software designed to perform a specific function. An embedded system is either an independent system or acts as a part of a large system.  
+           3) What are the key differences between C and Embedded C? C is a general-purpose, high-level programming language used to design any desktop-based applications. On the other hand, Embedded C is an extension of the C language, and it is used to develop micro-controller based applications. Here, Embedded refers to the hosting computer or microcontroller and not the programming language. Let's see the key differences between C and Embedded C in the following table. Differences between C and Embedded C:  
+           
+           
+             
+             C language 
+             Embedded C 
+             
+             
+             C is a general-purpose programming language used to design any desktop-based applications. 
+             Embedded C is nothing but an extension C programming language, and it is used to develop micro-controller based applications. 
+             
+             
+             C is a type of high-level programming language. 
+             Embedded C is an extension of the C programming language. 
+             
+             
+             C programming language is the hardware-independent language. 
+             Embedded C is a completely hardware-dependent language. 
+             
+             
+             C is a simple language, and it is easy to read and modify. 
+             Embedded C is comparatively tough, and it is not easy to read and modify the Embedded C language. 
+             
+             
+             The compilers of the C programming language are OS-dependent. 
+             The compilers of Embedded C are OS independent. 
+             
+             
+             In the C programming language, the standard compilers are used to compile and execute the program. 
+             In Embedded C language, a specific compiler that can generate particular hardware/micro-controller based output is used to compile the code. 
+             
+             
+             Some popular compilers used to execute a C language program are:GCC (GNU Compiler collection)Borland Turbo CIntel C++ 
+             Some popular compilers used to execute an Embedded C language program are:Keil compilerBiPOM ELECTRONICGreen Hill software 
+             
+             
+             C programming language has a free format of program coding. 
+             In Embedded C language, formatting depends upon the type of microprocessor used in the application. 
+             
+             
+             Bug fixing is easy in a C language program. 
+             Bug fixing is complicated in an Embedded C language program. 
+             
+             
+             C language also supports other various programming languages during application. 
+             Embedded C language supports only the required processor of the application and not the programming languages. 
+             
+             
+             C programming language must require an operating system. 
+             Embedded C may or may not require an operating system. 
+             
+             
+             In the C programming language, we can give input to the program while it is running. 
+             In Embedded C language, we can give only the pre-defined inputs to the running program. 
+             
+             
+             The C programming language supports normal optimization. 
+             Embedded C supports the high level of optimization. 
+             
+             
+             C programming language generally uses the resources of a desktop PC like memory, OS, etc. 
+             Embedded C language has to use with the limited resources, such as RAM, ROM, I/Os on an embedded processor. 
+             
+             
+             Some examples of the C Program applications:Logical programsSystem software programs etc. 
+             Some examples of the Embedded C Program applications:DVDTVDigital camera etc. 
+             
+           
+           
+           4) Is embedded C a programming language?  Embedded C is not a core programming language. It is an extension of C programming language that is used to develop micro-controller based applications. The extensions introduced in Embedded C language from normal C programming language are the I/O Hardware Addressing, fixed-point arithmetic operations, accessing address spaces, etc.  
+           5) What are the main advantages of Embedded C?  Embedded C is the extension of the C programming language. Let's see the key advantages of Embedded C: Key advantages of Embedded C: 
+           
+           The coding speed of Embedded C is high, and it is simple and easy to understand. 
+           It doesn't require any hardware changes such as extra memory or space for storage as it performs the same task all the time. 
+           It is dedicated to its specific task and performs only one task at one time. 
+           It is mainly used in modern automatic applications. Embedded applications are very suitable for industrial purposes. 
+           
+           6) What are the main disadvantages of Embedded C? Disadvantages of Embedded C: 
+           
+           Embedded C performs only one task at a time, so it is not preferred when we have to perform multiple tasks simultaneously. 
+           Embedded C only supports the hardware system. So, if you have to change the program, then you must have to change the hardware. 
+           Embedded C also has some scalability issues, so; it cannot be easily scaled up as scope change or demand. 
+           It has some limitations, such as limited memory or computer compatibility. 
+           
+           7) What is the volatile keyword in Embedded C, and what is its usage?  In Embedded C, the volatile keyword is a type qualifier that prevents the objects from compiler optimization. According to the C standard, we can modify the volatile-qualified type object in ways unknown to the implementation. In other words, we can say that the value of the volatile-qualified object can be changed at any time without making any changes in the code. If the volatile qualifier qualifies an object, the compiler will reload the value from memory each time the program accesses it. Reading the value from memory is the only way to check the unpredictable change of the value. The volatile keyword is mainly used when we have to deal with GPIO, interrupt or flag Register directly. It is also used with a global variable or buffer shared between the threads. 
+           8) What is the segmentation fault error in C? What are some common causes for the segmentation fault error?  Segmentation fault error is a runtime error, which may occur due to some causes when a program runs. Following is a list of some common causes for the segmentation fault error in C:  
+           
+           Usages of the dereferenced pointer: If we use a pointer that may not have a valid address/memory location to point, it may create a segmentation fault error. 
+           A program may return a segmentation fault error if you try to access a read-only memory area. 
+           Segmentation fault error may also occur when you try to free memory (using a pointer), which is already freed. 
+           The occurrence of segmentation fault error is the reason to generate stack overflow error in C. 
+           
+           9) What is the full form of ISR in Embedded C?  In Embedded C, ISR stands for Interrupt Service Routines. These are the procedures stored at specific memory addresses and called when a certain type of interrupt occurs.  
+           10) What is a stack overflow error in C? In C language, the stack overflow error may occur if the program tries to access the memory beyond its available maximum limit. For example, the stack overflow error may occur if a pointer exceeds the stack limitations (boundaries). When the stack overflow error occurs, the program terminates and does not execute further instructions. So, we must be very careful while using the pointer and limit boundaries. 
+           11) Is it possible to pass any parameter and return a value from the ISR? No. It is not possible to pass any parameter and return a value from the ISR. The ISR returns nothing and does not allow passing any parameter. An ISR is called when a hardware or software event occurs, and the code does not call it. That's why no parameters are passed into an ISR. As the code does not call ISR, there is no calling code to read the returned values of the ISR. That's why an ISR does not return any value.  
+           12) What do you understand by interrupt latency? Interrupt Latency is the number of clock cycles the processor takes to respond to an interrupt request. This clock cycle number is count between the interrupt request's assertions and the interrupt handler's first instruction. Interrupt Latency on the Cortex-M processor family:  Cortex-M processors have very low interrupt latency. The following table shows the Interrupt latency of Cortex-M processors with zero wait state memory systems. 
+           
+           
+             
+             Processors 
+             Cycles with zero wait state memory 
+             
+             
+             Cortex-M0 
+             16 
+             
+             
+             Cortex-M0+ 
+             15 
+             
+             
+             Cortex-M3 
+             12 
+             
+             
+             Cortex-M4 
+             12 
+             
+             
+             Cortex-M7 
+             12 
+             
+           
+           
+           13) How can you measure the interrupt latency in Embedded C?  In Embedded C, we can measure the interrupt latency with the help of the oscilloscope. Follow the steps given below: 
+           
+           Take two GPIOs first. Configure one GPIO to generate the interrupt and the second for the toggling (you can attach an LED also). 
+           Use the oscilloscope or analyzer to monitor the PIN, which is already configured to generate the interrupt. 
+           Now, monitor the second pin, which is toggled at the beginning of the interrupt service routine by using the oscilloscope or analyzer. 
+           When you generate the interrupt, the signal of both GPIOs will change. 
+           Now, you can easily read the instrument's interval between the two signals (interrupt latency). 
+           
+           14) How can you reduce the interrupt latency?  There are several ways to reduce the interrupt latency in Embedded C. The interrupt latency depends on many factors. Following is a list of some factors: 
+           
+           Platform and interrupt controller 
+           CPU clock speed 
+           Timer frequency 
+           Cache configuration 
+           Application program etc. 
+           So, we can easily reduce the interrupt latency by using the proper selection of platform and processor. We can also reduce the interrupt latency by making the ISR shorter and avoid to calling a function within the ISR. 
+           15) What is a static variable in C? Why do we use a static variable in C? Static variables have the property of preserving their value even after they are out of their scope. It means we can initialize static variables only once. Its scope is local, but it lives until the end of the program. The compiler persists with the variable till the end of the program. We can define static variables inside or outside the function. The default value of static variables is zero. The static variables are alive till the execution of the program. Syntax for the static variables in C language:  
+          
+           
+static datatype variable_name = value;
+
+           A static variable is generally used to count something. For example, the function openBakAccount() calls whenever a new account opens in the bank. Then, to count the total number of opened accounts, we can declare a static variable in the function and increase it on each function call. 
+           16) What are some interesting facts about static variables in C? Following is a list of some interesting facts about static variables in C: 
+           
+           There are two types of static variables, static int variable and static auto variable. A static int variable remains in memory while the program is running and a normal or auto variable is destroyed when a function call declared is over. For example, we can use a static int variable to count the number of times a function is called, but we cannot use an auto variable for this purpose. 
+           Static variables are allocated memory in the data segment, not the stack segment. 
+           The default value for static variables is 0. Like global variables, they are initialized as 0 if not initialized explicitly. 
+           In C language, we can initialize the static variables using only constant literals. 
+           Static global variables and functions are also possible in C++. They are mainly used to limit the scope of a variable or function to a file. 
+           We should not declare static variables inside the structure because the C compiler requires the entire structure elements to be placed together. 
+           
+           17) How can you use a variable in a source file defined in another source file? We can use the "extern" keyboard to declare a variable that allows accessing the variable in another file. This is how we can use a variable in a source file defined in another source file. 
+           18) How can you protect a character pointer by some accidental modification with the pointer address? We can use the constant character pointer (const char*) to protect a character pointer by accidentally modifying the pointer address. It prevents unnecessary modifications with the pointer address in the string.  
+           19) What are the main differences between CISC and RISC? There are many differences between the RISC and CISC. Some of them are as follows: 
+           
+           
+             
+             RISC 
+             CISC 
+             
+             
+             RISC stands for Reduced Instruction Set Computer. 
+             CISC stands for Complex Instruction Set Computer. 
+             
+             
+             RISC does not consist of a memory unit. 
+             CISC consists of a memory unit. 
+             
+             
+             RISC is a relatively faster processor than CISC in terms of calculations. 
+             CISC is a comparatively slower processor than RISC in terms of calculations. 
+             
+             
+             RISC is used to ensure the simple decoding of operations. 
+             CISC doesn't ensure simple decoding of operations. 
+             
+             
+             The execution time is RISC is low. 
+             The execution time is CISC is high. 
+             
+           
+           
+           20) What do you understand by a function pointer? A function pointer is a pointer that points to a function instead of a variable. That's why a function pointer is completely different from the class of other pointers. A function pointer stores the address of a particular function so that the concerned program can avail of it through function invoking.  
+           21) Can a variable be both constant and volatile in C? Yes, a variable can be both constant and volatile in C. we can use constant and volatile both variables together. The volatile and const variable together is used at the time of accessing the GPIO registers. In this case, its value is changed by the 'external factors' if a switch or any output device is attached with GPIO. In this situation, the volatile variable is important because it ensures that the compiler always read the value from the GPIO address and avoids making any assumption.  
+           22) What is a dangling pointer in embedded C?  A dangling pointer is a pointer that points to a memory location that has been already free-ed by the application and is no longer in use. Sometimes, the programmers fail to initialize the pointer with a valid address; these types of initialized pointers are known as dangling pointers. Dangling pointers occur at the time of the object's destruction when the object is deleted or de-allocated from memory without modifying the pointer's value. If you try to dereference a dangling pointer, it will potentially lead to a runtime error. 
+           23) What is the size of a character, integer, integer pointer, and character pointer in C?  The size of the character is 1 byte, the size of the integer is 4 bytes, the size of the integer pointer, and the character pointer is 8 bytes on a 64-bit machine and 4 bytes on a 32-bit machine. 
+           24) What are some Real-Time applications of Embedded Processors? Some real-time applications of Embedded Processors are: 
+           
+           Dishwashers 
+           Automatic passengers cars 
+           Mobile Phones 
+           Television 
+           Medical equipment, etc. 
+           
+           25) What are some examples of the embedded systems to use in Aerospace Applications? Some examples of the embedded systems to use in Aerospace Applications are: 
+           
+           Flight control systems 
+           Autopilot mode 
+           A passenger in-flight embedded system 
+           Engine controllers 
+           Landing and takeoff controller etc. 
+           
+           26) How many bits that the Embedded Software supports? The Embedded Software supports 8, 16 or 32 bit embedded processors. 
+           27) What do you understand by a NULL pointer? What is its usage?  NULL is a macro defined in C. The Null pointer is a pointer that does not point to any valid location. The NULL pointer is defined when we want to ensure that the pointer does not point to any valid location and not to use that pointer to change anything. Without using a null pointer, we can't verify whether this pointer points to any valid location or not.  
+           28) Are Countdown to zero loops better than Count_up_loops? Yes, Countdown to zero loops are better than Count_up_loops because, at loop termination, comparison to zero can be optimized by the compiler. Most of the processors have instructions for comparing to zero. So they don't need to load the loop variable and the maximum value; subtract them and then compare them to zero. That is why count down to zero loops are better. 
+           29) What are some examples of Embedded systems in automotive applications? Following are some examples of Embedded systems in automotive applications: 
+           
+           Traffic control systems 
+           Braking systems 
+           steer-by-wire systems 
+           Cruise control applications 
+           Airbag release systems 
+           Engine management units etc. 
+           
+           30) What are some examples of domestic appliances that use an Embedded System? Following is a list of some examples of domestic appliances that use Embedded Systems: 
+           
+           Smart Televisions 
+           Washing machines 
+           Microwave ovens 
+           Dishwashers 
+           Garage door controllers 
+           Video recorders and 
+           Security systems etc. 
+           
+           31) What do you understand by the term structure padding in Embedded C? Structure padding is a concept used in the C programming language. It is used to add one or more empty bytes between the memory addresses to align the data in the memory. The compiler automatically does it to ensure that all its members are byte aligned.  
+           32) What are some examples of Medical Equipments that uses the concept of Embedded Systems? Following are some examples of Medical Equipments that uses the concept of Embedded Systems: 
+           
+           Anaesthesia monitoring systems 
+           ECG monitors 
+           MRI Scanners 
+           Drug delivery systems 
+           Ultrasound equipment etc. 
+           
+           33) Which Defense Systems use the concept of Embedded Systems? Following are some examples of Defense Systems that use the concept of Embedded Systems: 
+           
+           Radio systems 
+           Radar systems 
+           Missile guidance systems 
+           Fighter aircraft flight control system 
+           Target guidance systems etc. 
+           
+           34) What do you understand by Machine Code? Machine Code is the language of the computer rather than the programmer. A computer only accepts the instructions in the form of machine code or object code. When a programmer interprets the code, it is complex and error-prone. Whether in languages such as C, C++, and Java, all software must ultimately be translated into machine code to be executed by the computer. 
+           35) What are the Discrete Components used in Embedded systems? The list of Discrete Components used in Embedded systems is: 
+           
+           Transistors 
+           Diodes 
+           Resistors 
+           Capacitor 
+           
+           36) What is the link between oscillator frequency and machine-cycle period? A general rule specifies that the oscillator frequency directly determines the speed at which your application runs. So, in most cases, if you double the oscillator frequency, the speed of the application would be doubled.  
+           37) What is the full form of MIPS?  MIPS stands for Million Instructions Per Second. It is an approximate measure of a computer's raw processing power. It may be misleading because measurement techniques often differ, and different computers may require different sets of instructions to perform the same activity. 
+           38) How can we improve the 8051 microcontroller performance? The simplest way to improve the performance of the 8051 microcontrollers is to increase the clock frequency. The 8051 microcontrollers allow the use of clock speeds well beyond the 12MHz limit of the original devices. The best way to improve the performance is to make internal changes to the microcontroller so that fewer oscillator cycles are required to execute each machine instruction.  
+           39) What is the range of maximum oscillator frequency and the peak performance in the 8051 microcontrollers? The 8051 microcontroller has a maximum oscillator frequency of 12 MHz, and peak performance is 1 MIP. 
+           40) What do you understand by Memory Fragmentation? Memory Fragmentation is an issue that arises while using dynamic memory allocation. When we keep allocating and releasing memory spaces over time, in the end, we will get non-contiguous memory blocks that are free, and our in-use variables are scattered everywhere in the RAM. This is called memory fragmentation. This can potentially lead to dynamic memory allocation failure. For example, if you have to allocate an array of 100 integers and there is no contiguous block of memory with that space, this causes a runtime error. This is why we don't use dynamic memory allocation in embedded systems firmware in the first place. 
+           41) What are inline functions in Embedded C?  Inline functions are the types of function whose definitions are small and be substituted at the place where its function call has happened. The ARM compilers support inline functions with the keyword __inline. These functions have a small definition, and the function body is substituted in each call to the inline function.  
+           42) What are the types of memory in an Embedded System in C language? Following are the types of memory in an Embedded System in C language: 
+           
+           DRAM (Dynamic RAM) 
+           SRAM (Static RAM) 
+           Mask Read-only Memory (ROM) 
+           PROM (Programmable Read-Only Memory) 
+           UV EPROM (UV Erasable Programmable Read-Only Memory) 
+           EEPROM (Electrically - Erasable PROM) 
+           
+            
+         
+       
+       
+      
+      
+     You may also like: 
+      
+      Java Interview Questions 
+      SQL Interview Questions 
+      Python Interview Questions 
+      JavaScript Interview Questions 
+      Angular Interview Questions 
+      Selenium Interview Questions 
+      Spring Boot Interview Questions 
+      HR Interview Questions 
+      C Programming Interview Questions 
+      C++ Interview Questions 
+      Data Structure Interview Questions 
+      DBMS Interview Questions 
+      HTML Interview Questions 
+      IAS Interview Questions 
+      Manual Testing Interview Questions 
+      OOPs Interview Questions 
+      .Net Interview Questions 
+      C# Interview Questions 
+      ReactJS Interview Questions 
+      Networking Interview Questions 
+      PHP Interview Questions 
+      CSS Interview Questions 
+      Node.js Interview Questions 
+      Spring Interview Questions 
+      Hibernate Interview Questions 
+      AWS Interview Questions 
+      Accounting Interview Questions 
+      
+      
+      
+      Learn Latest Tutorials 
+       
+        
+        
+          
+         Splunk 
+          
+        
+        
+          
+         SPSS 
+          
+        
+        
+          
+         Swagger 
+          
+        
+        
+          
+         Transact-SQL 
+          
+        
+        
+          
+         Tumblr 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Regex 
+          
+        
+        
+          
+         Reinforcement Learning 
+          
+        
+        
+          
+         R Programming 
+          
+        
+        
+          
+         RxJS 
+          
+        
+        
+          
+         React Native 
+          
+        
+        
+          
+         Python Design Patterns 
+          
+        
+        
+          
+         Python Pillow 
+          
+        
+        
+          
+         Python Turtle 
+          
+        
+        
+          
+         Keras 
+          
+       
+      
+      
+      
+      Preparation 
+       
+        
+        
+          
+         Aptitude 
+          
+        
+        
+          
+         Reasoning 
+          
+        
+        
+          
+         Verbal Ability 
+          
+        
+        
+          
+         Interview Questions 
+          
+        
+        
+          
+         Company Questions 
+          
+       
+      
+      
+      
+      Trending Technologies 
+       
+        
+        
+          
+         Artificial Intelligence 
+          
+        
+        
+          
+         AWS 
+          
+        
+        
+          
+         Selenium 
+          
+        
+        
+          
+         Cloud Computing 
+          
+        
+        
+          
+         Hadoop 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Data Science 
+          
+        
+        
+          
+         Angular 7 
+          
+        
+        
+          
+         Blockchain 
+          
+        
+        
+          
+         Git 
+          
+        
+        
+          
+         Machine Learning 
+          
+        
+        
+          
+         DevOps 
+          
+       
+      
+      
+      
+      B.Tech / MCA 
+       
+        
+        
+          
+         DBMS 
+          
+        
+        
+          
+         Data Structures 
+          
+        
+        
+          
+         DAA 
+          
+        
+        
+          
+         Operating System 
+          
+        
+        
+          
+         Computer Network 
+          
+        
+        
+          
+         Compiler Design 
+          
+        
+        
+          
+         Computer Organization 
+          
+        
+        
+          
+         Discrete Mathematics 
+          
+        
+        
+          
+         Ethical Hacking 
+          
+        
+        
+          
+         Computer Graphics 
+          
+        
+        
+          
+         Software Engineering 
+          
+        
+        
+          
+         Web Technology 
+          
+        
+        
+          
+         Cyber Security 
+          
+        
+        
+          
+         Automata 
+          
+        
+        
+          
+         C Programming 
+          
+        
+        
+          
+         C++ 
+          
+        
+        
+          
+         Java 
+          
+        
+        
+          
+         .Net 
+          
+        
+        
+          
+         Python 
+          
+        
+        
+          
+         Programs 
+          
+        
+        
+          
+         Control System 
+          
+        
+        
+          
+         Data Mining 
+          
+        
+        
+          
+         Data Warehouse 
+          
+       
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+     
+     
+     
+      
+     
+      
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+   
+   
+     
+ 
+

@@ -1,0 +1,880 @@
+
+
+ 
+  
+  What is RPC in Operating System - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            What is RPC in Operating System? Remote Procedure Call or RPC is a powerful technique for constructing distributed, client-server-based applications. It is also known as a function call or a subroutine call. A remote procedure call is when a computer program causes a procedure to execute in a different address space, coded as a local procedure call, without the programmer explicitly stating the details for the remote interaction. The programmer writes essentially the same code whether the subroutine is local to the executing program or remote. This is a form of client-server interaction implemented via a request-response message-passing system.   The RPC model implies location transparency that calling procedures are largely the same, whether local or remote. Usually, they are not identical, so that local calls can be distinguished from remote calls. Remote calls are usually orders of magnitude slower and less reliable than local calls, so distinguishing them is important. RPCs are a form of inter-process communication (IPC), in that different processes have different address spaces. They have distinct virtual address spaces on the same host machine, even though the physical address space is the same. While if they are on different hosts, the physical address space is different. How to Make a Remote Procedure Call The calling environment is suspended, procedure parameters are transferred across the network to the environment where the procedure is to execute, and the procedure is executed there.  When the procedure finishes and produces its results, it is transferred back to the calling environment, where execution resumes as if returning from a regular procedure call. NOTE: RPC is especially well suited for client-server (e.g., query-response) interaction in which the flow of control alternates between the caller and callee. Conceptually, the client and server do not execute simultaneously; instead, the thread of execution jumps from the caller to the callee and then back again. Types of RPC There are three types of remote procedure call (RPC) in an operating system, such as:  1. Callback RPC This type of RPC enables a P2P paradigm between participating processes. It helps a process to be both client and server services. Callback RPC has the following functions, such as: 
+            
+            Remotely processed interactive application problems. 
+            Offers server with clients handle. 
+            Callback makes the client process wait. 
+            Manage callback deadlocks. 
+            It facilitates a peer-to-Peer paradigm among participating processes. 
+            2. Broadcast RPC Broadcast RPC is a client's request broadcast on the network, processed by all servers with the method for processing that request. Broadcast RPC has the following functions, such as: 
+            
+            Allows you to specify that the client's request message has to be broadcast. 
+            You can declare broadcast ports. 
+            It helps to reduce the load on the physical network. 
+            3. Batch-mode RPC Batch-mode RPC helps to queue, separate RPC requests, in a transmission buffer, on the client-side, and then send them on a network in one batch to the server. Batch-mode RPC has the following functions, such as: 
+            
+            It minimizes the overhead involved in sending a request by sending them over the network in one batch to the server. 
+            This type of RPC protocol is only efficient for an application that needs lower call rates. 
+            It needs a reliable transmission protocol. 
+            What does RPC do? When program statements using the RPC framework are compiled into an executable program, a stub is included in the compiled code representing the remote procedure code. When the program is run and the procedure call is issued, the stub receives the request and forwards it to a client runtime program in the local computer. The first time the client stub is invoked, it contacts a name server to determine the transport address where the server resides. The client runtime program knows how to address the remote computer and server application and sends the message across the network that requests the remote procedure. Similarly, the server includes a runtime program and stub that interface with the remote procedure itself, and Response-request protocols are returned the same way. Features of RPC In an operating system, remote procedure call (RPC) has the following features, such as: 
+            
+            RPC hides the complexity of the message passing process from the user. 
+            RPC only uses specific layers of the OSI model like the transport layer. 
+            Clients can communicate with the server by using higher-level languages. 
+            RPC works well with both local environments and remote environments. 
+            The program of RPC is written in simple code and is easily understood by the programmer. 
+            The operating system can handle processes and threads involved in RPC easily. 
+            The operating system hides the abstractions of RPC from the user. 
+            How RPC works? When a remote procedure call is invoked, the calling environment is suspended, the procedure parameters are transferred across the network to the environment where the procedure is to execute, and the procedure is then executed in that environment. When the procedure finishes, the results are transferred back to the calling environment, where execution resumes as if returning from a regular procedure call.  A remote procedure call (RPC) works in the following steps in an operating system: Step 1: The client, client stub, and RPC run time execute on the client machine. Step 2: A client starts a client stub process by passing parameters in the usual way. The packing of the procedure parameters is called marshalling. The client stub stores within the client's own address space, and it also asks the local RPC Runtime to send back to the server stub. Step 3: In this stage, the user can access RPC by making regular Local Procedural Call. RPC Runtime manages the transmission of messages between the network across client and server, and it also performs the job of retransmission, acknowledgment, routing, and encryption. Step 4: After completing the server procedure, it returns to the server stub, which packs (marshalls) the return values into a message. The server stub then sends a message back to the transport layer. Step 5: In this step, the transport layer sends back the result message to the client transport layer, which returns back a message to the client stub. Step 6: In this stage, the client stub demarshalls (unpack) the return parameters in the resulting packet, and the execution process returns to the caller. Issues of Remote Procedure Call (RPC) In an operating system, Remote procedure call or RPC faced some issues that must be addressed, such as:  1. RPC Runtime The RPC runtime system is a library of routines and services that handle the network communications that underlie the RPC mechanism. In the course of an RPC call, client-side and server-side runtime systems code handle binding, establish communications over an appropriate protocol, pass call data between the client and server, and handle communications errors. 2. Stub The function of the stub is to provide transparency to the programmer-written application code. 
+            
+            On the client-side: The stub handles the interface between the client's local procedure call and the runtime system, marshaling and unmarshaling data, invoking the RPC runtime protocol, and if requested, carrying out some of the binding steps. 
+            On the server-side: The stub provides a similar interface between the runtime system and the local manager procedures executed by the server. 
+            3. Binding How does the client know who to call and where the service resides? The most flexible solution is to use dynamic binding and find the server at run time when the RPC is first made. The first time the client stub is invoked, it contacts a name server to determine the transport address at which the server resides. The binding consists of two parts: 
+            
+            Naming: A Serverhaving a service to offer exports an interface for it. Exporting an interface registers it with the system so that clients can use it. 
+            Locating: A Clientmust import an (exported) interface before communication can begin. 
+            4. The calling semantics associated with RPC It is mainly classified into the following choices, 
+            
+            Retry request message: Whether to retry sending a request message when a server has failed, or the receiver didn't receive the message. 
+            Duplicate filtering: Remove the duplicate server requests. 
+            Retransmission of results: To resend lost messages without re-executing the operations at the server-side. 
+            Characteristics of RPC Here are the essential characteristics of remote procedure call: 
+            
+            The called procedure is in another process, which is likely to reside in another machine. 
+            The processes do not share address space. 
+            Parameters are passed only by values. 
+            RPC executes within the environment of the server process. 
+            It doesn't offer access to the calling procedure's environment. 
+            Advantages of RPC Here are some advantages or benefits of RPC, such as: 
+            
+            RPC method helps clients to communicate with servers by the conventional use of procedure calls in high-level languages. 
+            The RPC method is modeled on the local procedure call, but the procedure is most likely to be executed in a different process and usually a different computer. 
+            RPC supports process and thread-oriented models. 
+            RPC makes the internal message passing mechanism hidden from the user. 
+            The effort needs to re-write and re-develop the code is minimum. 
+            Remote procedure calls can be used for distribution and the local environment. 
+            It commits many of the protocol layers to improve performance. 
+            RPC provides abstraction. For example, the message-passing nature of network communication remains hidden from the user. 
+            RPC allows the usage of the applications in a distributed environment that is not only in the local environment. 
+            With RPC code, re-writing and re-developing efforts are minimized. 
+            Process-oriented and thread-oriented models supported by RPC. 
+            Disadvantages of RPC Here are some disadvantages or drawbacks of using RPC, such as: 
+            
+            Remote Procedure Call Passes Parameters by values only and pointer values, which is not allowed. 
+            Remote procedure calling (and return) time (i.e., overheads) can be significantly lower than a local procedure. 
+            This mechanism is highly vulnerable to failure as it involves a communication system, another machine, and another process. 
+            RPC concept can be implemented in different ways, which is can't standard. 
+            Not offer any flexibility in RPC for hardware architecture as It is mostly interaction-based. 
+            The cost of the process is increased because of a remote procedure call. 
+            
+            
+            
+            Next Topic
+            C-SCAN vs SSTF Disk Scheduling Algorithm 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Apache NiFi Tutorial - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Apache NiFi Tutorial - javatpoint">
+  <meta property="og:description" content="Apache NiFi Tutorial with History, Features, Advantages, Disadvantages, NiFi Architecture, Key concepts of Apache NiFi, Prerequisites of Apache NiFi, Installation of Apache NiFi, etc."> 
+  <meta name="keywords" content="nifi tutorial, nifi, what is nifi, why apache nifi, history of nifi, features of apache nifi, advantages of apache nifi, disadvantages of apache nifi, apache nifi architecture, key concepts of apache nifi, prerequisites of apache nifi, installation of apache nifi, components of apache nifi, how to build a flow">
+  <meta name="description" content="Apache NiFi Tutorial with History, Features, Advantages, Disadvantages, NiFi Architecture, Key concepts of Apache NiFi, Prerequisites of Apache NiFi, Installation of Apache NiFi, etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/apache-nifi"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Apache NiFi Tutorial - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Apache NiFi Tutorial with History, Features, Advantages, Disadvantages, NiFi Architecture, Key concepts of Apache NiFi, Prerequisites of Apache NiFi, Installation of Apache NiFi, etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/apache-nifi">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="apache-nifi">NiFi</a> </li>
+       <li><a href="etl-testing" class="selected">ETL Testing</a> </li>
+       <li><a href="compiler-tutorial">Compiler</a></li> 
+       <li><a href="computer-organization-and-architecture-tutorial">COA</a></li> 
+       <li><a href="computer-network-tutorial">Computer Network</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="selenium-tutorial">Selenium</a></li> 
+       <li><a href="servlet-tutorial">Servlet</a></li> 
+       <li><a href="jsp-tutorial">JSP</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="forum">Forum</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">NiFi Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="apache-nifi">Apache NiFi</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> <h1 class="h1">Apache NiFi Tutorial</h1> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi.png" alt="Apache NiFi Tutorial" class="imageright"> <p>Apache NiFi tutorial provides basic and advanced concepts of the Apache NiFi. Our tutorial is basically designed for beginners as well as professionals who want to learn the basics and programming concepts of Apache NiFi. This tutorial contains several sections, some of which may not be useful for some readers because some information is for first time users.</p> <p>The guide we are giving in this tutorial is intended to provide knowledge how to work with NiFi. To work with NiFi, you should have the basic knowledge of Java, Data ingestion, transformation, and ETL. You should also be familiar with the regex pattern, web server, and platform configuration.</p> <p>In this tutorial, we are going to discuss the following topic:</p> 
+           <ul class="points"> 
+            <li><a href="#WhatIs">What is Apache NiFi?</a></li> 
+            <li><a href="#Why">Why Apache NiFi?</a></li> 
+            <li><a href="#History">History of NiFi</a></li> 
+            <li><a href="#Features">Features of Apache NiFi</a></li> 
+            <li><a href="#Advantages">Advantages of Apache NiFi</a></li> 
+            <li><a href="#Disadvantages">Disadvantages of Apache NiFi</a></li> 
+            <li><a href="#Architecture">Apache NiFi Architecture</a></li> 
+            <li><a href="#KeyConcepts">Key concepts of Apache NiFi</a></li> 
+            <li><a href="#Prerequisites">Prerequisites of Apache NiFi</a></li> 
+            <li><a href="#Installation">Installation of Apache NiFi</a></li> 
+            <li><a href="#UserInterface">User Interface of Apache NiFi</a></li> 
+            <li><a href="#Components">Components of Apache NiFi</a></li> 
+            <li><a href="#buildflow">How to build a flow?</a></li> 
+           </ul> 
+           <hr> <h2 id="WhatIs" class="h2">What is Apache NiFi?</h2> <p><strong>Apache NiFi</strong> is an open-source data ingestion platform. It is a powerful and reliable system used for processing and distributing data between different systems. Apache NiFi helps to manage and automate the flow of data between the systems. NiFi originally stands for <strong>Niagara Files (NiFi)</strong> that was developed by <strong>NSA</strong> but is now maintained by <strong>Apache foundation</strong> for further updates. It provides web-based User Interface (UI), which uses HTTPS protocol to run NiFi on a web browser that makes user interaction secure with NiFi.</p> <h4 class="n">Note that the latest version of Apache NiFi is 1.11.4 that is released on March 2020.</h4> <p>It is a web-based UI platform where we need to define the source, processor, and destination for the collection of data, transmission of data, and data storage, respectively. Each processor in NiFi has some relationships (such as success, failed, retry, or invalid data, etc.), which are used while connecting one processor to another.</p> 
+           <hr> <h2 id="Why" class="h2">Why Apache NiFi?</h2> <p>Apache NiFi helps to manage and automate the flow of data between the systems. It can easily manage the data transfer between source and destination systems. It can be described as data logistics. Apache NiFi helps to move and track data similar to the parcel services as how data move and track. It provides <strong>web-based User Interface</strong> (UI) to manage data in real-time.</p> <p>As we have already discussed that Apache NiFi is an open-source, therefore it is freely available. It supports various data formats (such as logs, social feeds, and geographical location data, etc.) and protocols (such as KAFKA, SFTP, and HDFS, etc.). \Supports of a wide variety of protocols make this platform more popular in <a href="https://www.javatpoint.com/it-full-form">IT</a> industry.</p> <p>Below are some reasons given that why use Apache NiFi:</p> 
+           <ul class="points"> 
+            <li>NiFi allows you to pull the data from various sources into NiFi and create flow files.</li> 
+            <li>It allows you to use the existing libraries and Java ecosystem functionality.</li> 
+            <li>It guarantees that the data must be delivered to the destination.</li> 
+            <li>NiFi helps to fetch, aggregate, split, transform, listen, route, and drag &amp; drop dataflow.</li> 
+            <li>It visualizes the dataflow at an enterprise level.</li> 
+            <li>NiFi can easily install on AWS (Amazon Web Service).</li> 
+            <li>It allows us to start and stop components individually as well as group level.</li> 
+           </ul> 
+           <hr> <h2 id="History" class="h2">History of NiFi</h2> <p>NiFi originally named <strong>Niagara File</strong>, which is now known as Apache NiFi. It was developed by National Security Agency (NSA) which is now handed over to the Apache Software Foundation.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-history.png" alt="Apache NiFi Tutorial"> <p>The changes that made in the history of Apache NiFi is given below year-wise:-</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>Year</th> 
+              <th>Description</th> 
+             </tr> 
+             <tr> 
+              <td><strong>2006</strong></td> 
+              <td>Niagara Files (NiFi) was developed by the NSA (United State National Security Agency) in 2006 for over eight years. </td> 
+             </tr> 
+             <tr> 
+              <td><strong>2014</strong></td> 
+              <td>In November 2014, NSA released it as open-source software and donated to Apache Software Foundation (ASF).</td> 
+             </tr> 
+             <tr> 
+              <td><strong>2015</strong></td> 
+              <td>In July 2015, it reached to ASF top-level project status and became an official part of Apache Project Suite.</td> 
+             </tr> 
+             <tr> 
+              <td><strong>Till now</strong></td> 
+              <td>Every 6-8 months since then, Apache releases a new update of Apache NiFi.</td> 
+             </tr> 
+            </tbody>
+           </table> 
+           <hr> <h2 id="Features" class="h2">Features of Apache NiFi</h2> <p>Apache NiFi supports the directed graph of data routing, system mediation, and transformation. There are some reasons why NiFi came up is because of the data challenges we have. NiFi has a list of data challenges that are the features of NiFi. So, the various features of NiFi are described below:</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-features.png" alt="Apache NiFi Tutorial"> <p><strong>1. Web-based UI -</strong></p> <p>NiFi offers <strong>web-based User Interface</strong> (UI) that can run over HTTPS, which makes user interaction secure with NiFi. It also manages the data in real-time. NiFi provides experience with design, control, monitoring, and feedback.</p> <p><strong>2. Guaranteed Delivery -</strong></p> <p>It is one of the most important and very powerful features of Apache NiFi that the delivery of data is guaranteed to be done. It can be achieved by the effective use of persistent write-ahead log and content repository. They both are designed together in such a way that allows for high transaction rate, copy-on-write, effective load spreading. NiFi is highly configurable.</p> <p><strong>3. Data Provenance or Data Lineage -</strong></p> <p>NiFi provides a data provenance module for tracking and monitoring data flows from beginning to end. NiFi automatically records, indexes, and makes available the provenance data as objects flow through the system. For supporting compliance, optimization, troubleshooting, and many other scenarios, this information becomes very useful.</p> <p><strong>4. Extensible -</strong></p> <p>This feature allows you to create your own processor. It enables fast development and effective testing. NiFi supports secure protocols such as SSH, SSL, HTTPS, encrypted content and also provides multi-tenant authorization as well as internal policy management. In NiFi, the number of different connectors is increasing.</p> 
+           <ul class="points"> 
+            <li>The user can build their custom processor according to the requirement.</li> 
+            <li>This feature of NiFi offers rapid development and effective testing.</li> 
+           </ul> <p><strong>5. Visual Command and control -</strong></p> <p>Dataflows can be quite complex. NiFi has an interactive user interface for the user, capable of visualizing and expressing the dataflows. It allows the visual formation of dataflows and helps to express them visually to reduce the complexity of dataflow. NiFi not only enables the visual formation of dataflows but is performed in real-time. If you make any change in data flow or modify it, that change is immediately reflected. You don't need to stop the entire flow to make any specific modification.</p> <p><strong>6. Security -</strong></p> <p>Apache NiFi offers system to system, user to system, and multi-tenant authorization security feature. NiFi uses secure protocols such as SSL, SSH, and HTTPS for security reasons. It also uses other encryption to make data secure.</p> 
+           <hr> <h2 id="Advantages" class="h2">Advantages of Apache NiFi</h2> 
+           <ul class="points"> 
+            <li>Apache NiFi supports SFTP protocol using which it enables the data fetching from remote machines.</li> 
+            <li>Apache NiFi offers web-based User Interface (UI). So that NiFi can run on a web browser using localhost and port. On a web browser, it uses HTTPS protocol that makes user interaction with NiFi secure.</li> 
+            <li>It also provides security policies at user level, process group level as well as other modules.</li> 
+            <li>NiFi supports all the devices that run Java.</li> 
+            <li>A user can create custom plugins to support different types of data systems, although NiFi already supports around 188 processors.</li> 
+            <li>It provides real-time control that eases the movement of data between source and destination.</li> 
+           </ul> 
+           <hr> <h2 id="Disadvantages" class="h2">Disadvantages of Apache NiFi</h2> 
+           <ul class="points"> 
+            <li>In case of primary node switching, Apache NiFi has a state persistence issue. Because of this issue, sometimes it does not enable the processor to fetch the data from the source.</li> 
+            <li>While making any change by a user node gets disconnected from the NiFi cluster, and then flow.xml becomes invalid. A node cannot reconnect to the cluster until the administrator manually copies the <strong>xml</strong> file from the connected node.</li> 
+            <li>All data are not created similarly.</li> 
+            <li>It offers SSL and topic level authorization, which may not be sufficient.</li> 
+            <li>To work with Apache NiFi, you must have good underlying system knowledge.</li> 
+           </ul> 
+           <hr> <h2 id="Architecture" class="h2">Architecture of Apache NiFi</h2> <p>Apache NiFi has a processor, flow controller, and web server that executes on the JVM machine. Additionally, it also includes <strong>three repositories</strong>, as shown in the figure, which are FlowFile repository, Content repository, and Provenance repository. NiFi runs within a JVM (Java Virtual Machine) on a host Operating System and every data or metadata store in repositories. The well-organized architecture of NiFi is as follows:</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-architecture.png" alt="Apache NiFi Tutorial"> <p>The key components of Apache NiFi architecture are discussed below in detail:</p> <h3 class="h3">Web Server</h3> <p>The Web Server hosts the HTTP-based commands and control <a href="https://www.javatpoint.com/api-full-form">API</a> of NiFi.</p> <h3 class="h3">Flow Controller</h3> <p>The flow controller provides threads to execute the extensions. It also schedules the extensions when resources are received to execute. It works as a brain of operations.</p> <h3 class="h3">Extension</h3> <p>Extensions are various type of plugin that allows Apache NiFi to interact with different systems. Extensions help the process to complete the task. NiFi has several types of extensions. These extensions are executed and operated within the <a href="https://www.javatpoint.com/jvm-java-virtual-machine">Java Virtual Machine</a> (JVM).</p> <h3 class="h3">FlowFile repository</h3> <p>The FlowFile repository contains the current state and attribute of each FlowFile that passes through the data flows of NiFi. NiFi keeps track of the state in FlowFile repository, which is currently active in the flow. The root directory is the default location of this repository, it can be changed. The default location of this repository can be changed by changing the property "<strong>nifi.flowfile.repository.directory</strong>".</p> <h3 class="h3">Content repository</h3> <p>The content repository stores all the data present in all the flowfiles. Implementation of the content repository is pluggable same as the FlowFile repository. Its default approach is a simple mechanism to store block of data in file system.</p> <p>The default directory of content repository is in root directory of NiFi and can be changed by changing the "<strong>org.apache.nifi.controller.repository.FileSystemRepository</strong>" property.</p> <h3 class="h3">Provenance repository</h3> <p>The provenance repository is the repository that stores all the provenance event data. Event data is indexed and searchable within each location. It allows the user to check information about FlowFile, which means it tracks and stores all the events of all flowfiles that flows in the Apache NiFi. It also enables the troubleshooting if any issue occurs while processing FlowFile</p> <p>Provenance repository has divided into two types:</p> 
+           <ol class="points"> 
+            <li><strong>Volatile provenance repository -</strong> All provenance data is lost after restart in this repository.</li> 
+            <li><strong>Persistence provenance repository -</strong> The default directory of persistence provenance is in the root directory of Apache NiFi. It can be changed using the "<strong>apache.nifi.provenance.PersistanceProvenanceRepository</strong>" property.</li> 
+           </ol> <p>Apache NiFi can also work within a cluster.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-architecture2.png" alt="Apache NiFi Tutorial"> <p>A Zero-Master Clustering paradigm is employed with the beginning NiFi 1.0 first version release. In NiFi cluster, each node works on a different set of data, but it performs the same task on the data. Apache Zookeeper chooses a single node as the cluster coordinator and handles the failure automatically. Each node of the cluster reports to the cluster coordinator about heartbeat and status. The cluster coordinator is responsible for connecting or disconnecting the nodes.</p> <p>In addition, each cluster again has a primary node, which is also selected by Zookeeper. You can interact with NiFi cluster as a data flow manager or end developer using the user interface (UI) of any node. Any changes that are made by the user are replicated for all nodes of the cluster, which will allow several entry points.</p> 
+           <hr> <h2 id="Keyconcepts" class="h2">Key concepts of Apache NiFi</h2> <p>While discussing NiFi Architecture, the user must be familiar with the following key terms of Apache NiFi. So, we will discuss fundamental key concepts at a high level. They are related to the idea of Flow-Based Programming (FBP).</p> <h3 class="h3">Flow</h3> <p>Flow is created by connecting two or more different processors. It is used to transfer the data from one data source to another destination data source. This data can be modified if required.</p> <h3 class="h3">Processor</h3> <p>A processor is a java module used to either fetch data from the source system or to be stored in the destination system. There are many other processors available that can be used to add attribute or alter/change the content in the FlowFile. Processor is responsible for sending, receiving, creating, splitting, merging, transforming, routing, and processing flowfiles.</p> <h3 class="h3">Connection</h3> <p>Connection is known as a bounded buffer in FBP terms. It is a link between processors that connects the processors. It acts as a queue that holds the data in queue when needed. It allows several processes to interact at different rates.</p> <h3 class="h3">Process Group</h3> <p>A process group is a set of NiFi flows. It helps the users to manage the flows and keep them in a hierarchical manner. Basically, it is a set of processes and their connections, which can receive data through the input ports and send through the output ports.</p> <h3 class="h3">FlowFile</h3> <p>FlowFile is the original data with which meta-information is associated. It represents each object that is moving through the system. The NiFi processor changes to the FlowFile while object moves from source to destination processor. Basically, a FlowFile is created by parts that are Content and Attributes. Content is the user data and Attributes are the key-value pairs that are attached with user data.</p> <h3 class="h3">Data Provenance</h3> <p>It is a repository, which allows the user to check information about FlowFile. It also enables the troubleshooting if any issue occurs while processing FlowFile.</p> 
+           <hr> <h2 id="Prerequisites" class="h2">Prerequisites of Apache NiFi</h2> <p>Before using Apache NiFi, following things must be done on your system:</p> 
+           <ol class="points"> 
+            <li>Download Java on your system.</li> 
+            <li>Set the Java Environment Variable.</li> 
+           </ol> <p>Along with these requirements, you should have the basic knowledge of <a href="https://www.javatpoint.com/java-tutorial">Java</a>, Data ingestion, transformation, and <a href="https://www.javatpoint.com/etl-testing">ETL</a> to work with Apache NiFi.</p> <p>Users should also be familiar with the regex pattern, web server, and platform configuration.</p> <h4 class="n">Note that NiFi is more compatible with Java version 8 or 11. So, we suggest you to download the required version of Java.</h4> 
+           <hr> <h2 id="Installation" class="h2">Install Java and setup environment variable</h2> 
+           <ul class="points"> 
+            <li><a href="https://www.java.com/en/download/" rel="nofollow" target="_blank">Click here</a> to download the Java.</li> 
+            <li>Agree with terms and conditions.</li> 
+            <li>Run the downloaded exe file by double on it.</li> 
+            <li>To complete the installation process, continue with all default options and finish the installation process. It will take a bit of time to install.</li> 
+           </ul> <p>Now, the next step is to setup the Java Environment Variable -</p> 
+           <ul class="points"> 
+            <li>Right-click on your <strong>Computer</strong> (My PC) <strong>icon</strong> on the desktop and select <strong>Properties</strong>, i.e., <strong>My PC -&gt; Properties.</strong></li> 
+            <li>Navigate to <strong>Advanced system settings -&gt; Environment Variables -&gt; System variables</strong>.</li> 
+            <li>Under the System variables section, click on <strong>New</strong> to create a new system variable.</li> 
+            <li>Here, enter the variable name and variable value to set permanent path of Java.</li> 
+            <li>Provide variable name as JAVA_HOME or anything else which you want.</li> 
+            <li>For variable value, go to the directory where Java is installed and copy the path of <strong>JRE</strong> folder and paste it in the Variable value field. 
+             <ul class="points"> 
+              <li>Variable name: JAVA_HOME</li> 
+              <li>Variable value: C:\Program Files (x86)\Java\jre1.8.0_251</li> 
+             </ul></li> 
+           </ul> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation.png" alt="Apache NiFi Tutorial"> 
+           <ul class="points"> 
+            <li>Click on OK -&gt; OK -&gt; OK and close all tabs.</li> 
+           </ul> <p>Now, verify that Java is installed and the environment variable is set up successfully.</p> 
+           <ul class="points"> 
+            <li>Open the command prompt and type command <strong><em>javac</em></strong> on it and press Enter key. If the output will display same as the screenshot below, Java is installed successfully.</li> 
+           </ul> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation2.png" alt="Apache NiFi Tutorial"> <p>Now you can download and install Apache NiFi on your system.</p> <h3 class="h3">Installation of Apache NiFi on Windows</h3> <p>In this tutorial, we will install the setup of Apache NiFi on <a href="https://www.javatpoint.com/windows">Windows Operating System</a>. For step by step installation of Apache NiFi, follow the steps given below:</p> <p><strong>Step 1:</strong> Click on the following link <a href="https://nifi.apache.org/download.html" rel="nofollow" target="_blank">http://nifi.apache.org/download.html</a> and download the latest version of Apache NiFi.</p> 
+           <ul class="points"> 
+            <li>Download the <strong>zip</strong> file of Apache NiFi for Windows Operating system, while</li> 
+            <li>For the Linux Operating System, download the <strong>tarball (tar.gz)</strong></li> 
+            <li>Mac users can also download <strong>tarball</strong> file for Mac OS or can install it via Homebrew by running <strong><em>brew install nifi</em></strong> command on command line.</li> 
+           </ul> <p><strong>Step 2:</strong> Under the Binaries section, click on the zip file of NiFi setup for windows OS, as shown in the below screenshot.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation3.png" alt="Apache NiFi Tutorial"> <p><strong>Step 3:</strong> The above link will redirect you to a new page. Here, click on the first link as shown in the screenshot below. We are downloading the latest version of NiFi, i.e., 1.11.4.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation4.png" alt="Apache NiFi Tutorial"> <p><strong>Step 4:</strong> Once the download is complete, extract the downloaded zip setup of Apache NiFi. To extract the <strong>zip</strong> file, right-click on the downloaded file and select <strong>Extract here</strong>.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation5.png" alt="Apache NiFi Tutorial"> <p><strong>Step 5:</strong> The zip file will start extracting.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation6.png" alt="Apache NiFi Tutorial"> <h4 class="n">Note: Remember that Java must be installed on your system and environment variable have to be set as well. So, first make sure Java is installed. If not, install it and set the Java environment variable as well.</h4> <p><strong>Step 6:</strong> Now, Go to the bin folder inside the extracted folder, i.e., <strong>nifi-1.11.4/bin</strong>. Click on the <strong>run-nifi</strong> window batch file and run it to start NiFi.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation7.png" alt="Apache NiFi Tutorial"> <p><strong>Step 7:</strong> The <strong>run-nifi.bat</strong> will run the command prompt, which will look like the below screenshot.</p> <p>This bat file must be executed before running NiFi on a web browser.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation8.png" alt="Apache NiFi Tutorial"> <p>NiFi has been started. Now you can open it from any <a href="https://www.javatpoint.com/browsers">web browser</a> like <a href="https://www.javatpoint.com/google-chrome">Chrome</a>, or <a href="https://www.javatpoint.com/internet-explorer">Internet Explorer</a>, etc. So, we need a port number to run the NiFi UI on a web browser.</p> <p><strong>Step 8:</strong> Therefore, go to the <strong>conf</strong> folder (<strong>nifi-1.11.4/conf</strong>) that has all the configuration files for NiFi and open the <strong>nifi.properties</strong> file in notepad. Scroll down and check the <strong>port number</strong> of nifi.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation9.png" alt="Apache NiFi Tutorial"> <p>The default port of Apache NiFi is <strong>8080</strong>. If the default port number is already assigned to any other software program, change the port number such as 9090 and save the file.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation10.png" alt="Apache NiFi Tutorial"> <p><strong>Step 9:</strong> Now, open the web browser and type <em>http://localhost:8080</em> in your browser tab. Here, we have used default port 8080 to run the NiFi because port 8080 is free on our system.</p> <p><strong>Step 10:</strong> The dashboard of NiFi will launch on the browser on successful installation. The dashboard screen of Apache NiFi is called <strong>canvas</strong>, where we place the components to create data flows.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation11.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Issues while running Apache NiFi on web browser</h3> <p>NiFi will run on the web browser successfully by following above installation steps. If not, then this can be done because of these reasons:</p> 
+           <ul class="points"> 
+            <li>Java is not installed on your system.</li> 
+            <li>Java Environment Variable is not set.</li> 
+            <li>Port is not free or,</li> 
+            <li>You have not run the <strong>run-nifi</strong> file that exists inside the <strong>bin</strong></li> 
+           </ul> <p>Resolved the mentioned issues and retry again to run NiFi.</p> <h3 class="h3">Change Port Number</h3> <p>If the NiFi gives the error "<strong>This site can't be reached</strong>" on the web browser, it may be port is not free. So, follow the steps below to change the port number:</p> <p><strong>Step 1:</strong> Go to the <strong>conf</strong> folder inside the extracted zip folder, i.e., <strong>nifi-1.11.4/bin</strong>. It contains all the configuration files for NiFi.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation12.png" alt="Apache NiFi Tutorial"> <p><strong>Step 2:</strong> Open the <strong>nifi.properties</strong> file with notepad or any other text editor tool and change the port number and save the file.</p> <p>nifi.web.http.port=9090</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-installation13.png" alt="Apache NiFi Tutorial"> <p>Retry again and run the Apache NiFi on the web browser with a new port number.</p> 
+           <hr> <h2 id="UserInterface" class="h2">User Interface of Apache NiFi</h2> <p>Once the NiFi has been started successfully, UI will bring up to you to create and monitor the dataflows. NiFi UI provides an interactive interface that can be accessed by the users on a web browser. Users can drag and drop components in NiFi. It provides various type of information about NiFi such as:</p> 
+           <ul class="points"> 
+            <li>Active threads</li> 
+            <li>Running components</li> 
+            <li>Stopped components</li> 
+            <li>Disabled components</li> 
+            <li>Invalid components</li> 
+            <li>Total queued data</li> 
+            <li>Stale Versioned process Groups</li> 
+            <li>Up to date Versioned Process Groups</li> 
+            <li>Sync failure Versioned Process Groups</li> 
+            <li>Locally modified Versioned Process Groups</li> 
+            <li>Stale and Locally modified Versioned Process Groups</li> 
+            <li>Transmitting Remote Process Groups</li> 
+            <li>Not Transmitting Remote Process Groups</li> 
+           </ul> <p>The below screenshot is User Interface of Apache NiFi:</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-user-interface.png" alt="Apache NiFi Tutorial"> 
+           <hr> <h2 id="Components" class="h2">Components of Apache NiFi</h2> <p>There are following components of Apache NiFi, which are listed under the component section of the toolbar -</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Processor</h3> <p>Processors are basic blocks that are used for creating a data flow. Apache NiFi has several processors, where each processor has different functionality. Users can drag and drop the processor icon on the canvas to add the processor and then select the desired processor to create the dataflow.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components2.png" alt="Apache NiFi Tutorial"> <p>Drag the process icon on the canvas that will open an <strong>Add Processor</strong> window. Choose the desired processor you needed for the data flow in Apache NiFi.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components3.png" alt="Apache NiFi Tutorial"> <p>To know more about the processor, right-click on it and go to <strong>Usage</strong>. This will bring up the documentation of the processor. It provides information like what a processor does, properties that need to be configured, and the relationship for the processor.</p> <h3 class="h3">Input Port</h3> <p>An input port is used for getting data from the processor, which is not present in that process group. The input port can be dragged on the canvas by clicking on the icon given below.</p> <p>To add an input port to any data flow, drag the icon on canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components4.png" alt="Apache NiFi Tutorial"> <p>After dragging the icon onto the canvas, NiFi asks you to enter the name for the input port. Provide the name of the input port and click on the Add button. </p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components5.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Output Port</h3> <p>An output port is used for transferring data to the processor, which is not present in that process group. The output port can be dragged on the canvas by clicking on the icon given below.</p> <p>To add the output port to any data flow, drag the icon on canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components6.png" alt="Apache NiFi Tutorial"> <p>After dragging this icon onto the canvas, NiFi pops up a screen to enter the name for the output port. Provide the name of the output port and click on the Add button. </p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components7.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Process Group</h3> <p>The below icon is used to add the process group in NiFi canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components8.png" alt="Apache NiFi Tutorial"> <p>After dragging this icon to the canvas, NiFi pops up a screen where enter the name of the Process Group and then add it to the NiFi canvas by clicking the Add button. </p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components9.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Remote Process Group</h3> <p>The below icon is used to add the process group in NiFi canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components10.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Template</h3> <p>Templates are used to reuse the data flow in same or different NiFi instances. The icon that is given below is used to add the template onto the NiFi canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components11.png" alt="Apache NiFi Tutorial"> <p>After dragging the Template icon, the user can choose the template already added in NiFi.</p> <h3 class="h3">Funnel</h3> <p>Funnel helps to transfer the output of a processor to several other processors. With the help of below icon, a user can add the funnel to a data flow.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components12.png" alt="Apache NiFi Tutorial"> <h3 class="h3">Label</h3> <p>Labels are used to add the text about any components that exist in NiFi. It also provides various color options. The developers can change label color as well as size of the text. They can use these colors to add an aesthetic sense.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-components13.png" alt="Apache NiFi Tutorial"> <p>In the top menu of NiFi UI, first leftmost icon is used to add label in NiFi canvas.</p> 
+           <hr> <h2 id="buildflow" class="h2">How to build a flow?</h2> <p>In this example, we are going to build a simple two processor flow. First of all, we will add two processors on canvas window and configure each of them. After configuring both the processor, we will connect and run them.</p> <h3 class="h3">Add and configure processors</h3> <p><strong>Step 1:</strong> To add a processor on the canvas, go to the component section in the toolbar and drag a processor component. This will open a Add Processor window, where you go through the list of processors.</p> <p><strong>Step 2:</strong> Find the required processor or click on its tag under the Tag Cloud to reduce the list of processors by category and functionality that you are looking for a processor.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow.png" alt="Apache NiFi Tutorial"> <p><strong>Step 3:</strong> Click on the processor that you want to select and add it to the canvas by clicking on the <strong>Add</strong> button. Similarly, drag the processor icon again, type the name of the processor you want and double-click to add it to the canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow2.png" alt="Apache NiFi Tutorial"> <p><strong>Step 4:</strong> If you already know the processor name that you want, you can simply type the name of the processor up here in the filter bar. After that, double-click on the processor to add it to the canvas.</p> <p>By using the above steps, add two processors on the canvas.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow3.png" alt="Apache NiFi Tutorial"> <p><strong>Step 5:</strong> But you will see that both processors are invalid because they have a warning symbol in the upper left corner of the processor base.</p> <p>Hover the mouse over the warning icon, it will show the minimum requirements need to be configured to make processors valid and able to run.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow4.png" alt="Apache NiFi Tutorial"> <h4 class="n">Note: To know more about the processor, right-click on it and go to Usage option. It will show you the documentation for the processor.</h4> <p><strong>Step 6:</strong> To configure the processor, simply right click on the respective processor and go to configure.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow5.png" alt="Apache NiFi Tutorial"> <p>A window of Configure Processor with default values will pop up to you. This will bring up a new window containing four tabs, i.e., <strong>Setting</strong>, <strong>Scheduling</strong>, <strong>Properties</strong>, and <strong>Comment</strong>.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow6.png" alt="Apache NiFi Tutorial"> <h3 class="h4">Configure GenerateFlowFile Processor</h3> <p><strong>Setting</strong></p> <p>Go to the Setting tab and change the name of the processor in Name field, because by default its name is the processor type. Each processor has a unique id number, which is not configurable.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow7.png" alt="Apache NiFi Tutorial"> <p>This processor only has success relationship. So, leave the Automatically Terminate Relationship unchecked because we want to continue to the next processor in the flow.</p> <p><strong>Scheduling</strong></p> <p>The scheduling tab defines how to run, how often to run, and how long to run.</p> <p>Set the Run Schedule to 1 sec because this processor can produce test files very fast. Leave all other fields as default for now.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow8.png" alt="Apache NiFi Tutorial"> <p><strong>Properties</strong></p> <p>Properties tab is the main tab where you configure the information that the processor needs to run properly, where properties that are not in bold letters are optional.</p> <p>Double click on the <strong>File Size</strong> row to change the size of the file.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow9.png" alt="Apache NiFi Tutorial"> <p>Here change the File Size from 0B to 1KB and click on the <strong>OK</strong> button.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow10.png" alt="Apache NiFi Tutorial"> <p><strong>Comment</strong></p> <p>In the comment tab, type any comments like why you configured the processor or the way you did.</p> <p><strong>Step 7:</strong> Now, click on the <strong>Apply</strong> button to save all the changes are made and complete the configuration of GenerateFlowFile processor.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow11.png" alt="Apache NiFi Tutorial"> <h3 class="h4">Configure LogAttribute Processor</h3> <p>Similar to the GenerateFlowFile processor, right-click on it and go to <strong>Configure,</strong> where we will change a couple of things that we didn't in FlowFile processor. Here you will also get a new window containing four tabs, i.e., Setting, Scheduling, Properties, and Comment.</p> <p><strong>Step 8:</strong> Go to the <strong>Setting</strong> tab and change the <strong>Buttetin Level</strong> drop-down list to <strong>INFO</strong> in place of <strong>WARN</strong>.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow12.png" alt="Apache NiFi Tutorial"> <p><strong>Step 9:</strong> Mark the <strong>success</strong> checkbox under the Automatically Terminate Relationships on the right side of window.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow13.png" alt="Apache NiFi Tutorial"> <p><strong>Step 10:</strong> Leave other sections of all tabs with default settings and click on the <strong>Apply</strong> button to complete the configuration of the <strong>GenerateFlowFile</strong> processor.</p> <p>After completing the above steps, you can see that both the processors are still invalid. This is because we have not connected them. So, we will now connect both processors and run.</p> <h3 class="h3">Connect and run processors</h3> <p><strong>Step 1:</strong> To connect the processors to each other, hover the mouse over the center of the processor, an aero in a circle will show. Drag the mouse from that circle to another processor until it highlighted in green.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow14.png" alt="Apache NiFi Tutorial"> <p><strong>Step 2:</strong> Release the mouse here. A Create Connection window will open containing details and setting tab. Leave the current settings as default for now and click on the <strong>ADD</strong> button.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow15.png" alt="Apache NiFi Tutorial"> <p>The Details tab shows what the connection is going from and to. It also shows the list of relationships that will be included in the connection.</p> <p><strong>Step 3:</strong> Now, you can see that both the processors are valid now as they have a stop symbol in place of warning symbol at the upper left-hand corner.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow16.png" alt="Apache NiFi Tutorial"> <p><strong>Step 4:</strong> To run both processors, select both the processors by pressing the <strong>Shift</strong> key and click on the <strong>Start</strong> button present under the Operate section.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow17.png" alt="Apache NiFi Tutorial"> <p><strong>Step 5:</strong> Here, the processors have been started running now after connecting successfully. You can see that no information is sent or received by any processor yet.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow18.png" alt="Apache NiFi Tutorial"> <p><strong>Step 6:</strong> Click anywhere on the canvas and select <strong>Refresh</strong> to see that what the processors are actually doing by the information.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow19.png" alt="Apache NiFi Tutorial"> <p><strong>Step 7:</strong> You can see that the Log Attribute is producing bulletins. I had configured it to produce bulletins at info level. This information represents what happened in the processors over the last five minutes.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow20.png" alt="Apache NiFi Tutorial"> <p><strong>Step 8:</strong> Here, you can see that 274KB data is out from the GenerateFlowFile processor and 273KB is received by LogAttribute processor, where 1KB data is queued. The GenerateFlowFile processor is sending information, which is received by LogAttribute processor.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow21.png" alt="Apache NiFi Tutorial"> <p>Let's compare both processors, notice that no data is coming into the GenerateFlowFile processor because it does not have any incoming connection. So, it generates data itself.</p> <p><strong>Step 9:</strong> Now, let's stop the LogAttribute processor for a few seconds by selecting the processor and click on stop. You will see that the data has been queued up in the connection that is feeding it if we refresh the state, as we have also done earlier.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow22.png" alt="Apache NiFi Tutorial"> <p><strong>Step 10:</strong> Now right-click on Log Attribute processor and choose <strong>Start</strong> to restart the processor so that the queue data will clear out.</p> <img src="https://static.javatpoint.com/tutorial/nifi/images/nifi-how-to-build-a-flow23.png" alt="Apache NiFi Tutorial"> <p>Now, it will run accurately. </p> 
+           <hr> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e0868585848281838ba08a81968194908f898e94ce838f8d">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/apache-nifi"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/apache-nifi"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/apache-nifi"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9df5efddf7fcebfce9edf2f4f3e9b3fef2f0">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b1d9c3f1dbd0c7d0c5c1ded8dfc59fd2dedc9f">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

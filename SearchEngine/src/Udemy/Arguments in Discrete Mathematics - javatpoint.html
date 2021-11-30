@@ -1,0 +1,1153 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Arguments in Discrete Mathematics - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Arguments in Discrete Mathematics - javatpoint">
+  <meta property="og:description" content="Arguments in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc."> 
+  <meta name="keywords" content="discrete mathematics, tutorial, dms, introduction, sets, sets theory, types of sets, set operations, algebra of sets, multisets, mathematical induction, relations, functions and algorithms, recursively, logic and propositional calculus, techniques of counting, probability, graphs">
+  <meta name="description" content="Arguments in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/arguments-in-discrete-mathematics"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Arguments in Discrete Mathematics - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Arguments in Discrete Mathematics with introduction, sets theory, types of sets, set operations, algebra of sets, multisets, induction, relations, functions and algorithms etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/arguments-in-discrete-mathematics">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="dbms-tutorial">DBMS</a></li> 
+       <li><a href="data-structure-tutorial">DS</a></li> 
+       <li><a href="discrete-mathematics-tutorial" class="selected">DMS</a></li> 
+       <li><a href="daa-tutorial">DAA</a></li> 
+       <li><a href="graph-theory-tutorial">Graph Theory</a></li> 
+       <li><a href="control-system-tutorial">Control System</a></li> 
+       <li><a href="aptitude/quantitative">Aptitude</a></li> 
+       <li><a href="selenium-tutorial">Selenium</a></li> 
+       <li><a href="kotlin-tutorial">Kotlin</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+       <li><a href="training">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Discrete Mathematics</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-tutorial">Discrete Mathematics</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Sets Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sets-introduction">Sets Introduction</a> 
+      <a href="types-of-sets">Types of Sets</a> 
+      <a href="sets-operations">Sets Operations</a> 
+      <a href="algebra-of-sets">Algebra of Sets</a> 
+      <a href="multisets">Multisets</a> 
+      <a href="inclusion-exclusion-principle">Inclusion-Exclusion Principle</a> 
+      <a href="mathematical-induction">Mathematical Induction</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Relations</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="binary-relation">Binary Relation</a> 
+      <a href="representation-of-relations">Representation of Relations</a> 
+      <a href="composition-of-relations">Composition of Relations</a> 
+      <a href="types-of-relations">Types of Relations</a> 
+      <a href="closure-properties-of-relations">Closure Properties of Relations</a> 
+      <a href="equivalence-relations">Equivalence Relations</a> 
+      <a href="partial-ordering-relations">Partial Ordering Relations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Functions &amp; Algorithms</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="functions">Functions</a> 
+      <a href="types-of-functions">Types of Functions</a> 
+      <a href="identity-functions">Identity Functions</a> 
+      <a href="compositions-of-functions">Composition of Functions</a> 
+      <a href="mathematical-functions">Mathematical Functions</a> 
+      <a href="algorithms-and-functions">Algorithms &amp; Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Logic &amp; Propositional</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="propositions-and-compound-statements">Propositions &amp; Compound Statements</a> 
+      <a href="basic-logical-operations">Basic Logical Operations</a> 
+      <a href="conditional-and-biconditional-statements">Conditional &amp; Biconditional Statements</a> 
+      <a href="tautologies-and-contradiction">Tautologies &amp; Contradictions</a> 
+      <a href="predicate-logic">Predicate Logic</a> 
+      <a href="normal-forms">Normal Forms</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Counting Techniques</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="basic-counting-principles">Basic Counting Principles</a> 
+      <a href="permutation-and-combinations">Permutations &amp; Combinations</a> 
+      <a href="pigeonhole-principle">Pigeonhole Principle</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Recurrence Relations</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="recurrence-relations">Recurrence Relations</a> 
+      <a href="linear-recurrence-relations-with-constant-coefficients">Linear Recurrence Relations with Constant Coefficients</a> 
+      <a href="particular-solution">Particular Solution</a> 
+      <a href="total-solution">Total Solution</a> 
+      <a href="generating-functions">Generating Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Probability Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="probability">Probability</a> 
+      <a href="addition-theorem">Addition Theorem</a> 
+      <a href="multiplication-theorem">Multiplication Theorem</a> 
+      <a href="conditional-probability">Conditional Probability</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Graph Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="introduction-of-graphs">Introduction of Graphs</a> 
+      <a href="types-of-graphs">Types of Graphs</a> 
+      <a href="representation-of-graphs">Representation of Graphs</a> 
+      <a href="isomorphic-and-homeomorphic-graphs">Isomorphic and Homeomorphic Graphs</a> 
+      <a href="regular-and-bipartite-graphs">Regular and Bipartite Graphs</a> 
+      <a href="planar-and-non-planar-graphs">Planar and Non-Planar Graphs</a> 
+      <a href="discrete-mathematics-dijkstras-algorithm">Dijkstra's Algorithm</a> 
+      <a href="discrete-mathematics-travelling-salesman-problem">Travelling Salesman Problem</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Binary Trees</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-introduction-of-trees">Introduction of Trees</a> 
+      <a href="discrete-mathematics-binary-trees">Binary Trees</a> 
+      <a href="discrete-mathematics-traversing-binary-trees">Traversing Binary Trees</a> 
+      <a href="discrete-mathematics-binary-search-trees">Binary Search Trees</a> 
+      <a href="discrete-mathematics-minimum-spanning-tree">Minimum Spanning Tree</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Operator &amp; Postulates</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-binary-operation">Binary Operation</a> 
+      <a href="discrete-mathematics-properties-of-binary-operations">Property of Binary Operations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Group Theory</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-semigroup">SemiGroup</a> 
+      <a href="discrete-mathematics-group">Group</a> 
+      <a href="discrete-mathematics-subgroup">SubGroup</a> 
+      <a href="discrete-mathematics-normal-subgroup">Normal Subgroup</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Ordered Sets &amp; Lattices</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-partially-ordered-sets">Partially Ordered Sets</a> 
+      <a href="discrete-mathematics-hasse-diagrams">Hasse Diagrams</a> 
+      <a href="discrete-mathematics-lattices">Lattices</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Boolean Algebra</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-boolean-algebra">Boolean Algebra</a> 
+      <a href="discrete-mathematics-boolean-expression">Boolean Expression</a> 
+      <a href="discrete-mathematics-canonical-forms">Canonical Forms</a> 
+      <a href="discrete-mathematics-logic-gates-and-circuits">Logic Gates &amp; Circuits</a> 
+      <a href="discrete-mathematics-karnaugh-maps">Karnaugh Maps</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="proof-of-de-morgans-law">Proof of De Morgan's Law</a> 
+      <a href="discrete-mathematics-for-computer-science">Discrete mathematics for Computer Science</a> 
+      <a href="abelian-groups-in-discrete-mathematics">Abelian Groups in Discrete Mathematics</a> 
+      <a href="applications-of-discrete-mathematics-in-computer-science">Applications of Discrete Mathematics in Computer Science</a> 
+      <a href="rings-in-discrete-mathematics">Rings in Discrete Mathematics</a> 
+      <a href="order-of-group-in-discrete-mathematics">Order of Group in Discrete Mathematics</a> 
+      <a href="principle-of-duality-in-discrete-mathematics">Principle of Duality in Discrete Mathematics</a> 
+      <a href="atomic-propositions-in-discrete-mathematics">Atomic Propositions in Discrete Mathematics</a> 
+      <a href="applications-of-tree-in-discrete-mathematics">Applications of Tree in Discrete Mathematics</a> 
+      <a href="quantifiers-in-discrete-mathematics">Quantifiers</a> 
+      <a href="algebraic-structure-in-discrete-mathematics">Algebraic Structure</a> 
+      <a href="counting-principle">Counting principle</a> 
+      <a href="bijective-function-in-discrete-mathematics">Bijective Function in Discrete Mathematics</a> 
+      <a href="multinomial-theorem">Multinomial Theorem</a> 
+      <a href="lagranges-mean-value-theorem">Lagrange's Mean Value Theorem</a> 
+      <a href="cauchys-mean-value-theorem">Cauchy's Mean Value Theorem</a> 
+      <a href="rolles-mean-value-theorem">Rolle's Mean Value Theorem</a> 
+      <a href="semantic-difference-between-set-and-type">Semantic difference between Set and Type</a> 
+      <a href="application-of-group-theory-in-discrete-mathematics">Application of Group Theory in Discrete Mathematics</a> 
+      <a href="directed-and-undirected-graph-in-discrete-mathematics">Directed and Undirected graph in Discrete Mathematics</a> 
+      <a href="bayes-formula-for-conditional-probability">Bayes Formula for Conditional probability</a> 
+      <a href="function-vs-relation-in-discrete-mathematics">Difference between Function and Relation in Discrete Mathematics</a> 
+      <a href="recursive-functions-in-discrete-mathematics">Recursive functions in discrete mathematics</a> 
+      <a href="arguments-in-discrete-mathematics">Arguments in Discrete Mathematics</a> 
+      <a href="elementary-matrix-in-discrete-mathematics">Elementary Matrix in Discrete Mathematics</a> 
+      <a href="hypergeometric-distribution-in-discrete-mathematics">Hypergeometric Distribution in Discrete Mathematics</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DMS MCQ</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="discrete-mathematics-mcq">Discrete Matehmatics MCQ</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="elementary-matrix-in-discrete-mathematics">next &#x2192;</a> 
+            <a class="next" href="recursive-functions-in-discrete-mathematics">&#x2190; prev</a> 
+           </div> <h1 class="h1">Arguments in Discrete Mathematics</h1> <p>In discrete mathematics, the argument can be described as a part of philosophy and logical reasoning. It can also be used in mathematical proofs. In this section, we will show arguments in logical reasoning and in general life. In logical reasoning, mathematical logic is used to prove logical proof. The proof can be described as a type of valid argument that is used to determine the truth values (True or False) of mathematical statements. The <strong>arguments</strong> can be described as a series of statements or propositions. It usually has the premises and conclusion. The premises are used to show the rest statement, while the conclusion is used to describe the end statement.</p> <p>The <strong>premises</strong> will be represented by p1, p2, p3, ?, pk, and the <strong>conclusion</strong> or final statement will be represented by q. The final statement can be processed with the help of symbol "&#x2234;". The argument will be represented in the following form:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+p &#x2192; q
+p
+______________
+&#x2234; q
+</textarea>
+           </div> <p>If the statement of an argument is <strong>premises,</strong> in this case, premises can be used to provide support. If the statement of an argument is the conclusion, in this case, the conclusion is used to show that the premises are intended to provide support.</p> <p>In general terms, the goal of arguments is to persuade someone of something. If someone disagrees or have doubt about our viewpoint or claim, with the help of arguments, we have to convince him to agree with our viewpoint. <strong>For example:</strong> For starting the argument, we need a specific point of view on which the reader has some doubt. The reader must be convinced at the end of this argument, and they must no longer have any doubt on this view. The last or end statement is also known as the conclusion, and the remaining statements are also known as the premises.</p> <p>If we have to argue well, we have to put ourselves in the position of the reader and things about the doubt that the readers might have about our viewpoint. When we hear the word argument, we sometimes think it is quite aggressive and hostile, but it is not true. If an argument is good, it will be quite calm, fair-minded, and reasonable.</p> <h2 class="h2">Examples of Arguments</h2> <p><strong>Example 1:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+No, you can't go to a college picnic for 2 days.
+All my college friends are going!
+And if all your friends jumped from the bridge, would you also jump too?
+</textarea>
+           </div> <p>This argument is very common which is used by parents all the time for their children. It is using a technique known as rhetorical where we try to show that the reasoning of another person (in this example, the other person is son) is invalid when taken to its logical conclusion. In this example, the son is arguing with the parents: My friends are going for a picnic, so I also want to go. The parent shows that how the argument of a son fails.</p> <h2 class="h2">Types of Arguments </h2> <p>The arguments are basically of three types: Valid argument, Deductive arguments, and Inductive arguments.</p> <h3 class="h3">Valid Argument</h3> <p>A valid argument can be described as an argument in which if all its premises are true, then the conclusion of that argument will also be true. If the true premise is contained in the valid arguments, the argument will be known as the sound. The arguments can either be sound or unsound and valid or invalid, and we have no middle ground to do this. Suppose the valid argument contains premises as p1, p2, p3, ..., pk and conclusion as q. Then the valid argument will be described as follows:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+(p1 &#x2229; p2 &#x2229; p3 ... &#x2229; pk) &#x2192; q is a tautology. 
+</textarea>
+           </div> <p><strong>For example:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+((p &#x2192; q) &#x2229; p) &#x2192; q is a topology
+</textarea>
+           </div> <p>We can check the validity of an argument with the help of checking the critical row in the truth table. The critical row is a type of row where the true value is shown by all the premises, and these true values also correspond to the true value for the conclusion.</p> <p><strong>Examples of Valid Arguments</strong></p> <p><strong>Example 1:</strong> We have to check whether the argument (p &#x2228; q, p &#x2192; r, q &#x2192; r, &#x2234; r) is valid or not.</p> <p><strong>Solution:</strong> In this case, premises are shown by p &#x2228; q, p &#x2192; r, q &#x2192; r, and the conclusion is shown by r. This statement will be valid if all the premises are true and true premises also correspond to the true value of conclusion. To differentiate the premises and conclusion, we will use different colors. Grey color for the premises and red color for the conclusion. We will prove it with the help of a truth table, which is described as follows:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>P</th> 
+              <th>q</th> 
+              <th>R</th> 
+              <th>p &#x2228; q</th> 
+              <th>p &#x2192; r</th> 
+              <th>q &#x2192; r</th> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+            </tbody>
+           </table> <p>In this table, all the grey color shaded position contains the true value. That's why all these shaded rows are the critical rows, and these rows correspond to the true value for r. So in this table, if the premises (p &#x2228; q, p &#x2192; r, q &#x2192; r) are true, then the conclusion (r) is also true. Hence, the above argument (p &#x2228; q, p &#x2192; r, q &#x2192; r, &#x2234; r) is <strong>valid.</strong></p> <p><strong>Example 2:</strong> We have to check whether the argument (p &#x2192; q, &#x2234; &#x223c; p &#x2192; &#x223c; q) is valid or not.</p> <p><strong>Solution:</strong> In this case, premises are shown by p &#x2192; q, and conclusion is shown by &#x223c; p &#x2192; &#x223c; q. This statement will be valid if all the premises are true and true premises also correspond to the true value of conclusion. To differentiate the premises and conclusion, we will use different colors. Grey color for the premises and red color for the conclusion. We will prove it with the help of a truth table, which is described as follows:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>P</th> 
+              <th>q</th> 
+              <th>&#x223c; p</th> 
+              <th>&#x223c; q</th> 
+              <th>p &#x2192; q</th> 
+              <th>&#x223c; p &#x2192; &#x223c; q</th> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+            </tbody>
+           </table> <p>In this table, the critical rows are failed because, in the third row, the premise (p q) is true while the value of conclusion is false. Hence, the above argument is <strong>invalid.</strong></p> <p><strong>Example 3:</strong> We have to check whether the argument (p &#x2192; q, q &#x2192; r, &#x2234; p &#x2228; q &#x2192; r) is valid or not.</p> <p><strong>Solution:</strong> In this case, premises are shown by p &#x2192; q, q &#x2192; r, and conclusion is shown by p &#x2228; q &#x2192; r. This statement will be valid if all the premises are true and true premises also correspond to the true value of conclusion. We will prove it with the help of a truth table, which is described as follows:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>p</th> 
+              <th>q</th> 
+              <th>r</th> 
+              <th>p &#x2228; q</th> 
+              <th>p &#x2192; q</th> 
+              <th>q &#x2192; r</th> 
+              <th>p &#x2228; q &#x2192; r</th> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>F</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+             <tr> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>F</td> 
+              <td>T</td> 
+              <td>T</td> 
+              <td>T</td> 
+             </tr> 
+            </tbody>
+           </table> <p>In this table, all the critical rows correspond to the true value for a conclusion. Hence, the argument (p &#x2192; q, q &#x2192; r, &#x2234; p &#x2228; q &#x2192; r) is <strong>valid.</strong></p> <p>In logic, the meaning of "valid" and "true" both are different. In the validity, we will check that whether the conclusion follows from premises, while in the truth, we will see whether the statements are making up an argument. On the basis of the truth value of premises, a false conclusion may be contained in the perfectly valid argument. Same as on the basis of the truth value of premises, a true conclusion may also be contained in the invalid argument.</p> <p><strong>For example:</strong> In this example, we will take the above argument that is</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+p &#x2192; q 
+q &#x2192; r 
+&#x2234; p &#x2228; q &#x2192; r
+</textarea>
+           </div> <p> As we have seen in the above example 3 that this argument is perfectly valid. So we will assume p as "I sleep a lot", q as "I don't study a lot", and r as "I will do well in my exams". Hence, this statement will be translated as: "If I sleep a lot, then I don't study a lot. If I don't study a lot, then I will do well in my exams. Therefore, if I sleep a lot or don't study a lot, I will do well in my exams."</p> <p>We have seen that this argument is perfectly valid, but it is clearly not a true conclusion. Because with the help of first hypothesis, it is true, and the second hypothesis is false. That;s why the conclusion will also be false.</p> <h3 class="h3">Deductive Arguments</h3> <p>In discrete mathematics, the deductive argument is a type of argument in which if the premises have the true value, then the result of a conclusion will always be the true value. There will never be any case in which premises have the true value and generate a false value of conclusion. So we can say that the arguments which have a guarantee of premises success, in this case, the conclusion will be known as the deductive or valid argument.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/arguments-in-discrete-mathematics1.png" alt="Arguments in Discrete Mathematics"> <p><strong>Example of Deductive argument:</strong></p> <p><strong>Example 1:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+All dogs barks
+Jackson is a dog
+______________
+Jackson barks
+</textarea>
+           </div> <p><strong>Example 2:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Bachelors are unmarried men
+John Smith is unmarried
+______________
+John Smith is a bachelor. 
+</textarea>
+           </div> <p><strong>Example 3:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+The students must have 120 credits if they want to get their bachelor's degree at Delhi University.
+Marry has 140 credits.
+______________
+Marry has a bachelor's degree. 
+</textarea>
+           </div> <p>The first two statements of all the examples are true, and that's why the conclusion will also be true.</p> <p><strong>Example 4:</strong> Valid deductive argument</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+It's winter in Canada. 
+If it is winter in Canada, then she must be carrying woolen clothes. So, she must be carrying woolen clothes.     
+</textarea>
+           </div> <p>In this example, we can see that the conclusion follows the word "So". If the above described two premises are true, it will provide the guarantee about truth of the conclusion. There is no way which can help us to decide that the two premises are true or not. So we are unable to say that the argument is deductively sound or not. It is one of them, but we don't know that it is which one. If we find out the given argument contains false premises and so is unsound, it will not be possible to change the fact that it is valid.</p> <h3 class="h3">Inductive Arguments</h3> <p>The inductive argument is intended with the help of the arguer. The argument will be known as strong if the true value is shown by all the premises, then it would not be possible that the conclusion is false. In the inductive argument, the truth of premises provides us a nice reason so that we can believe that the conclusion is probably true. In this section, we will use the term "strong" for a successful inductive argument, but actually, there is no standard term for this. If the inductive argument is not strong, it will be known as weak. But there is no sharp line that can differentiate the strong and weak.</p> <p><strong>For example:</strong> Suppose there is an argument "dog biting me". This argument will be known as stronger if we are not able to think of any relevant conditions for why the next time will be different compared to the previous time. If there is a case that "I did walk by the dog", the argument will become more times stronger. If there is a case that "I have walked by the dog", the argument will become more time weaker. If the next time condition differs from the relevant conditions related to the past time, the argument will be weaker. For example, the dog has been sitting behind a closed door in the past time, but the gate will be opened the next time.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/arguments-in-discrete-mathematics2.png" alt="Arguments in Discrete Mathematics"> <p>If we acquire some new premises (evidence), in this case, an inductive argument will be affected, but this same will not happen in a deductive argument. <strong>For example:</strong> Here we will describe a strong inductive argument like this:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Today, Jackson confess that he likes Marry 
+So, Jackson likes Marry today. 
+</textarea>
+           </div> <p>But the above inductive argument strength will be radically changed when the following premise is added:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Jackson confesses to Smith that he did not really like Marry. 
+</textarea>
+           </div> <p><strong>Example:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+"Everyone knows that the sun has rises in the east and set in the west. Therefore, the same process is going to be happened tomorrow". 
+</textarea>
+           </div> <p>The above argument is almost certainly true. This line of argument will readily accept by most of the persons. However, just like the deductive argument, we have noticed that it is not a matter of logical certainty, but a matter of <strong>probability.</strong> Because there is a possibility that aliens could come and destroy the sun. Due to this destroy, there will be no set or rise of the sun ever again. This situation is extremely unlikely, but it is not logically impossible.</p> <p>So the deductive argument seems stronger as compared to the inductive ones in the strict logical terms. Inductive arguments matter more, and there is a crucial advantage of inductive arguments. In our daily life, our almost decisions are taken with the help of inductive inferences like this:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+The distance from my house to my workplace is half an hour, so if I leave at 8:30 AM, I will be able to probability reach there by 9. 
+Jack is my best friend, and he gave me the advice to be regular in classes, and his advice is usually good, so I decided to follow his advice. 
+Yesterday I got punishment for coming late, so I will go on time today. 
+All the above inferences are inclusive, and it is also based on reasonable certainty. The conclusions of these inferences are often trivial.  
+</textarea>
+           </div> <p>With the help of words used in an argument, we are not able to differentiate between inductive and deductive arguments. We can do this by knowing the intentions of arguer. It can be determined with the help of relationship between premises and conclusion believes by the arguer. The argument will be known as <strong>deductive</strong> if the arguer believes that the truth of a conclusion is definitely established by the truth of premises. The argument will be known as <strong>inductive</strong> if the arguer believes that the truth of premises provides us a nice reason so that we can believe that the conclusion is probably true. Suppose there are some persons who are accessing the quality of argument, and they don't have any information related to the intentions of arguer. In this case, they have to check for both arguments. Here we access the argument so that we can see whether it is inductively strong or deductively valid.</p> <img src="https://static.javatpoint.com/tutorial/dms/images/arguments-in-discrete-mathematics3.png" alt="Arguments in Discrete Mathematics"> <h2 class="h2">Importance of Arguments</h2> <p>The most important skill in daily life or discrete mathematics, and many more places, is the argument. If we do a master's degree in the art of persuasion, we are able to convince people very easily. Because of this skill, we will be very successful in our career, college, or school. Suppose we are very good at doing arguments and have convincing power, then we can persuade our parents, teacher, manager, boss, or leader of our viewpoint. In this case, we will be invincible. So we have realized that the power of argument is very huge.</p> <p>We should also know the difference between a good argument and a bad argument. We are able to see the good and bad arguments in our news channels, daily life, or at school conversations. In the case of critical thinking, an argument can be described as a basic task. Suppose a person doesn't have the skill of argument. In this case, advertisers or politicians are able to easily mislead him because they always try to persuade him to buy their products even if the product is not good or try to persuade him to vote for them</p> <h2 class="h2">Difference between Argument and Fighting</h2> <p>While watching sports analysis and political debates on news channels, many people sometimes get the impression that arguments are aggressive and hostile. They think their main goal is to defeat the opponent rather than persuade anyone. But it is not important that this is always true. In fact, an argument will be known as best if it comes from a place of friendship and sympathy. If the points of view of our friends and us are different, they will always try to explain the reasoning behind their view in a way that an understanding can be built. Due to this, a friendly debate or argument will be created.</p> <p>The most important skill that we should definitely learn and follow in our life is an argument. Whether it is personal or professional, we cannot avoid a certain amount of disagreement and conflict in our relationships. This conflict can be with your boss, employees, wife, parents, or with anyone. If we are unable to do argue with reason and logic, we will always end our argument with fighting. At the end of the argument, we must have an agreement. If there is no possibility of agreement, we should at least understand the reasons that why agreement is not possible. While, in case of <strong>fighting,</strong> we will express our emotions such as hurt, anger. At the time of fighting, we never care about the point of view of another person. In anger, we usually shout at the other person. In contrast, this problem can be resolved if we are able to do the right argument. In the case of fighting, the situations usually become worse.</p> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="elementary-matrix-in-discrete-mathematics">Elementary Matrix in Discrete Mathematics</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="recursive-functions-in-discrete-mathematics">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="elementary-matrix-in-discrete-mathematics">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c6a0a3a3a2a4a7a5ad86aca7b0a7b2b6a9afa8b2e8a5a9ab">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/arguments-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/arguments-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/arguments-in-discrete-mathematics"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e48c96a48e85928590948b8d8a90ca878b89">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="234b51634942554257534c4a4d570d404c4e0d">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

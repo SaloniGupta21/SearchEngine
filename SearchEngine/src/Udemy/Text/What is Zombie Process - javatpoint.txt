@@ -1,0 +1,969 @@
+
+
+ 
+  
+  What is Zombie Process - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            What is Zombie Process? A zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table. This occurs for the child processes, where the entry is still needed to allow the parent process to read its child's exit status. Once the exit status is read via the wait system call, the zombie's entry is removed from the process table and said to be "reaped". A child process always first becomes a zombie before being removed from the resource table. In most cases, zombies are immediately waited on by their parents and then reaped by the system under normal system operation. Processes that stay zombies for a long time are generally an error and cause a resource leak, but they only occupy the process table entry. In the term's metaphor, the child process has died but has not yet been reaped. Also, unlike normal processes, the kill command does not affect a zombie process.  Zombie processes should not be confused with orphan processes. An orphan process is a process that is still executing, but whose parent has died. When the parent dies, the orphaned child process is adopted by init (process ID 1). When orphan processes die, they do not remain as zombie processes; instead, they are waited on by init. The result is that a process that is both a zombie and an orphan will be reaped automatically. How Zombie Process Works? In an operating system, a zombie process works in the following way: 
+            
+            When a process ends via exit, all of the memory and resources associated with it are deallocated so other processes can use them.  
+            However, the process's entry in the process table remains. The parent can read the child's exit status by executing the wait system call, where the zombie is removed. The wait call may be executed in sequential code, but it is commonly executed in a handlerfor the SIGCHLD signal, which the parent receives whenever a child has died. 
+            After the zombie is removed, its process identifier(PID) and entry in the process table can then be reused. However, if a parent fails to call wait, the zombie will be left in the process table, causing a resource leak. In some situations, this may be desirable, and the parent process wishes to continue holding this resource. For example, if the parent creates another child process, it will not be allocated the same PID. 
+            The following special case applies to modern UNIX-like systems. If the parent explicitlyignores SIGCHLD by setting its handler to SIG_IGN (rather than simply ignoring the signal by default) or has the SA_NOCLDWAIT flag set, all child exit status information will be discarded, and no zombie processes will be left. 
+            Zombies can be identified in the output from the UNIX "ps" commandby the presence of a "Z" in the "STAT" column. Zombies that exist for more than a short time typically indicate a bug in the parent program or just an uncommon decision to not reap children. 
+            If the parent program is no longer running, zombie processes typically indicate a bug in the operating system. As with other resource leaks, the presence of a few zombies is not worrying in it but may indicate a problem that would grow serious under heavier loads. Since there is no memory allocated to zombie processes, the only system memory usage is for the process table entry itself. The primary concern with many zombies is not running out of memory but rather out of process table entries and concretely process ID numbers. 
+            USING THE KILL COMMAND, the SIGCHLDsignal can be sent to the parent manually to remove zombies from a system. If the parent process still refuses to reap the zombie, and if it would be fine to terminate the parent process, the next step can be to remove the parent process. When a process loses its parent, init becomes its new parent. Init periodically executes the wait system call to reap any zombies with init as a parent. 
+            Example Let's see an example of a zombie process. 
+           
+            
+#include <sys/wait.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(void)
+{
+    pid_t pids[10];
+    int i;
+
+    for (i = 9; i >= 0; --i) {
+        pids[i] = fork();
+        if (pids[i] == 0) {
+            printf("Child%d\n", i);
+            sleep(i+1);
+            _exit(0);
+        }
+    }
+
+    for (i = 9; i >= 0; --i) {
+        printf("parent%d\n", i);
+        waitpid(pids[i], NULL, 0);
+    }
+
+    return 0;
+}
+
+            Output: It gives the following output, such as: 
+           
+            parent9
+Child3
+Child4
+Child2
+Child5
+Child1
+Child6
+Child0
+Child7
+Child8
+Child9 // there is a pause here
+parent8
+parent7
+parent6
+parent5
+parent4
+parent3
+parent2
+parent1
+parent0
+
+            In the first loop, the original (parent) process forks 10 copies of itself. Each of these child processes prints a message, sleep, and exits. All of the children are created at essentially the same time since the parent is doing very little in the loop, so it's somewhat random when each of them gets scheduled for the first time, thus the scrambled order of their messages. During the loop, an array of child process IDs is built. There is a copy of the pids[] array in all 11 processes, but it is only complete in the parent. The copy in each child will be missing the lower-numbered child PIDs and have zero for its own PID. The second loop executes only in the parent process and waits for each child to exit. It waits for the child who slept 10 seconds, and all the others have long since exited, so all of the messages (except the first) appear quickly. There is no possibility of random ordering here since a loop in a single process drives it. The parent could continue into the second loop before any of the child's processes could start. This again is just the random behavior of the process scheduler - the "parent9" message could have appeared anywhere in the sequence before "parent8". Child0 through Child8 spend one or more seconds in this state, between the time they exited and the time the parent did a waitpid() on them. The parent was already waiting on Child9 before it exited so that one process spent essentially no time as a zombie. Dangers of Zombie Processes Zombie processes don't use any system resources, but they do retain their process ID. If there are a lot of zombie processes, then all the available process IDs are monopolized by them. This prevents other processes from running as there are no process IDs available. Zombie processes also indicate an operating system bug if their parent processes are not running anymore. This is not a serious problem if there are a few zombie processes, but this can create issues for the system under heavier loads. Preventions to Zombie Process We need to prevent creating the Zombie process because there is one process table per system and the size of the process table is finite. If too many zombie processes are generated, then the process table will be full. The system will not generate any new process, and then the system will come to a standstill. Hence, we need to prevent the creation of zombie processes. Here are the different ways in the creation of the zombie can be prevented, such as:  1. sing wait() system call When the parent process calls wait(), after creating a child, it will wait for the child to complete and get their exit status. The parent process is suspended (waits in a waiting queue) until the child is terminated. It must be understood that during this period, the parent process does nothing, just wait. 
+           
+            
+// A C program to demonstrate the working of
+// fork()/wait() and Zombie processes
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+#include<sys/types.h>
+ 
+int main()
+{
+    int i;
+    int pid = fork();
+    if (pid==0)
+    {
+        for (i=0; i<20; i++)
+            printf("I am Child\n");
+    }
+    else
+    {
+        wait(NULL);
+        printf("I am Parent\n");
+        while(1);
+    }
+}
+
+            2. By ignoring the SIGCHLD signal When a child is terminated, a corresponding SIGCHLD signal is delivered to the parent. If we call the 'signal(SIGCHLD,SIG_IGN)', then the system ignores the SIGCHLD signal, and the child process entry is deleted from the process table. Thus, no zombie is created. However, in this case, the parent cannot know about the exit status of the child. 
+           
+            
+// A C program to demonstrate ignoring
+// SIGCHLD signal to prevent Zombie processes
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+#include<sys/types.h>
+ 
+int main()
+{
+    int i;
+    int pid = fork();
+    if (pid == 0)
+        for (i=0; i<20; i++)
+            printf("I am Child\n");
+    else
+    {
+        signal(SIGCHLD,SIG_IGN);
+        printf("I am Parent\n");
+        while(1);
+    }
+}
+
+            3. By using a signal handler The parent process installs a signal handler for the SIGCHLD signal. The signal handler calls wait() system call within it. In this scenario, when the child is terminated, the SIGCHLD is delivered to the parent. On receipt of SIGCHLD, the corresponding handler is activated, which calls the wait() system call. Hence, the parent immediately collects the exit status, and the child entry in the process table is cleared. Thus no zombie is created. 
+           
+            
+// A C program to demonstrate handling of
+// SIGCHLD signal to prevent Zombie processes.
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/wait.h>
+#include<sys/types.h>
+ 
+void func(int signum)
+{
+    wait(NULL);
+}
+ 
+int main()
+{
+    int i;
+    int pid = fork();
+    if (pid == 0)
+        for (i=0; i<20; i++)
+            printf("I am Child\n");
+    else
+    {
+        signal(SIGCHLD, func);
+        printf("I am Parent\n");
+        while(1);
+    }
+}
+
+            How to Kill Zombie Processes? Zombie processes can be killed by sending the SIGCHLD signal to the parent using the kill command. This signal informs the parent process to clean up the zombie process using the wait() system call. This signal is sent with the kill command. It is demonstrated as follows: 
+           
+            
+kill -s SIGCHLD pid
+
+            In the above command, the pid is the process ID of the parent process. What is SIGHLD Signal? SIGCHLD is a signal of UNIX and UNIX-like systems. The code value of siginfo_t is as follows: 
+            
+            The child process has terminated CLD_EXITED 
+            The child process has terminated abnormally (without core) CLD_KILLED 
+            The child process has terminated abnormally (with core) CLD_DUMPED 
+            Being tracked, the child process is stuck in CLD_TRAPPED 
+            The child process has stopped CLD_STOPED 
+            The stopped child process has continued CLD_CONTINUED When a process terminates or stops. It sends a SIGCHLD signal to its parent process. By default, this signal will be ignored. If the parent process wants to be informed of this state of its subsystem, it should catch this signal. The signal capture function usually calls the wait function to obtain the process ID and its termination status. 
+            
+            
+            
+            Next Topic
+            FCFS vs SSTF Disk Scheduling Algorithm 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

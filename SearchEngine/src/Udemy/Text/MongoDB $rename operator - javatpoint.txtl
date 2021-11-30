@@ -1,0 +1,239 @@
+MongoDB $rename operator - javatpoint ? SCROLL TO TOP Home MongoDB SQL PL/SQL MySQL PostgreSQL SQL Server Oracle SQLite Cassandra DBMS Python Java Aptitude Interview Q MongoDB Tutorial MongoDB Tutorial No SQL Databases Advantages over RDBMS MongoDB Data Types Install MongoDB MongoDB Data Modeling MongoDB Operators Query & Projection Operator MongoDB Update Operator Aggregation Pipeline Stages MongoDB limit() MongoDB sort() Query Modifiers Database Commands Aggregation Commands Geospatial Command Query & Write Operation Commands Query Plan Cache Commands Authentication Commands User Management Commands Role Management Commands Replication Commands Sharding Commands Session Commands Database Create Database Drop Database Collection Create Collection Drop Collection CRUD: Documents Insert Documents Update Documents Delete Documents Query Documents SQL to MongoDB Mapping MongoDB text search MongoDB Shell MongoDB Shell Shell Collection Methods Cursor Methods MongoDB Database Commands Query Plan Cache Methods User Management Methods Role Management Methods MongoDB Replication Methods Bulk Operation Methods Connection Methods Sharding Methods MongoDB Cloud MongoDB Stitch MongoDB Atlas MongoDB Cloud Manager MongoDB Ops Manager MongoDB Tools MongoDB Compass MongoDB BI connector Differences Cassandra vs MongoDB Couchdb vs MongoDB Redis vs MongoDB Connectivity Java MongoDB PHP MongoDB Python MongoDB Node.js MongoDB Misc MongoDB Upsert MongoDB $and Operator MongoDB $not Operator MongoDB $or Operator MongoDB $in Operator MongoDB $nor Operator MongoDB find() Method MongoDB $group operator MongoDB Regex MongoDB $exp Operator MongoDB $unwind operator MongoDB $abs Operator MongoDB $floor Operator MongoDB $ceil Operator MongoDB $log Operator MongoDB $mod Operator MongoDB $divide Operator MongoDB $multiply Operator MongoDB $pow Operator MongoDB $sqrt Operator MongoDB $subtract Operator MongoDB $trunc Operator MongoDB $round Operator MongoDB $ln Operator MongoDB $log10 Operator MongoDB $cmp Operator MongoDB $concat Operator MongoDB $nin Operator MongoDB $gt Operator MongoDB $gte Operator MongoDB $lt Operator MongoDB $eq Operator MongoDB $lte Operator MongoDB $ne Operator MongoDB $size Operator MongoDB $rename operator Interview Questions MongoDB Interview SQL Interview PL/SQL Interview next ? ? prev MongoDB $rename operator What is the $rename operator in MongoDB? MongoDB provides a variety of field update operators to update the values of the fields. The $rename operator is one of those operators. The $rename operator is used to change the name of a field. The new name of the field must be different from the old name of the field. Important points: The $rename operator performs the $unset operation on both the old and new names before performing the $set operation on the new name. It can also work with arrays or nested documents. According to your requirements you can use this operator in findAndModify(), like(), update(), etc. If the given field does not exist to rename in the document, the $rename operator does nothing. Syntax of the $rename operator: 
+{ $rename : { <field 1> : <new name 1>, <field 2> : <new name 2>, ... } }
+ Examples: In the following examples, we are working with: 
+Database: JavaTpoint
+Collection: employees
+Document: Six documents that contain the details of the employees
+ >db.employees.find().pretty()
+        {
+                "_id" : 1,
+                "employee_name" : "Tin",
+                "father_name" : "Thor",
+                "department" : "Tester",
+                "address" : "London",
+                "joinning" : 2020,
+                "phone_no" : 9856321478,
+                "gender" : "Male",
+                "age" : 20,
+                "salary" : 10000
+        }
+        {
+                "_id" : 2,
+                "employee_name" : "John",
+                "father_name" : "Mick",
+                "department" : "Tester",
+                "address" : "NewYork",
+                "joining" : 2015,
+                "phone_no" : 7896541478,
+                "gender" : "Male",
+                "age" : 23,
+                "salary" : 20000,
+                "report_lastDate" : ISODate("2021-08-05T00:00:00Z") 
+        }
+        {
+                "_id" : 3,
+                "employee_name" : "Ammy john",
+                "father_name" : "John",
+                "department" : "Software developer",
+                "address" : "London",
+                "joining" : 2019,
+                "phone_no" : 7985631478,
+                "gender" : "Female",
+                "age" : 26,
+                "salary" : 15000
+        }
+        {
+                "_id" : 4,
+                "employee_name" : "Reeza",
+                "father_name" : "Reeza Hendricks",
+                "department" : "Tester",
+                "address" : "USA",
+                "joining" : 2020,
+                "phone_no" : 7412563278,
+                "gender" : "Male",
+                "age" : 22,
+                "salary" : 20000
+        }
+        { 
+                "_id" : 5,
+                "employee_name" : "John Lewis",
+                "father_name" : "Lewis",
+                "department" : "Software developer",
+                "address" : "London",
+                "joining" : 2015,
+                "phone_no" : 9632587418,
+                "gender" : "Male",
+                "age" : 25,
+                "salary" : 25000,
+        }
+        {
+                "_id" : 6,
+                "employee_name" : "Temba",
+                "father_name" : "George",
+                "department" : "Tester",
+                "address" : "NewYork",
+                "joining" : 2018,
+                "phone_no" : 8965247418,
+                "gender" : "Male",
+                "age" : 24,
+                "salary" : {
+                             "first_month" : 15000,
+                             "second_month" : 18000,
+                             "bonus" : 2000
+                           }
+        }
+ Example 1: Renaming a single field In this example, we're renaming the name of the "joining" field to "joinYear" in the employee's document whose department is Tester. 
+db.employees.update( {"department": "Tester"},
+				{$rename: {"joining": "joinYear"}})
+ Output: {
+     "_id" : 1,
+     "employee_name" : "Tin",
+     "father_name" : "Thor",
+     "department" : "Tester",
+     "address" : "London",
+     "joinYear" : 2020,
+     "phone_no" : 9856321478,
+     "gender" : "Male",
+     "age" : 20,
+     "salary" : 10000
+}
+{
+     "_id" : 2,
+     "employee_name" : "John",
+     "father_name" : "Mick",
+     "department" : "Tester",
+     "address" : "NewYork",
+     "joinYear" : 2015,
+     "phone_no" : 7896541478,
+     "gender" : "Male",
+     "age" : 23,
+     "salary" : 20000,
+     "report_lastDate" : ISODate("2021-08-05T00:00:00Z") 
+}
+{
+     "_id" : 4,
+     "employee_name" : "Reeza",
+     "father_name" : "Reeza Hendricks",
+     "department" : "Tester",
+     "address" : "USA",
+     "joinYear" : 2020,
+     "phone_no" : 7412563278,
+     "gender" : "Male",
+     "age" : 22,
+     "salary" : 20000
+}
+{
+     "_id" : 6,
+     "employee_name" : "Temba",
+     "father_name" : "George",
+     "department" : "Tester",
+     "address" : "NewYork",
+     "joinYear" : 2018,
+     "phone_no" : 8965247418,
+     "gender" : "Male",
+     "age" : 24,
+     "salary" : {
+                 "first_month" : 15000,
+                 "second_month" : 18000,
+                 "bonus" : 2000
+                }
+}
+ Example 2: Renaming multiple fields in the documents In this example, we're renaming the name of the "phone_no" field to "contact_no" in all the documents present in the employees collection. 
+db.employees.updateMany( {}, {$rename: {"phone_no": "contact_no"}})
+ Output: {
+     "_id" : 1,
+     "employee_name" : "Tin",
+     "father_name" : "Thor",
+     "department" : "Tester",
+     "address" : "London",
+     "joining" : 2020,
+     "contact_no" : 9856321478,
+     "gender" : "Male",
+     "age" : 20,
+     "salary" : 10000
+}
+{
+     "_id" : 2,
+     "employee_name" : "John",
+     "father_name" : "Mick",
+     "department" : "Tester",
+     "address" : "NewYork",
+     "joining" : 2015,
+     "contact_no" : 7896541478,
+     "gender" : "Male",
+     "age" : 23,
+     "salary" : 20000,
+     "report_lastDate" : ISODate("2021-08-05T00:00:00Z") 
+}
+{
+     "_id" : 3,
+     "employee_name" : "Ammy john",
+     "father_name" : "John",
+     "department" : "Software developer",
+     "address" : "London",
+     "joining" : 2019,
+     "contact_no" : 7985631478,
+     "gender" : "Female",
+     "age" : 26,
+     "salary" : 15000
+}
+{
+     "_id" : 4,
+     "employee_name" : "Reeza",
+     "father_name" : "Reeza Hendricks",
+     "department" : "Tester",
+     "address" : "USA",
+     "joining" : 2020,
+     "contact_no" : 7412563278,
+     "gender" : "Male",
+     "age" : 22,
+     "salary" : 20000
+}
+{ 
+     "_id" : 5,
+     "employee_name" : "John Lewis",
+     "father_name" : "Lewis",
+     "department" : "Software developer",
+     "address" : "London",
+     "joining" : 2015,
+     "contact_no" : 9632587418,
+     "gender" : "Male",
+     "age" : 25,
+     "salary" : 25000,
+}
+{
+     "_id" : 6,
+     "employee_name" : "Temba",
+     "father_name" : "George",
+     "department" : "Tester",
+     "address" : "NewYork",
+     "joining" : 2018,
+     "contact_no" : 8965247418,
+     "gender" : "Male",
+     "age" : 24,
+     "salary" : {
+                 "first_month" : 15000,
+                 "second_month" : 18000,
+                 "bonus" : 2000
+                }
+}
+ Example 3: Renaming a field in nested documents In this example, we're renaming the name of the "salary.first_month" field to "salary.month" in the employee document whose employee_name is Temba. 
+db.employee.update({"employee_name": "Temba"},
+				{$rename: {"salary.first_month": "salary.month"}})
+ Output: {
+     "_id" : 6,
+     "employee_name" : "Temba",
+     "father_name" : "George",
+     "department" : "Tester",
+     "address" : "NewYork",
+     "joining" : 2018,
+     "phone_no" : 8965247418,
+     "gender" : "Male",
+     "age" : 24,
+     "salary" : {
+                 "month" : 15000,
+                 "second_month" : 18000,
+                 "bonus" : 2000
+                }
+}
+ Next Topic # ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected]. Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

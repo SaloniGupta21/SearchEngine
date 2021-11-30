@@ -1,0 +1,964 @@
+
+
+ 
+  
+  Translate Worksheet - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Excel 
+       MS Word 
+       PowerPoint 
+       C 
+       C# 
+       Java 
+       PHP 
+       HTML 
+       SQL 
+       PL/SQL 
+       Python 
+       Web Services 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      MS Excel Tutorial 
+      
+      
+      Excel Tutorial 
+      Workbook Window 
+      Create & Open Workbooks 
+      MS Excel Online 
+      Excel vs Google Sheets 
+      Office Button 
+      Ribbon and Tabs 
+      Features of Tabs 
+      Quick Access Toolbar 
+      Mini Toolbar 
+      Title, Help, Zoom, View 
+      
+      
+      Excel Worksheet 
+      
+      
+      Worksheet, Row, Column 
+      Moving on Worksheet 
+      Enter Data 
+      Select Data 
+      Delete Data 
+      Move Data 
+      Copy Paste Data 
+      Spell Check 
+      Insert Symbols 
+      
+      
+      Excel Calculation 
+      
+      
+      Addition 
+      Sigma Addition 
+      Subtraction 
+      Calculate Average 
+      Sigma Average 
+      
+      
+      Excel Fill Handle 
+      
+      
+      Fill Handle 
+      Fill Handle with Text 
+      Text with Numbers 
+      Fill Handle with Dates 
+      
+      
+      Excel Formula 
+      
+      
+      Create Formula 
+      Fill Handle in Formula 
+      Relative Referencing 
+      Absolute Referencing 
+      Instruction for Typing 
+      Quick Excel Functions 
+      
+      
+      Excel IF 
+      
+      
+      If Function 
+      If with Calculations 
+      Excel COUNTIF 
+      Advanced If 
+      
+      
+      Excel Advanced 
+      
+      
+      Excel Macros 
+      Excel sumif 
+      Excel vlookup 
+      What is Pivot Table 
+      Excel ISNA 
+      Find & Remove Duplicates 
+      Create drop-down List 
+      Merge cells in Excel 
+      
+      
+      Misc 
+      
+      
+      How to enable macros in excel 
+      How to calculate age in Excel 
+      How to create a Pivot Table in excel 
+      How to enable the Developer Tab in Excel 
+      How to Calculate Standard Deviation in Excel 
+      How to Calculate Time Difference in Excel 
+      How to Freeze Cells in Excel 
+      What-if Analysis in Excel 
+      How To Insert Checkbox in MS Excel 
+      How To Insert PDF in MS Excel 
+      How to change the Date Format in Excel 
+      How to compare two Excel sheet 
+      How To Apply Filter In Excel 
+      How To Move Columns In Excel 
+      How to add or remove Hyperlink in Excel 
+      How to calculate Mean in Excel 
+      How to Separate text in Excel 
+      How to recover a macro in Excel 
+      How to recover a Corrupted Excel file 
+      How to recover an Excel file 
+      How to remove comma in Excel 
+      How to sum a column in Excel 
+      How to remove the filter in Excel 
+      How to remove gridlines in Excel 
+      How To Convert Excel To CSV 
+      How To Create Table in Excel 
+      How to Calculate IRR in Excel 
+      How to Count Characters in Excel 
+      How to Make an Excel Sheet 
+      How to Replace Words in Excel 
+      How to Sort by Date in Excel 
+      How to hide formulas in Excel 
+      How to subtract in excel 
+      How to use the IF function in Excel 
+      How To Create A Graph In Excel 
+      How to use concatenate in Excel 
+      How to spell check in Excel 
+      How to Change Lowercase to Uppercase in Excel 
+      How to Create a Dashboard in Excel 
+      How to Delete Duplicate Rows in Excel 
+      How to use sumifs formula in Excel 
+      How to add page break in Excel 
+      How to remove the page break in Excel 
+      How to Convert Columns to Rows in Excel 
+      How to Convert Number to Words in Excel 
+      How to Make a Table in Excel 
+      How to Put Tick Mark in Excel 
+      How to Remove Passwords from Excel File 
+      How to Wrap Text in Excel 
+      How to insert comments in Excel 
+      How to add/remove Password from Excel 
+      How to use MS Excel 
+      How to sort in Excel 
+      How to record a macro in Excel 
+      How Many Rows and Columns in Excel 2007 
+      How to Search in Excel 
+      How to add a text box in Excel 
+      How to save Excel document 
+      How to set background image in Excel 
+      How to use COUNTIF function in Excel 
+      How to import the data from CSV file in Excel 
+      How to unlock scroll lock in Excel 
+      What is a cell in Excel 
+      Uses of MS Excel 
+      How to Reduce Excel File Size 
+      How to Save Excel File as PDF 
+      ODS to Excel 
+      How to lock cells in Excel 
+      How to unlock cells in Excel 
+      Hyperlink in Excel 
+      How to compare two columns in Excel 
+      Conditional formatting in Excel 
+      How to define custom rules for conditional formatting in Excel 
+      Data validation in Excel 
+      Apply data validation in Excel 
+      Remove spaces in Excel 
+      How to Save Excel File 
+      Watermark in Excel 
+      How to unhide columns in Excel 
+      How to delete blank rows in Excel 
+      Excel round off formula 
+      How to Add Watermark in Excel 
+      How to Remove Watermark in Excel 
+      Excel Save As Shortcut 
+      Excel Shortcut Keys 
+      Excel match function 
+      HLOOKUP formula in Excel 
+      What is the file extension for Excel 
+      Offset function in Excel 
+      Compound interest formula in Excel 
+      Excel password remover 
+      FV() function in Excel 
+      MS Excel Definition 
+      What is Excel 
+      Excelity login 
+      Income tax calculating formula in Excel 
+      Google Excel Spreadsheet 
+      Online Excel Viewer 
+      Online Excel Editor 
+      How to make pie charts in excel 
+      How to calculate number of days between two dates in Excel 
+      Excel Download 
+      Download MS Office 2019 using command prompt 
+      Download Windows and MS office activator 
+      Excel Header and Footer 
+      Excel to JPG 
+      JPG to Excel 
+      Salary slip format in Excel 
+      How to count colored cells in Excel 
+      Excel Substring formula 
+      CSV to Excel 
+      Word to Excel 
+      Regression analysis in Excel 
+      How to calculate CAGR in Excel 
+      Excel to Word 
+      Percentage formula in Excel 
+      Mail merge in Excel 
+      How to unhide rows in Excel 
+      How to Split Cells in Excel 
+      Current Date in Excel 
+      Index function in Excel 
+      How to remove formula in Excel 
+      Excel Features 
+      Flash Fill in Excel 
+      How to convert Excel to JSON 
+      Convert Excel to JSON using VBA code 
+      Round formula in Excel 
+      Excel formula 
+      Ratio in Excel 
+      Excel Delete Row Shortcut 
+      Insert Column Excel Shortcut 
+      Excel not equal to operator 
+      Logical operators in Excel 
+      Delete Data in Excel 
+      Excel Slicer 
+      Excel Difference Between Two Dates 
+      Excel Filter Shortcut 
+      Excel Charts 
+      Excel text function 
+      Excel LOOKUP() function 
+      MS Excel Grade Formula 
+      10 Disadvantages of Microsoft Excel 
+      Shortcut Keys in Excel 2010 
+      Advanced Formulas in Excel 
+      Excel Merge Cells Shortcut 
+      Excel Paste Special Shortcut 
+      INDIRECT() function in Excel 
+      What is Relative Reference in Excel 
+      Excel Sum Shortcut 
+      Redo Shortcut in Excel 
+      Arrow key is not working in Excel 
+      Type of charts in Excel 
+      Nested If Function in Excel 
+      Lower() in excel 
+      Proper() in excel 
+      Types of References in Excel 
+      AND Function in Excel 
+      How to do subtraction in Excel 
+      Excel MAX() Function 
+      How to delete a Sheet in Excel 
+      How to Insert Chart in Excel 
+      Excel ISERROR() function 
+      Excel add-ins 
+      IF() in excel 
+      REPT() in excel 
+      What is Formatting in Excel 
+      OR Function in Excel 
+      Solver in Excel 
+      Excel AVERAGE() Function 
+      Excel MIN() Function 
+      Format Painter in Excel 
+      COUNTA function in excel 
+      Excel mid function 
+      Excel right function 
+      Excel Choose Function 
+      How to Use RIGHT Function in Excel 
+      NOT Function in Excel 
+      Excel COUNT() Function 
+      Line Chart Excel 
+      Excel RAND() function 
+      Excel find() function 
+      Excel tricks 
+      Dollar function in excel 
+      Left formula in excel 
+      Randbetween function in excel 
+      ROUNDDOWN Function in Excel 
+      Tenure Formula in Excel 
+      Excel TODAY and NOW 
+      How to unhide worksheet in Excel 
+      Freeze panes in Excel 
+      Excel PMT Function 
+      NETWORKDAYS Formula in Excel 
+      Pivot Chart in Excel 
+      Excel Hide Shortcut 
+      Unhide Shortcut in Excel 
+      Range in Excel 
+      Strikethrough in Excel 
+      How to password protect an Excel sheet 
+      Page Orientation in Excel 
+      Area Chart in Excel 
+      Bubble Chart Excel 
+      Autofill in Excel 
+      Convert rows to columns 
+      Analysis ToolPak 
+      Zoom In/Out in Excel 
+      Excel Format Painter Shortcut 
+      Excel Wrap Text Shortcut 
+      Uppercase Shortcut in Excel 
+      How to make a bar chart in Excel 
+      JSON to Excel 
+      Sparkline chart 
+      Why MS Excel is Important 
+      Waterfall Chart Excel 
+      Excel IRR formula 
+      Excel Pareto chart 
+      Column Chart 
+      Formatting Charts 
+      Pie Chart 
+      Doughnut Chart Excel 
+      Scatter Plot Excel 
+      Text to column in Excel 
+      Excel IFERROR() function 
+      Excel Median() function 
+      Gantt Chart Excel 
+      Consolidate data in Excel 
+      Excel Strikethrough Shortcut 
+      Flow Chart Excel 
+      Organization Chart Excel 
+      Excel box plot 
+      Excel Transpose Function 
+      Circular reference in Excel 
+      Excel Filter Function 
+      Excel VAR.S() Function 
+      Email Workbook 
+      Share Workbook 
+      Correlation in Excel 
+      How many sheets are there in excel workbook by default 
+      What is Mod Function in Excel 
+      Compatibility mode in Excel 
+      How to unprotect Excel sheet without password 
+      Adding Graphics 
+      Translate Worksheet 
+      Excel Large Function 
+      Excel Rank Function 
+      Cross Referencing in Excel 
+      Using Themes in Excel 
+      Excel IFNA Function 
+      Excel TRIM Function 
+      Excel DATEVALUE Function 
+      Excel SUBSTITUTE Function 
+      Special Symbols in Excel 
+      
+      
+      Shortcut Keys 
+      
+      
+      Excel Shortcut Keys 
+      
+      
+      Interview Questions 
+      
+      
+      Excel Interview 
+      HR Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Translate Worksheet MS Excel or Microsoft Excel is powerful spreadsheet software used in various companies or organizations across the world. It is a great solution to organize data within rows and columns. Although English is the most common language, Excel allows us to use many other languages as well. Since it is much easier to enter and analyze data in native languages, most people prefer to use them. However, there may be cases where we may receive an Excel workbook where the data is not in English. In such cases, it becomes important to translate Excel worksheets. By translating the data, we can easily convert Excel spreadsheets from one language to another. Additionally, it helps us facilitate business communication with different people worldwide or with different branches of our company that may be located in overseas territories.  This article discusses some easy-to-use methods to translate the desired worksheet into the desired language. We discuss each specific method with step-by-step tutorials to understand the whole process better. How to translate a worksheet? There are many methods that we can use to translate text written in different languages within a worksheet. We can translate desired data from various sources, such as phrases or paragraphs, specific words, or even entire worksheets or workbooks. The following are the most common methods that can be beneficial in translating worksheets based on the purpose: 
+            
+            Translating a Worksheet using the inbuilt Excel Translating Tool 
+            Translating a Worksheet using the Online Translation Tools 
+            Translating the Worksheet using Add-ins 
+            Let us now discuss each of the above methods in detail: Method 1: Translating a Worksheet using the inbuilt Excel Translating Tool Although many methods help translate a worksheet, the easiest way to translate text in an Excel worksheet is by using the inbuilt translate function in Excel. Excel comes with a translation tool that can translate the sheet's data into the desired language with a few clicks. To use the built-in translation tool in Excel, we need to perform the following steps: 
+            
+            First, we have to open an Excel worksheet and select the content required to translate to another language. 
+            Next, we need to go to the Review tab and select the 'Translate' tool, as shown in the following image:  
+            As soon as we click on Translate Tool, Excel launches another window that provides an option to select the language to which we want to translate the selected content. 
+            To translate compatible content, we need to select the desired language from the drop-down list. We can see the live preview of the translated content in the window. However, to insert the translated version/ copy of the content into our Excel sheet, we must click on the 'Insert' button.  
+            In this way, we can translate the data into as many cells as we want. Once all the desired content is translated, we can save the changes to a new or existing file depending on our preference. Also, we can add a translation tool as a quick shortcut to make the entire process shorter. Adding Excel Translate Shortcut in Quick Access Toolbar Adding a quick shortcut is a good idea if we often need to convert different languages within an Excel sheet. By adding the shortcut to the Quick Access Toolbar (QAT), we can instantly access the Excel Translate function in just one click. We can add the corresponding shortcut in QAT by following the steps discussed below: 
+            
+            First, we need to open Excel, click on the File tab, and select Options from the list.  Alternately, we can also press a right-click on any tab on the ribbon and then choose 'Customize Quick Access Toolbar'.  
+            With the Quick Access Toolbar option selected, we must click the drop-down menu under the 'Choose commands from' option and select 'Review Tab' from the list.  
+            After completing the previous step, we must find the 'Translate' option from the list, as shown below:  
+            Once we locate the 'Translate' option, we need to select it and click the 'Add > >' button.  
+            After clicking the Add > > button, the Translate option will be moved to the right-hand side box. After that, we must click the OK  This will add a new shortcut on the Quick Access Toolbar for accessing the Translate function.  
+             Thus, whenever we need to translate any content within the Excel sheet, we must select the particular cell and click the Translate shortcut we added on QAT. Example Suppose we have an excel worksheet with some text in cell A1. For example- 'This is a book.'  Now, we want to translate it into Hindi. Thus, we perform the following steps: 
+            
+            First, we need to select the specific cell we want to translate. In our case, we select cell A1, as shown below:  
+            Next, we need to click on the translation shortcut added to the Quick Access Toolbar. Also, we can access it from the Review > Translate option, which will launch another window.  
+            In the next window, we have to select the language in which we want to translate. Since we need to translate the text into Hindi, we select 'Hindi' from the drop-down list.  
+            After selecting the language, the text in our selected cell will be converted to the Hindi language immediately, as shown in the following image:  Clicking the 'Insert' button will insert the translated version of the text into the corresponding cell.  
+            Similarly, we can select other languages from the list to translate the selected content into any other desired language. Method 2: Translating a Worksheet using the Online Translation Tools Although Excel's built-in translation tool is easy to use, it can be a little tricky to translate a worksheet containing a hundred to thousands of cells in a different language. The tool is primarily helpful when translating a few cells or small portions of a worksheet, and this is because we can translate only one cell at a time while using the Excel Translate tool. Therefore, we can use online tools to translate worksheets that can help translate the entire sheet at once, independent of the number of cells to be translated. Also, many online tools allow users to translate multiple worksheets. However, if the worksheet contains charts, diagrams, and Excel functions, some online tools may not work properly because of compatibility issues. Following are some free online translation tools that can help in translating Excel worksheets into the language we need: 
+            
+            DocTranslator: DocTranslator is one of the best free tools on the web to translate Excel worksheets into any other language. It does not require any installation or registration and works via web browsers. The tool mainly uses the power of Google Translator and intelligently re-inserts the translated texts into the supplied sheet, preserving the original layout.  DocTranslator is a reliable, quick, and easy-to-use online translator that supports over a hundred languages to translate. Some of the other features of DocTranslator include cursive script, document layout mirroring, rendering of complex layouts, and text alignment for bidirectional languages. 
+            Aspose Online Excel Translator: Aspose Online Excel Translator is another free translator tool available online. This particular tool can translate various Excel files formats and allow users to save them into desired formats. Furthermore, it can translate a maximum of 10 files simultaneously. Although this free online tool can be helpful to translate excel worksheets quickly, it only supports ten major languages.  
+            Google Translate Tool: Google Translate is one of the popular translation tools available to use on the web. We generally use Google Translate to translate texts; however, this tool also allows us to translate contents from documents.  
+            Although Google Translate is fast and free to use, it has some limitations. If we translate a worksheet using the Google Translate tool, we cannot download the translated copy of the worksheet, and the translated copy can only be viewed within the browser. If we want to transfer the translated text into our worksheet, we must do it manually using the copy-paste method. How to use online Translation Tools to Translate the Worksheet? Using the online tools to translate workbooks is almost the same for different tools present on the web. Generally, the online translation tools involve the following steps: 
+            
+            First, we need to open or launch a particular tool via the web browser. 
+            Next, we need to upload the workbook that we want to translate. 
+            Once the file is uploaded, we need to select the language to which we want to translate the supplied data. Lastly, we must click the 'Translate' button. Some online tools may automatically start translating worksheets as soon as we select the file to upload. 
+            After the translation process is complete, we can view or download the translated version of the workbook, depending on the preferences. 
+            Note: We do not recommend online translation tools for files containing sensitive information. Online tools are considered good when we want to translate content for our personal reading or understanding. This is because online tools, mainly free ones, present some risk of data leakage or privacy issues. Method 3: Translating the Worksheet using Plugin/Add-on/Extension Excel supports installation for extensions to extend the functionalities or include additional features. Many extensions are present on the web that can be installed and used to translate content in worksheets. However, they are not available for free, and users must purchase such extensions to leverage the translate feature. Installing the extension, we usually include another tab on our Excel ribbon. Whenever we want to translate the content, we can go through a particular tab and access the translate feature. Using the good professional extension, we can click a few buttons to translate the full workbook, a full sheet, or a range of selected cells into the desired language.  Important Points to Remember 
+            
+            We must have an internet connection to use the built-in 'Translate' function in Excel. 
+            If we want to save the excel sheet after applying some translations, it is better to back up the original workbook. 
+            It is not preferred to use online tools or add-ins to translate an Excel worksheet containing sensitive or private data. 
+            Translations made using online tools, and add-ins should be reviewed and edited for accuracy and consistency. 
+            
+            
+            
+            Next Topic
+            Excel Large Function 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

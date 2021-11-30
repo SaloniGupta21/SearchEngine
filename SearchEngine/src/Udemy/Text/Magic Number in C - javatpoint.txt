@@ -1,0 +1,1056 @@
+
+
+ 
+  
+  Magic Number in C - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     C/C++ Training 
+      
+      C Tutorial 
+      
+      
+      What is C Language 
+      History of C  
+      Features of C 
+      How to install C 
+      First C Program 
+      Compilation Process in C 
+      printf scanf 
+      Variables in C 
+      Data Types in c 
+      Keywords in c 
+      C Identifiers 
+      C Operators 
+      C Comments 
+      C Format Specifier 
+      C Escape Sequence 
+      ASCII value in C 
+      Constants in C 
+      Literals in C 
+      Tokens in C 
+      C Boolean 
+      Static in C 
+      Programming Errors in C 
+      Compile time vs Runtime 
+      Conditional Operator in C 
+      Bitwise Operator in C 
+      2s complement in C 
+      C Fundamental Test 
+      
+      
+      C Control Statements 
+      
+      
+      C if-else 
+      C switch 
+      if-else vs switch 
+      C Loops 
+      C do-while loop 
+      C while loop 
+      C for loop 
+      Nested Loops in C 
+      Infinite Loop in C 
+      C break 
+      C continue 
+      C goto 
+      Type Casting 
+      C Control Statement Test 
+      
+      
+      C Functions 
+      
+      
+      What is function 
+      Call: Value & Reference 
+      Recursion in c 
+      Storage Classes 
+      C Functions Test 
+      
+      
+      C Array 
+      
+      
+      1-D Array 
+      2-D Array 
+      Return an Array in C 
+      Array to Function 
+      C Array Test 
+      
+      
+      C Pointers 
+      
+      
+      C Pointers 
+      C Pointer to Pointer 
+      C Pointer Arithmetic 
+      Dangling Pointers in C 
+      sizeof() operator in C 
+      const Pointer in C 
+      void pointer in C 
+      C Dereference Pointer 
+      Null Pointer in C 
+      C Function Pointer 
+      Function pointer as argument in C 
+      C Pointers Test 
+      
+      
+      C Dynamic Memory 
+      
+      
+      Dynamic memory 
+      
+      
+      C Strings 
+      
+      
+      String in C 
+      C gets() & puts() 
+      C String Functions 
+      C strlen() 
+      C strcpy() 
+      C strcat() 
+      C strcmp() 
+      C strrev() 
+      C strlwr() 
+      C strupr() 
+      C strstr() 
+      C String Test 
+      
+      
+      C Math 
+      
+      
+      C Math Functions 
+      
+      
+      C Structure Union 
+      
+      
+      C Structure 
+      typedef in C 
+      C Array of Structures 
+      C Nested Structure 
+      Structure Padding in C 
+      C Union 
+      C Structure Test 
+      
+      
+      C File Handling 
+      
+      
+      C File Handling 
+      C fprintf() fscanf() 
+      C fputc() fgetc() 
+      C fputs() fgets() 
+      C fseek() 
+      C rewind() 
+      C ftell() 
+      
+      
+      C Preprocessor 
+      
+      
+      C Preprocessor 
+      C Macros 
+      C #include 
+      C #define 
+      C #undef 
+      C #ifdef 
+      C #ifndef 
+      C #if 
+      C #else 
+      C #error 
+      C #pragma 
+      C Preprocessor Test 
+      
+      
+      C Command Line 
+      
+      
+      Command Line Arguments 
+      
+      
+      C Misc 
+      
+      
+      C Expressions 
+      Data Segments 
+      Flow of C Program 
+      Classification of Programming Languages 
+      Enum in C 
+      What is getch() in C 
+      What is the function call in C 
+      typedef vs define in C 
+      
+      
+      C Programming Test 
+      
+      
+      C Programming Test 
+      
+      
+      C Programs 
+      
+      
+      Top 10+ C Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      C program to compare the two strings 
+      Strings Concatenation in C 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Count the number of digits in C 
+      Reverse Number 
+      Swap Number 
+      Print "Hello" without ; 
+      Assembly code in C 
+      C program without main 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Hexadecimal to Binary 
+      Hexadecimal to Decimal 
+      Octal to Hexadecimal in C 
+      Strong number in C 
+      Star Program in C 
+      itoa Function in C 
+      Extra Long Factorials in C 
+      Leap year program in C 
+      Perfect Number Program in C 
+      Variables vs Constants 
+      Round Robin Program in C with Output 
+      C Program to find the roots of quadratic equation 
+      Type Casting vs Type Conversion 
+      How to run a C program in Visual Studio Code 
+      Modulus Operator in C/C++ 
+      Sum of first N natural numbers in C 
+      Big O Notation in C 
+      LCM of two numbers in C 
+      while loop vs do-while loop in C 
+      Memory Layout in C 
+      Balanced Parenthesis in C 
+      Binary to Decimal Number in C 
+      GCD of two numbers in C 
+      Getchar() function in C 
+      flowchart in C 
+      Simpson Method 
+      Pyramid Patterns in C 
+      Random Function in C 
+      Floyd's Triangle in C 
+      C Header Files 
+      abs() function in C 
+      Atoi() function in C 
+      Structure Pointer in C 
+      sprintf() in C 
+      Range of Int in C 
+      C Program to convert 24 Hour time to 12 Hour time 
+      What is double in C 
+      What is the main in C 
+      Calculator Program in C 
+      Calloc in C 
+      user-defined vs library function in C 
+      Memset C 
+      ASCII Table in C 
+      Static function in C 
+      Reverse a String in C 
+      Twin Prime Numbers in C 
+      strchr() function in C 
+      Structure of a C program 
+      Power Function in C 
+      Malloc in C 
+      Table Program in C 
+      Types of Recursion in C 
+      Convert Uppercase to Lowercase in C 
+      Unary Operator in C 
+      Arithmetic Operator in C 
+      Ceil Function in C 
+      Relational Operator in C 
+      Assignment Operator in C 
+      Pre-increment and Post-increment Operator in C 
+      Pointer vs array in C 
+      Restrict keyword in C 
+      The exit() function in C 
+      Const Qualifier in C 
+      Sequence Points in C 
+      Anagram in C 
+      Increment and Decrement Operators in C 
+      Logical AND Operator in C 
+      Shift Operators in C 
+      Near, Far, and Huge pointers in C language 
+      Magic Number in C 
+      Remove Duplicate Elements from an Array in C 
+      Generic Linked list in C 
+      isalnum() function in C 
+      isalpha() function in C 
+      Bisection Method in C 
+      snprintf() function in C 
+      
+      
+      MCQ 
+      
+      
+      C language MCQ 
+      C language MCQ Part 2 
+      
+      
+      Math 
+      
+      
+      Prime Numbers List 
+      Composite Numbers List 
+      Square Numbers List 
+      Binary Numbers List 
+      Fibonacci Numbers List 
+      Ounces in a Cup 
+      Ounces in a Pound 
+      Ounces in a Gallon 
+      Ounces in a Liter 
+      Ounces in a Pint 
+      Ounces in a Quart 
+      Ounces in a Tablespoon 
+      
+      
+      C Interview 
+      
+      
+      C Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Magic Number in C In this section, we will discuss magic numbers in C programming language along with their various examples. When the sum of all the given digits of a number and the reverse of that sum is multiplied, which is equal to the original number, and then the number is called a magic number. For example, suppose we have a 1729 number and we need to validate whether the number is a magic number or not. So, first we need to get the sum of all digits of the number which is 19 (1 + 7 + 2 + 9 = 19). Reverse the sum of the number is 91, and then get the product of the sum of original digits with the reverse of that sum as 19 * 19 = 1729. So, it is the magic number. Steps to find the Magic number in C Step 1: Declare an integer type variable and input a number from the user to store it in N. Step 2: Get the sum of all digits of the original number and store it another variable A. Step 3: Reverse the number of variable A and store into B. Step 4: After that, multiply the values of variable A and B and store into C. Step 5: Check whether C == N, then the number is a Magic Number. Else, the Number is not a Magic number. Example 1: Program to check whether the number is a Magic number in C Let's create a program to take a number from the user and validate whether the entered number is a magic number or not in the C programming language. 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+
+int main ()
+{
+	// declare integer variables
+	int n, temp, rev = 0, digit, sum_of_digits = 0;
+	
+	printf (" Enter a Number: \n");
+	scanf (" %d", &n); // get the number
+	
+	temp = n; // assign the number to temp variable
+	
+	// use while loop to calculate the sum of digits
+	while ( temp > 0)
+	{
+		// extract digit one by one and store into the sum_of_digits
+		sum_of_digits = sum_of_digits + temp % 10; /* use modulus symbol to get the remainder of each iteration by temp % 10 */
+		temp = temp / 10;
+	}
+	
+	temp = sum_of_digits; // assign the sum_of_digits to temp variable
+	printf (" \n The sum of the digits = %d", temp);
+	
+	// get the reverse sum of given digits
+	while ( temp > 0)
+	{
+		rev = rev * 10 + temp % 10;
+		temp = temp / 10;
+	}
+	
+	printf (" \n The reverse of the digits = %d", rev);
+	
+	
+	printf (" \n The product of %d * %d = %d", sum_of_digits, rev, rev * sum_of_digits);
+	// use if else statement to check the magic number
+	if ( rev * sum_of_digits == n)
+	{
+		printf (" \n %d is a Magic Number. ", n);
+	}
+	else
+	{
+		printf (" \n %d is not a Magic Number. ", n);
+	}
+	return 0;
+	
+}
+
+            When we execute the above program in the C compiler, it produces the below output in the console screen. 
+           
+            Enter a number
+1729
+The sum of the digits = 19
+The reverse of the digits = 91
+The product of 19 * 91 = 1729 
+1729 is a Magic Number.
+
+            In the above program, we take 1729 from the user and assign the number to the temp variable. After that, use a while loop to extract the sum of the original digits (n) into sum_of_digits one by one and assign the result to the temp. Use the loop again to reverse the sum of the digits and print the reverse number. And finally compare the original digit (N) with the multiplication of sum_of_digits and rev variable that return the same result to show a magic number. Example 2: Program to check whether the number is a Magic number using the user-defined function Let's create an example to take a number from the user and validate whether the entered number is a magic number or not in the C programming language. 
+           
+            
+/* program to check the magic number using the user-defined function in c programming. */
+#include <stdio.h>
+#include <conio.h>
+
+// create getReverse () function to get the reverse of the given number
+int getReverse (int num)
+{
+	int revNum = 0;
+	
+	//use while loop to get the reverse of original nummber (n)
+	while ( num > 0)
+	{
+		revNum = (revNum * 10) + (num % 10);
+		num = num / 10;	
+	 } 
+	 printf (" \n The reverse of the number = %d", revNum);
+	 return revNum;
+}
+
+// create getSum() function to get the sum of each digits of the given number
+int getSum ( int num)
+{
+	int sum = 0; // initialize the sum variable with 0
+	while ( num > 0)
+	{
+		sum = sum + ( num % 10);
+		num = num / 10;
+	}
+	printf ( " \n The sum of the given number = %d", sum);
+	return sum;
+}
+
+int main ()
+{
+	// declare variable
+	int num, sum, revNum;
+	printf (" Enter the number: ");
+	scanf (" %d", &num);
+	
+	sum = getSum (num); // call getSum () function
+	revNum = getReverse (sum); // callgetReverse () function and argument sum
+	
+	int result = sum * revNum;
+	printf (" \n The product of %d and %d = %d ", sum, revNum, result);
+	
+	// use if else to check condition
+	if (sum * revNum == num)
+	{
+		printf (" \n %d is a magic number. ", num);	
+	}
+	else
+	{
+		printf ( " \n %d is not a magic number. ", num);
+	}
+}
+
+            When we execute the above program in the C compiler, it produces the below output in your computer screen. 
+           
+            Enter the number: 1729
+The sum of the given number = 19
+The reverse of the number = 91
+The product of 19 and 91 = 1729
+1729 is a Magic Number.
+
+            2nd execution: 
+           
+            Enter the number: 5189
+The sum of the given number = 23
+The reverse of the number = 32
+The product of 23 and 32 = 736
+5189 is not a magic number.
+
+            In the above program, we take 5189 from the user and create two user defined function getSum() and getRevere(). Where the getSum() function is used to calculate the sum of the given number, and the getReverse() function to reverse sum of the getSum() function. If the multiplication of the getSum() and getReverse()function is equal to the num, the number is a magic number. Method 2: Recursive Method to check the Magic number in C A number is said to be a magic number, if the sum of the digits is recursively calculated till a single digit which is equal to 1. Otherwise the number is not a magic number Example 1: Program to find the Magic number using recursive Method Let's create a program to input the integer data from the user and validate whether the number is a magic number or not in the C programming language. 
+           
+            
+/* create a program to get the magic number by dividing the given number by 9. */
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+	// declare integer variable
+	int num;
+	printf ( " Enter the number: ");
+	scanf (" %d", &num);
+	
+	// get the modulus of the input number by 9 to check magic number
+	if ( num % 9 == 1)
+	{
+		printf ( " It is a Magic Number. ");
+	}
+	else
+	{
+		printf ( " it is not a Magic Number. ");
+	}
+	return 0;
+}
+
+            When we execute the above program in the C compiler, it produces the below output in the console screen. 
+           
+            Enter the number: 1789
+It is a Magic Number.
+
+            2nd execution: 
+           
+            Enter the number: 55057
+It is not a Magic Number.
+
+            
+            
+            
+            Next Topic
+            Remove Duplicate Elements from an Array in C 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

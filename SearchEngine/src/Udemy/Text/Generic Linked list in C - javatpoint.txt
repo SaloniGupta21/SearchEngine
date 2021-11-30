@@ -1,0 +1,1229 @@
+
+
+ 
+  
+  Generic Linked list in C - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     C/C++ Training 
+      
+      C Tutorial 
+      
+      
+      What is C Language 
+      History of C  
+      Features of C 
+      How to install C 
+      First C Program 
+      Compilation Process in C 
+      printf scanf 
+      Variables in C 
+      Data Types in c 
+      Keywords in c 
+      C Identifiers 
+      C Operators 
+      C Comments 
+      C Format Specifier 
+      C Escape Sequence 
+      ASCII value in C 
+      Constants in C 
+      Literals in C 
+      Tokens in C 
+      C Boolean 
+      Static in C 
+      Programming Errors in C 
+      Compile time vs Runtime 
+      Conditional Operator in C 
+      Bitwise Operator in C 
+      2s complement in C 
+      C Fundamental Test 
+      
+      
+      C Control Statements 
+      
+      
+      C if-else 
+      C switch 
+      if-else vs switch 
+      C Loops 
+      C do-while loop 
+      C while loop 
+      C for loop 
+      Nested Loops in C 
+      Infinite Loop in C 
+      C break 
+      C continue 
+      C goto 
+      Type Casting 
+      C Control Statement Test 
+      
+      
+      C Functions 
+      
+      
+      What is function 
+      Call: Value & Reference 
+      Recursion in c 
+      Storage Classes 
+      C Functions Test 
+      
+      
+      C Array 
+      
+      
+      1-D Array 
+      2-D Array 
+      Return an Array in C 
+      Array to Function 
+      C Array Test 
+      
+      
+      C Pointers 
+      
+      
+      C Pointers 
+      C Pointer to Pointer 
+      C Pointer Arithmetic 
+      Dangling Pointers in C 
+      sizeof() operator in C 
+      const Pointer in C 
+      void pointer in C 
+      C Dereference Pointer 
+      Null Pointer in C 
+      C Function Pointer 
+      Function pointer as argument in C 
+      C Pointers Test 
+      
+      
+      C Dynamic Memory 
+      
+      
+      Dynamic memory 
+      
+      
+      C Strings 
+      
+      
+      String in C 
+      C gets() & puts() 
+      C String Functions 
+      C strlen() 
+      C strcpy() 
+      C strcat() 
+      C strcmp() 
+      C strrev() 
+      C strlwr() 
+      C strupr() 
+      C strstr() 
+      C String Test 
+      
+      
+      C Math 
+      
+      
+      C Math Functions 
+      
+      
+      C Structure Union 
+      
+      
+      C Structure 
+      typedef in C 
+      C Array of Structures 
+      C Nested Structure 
+      Structure Padding in C 
+      C Union 
+      C Structure Test 
+      
+      
+      C File Handling 
+      
+      
+      C File Handling 
+      C fprintf() fscanf() 
+      C fputc() fgetc() 
+      C fputs() fgets() 
+      C fseek() 
+      C rewind() 
+      C ftell() 
+      
+      
+      C Preprocessor 
+      
+      
+      C Preprocessor 
+      C Macros 
+      C #include 
+      C #define 
+      C #undef 
+      C #ifdef 
+      C #ifndef 
+      C #if 
+      C #else 
+      C #error 
+      C #pragma 
+      C Preprocessor Test 
+      
+      
+      C Command Line 
+      
+      
+      Command Line Arguments 
+      
+      
+      C Misc 
+      
+      
+      C Expressions 
+      Data Segments 
+      Flow of C Program 
+      Classification of Programming Languages 
+      Enum in C 
+      What is getch() in C 
+      What is the function call in C 
+      typedef vs define in C 
+      
+      
+      C Programming Test 
+      
+      
+      C Programming Test 
+      
+      
+      C Programs 
+      
+      
+      Top 10+ C Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      C program to compare the two strings 
+      Strings Concatenation in C 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Count the number of digits in C 
+      Reverse Number 
+      Swap Number 
+      Print "Hello" without ; 
+      Assembly code in C 
+      C program without main 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Hexadecimal to Binary 
+      Hexadecimal to Decimal 
+      Octal to Hexadecimal in C 
+      Strong number in C 
+      Star Program in C 
+      itoa Function in C 
+      Extra Long Factorials in C 
+      Leap year program in C 
+      Perfect Number Program in C 
+      Variables vs Constants 
+      Round Robin Program in C with Output 
+      C Program to find the roots of quadratic equation 
+      Type Casting vs Type Conversion 
+      How to run a C program in Visual Studio Code 
+      Modulus Operator in C/C++ 
+      Sum of first N natural numbers in C 
+      Big O Notation in C 
+      LCM of two numbers in C 
+      while loop vs do-while loop in C 
+      Memory Layout in C 
+      Balanced Parenthesis in C 
+      Binary to Decimal Number in C 
+      GCD of two numbers in C 
+      Getchar() function in C 
+      flowchart in C 
+      Simpson Method 
+      Pyramid Patterns in C 
+      Random Function in C 
+      Floyd's Triangle in C 
+      C Header Files 
+      abs() function in C 
+      Atoi() function in C 
+      Structure Pointer in C 
+      sprintf() in C 
+      Range of Int in C 
+      C Program to convert 24 Hour time to 12 Hour time 
+      What is double in C 
+      What is the main in C 
+      Calculator Program in C 
+      Calloc in C 
+      user-defined vs library function in C 
+      Memset C 
+      ASCII Table in C 
+      Static function in C 
+      Reverse a String in C 
+      Twin Prime Numbers in C 
+      strchr() function in C 
+      Structure of a C program 
+      Power Function in C 
+      Malloc in C 
+      Table Program in C 
+      Types of Recursion in C 
+      Convert Uppercase to Lowercase in C 
+      Unary Operator in C 
+      Arithmetic Operator in C 
+      Ceil Function in C 
+      Relational Operator in C 
+      Assignment Operator in C 
+      Pre-increment and Post-increment Operator in C 
+      Pointer vs array in C 
+      Restrict keyword in C 
+      The exit() function in C 
+      Const Qualifier in C 
+      Sequence Points in C 
+      Anagram in C 
+      Increment and Decrement Operators in C 
+      Logical AND Operator in C 
+      Shift Operators in C 
+      Near, Far, and Huge pointers in C language 
+      Magic Number in C 
+      Remove Duplicate Elements from an Array in C 
+      Generic Linked list in C 
+      isalnum() function in C 
+      isalpha() function in C 
+      Bisection Method in C 
+      snprintf() function in C 
+      
+      
+      MCQ 
+      
+      
+      C language MCQ 
+      C language MCQ Part 2 
+      
+      
+      Math 
+      
+      
+      Prime Numbers List 
+      Composite Numbers List 
+      Square Numbers List 
+      Binary Numbers List 
+      Fibonacci Numbers List 
+      Ounces in a Cup 
+      Ounces in a Pound 
+      Ounces in a Gallon 
+      Ounces in a Liter 
+      Ounces in a Pint 
+      Ounces in a Quart 
+      Ounces in a Tablespoon 
+      
+      
+      C Interview 
+      
+      
+      C Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Generic Linked list in C A linked list is a linear collection of data elements for whom the order is determined by one's physical location in memory rather than by their physical order. Rather, each element serves as a stepping stone to the next. It's a data structure made up of nodes that symbolize a sequence. So every node contains data and a reference (a link) to the next node in the sequence in its most basic form. During iteration, this structure enables efficient insertion and removal of elements from any position in the sequence. More complex variants include extra links, allowing for more efficient insertion and removal of nodes at arbitrary positions. One disadvantage of linked lists is that access time is linear and difficult to the pipeline. It is not possible to provide faster access, such as random access. When compared to linked lists, arrays have better cache locality. Linked lists are one of the most basic and widely used data structures. They can be used to incorporate a variety of other popular abstract data types, such as lists, stacks, queues, associative arrays, and S-expressions; however, it is not rare to incorporate those data structures directly without using a linked list as the foundation or underlying data structure. The primary advantage of a linked list over a traditional array is that the list elements can be easily inserted or removed without requiring reallocation or reorganization of the entire structure because the data items do not need to be stored contiguously in memory or on disc, whereas restructuring an array at run-time is a much more costly operation. Linked lists allow the addition and removal of nodes at any point in the list with a constant number of operations by keeping the link preceding the link being added or removed in memory during list traversal. However, because simple linked lists do not support random access to data or efficient indexing, many basic operations, such as obtaining the last node of the list, locating a node that contains a given datum, or locating the location where a new node should be inserted, may necessitate iterating through most or all of the list elements. The benefits and drawbacks of using linked lists are listed below. A dynamic array is a data structure that allocates all elements in memory in a contiguous manner and keeps track of the current number of elements. If the dynamic array's allocated space is exceeded, it is reallocated and (possibly) copied, which is an expensive operation. There are several advantages to using linked lists over dynamic arrays. Insertion or deletion of an element at a specific point of a list is a constant-time operation (unless we have already indexed a pointer to the node (before the one to be removed or before the insertion point). In contrast, insertion in a dynamic array at random locations will require moving half of the elements on average and all of the elements in the worst case. While it is possible to "delete" an element from an array in constant time by marking its slot as "vacant," this causes fragmentation that impedes iteration performance. Depending upon the type of pointer, the nodes of a linked list have the direction of the pointers of the linked list nodes. Types of Linked list There are different types of linked lists, and some of the major types of linked lists are: 
+            
+            Singly Linked list 
+            Doubly Linked list 
+            Circular Linked list 
+            Doubly Circular Linked list 
+            Singly Linked list In a singly linked list, the node of the singly linked list points to the address of the memory location where the next node is stored. Similarly, in this way, all the nodes are storing the address of their respective next nodes. Other than the last node, the address in the pointer of the last node is NULL representing it is the last node of the linked list. Code Now let's see a sample code to create a singly linked list, add elements in the list, and then traverse the singly linked list in the C programming language. 
+           
+            
+/* A sample C code to perform the following functions on Singly Linked list Insert, Delete, Display and Count Operations */
+/* All Operations Example Program Using Functions in C*/
+// stdio library is included to use the input output functionalities in the program
+#include <stdio.h>
+// the malloc library is included to dynamically allocate memory to the nodes of the Singly Linked list
+#include <malloc.h>
+#include <stdlib.h>
+// a struct named node is defined that will represent the node of the Singly Linked list
+// the struct object has two variables in it named value and next
+struct node {
+  // the value variable is of integer type and will be used to store the value associated with that particular node of the Singly Linked list
+  int value;
+  // the next variable is of struct node* type and will be used to store the address of the next node of the Singly Linked list
+  struct node *next;
+};
+void insert();
+void display();
+void delete();
+int count();
+// the struct object named node is typedef with DATA_NODE for easier interpretation 
+typedef struct node DATA_NODE;
+// An object of the DATA_NODE (which is struct node) named head_node is created and initialized with 0 that acts as the head node of the Singly Linked list. 
+DATA_NODE *head_node = 0;
+// An object of the DATA_NODE (struct node) named first_node is created and initialized with 0, which acts as the first node of the Singly Linked list.
+DATA_NODE *first_node = 0;
+// An object of the DATA_NODE (which is struct node) named temp_node is created and initialized with 0 that will be used to store the node of the Singly Linked list temporarily.
+DATA_NODE *temp_node = 0;
+// An object of the DATA_NODE (which is struct node) named next_node,prev_node is created that will be used to temproray store the node of Singly Linked list.
+DATA_NODE *prev_node;
+DATA_NODE next_node;
+// a variable named data of integer type is created to store the value associated with that particular node of the Singly Linked list 
+int data;
+// A function named insert is written to add a new node to the Singly Linked list 
+void insert() {
+  // Data to be associate with that particular node of the Singly Linked list is taken as input from the user
+  printf("\nEnter Element for Insert Linked list : \n");
+  // the data enetred by the user is stored in the data variable
+  scanf("%d", &data);
+  // a temporary node is created with the added new data by the user, and this new temporary node is allocated memory by using the malloc function 
+  temp_node = (DATA_NODE *) malloc(sizeof (DATA_NODE));
+  // now the data added by the user is associated with this particular new temproray node
+  temp_node->value = data;
+  // while inserting a new node to the Singly linked list, it is checked whether the first_node is zero or not,
+  // if first_node is zero, that means there are no nodes present in the Singly Linked list at that time, so that
+  // new node is added at the start of the Singly Linked list, which will act as the head of the Linked list
+  // if the first_node is not zero, then the new node is added after that already existing node   
+  // this if condition will check the value of first_node varible
+  if (first_node == 0) {
+    // if value of first_node varible is zero then it will become the head of the Singly Linked list
+    first_node = temp_node;
+  } else {
+    // if the value is not zero, then the address of this new node will be added to the pointer of the already last existing node in the Singly Linked list
+    head_node->next = temp_node;
+  }
+  // and the address that is stored in the newly added node is 0 representing it to be the last node of the Singly Linked list   
+  temp_node->next = 0;
+  head_node = temp_node;
+  fflush(stdin);
+}//end of the insert function
+// A function named delete was written to delete a node from the Singly Linked list
+void delete() {
+  int countvalue = 0;
+  int pos = 0;
+  int i = 0;
+  countvalue = count();
+  temp_node = first_node;
+  printf("\nDisplay Linked list : \n");
+  // The position of the node that we want to delete from the Singly Linked list is taken as input from the user
+  printf("\nEnter Position for Delete Element : \n");
+  // The position of the node that we want to delete from the Singly Linked list entered by the user is stored in the pos variable
+  scanf("%d", &pos);
+  // Now, for deleting a node from the Singly Linked list, first we need to traverse to that position and then delete that node from the Singly Linked list  
+  // By deleting, we mean to add the pointer of the previous node to the next node of the node whose position is entered by the user.
+  if (pos > 0 && pos <= countvalue) {    
+    // this is the case when the user wants to delete the head node of the Singly Linked list
+    if (pos == 1) {
+      temp_node = temp_node -> next;
+      first_node = temp_node;
+      // Once the node is deleted a message is displayed to the user
+      printf("\nDeleted Successfully \n\n");
+    } else {
+      while (temp_node != 0) {
+        if (i == (pos - 1)) {
+          prev_node->next = temp_node->next;
+          if(i == (countvalue - 1))
+          {
+			  head_node = prev_node;
+		  }
+          // Once the node is deleted a message is displayed to the user
+          printf("\nDeleted Successfully \n\n");
+          break;
+        } else {
+          i++;
+          prev_node = temp_node;
+          temp_node = temp_node -> next;
+        }
+      }
+    }
+    // if the position that is entered by the user is out of the range of the length of the  Singly Linked list then an error message saying Invalid position is displayed
+  } else
+    printf("\nInvalid Position \n\n");
+}// end of delete function
+// A function named display is written to print the data in the nodes of the Singly Linked list 
+void display() {
+  //an integer variable named count is initialized with zero that will keep the total count of the number of nodes in the Singly Linked list 
+  int count = 0;
+  // the temp_node variable is initialized with the first_node variable, which is the first node of the Singly Linked list
+  temp_node = first_node;
+  printf("\nDisplay Linked list : \n");
+  // The Singly Linked list is traversed untill the last element of the Singly Linked list is encountered
+  while (temp_node != 0) {
+    // while traversing the Singly Linked list the data present in the each node of the Singly Linked list is printed
+    printf("# %d # ", temp_node->value);    
+    // the count variable is incremented after traversing each node of the Singly Linked list 
+    count++;
+    temp_node = temp_node -> next;
+  }  
+  // after traversing each node of the Singly Linked list, the total count of the number of nodes in the Singly Linked list is printed
+  printf("\nNo Of Items In Linked list : %d\n", count);
+}// end of display function
+// A function named count is written to count the total number of nodes in the Singly Linked list
+int count() {  
+  //an integer variable named count is initialized with zero that will keep the total count of the number of nodes in the Singly Linked list 
+  int count = 0;
+  // the temp_node variable is initialized with the first_node variable, which is the first node of the Singly Linked list
+  temp_node = first_node;
+  // The Singly Linked list is traversed until the last element of the Singly Linked list is encountered
+  while (temp_node != 0) {
+    // the count varible is incremented after traversing each node of the Singly Linked list
+    count++;
+    temp_node = temp_node -> next;
+  }
+  // after traversing each node of the Singly Linked list, the total count of the number of nodes in the Singly Linked list is printed
+  printf("\nNo Of Items In Linked list : %d\n", count);
+  return count;
+}// end of count function
+// main function is written to call all the functionalities functions of the Singly Linked list written above
+int main() {
+  char ch;
+            // Do-while loop
+            // Do part for performing actions
+            do
+            // Menu is displayed
+            // Users enter 'y' to continue 'n' if
+            // entered by user , the program terminates
+            {
+                  // Menu
+                  // Display messages
+                  printf("Please Choose one of the Operations::\n");
+                  printf("1. To Insert Data in the Singly Linked list.\n");
+                  printf("2. To Delete Data from the Singly Linked list.\n");
+                  printf("3. To Display Data present in the Singly Linked list.\n");
+                  printf("4. To Display the count of nodes in the Singly Linked list.\n");
+                  printf("\n");
+                  int choice;
+                  scanf("%d",&choice);
+                  // Switch case
+                  switch (choice) {
+                  // Case 1
+                  case 1:
+                        insert();
+                        // Display message
+                        printf("Data Added Sucessfully.\n");
+                        // Break statement to terminate a case
+                        break;
+                  // Case 2
+                  case 2:
+                        // Display message
+                        delete();
+                        // Break statement to terminate a case
+                        break;
+                  // Case 3
+                  case 3:
+                        // Display message
+                        display();
+                        // Break statement to terminate a case
+                        break;
+                  // Case 2
+                  case 4 :
+                        // Display message
+                        count();
+                        // Break statement to terminate a case
+                        break;
+                  default:
+                        // Print statement
+                        printf("Please enter a valid option from the menu to proceed further.\n \n");
+                        // Break statement
+                        break;
+                  }
+                  printf("\nType [N or n] to terminate the program.\nType [Y or y] to continue the program.\n");
+                  scanf(" %c",&ch);                  
+            } while (!(ch == 'N' || ch == 'n'));
+  return 0;
+}// end of main function
+
+            Output: The above code gives the following output: 
+           
+            Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+2
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+3
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+6
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+89
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+56
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1
+Enter Element for Insert Linked list: 
+31
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+1 
+Enter Element for Insert Linked list: 
+78
+Data Added Successfully.
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+3
+Display Linked list: 
+# 2 # # 3 # # 6 # # 89 # # 56 # # 31 # # 78 # 
+No Of Items In Linked list: 7
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+2
+No of Items In Linked list: 7
+Display Linked list: 
+Enter Position for Delete Element: 
+4
+Deleted Successfully 
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+3
+Display Linked list: 
+# 2 # # 3 # # 6 # # 56 # # 31 # # 78 # 
+No Of Items In Linked list: 6
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+y
+Please Choose one of the Operations::
+1. To Insert Data in the Singly Linked list.
+2. To Delete Data from the Singly Linked list.
+3. To Display Data present in the Singly Linked list.
+4. To Display the count of nodes in the Singly Linked list.
+4
+No of Items in Linked list: 6
+Type [N or n] to terminate the program.
+Type [Y or y] to continue the program.
+n  
+
+            In the above code, we created different functions for different functionalities of the linked list like inserting a new node to the linked list, displaying the data present in all the nodes of the linked list, deleting a particular node present at a specific position in the linked list and counting the total number of nodes in the linked list. While inserting a new node to the singly linked list, it is checked whether the first node is zero or not, 
+            
+            If the first node is zero, there are no nodes present in the singly linked list at that time, so that a new node is added at the start of the singly linked list, which will act as the head of the linked list. 
+            If the first node is not zero, then the new node is added. After that already the last existing node is present in the linked list. For deleting a node from the linked list, first, we need to take the index of that node from the user. Once we have the position of that node next step is to traverse to that node, and after reaching that node, the previous node of the node that we want to delete is holding the address of this node so but we need to change it to the node of the next of that position. And for the printing of the data present in all the nodes, we need to traverse the whole list beginning from the head (first) node all up to the last node, and while traversing each node, the data present in that node is displayed. A similar approach is followed for printing the total count of the nodes in the linked list. 
+            
+            
+            
+            Next Topic
+            isalnum() function in C 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

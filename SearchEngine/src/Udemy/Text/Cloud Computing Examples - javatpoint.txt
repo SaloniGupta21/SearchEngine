@@ -1,0 +1,643 @@
+
+
+ 
+  
+  Cloud Computing Examples - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+      
+       Home 
+       C 
+       Java 
+       SQL 
+       Cloud Computing 
+       Android 
+       JavaScript 
+       AJAX 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Cloud Tutorial 
+      
+      
+      Cloud Computing 
+      Advantage & Disadvantage 
+      History of Cloud 
+      Cloud Computing Architecture 
+      Cloud Computing Technologies 
+      Cloud Computing vs Grid Computing 
+      How Cloud work 
+      Cloud Computing Applications 
+      Security Risks of Cloud Computing 
+      
+      
+      Types of Cloud 
+      
+      
+      Types of Cloud 
+      Public Cloud 
+      Private Cloud 
+      Hybrid Cloud 
+      Community Cloud 
+      
+      
+      Cloud Service Models 
+      
+      
+      Cloud Service Models 
+      IaaS Layer 
+      PaaS Layer 
+      SaaS Layer 
+      
+      
+      Virtualization 
+      
+      
+      What is Virtualization 
+      Data Virtualization 
+      Hardware Virtualization 
+      Software Virtualization 
+      Server Virtualization 
+      Storage Virtualization 
+      OS Virtualization 
+      Linux Virtualization 
+      Windows Virtualization 
+      
+      
+      Cloud Service Providers 
+      
+      
+      Cloud Service Provider Companies 
+      Amazon EC2 
+      AWS vs Azure vs GCP 
+      
+      
+      Miscellaneous 
+      
+      
+      Cloud Server 
+      Cloud Deployment Model 
+      Cloud Hypervisor 
+      Cloud Computing Examples 
+      Cloud Computing Jobs 
+      Features of Cloud Computing 
+      
+      
+      Cloud Computing MCQ 
+      
+      
+      Cloud Computing MCQ 
+      
+      
+      Interview 
+      
+      
+      Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Cloud Computing Examples Cloud computing is an infrastructure and software model that enables ubiquitous access to shared storage pools, networks, servers and applications. It allows data processing on a privately owned cloud or on a third-party server. This creates maximum speed and reliability. But the biggest advantages are its ease of installation, low maintenance and scalability. In this way, it grows with your needs. IaaS and SaaS cloud computing has been skyrocketing since 2009, and it's all around us now. You're probably reading this on the cloud right now. For some perspective on how important cloud storage and computing are to our daily lives, here are 8 real-world examples of cloud computing: Examples of Cloud Storage Ex: Dropbox, Gmail, Facebook The number of online cloud storage providers is increasing every day, and each is competing on the amount of storage that can be provided to the customer. Right now, Dropbox is the clear leader in streamlined cloud storage, allowing users to access files through their application or website on any device with up to 1 terabyte of free storage. Gmail, Google's email service provider, on the other hand, offers unlimited storage on the cloud. Gmail has revolutionized the way we send email and is largely responsible for the increasing use of email across the world. Facebook is a mixture of both in that it can store an infinite amount of information, pictures and videos on your profile. Then they can be easily accessed on multiple devices. Facebook goes a step further with its Messenger app, which allows profiles to exchange data. Examples of Marketing Cloud Platforms Ex: Maropost for Marketing, Hubspot, Adobe Marketing Cloud Marketing Cloud is an end-to-end digital marketing platform for customers to manage contacts and target leads. Maropost Marketing Cloud combines easy-to-use marketing automation and hyper-targeting of leads. Plus, making sure email arrives in the inbox, thanks to its advanced email delivery capabilities. In general, marketing clouds fill the need for personalization, and this is important in a market that demands messaging to be "more human". So communicating that your brand is here to help will make all the difference in closing. Examples of Cloud Computing in Education Ex: SlideRocket, Ratatype, Amazon Web Services Education is rapidly adopting advanced technology as students already are. Therefore, to modernize classrooms, teachers have introduced e-learning software like SlideRocket. SlideRocket is a platform that students can use to create and submit presentations, and students can also present them over the cloud via web conferencing. Another tool teachers use is RataType, which helps students learn to type faster and offers online typing tests to track their progress. Amazon's AWS Cloud for K12 and Primary Education is a virtual desktop infrastructure (VDI) solution for school administration. The cloud allows instructors and students to access teaching and learning software on multiple devices. Examples of Cloud Computing in Healthcare Ex: ClearDATA, Dell's Secure Healthcare Cloud, IBM Cloud Cloud computing allows nurses, physicians and administrators to quickly share information from anywhere. It also saves on costs by allowing large data files to be shared quickly for maximum convenience. This is a huge boost to efficiency. Ultimately, cloud technology ensures that patients receive the best possible care without unnecessary delay. The patient's status can also be updated in seconds through remote conferencing. However, many modern hospitals have not yet implemented cloud computing, but are expected to do so soon. Examples of Cloud Computing for Government Uses: IT consolidation, shared services, citizen services The US government and military were early adopters of cloud computing. Under the Obama administration to accelerate cloud adoption across departments, the U.S. The federal cloud computing strategy was introduced. According to the strategy: "The focus will shift from the technology itself to the core competencies and mission of the agency." US Government's cloud includes social, mobile and analytics technologies. However, they must adhere to strict compliance and security measures (FIPS, FISMA, and FedRAMP). This is to protect against cyber threats both domestically and abroad. Cloud computing is the answer for any business struggling to stay organized, increase ROI, or grow their email lists. Maropost has the digital marketing solutions you need to transform your business. 
+            
+            
+            Next Topic
+            Cloud Computing Jobs 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

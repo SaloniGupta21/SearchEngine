@@ -1,0 +1,121 @@
+Hashing Techniques in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Hashing Techniques in Java The hash function is a key-value mapping function. When two or more keys are mapped to the same value using these hashing methods, there exists duplicate values. The use of chain hashing prevents collisions. Each hash table cell should lead to a linked list of entries that have the same hash function value. Let's create a hash function that returns a hash table with 'N' buckets. To add a node to the hash table, we need to find the hash index for the specified key. 
+hashIndex = key % noOfBuckets
+ The hash function might also be used to figure it out. Insert: Go to the bucket that corresponds to the hash index determined above and add the new node to the end of the list. Delete: To remove a node from a hash table, compute the key's hash index, move to the bucket that corresponds to the calculated hash index, search the list in the current bucket for the node with the supplied key, and remove it (if found). Methods for Implementing hashing in Java 1. HashTable-based Method(A synchronised implementation of hashing) HashTableDemo.java 
+import java.util.*;
+public class HashTableDemo
+{
+    /* Driver Code */
+    public static void main(String args[])
+    {
+       /* Create a HashTable to store String values corresponding to integer keys */
+        Hashtable<Integer, String> hm = new Hashtable<Integer, String>();
+        /* Input the values */
+        hm.put(3, "You are visiting");
+        hm.put(5, "Hello");
+        hm.put(1, "website");
+        hm.put(2, "Javatpoint");
+        /* Display the Hashtable */
+        System.out.println(hm);
+    }
+}
+ Output: {5=Hello, 3=You are visiting, 2=Javatpoint, 1=website}
+ Here, the above Java code demonstrates the use of Hashtable. 2. HashMap-based Method (A non-synchronized faster implementation of hashing) HashMapDemo.java 
+import java.util.*;
+public class HashMapDemo 
+{
+    /* Function to create HashMap from array */
+    static void HashMapCreation(int arr[])
+    {
+        /* Creates an empty HashMap */
+        HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
+        for (int i = 0; i < arr.length; i++) 
+        {
+            /* Get if the element is present */
+            Integer n = hashmap.get(arr[i]);
+            /* If this is first occurrence of element Insert the element */
+            if (hashmap.get(arr[i]) == null) 
+            {
+                hashmap.put(arr[i], 1);
+            }
+            /* If element is already present in hash map Increment the count of element by 1 */
+            else 
+            {
+                hashmap.put(arr[i], ++n);
+            }
+        }
+        /* Display HashMap */
+        System.out.println(hashmap);
+    }
+    /* Driver Code */
+    public static void main(String[] args)
+    {
+        int arr[] = { 1, 6, 5, 10, 6, 6, 10 };
+        HashMapCreation(arr);
+    }
+}
+ Output: {1=1, 5=1, 6=3, 10=2}
+ The above Java code displays the use of Hashmap. It is a non-synchronized faster method for hashing. 3. LinkedHashMap-based method(Similar to HashMap, but keeps order of elements) LinkedHashMapDemo.java 
+import java.util.*; 
+public class LinkedHashMapDemo
+{ 
+    /* Driver Code */
+    public static void main(String arg[]) 
+    { 
+        /* Creates a Linked Hashmap */
+        LinkedHashMap<String, String> lhm = new LinkedHashMap<String, String>(); 
+        /* Enter key values to the Hashmap */
+        lhm.put("One", "Robin"); 
+        lhm.put("Two", "Satyam"); 
+        lhm.put("Three", "Kanishk"); 
+        /* Prints the elements of Hashmap in an order as they are entered */     
+        System.out.println(lhm); 
+        System.out.println("Getting value for key 'one': " + lhm.get("One")); 
+        System.out.println("Size of the Hashmap: " + lhm.size()); 
+        System.out.println("Is Hashmap empty? " + lhm.isEmpty()); 
+        System.out.println("Contains key 'two'? "+  lhm.containsKey("Two")); 
+        System.out.println("Contains value 'Kanishk? "+ lhm.containsValue("Kanishk")); 
+        System.out.println("delete element 'one': " +  lhm.remove("One")); 
+        System.out.println(lhm); 
+    } 
+} 
+ Output: {One=Robin, Two=Satyam, Three=Kanishk}
+Getting value for key 'one': Robin
+Size of the Hashmap: 3
+Is Hashmap empty? false
+Contains key 'two'? true
+Contains value 'Kanishk? true
+delete element 'one': Robin
+{Two=Satyam, Three=Kanishk}
+ In the above program LinkedHashMap is used with its different methods such as size(), get(), isEmpty(), containsKey(), containsValue(), remove(). 4. ConcurretHashMap-based Method (Similar to HashTable, Synchronized, but faster as multiple locks are used) DemoforConcurrentHashMap.java 
+import java.util.concurrent.*;
+public class DemoforConcurrentHashMap
+{
+    /* Driver Code */
+    public static void main(String[] args)
+    {
+        /* Creates a ConcurrentHashMap */
+        ConcurrentHashMap<Integer, String> ch = new ConcurrentHashMap<Integer, String>();
+        ch.put(201, "How");
+        ch.put(202, "are");
+        ch.put(203, "you");
+        /* Display the elements of ConcurrentHashMap */
+        System.out.println("ConcurentHashMap: " + ch);
+        /* add 'How' at 202 key. As it is already present in ConcurrentHashMap object use putIfAbsent method */
+        ch.putIfAbsent(202, "How");
+        /* Display the elements of ConcurrentHashMap */
+        System.out.println("\nConcurentHashMap: " + ch);
+        /* replace the value for key 201 from "How" to "Who" */
+        ch.replace(201, "How", "Who");
+        /* Display the elements of ConcurrentHashMap */
+        System.out.println("\nConcurentHashMap: " + ch);
+        /* Try to remove entry for 203 key as it is present */
+        ch.remove(203, "you");
+        /* Display the elements of ConcurrentHashMap */
+        System.out.println("\nConcurentHashMap: " + ch);
+    }
+}
+ Output: ConcurentHashMap: {201=How, 202=are, 203=you}
+ConcurentHashMap: {201=How, 202=are, 203=you}
+ConcurentHashMap: {201=Who, 202=are, 203=you}
+ConcurentHashMap: {201=Who, 202=are}
+ The above Java program displays an implementation of ConcurrentHashMap with its different methods such as put(), putIfAbsent(), replace(), remove(). Next Topic Implement Queue Using Array in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

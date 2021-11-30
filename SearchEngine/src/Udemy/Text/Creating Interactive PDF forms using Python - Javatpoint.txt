@@ -1,0 +1,1416 @@
+
+
+ 
+  
+  Creating Interactive PDF forms using Python - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Python 
+        If Else 
+        For Loop 
+        Function 
+        Array 
+        String 
+        Regex 
+        List 
+        Set 
+        Tuple 
+        Dictionary 
+        Programs 
+        Numpy 
+        Interview Questions 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Python Tutorial 
+      
+      
+      Python Tutorial 
+      Python Features 
+      Python History 
+      Python Applications 
+      Python Install 
+      Python Example 
+      Python Variables 
+      Python Data Types 
+      Python Keywords 
+      Python Literals 
+      Python Operators 
+      Python Comments 
+      Python If else 
+      Python Loops 
+      Python For Loop 
+      Python While Loop 
+      Python Break 
+      Python Continue 
+      Python Pass 
+      Python Strings 
+      Python Lists 
+      Python Tuples 
+      Python List Vs Tuple 
+      Python Sets 
+      Python Dictionary 
+      Python Functions 
+      Python Built-in Functions 
+      Python Lambda Functions 
+      Python Files I/O 
+      Python Modules 
+      Python Exceptions 
+      Python Date 
+      Python Regex 
+      Python Sending Email 
+      Read CSV File 
+      Write CSV File 
+      Read Excel File 
+      Write Excel File 
+      Python Assert 
+      Python List Comprehension 
+      Python Collection Module 
+      Python Math Module 
+      Python OS Module 
+      Python Random Module 
+      Python Statistics Module 
+      Python Sys Module 
+      Python IDEs 
+      Python Arrays 
+      Command Line Arguments 
+      Python Magic Method 
+      Python Stack & Queue 
+      PySpark MLlib 
+      Python Decorator 
+      Python Generators 
+      Web Scraping Using Python 
+      Python JSON 
+      Python Itertools 
+      Python Multiprocessing 
+      How to Calculate Distance between Two Points using GEOPY 
+      Gmail API in Python 
+      How to Plot the Google Map using folium package in Python 
+      Grid Search in Python 
+      Python High Order Function 
+      nsetools in Python 
+      Python program to find the nth Fibonacci Number 
+      Python OpenCV object detection 
+      Python SimpleImputer module 
+      Second Largest Number in Python 
+      
+      
+      Python OOPs 
+      
+      
+      Python OOPs Concepts 
+      Python Object Class 
+      Python Constructors 
+      Python Inheritance 
+      Abstraction in Python 
+      
+      
+      Python MySQL 
+      
+      
+      Environment Setup 
+      Database Connection 
+      Creating New Database 
+      Creating Tables 
+      Insert Operation 
+      Read Operation 
+      Update Operation 
+      Join Operation 
+      Performing Transactions 
+      
+      
+      Python MongoDB 
+      
+      
+      Python MongoDB 
+      
+      
+      Python SQLite 
+      
+      
+      Python SQLite 
+      
+      
+      Python Questions 
+      
+      
+      How to install Python in Windows 
+      How to reverse a string in Python 
+      How to read CSV file in Python 
+      How to run Python Program 
+      How to take input in Python 
+      How to convert list to string in Python 
+      How to append element in the list 
+      How to compare two lists in Python 
+      How to convert int to string in Python 
+      How to create a dictionary in Python 
+      How to create a virtual environment in Python 
+      How to declare a variable in Python 
+      How to install matplotlib in Python 
+      How to install OpenCV in Python 
+      How to print in same line in Python 
+      How to read JSON file in Python 
+      How to read a text file in Python 
+      How to use for loop in Python 
+      Is Python scripting language 
+      How long does it take to learn Python 
+      How to concatenate two strings in Python 
+      How to connect Database in Python 
+      How to convert list to dictionary in Python 
+      How to declare a global variable in Python 
+      How to reverse a number in Python 
+      What is an object in Python 
+      Which is the fastest implementation of Python 
+      How to clear Python shell 
+      How to create a DataFrames in Python 
+      How to develop a game in Python 
+      How to install Tkinter in Python 
+      How to plot a graph in Python 
+      How to print pattern in Python 
+      How to remove an element from a list in Python 
+      How to Round number in Python 
+      How to sort a dictionary in Python 
+      Strong Number in Python 
+      How to Convert Text to Speech in Python  
+      Bubble Sort in Python 
+      Logging in Python 
+      Insertion Sort in Python 
+      Binary Search in Python 
+      Linear Search in Python 
+      Python vs Scala 
+      Queue in Python 
+      Stack in Python 
+      Heap Sort in Python 
+      Palindrome program in python 
+      Program of Cumulative sum in python 
+      Merge Sort in Python 
+      Python Matrix 
+      Python Unit Testing 
+      Forensics & Virtualization 
+      Best Books to Learn Python 
+      Best Books to Learn Django 
+      GCD of two number in python 
+      Python Program to generate a Random String 
+      How to One Hot Encode Sequence Data in Python 
+      How to write square root in Python 
+      Pointer in Python 
+      Python 2D array 
+      Python Memory Management 
+      Python Libraries for Data Visualization 
+      How to call a function in Python 
+      Git Modules in Python 
+      Top Python Frameworks for Gaming 
+      Python Audio Modules 
+      Wikipedia Module in Python 
+      Python random randrange() 
+      Permutation and Combination in Python 
+      Getopt module in Python 
+      Merge two Dictionaries in Python 
+      Multithreading in Python 3 
+      Static in Python 
+      How to get the current date in Python 
+      argparse in Python 
+      Python tqdm Module 
+      Caesar Cipher in Python 
+      Tokenizer in Python 
+      How to add two lists in Python 
+      Shallow Copy and Deep Copy in Python 
+      Atom Python 
+      Contains in Python 
+      Label Encoding in Python 
+      Django vs. Node JS 
+      Python Frameworks 
+      How to create a vector in Python using NumPy 
+      Pickle Module of Python 
+      How to convert Bytes to string in Python 
+      Python Program to Find Anagram 
+      How to convert List to Set 
+      Python vs JavaScript 
+      Python Holidays Module 
+      FuzzyWuzzy Python Library 
+      Dask Python 
+      Dask Python (Part 2) 
+      Mode in Python 
+      Menu-Driven Programs in Python 
+      Python Array vs. List 
+      What is duck typing in Python 
+      PEP 8 in Python 
+      Python User Groups 
+      Basic Commands in Python 
+      F String in Python 
+      How Brython Works 
+      How to use Brython in the Browser 
+      Arima Model in Python 
+      Python Modulus Operator 
+      MATLAB vs. Python 
+      Method Resolution Order in Python 
+      Monkey Patching in Python 
+      Python __call__ method 
+      Python heapq module 
+      Python Substring 
+      Project ideas for Python Beginners 
+      Python Faker 
+      Fizz-Buzz Program in Python 
+      Tabula Python 
+      Python Program to Print Prime Factor of Given Number 
+      Python Program to Print Pascal Triangle 
+      NamedTuple in Python 
+      OrderedDict in Python 
+      T-Test in Python 
+      Python return statement 
+      Getter and Setter in Python 
+      Enum class in Python 
+      Destructors in Python 
+      Curve Fit in Python 
+      Converting CSV to JSON in Python 
+      Underscore (_) in Python 
+      Set vs List in Python 
+      Locating and Executing Modules 
+      Flatten List in Python 
+      Pair Plot in Python 
+      Data Hiding in Python 
+      Python Program to Find Intersection of Two Lists 
+      How to Create Requirements.txt File in Python 
+      Tic-Tac-Toe in Python 
+      Python Asynchronous Programming - asyncio and await 
+      Python main() function 
+      strftime() function in Python 
+      Verbose Flag in Python Regex 
+      Python AST Module 
+      Python Requests Module - HTTP Request 
+      Shutil Module in Python 
+      Python epoch to Datetime 
+      Python del Statement 
+      Looping technique in Python 
+      Metaprogramming with Metaclasses in Python 
+      Precision Handling in Python 
+      Python Join List 
+      strip() function in Python 
+      Gradient Descent Algorithm 
+      Prettytable in Python 
+      Sentiment Analysis in Python 
+      Convert Python List to NumPy Arrays 
+      Traceback in Python 
+      Time clock() Method in Python 
+      Deque in Python 
+      Dictionary Comprehension in Python 
+      Python Data Analytics 
+      Python seek() Method 
+      Ternary Operator in Python 
+      How to Calculate the Area of the Circle using Python 
+      How to Write in Text File using Python 
+      Python KeyError 
+      Python super() Function 
+      max() function in Python 
+      Fraction Module in Python 
+      Popular Python Framework to Build API 
+      How to Check Python version 
+      Python %s - String Formatting 
+      Python seaborn Library 
+      Countplot in Python 
+      range() Vs. Xrange() Python 
+      Wordcloud Package in Python 
+      Convert dataframe into list 
+      ANOVA Test in Python 
+      Python program to find compound interest 
+      Ansible in Python 
+      Python Important Tips and Tricks 
+      Python Coroutines 
+      Double Underscores in Python 
+      re.search() VS re.findall() in Python Regex 
+      How to install statsmodels in Python 
+      Cos in Python 
+      vif in Python 
+      __add__ Method in Python 
+      Ethical Hacking with Python 
+      Class Variable vs Instance 
+      Perfect Number in Python 
+      EOL in Python 
+      Python Program to convert Hexadecimal String to Decimal String 
+      Different Methods in Python for Swapping Two Numbers without using third variable 
+      How to Change Plot Size in Matplotlib 
+      How to Get the Zip Code in Python 
+      Eel in Python 
+      Assignment Operators in Python 
+      Speech Recognition python 
+      Yield vs Return in Python 
+      Graphene Python 
+      Name Mangling in Python 
+      Python combination without itertools 
+      Python Comprehensions 
+      InfluxDB in Python 
+      Kafka Tutorial in Python 
+      Augmented Assignment Expressions in Python 
+      Python (x,y) Software 
+      Python Event-Driven programming 
+      Python Semaphore 
+      Python sorted reverse 
+      Automorphic Number in Python 
+      sizeof in Python 
+      Python Program for accepting the strings which contains all vowels 
+      Class-based views vs Function-Based Views 
+      How to handle cookies in Django 
+      agg() function in Python 
+      Amicable Numbers in Python 
+      Context Manager in Python 
+      Create BMI Calculator using Python 
+      String to Binary in Python 
+      What is script mode in Python 
+      Best Python libraries for Machine Learning 
+      Python Program to Display Calendar of Given Year 
+      How to open URL in Python 
+      Broken Pipe Error in Python 
+      Code Template for Creating Objects in Python 
+      Python program to calculate the best time to buy and sell stock 
+      Tuple to String in Python 
+      Kadane's Algorithm in Python 
+      Loggers in Django 
+      Weather App in Django 
+      Missing Data Conundrum: Exploration and Imputation Techniques 
+      Different Methods of Array Rotation in Python 
+      What is Operator Overloading in Python 
+      Defaultdict in Python 
+      Operator Module in Python 
+      Spinner Widget in the kivy Library of Python 
+      Number Plate Recognition using Python 
+      Obfuscating a Python program 
+      Convert string to dictionary in Python 
+      Convert string to JSON in Python 
+      DBSCAN algorithm in Python 
+      How to Write a Code for Printing the Python Exception/Error Hierarchy 
+      Principal Component Analysis (PCA) with Python 
+      Python Program to Find Number of Days Between Two Given Dates 
+      Object Recognition using Python 
+      Python VLC module 
+      Set to list in Python 
+      String to int in Python 
+      Internet of Things with Python 
+      Python pysftp module 
+      Amazing hacks of Python 
+      Average of list in Python 
+      Check Installed Modules in Python 
+      choice() in Python 
+      Convert List to dataframe in Python 
+      Convert String to Float in Python 
+      Decorators with Parameters in Python 
+      Dynamic Typing in Python 
+      Fabs in Python 
+      How to Remove Decimal in Python 
+      Python Closure 
+      Python Glob Module 
+      Writing a Python Module 
+      Modules vs Packages in Python 
+      SNMP module in Python 
+      Average of list in Python 
+      Append vs Extend vs Insert in Python 
+      How to Remove Duplicates from a list in Python 
+      Remove Multiple Characters from a String in Python 
+      Shuffle in Python 
+      floor() and ceil() Functions in Python 
+      sqrt(): Math Function of Python 
+      Python yfinance Module 
+      Difflib module in Python 
+      Convert the Column Type from String to Datetime Format in Pandas DataFrame 
+      Python wxPython Module 
+      Random Uniform Python 
+      Relational Operators in Python 
+      String to List in Python 
+      Chatbot in Python 
+      How to Convert float to int in Python 
+      Multiply All Elements in list of Python 
+      module vs function in Python 
+      Reverse a tuple in Python 
+      Tuple to Dictionary in Python 
+      datetime.timedelta() Function of Python 
+      Python Bio Module 
+      Python Dash Module 
+      How to Select rows in Pandas DataFrame Based on Conditions 
+      Typecasting in Python 
+      Dateutil module in Python 
+      Getpass module in Python 
+      Python Wand library 
+      Generate a QR Code using Python 
+      Best Python PDF Library 
+      Python Cachetools Module 
+      Python Cmdparser Module 
+      Python Dash module 
+      Python Emoji Module 
+      Python Nmap Module 
+      Python PyLab Module 
+      Working with PDF files in Python 
+      PDF Handling in Python 
+      Manipulating PDF using Python 
+      List All Functions from a Python Module 
+      Python list of Dictionaries 
+      Python Shelve Module 
+      Creating Interactive PDF forms using Python 
+      Python Newspaper Module 
+      How to Connect Wi-Fi using Python 
+      Best Python Libraries used for Ethical Hacking 
+      
+      
+      Python Tkinter (GUI) 
+      
+      
+      Python Tkinter 
+      Tkinter Button 
+      Tkinter Canvas 
+      Tkinter Checkbutton 
+      Tkinter Entry 
+      Tkinter Frame 
+      Tkinter Label 
+      Tkinter Listbox 
+      Tkinter Menubutton 
+      Tkinter Menu 
+      Tkinter Message 
+      Tkinter Radiobutton 
+      Tkinter Scale 
+      Tkinter Scrollbar 
+      Tkinter Text 
+      Tkinter Toplevel 
+      Tkinter Spinbox 
+      Tkinter PanedWindow 
+      Tkinter LabelFrame 
+      Tkinter MessageBox 
+      
+      
+      Python Web Blocker 
+      
+      
+      Introduction 
+      Building Python Script 
+      Script Deployment on Linux 
+      Script Deployment on Windows 
+      
+      
+      Python MCQ 
+      
+      
+      Python MCQ 
+      Python MCQ Part 2 
+      
+      
+      Related Tutorials 
+      
+      
+      NumPy Tutorial 
+      Django Tutorial 
+      Flask Tutorial 
+      Pandas Tutorial 
+      Pytorch Tutorial 
+      Pygame Tutorial 
+      Matplotlib Tutorial 
+      OpenCV Tutorial 
+      Openpyxl Tutorial 
+      Python CGI 
+      Python Design Pattern 
+      
+      
+      Python Programs 
+      
+      
+      Python Programs 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Creating Interactive PDF forms using Python Python provides different functionalities that one can perform in order to manipulate PDF files, and we have already discussed a lot of things in the previous two tutorials on handling PDF files using Python. In this tutorial, we will understand how to create Interactive forms in a PDF file using the Python programming language. But before we get started, we will also discuss a Python toolkit that provides us accessibility to create one interactive form known as the ReportLab toolkit. Understanding the ReportLab toolkit in Python The Python ReportLab toolkit allows the programmers to create forms that are interactive and fillable. The PDF standard usually consists of a rich set of interactive elements. The ReportLab toolkit does not support all of these elements; however, it does cover most of them. In the following section, we will look at the following widgets: 
+            
+            Checkbox 
+            Radio 
+            Choice 
+            Listbox 
+            Textfield 
+            All of the stated widgets are developed by calling different methods on the canvas.acroform property. Note that we can only have one form per document. Let us understand these widgets of the ReportLab toolkit. Understanding the Checkbox widget The checkbox widget is exactly what it sounds like. It is a little box that we can use to check entities shown in a form. Reportlab supports different styles of checks for the checkboxes, so when the checkbox is checked, it can look distinctive as per the style that we set. Now, let us understand a simple example that illustrates how few of these parameters behave: Example: 
+           
+            
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfform
+from reportlab.lib.colors import magenta, pink, blue, green
+def createSimpleCheckboxes():
+    my_Canvas = canvas.Canvas('checkboxes.pdf')    
+    my_Canvas.setFont("Courier", 24)
+    my_Canvas.drawCentredString(300, 700, 'Programming Languages')
+    my_Canvas.setFont("Courier", 16)
+    form = my_Canvas.acroForm    
+    my_Canvas.drawString(10, 650, 'Python:')
+    form.checkbox(
+        name = 'cb1',
+        tooltip = 'Field cb1',
+        x = 110,
+        y = 645,
+        buttonStyle = 'check',
+        borderColor = magenta,
+        fillColor = pink, 
+        textColor = blue,
+        forceBorder = True
+        )    
+    my_Canvas.drawString(10, 600, 'Java:')
+    form.checkbox(
+        name = 'cb2',
+        tooltip = 'Field cb2',
+        x = 110,
+        y = 595,
+        buttonStyle = 'cross',
+        borderWidth = 2,
+        forceBorder = True
+        )    
+    my_Canvas.drawString(10, 550, 'C++:')
+    form.checkbox(
+        name = 'cb3',
+        tooltip = 'Field cb3',
+        x = 110,
+        y = 545,
+        buttonStyle = 'star',
+        borderWidth = 1,
+        forceBorder = True
+        )    
+    my_Canvas.drawString(10, 500, 'C:')
+    form.checkbox(
+        name = 'cb4',
+        tooltip = 'Field cb4',
+        x = 110,
+        y = 495,
+        buttonStyle = 'circle',
+        borderWidth = 3,
+        forceBorder = True
+        )   
+    my_Canvas.drawString(10, 450, 'JavaScript:')
+    form.checkbox(
+        name = 'cb5',
+        tooltip = 'Field cb5',
+        x = 110,
+        y = 445,
+        buttonStyle = 'diamond',
+        borderWidth = None,
+        checked = True,
+        forceBorder = True
+        )    
+    my_Canvas.save()    
+if __name__ == '__main__':
+    createSimpleCheckboxes()
+
+            Output:  Explanation: As we can observe in the above snippet of code, we have imported different functions from different modules of the ReportLab library. We have then set up the name and set the tooltip in order to match the widget's name. We have then set its position and some of the other things. We can play around with the width of the checkbox's border or turn the border off. If we turn it off, though, the checkbox may become invisible, so we might want to set its background color via fillColor if we do that. We have set the buttonStyle to something distinctive for each of the checkboxes. Understanding the Radio widget The radio widgets are similar to the checkboxes, despite the fact that radio buttons lie within the group where we can select only one radio button at a time. Checkboxes are rarely restricted to allowing one checkbox per group. The ReportLab toolkit does not offer a method to explicitly group a set of radio boxes altogether. The toolkit only provides the implicit way of grouping it. This statement implies that if we create a series of radio one after the other, they will be grouped together. Now, let us understand the same using a simple example as shown below: Example: 
+           
+            
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfform
+from reportlab.lib.colors import magenta, pink, blue, green
+def createSimpleRadios():
+    my_canvas = canvas.Canvas('radiosFile.pdf')    
+    my_canvas.setFont("Courier", 22)
+    my_canvas.drawCentredString(300, 700, 'Radio demo')
+    my_canvas.setFont("Courier", 16)
+    form = my_canvas.acroForm    
+    my_canvas.drawString(10, 650, 'Python:')
+    form.radio(
+        name = 'radio1',
+        tooltip = 'Field radio1',
+        value = 'value1',
+        selected = False,
+        x = 110,
+        y = 645,
+        buttonStyle = 'check',
+        borderStyle = 'solid',
+        shape = 'square',
+        borderColor = magenta,
+        fillColor = pink, 
+        textColor = blue,
+        forceBorder = True
+        )
+    form.radio(
+        name = 'radio1',
+        tooltip = 'Field radio1',
+        value = 'value2',
+        selected = True,
+        x = 110,
+        y = 645,
+        buttonStyle = 'check',
+        borderStyle = 'solid',
+        shape = 'square',
+        borderColor = magenta,
+        fillColor = pink, 
+        textColor = blue,
+        forceBorder = True)        
+    my_canvas.drawString(10, 600, 'Java:')
+    form.radio(
+        name = 'radio2',
+        tooltip = 'Field radio2',
+        value = 'value1',
+        selected = True,
+        x = 110,
+        y = 595,
+        buttonStyle = 'cross',
+        borderStyle = 'solid',
+        shape = 'circle',
+        borderColor = green,
+        fillColor = blue, 
+        borderWidth = 2,
+        textColor = pink,
+        forceBorder = True
+        )
+    form.radio(
+        name = 'radio2',
+        tooltip = 'Field radio2',
+        value = 'value2',
+        selected = False,
+        x = 110,
+        y = 595,
+        buttonStyle = 'cross',
+        borderStyle = 'solid',
+        shape = 'circle',
+        borderColor = green,
+        fillColor=blue, 
+        borderWidth=2,
+        textColor = pink,
+        forceBorder=True
+        )    
+    my_canvas.drawString(10, 550, 'C++:')
+    form.radio(
+        name = 'radio3',
+        tooltip = 'Field radio3',
+        value = 'value1',
+        selected = False,
+        x = 110,
+        y = 545,
+        buttonStyle = 'star',
+        borderStyle = 'bevelled',
+        shape = 'square',
+        borderColor = blue,
+        fillColor = green, 
+        borderWidth = 2,
+        textColor = magenta,
+        forceBorder = False
+        )
+    form.radio(
+        name = 'radio3',
+        tooltip = 'Field radio3',
+        value = 'value2',
+        selected = True,
+        x = 110,
+        y = 545,
+        buttonStyle = 'star',
+        borderStyle = 'bevelled',
+        shape = 'circle',
+        borderColor = blue,
+        fillColor = green, 
+        borderWidth = 2,
+        textColor = magenta,
+        forceBorder = True
+        )  
+    my_canvas.save()   
+if __name__ == '__main__':
+    createSimpleRadios()
+
+            Output:  Explanation: In the above snippet of code, we have imported the required functions from the different modules of the ReportLab toolkit. We have then defined a function and created a new PDF file. We have then defined different radio buttons for the PDF file and saved the file. At last, we have called the function. Once we execute the above snippet of code, we can observe that the program only returns three radios. This is because we are required to create two objects of each radio button with identical names but with different values and sections. The documentation does not state the reason behind it, but we can assume this is done to support the ReportLab toolkit tracking the widget's "selected" state. This also allows us to alter the appearance of the radio when it is selected or deselected. Understanding the Choice widget The choice widget is fundamentally a combo box that shows a drop-down when the user clicks on it. This enables the user to pick one or more options from the drop-down list, relying on the fieldFlags we have set. If we insert edit to the fieldFlags, then the user can edit the element in the choice widget. Let us understand the following example demonstrating the use of choice widgets in a PDF document: Example: 
+           
+            
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfform
+from reportlab.lib.colors import magenta, pink, blue, green, red
+def createSimpleChoices():
+    my_canvas = canvas.Canvas('choicesFile.pdf')    
+    my_canvas.setFont("Courier", 24)
+    my_canvas.drawCentredString(300, 700, 'Sample Choices')
+    my_canvas.setFont("Courier", 16)
+    form = my_canvas.acroForm   
+    my_canvas.drawString(10, 650, 'Choose a Letter:')
+    my_options = [('A', 'Av'), 'B', ('C', 'Cv'), ('D', 'Dv'), 'E',('F', ), ('G', 'Gv')]
+    form.choice(
+        name = 'choice1',
+        tooltip = 'Field choice1',
+        value = 'A',
+        x = 165,
+        y = 645,
+        width = 72,
+        height = 20,
+        borderColor = magenta,
+        fillColor = pink, 
+        textColor = blue,
+        forceBorder = True,
+        options = my_options)  
+    my_canvas.drawString(10, 600, 'Choose a Programming language:')
+    my_options = [('Python', 'python'), ('Java', 'java'), ('C++', 'C++')]
+    form.choice(
+        name = 'choice2',
+        tooltip = 'Field choice2',
+        value = 'Python',
+        options = my_options, 
+        x = 305,
+        y = 595,
+        width = 72,
+        height = 20,
+        borderStyle = 'solid',
+        borderWidth = 1,
+        forceBorder = True
+        )   
+    my_canvas.save()    
+if __name__ == '__main__':
+    createSimpleChoices()
+
+            Output:  Explanation: In the above snippet of code, we have imported the required functions from the different modules of the ReportLab toolkit. We have then defined a function and created a new PDF file. We have then created two choice widgets with slightly distinct styles applied and saved the file. Remember to include the value parameter to the function; else, the program will return a bizarre error that does not say anything associated with the parameter being missing. At last, we have called the function. Understanding the Listbox widget The listbox widget is somewhat similar to the choice widget, except that a listbox is considered a scrollable box rather than a combo box. We can use the fieldFlags parameter that supports the user to select one or multiple elements from the list box. Now, let us consider the following example illustrating the use of the listbox widget in making interactive PDF forms: Example: 
+           
+            
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfform
+from reportlab.lib.colors import magenta, pink, blue, green, red
+def createSimpleListboxes():
+    my_canvas = canvas.Canvas('listboxesFile.pdf')   
+    my_canvas.setFont("Courier", 24)
+    my_canvas.drawCentredString(300, 700, 'Sample Listboxes')
+    my_canvas.setFont("Courier", 16)
+    form = my_canvas.acroForm    
+    my_canvas.drawString(10, 650, 'Choose a letter:')
+    my_options = [('A','Av'),'B',('C','Cv'),('D','Dv'),'E',('F',),('G','Gv')]
+    form.listbox(
+        name = 'listbox1',
+        value = 'A',
+        x = 165,
+        y = 590,
+        width = 72,
+        height = 72,
+        borderColor = magenta,
+        fillColor = pink, 
+        textColor = blue,
+        forceBorder = True,
+        options = my_options,
+        fieldFlags = 'multiSelect'
+        ) 
+    my_canvas.drawString(10, 500, 'Choose a Programming language:')
+    my_options = [('Python', 'python'), ('Java', 'java'), ('C++', 'C++')]
+    form.listbox(
+        name = 'choice2',
+        tooltip = 'Field choice2',
+        value = 'Python',
+        options = my_options, 
+        x = 165,
+        y = 440,
+        width = 72,
+        height = 72,
+        borderStyle = 'solid',
+        borderWidth = 1,
+        forceBorder = True
+        )    
+    my_canvas.save()   
+if __name__ == '__main__':
+    createSimpleListboxes()
+
+            Output:  Explanation: In the above snippet of code, we have imported the required functions from the different modules of the ReportLab toolkit. We have then defined a function and created a new PDF file. We have then created the listbox widgets with slightly distinct styles applied and saved the file. The above example is quite similar to the previous one where we created the choice widget. The main difference here is the appearance of the listbox widget versus the choice widget; else, both the widgets are pretty much the same. Understanding the Textfield widget The textfield is a text entry widget. We can see these textfield widgets in forms to fill up the entries like name, address, and more. Most of the parameters of the textfield are the same as the ones we have observed in the earlier widgets. Let us consider the following example to understand the same: Example: 
+           
+            
+from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfform
+from reportlab.lib.colors import magenta, pink, blue, green
+def createSimpleForm():
+    my_canvas = canvas.Canvas('PDFform.pdf')    
+    my_canvas.setFont("Courier", 24)
+    my_canvas.drawCentredString(300, 700, 'Application Form')
+    my_canvas.setFont("Courier", 16)
+    form = my_canvas.acroForm    
+    my_canvas.drawString(10, 650, 'First Name:')
+    form.textfield(
+        name = 'fname',
+        tooltip = 'First Name',
+        x = 110,
+        y = 635,
+        borderStyle = 'inset',
+        borderColor = magenta,
+        fillColor = pink, 
+        width = 300,
+        textColor = blue,
+        forceBorder = True
+        )    
+    my_canvas.drawString(10, 600, 'Last Name:')
+    form.textfield(
+        name = 'lname',
+        tooltip = 'Last Name',
+        x = 110,
+        y = 585,
+        borderStyle = 'inset',
+        borderColor = green,
+        fillColor = magenta, 
+        width = 300,
+        textColor = blue,
+        forceBorder = True
+        )   
+    my_canvas.drawString(10, 550, 'Address:')
+    form.textfield(
+        name = 'address',
+        tooltip = 'Address',
+        x = 110,
+        y = 535,
+        borderStyle = 'inset',
+        width = 400,
+        forceBorder = True
+        )    
+    my_canvas.drawString(10, 500, 'City:')
+    form.textfield(
+        name = 'city',
+        tooltip = 'City',
+        x = 110,
+        y = 485,
+        borderStyle = 'inset',
+        forceBorder = True
+        )    
+    my_canvas.drawString(250, 500, 'State:')
+    form.textfield(
+        name = 'state',
+        tooltip = 'State',
+        x = 350,
+        y = 485,
+        borderStyle = 'inset',
+        forceBorder = True
+        )    
+    my_canvas.drawString(10, 450, 'Zip Code:')
+    form.textfield(
+        name = 'zip_code',
+        tooltip = 'Zip Code',
+        x = 110,
+        y = 435,
+        borderStyle = 'inset',
+        forceBorder = True
+        )    
+    my_canvas.save()   
+if __name__ == '__main__':
+    createSimpleForm()
+
+            Output:  Explanation: In the above snippet of code, we have imported the required functions from the different modules of the ReportLab toolkit. We have then defined a function and created a new PDF file. We have then created the textfield widgets with slightly distinct styles applied and saved the file. As we can observe, we have created a series of text fields with different settings applied to them. Moreover, we have changed the border and background color on several of the fields. We have then included some quite standard ones. We have also utilized the width argument in order to change the width of the text field. 
+            
+            
+            Next Topic
+            Python Newspaper Module 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

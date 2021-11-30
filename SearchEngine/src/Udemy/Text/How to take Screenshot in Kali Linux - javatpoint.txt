@@ -1,0 +1,704 @@
+
+
+ 
+  
+  How to take Screenshot in Kali Linux - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Java 
+       Kali Linux 
+       Ethical Hacking 
+       Linux 
+       Shell Scripting 
+       C 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Python 
+       Android 
+       Quiz 
+       Projects 
+       Interview Q 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Kali Linux Tutorial 
+      
+      
+      Kali Linux Tutorial 
+      Install Kali Linux 
+      Configuring & Updating 
+      Kali Linux Commands 
+      
+      
+      Kali Linux Tools 
+      
+      
+      Information Gathering Tools 
+      Vulnerability Analysis Tools 
+      Exploitation Tools 
+      Wireless Attack Tools 
+      Forensic Tools 
+      Web Application Tools 
+      Stress Testing Tools 
+      Sniffing & Spoofing Tools 
+      Password Attack Tools 
+      Maintaining Access Tools 
+      Reverse Engineering Tools 
+      Hardware Hacking Tools 
+      Reporting Tools 
+      Hacking Wifi using Kali Linux 
+      
+      
+      Misc. 
+      
+      
+      Kali Linux Latest Version 
+      Kali Linux net hunter 
+      Making a Kali Bootable USB Drive 
+      Kali Linux - Terminal 
+      Kali Linux root password reset 
+      Enable Root User in Kali Linux 
+      How to hack a Facebook account using Kali Linux 
+      How to Install XAMPP in Kali Linux 
+      How to run a java program on Kail Linux 
+      How to install XDM on Kali Linux 
+      Features of Kali Linux 
+      Use of Kali Linux 
+      How to install VPNbook on Kali Linux 
+      How to Check Kali Linux Version 
+      Kali Linux System Requirements 
+      Advantages and Disadvantages of Kali Linux 
+      Kali Linux Tools List 
+      How to install AnyDesk on Kali Linux 
+      Best WiFi Adapters for Kali Linux 
+      Install Mozilla Firefox In Kali Linux 
+      Kali Linux vs Fedora 
+      Sqlmap in Kali Linux 
+      Skipfish in Kali Linux 
+      Kali Linux Basic Commands 
+      Kali Linux Shortcut Keys 
+      How to take Screenshot in Kali Linux 
+      How to Update Kali Linux 
+      How to Change Time in Kali Linux 
+      Kill Process 
+      Social Engineering in Kali Linux 
+      
+      
+      Interview Questions 
+      
+      
+      Kali Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to take Screenshot in Kali Linux In this tutorial, we will discuss how to take a screenshot in Kali Linux. In Kali Linux, there are some utilities which we can use to take a screenshot, and this tutorial, will make sure you're familiar with them. In this tutorial we will learn: 
+            
+            How to take a screenshot with Kali's screenshot utilities 
+            How to use Kazam to take screenshots and screencasts 
+            How to use Flameshot for screenshots and annotations 
+            Shortcut Keys to take a screenshot 
+            Kali's Built-in Screenshot Utilities When we download and install Kali, there are plenty of desktop environments to choose from. The primary GUI option is XFCE, although we can also choose KDE or GNOME. These distinct desktop environments have a built-in screenshot utility, so we already have one installed by default, regardless of which GUI we are using. They're all the same, but they work in various ways. For example, when we press the PrtSc (print screen) key in XFCE, a small window appears, offering us several options for dealing with the image we just captured:  When we press the PrtSc key in GNOME, our screen flashes, and a camera shutter sound plays, but nothing happens. Our screenshot can be found in the Pictures folder in our home directory.  We can't cover every GUI here, but enough to mention that the built-in utility can be used by pressing PrtSc. By default, our whole desktop will be captured in the image. If we need to capture a particular window, we can bring that window to the foreground and press Alt + PrtSc. For more fine-grained control, simply open the Screenshot utility from our GUI's application launcher.  The built-in screenshot tool will usually permit us to select an area of the screen to capture and choose whether or not to capture the mouse pointer in the image. Some are more powerful and may contain extra features.  Kazam Kazam is another feasible alternative for screenshots, which comes pre-installed on Kali Linux. If in case it is not installed in our system, then we need to make sure it's up to date; in order to install/update it, we have to execute the following commands: 
+           
+            
+$ sudo apt update
+$ sudo apt install Kazam
+
+            Once it's been installed, we can open it in our GUI's application launcher. Kazam has the ability to record our screen, which is a major selling factor. We must ensure that "screenshot" is selected if we need to take an image, and "screencast" is selected if we need to record a video.  Flameshot The above-mentioned default screenshot utilities are a little light in feature. Flameshot is an alternate tool to consider, particularly if we want to annotate our screenshots with arrows and have access to other useful features. We have to run the following commands in order to install Flameshot: 
+           
+            
+$ sudo apt update
+$ sudo apt install flameshot
+
+              Flameshot can be found on the apps launcher once it has been installed. We may also run it from the terminal with the help of the following command: 
+           
+            
+$ flameshot gui
+
+            When Flameshot opens, simply follow the on-screen instructions. We can drag our mouse around and very easily resize the widow to capture exactly what we need to on our screen. We'll see a variety of tools for annotating or uploading our screenshots. But hold on! There's more! We can configure Flameshot's interface and other options inside the configuration menu: 
+           
+            
+$ flameshot config
+
+              Flameshot comes with several command-line options as well. For a complete list of what it can accomplish, see the man page.  
+           
+            
+$ man flameshot
+
+              Shortcut Keys to Take Screenshot in Kali Linux 
+            
+            
+              
+              Shortcut Keys 
+              Description 
+              
+              
+              Print Screen 
+              Using this shortcut key, we can take a screenshot 
+              
+              
+              Alt + Print Screen 
+              Using this shortcut key, we can take a screenshot of a window. 
+              
+              
+              Ctrl + Print Screen 
+              With the help of this shortcut key, we can take a screenshot to clipboard. 
+              
+              
+              Ctrl + Alt + Print Screen 
+              With the help of this shortcut key, we can take a screenshot of window to the clipboard. 
+              
+              
+              Ctrl + Shift + Print Screen 
+              Using this shortcut, we can take a screen of an area to the clipboard. 
+              
+              
+              Shift + Ctrl + Alt + R 
+              Using this screenshot, we can record a screencast. 
+              
+            
+            
+            
+            
+            Next Topic
+            How to Update Kali Linux 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

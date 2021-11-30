@@ -1,0 +1,1719 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Stock Span Problem - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Stock Span Problem - javatpoint">
+  <meta property="og:description" content="Stock Span Problem with Introduction, Asymptotic Analysis, Array, Pointer, Structure, Singly Linked List, Doubly Linked List, Graph, Tree, B Tree, B+ Tree, Avl Tree etc."> 
+  <meta name="keywords" content="data structure tutorial, introduction, asymptotic analysis, array, pointer, structure, singly linked list, doubly linked list, circular linked list, binary search, linear search, sorting, bucket sort, comb sort, shell sort, heap sort, merge sort, counting sort, stack, quene, circular quene, graph, tree, b tree, b+ tree, avl tree">
+  <meta name="description" content="Stock Span Problem with Introduction, Asymptotic Analysis, Array, Pointer, Structure, Singly Linked List, Doubly Linked List, Graph, Tree, B Tree, B+ Tree, Avl Tree etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/stock-span-problem"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Stock Span Problem - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Stock Span Problem with Introduction, Asymptotic Analysis, Array, Pointer, Structure, Singly Linked List, Doubly Linked List, Graph, Tree, B Tree, B+ Tree, Avl Tree etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/stock-span-problem">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="data-structure-tutorial" class="selected">Data Structure</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="cpp-tutorial">C++</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="ajax-tutorial">Ajax</a></li> 
+       <li><a href="android-tutorial">Android</a></li> 
+       <li><a href="cloud-computing-tutorial">Cloud</a></li> 
+       <li><a href="design-patterns-in-java">Design Pattern</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="data-structure-tutorial">DS Tutorial</a> 
+      <a href="data-structure-introduction">DS Introduction</a> 
+      <a href="data-structure-algorithm">DS Algorithm</a> 
+      <a href="data-structure-asymptotic-analysis">Asymptotic Analysis</a> 
+      <a href="data-structure-pointer">DS Pointer</a> 
+      <a href="data-structure-structure">DS Structure</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Array</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="data-structure-array">DS Array</a> 
+      <a href="data-structure-2d-array">2D Array</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Linked List</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="ds-linked-list">Linked List</a> 
+      <a href="ds-types-of-linked-list">Types of Linked List</a> 
+      <a href="singly-linked-list">Singly Linked List</a> 
+      <a href="doubly-linked-list">Doubly Linked List</a> 
+      <a href="circular-singly-linked-list">Circular Linked List</a> 
+      <a href="circular-doubly-linked-list">Circular Doubly List</a> 
+      <a href="skip-list-in-data-structure">Skip list in DS</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Stack</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="data-structure-stack">DS Stack</a> 
+      <a href="ds-array-implementation-of-stack">Array Implementation</a> 
+      <a href="ds-linked-list-implementation-of-stack">Linked List Implementation</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Queue</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="data-structure-queue">DS Queue</a> 
+      <a href="ds-types-of-queues">Types of Queues</a> 
+      <a href="array-representation-of-queue">Array Representation</a> 
+      <a href="linked-list-implementation-of-queue">Linked List Representation</a> 
+      <a href="circular-queue">Circular Queue</a> 
+      <a href="ds-deque">Deque</a> 
+      <a href="ds-priority-queue">Priority Queue</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Tree</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="tree">DS Tree</a> 
+      <a href="binary-tree">Binary Tree</a> 
+      <a href="binary-search-tree">Binary Search Tree</a> 
+      <a href="avl-tree">AVL Tree</a> 
+      <a href="b-tree">B Tree</a> 
+      <a href="b-plus-tree">B+ Tree</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Graph</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="ds-graph">DS Graph</a> 
+      <a href="graph-representation">Graph Implementation</a> 
+      <a href="breadth-first-search-algorithm">BFS Algorithm</a> 
+      <a href="depth-first-search-algorithm">DFS Algorithm</a> 
+      <a href="spanning-tree">Spanning Tree</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Searching</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linear-search">Linear Search</a> 
+      <a href="binary-search">Binary Search</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS Sorting</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="bubble-sort">Bubble Sort</a> 
+      <a href="bucket-sort">Bucket Sort</a> 
+      <a href="comb-sort">Comb Sort</a> 
+      <a href="counting-sort">Counting Sort</a> 
+      <a href="heap-sort">Heap Sort</a> 
+      <a href="insertion-sort">Insertion Sort</a> 
+      <a href="merge-sort">Merge Sort</a> 
+      <a href="quick-sort">Quick Sort</a> 
+      <a href="radix-sort">Radix Sort</a> 
+      <a href="selection-sort">Selection Sort</a> 
+      <a href="shell-sort">Shell Sort</a> 
+      <a href="bitonic-sort">Bitonic Sort</a> 
+      <a href="cocktail-sort">Cocktail Sort</a> 
+      <a href="cycle-sort">Cycle Sort</a> 
+      <a href="tim-sort">Tim Sort</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Differences</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linear-vs-non-linear-data-structure">Linear vs non-linear</a> 
+      <a href="ds-array-vs-linked-list">Array vs linked list</a> 
+      <a href="ds-stack-vs-queue">Stack vs queue</a> 
+      <a href="ds-linear-vs-circular-queue">Linear vs Circular Queue</a> 
+      <a href="ds-linear-search-vs-binary-search">Linear Search vs Binary Search</a> 
+      <a href="singly-linked-list-vs-doubly-linked-list">Singly Linked List vs Doubly Linked List</a> 
+      <a href="binary-tree-vs-binary-search-tree">Binary vs Binary Search Tree</a> 
+      <a href="tree-vs-graph-data-structure">Tree vs Graph</a> 
+      <a href="binary-search-tree-vs-avl-tree">Binary Search tree vs AVL tree</a> 
+      <a href="red-black-tree-vs-avl-tree">Red Black Tree vs AVL tree</a> 
+      <a href="b-tree-vs-bplus-tree">B tree vs B+ tree</a> 
+      <a href="quick-sort-vs-merge-sort">Quick Sort vs Merge Sort</a> 
+      <a href="bfs-vs-dfs">BFS vs DFS</a> 
+      <a href="stack-vs-heap">Stack vs Heap</a> 
+      <a href="bubble-sort-vs-selection-sort">Bubble sort vs. Selection sort</a> 
+      <a href="ds-stack-vs-array">Stack vs Array</a> 
+      <a href="full-binary-tree-vs-complete-binary-tree">Full Binary Tree vs Complete Binary Tree</a> 
+      <a href="binary-tree-vs-b-tree">Binary Tree vs B Tree</a> 
+      <a href="primitive-vs-non-primitive-data-structure">Primitive vs non-primitive data structure</a> 
+      <a href="data-types-vs-data-structure">Data types vs data structure</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="trie-data-structure">Trie Data Structure</a> 
+      <a href="heap-data-structure">Heap Data Structure</a> 
+      <a href="splay-tree">Splay Tree</a> 
+      <a href="fundamental-of-the-data-structure">Fundamental of the DS</a> 
+      <a href="hash-table">Hash Table</a> 
+      <a href="preorder-traversal">Preorder Traversal</a> 
+      <a href="tree-traversal">Tree Traversal</a> 
+      <a href="implementation-of-queue-using-stacks">Implementation of Queue using Stacks</a> 
+      <a href="implementation-of-stack-using-queue">Implementation of Stack using Queue</a> 
+      <a href="binomial-heap">Binomial Heap</a> 
+      <a href="postorder-traversal">Postorder Traversal</a> 
+      <a href="sparse-matrix">Sparse Matrix</a> 
+      <a href="detect-loop-in-a-linked-list">Detect loop in a Linked list</a> 
+      <a href="inorder-traversal">Inorder Traversal</a> 
+      <a href="convert-infix-to-postfix-notation">Convert Infix to Postfix notation</a> 
+      <a href="convert-infix-to-prefix-notation">Convert infix to prefix notation</a> 
+      <a href="conversion-of-prefix-to-postfix-expression">Conversion of Prefix to Postfix expression</a> 
+      <a href="conversion-of-postfix-to-prefix-expression">Conversion of Postfix to Prefix expression</a> 
+      <a href="remove-loop-in-a-linked-list">Remove the loop in a Linked List</a> 
+      <a href="implement-two-stacks-in-an-array">Implement two stacks in an array</a> 
+      <a href="reverse-a-stack-using-recursion">Reverse a stack using recursion</a> 
+      <a href="detect-cycle-in-a-directed-graph">Detect cycle in a directed graph</a> 
+      <a href="optimal-binary-search-tree">Optimal Binary Search Tree</a> 
+      <a href="priority-queue-using-linked-list">Priority Queue using Linked list</a> 
+      <a href="balanced-binary-search-tree">Balanced Binary Search Tree</a> 
+      <a href="boundary-traversal-of-binary-tree">Boundary Traversal of Binary tree</a> 
+      <a href="diagonal-traversal-of-binary-tree">Diagonal Traversal of Binary Tree</a> 
+      <a href="vertical-traversal-of-a-binary-tree">Vertical Traversal of a Binary tree</a> 
+      <a href="graph-algorithms">Graph Algorithms</a> 
+      <a href="time-complexity-of-sorting-algorithms">Time Complexity of Sorting Algorithms</a> 
+      <a href="applications-of-stack-in-data-structure">Applications of Stack in Data Structure</a> 
+      <a href="dictionary-data-structure">Dictionary Data Structure</a> 
+      <a href="structured-data-and-unstructured-data">Structured Data and Unstructured Data</a> 
+      <a href="list-data-structure">List Data Structure</a> 
+      <a href="types-of-tree-in-data-structure">Types of Tree in Data Structure</a> 
+      <a href="abstract-data-type-in-data-structure">Abstract data type in data structure</a> 
+      <a href="disjoint-set-data-structure">Disjoint set data structure</a> 
+      <a href="dynamic-data-structure">Dynamic Data Structure</a> 
+      <a href="hash-function-in-data-structure">Hash Function in Data Structure</a> 
+      <a href="complete-binary-tree">Complete Binary Tree</a> 
+      <a href="threaded-binary-tree">Threaded Binary Tree</a> 
+      <a href="diameter-of-binary-tree">Diameter of Binary Tree</a> 
+      <a href="height-of-binary-tree">Height of Binary Tree</a> 
+      <a href="inorder-tree-traversal-without-stack">Inorder Tree Traversal without Stack</a> 
+      <a href="enumeration-of-binary-trees">Enumeration of Binary Trees</a> 
+      <a href="maximum-width-of-a-binary-tree">Maximum Width of a Binary Tree</a> 
+      <a href="types-of-graph-in-data-structure">Types of Graph in Data Structure</a> 
+      <a href="primitive-data-type">Primitive Data Type</a> 
+      <a href="semi-structured-data">Semi-Structured Data</a> 
+      <a href="advance-data-structures">Advance Data Structures</a> 
+      <a href="sort-an-array-of-0s-1s-and-2s">Sort an Array of 0's, 1's, and 2's</a> 
+      <a href="stock-span-problem">Stock Span Problem</a> 
+      <a href="implementation-of-deque-by-circular-array">Implementation of Deque by Circular Array</a> 
+      <a href="rotate-operation-in-linked-list">Rotate Operation in Linked List</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">DS MCQ</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="data-structure-mcq">Data Structure MCQ</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="implementation-of-deque-by-circular-array">next &#x2192;</a> 
+            <a class="next" href="sort-an-array-of-0s-1s-and-2s">&#x2190; prev</a> 
+           </div> <h1 class="h1">Stock Span Problem</h1> 
+           <ul class="points"> 
+            <li>Stock Span Problem is a financial problem.</li> 
+            <li>In this problem, we are provided with the ' n ' number of stocks with their corresponding prices.</li> 
+            <li>These prices of the stocks are daily, and we just need to compare the stock prices.</li> 
+            <li>In this stock span problem, we need to determine the number of stocks that have an equal or lesser price than the current stock until we reach the stock greater than the current stock.</li> 
+            <li>This problem is mainly asked in the interviews of Amazon and Google, and the candidate must answer this problem in the duration of time through programming.</li> 
+            <li>The term stock span is defined as the number of consecutive stocks before the current stock when the price of the prior stocks is less than or equal to the current stock's price.</li> 
+           </ul> <img src="https://static.javatpoint.com/ds/images/stock-span-problem1.png" alt="Stock Span Problem"> <p><strong>Let us understand in detail with the help of an example -</strong></p> <p>Suppose we have provided an array of 10 stocks; these stocks refer to the corresponding prices of the stocks daily.</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>Stock number</th> 
+              <th>Stock Prices</th> 
+             </tr> 
+             <tr> 
+              <td>1</td> 
+              <td>150</td> 
+             </tr> 
+             <tr> 
+              <td>2</td> 
+              <td>170</td> 
+             </tr> 
+             <tr> 
+              <td>3</td> 
+              <td>180</td> 
+             </tr> 
+             <tr> 
+              <td>4</td> 
+              <td>80</td> 
+             </tr> 
+             <tr> 
+              <td>5</td> 
+              <td>85</td> 
+             </tr> 
+             <tr> 
+              <td>6</td> 
+              <td>90</td> 
+             </tr> 
+             <tr> 
+              <td>7</td> 
+              <td>100</td> 
+             </tr> 
+             <tr> 
+              <td>8</td> 
+              <td>110</td> 
+             </tr> 
+             <tr> 
+              <td>9</td> 
+              <td>75</td> 
+             </tr> 
+             <tr> 
+              <td>10</td> 
+              <td>95</td> 
+             </tr> 
+            </tbody>
+           </table> <p>Now, we will store all these stock prices in an array named as -</p> <p><strong>A = { 150 , 170 , 180 , 80 , 85 , 90 , 100 , 110 , 75 , 95 }</strong></p> <p>Now, manually let us find out the result -</p> <p><strong>1.</strong> First of all, compare the index 0 elements with the previous element, as we know that there is nothing behind the index 0 except a garbage value, so in short, we do not need to compare and simply <strong>print 1 for index 0.</strong></p> <p><strong>2.</strong> For index 1, we will compare the value of index 1 with itself and the previous one, i.e., from the value present at index 0.</p> <p>170 &lt;= 170 ; True</p> <p>150 &lt;= 170 ; True</p> <p>We will <strong>print 2 for index 1.</strong></p> <p><strong>3.</strong> For index 2, we will compare the value of index 2 with itself and the previous indexes, i.e., from value present at index 0 and 1, until we find the greater value than the value present index 2.</p> <p>180 &lt;= 180 ; True</p> <p>170 &lt;= 180 ; True</p> <p>150 &lt;= 180 ; True</p> <p>We will <strong>print 3 for index 2.</strong></p> <p><strong>4.</strong> For index 3, we will compare the value of index 3 with itself and the previous indexes, i.e., from value present at index 0, 1, and 2, until we find the greater value than the value present index 3.</p> <p>80 &lt;= 80 ; True</p> <p>180 &lt;= 80 ; False</p> <p>We will <strong>print 1 for index 3.</strong></p> <p><strong>5.</strong> For index 4, we will compare the value of index 4 with itself and the previous indexes, i.e., from value present at index 0, 1, 2, and 3, until we find the greater value than the value present index 4.</p> <p>85 &lt;= 85 ; True</p> <p>80 &lt;= 85 ; True</p> <p>180 &lt;= 85 ; False</p> <p>We will <strong>print 2 for index 4.</strong></p> <p><strong>6.</strong> For index 5, we will compare the value of index 5 with itself and the previous indexes, i.e., from value present at index 0, 1, 2, 3, and 4, until we find the greater value than the value present index 5.</p> <p>90 &lt;= 90 ; True</p> <p>85 &lt;= 90 ; True</p> <p>80 &lt;= 90 ; True</p> <p>180 &lt;= 90 ; False</p> <p>We will <strong>print 3 for index 5.</strong></p> <p><strong>7.</strong> For index 6, we will compare the value of index 6 with itself and the previous indexes, i.e., from value present at index 0, 1, 2,3 4, 5, until we find the greater value than the value present index 6.</p> <p>100 &lt;= 100 ; True</p> <p>90 &lt;= 100 ; True</p> <p>85 &lt;= 100 ; True</p> <p>80 &lt;= 100 ; True</p> <p>180 &lt;= 100 ; False</p> <p>We will <strong>print 4 for index 6.</strong></p> <p><strong>8.</strong> For index 7, we will compare the value of index 7 with itself and the previous indexes, i.e., from value present at index 0, 1, 2, 3, 4, 5, 6, until we find the greater value than the value present index 7.</p> <p>110 &lt;= 110 ; True</p> <p>100 &lt;= 110 ; True</p> <p>90 &lt;= 110 ; True</p> <p>85 &lt;= 110 ; True</p> <p>80 &lt;= 110 ; True</p> <p>180 &lt;= 110 ; False</p> <p>We will <strong>print 5 for index 7.</strong></p> <p><strong>9.</strong> For index 8, we will compare the value of index 8 with itself as well as the previous indexes, i.e., from value present at index 0, 1, 2, 3, 4, 5, 6, 7, until we find the greater value than the value present index 8.</p> <p>75 &lt;= 75 ; True</p> <p>110 &lt;= 75 ; False</p> <p>We will <strong>print 1 for index 8.</strong></p> <p><strong>10.</strong> For index 9, we will compare the value of index 9 with itself as well as the previous indexes, i.e., from value present at index 0, 1, 2, 3, 4, 5, 6, 7, 8, until we find the greater value than the value present index 9.</p> <p>95 &lt;= 95 ; True</p> <p>75 &lt;= 95 ; True</p> <p>110 &lt;= 95 ; False</p> <p>We will <strong>print 2 for index 9.</strong></p> <p>Hence final output will be -</p> <p><strong>Output = { 1 , 2 , 3 , 1 , 2 , 3 , 4 , 5 , 1 , 2 }</strong></p> <p>Here we can observe that for an nth term, we require n comparisons, n-1 for previous ones, and 1 for itself; hence total n comparisons require nth term.</p> <h2 class="h2">Methods to solve Stock Span Problem -</h2> 
+           <ol class="points"> 
+            <li>By using the Brute force approach, an inefficient method.</li> 
+            <li>By using Stack, an efficient method</li> 
+            <li>By using multiple stacks</li> 
+            <li>Linear complexity method, without using Stack</li> 
+           </ol> <p>Let us start solving this Stock span problem using these methods.</p> <h2 class="h2">Method # 1 Brute Force approach, an inefficient method -</h2> <p>Although this method is not so efficient, it is very easy to implement to solve any problem. If you want to understand the basic criteria, you first implement any program using the Brute force method. Once you have succeeded in making the program, then try to find the other best alternative to solve the given problem, in much more efficient way, whose performance is also better and time complexity is also less then this method.</p> <p>Let us discuss the stock span problem using this method:</p> <p>As we have already seen, the working of the stock span problem is to find the number of stocks, which are less than or equal to the target stock. Thus, we called it finding the Span of that stock.</p> <h3 class="h3">Algorithm to implement Brute force method to solve this problem -</h3> <p><strong>Step 1 -</strong> Take an array named ' Stockprice ' from the user of ' n ' elements; here, elements refer to the stock, and this array contains the corresponding prices of the stocks. Also, make another array named ' span ', which stores the span values for each of the corresponding stocks.</p> <p><strong>Step 2 -</strong> Make a function named <strong>' Calspan ',</strong> this function targets to calculate the Span or number of stocks whose prices are less than or equal to the current stock until we reach the value greater than the current value. </p> <p><strong>Step 3 -</strong> Calspan function will calculate the Span for each of the stocks.</p> <p><strong>Step 4 -</strong> From the main function, pass Stockprice array, number of elements, and an array named Span, which stores the values of Span, calculated in the Calspan function.</p> <p><strong>Step 5 -</strong> In the Calspan function, initialize the value of Span [ 0 ] = 1, as we know that the first element of the stockprice array must have a span value equal to 1 because no price is less than its value, but it is equal to itself hence its value always starts with one.</p> <p><strong>Step 6 -</strong> Format the two loops; one loop is for pointing a particular stock price in an array stockprice, and another array is for calculating the span value for the pointing stock price.</p> <p><strong>Step 7 -</strong> The first loop will run from 1 to n - 1 since the index 0 stock price value is always one, as described above.</p> <p><strong>Step 8 -</strong> The second loop will start from n - 1, as we are comparing the values in the reverse direction of the current stock. If we get a value greater than the current stock price, we will come out of the loop and store the corresponding span value in the index ith of the span array.</p> <p><strong>Step 9 -</strong> Initialize the span [ 1 ] = 1. After that, run the second loop, which compares the current pointing stock price from the stock prices. It occurs before the current stock prices and to check whether the value of the prices occurs before and less than the current stock price or not.</p> <p><strong>Step 10 -</strong> If the stock price is less than the current stock price, then increment the value of Span by <strong>1</strong> at that particular index.</p> <p><strong>Step 11 -</strong> After traversing the stock price array from 1 to n - 1, print the resulting span array from the main function.</p> <p><strong>Step 12 -</strong> Finally, we will get the desired output in the result.</p> <h3 class="h3">Implementation of Stock Span Problem using Method # 1 in C Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C program using brute force method to calculate stock span values
+#include &lt;stdio.h&gt;
+// Fill the array Span [ ] with span values
+void calSpan ( int stockprice[] , int n , int Span[] )
+{
+	int i , j ;
+    // Span value for first day is always 1
+    Span [ 0 ] = 1 ;
+    // For Calculation of the span values of remaining days by linearly checking
+ previous days
+    for ( i = 1 ; i &lt; n ; i++ ) 
+	{
+        Span [ i ] = 1 ;           // Initialize the span value as 1
+ 
+        // Traverse the array untill we get the stockprice greater than the current stockprice
+        // than stockprice [ i ]
+        for ( j = i - 1 ; ( j &gt;= 0 ) &amp;&amp; ( stockprice [ i ] &gt;= stockprice [ j ] ) ; j-- )
+            Span [ i ]++ ;
+    }
+}
+int main()
+{
+    int stockprice [ 100 ] ;
+    int n , i  ;
+    printf  ( " Enter number of Stocks : \n " ) ;
+    scanf  ( "%d" , &amp;n ) ;
+    printf  ( " Enter prices of corresponding stocks: \n " ) ;
+    for ( i = 0 ; i &lt; n ; i++ )
+    {
+    	scanf ( "%d" , &amp;stockprice [ i ] ) ;
+	}
+    int Span [ n ] ;
+ 
+    // Fill the span values in array Span[]
+    calSpan ( stockprice , n , Span ) ;
+ printf ( " Span values are as follows for corresponding stocks -&gt; \n " ) ;
+    // print the calculated span values
+   for ( i = 0 ; i  &lt; n ; i++ )
+        printf ( " %d \n ", Span [ i ] ) ;
+    return 0 ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C program for solving the Stock span problem using Method # 1</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem2.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 1 in C++ Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// C++ program using brute force method to calculate stock span values
+#include &lt;iostream&gt;
+using namespace std; 
+// Fill the array Span [ ] with span values
+void calSpan ( int stockprice[] , int n , int Span[] )
+{
+	int i , j ;
+    // Span value for the first day is always 1
+    Span [ 0 ] = 1 ;
+ 
+    // For Calculation of the span values of remaining days by linearly checking
+ previous days
+    for ( i = 1 ; i &lt; n ; i++ ) 
+	{
+        Span [ i ] = 1 ; // Initialize the span value
+ 
+        // Traverse the array untill we get the stockprice greater than the current stockprice
+        // than stockprice [ i ]
+        for ( j = i - 1 ; ( j &gt;= 0 ) &amp;&amp; ( stockprice [ i ] &gt;= stockprice [ j ] ) ; j-- )
+            Span [ i ]++ ;
+    }
+}
+int main()
+{
+    int stockprice [ 100 ] ;
+    int n , i  ;
+    cout &lt;&lt; " Enter number of Stocks : " &lt;&lt; endl ;
+    cin &gt;&gt; n ;
+    cout &lt;&lt; " Enter prices of corresponding stocks: " &lt;&lt; endl ;
+    for ( i = 0 ; i &lt; n ; i++ )
+    {
+    	cin &gt;&gt; stockprice [ i ]  ;
+	}
+    int Span [ n ] ;
+    // Fill the span values in array Span[ ] 
+    calSpan ( stockprice , n , Span ) ;
+    cout &lt;&lt; " Span values are as follows for corresponding stocks -&gt; " &lt;&lt; endl ;
+    // print the calculated span values
+   for ( i = 0 ; i &lt; n ; i++ )
+        cout &lt;&lt; Span [ i ] &lt;&lt; endl ;
+    return 0 ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C++ program for solving the Stock span problem using Method # 1</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem3.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 1 in Java Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// Java program for brute force method to calculate stock span values
+import java.util.Scanner ;  
+class Array 
+{  
+// Fill the array Span[] with span values
+static void calSpan ( int [] stockprice , int n , int [] span )
+{
+	int i , j ;
+	// Span value for the first day is always 1
+	span  [ 0 ] = 1 ;
+	 // For Calculation of the span values of remaining days by linearly checking
+ previous days
+	for ( i = 1 ; i &lt; n ; i++ ) 
+	{
+        span [ i ] = 1 ;                   // Initialize the span value
+ 
+        // Traverse the array untill we get the stockprice greater than the current stockprice
+        // than stockprice [ i ]
+        for ( j = i - 1 ; ( j &gt;= 0 ) &amp;&amp; ( stockprice [ i ] &gt;= stockprice [ j ] ) ; j-- )
+            span [ i ]++ ;
+    }
+}
+public static void main ( String args[] )  
+{  
+ int n ;
+ Scanner sc = new Scanner ( System.in ) ;
+ System.out.println ( " Enter number of Stocks :  " ) ;
+ n = sc.nextInt() ;
+ int [] stockprice = new int[ 100 ] ;
+ int [] span = new int [ 100 ] ;
+ System.out.println ( " Enter prices of corresponding stocks: \n  " ) ;
+ for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 stockprice[ i ] = sc.nextInt() ;
+ }
+ // Fill the span values in array Span[ ]
+ calSpan ( stockprice , n , span ) ;
+ System.out.println ( " Span values are as follows for corresponding stocks -&gt; \n " ) ;
+ // print the calculated span values
+  for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 System.out.println ( span [ i ] ) ;
+ }
+}  
+}  
+</textarea>
+           </div> <p><strong>The output of the following Java program for solving the Stock span problem using Method # 1</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem4.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 1 in Python Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+# Python program to implement the brute force method to calculate stock span values 
+# Fill the list Span [ ] with span values
+def calSpan(stockprice, n, Span):     
+    # Span value for the first day is always 1
+    Span[0] = 1 
+    # For Calculation of the span values of remaining days by linearly
+ checking previous days
+    for i in range(1, n, 1):
+        Span[i] = 1                             # Initialize the span value as 1
+        # Traverse from the left until the next element on left is
+ greater than the current stockprice
+        j = i - 1
+        while (j&gt;= 0) and (stockprice[i] &gt;= stockprice[j]) :
+                       Span[i] = Span[i] + 1
+                       j -= 1
+# Program to test above function   
+print("Enter number of an stock prices: ")
+n=int(input())
+print("Enter prices of corresponding stocks: \n ")
+i=0
+stockprice=[]
+Span=[None] * n
+while(i&lt;n):
+  ele = int(input())
+  stockprice.append(ele)
+  i=i+1
+# Fill the span values in list Span [ ]
+calSpan(stockprice,n,Span)
+# print the calculated span values
+print("Span values are as follows for corresponding stocks -&gt; \n ")
+j=0
+for j in Span:
+  print(j)
+</textarea>
+           </div> <p><strong>The output of the following Java program for solving the Stock span problem using Method # 1</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem5.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 1 in C# Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// C# implementation for brute force method
+// to calculate stock span values
+using System ;
+class StockProblem { 
+    // method to calculate stock span values
+    static void calSpan( int[] stockprice , int n , int[] Span )
+    { 
+        // Span value for the first day is always 1
+        Span[0] = 1 ; 
+        // Calculate span value of remaining
+        // days by linearly checking previous
+        // days
+        for (int i = 1 ; i &lt; n ; i++) 
+{
+            Span[i] = 1 ;                    // Initialize span value 
+            // Traverse left while the next
+            // element on left is smaller
+ than the current stockprice 
+            for ( int k = i - 1 ; ( k &gt;= 0) &amp;&amp; (stockprice[i] &gt;= stockprice[k]); k--)
+                Span[i]++ ;
+        }
+    }
+    //  Function used to print elements
+    // of array
+    static void print(int[] Span)
+    {
+        string output = string.Join(" ", Span);
+        Console.WriteLine(output) ;
+    }    
+    public static void Main()
+    {
+        int[] stockprice = { 100, 40, 50, 300, 420, 80 } ;
+        int n = stockprice.Length ;
+        int[] Span = new int[n] ;
+ 
+        // Fill the span values in array Span[ ]
+        calSpan(stockprice, n, Span) ;
+ 
+        // print the calculated span values
+        print(Span) ;
+    }
+}
+</textarea>
+           </div> <p><strong>The output of the following C# program for solving the Stock span problem using Method # 1</strong></p> 
+           <div class="codeblock3">
+            <pre> 1   1    2    4    5    1    
+</pre>
+           </div> <p>After executing the program successfully in a specific programming language and following the Brute force algorithm using the nested traversal approach, we will get the proper result, i.e., finding out the span values for given stock prices daily.</p> <p>Now let us analyze the running time and performance of the algorithm we are applying to get the span values for corresponding stock prices by finding the algorithm's time complexity and space complexity using in Method # 1.</p> <h3 class="h3">Time Complexity of Method # 1 -</h3> <p>For finding the time complexity, we need to observe the algorithm and analyze the time taken by a particular line for execution. We can observe that we require traversing the stock price array nested one loop in another loop; one traversal of the loop for traversing the stock prices from 1 to n - 1 stock prices, and the second loop is for comparing the stock price from previous stock prices until we get the stock price greater than the current stock price, and simultaneously incrementing the values of Span for corresponding stock prices in span array, finally in this way we require nested loop traversing. Hence time complexity will be -</p> <p>T ( n ) = O ( n ).O ( n )</p> <p><strong>T ( n ) = O ( n<sup>2</sup> )</strong></p> <p>Hence time complexity will be O ( n<sup>2</sup> ), as we do the asymptotically rough idea that we require ' n<sup>2</sup> ' time to solve the problem of ' n ' elements.</p> <h3 class="h3">Space Complexity of Method # 1 -</h3> <p>To find space complexity, we need to observe the program and analyze the space required to store all the variables; as we notice the program, we will observe that for storing span values of corresponding ' n ' stock prices, we require an array of ' n ' variables to store ' n ' span values.</p> <p><strong>S ( n ) = O ( n )</strong></p> <p>Hence the space complexity for above method # 1 will be O ( n ).</p> <h2 class="h2">Method # 2 By Using Stack, an efficient method -</h2> <p>This method is very efficient compared to the previous Brute force method because the time complexity in the brute force approach is O ( n<sup>2</sup> ) due to the nested loop traversal. Still, in this stacking method, time complexity will be O ( n ). We will see it further in the analysis of the algorithm. Time complexity is also less than the previous method and this method is also known as the <strong>linear time complexity method.</strong></p> <p>Let us discuss the stock span problem using this method:</p> <p>As we have already seen, the working of the stock span problem is to find the number of stocks, which are less than or equal to the target stock. Thus, we called it finding the Span of that stock.</p> <h3 class="h3">Algorithm to implement Stack method to solve this problem -</h3> <p><strong>Step 1 -</strong> Take an array named ' Stockprice ' from a user of ' n ' elements; here, elements refer to the stock, and this array contains the corresponding prices of the stocks. Also, make another array named ' span ', which stores the span values for each of the corresponding stocks.</p> <p><strong>Step 2 -</strong> Make a function named ' Calspan ', this function targets to calculate the Span or number of stocks whose prices are less than or equal to the current stock until we reach the value greater than the current value.</p> <p><strong>Step 3 -</strong> Calspan function will calculate the Span for each of the stocks.</p> <p><strong>Step 4 -</strong> From the main function, pass Stockprice array, number of elements, and an array named Span, which stores the values of Span, calculated in the Calspan function.</p> <p><strong>Step 5 -</strong> In the Calspan function, initialize the value of Span [ 0 ] = 1, as we know that the first element of the stockprice array for day 1 must have a span value equal to 1 because no price is less than its value, but it is equal to itself hence its value always starts with one.</p> <p><strong>Step 6 -</strong> After allocating span value 1 for the stock price of day 1, then for the next stock price for further days, add this corresponding list of Span for current stock price day if the stock price of the current day is greater than or equal to the previous stock prices, then push the index of that element into the Stack.</p> <p><strong>Step 7 -</strong> Now for to calculate the span values for further days, we will use the concept of Stack, in which we would perform mainly two operations push and pop; push is used to push the data element into the Stack and pop is used to retrieve the data element out of the Stack.</p> <p><strong>Step 8 -</strong> Initially, we check the stock price corresponding to the index on the top of the Stack.</p> <p><strong>Step 9 -</strong> Compare the top stock price of the Stack with the stock price of the current day; if the current day stock price is greater or equal to the stock price of the top of the Stack, then pop this index out of stock.</p> <p><strong>Step 10 -</strong> Repeat the step 9 for the next top of the Stack until you reach the state for which the stock price of the current day is smaller than the stock price of the top of the Stack.</p> <p><strong>Step 11 -</strong> After that, calculate the span values of the corresponding stock prices by subtracting the index at the top of the Stack from the index of the current day.</p> <p><strong>Step 12 -</strong> Finally, we will get the desired output in the result.</p> <h3 class="h3">Implementation of Stock Span Problem using Method # 2 in C++ Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C++ program using stock span problem-solving method using Stack to calculate stock span values
+#include &lt;iostream&gt;
+#include &lt;stack&gt;
+using namespace std; 
+// Fills array Span [ ] with span values
+void calSpan ( int stockprice[] , int n , int Span[] )
+{
+    // Initially, Create a stack after then push the index of the first
+ element
+    stack&lt;int&gt; st ;
+    st.push ( 0 ) ; 
+    // Span value for the first element is always 1
+    Span [ 0 ]  = 1 ; 
+    // For Calculation of the span values of remaining days by linearly checking previous days
+    for ( int i = 1 ; i &lt; n ; i++ ) 
+{
+        // Pop out the elements from the stack 
+until it becomes empty and top of stack is smaller than
+ the current stockprice
+        while ( !st.empty() &amp;&amp; stockprice [ st.top() ] &lt; stockprice [ i ] )
+            st.pop() ; 
+        // If stack becomes empty, then stockprice [ i ] is
+        // greater than all the elements present on left of it ,
+        // i.e., stockprice [ 0 ] , stockprice [ 1 ] , ..stockprice [ i - 1 ].  Else
+        // stockprice [ i ] is greater than elements after
+        // top of stack
+        Span [ i ]  = ( st.empty() ) ? ( i + 1) : ( i - st.top() ) ; 
+        // Push this element to stack
+        st.push ( i ) ;
+    }
+}
+int main()
+{
+    int stockprice [ 100 ] ;
+    int n , i  ;
+    cout &lt;&lt; " Enter number of Stocks : " &lt;&lt; endl ;
+    cin &gt;&gt; n ;
+    cout &lt;&lt; " Enter prices of corresponding stocks: " &lt;&lt; endl ;
+    for ( i = 0 ; i &lt; n ; i++ )
+    {
+    	cin &gt;&gt; stockprice [ i ]  ;
+	}
+    int Span [ n ] ; 
+    // Fill the span values in array Span [ ]
+    calSpan ( stockprice , n , Span ) ;
+    cout &lt;&lt; " Span values are as follows for corresponding stocks -&gt; " &lt;&lt; endl ;
+    // print the calculated span values
+   for ( i = 0 ; i &lt; n ; i++ )
+        cout &lt;&lt;  Span [ i ] &lt;&lt; endl ;
+    return 0 ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C++ program for solving the Stock span problem using Method # 2</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem6.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 2 in Java Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// Java program for stock span problem-solving method using Stack to calculate stock span values
+import java.util.* ;  
+class Array 
+{  
+// Fills array Span [ ] with span values
+static void calSpan ( int [] stockprice , int n , int [] Span )
+{
+      // Initially, Create a stack after then push the index of the first element       
+Stack&lt;Integer&gt; st = new Stack&lt;&gt;() ;
+        st.push ( 0 ) ;
+        // Span value for the first element is always 1
+        Span [ 0 ] = 1 ; 
+         // For Calculation of the span values of remaining days by linearly checking previous days
+        for (int i = 1; i &lt; n; i++)
+	{
+             // Pop out the elements from the stack 
+until it becomes empty and top of stack is smaller than
+ the current stockprice
+            while (!st.empty() &amp;&amp; stockprice [ st.peek() ] &lt;= stockprice [ i ] )
+                st.pop(); 
+            // If stack becomes empty, then stockprice [ i ] is
+        // greater than all the elements present on left of it ,
+        // i.e., stockprice [ 0 ] , stockprice [ 1 ] , ..stockprice [ i - 1 ].  Else
+        // stockprice [ i ]
+ is greater than elements after
+        // top of stack
+            Span [ i ] = ( st.empty() ) ? ( i + 1) : ( i - st.peek() ) ;
+ 
+            // Push this element to stack
+            st.push ( i ) ;
+             }
+}
+public static void main ( String args[] )  
+{  
+ int n ;
+ Scanner sc = new Scanner ( System.in ) ;
+ System.out.println ( " Enter number of Stocks :  " ) ;
+ n = sc.nextInt() ;
+ int [] stockprice = new int[ 100 ] ;
+ int [] span = new int [ 100 ] ;
+ System.out.println ( " Enter prices of corresponding stocks: \n  " ) ;
+ for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 stockprice[ i ] = sc.nextInt() ;
+ }
+ // Fill the span values in array Span [ ]
+ calSpan ( stockprice , n , span ) ;
+ System.out.println ( " Span values are as follows for corresponding stocks -&gt; \n " ) ;
+ // print the calculated span values
+  for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 System.out.println ( span [ i ] ) ;
+ }
+}  
+}
+</textarea>
+           </div> <p><strong>The output of the following Java program for solving the Stock span problem using Method # 2</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem7.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 2 in Python Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+# Python program for stock span problem-solving method using Stack to calculate stock span values
+# A stack-based efficient method to calculate span values for corresponding stock prices
+def calSpan(stockprice, Span):     
+    n = len(stockprice)
+    # Initially, Create a stack after then pushing the index of the first element
+    st = []
+    st.append(0) 
+    # Span value for the first element is always 1
+    Span[0] = 1 
+    # For Calculation of the span values of remaining days by linearly checking previous days
+    for i in range(1, n):         
+        # Pop out the elements from the Stack until it is not
+        # empty and the top of stack is smaller than the current stockprice
+        while( len(st) &gt; 0 and stockprice[st[-1]] &lt;= stockprice[i]):
+            st.pop() 
+        # If stack becomes empty, then stockprice [ i ] is greater
+ than all elements on left of it, i.e. stockprice [ 0 ] ,
+        # stockprice [ 1 ] , ..stockprice [ i - 1 ]. Else the stockprice [ i ] is
+        # greater than elements after top of stack
+        Span[i] = i + 1 if len(st) &lt;= 0 else (i - st[-1])
+ 
+        # Push this element to stack
+        st.append(i)
+# Program to test above function   
+print("Enter number of an stock prices: ")
+n=int(input())
+print("Enter prices of corresponding stocks: \n ")
+i=0
+stockprice=[]
+Span=[None] * n
+while(i&lt;n):
+  ele = int(input())
+  stockprice.append(ele)
+  i=i+1
+calSpan(stockprice,Span)
+print("Span values are as follows for corresponding stocks -&gt; \n ")
+j=0
+for j in Span:
+  print(j)
+</textarea>
+           </div> <p><strong>The output of the following Python program for solving the Stock span problem using Method # 2</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem8.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 2 in C# Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// C# program for stock span problem-solving method using Stack to calculate stock span values
+using System ;
+using System.collections ;
+class StockProblem {
+    // a linear time solution for
+    // stock span problem using a stack
+    // based on an efficient method to calculate
+    // stock span values
+    static void calSpan(int[] stockprice , int n , int[] Span)
+    {
+        // Create a stack and Push
+        // index of first element to it
+        Stack st = new Stack() ;
+        st.Push(0) ; 
+        // Span value of first
+        // element is always 1
+        Span[0] = 1 ; 
+        // Calculate span values
+        // for rest of the elements
+        for (int i = 1 ; i &lt; n ; i++) { 
+            // Pop elements from stack
+            // while stack is not empty
+            // and top of stack is smaller
+            // than stockprice [ i ]
+            while (st.Count &gt; 0 &amp;&amp; stockprice[(int)st.Peek()] &lt;= stockprice[i])
+                st.Pop() ; 
+            // If stack becomes empty, then stockprice [ i ] is
+            // always greater than all elements present on the left of it, i.e.,
+            // stockprice [ 0 ] , stockprice [ 1 ] , ..stockprice [ i - 1 ]. Else stockprice [ i ]
+            // is greater than the elements after top of stack
+            Span[i] = (st.Count == 0) ? (i + 1) : (i - (int)st.Peek()); 
+            // Push this element to stack
+            st.Push(i);
+        }
+    } 
+    // A function used to print elements of array
+    static void print(int[] Span)
+    {
+        for (int i = 0 ; i &lt; Span.Length ; i++)
+            Console.Write(Span[i] + " ") ;
+    } 
+    // Main method
+    public static void Main(String[] args)
+    {
+        int[] stockprice = { 80, 40, 60, 90, 120, 180 } ;
+        int n = stockprice.Length ;
+        int[] Span = new int[n] ; 
+        // Fill the span values in array Span [ ]
+        calSpan(stockprice , n , Span) ; 
+        // print the calculated span values
+        print(Span) ;
+    }
+}
+</textarea>
+           </div> <h3 class="h3">The output of the following C# program for solving the Stock span problem using Method # 2</h3> 
+           <div class="codeblock3">
+            <pre> 1   1    2    4    5    6   
+</pre>
+           </div> <p>After executing the program successfully in a specific programming language and following the Brute force algorithm using the nested traversal approach, we will get the proper result, i.e., finding out the span values for given stock prices daily.</p> <p>Now let us analyze the running time and performance of the algorithm we are applying to get the span values for corresponding stock prices by finding the algorithm's time complexity and space complexity using in Method # 2.</p> <h3 class="h3">Time Complexity of Method # 2 -</h3> <p>For finding the time complexity, we need to observe the algorithm and analyze the time taken by a particular line for execution. We can observe that we require traversing the stock price array using one loop only; traversal of the loop for traversing the stock prices from 1 to n - 1 stock prices, and inside that loop, we are using a stack data structure to hold the span values and for doing comparisons among these stock prices of different days. Hence time complexity will be -</p> <p>T ( n ) = O ( n ) + C</p> <p>Here, ' C ' be any constant.</p> <p><strong>T ( n ) = O ( n )</strong></p> <p>Hence time complexity will be O ( n ), as we do the asymptotically rough idea that we require ' n ' time to solve the problem of ' n ' elements.</p> <h3 class="h3">Space Complexity of Method # 2 -</h3> <p>To find space complexity, we need to observe the program and analyze the space required to store all the variables; as we notice the program, we will observe that for storing span values of corresponding ' n ' stock prices, we require an array of ' n ' variables to store ' n ' span values.</p> <p><strong>S ( n ) = O ( n )</strong></p> <p>Hence the space complexity for above method # 2 will be O ( n ).</p> <h2 class="h2">Method # 3 By Using Multiple Stacks -</h2> <p>The implementation of this method is quite different from the method 2. We will see it further in the analysis of the algorithm.</p> <p>Let us discuss the stock span problem using this method:</p> <p>As we have already seen, the working of the stock span problem is to find the number of stocks, which are less than or equal to the target stock. Thus, we called it finding the Span of that stock.</p> <h3 class="h3">Algorithm to implement Multiple Stack method to solve this problem -</h3> <p><strong>Step 1 -</strong> In this method, we will use two stacks for finding the span values of the corresponding stock price of particular days.</p> <p><strong>Step 2 -</strong> Initially define the size of the stock prices so that it will remain constant throughout the program, and it will be easy to implement the logic.</p> <p><strong>Step 3 -</strong> One Stack is used to store the actual stock prices, as we compare it with previous methods; in this place, we are using an array to store stock prices, but here it is replaced by a stack data structure.</p> <p><strong>Step 4 -</strong> Another stack is used to store the Span values temporarily, and we also call this Stack a temporary Stack.</p> <p><strong>Step 5 -</strong> Using the above two stacks, we will solve this problem using push and pop operations of Stack. The remaining procedure of comparison criteria will be the same as method 2 using a single Stack.</p> <p><strong>Step 6 -</strong> At last, store the values of Span from stack 2 to an array named Span, and print the result.</p> <p><strong>Step 7 -</strong> Finally, we will get the desired output in the result.</p> <h3 class="h3">Implementation of Stock Span Problem using Method # 3 in C Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C program for solving stock span problem using multiple stacks
+#include &lt;limits.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#define SIZE 6                //  size of stack you can change according to you from here
+// change this char to int if
+// you want to create stack of int
+// rest all program will work same
+typedef int mainstack;
+typedef struct stack {
+	mainstack input [ SIZE ] ;
+	int top ;
+} STACK ;
+// Initialize the stack by setting top pointer = -1.
+void initialiseStack ( STACK* s ) 
+{ s-&gt;top = -1 ; }
+// to check if Stack is full.
+int Isfull ( STACK s )
+{
+	if ( s.top == SIZE - 1 ) 
+{
+		return ( 1 ) ;
+	}
+	return ( 0 ) ;
+}
+// to check if Stack is empty.
+int Isempty ( STACK s )
+{
+	if ( s.top == -1 ) {
+		return ( 1 ) ;
+	}
+	else {
+		return ( 0 ) ;
+	}
+}
+// to push elements into the Stack.
+void push ( mainstack d, STACK* s )
+{
+	if ( !Isfull(*s) )
+ {
+
+		s-&gt;input[(s-&gt;top) + 1] = d ;
+		s-&gt;top = s-&gt;top + 1 ;
+	}
+}
+// to pop element from stack.
+mainstack pop ( STACK* s )
+{
+	mainstack res ;
+	if ( !Isempty(*s) ) {
+		res = s-&gt;input[ s-&gt;top ] ;
+		s-&gt;top = s-&gt;top - 1 ;
+	}
+	else {
+	
+		// ' \0 ' will be returned if
+		// stack is empty and of
+		// char type.
+		if ( sizeof( mainstack ) == 1 )
+			res = '\0' ;
+		else
+			// INT_MIN will be returned
+			// if stack is empty
+			// and of int type.
+			res = INT_MIN;
+	}
+	return ( res ) ;
+}
+// main function.
+int main()
+{
+	int stockprice[ 6 ] ;
+	int i ;
+	printf ( " Enter 6 stock prices: \n " ) ;
+	for ( i = 0 ; i &lt; 6 ; i++ )
+	{
+		scanf ( " %d " , &amp;stockprice[ i ] ) ;
+	}
+	// span of each day will be stored in Span array.
+	int span[ 6 ] = { 0 } ;
+	// stack 's' will store stock the values of each
+ day. 
+// stack 'temp' is temporary stack
+	STACK s , temp ;
+	// setting top pointer to -1.
+	initialiseStack( &amp;s ) ;
+	initialiseStack( &amp;temp ) ;
+	// count basically signifies span of
+	// particular day.
+	int count = 1 ;
+	// since first day span is 1 only.
+	span[ 0 ] = 1 ;
+	push( stockprice[ 0 ] , &amp;s ) ;
+	// calculate the span values for the remaining days.
+	for ( i = 1 ; i &lt; 7 ; i++ ) {	
+		// count here denoted as span of that particular day.
+		count = 1 ;	
+		// if current-day stock is larger than the previous day
+ span
+		//then it will be popped out into temp stack.
+		// popping will be carried out till Span gets over
+		// and count will be incremented .
+		while ( !Isempty( s )
+			&amp;&amp; s.input[ s.top ] &lt;= stockprice[ i ] )
+ {
+			push( pop( &amp;s ) , &amp;temp ) ;
+			count++ ;
+		}		
+		// now, one by one all stocks from temp will be
+		// poped and pushed back to s.
+		while ( !Isempty( temp ) ) 
+{
+			push( pop( &amp;temp ) , &amp;s ) ;
+		}	
+		// pushing current stock
+		push( stockprice[ i ] , &amp;s ) ;	
+		// appending span of that particular
+		// day into output array.
+		span[ i ] = count ;
+	}
+	printf ( " Span values for corresponding stock prices are as follows: \n " ) ;
+	for ( i = 0 ; i &lt; 6 ; i++ )
+		printf( " %d \n " , span[ i ] ) ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C program for solving the Stock span problem using Method # 3</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem9.png" alt="Stock Span Problem"> <p>Now let us analyze the running time and performance of the algorithm we are applying to get the span values for corresponding stock prices by finding the algorithm's time complexity and space complexity using in M ethod # 3.</p> <h3 class="h3">Time Complexity of Method # 3 -</h3> <p>For finding the time complexity, we need to observe the algorithm and analyze the time taken by a particular line for execution. We can observe that we require two stacks for executing this stock span problem, one Stack is needed to store the stock prices of corresponding days; and another stack is needed to store the temporary values of Span, calculated by further comparisons between the stock prices, and finally, we have store these span values in an array. Hence time complexity will be -</p> <p>T ( n ) = O ( n ) + C</p> <p>Here ' C ' be any constant.</p> <p><strong>T ( n ) = O ( n )</strong></p> <p>Hence time complexity will be O ( n ), as we do the asymptotically rough idea that we require ' n ' time to solve the problem of ' n ' elements.</p> <h3 class="h3">Space Complexity of Method # 3 -</h3> <p>To find space complexity, we need to observe the program and analyze the space required to store all the variables; as we notice the program, we will observe that for storing span values of corresponding ' n ' stock prices, we require an array of ' n ' variables to store ' n ' span values.</p> <p><strong>S ( n ) = O ( n )</strong></p> <p>Hence the space complexity for above method # 3 will be O ( n ).</p> <h2 class="h2">Method # 4 Linear Complexity method, without using Stack -</h2> <p>This method is very efficient compared to the previous Brute force method because the time complexity in the brute force approach is O ( n<sup>2</sup> ) due to the nested loop traversal. Still, in this stacking method, time complexity will be O ( n ), this method is different from the above three methods, but the concept of finding span values remains the same for all the methods. We will see it further in the analysis of the algorithm, and it is very easy to implement to solve any problem, in a much more efficient way, whose performance is also better; hence this method is also known as the linear time complexity method.</p> <p>Let us discuss the stock span problem using this method:</p> <p>As we have already seen, the working of the stock span problem is to find the number of stocks, which are less than or equal to the target stock. Thus, we called it finding the Span of that stock.</p> <h3 class="h3">Algorithm to implement linear-complexity method without using Stack to solve this problem -</h3> <p><strong>Step 1 -</strong> Take an array named ' Stockprice ' from a user of ' n ' elements; here, elements refer to the stock, and this array contains the corresponding prices of the stocks. Also, make another array named ' span ', which stores the span values for each of the corresponding stocks.</p> <p><strong>Step 2 -</strong> Make a function named ' Calspan ', this function targets to calculate the Span or number of stocks whose prices are less than or equal to the current stock until we reach the value greater than the current value. </p> <p><strong>Step 3 -</strong> Calspan function will calculate the Span for each of the stocks.</p> <p><strong>Step 4 -</strong> From the main function, pass Stockprice array, number of elements, and an array named Span, which stores the values of Span, calculated in the Calspan function.</p> <p><strong>Step 5 -</strong> In the Calspan function, initialize the value of Span [ 0 ] = 1, as we know that the first element of the stockprice array for day 1 must have a span value equal to 1 because no price is less than its value, but it is equal to itself hence its value always starts with one.</p> <p><strong>Step 6 -</strong> After allocating span value 1 for the stock price of day 1, then for the next stock price for further days, run a loop form i = 1 to ' n - 1 ' stock prices of corresponding days inside that loop initialize one <strong>count variable with 1.</strong></p> <p><strong>Step 7 -</strong> After that, run a while loop for the condition :</p> <p><strong>while ( i - count ) &gt;= 0 &amp;&amp; stockprice[ i ] &gt;= stockprice[ i - count ] )</strong></p> <p><strong>{</strong></p> <p><strong>count = count + span [ i - count ] // if condition true</strong></p> <p><strong>}</strong></p> <p><strong>Step 8 -</strong> Outside the while loop and inside the for loop, finally set the Span [ i ] = count.</p> <p><strong>Step 9 -</strong> At last, from the main function, print the span values.</p> <p><strong>Step 10 -</strong> Finally, you will get the desired output as a result.</p> <h3 class="h3">Implementation of Stock Span Problem using Method # 4 in C Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C program for a linear time complexity method for stock span problem without using stack
+#include &lt;stdio.h&gt;
+void calSpan( int stockprice[], int n, int Span[] )
+{
+// Span value for the first element is always 1
+Span[ 0 ] = 1 ;
+int i ;
+// For Calculation of the span values of remaining days by linearly checking previous days
+for ( i = 1 ; i &lt; n ; i++ ) 
+{
+int count = 1 ;
+while ( ( i - count ) &gt;= 0 &amp;&amp; stockprice[ i ] &gt;= stockprice[ i - count ] ) 
+{
+count = count + Span[ i - count ] ;
+}
+Span[ i ] = count ;
+}
+}
+int main()
+{
+    int stockprice [ 100 ] ;
+    int n , i  ;
+    printf ( " Enter number of Stocks : \n " ) ;
+    scanf ( "%d" , &amp;n ) ;
+    printf ( " Enter prices of corresponding stocks: \n " ) ;
+    for ( i = 0 ; i &lt; n ; i++ )
+    {
+    scanf ( "%d" , &amp;stockprice [ i ] ) ;
+    }
+    int Span [ n ] ; 
+    // Fill the span values in array Span[ ]
+    calSpan ( stockprice , n , Span ) ;
+   printf ( " Span values are as follows for corresponding stocks -&gt; \n " ) ;
+    // print the calculated span values
+    for ( i = 0 ; i &lt; n ; i++ )
+        printf ( " %d \n ", Span [ i ] ) ;
+    return 0 ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C program for solving the Stock span problem using Method # 4</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem7.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 4 in C++ Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C++ program for a linear time complexity method for stock span problem without using stack
+#include &lt;iostream&gt;
+using namespace std;
+void calSpan(int stockprice[], int n, int Span[])
+{
+	// Span value for the first element is always 1
+Span[ 0 ] = 1 ;
+int i ;
+// For Calculation of the span values of remaining days by linearly checking previous days
+for ( i = 1 ; i &lt; n ; i++ ) 
+{
+int count = 1 ;
+while ( ( i - count ) &gt;= 0 &amp;&amp; stockprice[ i ] &gt;= stockprice[ i - count ] ) 
+{
+count = count + Span[ i - count ] ;
+}
+Span[ i ] = count ;
+}
+}
+int main()
+{
+int stockprice [ 100 ] ;
+    int n , i  ;
+    cout &lt;&lt; " Enter number of Stocks : " &lt;&lt; endl ;
+    cin &gt;&gt; n ;
+    cout &lt;&lt; " Enter prices of corresponding stocks: " &lt;&lt; endl ;
+    for ( i = 0 ; i &lt; n ; i++ )
+    {
+    	cin &gt;&gt; stockprice [ i ]  ;
+	}
+    int Span [ n ] ; 
+    // Fill the span values in array Span[ ]
+    calSpan ( stockprice , n , Span ) ;
+    cout &lt;&lt; " Span values are as follows for corresponding stocks -&gt; " &lt;&lt; endl ;
+    // print the calculated span values
+   for ( i = 0 ; i &lt; n ; i++ )
+        cout &lt;&lt;  Span [ i ] &lt;&lt; endl ;
+    return 0 ;
+}
+</textarea>
+           </div> <p><strong>The output of the following C++ program for solving the Stock span problem using Method # 4</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem3.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 4 in Java Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+// Java program for a linear time complexity method for stock span problem without using Stack
+import java.util.Scanner ;  
+class Stockspan 
+{  
+// Fill the array Span[] with span values
+static void calSpan ( int [] stockprice , int n , int [] Span )
+{
+	// Span value for the first element is always 1
+Span[ 0 ] = 1 ;
+int i ;
+// For calculating the span values for next stockprices we will find it using loop linearly
+for ( i = 1 ; i &lt; n ; i++ ) 
+{
+int count = 1 ;
+while ( ( i - count ) &gt;= 0 &amp;&amp; stockprice[ i ] &gt;= stockprice[ i - count ] ) 
+{
+count = count + Span[ i - count ] ;
+}
+Span[ i ] = count ;
+}
+}
+public static void main ( String args[] )  
+{  
+ int n ;
+ Scanner sc = new Scanner ( System.in ) ;
+ System.out.println ( " Enter number of Stocks :  " ) ;
+ n = sc.nextInt() ;
+ int [] stockprice = new int[ 100 ] ;
+ int [] span = new int [ 100 ] ;
+ System.out.println ( " Enter prices of corresponding stocks: \n  " ) ;
+ for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 stockprice[ i ] = sc.nextInt() ;
+ }
+ // Fill the span values in array Span[ ]
+ calSpan ( stockprice , n , span ) ;
+ System.out.println ( " Span values are as follows for corresponding stocks -&gt; \n " ) ;
+ // print the calculated span values
+  for ( int i = 0 ; i &lt; n ; i++ )
+ {
+	 System.out.println ( span [ i ] ) ;
+ }
+}  
+}  
+</textarea>
+           </div> <p><strong>The output of the following Java program for solving the Stock span problem using Method # 4</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem4.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 4 in Python Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+# Python program for a linear time complexity method for stock span problem without using Stack
+# Fill the list Span [] with span values
+def calSpan(stockprice, n, Span):     
+    # Span value for the first day is always 1
+    Span[0] = 1 
+    # For calculating the span values for next stockprices 
+        # we will find it using loop linearly
+    for i in range(1, n):
+        count = 1        
+        while ((i - count) &gt;= 0 and
+              stockprice[i] &gt;= stockprice[i - count]):
+            count = count + Span[i - count]
+        Span[i] = count                      
+# Program to test above function   
+print("Enter number of an stock prices: ")
+n=int(input())
+print("Enter prices of corresponding stocks: \n ")
+i=0
+stockprice=[]
+Span=[None] * n
+while(i&lt;n):
+  ele = int(input())
+  stockprice.append(ele)
+  i=i+1
+calSpan(stockprice,n,Span)
+print("Span values are as follows for corresponding stocks -&gt; \n ")
+j=0
+for j in Span:
+  print(j)
+</textarea>
+           </div> <p><strong>The output of the following Python program for solving the Stock span problem using Method # 4</strong></p> <img src="https://static.javatpoint.com/ds/images/stock-span-problem10.png" alt="Stock Span Problem"> <h3 class="h3">Implementation of Stock Span Problem using Method # 4 in C# Programming Language</h3> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+// C# program for a linear time complexity method for stock span problem without using Stack
+using System ; 
+class StockProblem { 
+    // function used to calculate stock span values
+    static void calSpan( int[] stockprice , int n , int[] Span )
+    {
+        // Span value for the first element is always 1
+        Span[0] = 1; 
+        // For calculating the span values for next stockprices 
+        // we will find it using loop linearly
+        for (int i = 1; i &lt; n; i++) {
+            int count = 1;
+            while ((i - count) &gt;= 0 &amp;&amp; stockprice[i] &gt;= stockprice[i - count]) {
+                count = count + Span[i - count];
+            }
+            Span[i] = count;
+        }
+    }
+    //  Function used to print the span values from array span[ ]
+    static void print(int[] Span)
+    {
+        string output = string.Join(" ", Span);
+        Console.WriteLine(output) ;
+    } 
+    public static void Main()
+    {
+        int[] stockprice = { 100, 40, 50, 300, 420, 80 } ;
+        int n = stockprice.Length ;
+        int[] Span = new int[n] ; 
+        // Fill the span values in array Span[ ]
+        calSpan(stockprice, n, Span) ; 
+        // printing the calculated span values
+        print(Span) ;
+    }
+}
+</textarea>
+           </div> <p><strong>The output of the following C# program for solving the Stock span problem using Method # 4</strong></p> 
+           <div class="codeblock3">
+            <pre> 1   1    2    4    5    1   
+</pre>
+           </div> <p>After executing the program successfully in a specific programming language and following the linear complexity algorithm without using Stack, we will get the proper result, i.e., finding out the span values for given stock prices daily.</p> <p>Now let us analyze the running time and performance of the algorithm we are applying to get the span values for corresponding stock prices by finding the algorithm's time complexity and space complexity using in Method # 4.</p> <h3 class="h3">Time Complexity of Method # 4 -</h3> <p>For finding the time complexity, we need to observe the algorithm and analyze the time taken by a particular line for execution. We can observe that we require traversing the stock price array using one loop; for traversal of the loop for traversing the stock prices from 1 to n - 1 stock prices, and while condition loop is for comparing the stock price from previous stock prices until we get the stock price greater than the current stock price, and simultaneously incrementing the values of Span for corresponding stock prices in span array, finally in this way we require nested loop traversing. Hence time complexity will be -</p> <p>T ( n ) = O ( n ) + C</p> <p><strong>T ( n ) = O ( n )</strong></p> <p>Hence time complexity will be O ( n ), as we do the asymptotically rough idea that we require ' n ' time to solve the problem of ' n ' elements.</p> <h3 class="h3">Space Complexity of Method # 4 -</h3> <p>To find space complexity, we need to observe the program and analyze the space required to store all the variables; as we notice the program, we will observe that for storing span values of corresponding ' n ' stock prices, we require an array of ' n ' variables to store ' n ' span values.</p> <p><strong>S ( n ) = O ( n )</strong></p> <p>Hence the space complexity for above method # 4 will be O ( n ).</p> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="implementation-of-deque-by-circular-array">Implementation of Deque by Circular Array</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="sort-an-array-of-0s-1s-and-2s">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="implementation-of-deque-by-circular-array">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="eb8d8e8e8f898a8880ab818a9d8a9f9b8482859fc5888486">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/stock-span-problem"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/stock-span-problem"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/stock-span-problem"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d150f3d171c0b1c090d12141309531e1210">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fc948ebc969d8a9d888c93959288d29f9391d2">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

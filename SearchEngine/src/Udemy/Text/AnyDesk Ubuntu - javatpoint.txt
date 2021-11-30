@@ -1,0 +1,1108 @@
+
+
+ 
+  
+  AnyDesk Ubuntu - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Linux 
+       C 
+       Java 
+       Python 
+       Shell Scripting 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Linux Tutorial 
+      
+      
+      Linux Tutorial 
+      What is Linux 
+      Advantages of Linux 
+      Linux History 
+      Linux Features 
+      Linux Bash 
+      Unix vs Linux 
+      Linux vs Windows 
+      Linux Distributions 
+      Linux Licensing 
+      Set Environment Variable 
+      Linux Set Command 
+      Linux export Command 
+      
+      
+      Linux Directories 
+      
+      
+      Linux Directories 
+      Linux Home Directory 
+      Linux pwd 
+      Linux cd 
+      Linux Absolute Relative 
+      Linux Path Completion 
+      Linux ls 
+      Linux mkdir 
+      Linux rmdir 
+      Rename Folder in Linux 
+      
+      
+      Linux Commands 
+      
+      
+      Linux commands List 
+      Commands with Example 
+      
+      
+      Linux Users 
+      
+      
+      Linux Users 
+      Linux Create User 
+      Local su Commands 
+      Linux User Management 
+      User Password 
+      Local Groups 
+      Add User to Group 
+      Linux id Command 
+      
+      
+      Linux Files 
+      
+      
+      Linux Files 
+      Linux File System 
+      Linux Create File 
+      Linux file 
+      Linux touch 
+      Linux rm 
+      Linux cp 
+      Linux mv 
+      Linux rename 
+      Linux install Command 
+      Linux read Command 
+      
+      
+      Linux File Contents 
+      
+      
+      Linux File Contents 
+      Open File in Linux 
+      Linux Edit File 
+      Linux which command 
+      Linux head 
+      Linux tail 
+      Linux cat 
+      Linux tac 
+      Linux more 
+      Linux less 
+      Linux strings command 
+      Linux Print 
+      
+      
+      Linux Process 
+      
+      
+      Kill Process Linux 
+      Linux terminating 
+      1) Linux kill 
+      2) Linux killall 
+      3) Linux pkill 
+      4) Linux xkill 
+      Nohup Command 
+      Linux at command 
+      Linux exit command 
+      
+      
+      Linux File Hierarchy 
+      
+      
+      Linux File Hierarchy 
+      Binary Directories 
+      Configuration Directories 
+      Data Directories 
+      Memory Directories 
+      Usr Directory 
+      var Directory 
+      Non-standard directories 
+      
+      
+      Linux Filters 
+      
+      
+      Linux Filters 
+      Linux cat 
+      Linux cut 
+      Linux grep 
+      Linux comm 
+      Linux sed 
+      Linux tee 
+      Linux tr 
+      Linux uniq 
+      Linux wc 
+      Linux od 
+      Linux sort 
+      Linux gzip 
+      
+      
+      AWK Command 
+      
+      
+      Linux AWK Command 
+      
+      
+      Programming with Linux 
+      
+      
+      Linux make command 
+      GCC Linux 
+      
+      
+      Linux I/O Redirection 
+      
+      
+      Linux I/O Redirection 
+      Linux Input Redirection 
+      Linux Output Redirection 
+      Linux Error Redirection 
+      
+      
+      Linux Unix Tools 
+      
+      
+      Linux Unix Tools 
+      Linux Find 
+      Linux Locate 
+      Linux Date 
+      Linux Cal 
+      Linux Sleep 
+      Linux Time 
+      Linux zcat/zmore 
+      Linux bzip2 / bunzip2 
+      Linux bzcat / bzmore 
+      Linux df 
+      
+      
+      Linux Regex 
+      
+      
+      Linux expr command 
+      Linux RegEx 
+      Linux Grep RegEx 
+      Linux rename RegEx 
+      Linux Sed RegEx 
+      
+      
+      File Security 
+      
+      
+      Linux File OwnerShip 
+      Linux chgrp Command 
+      Linux File Permission 
+      Linux chmod Command 
+      Linux chown command 
+      Linux Advance Permission 
+      Linux File Links 
+      1) Linux Inodes 
+      2) Linux Link Directories 
+      3) Linux Hard links 
+      4) Linux Soft links 
+      5) Linux Remove link 
+      
+      
+      Shell Commands 
+      
+      
+      Linux Shell Commands 
+      Linux Aliases 
+      Linux Arguments 
+      Linux Displaying Shell 
+      Linux Control Operators 
+      1) Semicolon 
+      2) Ampersand 
+      3) Dollar Question Mark 
+      4) Double Ampersand 
+      5) Double Vertical Bar 
+      6) Combining && and || 
+      7) Pound Sign 
+      8) ESC 
+      Linux File Globbing 
+      Linux Shell Embedding 
+      Linux Shell History 
+      Linux history Command 
+      Linux History Commands 
+      Linux Histroy Size 
+      Linux Bang Bang 
+      
+      
+      Linux Networking 
+      
+      
+      Linux Networking 
+      1) Linux ifconfig 
+      2) Linux ip 
+      Linux telnet Command 
+      SSH Linux 
+      Linux mail Command 
+      3) Linux traceroute 
+      4) Linux tracepath 
+      5) Linux ping 
+      6) Linux netstat 
+      7) Linux ss 
+      8) Linux dig 
+      9) Linux nslookup 
+      10) Linux route 
+      11) Linux host 
+      12) Linux arp 
+      13) Linux iwconfig 
+      14) Linux hostname 
+      15) Linux curl & wget 
+      Linux Curl Command 
+      16) Linux mtr 
+      17) Linux whois 
+      18) Linux ifplugstatus 
+      
+      
+      Linux Misc 
+      
+      
+      chkconfig command in Linux 
+      How to change user password in Linux 
+      Awk Command Usage 
+      How to unzip files in Linux 
+      Linux chroot Command 
+      Linux Watch Command 
+      Ubuntu Vs. Kali Linux 
+      Clear cache Linux 
+      7 QC Tools 
+      Linux Process Memory Usage 
+      Linux Tree Command 
+      Wine Linux 
+      Linux Commands to Check Disk Space 
+      Manjaro Vs. Ubuntu 
+      Architecture of Linux 
+      Linux Lite 
+      Linux Shell 
+      Linux Meaning 
+      Linux Foundation 
+      Linux List Directories 
+      Linux Shortcuts 
+      Best Linux Distro 
+      Who command in Linux 
+      Linux Server 
+      Debian vs Ubuntu 
+      Types of Files in Unix 
+      Linux Daemon 
+      Linux Zip Command 
+      CPU Utilization in Linux 
+      Linux Terminal 
+      Linux sudo 
+      Basic Linux Commands 
+      How to Check RAM in Linux 
+      Linux List Users 
+      Kill command 
+      Tar command 
+      Linux Find File 
+      Echo command 
+      Linux Change or set Password 
+      SSH Command 
+      What is sshd in Linux 
+      Linux Screen Command 
+      Linux Check Disk Space 
+      Run command in Linux 
+      Linux Memory Management 
+      Linux Reboot Command 
+      How to Inspect the Memory in Linux 
+      Ubuntu GNOME 
+      How to check open ports in Linux 
+      Linux vs Ubuntu 
+      Ping command in Linux 
+      Linux Source Command 
+      Linux Terminal Shortcuts 
+      Find IP Address in Linux 
+      Linux date Command 
+      Linux hosts (file) 
+      UNIX operating system 
+      Linux dpkg command 
+      Latest Kernel Linux Version 
+      Linux Package Manager 
+      Linux proc 
+      Linux Task Manager 
+      Linux Signals 
+      Parrot OS vs. Kali Linux 
+      Ubuntu Features 
+      Linux ISO 
+      Putty Command in Linux 
+      Check OS Version in Linux 
+      Linux Change Timezone 
+      Linux Load Average 
+      Linux Firewall 
+      RPM Command in Linux 
+      Cron Command 
+      Linux Change Hostname 
+      Ubuntu Disable Firewall 
+      Latest Release of Ubuntu 
+      Ubuntu Logo 
+      Ubuntu MATE 
+      Ubuntu Nvidia Drivers 
+      Zoom Ubuntu 
+      Install tar.gz Ubuntu 
+      Ubuntu Screen Recorder 
+      Ubuntu Server 
+      Ubuntu Wallpaper 
+      xVideoServiceThief Ubuntu Linux Free 
+      Restart Apache Ubuntu 
+      Ubuntu 20.04 LTS 
+      Ubuntu Bootable USB 
+      Ubuntu Desktop 
+      Ubuntu Font 
+      X videoservicethief Ubuntu 18 command 
+      Ubuntu Games 
+      Ubuntu Update Command 
+      Ubuntu LTS 
+      vscode for Ubuntu 
+      Android Studio Ubuntu 
+      AnyDesk Ubuntu 
+      Ask Ubuntu 
+      Boot Repair Ubuntu 
+      Install AWS CLI Ubuntu 
+      Install NVM Ubuntu 
+      Install JDK Ubuntu 
+      Install RVM Ubuntu 
+      Install Skype Ubuntu 
+      Ubuntu Budgie 
+      
+      
+      Linux Editors 
+      
+      
+      Linux Text Editors 
+      
+      
+      Linux vi Editor 
+      
+      
+      Vi Editor 
+      1) switch 
+      2) move 
+      3) jump 
+      4) delete 
+      5) undo and repeat 
+      6) cut, copy, paste 
+      7) cut, copy, paste blocks 
+      8) Start and end 
+      9) Joining 
+      10) word 
+      11) Search 
+      12) Replace all 
+      13) Text Buffers 
+      14) Abbreviations 
+      
+      
+      Linux System Admin 
+      
+      
+      Linux Admin Commands 
+      Linux uptime 
+      Linux service 
+       Linux pmap 
+       Linux wget command 
+      Linux ftp or sftp 
+      Linux free Command 
+      Linux top 
+      Linux last 
+      Linux ps 
+      Linux shutdown 
+      Linux info 
+      Linux env 
+      Linux du 
+      Linux init 
+      Linux Nano Editor 
+       Linux shred 
+      Linux mount 
+      Linux route 
+      
+      
+      Linux Man Pages 
+      
+      
+      Linux man 
+      Linux man -a 
+      Linux man -aw 
+      Linux man -f 
+      Linux man -k(apropos) 
+      Linux man whereis 
+      Whatis command in Linux 
+      
+      
+      Error Codes 
+      
+      
+      Linux Error Codes 
+      
+      
+      Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            AnyDesk Ubuntu What is AnyDesk? Anydesk can be described as a remote desktop application that is shared by anydesk software GmbH. The software program facilitates remote access to the platform-independent to PCs and various other devices executing the host application. Because the program is employed with internet scammers often for taking control of the victim's computer on the internet. It facilitates VPN, file transfer, and remote control functionalities. AnyDesk offers strong Linux-based connectivity for seamless and smooth remote access to all the computers. Whether as a professional or an individual organization giving remote support to users. AnyDesk is developed for strong remote connectivity and easy operation. For Linux desktops, AnyDesk remote control insurance uninterrupted connections to the Linux-based OS. The solution of AnyDesk for the remote access of Linux is created for constant operation and permits us for accessing remote desktops within Linux using Mac, Windows, and various other Linux-based operating systems which is ideal for the uses of Ubuntu. We can enjoy user-friendly and simple administration tools and the setup of any desk. 
+            
+            Probably, AnyDesk is the cross-platform and fastest connection tool of the remote desktop for sharing our desktop with. 
+            It is the same as TeamViewer and could be used for remotely connecting to Windows, Linux, and Mac systems to facilitate collaboration or support. 
+            It is one of the best tools for tech support users and specialists who wish to give remote assistance at the time of enjoying a high-quality and secure experience. 
+            Also, it can be used for collaboration and meetings like Webex and many other sharing tools of the desktop. 
+            AnyDesk works for the distribution of Linux not just Ubuntu but it is also available for Fedora, Linux Mint, etc. 
+            It permits us to easily access and connect to our remote devices. 
+            We will also be able to access Android, iOS, Windows and perhaps our MacOS device at work, home, or school. 
+            AnyDesk was developed with the ground up towards groundbreaking. 
+            The core of AnyDesk is DeskRT which is a fresh Video codec specially developed for GUI. 
+            AnyDesk is one of the fastest software of the remote desktop in the market. 
+            It permits fresh usage applications and scenarios that haven't been possible using the latest software of the remote desktop. 
+            Specifications of AnyDesk  Framerate AnyDesk can transfer 60 frames/second on local networks or various internet connections. It is much more as compared to the other applications of the remote desktop and enables on-screen movement as conveniently as possible because most personal computer displays also work at 60 frames/second. AnyDesk enables jerk-free implementation possible. Latency On the lowest level, the latency is critical to work over a remote desktop. The less the latency, the faster the remote PC will respond to our input. It's essential that AnyDesk includes as little as possible into the bill because the internet connections are always imposing a latency at the time of transferring data using one system to the other. Access We don't need to remember tedious firewall configurations and low reliability. We can use our PC without any headaches from anywhere. We would not even see that AnyDesk is there whether for five hours or five minutes. Our personalized AnyDesk-ID can be the key to our desktop along with all our applications, files, documents, and photos. Also, our data will stay where it resides. No Lags AnyDesk applies the concept of DeskRT to facilitate a better responsiveness and image quality than competing remote and screen-sharing desktop products. DeskRT is an innovative and new video codec that is specially developed for the image material transmission from graphical user interfaces. The connections of AnyDesk are being moved on Erlang-based servers. Widely, this technology is used in robust and large telecommunication systems. The reliability of this technology ensures that our product exists whenever we need it. Lightweight Every user will like the way where AnyDesk sets unique standards in the field of portability who don't like bloated software. The team of AnyDesk managed for packing each of these features into a small file of only one megabyte. AnyDesk can convert any desktop into our desktop in a few seconds and no installation or administrative privileges are required. Features of AnyDesk in Ubuntu  
+            
+             Performance 
+              
+               Low latency When working over a remote desktop, responses (near-instant) are mandatory. That's why the latency of AnyDesk lies under 16 MS over many local networks and is hence not perceptible.  
+               High frame rates We can enjoy an on-screen and fluent experience along with 60 frames per second over many local networks and almost all internet connections.  
+               Efficient use of bandwidth AnyDesk smoothly performs several tasks even with as low as 100 KB/second bandwidth. AnyDesk is a software of remote desktop of selection for areas along with low internet connectivity.  
+               Quick start We can get begin with AnyDesk with no administrative privileges, installation, or registration needed. We can simply download and launch the software and we are good to go.  
+               Highly productive technology DeskRT can be described as a productive codec that is created by us. It can form the AnyDesk foundation. It can compress and transfer the image data among computers in a style that no competing commodity can do.  
+               Fail-safe Erlang network Almost all of our servers apply the technology of erlang telecommunication. It means high availability, low latency, and uptime guaranteed.  
+               Demanding applications AnyDesk is undaunted by many data-intensive applications like video editing or CAD with its admirable bandwidth efficiency.  
+               Real-time collaboration Whether we are holding online presentations and meetings or working on a similar document from the world's side, we can communicate and collaborate with ease.  
+               
+             Security 
+              
+               Use own network Setting up our enterprise network is convenient with AnyDesk. It permits us for operating independently and without access to the internet because no communication to any server is needed.  
+               Access restrictions Control gains access to our computer by whitelisting reliable desks. It ensures that only authorized users can do so can claim a connection.  
+               Verified connections Anydesk uses RSA 2048 encryption of asymmetric key exchange for verifying all connections.  
+               Encryption technology The technology of banking-standard TLS 1.2 protects our system from unauthorized access.  
+               
+             Flexibility 
+              
+               Remote printing With AnyDesk, remote printing brings faster speed and is easy to teams without the requirement for complicated networked machines.  
+               File transfer Simply, we can copy and paste or apply a new transfer tab for transferring files between systems.  
+               International AnyDesk can support international keyboards and it is available in 28+ languages which are perfect for individuals and teams around the world.  
+               Lightweight Even when we are on the go, downloading AnyDesk is quite simple. Considerably, AnyDesk is lighter as compared to the competition at just 3 megabytes.  
+               Maximum compatibility AnyDesk does not only run on the current version of our operating system. It runs as smoothly on previous versions like Windows 7 because it does over state-of-the-art computer software.  
+               Multi-Platform Support Execute AnyDesk on our selected platform, be it Android, iOS, FreeBSD, Mac OS, Windows, or Linux. Also, we can use the applications of mobile at no extra charges.  
+               Use from anywhere We can access our system from our nearest meeting room, our home office, or our desk each with ease. We are all just required to set a password.  
+               
+             Administration 
+              
+               Automated roll out For automatically rolling AnyDesk out on more than one system and configure each as required, we can use a package of MSI. Also, we can use the interface of the command line for scripting our installation.  
+               Remote reboot AnyDesk does not let any task stand in our way. It is not only rebooting at the time of a session possible but it is very straightforward as well.  
+               Customization Swapping out the ID of AnyDesk for a personalized username and include a logo for bringing the software of our remote desktop in line along with our brand identity.  
+               Detailed session reporting It is straightforward and gives accurate information of billing using auto invoicing by integration and REST API with many solutions of IT service management such as TANSS or Remote Desktop Manager.  
+               Online administration panel Access session logs, settings, and licenses easily. AnyDesk includes automated invoicing options and export options.  
+               Manage contacts It can keep track of our connections and contacts with the Address Book (built-in) and check who is online without the need to connect.  
+               
+            Company The software GmbH of AnyDesk was detected in Germany (Stuttgart) in 2014 and has gone popular along with many sub-diaries in the China and US. Anydesk, in 2018 May, secured 6.5 million funding Euros in a 'Series A' which is round led via EQT Ventures. In January 2020 another investment round brings AnyDesk towards 20+ million dollars of funding. Abuses of AnyDesk Optionally, AnyDesk can be installed on smartphones and computers with complete administrative permissions if any user selects to do so. Therefore, it should be used using caution because it may result in the remote complete access to any device by the internet like every application of the remote desktop.  
+            
+             Fraud of mobile access RBI warned of an emerging fraud of digital banking in February 2019, mentioning explicitly AnyDesk as an attack channel. The normal scam process is below: fraudsters will get victims for downloading AnyDesk software on the mobile phone using the Google Play Store, by usually mimicking the legitimate company customer service. After that, the scammers will convince those victims for providing the access code of nine-digit and for granting several permissions. Usually, the scammers send money with the help of the Indian Unified Payment Interface after several permissions are granted and when no other measures of security are in position. The same scam has taken place according to the Kashmir Cyber police in 2020.  
+             Bundling using ransomware Trend Micro (a Japanese cyber security firm) discovered in 2018 May that many cybercriminals wrapped a new variant of ransomware using AnyDesk, as a masking of evasion tactic the actual purpose of ransomware at the time of it performs the routine of encryption.  
+             Technical support scams Several scammers have been familiar with using AnyDesk and the same software of the remote desktop for obtaining complete access to the computer of the victim by impersonating the technical support person. Then, the victim is prompted for downloading and installing AnyDesk and providing the attackers with full access. The attackers could control the system and move sensitive data and personal files if access is obtained.  
+            Why do we need AnyDesk? There are several reasons where we need AnyDesk. Some of the reasons are mentioned below: 
+            
+            Individual host-server 
+            Two-Factor-Authentication 
+            Session protocol 
+            Custom-Clients 
+            REST-API 
+            Chat-Function 
+            Auto-Discovery (local network analysis automatically) 
+            Whiteboard 
+            Unattended access 
+            VPN 
+            Remote Print 
+            File manager and transfer 
+            Remote access for more than one platform (Android, iOS, macOS, Linux, Windows, etc.) 
+            Installing AnyDesk in Ubuntu 1. First step: Update Ubuntu system First of all, we need to update our system to ensure that our system is updated. We need to enter the following command to update our system: 
+           
+            
+$ sudo apt update
+
+              
+           
+            
+$ sudo apt -y upgrade
+
+              2. Second step: Add the repository of AnyDesk We can download the Debian file of AnyDesk directly using the official download page. Also, we can alternatively install AnyDesk using the PPA offers by the official group. We will add a repository key to the list of trusted software providers and after that add PPA to our computer. To do so, we need to enter the following command: 
+           
+            
+wget https://keys.anydesk.com/repos/DEB-GPG-KEY 
+
+             
+           
+            
+$ sudo apt-key add DEB-GPG-KEY
+
+              Then, we need to add the repository of AnyDesk which is content to our Ubuntu system: 
+           
+            
+$ sudo echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+
+              3. Third step: Installing AnyDesk in Ubuntu Finally, we will update the apt cache and then install the current version of AnyDesk in Ubuntu. We need to enter the following command: 
+           
+            
+$ sudo apt update
+
+              
+           
+            
+$ sudo apt install anydesk
+
+              4. Fourth step: Launch AnyDesk in Ubuntu We need to use a launcher, i.e., Desktop Applications after the installation process for starting AnyDesk in Ubuntu. Enter the following command: 
+           
+            
+$ anydesk
+
+              
+            
+            
+            Next Topic
+            Ask Ubuntu 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

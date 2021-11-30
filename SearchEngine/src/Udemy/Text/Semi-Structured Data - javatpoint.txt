@@ -1,0 +1,776 @@
+
+
+ 
+  
+  Semi-Structured Data - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Data Structure 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      DS Tutorial 
+      
+      
+      DS Tutorial 
+      DS Introduction 
+      DS Algorithm 
+      Asymptotic Analysis 
+      DS Pointer 
+      DS Structure 
+      
+      
+      DS Array 
+      
+      
+      DS Array 
+      2D Array 
+      
+      
+      DS Linked List 
+      
+      
+      Linked List 
+      Types of Linked List 
+      Singly Linked List 
+      Doubly Linked List 
+      Circular Linked List 
+      Circular Doubly List 
+      Skip list in DS 
+      
+      
+      DS Stack 
+      
+      
+      DS Stack 
+      Array Implementation 
+      Linked List Implementation 
+      
+      
+      DS Queue 
+      
+      
+      DS Queue 
+      Types of Queues 
+      Array Representation 
+      Linked List Representation 
+      Circular Queue 
+      Deque 
+      Priority Queue 
+      
+      
+      DS Tree 
+      
+      
+      DS Tree 
+      Binary Tree 
+      Binary Search Tree 
+      AVL Tree 
+      B Tree 
+      B+ Tree 
+      
+      
+      DS Graph 
+      
+      
+      DS Graph 
+      Graph Implementation 
+      BFS Algorithm 
+      DFS Algorithm 
+      Spanning Tree 
+      
+      
+      DS Searching 
+      
+      
+      Linear Search 
+      Binary Search 
+      
+      
+      DS Sorting 
+      
+      
+      Bubble Sort 
+      Bucket Sort 
+      Comb Sort 
+      Counting Sort 
+      Heap Sort 
+      Insertion Sort 
+      Merge Sort 
+      Quick Sort 
+      Radix Sort 
+      Selection Sort 
+      Shell Sort 
+      Bitonic Sort 
+      Cocktail Sort 
+      Cycle Sort 
+      Tim Sort 
+      
+      
+      Differences 
+      
+      
+      Linear vs non-linear 
+      Array vs linked list 
+      Stack vs queue 
+      Linear vs Circular Queue 
+      Linear Search vs Binary Search 
+      Singly Linked List vs Doubly Linked List 
+      Binary vs Binary Search Tree 
+      Tree vs Graph 
+      Binary Search tree vs AVL tree 
+      Red Black Tree vs AVL tree 
+      B tree vs B+ tree 
+      Quick Sort vs Merge Sort 
+      BFS vs DFS 
+      Stack vs Heap 
+      Bubble sort vs. Selection sort 
+      Stack vs Array 
+      Full Binary Tree vs Complete Binary Tree 
+      Binary Tree vs B Tree 
+      Primitive vs non-primitive data structure 
+      Data types vs data structure 
+      
+      
+      Misc 
+      
+      
+      Trie Data Structure 
+      Heap Data Structure 
+      Splay Tree 
+      Fundamental of the DS 
+      Hash Table 
+      Preorder Traversal 
+      Tree Traversal 
+      Implementation of Queue using Stacks 
+      Implementation of Stack using Queue 
+      Binomial Heap 
+      Postorder Traversal 
+      Sparse Matrix 
+      Detect loop in a Linked list 
+      Inorder Traversal 
+      Convert Infix to Postfix notation 
+      Convert infix to prefix notation 
+      Conversion of Prefix to Postfix expression 
+      Conversion of Postfix to Prefix expression 
+      Remove the loop in a Linked List 
+      Implement two stacks in an array 
+      Reverse a stack using recursion 
+      Detect cycle in a directed graph 
+      Optimal Binary Search Tree 
+      Priority Queue using Linked list 
+      Balanced Binary Search Tree 
+      Boundary Traversal of Binary tree 
+      Diagonal Traversal of Binary Tree 
+      Vertical Traversal of a Binary tree 
+      Graph Algorithms 
+      Time Complexity of Sorting Algorithms 
+      Applications of Stack in Data Structure 
+      Dictionary Data Structure 
+      Structured Data and Unstructured Data 
+      List Data Structure 
+      Types of Tree in Data Structure 
+      Abstract data type in data structure 
+      Disjoint set data structure 
+      Dynamic Data Structure 
+      Hash Function in Data Structure 
+      Complete Binary Tree 
+      Threaded Binary Tree 
+      Diameter of Binary Tree 
+      Height of Binary Tree 
+      Inorder Tree Traversal without Stack 
+      Enumeration of Binary Trees 
+      Maximum Width of a Binary Tree 
+      Types of Graph in Data Structure 
+      Primitive Data Type 
+      Semi-Structured Data 
+      Advance Data Structures 
+      Sort an Array of 0's, 1's, and 2's 
+      Stock Span Problem 
+      Implementation of Deque by Circular Array 
+      Rotate Operation in Linked List 
+      
+      
+      DS MCQ 
+      
+      
+      Data Structure MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Semi-Structured Data Data can be defined as the information converted into a very economical form for translation or processing. Data, including video, images, sounds, and text, is represented as binary values that mean 0 or 1. Using these two numbers, patterns are generated to store different types of data. The smallest unit of data in a computer system is a bit, and a single value is represented using a bit. A byte is eight binary digits long. Data can be defined as information converted into binary digital form in today's computers and transmission media. With the increase in the number of computer users, the amount of data generated also increased significantly within the last decade. So a new term is coined for such a huge volume of data that is generating at a rapid speed. It is called big data. It is not only the volume of the data that has increased over time. Along with the volume, the variety of the data getting generated is increasing rapidly. So it becomes very important to classify the types of data that is getting generated. In this era of the internet, a vast amount of data is generated. This data can be text, images, videos, documents, pdf files, videos, log files, and many more. Now, let us classify this vast amount of data in broadly following categories. These categories are: 
+            
+             Structured Data Structured data differentiates from semi-structured data. It is information that has been specifically designed to be easily searchable, and it is quantitative and highly organized. It is typically stored in relational databases (RDBMS) and is frequently written in structured query language (SQL), a standard language developed by IBM in the 1970s for communicating with databases. Humans or machines can enter structured data, but it should adhere to a rigid framework with predefined organizational properties. Consider a hotel database that can be searched by guest name, phone number, room number, and other criteria. Or Excel files with data neatly organized into rows and columns.  
+             Semi-structured Data Semi-structured data is a type of structured data that does not hold to the tabular structure of data models associated with relational databases or other types of data tables but still includes tags or other markers to separate semantic elements and enforce hierarchies of records and fields within the data. As a result, it is also referred to as a self-describing structure. In semi-structured data, entities of the same class may have different characteristics despite being grouped next to each other, and the order of the attributes is unimportant. Since the rise of the internet, semi-structured data have become more common, as full-text documents and databases are no longer the only types of data. Various applications require a medium for information exchange, and Semi-structured data is common in object-oriented databases. For example, Emails are semi-structured by Sender, Recipient, Subject, Date, and so on, or are automatically classified into folders such as Inbox, Spam, Promotions, and so on, using machine learning. Semi-structured data is a hybrid of Pictures and videos. For example, it may comprise Meta tags relating to the location, date, or person who took them, but the information is contained within them has no structure. Consider social media platforms such as Facebook, which organizes information by Users, Friends, Groups, Marketplace, and so on, but the comments and text within these classifications are unorganized. Semi-structured data is easier to analyze than structured data because it has a marginally greater level of organization. Still, it must also be broken down with machine learning tools before it can be analyzed without human intervention. It also includes quantitative data, which, like entirely unstructured data, can also provide much more useful insights.  
+             Unstructured Data There is also unstructured data, which is typically open text, images, videos, and other media with no predetermined organization or design. Consider online reviews, documents, and other sources of qualitative data on opinions and feelings. This data is more difficult to analyze, but it can be structured to extract insights using machine learning techniques, though it must first be structured so that machines can analyze it.  
+            Examples of Semi-Structured Data Semi-structured data comes in a multitude of formats, each with its own set of applications. Some are hardly structured at all, while others have a quite sophisticated hierarchical structure. 
+            
+             CSV The three main languages used to interact or transfer data from a web server to a client are CSV, XML, and JSON (i.e., computer, Smartphone, etc.). CSV stands for "comma separated values", and data are expressed as Lucy, Jessica, and Anthony. It can be expressed in the same way as Excel files but with only one column.  
+             Email Email is arguably the most common type of semi-structured data since we all have it on a routine basis. Email messages comprise structured data such as name, email address, recipient, date, time, and so on, and are also organized into folders such as Inbox, Sent, Trash, and so on. Even if most email software packages allow you to find by keyword or other text, the data inside every email is unstructured. Emails can provide a plethora of data mining opportunities for enterprises to analyze customer feedback, ensure customer service is operational, and assist in creating marketing materials.  
+             HTML HTML or "Hyper Text Markup Language" is a hierarchical language, and it is similar to XML but unlike XML. HTML is used to create websites and visualize information. The commentaries used to display text and images on a computer screen provide the semi-structure of HTML, but the text and images themselves are unstructured.  
+             Web Pages Web pages are designed to be easily accessible with tabs like Home, About Us, Blog, Contact, and so on, or links to other pages within the text, to help users find the information they need. Of course, this is all authored in HTML, but we don't see that on the computer monitor. And the text and data on each of these pages are unstructured.  
+             NoSQL Databases Non-relational databases are commonly referred to as NoSQL ("not only structured query language" or "non SQL") databases, with the most common types being document, key-value, wide-column, and graph. They are versatile data storage devices because they can store both structured and unstructured data. And are ideal for semi-structured data because they scale easily. A single added layer of structure (subject, value, data type, etc.) can make unstructured data easier to search and process.  
+             Electronic Data Interchange (EDI) EDI is the electronic computer-to-computer transmission of business documents such as purchase orders, invoices, and inventory documents previously transmitted on paper. Because EDI uses many standard formats, including ANSI, EDIFACT, TRADACOMS, and ebXML, businesses must use the same format when communicating via EDI. EDI enables much faster and less expensive document transmission. Although each format is intended to be easily processed and understood by machines, the data contained within each transmission is unstructured.  
+            Analyze Semi-Structured Data Interacting with semi-structured data is less difficult than dealing with unstructured data, but it still creates challenges. Text analysis designs can now instantaneously break down and analyze semi-structured and unstructured text data for powerful insights, thanks to AI-guided machine learning technology. Advantages & Disadvantages of Semi-Structured Data Semi-structured data has the following advantages and disadvantages, such as: 
+            
+            Semi-structured data is indeed not limited to a single architecture. So, for instance, a NoSQL database could even hold any format of data and can be easily scaled to store massive amounts of data. The downside is that this makes analyzing the data much more difficult. It must be manually processed (which takes hundreds of human hours) or first structured into a format that computers can comprehend. 
+            Semi-structured data is far more storable and mobile than entirely unstructured data, but the storage cost is typically much higher than structured data. 
+            Semi-structured data is versatile in that it allows you to start changing the schema. Still, the schema and data are frequently too tightly linked, so when conducting queries, you primarily have to know already what data you're looking for. 
+            
+            
+            
+            Next Topic
+            Advance Data Structures 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

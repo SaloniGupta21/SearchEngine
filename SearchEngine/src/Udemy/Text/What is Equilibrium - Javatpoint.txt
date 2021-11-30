@@ -1,0 +1,689 @@
+
+
+ 
+  
+  What is Equilibrium - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Chemistry 
+       Biology 
+       Maths 
+       GK 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Chemistry 
+      
+      
+      What is chemistry 
+      What is Matter 
+      What is Atom 
+      Atomic Number & Atomic Mass 
+      Structure of Atom 
+      Electronic Configuration 
+      What is valency 
+      Electronic Configuration 
+      What is valency 
+      Molecule 
+      Compound 
+      Chemical Bond 
+      Chemical Formula 
+      Mole Concept 
+      Classification of Elements 
+      Periodic Trends in the Periodic table 
+      Isotopes and Isobars 
+      Evaporation 
+      Laws of Chemical Combination 
+      Stoichiometry 
+      Limiting Reagent 
+      Solution 
+      Types of Solutions 
+      Solubility 
+      Concentration of Solutions 
+      Colloidal Solutions 
+      Types of Colloids 
+      Preparation of Colloidal Solutions 
+      Purification of Colloids 
+      Chemical Reaction 
+      Types of Chemical Reactions 
+      Oxidation and Reduction 
+      Oxidizing Agent 
+      Oxidation Number 
+      Chemical Equation 
+      Acids 
+      Bases 
+      Salts 
+      What is pH 
+      Preparation of Sodium Hydroxide 
+      Baking Soda 
+      Bleaching Powder 
+      Plaster of Paris 
+      Washing Soda 
+      Metals and Non-Metals 
+      Reactivity Series 
+      Metallurgy 
+      Corrosion and its Prevention 
+      Carbon Compounds 
+      Types of Solids 
+      Intensive and Extensive Property 
+      First Law of Thermodynamics 
+      State and Path function in Thermodynamics 
+      Second Law of Thermodynamics 
+      What is Equilibrium 
+      Law of Mass Action 
+      Organic Compounds 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            What is Equilibrium Equilibrium generally refers to a state in which the changes in the system and surroundings are not visible. To achieve this state in chemical reactions, the reactants undergo reversible reactions in which their energy keeps decreasing until it reaches a certain state of low energy where rate of forward reaction is equal to the backward reaction. The reactants tend to stay in this state of low energy unless they are disturbed. This state is known as equilibrium.  Let us understand it with the following example; There is a liquid in a closed container. Generally, it seems that the liquid level is constant, but it is not true. The liquid molecules with high kinetic energy keep moving from the liquid's surface into the vapor phase and simultaneously a number of molecules from vapor phase with less kinetic energy keep striking the liquid's surface and enter back into a liquid phase. So, the vapor pressure remains constant as there is an equilibrium between the liquid and vapor phase as the number of molecules leaving the liquid phase are equal to the number of molecules returning to the liquid phase. In other words, the rate of evaporation is equal to the rate of condensation. H2O (l) ? H2O (vap) In the above reaction, the two half arrows show the equilibrium or it indicates that both forward and backward reactions are happening at the same time and rate. This type of equilibrium that exists between different phases is known as physical equilibrium. Similar to physical equilibrium, chemical equilibrium also exists. Let us take an example of a reversible chemical reaction wherein reactants A and B undergo a chemical reaction to give C and D as products. A stage comes where the concentration of products increases and the concentration of reactants decreases. It results in the backward reactions along with the forward reaction. At one stage, the rate of the forward reaction becomes equal to the backward reaction which results in the chemical equilibrium as shown below; A + B ? C + D Some examples of reversible chemical reactions that show equilibrium are given below; 
+            
+            N2 + 3H2 ? 2NH3 
+            2SO2 + O2 ? 2SO3 
+            PCl5 + PCl3 + Cl2 
+            2NO ? N2 + O2 
+            H2 + I2 ? 2HI 
+            As we know in equilibrium, the rate of the forward reaction is equal to the backward reaction. So, if we see the first reaction mentioned above, the rate of formation of NH3 is equal to the decomposition of NH3. So, if we look at the concentration of ammonia, it will remain the same as the rate of its formation is equal to the rate of its decomposition. For example, if the concentration of ammonia is 5gm then after five minutes it will also be 5gm. Similarly, the concentration of the reactants will be the same at this stage. So, the concentration of each reactant and product remains constant at equilibrium. So, this type of equilibrium where reactions are going on but changes in concentration are not visible are called dynamic equilibrium. Characteristics of Chemical Equilibrium 
+            
+            It is dynamic in nature as both forward and backward reactions are going on simultaneously. 
+            It can be achieved from either side, for example, whether ammonia acts as a reactant by breaking down into nitrogen and hydrogen or when nitrogen and hydrogen act as reactants to produce ammonia. 
+            The initial concentration has no effect on relative concentration at equilibrium at a given temperature, for example, if the ratio of the concentration of reactant and product is 1:2 then it will remain 1:2 when you double the concentration of that reactant. 
+            The color of the reaction will remain the same at equilibrium. 
+            The measurable properties like pressure and density remain the same at equilibrium. 
+            It can be achieved only in a closed vessel. In an open vessel, the product in a gaseous phase will escape which will not result in a backward reaction and thus no equilibrium will be achieved. 
+            The equilibrium point can be achieved earlier with the help of a catalyst as it increases both the rate of the forward and backward reaction. 
+            Types of Equilibrium: Based on the rate of reaction 
+            
+            Static equilibrium 
+            Dynamic equilibrium 
+            What is Static Equilibrium? It is a type of equilibrium in which the rate of the forward reaction and backward reaction is zero. It is established when there is no exchange between reactants and products and their particles remain in the rest. The transformation of diamond into graphite is an example of static equilibrium. What is Dynamic Equilibrium? In this type of equilibrium, the rate of the forward reaction is the same as the rate of the backward reaction. A dynamic equilibrium is established after the occurrence of a reversible reaction. So, it is seen in reversible chemical reactions wherein the ratio of reactants and products remains the same. This is because the same amount of reactants are converted to products as the amount of the products are converted to reactants. Besides this, the partial pressure of all the reactants and products also remains the same. Examples of Dynamic Equilibrium 
+            
+            i) A bottle of aerated drink contains a fixed amount of carbon dioxide in the liquid phase. When it is opened, the liquid carbon dioxide starts converting itself into a gaseous phase or gaseous carbon dioxide until an equilibrium is reached. At equilibrium, the rate of conversion of carbon dioxide from a gaseous phase to a liquid phase is equal to its conversion from liquid to the gaseous phase. 
+             The dissociation of acetic acid also results in an acid-base equilibrium in the same phase as shown in the below reaction; CH3COOH ? CH3COO- + H+  
+             The dimerization of nitrogen dioxide also shows equilibrium in the gaseous phase as shown below; 2NO2 ? N2O4  
+            The formation of ammonia by Harber's process, e.g., N2 (g) + 3H2 (g) ? 2NH3 (g) 
+            Difference between Static and Dynamic Equilibrium 
+            
+            
+              
+              Static Equilibrium 
+              Dynamic Equilibrium 
+              
+              
+              No chemical reaction occurs in the system; all particles are at rest or no motion between reactants and products 
+              Forward and backward reactions keep occurring in the system at the same speed 
+              
+              
+              It is irreversible in nature. 
+              It is reversible in nature. 
+              
+              
+              No further chemical reaction takes place in the system. 
+              Reactants and products keep participating in the reaction. 
+              
+              
+              It can take place in both open and closed systems. 
+              It takes place only in closed systems. 
+              
+              
+              It represents the exact situation in the mixture. 
+              It does not represent the exact situation. 
+              
+              
+              It is usually discussed in a mechanical context. 
+              It is often discussed in a chemical context. 
+              
+            
+            Types of Chemical Equilibrium: Based on the physical state of reactants and products i) Homogeneous Chemical Equilibrium In this type of equilibrium, the reactants and products of the chemical reaction are in the same phase. It can be further divided into two types; the first type refers to reactions in which the number of molecules of reactants and products is the same, as shown below; H2 (g) + I2 (g) ? 2HI (g) N2 (g) + O2 (g) ? 2NO (g) The above two reactions show homogeneous equilibrium as all reactants and products are in the same gaseous state. Their molecules are also the same. In the second type of homogeneous equilibrium, the molecules of substances participating in the reaction are not the same as shown below; 2SO2 (g) + O2 (g) ? 2SO3 (g) ii) Heterogeneous Chemical Equilibrium In this type, the reactants and products are not in the same physical state as shown in the below reactions; CO2 (g) + C (s) ? 2 CO (g) CaCO3 (S) ? CaO (s) + CO2 (g) In the first reaction, carbon dioxide is in the gaseous state, carbon is in the solid state. In the second reaction, calcium carbonate and calcium oxide are solids, whereas, carbon dioxide is a gas. 
+            
+            
+            Next Topic
+            Law of Mass Action 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

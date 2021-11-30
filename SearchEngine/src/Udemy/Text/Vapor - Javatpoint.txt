@@ -1,0 +1,603 @@
+
+
+ 
+  
+  Vapor - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Physics 
+       Chemistry 
+       Biology 
+       GK 
+       Maths 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Physics 
+      
+      
+      Vapor 
+      Kirchhoff's law 
+      Quantum Physics 
+      Boiling 
+      Carnot Engine 
+      Unit of Heat 
+      Heat Engine 
+      Blackbody radiation 
+      Dew point 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Vapor The vapor or vapour is a substance present in the gaseous state at a specific temperature. We can convert it into a liquid by increasing the pressure without changing the temperature. Let's discuss how? The atoms of the gases are very loosely packed with large spaces between them. When the pressure is applied to a gas, the atoms are forced to come closer. It results in the change of the state of a substance from gas to liquid. Under the specified set of conditions, the substance in the vapor form can also exist in the liquid form. For example, Water The water in the form of vapor is known as steam, and ice in the form of solid. At very low temperatures, the water converts in the form of ice. After the water has reached its boiling point, it starts converting into steam. We have learned about two terms (condensation and sublimation) related to the states of the matter (solid, liquid, and gas). Let's discuss the relation of thee two terms with the vapor. Condensation Condensation refers to the change in the state of a substance from the gas to the liquid. It is the reverse of the vaporization state, which converts the state of matter from liquid to gas. In terms of vapor, we can say that the change of vapors into the liquid is known as condensation.  The vapors can be converted into liquid in two ways: 
+            
+            If the air containing vapors in cooled 
+            The air becomes saturation, which does not allow it to hold more vapors of water 
+            Let's discuss a practical example of the condensation of vapors, which can be seen in the atmosphere. The warm air from the land rises upwards towards the atmosphere. At a point, it cools and loses its ability to hold the water vapors (gaseous state of the water). The excess water vapors in the atmosphere results condense to form the water droplets. The water droplets combine with the dust and smoke in the air form small cloud droplets. These cloud droplets are created again and again in a similar way. When it is present in large amounts, it combines and forms clouds. The clouds are the form of water present in the atmosphere. When the cloud becomes heavy enough with the water, it starts to fall on the Earth in the form of rain. The evaporation rate and condensation rate of liquids is shown below:  Sublimation Sublimation is defined as the state of transition from the solid to the gas without passing through the state of the liquid. The sublimation occurs at a specific temperature and pressure applied to the solid. The practical example of sublimation is moth balls, which directly gets converted from the solid to the gas. We can easily detect the smell of such balls and the reduction of their size as time passes by.  Properties of vapor The properties of vapor are listed as follows: 
+            
+            Vapor is the gaseous state of a substance. 
+            The substance can also exist in the solid or liquid form at a specific temperature and pressure. 
+            If a vapor phase is in contact with the liquid or solid phase, the two states will be in equilibrium. 
+            It is not necessary for a substance in the solid or liquid form to boil to release the vapors. 
+            According to kinetic theory of gases, a molecule of the vapor can exhibit motions, such as rotational, translational, and vibration. The kinetic theory of gases states that all atoms or molecules of a substance are identical and moving in constant motion. 
+            Water vapors are strong enough to trigger the convection currents and form the clouds. 
+            Vapor pressure The vapor pressure is defined as the equilibrium pressure exerted by the solid or liquid at a specific temperature. It does not depend on the contact of the vapors with the solid or liquid. The vapor pressure can be determined by the type of molecules that constituent a particular solid or liquid. It increases with the rise in temperature. We can also say that the pressure exerted by the vapor present over the surface of a substance is known as vapor pressure. According to the Raoult's of physical chemistry, the partial pressure of a component is defined as the product of the vapor pressure of the pure component and its mole fraction in the mixture. The partial pressure of the gas helps us to determine the amount of vapors present in a substance. Vapor vs. gas The two terms vapor and gas are often confused. Though vapor is the gaseous state of a substance, it is a combination of the gaseous and liquid states in ordinary conditions. The gas is a single-state substance only, and it is not a mixture of any other state. There is no such physical or chemical difference between vapor and gas. The two terms are quite similar. But, in ordinary conditions, it may differ. Vaporization vs. Evaporation Vaporization is defined as the gaseous state of a substance when the vapors are formed during its boiling process. It can also convert all the water into gas. Evaporation is also a type of vaporization, but it occurs below the boiling point of a substance. Examples of vapors Here, we will discuss the most common examples of vapors that can be seen around us in our daily life. The examples are listed as follows:  
+            
+            Perfumes Perfumes are present in the liquid form. The chemicals present in the perfume are vaporized when it is sprinkled. Such chemicals are mixed present in the mixture. The fragrant compounds present in the perfume evaporate to form a vapor. 
+            Flammable liquids Flammable liquids are the liquids that burn when ignited. But, it is not the liquid that burns. It is the vapors that are present over the liquid that burns when ignited. 
+            Fog Fog is formed when the water vapors present in the atmosphere condense to form the water droplets. It appears near the surface of the Earth when the weather is cold. It is also called as the low-lying clouds greater near the water bodies. 
+            Vapor lamps The various types of vapor lamps include sodium vapor lamps, mercury vapor lamps, and metal halide vapor lamps. It has been used in lighting applications since the 1940s. A gas-discharged lamp uses the vaporized material (sodium, mercury, or metal) to produce light. It also uses an arc in a high-pressure tube to generate the bright light used in streets, gyms, etc. 
+            Mountain vapors Mountain vapors are considered one of the most effective methods to help people to quit smoking. It is a type of electronic cigarette. It allows the users to inhale electronic vapors or smoke instead of cigarette smoke. It contains a battery as the power source. The e-vapors contain chemicals, such as nicotine and other toxicants. 
+            
+            
+            
+            Next Topic
+            Kirchhoff's law 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

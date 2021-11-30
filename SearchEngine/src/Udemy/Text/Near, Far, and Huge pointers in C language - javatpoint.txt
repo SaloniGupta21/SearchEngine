@@ -1,0 +1,976 @@
+
+
+ 
+  
+  Near, Far, and Huge pointers in C language - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     C/C++ Training 
+      
+      C Tutorial 
+      
+      
+      What is C Language 
+      History of C  
+      Features of C 
+      How to install C 
+      First C Program 
+      Compilation Process in C 
+      printf scanf 
+      Variables in C 
+      Data Types in c 
+      Keywords in c 
+      C Identifiers 
+      C Operators 
+      C Comments 
+      C Format Specifier 
+      C Escape Sequence 
+      ASCII value in C 
+      Constants in C 
+      Literals in C 
+      Tokens in C 
+      C Boolean 
+      Static in C 
+      Programming Errors in C 
+      Compile time vs Runtime 
+      Conditional Operator in C 
+      Bitwise Operator in C 
+      2s complement in C 
+      C Fundamental Test 
+      
+      
+      C Control Statements 
+      
+      
+      C if-else 
+      C switch 
+      if-else vs switch 
+      C Loops 
+      C do-while loop 
+      C while loop 
+      C for loop 
+      Nested Loops in C 
+      Infinite Loop in C 
+      C break 
+      C continue 
+      C goto 
+      Type Casting 
+      C Control Statement Test 
+      
+      
+      C Functions 
+      
+      
+      What is function 
+      Call: Value & Reference 
+      Recursion in c 
+      Storage Classes 
+      C Functions Test 
+      
+      
+      C Array 
+      
+      
+      1-D Array 
+      2-D Array 
+      Return an Array in C 
+      Array to Function 
+      C Array Test 
+      
+      
+      C Pointers 
+      
+      
+      C Pointers 
+      C Pointer to Pointer 
+      C Pointer Arithmetic 
+      Dangling Pointers in C 
+      sizeof() operator in C 
+      const Pointer in C 
+      void pointer in C 
+      C Dereference Pointer 
+      Null Pointer in C 
+      C Function Pointer 
+      Function pointer as argument in C 
+      C Pointers Test 
+      
+      
+      C Dynamic Memory 
+      
+      
+      Dynamic memory 
+      
+      
+      C Strings 
+      
+      
+      String in C 
+      C gets() & puts() 
+      C String Functions 
+      C strlen() 
+      C strcpy() 
+      C strcat() 
+      C strcmp() 
+      C strrev() 
+      C strlwr() 
+      C strupr() 
+      C strstr() 
+      C String Test 
+      
+      
+      C Math 
+      
+      
+      C Math Functions 
+      
+      
+      C Structure Union 
+      
+      
+      C Structure 
+      typedef in C 
+      C Array of Structures 
+      C Nested Structure 
+      Structure Padding in C 
+      C Union 
+      C Structure Test 
+      
+      
+      C File Handling 
+      
+      
+      C File Handling 
+      C fprintf() fscanf() 
+      C fputc() fgetc() 
+      C fputs() fgets() 
+      C fseek() 
+      C rewind() 
+      C ftell() 
+      
+      
+      C Preprocessor 
+      
+      
+      C Preprocessor 
+      C Macros 
+      C #include 
+      C #define 
+      C #undef 
+      C #ifdef 
+      C #ifndef 
+      C #if 
+      C #else 
+      C #error 
+      C #pragma 
+      C Preprocessor Test 
+      
+      
+      C Command Line 
+      
+      
+      Command Line Arguments 
+      
+      
+      C Misc 
+      
+      
+      C Expressions 
+      Data Segments 
+      Flow of C Program 
+      Classification of Programming Languages 
+      Enum in C 
+      What is getch() in C 
+      What is the function call in C 
+      typedef vs define in C 
+      
+      
+      C Programming Test 
+      
+      
+      C Programming Test 
+      
+      
+      C Programs 
+      
+      
+      Top 10+ C Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      C program to compare the two strings 
+      Strings Concatenation in C 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Count the number of digits in C 
+      Reverse Number 
+      Swap Number 
+      Print "Hello" without ; 
+      Assembly code in C 
+      C program without main 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Hexadecimal to Binary 
+      Hexadecimal to Decimal 
+      Octal to Hexadecimal in C 
+      Strong number in C 
+      Star Program in C 
+      itoa Function in C 
+      Extra Long Factorials in C 
+      Leap year program in C 
+      Perfect Number Program in C 
+      Variables vs Constants 
+      Round Robin Program in C with Output 
+      C Program to find the roots of quadratic equation 
+      Type Casting vs Type Conversion 
+      How to run a C program in Visual Studio Code 
+      Modulus Operator in C/C++ 
+      Sum of first N natural numbers in C 
+      Big O Notation in C 
+      LCM of two numbers in C 
+      while loop vs do-while loop in C 
+      Memory Layout in C 
+      Balanced Parenthesis in C 
+      Binary to Decimal Number in C 
+      GCD of two numbers in C 
+      Getchar() function in C 
+      flowchart in C 
+      Simpson Method 
+      Pyramid Patterns in C 
+      Random Function in C 
+      Floyd's Triangle in C 
+      C Header Files 
+      abs() function in C 
+      Atoi() function in C 
+      Structure Pointer in C 
+      sprintf() in C 
+      Range of Int in C 
+      C Program to convert 24 Hour time to 12 Hour time 
+      What is double in C 
+      What is the main in C 
+      Calculator Program in C 
+      Calloc in C 
+      user-defined vs library function in C 
+      Memset C 
+      ASCII Table in C 
+      Static function in C 
+      Reverse a String in C 
+      Twin Prime Numbers in C 
+      strchr() function in C 
+      Structure of a C program 
+      Power Function in C 
+      Malloc in C 
+      Table Program in C 
+      Types of Recursion in C 
+      Convert Uppercase to Lowercase in C 
+      Unary Operator in C 
+      Arithmetic Operator in C 
+      Ceil Function in C 
+      Relational Operator in C 
+      Assignment Operator in C 
+      Pre-increment and Post-increment Operator in C 
+      Pointer vs array in C 
+      Restrict keyword in C 
+      The exit() function in C 
+      Const Qualifier in C 
+      Sequence Points in C 
+      Anagram in C 
+      Increment and Decrement Operators in C 
+      Logical AND Operator in C 
+      Shift Operators in C 
+      Near, Far, and Huge pointers in C language 
+      Magic Number in C 
+      Remove Duplicate Elements from an Array in C 
+      Generic Linked list in C 
+      isalnum() function in C 
+      isalpha() function in C 
+      Bisection Method in C 
+      snprintf() function in C 
+      
+      
+      MCQ 
+      
+      
+      C language MCQ 
+      C language MCQ Part 2 
+      
+      
+      Math 
+      
+      
+      Prime Numbers List 
+      Composite Numbers List 
+      Square Numbers List 
+      Binary Numbers List 
+      Fibonacci Numbers List 
+      Ounces in a Cup 
+      Ounces in a Pound 
+      Ounces in a Gallon 
+      Ounces in a Liter 
+      Ounces in a Pint 
+      Ounces in a Quart 
+      Ounces in a Tablespoon 
+      
+      
+      C Interview 
+      
+      
+      C Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Near, Far, and Huge pointers in C language In this article, we learn some of the old concepts that were usually used and implemented in the 16 bit Intel architectures in the earlier days of Ms-Dos, but they are not used much nowadays. Still, these concepts are very important because they are like the building block of current technology. However, on the basis of the Memory model and segment, pointers can be classified into three types, which are as follows: 
+            
+            Near pointer 
+            Far pointer 
+            Huge pointer 
+            Near pointer In general, we can consider the near point as it is used to store the address, which has a maximum size of 16 bits only. Using the near pointer, we can not store the address with a size greater than 16 bits. However, we can store all other smaller addresses that are within the 16 bits limit. You may think that the 16 bits are a little small because we can only access 64kb of data at a time. Thus, it is considered one of the major disadvantages of the near pointer, which is why it is no longer commonly used. Lets us see some other important key points that can help us to understand the near pointer. Syntax The syntax is as follows - 
+           
+            
+<data type> near <pointer definition>
+
+            The following statement declares a near pointer for the variable s 
+           
+            
+char near *string;
+
+            Lets us see some important key points that can help us to understand the "Near" pointer. 
+            
+            Near pointer cannot access beyond the data segment like graphics video memory, text video memory, etc. The size of the near pointer is two bytes. With the help of keyword near, we can make any pointer a near pointer. 
+            It is a pointer that works within the range of the 64Kb data segment of memory. 
+            It cannot access addresses beyond the given data segment. 
+            A near pointer can be incremented or decremented in the address range by using an arithmetic operator. 
+            To understand the "Near" pointer in more detail lets us see an example: Example 
+           
+            
+#include<stdio.h>
+
+    int main()
+      {
+          int x=25;
+          int near* ptr;
+          ptr=&x;
+          printf("%d",sizeof ptr);
+          return 0;
+      }
+
+            Output 
+           
+            2
+
+            Far Pointer In general, Far pointer is typically considered as a pointer of 32 bits size. However, it can also access the information stored outside the computer's memory from the current segment. Although to use this type of pointer, we usually need to allocate the sector register to store the data address in the current segment. In addition, we also need to allocate another register to store offset within the current segment. Syntax The syntax is given below: 
+           
+            
+<data type> far <pointer definition>
+
+            The following statements declares a far pointer for the variable s 
+           
+            
+char far *s;
+
+            Lets us see some other important key points that can help us to understand the Far pointer. 
+            
+            When the pointer is incremented or decremented, only the offset part is changed. 
+            It is such a type of pointer that stores both offset and segment address to which the pointer is differencing. 
+            A far pointer address ranges from 0 to 1MB. 
+            It can access all 16 segments. 
+            Example 
+           
+            
+#include<stdio.h>
+int main(){
+   int number=50;
+   int far *p;
+   p=&number;
+   printf("%d",sizeof number);
+   return 0;
+}
+
+            Output 
+           
+            4
+
+            Huge pointers Like the far pointer, the huge pointer also has the same size as 32 bits, but it can even access the bits stored or located outside the segment. However, the far pointer is quite similar to the Huge pointer, but it still has some advantages over the far pointer. For example, the Far Pointer which is fixed; thus, that part of the sector in which they are stored or located can not be changed or modified in any way. However, it is not the case with the Huge pointer because the Huge Pointer has the elasticity which allows it to do that. Lets us see some other important key points that can help us to understand the "Huge" pointer. 
+            
+            A pointer that can point to any segment in the memory is known as a huge pointer. A huge pointer has a size of 4 bytes or 32-bits, and it can access up to 64K size in memory. 
+            The huge pointer can be incremented without suffering with segment work round. 
+            The following-given example shows the usage of the huge pointer. Example: 
+           
+            
+#include<stdio.h> 
+int main()
+{
+char huge * far *p;
+printf("%d %d %d",sizeof(p),sizeof(*p),sizeof(**p));
+return 0;
+}
+
+            Output 
+           
+            4 4 1
+
+            In the given program, p is the huge pointer, *p is the far pointer, and **p is the char type data variable. What is the difference between near, far, and huge pointers? In general, a virtual address is made up of a selector and an offset. A near-pointer does not have an explicit selector, while huge pointers have an explicit selector. When we perform pointer arithmetic on a far pointer, the selector is not modified, but it can be modified in the case of a huge pointer. Note: These are non-standard keywords, also implementation-specific, and are irrelevant in modern platforms. 
+            
+            
+            Next Topic
+            Magic Number in C 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,758 @@
+
+
+ 
+  
+  Bode plot - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Control System 
+       Java 
+       PHP 
+       ASP.NET 
+       ADO.NET 
+       C# 
+       HTML 
+       CSS 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Control Systems 
+      
+      
+      Control System 
+      Basic concepts of control system 
+      Classification of Control system 
+      Requirements of a control system 
+      Mathematical modelling and representation of Physical system 
+      Transfer Function 
+      Block diagram in Control Systems 
+      Signal flow graphs 
+      Mason gain formula 
+      Examples with Explanation 
+      
+      
+      Time Domain Analysis 
+      
+      
+      Time response Analysis 
+      Transient and steady State analysis of Linear Time Invariant Systems 
+      Time Response of first order system 
+      Time Response of second order system 
+      
+      
+      Stability Analysis 
+      
+      
+      Stability conditions 
+      Routh-Hurwitz Stability Criterion 
+      
+      
+      Root Locus 
+      
+      
+      Basic concepts of root locus 
+      Angle and Magnitude condition of root locus 
+      Rules of root locus 
+      Example of root locus 
+      
+      
+      Frequency Response Analysis 
+      
+      
+      Basic concepts of frequency response 
+      Bode plot 
+      Polar plot 
+      Nyquist plot 
+      P, PI and PID Controller 
+      Control system Compensators 
+      
+      
+      State variable analysis 
+      
+      
+      State Space Model 
+      State variable analysis: Examples with explanation 
+      
+      
+      MCQ 
+      
+      
+      Control System MCQ 
+      
+      
+      Interview Questions 
+      
+      
+      Control Systems 
+      Electrical Machines 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Bode plot It is a frequency response plot that contains two graphs, magnitude and phase. The first plot is the magnitude plot of sinusoidal transfer function versus log w, and the other graph represents the phase angle. It can be drawn both for the open-loop and closed-loop system. It is generally drawn for the open-loop system because it conveniently determines the stability and other related parameters. Bode plot helps us determine the system's stability and provides us with a way to improve that stability. The standard representation of the Bode plot of the open-loop system is given by: 20 log|G(j?)| It represents the logarithmic magnitude of the function G(s) or G(j?). Here, the base of logarithmic is 10. The unit represents the magnitude of the logarithmic function G(j?) in decibels or db. The curve is not drawn on a simple graph paper; and instead, it is drawn on the semilog paper that uses the frequency, phase angle, and magnitude for plotting. The log scale or abscissa is used for the frequency, and the linear scale or ordinate for the phase angle and magnitude. The logarithmic function allows the various values in the forms of multiple to be added. For example, Log ab = log a + log b Thus, the bode plot has an advantage of converting the multiplication of magnitudes in addition. For example, Let G(j?) = K/ j? (1 + j?T) The magnitude of G(j?) is K/[ ? (1 + ?2 T2)1/2] The phase angle of G(j?) is -90 - ?tan-1?T The magnitude in the form of decibels can be expressed as: 20 log [K/ ? (1 + ?2 T2)1/2] = 20 log K/ ? + 20 log 1/(1 + ?2 T2)1/2 = 20 log K/ ? - 20 log (1 + ?2 T2)1/2 We have inserted the negative sign due to the inverse of the logarithmic value. It means that log 1/a can be written as log (a)-1, which is equal to -log a. Thus, the above equation depicts that the magnitude when expressed in terms of db. It can easily convert the multiplicative terms to add, meaning that the individual factors of the given transfer function can be added. We will also discuss an example to draw a bode plot later in the topic. Constant gain K in Bode plot The constant gain is represented by K. It is also known as the system gain in case of root locus and transfer functions. Let, G(s) = K G(s) = G(j?) = K The angle assumed for the constant gain is 0 degrees. In terms of decibels, we can represent the system gain as: A = |G(j?)| = 20log K If the value of K is negative, the angle thus will be 180 degrees. At the magnitude of the 20log K, the magnitude of constant gain K will be a horizontal straight line. There are three range of K. 
+            
+            K > 1 
+            K = 1 
+            0 < K < 1 
+            When the value of K is greater than 1, 20log K is positive. When the value of K is 1, 20log K is zero. It is because the value of log 1 is 0. When the value of K is greater than 0 and less than 1, 20log K is negative. Integral factor in Bode plot Both the integral factor and the derivative factor affect the slope of the magnitude curve. Let's first discuss the integral factor in the Bode plot. Let the integral factor be K/ j?. The integral factor is represented by constant gain divided by the s, and it can be of one order or more. G(s) = K/s G(s) = K/ j? Its magnitude and phase angles are K/? and -90 degrees. Its gain in decibels = A = |G(j?)| = 20log (K/?) When ? = 0.1 K, A = 20log (K/0.1K) = 20log (10) = 20 db It is because the value of log 10 is 1. When ? = K, A = 20log (K/K) = 20log (1) = 0 db When ? = 10 K, A = 20log (K/10K) = 20log (10)-1 = -20 db It is because the value of log a-n is -n loga. From the above analysis for different values of ?, we can find the magnitude of the integral factor. It will be a straight line with a slope of -20 db. It will also pass through 0 db, when the value of ? is K. The plot of an integral factor K/ j? is shown below:  Let's consider another example of an integral factor in the multiples of n. It is given by:  G(s) = K/sn G(s) = K/ j?n Its magnitude and phase angle are K/?n and -90n degrees. Its gain in decibels = A = |G(j?)| = 20log (K/?n) The plot of an integral factor in the multiples of n is shown below:  Derivative factor in the Bode plot The derivative factor consists of the terms containing s in the numerator itself. Let's consider a derivative factor represented by K j?. G(s) = Ks = K j? Its magnitude and phase angles are K? and 90 degrees. It is because the term j? is in the numerator. Thus, the angle will be in positive degrees. Its gain in decibels = A = |G(j?)| = 20log (K?) When ? = 0.1/K, A = 20log (K x 0.1/K) = 20log (0.1) = 20log (10)-1 = -20 db It is because the value of log a-n is -n loga. When ? = 1/K, A = 20log (K/K) = 20log (1) = 0 db When ? = 10/ K, A = 20log (K x 10/ K) = 20log (10) = 20 db The plot of the above derivative factor is shown below:  It is because the value of log 10 is 1. From the above analysis for different values of ?, we can find the magnitude of the derivative factor. It will be a straight line with a slope of +20 db. It will also pass through 0 db, when the value of ? is 1/K. Let's consider another example of a derivative factor in the multiples of n. It is given by:  G(s) = Ksn G(s) = Kj?n Its magnitude and phase angle are K?n and 90n degrees. Its gain in decibels = A = |G(j?)| = 20log (K?n) Let's discuss the first order factors in numerator and denominator of the transfer function. First order factor in the numerator The first order factor in the numerator or a derivative factor is given by: G(s) = 1 + sT G(j?) = 1 + j?T |G(j?)| = (1 + ?2 T2)1/2 Angle = ?tan-1?T The gain in decibels is given by: A =20 log (1 + ?2 T2)1/2 The value of gain at very low frequencies (<<1) will be equal to 20 log 1 = 0 dB. The value of gain at high frequencies (>>1) will be equal to 20 log ?T. The Bode plot for the first order function given above is shown below:  We have approximated the magnitude of the plot in two straight lines. The first line is a straight horizontal line with very low frequencies (0 db), while the other slanting slope refers to the high frequencies (20 log ?T). It would have a slope of +20db. The two straight lines are the asymptotes of the exact curve. The frequency at which these two asymptotes meet is known as the corner frequency, and it is also known as break frequency. For the above-given function, the corner frequency will arise when ? = 1/T. The phase angle will vary from 0 degrees to 90 degrees with frequency variation between zero and infinity. The magnitude approximated at the corner frequency is around + 3dB, and it is generally considered the loss in db at this corner frequency. First order factor in the denominator The first order factor in the denominator or an integral factor is given by: G(s) = 1/1 + sT G(j?) =1/ 1 + j?T |G(j?)| =1/ (1 + ?2 T2)1/2 Angle = ?-tan-1?T The gain in decibels is given by: A =20 log 1/(1 + ?2 T2)1/2 A =20 log (1 + ?2 T2)-1/2 A =-20 log (1 + ?2 T2)1/2 It is because the value of log a-n is -n loga. The value of gain at very low frequencies (<<1) will be equal to -20 log 1 = 0 dB. The value of gain at high frequencies (>>1) will be equal to -20 log ?T. The Bode plot for the first order function given above is shown below:  We have approximated the magnitude of the plot in two straight lines. The first line is a straight horizontal line with the very low frequencies (0 db), while the other slanting slope refers to the high frequencies (-20 log T). It would have a slope of -20db. Note: The derivative factor in the transfer function generally represents to the positive slope, while the integral factor represents the negative slope in the bode plot. The two straight lines are the asymptotes of the exact curve. For the above-given function, the corner frequency will arise when ? = 1/T. The corner frequency divides the curve of the Bode plot into two regions, i.e., low frequency and high frequency. The phase angle will vary from 0 degrees to -90 degrees with frequency variation between zero and infinity. The magnitude approximated at the corner frequency is around - 3dB, and it is generally considered the loss in db at this corner frequency. Note: The two curves in the Bode plot is the magnitude curve and the phase angle curve. The first curve that represents the value in decibels represents the magnitude curve, while the second curve represents the phase angle curve. Quadratic factor in the denominator It is the essential part of the Bode plot to understand. It means the factor in the denominator in present in the form of quadratic equation. Let's consider a quadratic equation, which is given by: G(s) = ?n2/(s2 + 2a ?ns + ?n2) Where, a is the damping ratio ?n is the natural frequency We can write the above transfer function as: G(s) = 1/ (1 + 2as/ ?n + (s/ ?n)2 Put, s = j? G(j?) = 1/ (1 + 2a j?/ ?n + (j? / ?n)2 G(j?) = 1/(1 - (? / ?n)2 + j2a ?/ ?n The magnitude is given by: |G(j?) |= 1/[(1 - (? / ?n)4) + 4a2 ?2/ ?n2]1/2 The phase angle is given by: Angle G(j?) = tan-1[(2a j?/?n)/(1 - (? / ?n)2) Let's find the gain of the above transfer function in decibels. A = 20log G(j?) A = 20 log 1/[(1 - (? / ?n)4 )+ 4a2 ?2/ ?n2]1/2 The factor G(j?) is present in the denominator. To bring it in numerator, we will insert a negative sign. It is because log (1/a) is equal to -log a. So, the gain will be: A = -20 log [(1 - (? / ?n)4 )+ 4a2 ?2/ ?n2]1/2 Let's find the value of gain at different frequencies. The value of gain at very low frequencies (?<< ?n) is equal to: A = -20 log [(1 - (?2 / ?n2(2 - 4a2)+ ?4/ ?n4]1/2 A = -20 log 1 = 0 The value of gain at very high frequencies (?>> ?n) is equal to: A = -20 log [(1 - (?2 / ?n2(2 - 4a2)+ ?4/ ?n4]1/2 A = -20 log [?4/ ?n4]1/2 A = -20 log ?2 / ?n2 A = -20 log [?/ ?n]2 We know that log a2 = 2 log a A = -20 x 2log [?/ ?n] A = -40 log [?/ ?n] At, ?= ?n A = -40 log 1 = 0 db At, ?= 100?n A = -40 log 100 A = -40 log 102 A = -40 x 2 log 10 A = -80 log 10 = -80 db At, ?= 10?n A = -40 log 10 = -40 Thus we can conclude that the magnitude plot of the quadratic factor can be approximated by two straight lines with a scale of 0 db and -40 db. Let' find the value of angle G(j?) at different values of frequency. Angle G(j?) = tan-1[(2a j?/?n)/(1 - (? / ?n)2) At, ? = ?n Angle G(j?) = tan-1(2a/0) = -90 degrees. It is because the value of tan-1(infinity) is -90 degrees. At ? = 0, the value of angle is 0 At ? = infinity, the value of angle tends to -180 degrees. The plot of the quadratic factor is denominator is shown below:  The two curves are independent of the damping ratio a. The height of the resonant peak is inversely proportional to the damping ratio. It means that the decrease in the value of the damping ratio will increase the resonant peak. Procedure to draw the magnitude curve and phase angle curve of the bode plot Before proceeding, let's discuss the main conclusions obtained from the topic discussed above. 
+            
+            The constant gain K, derivative, and integral factor in the bode plot contributes gain at all the frequencies. 
+            The higher order (two and more) factors in the transfer function contribute gain only when the frequency is greater than the corner frequency. The natural frequency in case of quadratic factor is assumed as corner frequency. 
+            We have also discussed the impact of the derivative and integral factor on the positive and negative slope of the Bode plot. Let's discuss the steps that will help us to draw the bode plot. 
+            
+             Convert the given transfer function into the time constant form, which is as follows: It helps us to easily find the corner frequencies.  
+             Arrange the corner frequencies in the increasing order. The format of the table is shown below: 
+              
+              
+                
+                Term 
+                Corner frequency 
+                Slope (decibels) 
+                Change in slope 
+                
+                
+                 
+                 
+                 
+                 
+                
+              
+              The 'Term' specifies the separate constant gain, derivative factor, and the integral factor, such as, K, K/j?, or K (j?). The 'change in slope' includes the change in the value of the slope at each corer frequency.  
+            Select a frequency, which has the lower value compared to the lowest corner frequency. Now, calculate the value of the terms at that selected frequency. 
+             Find the gain in decibels one by one at every corner frequency. The formula to find the gain is given by: Gain at ?y = (Slope from ?x to ?y x log ?y/?x] + gain at ?x The frequencies ?x and ?y are shown below:   
+            Now, we will perform step 4 again at a different frequency, which is greater than the highest corner frequency. 
+            Take a semilog graph paper and first mark the dimension on the axis to draw the plot. The magnitude will appear on the y-axis and the frequency range will appear on the x-axis. 
+            Mark the points calculated in the above steps on the semilog graph paper and join the points. The points on the graph paper should be joined only with straight lines. We can also mark the slope at every point on the graph. 
+            The plot is assumed as the approximated plot. The exact plot requires the exact calculation at every corner frequency. 
+            Consider an example. Let the transfer function be G(s) = K (1 + sT1)2/s2(1 + sT2)( 1 + sT3) Put, s = j? G(j?) = K (1 + j? T1)2/( j? )2(1 + j?T2)( 1 + j?T3) The value of T1, T2, 3 in the increasing order will be T2 < T3 < T1. There will be three corner frequencies at 1/T1, 1/T2, and 1/T3. In the given transfer function G(s) = K (1 + sT1)2/s2(1 + sT2)( 1 + sT3), there are four terms. Thus, we will first draw the magnitude plot of these four independent terms. The four terms are K/ j? , K(1 + sT1), 1/(1 + sT2), and 1/( 1 + sT3). The first, third, and the fourth term represent the integral term with the slope of -20db. The second term is the derivative term that represents the positive slope.  The final plot will be the combined plot of all the four plots, as shown below:  The above Bode plot shows that the first two terms have a slope of 40, while the other two has a slope of 20. The first two terms are in the form of squares in the transfer function, where log a2 is always equal to '2 log a.' Thus, it will appear with a slope of 40. As discussed above, the negative and positive terms with the slope are due to the integral and derivative factors. Let's discuss how the value is combined. A particular value at a region will be the result of the combined values at the above four sections. For example, the section between ?c1 and ?c3 will have the value by adding all section values (-40db + 40db + 0 + 0 = 0db). Phase margin and gain margin of a Bode plot The phase angle is calculated at various values of frequency. The frequencies are generally the same frequencies selected for plotting the magnitude section of a Bode plot. The phase and magnitude sections are drawn in a single semilog sheet with a common frequency scale for easy plotting. It also saves time. The relation between the phase margin and the phase angle is given by: Y = 180 + a Where, Y is the phase margin a is the phase angle It is calculated at the gain crossover frequency. If the phase cross over frequency is negative, the gain margin of the system is positive. Similarly, if the phase cross over frequency is positive, the gain margin of the system is negative. Let's discuss an example that will help us to clearly understand the concept of Bode plot, its steps, and the plotting on the semilog paper. Example: Sketch the Bode plot of the following transfer function G(s) = Ks2/(1 + 0.2s)(1 + 0.02s). Also determine the system gain K and the gain crossover frequency to be 5 radians/second. Solution: G(s) = Ks2/(1 + 0.2s)(1 + 0.02s) Step 1: Finding the corner frequencies Here, we will first find the value of G(j?). G(j?) = K j2?2/(1 + 0.2j?)(1 + 0.02j?) There will be two corner frequencies at T1 and T2, which are 0.2 and 0.02. Thus, the corner frequencies are 1/0.2 = 5 radians/second and 1/0.02 = 50 radians/second. Step 2: Preparing the table As discussed in the above steps, we will prepare a table. There are three independent factors, j2?2, 1/(1 + 0.2j?), and 1/(1 + 0.02j?). So, the table will include three terms, as shown below: 
+            
+            
+              
+              Term 
+              Corner frequency 
+              Slope (decibels) 
+              Change in slope 
+              
+              
+               j2?2 1/(1 + 0.2j?) 1/(1 + 0.02j?)  
+                5 radians/second 50 radians/second  
+               +40db -20db -20db  
+                40 - 20 = 20 db 20 - 20 = 0 db  
+              
+            
+            The first term will have a slope of 40 due to its square. The change in slope will include the sum of the slope from the top to bottom. The first row will have no change in the slope due to no term above it. Step 3: We will find a frequency lower than the first corner frequency + a frequency higher than the second corner frequency. The gain A = |G(j?)| = 20 log | j2?2|  We will find the value of gain at selected low frequency, two corner frequencies, and the high frequency. Let's select the frequency 0.5, which is lower than the first corner frequency. At, ? = low frequency, the value of gain is: A = |G(j?)| = 20 log | j2?2| A = 20 log | 0.52| A = 20 log 0.25 A = 12 db At, ? = first corner frequency (5 db), the value of gain is: A = |G(j?)| = 20 log | j2?2| A = 20 log | 52| A = 20 log 25 or 40 log 5 A = 28 db Now, at the second corner frequency and the selected higher corner frequency, we will use the formula: Gain at ?y = (Slope from ?x to ?y x log ?y/?x] + gain at ?x At ?c2 = (Slope from ?c1 to ?c2 x log ?c2/?c1] + gain at ? (? = ?c1) Where, ?c1 = first corner frequency ?c2 = second corner frequency Slope from ?c1 to ?c2 = change in slope of the second row At, ? = second corner frequency (50 db), the value of gain is: Gain = 20 log 50/5 + 28 = 20 log 10 + 28 = 20 + 28 = 48 db At ?h = (Slope from ?c2 to ?h x log ?h /?c2] + gain at ? (? = ?c2) Where, ?c1 = first corner frequency ?c2 = second corner frequency ?h = selected higher frequency Slope from ?c1 to ?c2 = change in slope of the second row Let the selected higher frequency be 100 db. At, ? = second corner frequency (50 db), the value of gain is: Gain = 0 log 100/50 + 28 = 0 log 2 + 48 = 0 + 48 = 48 db Step 4: Phase plot The phase angle of the given transfer function is: Phase angle = 180 - tan-1 0.2? - tan-1 0.02?  The term j? has an angle of 90 degrees. It square would result in the angle of 180 degrees. Let's find the value of phase angles at different values of ?. It is shown in the below table: 
+            
+            
+              
+              ? radians/sec 
+              tan-1 0.2? degrees 
+              tan-1 0.02? degrees 
+              Phase angle 
+              Points for reference in the phase plot 
+              
+              
+              0.5 
+              5.7 
+              0.6 
+              173.7 
+              E 
+              
+              
+              1 
+              11.3 
+              1.1 
+              167.6 
+              F 
+              
+              
+              5 
+              45 
+              5.7 
+              129.3 
+              G 
+              
+              
+              10 
+              63.4 
+              11.3 
+              105.3 
+              H 
+              
+              
+              50 
+              84.3 
+              45 
+              50.7 
+              I 
+              
+              
+              100 
+              87.1 
+              63.4 
+              29.5 
+              J 
+              
+            
+            We can consider the approximated value for the given values of the phase angle. Step 5: Calculation of the value K The value of gain K at frequency 5 radians per second is 28 db. Hence, at every point of magnitude plot is obtained by shifting the plot wit K = -1 by -28db downwards. Thus, the term -28db is contributed by the term K. 20 log K = -28db Log K = -28/20 = 0.0398 The magnitude plot and the phase plot are shown below:  Exact value of the plot We know that the exact plot is 3 db less than the actual plot. Thus, for the exact plot, the term -28 db+ 3db = -25db is contributed by the term K. 20 log K = -25db Log K = -25/20 = 0.0562 At last, let's discuss some of its advantages and disadvantages. Advantages of the Bode Plot The advantages of the Bode Plot are as follows: 
+            
+            It covers low frequency as well as high frequency. 
+            The Bode plot provides the relative stability of the system in terms of the gain margin and phase margin. 
+            It can be drawn both for the closed loop system and open-loop system. 
+            It also provides us a method to improve the stability of the system. 
+            It converts the multiplication of magnitudes into addition. 
+            The sketching of bode plots is derived from a simple method. 
+            The information loss is very less. 
+            It consists of two graphs that eliminate the confusion between the magnitude and the phase plots. 
+            Bode plot is based on the asymptotic approximations that use straight line segments for plotting on the semilog graph. 
+            Disadvantages of the Bode Plot The disadvantages of the Bode Plot are as follows: 
+            
+            The fundamental behavior of the system does not change frequently. Hence, the bode plot is not sensitive to the changes occurring in the measuring system. 
+            It does clearly predict the individual contribution of different factors in the given transfer functions. 
+            
+            
+            
+            Next Topic
+            Polar plot 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

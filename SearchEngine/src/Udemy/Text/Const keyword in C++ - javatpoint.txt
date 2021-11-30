@@ -1,0 +1,1101 @@
+
+
+ 
+  
+  Const keyword in C++ - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       JavaScript 
+       jQuery 
+       XML 
+       JSON 
+       Ajax 
+       Node.js 
+       SQL 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      C++ Tutorial 
+      
+      
+      C++ Tutorial 
+      C vs C++ 
+      C++ History 
+      C++ Features 
+      C++ Installation  
+      C++ Program 
+      C++ cout, cin, endl 
+      C++ Variable 
+      C++ Data types 
+      C++ Keywords 
+      C++ Operators 
+      C++ Identifiers 
+      C++ Expression 
+      
+      
+      C++ Control Statement 
+      
+      
+      C++ if-else 
+      C++ switch 
+      C++ For Loop 
+      C++ While Loop 
+      C++ Do-While Loop 
+      C++ Break Statement 
+      C++ Continue Statement 
+      C++ Goto Statement 
+      C++ Comments 
+      
+      
+      C++ Functions 
+      
+      
+      C++ Functions 
+      Call by value & reference 
+      C++ Recursion 
+      C++ Storage Classes 
+      
+      
+      C++ Arrays 
+      
+      
+      C++ Arrays 
+      C++ Array to Function 
+      Multidimensional Arrays 
+      
+      
+      C++ Pointers 
+      
+      
+      C++ Pointers 
+      sizeof() operator in C++ 
+      C++ Array of Pointers 
+      C++ Void Pointer 
+      C++ References 
+      Reference vs Pointer 
+      Function Pointer in C++ 
+      C++ Memory Management 
+      malloc() vs new in C++ 
+      free vs delete in C++ 
+      
+      
+      C++ Object Class 
+      
+      
+      C++ OOPs Concepts 
+      C++ Object Class 
+      C++ Constructor 
+      C++ Copy Constructor 
+      C++ Destructor 
+      C++ this Pointer 
+      C++ static 
+      C++ Structs 
+      C++ Enumeration 
+      C++ Friend Function 
+      C++ Math Functions 
+      
+      
+      C++ Inheritance 
+      
+      
+      C++ Inheritance 
+      C++ Aggregation 
+      
+      
+      C++ Polymorphism 
+      
+      
+      C++ Polymorphism 
+      C++ Overloading 
+      C++ Overriding 
+      C++ Virtual Function 
+      
+      
+      C++ Abstraction 
+      
+      
+      C++ Interfaces 
+      C++ Data Abstraction 
+      
+      
+      C++ Namespaces 
+      
+      
+      C++ Namespaces 
+      
+      
+      C++ Strings 
+      
+      
+      C++ Strings 
+      
+      
+      C++ Exceptions 
+      
+      
+      C++ Exception Handling 
+      C++ try/catch 
+      C++ User-Defined 
+      
+      
+      C++ Templates 
+      
+      
+      C++ Templates 
+      
+      
+      Signal Handling 
+      
+      
+      C++ Signal Handling 
+      
+      
+      C++ File & Stream 
+      
+      
+      C++ File & Stream 
+      C++ getline() 
+      
+      
+      C++ Misc 
+      
+      
+      C++ vs C# 
+      C++ int to string 
+      C++ vs Python 
+      Structure vs Class in C++ 
+      Virtual Destructor in C++ 
+      Constructor vs Destructor in C++ 
+      Bit manipulation C++ 
+      What is a reference variable 
+      Friend Function in C++ 
+      Snake Code in C++ 
+      Inline function in C++ 
+      Virtual function vs Pure virtual function in C++ 
+      How to Split strings in C++ 
+      Range-based for loop in C++ 
+      Type Conversion in C++ 
+      LCM of two numbers in C++ 
+      Convert string to integer in C++ 
+      
+      
+      C++ STL Tutorial 
+      
+      
+      C++ STL Components 
+      C++ Vector 
+      Initialize Vector in C++ 
+      C++ Deque 
+      C++ List 
+      C++ Set 
+      C++ Stack 
+      C++ Queue 
+      C++ Priority Queue 
+      C++ Map 
+      C++ Multimap 
+      C++ Map 
+      C++ Bitset 
+      C++ Algorithm 
+      
+      
+      C++ Iterators 
+      
+      
+      C++ Iterators 
+      C++ Bidirectional Iterator 
+      C++ Forward Iterator 
+      C++ Input Iterator 
+      C++ Output Iterator 
+      
+      
+      C++ Programs 
+      
+      
+      C++Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Reverse Number 
+      Swap Number 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Char array to string in C++ 
+      Calculator Program in C++ 
+      Program to convert infix to postfix expression in C++ using the Stack Data Structure 
+      C++ program to merge two unsorted arrays 
+      C++ coin change program 
+      C++ program to add two complex numbers using class 
+      C++ program to find the GCD of two numbers 
+      C++ program to find greatest of four numbers 
+      Delete Operator in C++ 
+      How to concatenate two strings in c++ 
+      Upcasting and Downcasting in C++ 
+      C++ Dijkstra Algorithm using the priority queue 
+      Constructor overloading in C++ 
+      Default arguments in C++ 
+      Dynamic binding in C++ 
+      Dynamic memory allocation in C++ 
+      Fast input and output in C++ 
+      Hierarchical inheritance in C++ 
+      Hybrid inheritance in C++ 
+      Multiple Inheritance in C++ 
+      C++ Bitwise XOR Operator 
+      Different Ways to Compare Strings in C++ 
+      Reverse an Array in C++ 
+      C++ date and time 
+      Copy elision in C++ 
+      Array of sets in C++ 
+      Smart pointers in C++ 
+      Types of polymorphism in C++ 
+      Implementing the sets without C++ STL containers 
+      Scope Resolution Operator in C++ 
+      Static Member Function in C++ 
+      Const keyword in C++ 
+      
+      
+      MCQ 
+      
+      
+      C++ MCQ 
+      C++ MCQ Part 2 
+      
+      
+      Interview Question 
+      
+      
+      Interview Question 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Const keyword in C++ This section will discuss the const keyword in the C++ programming language. It is the const keywords used to define the constant value that cannot change during program execution. It means once we declare a variable as the constant in a program, the variable's value will be fixed and never be changed. If we try to change the value of the const type variable, it shows an error message in the program.  Use const keywords with different parameters: 
+            
+            Use const variable 
+            Use const with pointers 
+            Use const pointer with variables 
+            Use const with function arguments 
+            Use const with class member functions 
+            Use const with class data members 
+            Use const with class objects 
+            1. Const variable It is a const variable used to define the variable values that never be changed during the execution of a program. And if we try to modify the value, it throws an error. Syntax 
+           
+            
+const data_type variable_name; 
+
+            Example: Program to use the const keyword in C++ Let's create a program to demonstrate the use of the const keyword in the C++ programming language. 
+           
+            
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+// declare the value of the const
+const int num = 25;
+num = num + 10;
+return 0;
+}
+
+            Output It shows the compile-time error because we update the assigned value of the num 25 by 10. Example: Let's create a simple program to demonstrate the use of the const keyword in the C++ programming language. 
+           
+            
+/* create a program to use the const keyword with different data types in the C++. */
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+// declare variables
+const int x = 20;
+const int y = 25;
+int z;
+// add the value of x and y
+z = x + y;
+cout << " The sum of the x and y is: " << z << endl;
+return 0;
+}
+
+            Output 
+           
+             The sum of the x and y is: 42
+
+            In the above program, we declared and assigned the const variables x and y at initial. And then, store the result of two const variables to the 'z' variable to print the sum. Note: While the declaration of the const variable in the C++ programming, we need to assign the value of the defined variables at the same time; else, it shows the compile-time error.  2. Constant pointer To create a const pointer, we need to use the const keyword before the pointer's name. We cannot change the address of the const pointer after its initialization, which means the pointer will always point to the same address once the pointer is initialized as the const pointer. Example: Program to demonstrate the constant pointer using the const keyword Let's consider an example to use the const keyword with the constant pointer in the C++ programming language. 
+           
+            
+#include <iostream>
+using namespace std;
+int main ()
+{
+// declaration of the integer variables
+int x = 10, y = 20;
+
+// use const keyword to make constant pointer
+int* const ptr = &x; //  const integer ptr variable point address to the variable x
+
+// ptr = &y; // now ptr cannot changed their address
+*ptr = 15; // ptr can only change the value
+cout << " The value of x: " << x << endl;
+cout << " The value of ptr: " << *ptr << endl;
+return 0;
+} 
+
+            Output 
+           
+            The value of x: 15
+The value of ptr: 15
+
+            In the above program, pointer ptr pointing to the address of int variable 'x' and ptr variable cannot be changed their address once it initialized, but the pointer ptr can change the value of x. 3. Pointer to constant variable It means the pointer points to the value of a const variable that cannot change. Declaration of the pointer to the constant variable: 
+           
+            
+const int* x; 
+
+            Here, x is a pointer that point to a const integer type variable, and we can also declare a pointer to the constant variable as, 
+           
+            
+char const* y;
+
+            In this case, y is a pointer to point a char type const variable. Example: Program to use the const keyword with a pointer to constant variable  
+           
+            
+#include <iostream>
+using namespace std;
+int main ()
+{
+// declare integer variable
+int x = 7, y = 10;
+
+const int *ptr = &x; // here x become constant variable
+cout << " \n The initial value of ptr:" << *ptr;
+cout << " \n The value of x: " <<x;
+
+// *ptr = 15; It is invalid; we cannot directly assign a value to the ptr variable
+ptr = &y; //  here ptr variable pointing to the non const address 'y'
+
+cout << " \n The value of y: " <<y;
+cout << " \n The value of ptr:" << *ptr; 
+return 0;
+}
+
+            Output 
+           
+            The initial value of ptr: 7
+The value of x: 7
+The value of y: 10
+The value of ptr: 10
+
+            In the above program, pointer ptr points to the const int (x) variable, and the value of the int (x) variable can never change. 4. Constant function Arguments We can declare the function arguments as the constant argument using the const keyword. And if the value of function arguments is declared const, it does not allow changing its value. Syntax 
+           
+            
+return_type fun_name (const int x)
+{
+} 
+
+            In the above syntax, return_type is represented whether the function will return a value or not. The fun_name() function contains a const argument whose value can never be changed once it defines in the program. Example: Let's consider an example to use the const keyword with function arguments in the C++ programming language. 
+           
+            
+#include <iostream>
+using namespace std;
+// create an integer Test() function contains an argument num
+int Test (const int num)
+{
+// if we change the value of the const argument, it thwrows an error.
+// num = num + 10;
+cout << " The value of num: " << num << endl;
+return 0;
+}
+int main ()
+{
+// call function
+Test(5);
+}
+
+            Output 
+           
+            The value of num: 5
+
+            In the above program, the num is a constant argument, and we cannot update the num value. If we update the value of the num variable, it returns the compile-time error. 5. Const Member function of class 
+            
+            A const is a constant member function of a class that never changes any class data members, and it also does not call any non-const function. 
+            It is also known as the read-only function. 
+            We can create a constant member function of a class by adding the const keyword after the name of the member function. 
+            Syntax 
+           
+            
+return_type mem_fun() const
+{
+} 
+
+            In the above syntax, mem_fun() is a member function of a class, and the const keyword is used after the name of the member function to make it constant. Example: Program to use the const keyword with the member function of class Let's consider an example to define the const keyword with the member function of the class. 
+           
+            
+class ABC
+{
+// define the access specifier
+public:
+
+// declare int variables
+int A;
+// declare member function as constant using const keyword
+void fun () const
+{
+ A = 0; // it shows compile time error
+}
+};
+
+int main ()
+{
+	ABC obj;
+	obj.fun();
+	return 0;
+}
+
+            Output The above code throws a compilation error because the fun() function is a const member function of class ABC, and we are trying to assign a value to its data member 'x' that returns an error. 6. Constant Data Members of class Data members are like the variable that is declared inside a class, but once the data member is initialized, it never changes, not even in the constructor or destructor. The constant data member is initialized using the const keyword before the data type inside the class. The const data members cannot be assigned the values during its declaration; however, they can assign the constructor values. Example: Program to use the const keyword with the Data members of the class 
+           
+            
+/* create a program to demonstrate the data member using the const keyword in C++. */
+#include <iostream>
+using namespace std;
+// create a class ABC
+class ABC
+{
+
+public:
+ // use const keyword to declare const data member
+const int A;
+// create class constructor
+ABC ( int y) : A(y)
+{
+cout << " The value of y: " << y << endl;
+}
+};
+int main ()
+{
+ABC obj( 10); // here 'obj' is the object of class ABC
+cout << " The value of constant data member 'A' is: " << obj.A << endl;
+// obj.A = 5; // it shows an error.
+// cout << obj.A << endl;
+return 0;
+}
+
+            Output 
+           
+            The value of y: 10
+The value of constant data member 'A' is: 10
+
+            In the above program, the object obj of the ABC class invokes the ABC constructor to print the value of y, and then it prints the value of the const data member 'A' is 10. But when the 'obj.A' assigns a new value of 'A' data member, it shows a compile-time error because A's value is constant and cannot be changed. 7. Constant Objects When we create an object using the const keyword, the value of data members can never change till the life of the object in a program. The const objects are also known as the read-only objects. Syntax 
+           
+            
+const class_name obj_name;
+
+            The const is a keyword used before the class' object's name in the above syntax to make it a constant object. Example: Let's create a program to use the constant objects in the C++ programming language. 
+           
+            
+#include <iostream>
+using namespace std;
+class ABC
+{
+public:
+// define data member
+int A;
+// create constructor of the class ABC
+ABC ()
+{
+A = 10; // define a value to A
+}
+};
+int main ()
+{
+// declare a constant object
+const ABC obj;
+cout << " The value of A: " << obj.A << endl;
+// obj.A = 20; // It returns a compile time error
+return 0;
+}
+
+            Output 
+           
+            The value of A: 10
+
+            In the above program, we assign the value of A is 10, the compiler prints "The value of A: 10", and when we assign the value of A to 20, the object of the class returns the compile time error in the program. Program to find the area of a circle using the const keyword Let's consider an example to print the area of a circle using the const keyword in the C++ programming language. 
+           
+            
+#include <iostream>
+using namespace std;
+int main ()
+{
+// declare variables
+int r;
+const double PI = 3.14;
+double result;
+cout << " Input the radius of a circle: " << endl;
+cin >> r;
+result = PI * r * r;
+cout << " The area of a circle is: " << result;
+}
+
+            Output 
+           
+            Input the radius of a circle: 
+5
+The area of a circle is: 78.5
+
+            
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

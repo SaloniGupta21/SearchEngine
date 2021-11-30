@@ -1,0 +1,1115 @@
+
+
+ 
+  
+  Install JDK Ubuntu - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Linux 
+       C 
+       Java 
+       Python 
+       Shell Scripting 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Linux Tutorial 
+      
+      
+      Linux Tutorial 
+      What is Linux 
+      Advantages of Linux 
+      Linux History 
+      Linux Features 
+      Linux Bash 
+      Unix vs Linux 
+      Linux vs Windows 
+      Linux Distributions 
+      Linux Licensing 
+      Set Environment Variable 
+      Linux Set Command 
+      Linux export Command 
+      
+      
+      Linux Directories 
+      
+      
+      Linux Directories 
+      Linux Home Directory 
+      Linux pwd 
+      Linux cd 
+      Linux Absolute Relative 
+      Linux Path Completion 
+      Linux ls 
+      Linux mkdir 
+      Linux rmdir 
+      Rename Folder in Linux 
+      
+      
+      Linux Commands 
+      
+      
+      Linux commands List 
+      Commands with Example 
+      
+      
+      Linux Users 
+      
+      
+      Linux Users 
+      Linux Create User 
+      Local su Commands 
+      Linux User Management 
+      User Password 
+      Local Groups 
+      Add User to Group 
+      Linux id Command 
+      
+      
+      Linux Files 
+      
+      
+      Linux Files 
+      Linux File System 
+      Linux Create File 
+      Linux file 
+      Linux touch 
+      Linux rm 
+      Linux cp 
+      Linux mv 
+      Linux rename 
+      Linux install Command 
+      Linux read Command 
+      
+      
+      Linux File Contents 
+      
+      
+      Linux File Contents 
+      Open File in Linux 
+      Linux Edit File 
+      Linux which command 
+      Linux head 
+      Linux tail 
+      Linux cat 
+      Linux tac 
+      Linux more 
+      Linux less 
+      Linux strings command 
+      Linux Print 
+      
+      
+      Linux Process 
+      
+      
+      Kill Process Linux 
+      Linux terminating 
+      1) Linux kill 
+      2) Linux killall 
+      3) Linux pkill 
+      4) Linux xkill 
+      Nohup Command 
+      Linux at command 
+      Linux exit command 
+      
+      
+      Linux File Hierarchy 
+      
+      
+      Linux File Hierarchy 
+      Binary Directories 
+      Configuration Directories 
+      Data Directories 
+      Memory Directories 
+      Usr Directory 
+      var Directory 
+      Non-standard directories 
+      
+      
+      Linux Filters 
+      
+      
+      Linux Filters 
+      Linux cat 
+      Linux cut 
+      Linux grep 
+      Linux comm 
+      Linux sed 
+      Linux tee 
+      Linux tr 
+      Linux uniq 
+      Linux wc 
+      Linux od 
+      Linux sort 
+      Linux gzip 
+      
+      
+      AWK Command 
+      
+      
+      Linux AWK Command 
+      
+      
+      Programming with Linux 
+      
+      
+      Linux make command 
+      GCC Linux 
+      
+      
+      Linux I/O Redirection 
+      
+      
+      Linux I/O Redirection 
+      Linux Input Redirection 
+      Linux Output Redirection 
+      Linux Error Redirection 
+      
+      
+      Linux Unix Tools 
+      
+      
+      Linux Unix Tools 
+      Linux Find 
+      Linux Locate 
+      Linux Date 
+      Linux Cal 
+      Linux Sleep 
+      Linux Time 
+      Linux zcat/zmore 
+      Linux bzip2 / bunzip2 
+      Linux bzcat / bzmore 
+      Linux df 
+      
+      
+      Linux Regex 
+      
+      
+      Linux expr command 
+      Linux RegEx 
+      Linux Grep RegEx 
+      Linux rename RegEx 
+      Linux Sed RegEx 
+      
+      
+      File Security 
+      
+      
+      Linux File OwnerShip 
+      Linux chgrp Command 
+      Linux File Permission 
+      Linux chmod Command 
+      Linux chown command 
+      Linux Advance Permission 
+      Linux File Links 
+      1) Linux Inodes 
+      2) Linux Link Directories 
+      3) Linux Hard links 
+      4) Linux Soft links 
+      5) Linux Remove link 
+      
+      
+      Shell Commands 
+      
+      
+      Linux Shell Commands 
+      Linux Aliases 
+      Linux Arguments 
+      Linux Displaying Shell 
+      Linux Control Operators 
+      1) Semicolon 
+      2) Ampersand 
+      3) Dollar Question Mark 
+      4) Double Ampersand 
+      5) Double Vertical Bar 
+      6) Combining && and || 
+      7) Pound Sign 
+      8) ESC 
+      Linux File Globbing 
+      Linux Shell Embedding 
+      Linux Shell History 
+      Linux history Command 
+      Linux History Commands 
+      Linux Histroy Size 
+      Linux Bang Bang 
+      
+      
+      Linux Networking 
+      
+      
+      Linux Networking 
+      1) Linux ifconfig 
+      2) Linux ip 
+      Linux telnet Command 
+      SSH Linux 
+      Linux mail Command 
+      3) Linux traceroute 
+      4) Linux tracepath 
+      5) Linux ping 
+      6) Linux netstat 
+      7) Linux ss 
+      8) Linux dig 
+      9) Linux nslookup 
+      10) Linux route 
+      11) Linux host 
+      12) Linux arp 
+      13) Linux iwconfig 
+      14) Linux hostname 
+      15) Linux curl & wget 
+      Linux Curl Command 
+      16) Linux mtr 
+      17) Linux whois 
+      18) Linux ifplugstatus 
+      
+      
+      Linux Misc 
+      
+      
+      chkconfig command in Linux 
+      How to change user password in Linux 
+      Awk Command Usage 
+      How to unzip files in Linux 
+      Linux chroot Command 
+      Linux Watch Command 
+      Ubuntu Vs. Kali Linux 
+      Clear cache Linux 
+      7 QC Tools 
+      Linux Process Memory Usage 
+      Linux Tree Command 
+      Wine Linux 
+      Linux Commands to Check Disk Space 
+      Manjaro Vs. Ubuntu 
+      Architecture of Linux 
+      Linux Lite 
+      Linux Shell 
+      Linux Meaning 
+      Linux Foundation 
+      Linux List Directories 
+      Linux Shortcuts 
+      Best Linux Distro 
+      Who command in Linux 
+      Linux Server 
+      Debian vs Ubuntu 
+      Types of Files in Unix 
+      Linux Daemon 
+      Linux Zip Command 
+      CPU Utilization in Linux 
+      Linux Terminal 
+      Linux sudo 
+      Basic Linux Commands 
+      How to Check RAM in Linux 
+      Linux List Users 
+      Kill command 
+      Tar command 
+      Linux Find File 
+      Echo command 
+      Linux Change or set Password 
+      SSH Command 
+      What is sshd in Linux 
+      Linux Screen Command 
+      Linux Check Disk Space 
+      Run command in Linux 
+      Linux Memory Management 
+      Linux Reboot Command 
+      How to Inspect the Memory in Linux 
+      Ubuntu GNOME 
+      How to check open ports in Linux 
+      Linux vs Ubuntu 
+      Ping command in Linux 
+      Linux Source Command 
+      Linux Terminal Shortcuts 
+      Find IP Address in Linux 
+      Linux date Command 
+      Linux hosts (file) 
+      UNIX operating system 
+      Linux dpkg command 
+      Latest Kernel Linux Version 
+      Linux Package Manager 
+      Linux proc 
+      Linux Task Manager 
+      Linux Signals 
+      Parrot OS vs. Kali Linux 
+      Ubuntu Features 
+      Linux ISO 
+      Putty Command in Linux 
+      Check OS Version in Linux 
+      Linux Change Timezone 
+      Linux Load Average 
+      Linux Firewall 
+      RPM Command in Linux 
+      Cron Command 
+      Linux Change Hostname 
+      Ubuntu Disable Firewall 
+      Latest Release of Ubuntu 
+      Ubuntu Logo 
+      Ubuntu MATE 
+      Ubuntu Nvidia Drivers 
+      Zoom Ubuntu 
+      Install tar.gz Ubuntu 
+      Ubuntu Screen Recorder 
+      Ubuntu Server 
+      Ubuntu Wallpaper 
+      xVideoServiceThief Ubuntu Linux Free 
+      Restart Apache Ubuntu 
+      Ubuntu 20.04 LTS 
+      Ubuntu Bootable USB 
+      Ubuntu Desktop 
+      Ubuntu Font 
+      X videoservicethief Ubuntu 18 command 
+      Ubuntu Games 
+      Ubuntu Update Command 
+      Ubuntu LTS 
+      vscode for Ubuntu 
+      Android Studio Ubuntu 
+      AnyDesk Ubuntu 
+      Ask Ubuntu 
+      Boot Repair Ubuntu 
+      Install AWS CLI Ubuntu 
+      Install NVM Ubuntu 
+      Install JDK Ubuntu 
+      Install RVM Ubuntu 
+      Install Skype Ubuntu 
+      Ubuntu Budgie 
+      
+      
+      Linux Editors 
+      
+      
+      Linux Text Editors 
+      
+      
+      Linux vi Editor 
+      
+      
+      Vi Editor 
+      1) switch 
+      2) move 
+      3) jump 
+      4) delete 
+      5) undo and repeat 
+      6) cut, copy, paste 
+      7) cut, copy, paste blocks 
+      8) Start and end 
+      9) Joining 
+      10) word 
+      11) Search 
+      12) Replace all 
+      13) Text Buffers 
+      14) Abbreviations 
+      
+      
+      Linux System Admin 
+      
+      
+      Linux Admin Commands 
+      Linux uptime 
+      Linux service 
+       Linux pmap 
+       Linux wget command 
+      Linux ftp or sftp 
+      Linux free Command 
+      Linux top 
+      Linux last 
+      Linux ps 
+      Linux shutdown 
+      Linux info 
+      Linux env 
+      Linux du 
+      Linux init 
+      Linux Nano Editor 
+       Linux shred 
+      Linux mount 
+      Linux route 
+      
+      
+      Linux Man Pages 
+      
+      
+      Linux man 
+      Linux man -a 
+      Linux man -aw 
+      Linux man -f 
+      Linux man -k(apropos) 
+      Linux man whereis 
+      Whatis command in Linux 
+      
+      
+      Error Codes 
+      
+      
+      Linux Error Codes 
+      
+      
+      Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Install JDK Ubuntu JVM (Virtual Machine of Java) and Java are needed for various types of software including Jenkins, Cassandra, Glassfish, Jetty, and Tomcat. In this article, we will install many releases of Java Development Kit (JDK) and Java Runtime Environment (JRE) using 'apt'. We will install OpenJDK and the official JDK as well from Oracle. We will then choose the release we wish to use for our projects. When we are finished, we will be able to apply the JDK for developing software or using the Java Runtime for running software. The repositories of Ubuntu 20.04 (default) contain two packages of OpenJDK, Java Development Kit, and Java Runtime Environment. The Java Runtime Environment is composed of the Java Virtual Machine, binaries, and classes that permit us to execute Java programs. The Java Development Kit contains the Java Runtime Environment and debugging/development tools as well as libraries mandatory for building Java applications. Prerequisites We will need to follow this article: The 20.04 server set up of Ubuntu by following the 20.04 initial server setup guide of Ubuntu including a non-root sudo user and a firewall. Install the default JDK/JRE One of the easiest options to install Java is to apply the version which is packaged using Ubuntu. The 20.04 version of Ubuntu by default includes the 11 version of OpenJDK and it is an open-source version of the JDK and JRE. First, we need to update the index of the package for installing this version. 
+           
+            
+$ sudo apt update
+
+              Next, see if the Java version is installed already. 
+           
+            
+$ java -version
+
+              We will see the following result if the Java version is not installed currently. We need to run the below command for installing the default Java Runtime Environment which will install the JRE using OpenJDK 11. 
+           
+            
+$ sudo apt install default-jre
+
+              The Java Runtime Environment will permit us to execute almost every Java software. We can verify our installation using the following command. 
+           
+            
+$ java -version
+
+            We will find results similar to the below:  We may require the Java Development Kit in addition to the Java Runtime Environment for compiling and running some particular Java-based software. We need to run the below command for installing the JDK which will install the JRE as well. 
+           
+            
+$ sudo apt install default-jdk
+
+              We need to verify the JDK is successfully installed by checking the Java Compiler javac version. 
+           
+            
+$ java -version
+
+              We will see e the below result: Next, let's see how to install the official JDK and JRE of Oracle. Install Oracle JDK 11 The licensing agreement of Oracle for Java does not permit automatic installation from the package manager. We should create an account of Oracle and download the JDK manually for adding any new package repository for the release we had like to use for installing the Oracle Java Development Kit which is the official release shared by Oracle. Then, we can apply apt for installing it with the help of the third-party installation script. We will need to install must match the release of the installer script of the JDK version of Oracle. We should visit a page, i.e., 'oracle-java11-installer' for finding out which release we need. The script version is 11.0.7 on this page. We would require the 11.0.7 version of Oracle JDK in this case. Our version number might vary depending on when we are installing the software. We do not need to install anything using this page, we will download the script of the installation from apt shortly. Then, we need to check the downloads page and after that locate the release that matches the one we need. 
+            
+            Click on the button, i.e., 'JDK Download' and we will be jumped to a screen that displays the releases available. 
+             Click on the package, i.e., '.tar.gz' for Linux. We will be illustrated with the screen prompting us for accepting the license agreement of Oracle.  
+            Choose the checkbox for accepting this license agreement and click on the Download button. 
+            Our download will start. 
+            We might require to login into our Oracle account multiple times before the download begins. 
+            We will need to send it to our server when the file has been downloaded. We will upload this file to our server on our local machine. 
+            On Windows, Linux, or, macOS with the help of Windows Subsystem for Linux, we will apply the command, i.e., 'scp' for transferring the file to our home directory of Sammy user. 
+            The below command assumes that we have saved the JDK file of Oracle to the Downloads folder of our local machine. 
+            We will return to our server and add a repository of the third party that will support us to install the Java of Oracle when the file uploading process has been completed. We will install a package, i.e., 'software-properties-common' which will add a command, i.e., 'add-apt-repository' to our system. 
+           
+            
+$ sudo apt install software-properties-common
+
+              Next, we will import a signing key which is used for verifying the software we are about to install: 
+           
+            
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EA8CACC073C3DB2A
+
+              We will see the following output: Then, we will use a command, i.e., 'add-apt-repository' for adding the repository to our list of the package sources: 
+           
+            
+$ sudo add-apt-repository ppa:linuxuprising/java
+
+              We will see the following message: We need to press the enter button for continuing the installation process. We might find a message about 'no valid OpenPGP data found', but we can ignore this message safely. We will update our package list for making the new software present for the installation process using the following command: 
+           
+            
+$ sudo apt update
+
+              The installer would see for the Oracle JDK we downloaded in the /var/cache/oracle-jdk11-installer-local directory. We will make this directory and transfer the archive of Oracle JDK there. 
+           
+            
+$ sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
+
+            
+           
+            
+$ sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
+
+              Finally, we will install our package using the following command: 
+           
+            
+$ sudo apt install oracle-java11-installer-local
+
+              First, the installer will ask us for accepting the license agreement of Oracle. We will accept the agreement and the installer would extract the package of Java and install it. Now, we will see how to choose which Java version we wish to use. Java Management We can have more than one installation of Java on a single server. We can configure which release is the default for apply on the terminal with the help of a command, i.e., 'update-alternatives'. The command is mentioned below: 
+           
+            
+$ sudo update-alternatives --config Java
+
+              It is what the result will look like if we have installed both releases of Java in this article. Select the number corresponding to the version of Java to apply it as a default or click on the Enter button for leaving the current settings in position. We can do it for other commands of Java like the javac compiler. The command is mentioned below: 
+           
+            
+$ sudo update-alternatives --config javac
+
+            Many other commands to which this command could be executed include, but aren't restricted to: keytool, jarsigner, and javadoc. JAVA_HOME Environment Variable Setting Several programs written in the Java language use the environment variable, i.e., JAVA_HOME for determining the installation location of Java. First, we need to determine that where the Java version is installed for setting the environment variable. We will use the following command: 
+           
+            
+$ sudo update-alternatives --config Java
+
+              This command will display all installations of Java with the installation path. In this type of case, the paths of the installation are below: 
+            
+            OpenJDK 11 is positioned at the /usr/lib/jvm/java-11-openjdk-amd64/bin/java directory. 
+            Oracle Java is positioned at the /usr/lib/jvm/java-11-oracle/jre/bin/java directory. 
+            We need to copy the path using our preferred installation. After that, we will open the /etc/environment directory with the help of the nano text editor or any other text editors. 
+           
+            
+$ sudo nano /etc/environment
+
+            We will add the below line at the completion of this file. Ensure for replacing the highlighted path with our copied path, but don't add the path portion of the bin/. 
+           
+            
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+
+            We will modify this file which will set the path, i.e., JAVA_HOME for every user on our system. We will save this file and exit from the text editor. Now, we will reload the file for applying the modifications to our current session: 
+           
+            
+$ source /etc/environment
+
+            We will verify that this environment variable has been set with the help of the following command: 
+           
+            
+$ echo $JAVA_HOME
+
+            We will find the path we just set. 
+           
+            
+/usr/lib/jvm/java-11-openjdk-amd64
+
+            Many other users will require to run the source /etc/environment command or log back and log out to use this setting. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

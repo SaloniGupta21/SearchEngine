@@ -1,0 +1,139 @@
+Exception Class in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Exception Class in Java An error is a problem, bug, or human-created mistake that arises at the time of execution of a program. An exception interrupts the flow of the program and terminates it abnormally. The termination of the program abnormally is not recommended, and for that, we need to handle these exceptions. Java provides Java.lang.Exception class for handling the exceptions which inherit the properties and methods of Object and Throwable class. Methods of java.lang.Throwable class addSuppressed(), fillInStackTrace(), getCause(), getLocalizedMessage(), getMessage(), getStackTrace(), getSuppressed(), initCause(), printStackTrace(), printStackTrace(), printStackTrace(), setStackTrace(), and toString(). Methods of java.lang.Object class clone(), equals(), finalize(), getClass(), hashCode(), notify(), notifyAll(), and wait(). The Exception class has a set of sub-classes for handling different types of exceptions such as IOException, NotBoundException, and NotOwnerException etc. All the subclasses of the Exception class are in the form of Throwable that indicates the conditions that an application wants to catch. The Exception class provides the following 5 constructors: 1. public Exception() The public Exception () construct an exception with a null detail message. The cause can be subsequently initialized by calling Throwable.initCause(Java.lang.Throwable). It is a default constructor and takes no parameters for message and Throwable cause. 2. public Exception(String message) The public Exception( String message) construct a new exception with the given detailed message. Just like the default constructor, the cause can be subsequently initialized by calling Throwable.initCause(Java.lang.Throwable). It is a parameterized constructor which takes a parameter of type String for detail message. The detail message is saved so that the Throwable.getMessage() method can retrieve it. Parameters message It is of type string for the error message or detail message. 3. public Exception(String message, Throwable cause) It is another variation of the Exception () constructor, which takes two parameters, i.e., message and cause. It constructs a new exception with the given detailed message and cause. The message associated with the cause will not be automatically included in the exception detail message. Parameters message It is of type string for the error message or detail message. cause The cause is saved so that the Throwable.getCause() method can retrieve it. The null value defines that the cause is nonexistent or unknown. 4. public Exception(Throwable cause) It is another variation of the Exception () constructor, which takes only a single parameter, i.e., cause. The constructor creates an Exception with the given cause and the detailed message of the cause. 
+detail message = (cause == null ? null : cause.toString())
+ It is mainly used for the exceptions, which are more than wrappers for other throwables. Parameters cause The cause is saved so that the Throwable.getCause() method can retrieve it. The null value defines that the cause is nonexistent or unknown. 5. protected Exception(String message, Throwable cause, Boolean enableSuppression, Boolean writableStackTrace) It is a little different from the other constructors. It is also a parameterized constructor and takes 4 parameters, i.e., message, cause, enableSuppression, and writableStackTrace. It creates an exception with the specified parameters. Parameters message It is a detailed message. cause The cause is saved so that the Throwable.getCause() method can retrieve it. The null value defines that the cause is nonexistent or unknown. enableSuppression It is a Boolean value that defines whether the suppression is enabled or not. writableStackTrace It is a Boolean value that defines whether the stack trace is writable or not. Create custom exceptions using the Exception class We have a series of predefined exceptions in Java. Many times, we need to create our own Exception for handling errors. We used the custom exception for customizing the exceptions as per the user need. Let's take some examples of the Exception class and understand how we can create our own Exception in Java. CustomExceptionExample1.java 
+// import required classes and packages
+package javaTpoint.MicrosoftJava;
+
+import java.util.Scanner;
+
+// create class InvalidAgeException by extending Exception class for create invalid age exception
+@SuppressWarnings("serial")
+class InvalidAgeException  extends Exception  
+{  
+	// parameterized constructor that accepts only detail message
+	public InvalidAgeException (String message)  
+	{  
+		// calling parent Exception class constructor  
+		super(message);  
+	}  
+}  
+ 
+// create CustomExceptionExample1 class that uses custom exception InvalidAgeException  
+public class CustomExceptionExample1  
+{  
+
+	// create method checkEligibility() to check whether the given is valid for exam or not
+	static void checkEligibility (int age) throws InvalidAgeException
+	{    
+		// use conditional statement to check age
+		if(age < 18){  
+			// we throw InvalidAgeException when the age is less than 18  
+			throw new InvalidAgeException("You are not eligible for the exam."); 
+		}else {   
+			System.out.println("You are eligible for the exam.");   
+		}	   
+	}    
+
+	// main() method start  
+	public static void main(String args[])  
+	{  
+		// create scanner class object to take input from user
+		Scanner scan = new Scanner(System.in);
+				
+		// declare variable age to store the user input
+		int age;
+			
+		// take input from the user
+		System.out.println("Please enter your age:");
+		age = scan.nextInt();
+		
+		scan.close();
+		
+		try  
+		{  
+			// call method checkEligibility() to check whether the user is eligible for exam or not 
+			checkEligibility(age);  
+		}  
+		catch (InvalidAgeException exception)  
+		{  
+			System.out.println("We found an excaption:");  
+ 
+			// printing the message from InvalidAgeException object  
+			System.out.println(exception);
+			
+		}	    
+	}	  
+}  
+ Output: Description: In the above code, we create a custom exception, InvalidAgeException. We take input from the user for checking whether the user is eligible for the exam or not. We call the checkEligibility() method by passing the user input to it. The checkEligibility() method checks whether the given age is greater than 18 or not because a user having age 18+ is eligible for the exam. The method throws InvalidAgeException when it finds an age less than 18. The catch block in the main() method will handle this Exception and print the detailed message of the Exception. CustomExceptionExample2.java 
+// import required classes and packages
+package javaTpoint.MicrosoftJava;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+// create class AlreadyExistException by extending Exception class for checking whether the language exists in the array list or not 
+@SuppressWarnings("serial")
+class AlreadyExistException  extends Exception  
+{  
+	// parameterized constructor that accepts only detail message
+	public AlreadyExistException (String message)  
+	{  
+		// calling parent Exception class constructor  
+		super(message);  
+	}  
+}  
+ 
+// create CustomExceptionExample2 class that uses custom exception AlreadyExistException  
+public class CustomExceptionExample2  
+{  
+	// create method checkExistence() to check whether the given language already exists in the list or not
+	static void checkExistence (ArrayList<String> languages, String language) throws AlreadyExistException
+	{    
+		// use conditional statement to check the existence of the language
+		if(languages.contains(language)){  
+			// we throw AlreadyExistException when the language is already exist in the list
+			throw new AlreadyExistException(language +" is already exist in the list."); 
+		}else {   
+			languages.add(language);
+			System.out.println(language + " is added to the ArrayList successfully.");
+			for(int i = 0; i < languages.size(); i++) {
+				System.out.println(languages.get(i));
+			}
+		}	   
+	}    
+
+	// main() method start  
+	public static void main(String args[])  
+	{  
+		// declare ArrayList with some languages
+		ArrayList<String> languages = new ArrayList<>(Arrays.asList("Java", "Python", "JavaScript"));
+
+		// create scanner class object to take input from user
+		Scanner scan = new Scanner(System.in);
+				
+		// declare variable lang to store the user input
+		String lang;
+			
+		// take input from the user
+		System.out.println("Enter language to enter in the ArrayList:");
+		lang = scan.nextLine();
+		
+		scan.close();
+		
+		try  
+		{  
+			// call method checkExistence() to check whether the language is already exist in the list or not
+			checkExistence(languages, lang);  
+		}  
+		catch (AlreadyExistException exception)  
+		{  
+			System.out.println("We found an excaption:");  
+ 
+			// printing the message from AlreadyExistException object  
+			System.out.println(exception);
+			
+		}	    
+	}	  
+}  
+ Output: Description: In the above code, we create the custom exception AlreadyExistException. We take input from the user to add it in the languages ArrayList. We call the checkExistence() method by passing the user input and the languages ArrayList to it. The checkExistence() method checks whether the given language is available in the languages ArrayList or not. The method throws AlreadyExistException when it finds the user input language in the languages ArrayList. The catch block in the main() method will handle this Exception and print the detailed message of the Exception. If the checkExistence() method doesn't find the given language in the languages ArrayList, it will add the user input language in the languages ArrayList. Next Topic Transient variable in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected]oint.com. Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

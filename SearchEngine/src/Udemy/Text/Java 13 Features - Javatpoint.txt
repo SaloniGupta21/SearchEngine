@@ -1,0 +1,874 @@
+
+
+ 
+  
+  Java 13 Features - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Java 13 Features On September 17th, 2019, Java 13 was made available for production use. Because of the 6-month release schedule, there aren't many developer-specific features in Java 13. Enhancements to Z Garbage Collector, application class-data sharing, and previews of switch statements and text blocks are some of the features. Features of Java 13 
+            
+            Text Blocks - JEP 355 
+            New Methods in String Class for Text Blocks 
+            Switch Expressions Enhancements - JEP 354 
+            Reimplement the Legacy Socket API - JEP 353 
+            Dynamic CDS Archive - JEP 350 
+            ZGC: Uncommit Unused Memory - JEP 351 
+            newFileSystem() Method 
+            DOM and SAX Factories with Namespace Support 
+            1. Text Blocks - JEP 355 This is an example of a preview feature. It makes it simple to construct multiline strings. A pair of triple-double quotations must surround the multiline string. There are no additional properties on the string object formed with text blocks. It's a more convenient approach to make multiline strings. We can't make a single-line string with text blocks. A line terminator must follow the initial triple-double quotations. 
+           
+            
+public class TextblockExample
+{
+    /* Driver Code */
+	@SuppressWarnings("preview")
+	public static void main(String ar[]) 
+	{
+		String stringtextBlock = """
+				Hi
+				Hello
+				Yes""";
+		String stringLiteral = "Hi\nHello\nYes";
+		System.out.println("Text Block String:\n" + stringtextBlock);
+		System.out.println("Normal String Literal:\n" + stringLiteral);
+    }
+}
+
+            Output: 
+           
+            Text Block String:
+Hi
+Hello
+Yes
+Normal String Literal:
+Hi
+Hello
+Yes
+
+            2. New Methods in String Class for Text Blocks The String class now has three additional methods related to the text blocks functionality. formatted(Object... args) is a function comparable to String format(). It's there to help with text block formatting. stripIndent() is a function that removes the white space characters at the start and end of each line in a text block. The text blocks employ this mechanism to preserve the relative indentation of the content. translateEscapes() It returns a string containing the value this string, with escape sequences translated as if they were in a string literal. NewMethodsDemo.java 
+           
+            
+public class NewMethodsDemo
+{
+    /* Driver Code */
+	@SuppressWarnings("preview")
+	public static void main(String[] args) 
+	{
+		String output = """
+			    Name: %s
+			    Phone: %d
+			    Salary: $%.2f
+			    """.formatted("Peter", 123456789, 2000.5555);
+		System.out.println(output);
+		String htmlTextBlock = "<html>   \n"+
+				                    "\t<body>\t\t \n"+
+				                        "\t\t<p>Hello</p>  \t \n"+
+				                    "\t</body> \n"+
+				                "</html>";
+		System.out.println(htmlTextBlock.replace(" ", "*"));
+	System.out.println(htmlTextBlock.stripIndent().replace(" ", "*"));
+		String str1 = "Hi\t\nHello' \" /u0022 Pankaj\r";
+		System.out.println(str1);
+		System.out.println(str1.translateEscapes());
+		
+	}
+
+}
+
+            Output: 
+           
+            Name: Peter
+Phone: 123456789
+Salary: $2000.56
+
+<html>***
+	<body>		*
+		<p>Hello</p>**	*
+	</body>*
+</html>
+<html>
+	<body>
+		<p>Hello</p>
+	</body>
+</html>
+Hi	
+Hello' " /u0022 Pankaj
+Hi	
+Hello' " /u0022 Pankaj
+
+            3. Switch Expressions Enhancements - JEP 354 In the 12 release of Java, switch expressions were added as a trial feature. The only difference is that "break" has been replaced with "yield" to return a value from the case statement in Java 13. SwitchExample.java 
+           
+            
+public class SwitchExample
+{
+	/* Driver Code */
+	@SuppressWarnings("preview")
+	public static void main(String ar[]) 
+{
+		int choice = 2;
+		switch (choice) {
+		case 1:
+			System.out.println(choice);
+			break;
+		case 2:
+			System.out.println(choice);
+			break;
+		case 3:
+			System.out.println(choice);
+			break;
+		default:
+			System.out.println("integer is greater than 3");
+		}
+		// from java 13 onwards - multi-label case statements
+		switch (choice) {
+		case 1, 2, 3:
+			System.out.println(choice);
+			break;
+		default:
+			System.out.println("integer is greater than 3");
+		}
+		// switch expressions, use yield to return, in Java 12 it was break
+		int x = switch (choice) {
+		case 1, 2, 3:
+			yield choice;
+		default:
+			yield -1;
+		};
+		System.out.println("x = " + x);
+	}
+	enum Day {
+		SUN, MON, TUE
+	};
+	@SuppressWarnings("preview")
+	public String getDay(Day d) {
+		String day = switch (d) {
+		case SUN -> "Sunday";
+		case MON -> "Monday";
+		case TUE -> "Tuesday";
+		};
+		return day;
+	}
+}
+
+            Output: 
+           
+            2
+2
+x = 2
+
+            4. Reimplement the Legacy Socket API - JEP 353 The underlying implementation of the java.net.Socket and java.net.ServerSocket APIs has been updated in Java version 13. NioSocketImpl, the new implementation, is a drop-in replacement for PlainSocketImpl. Instead of synchronized methods, it employs java.util.concurrent locks. Utilize the java option -Djdk.net.usePlainSocketImpl if we want to use the legacy implementation. 5. Dynamic CDS Archive - JEP 350 The class-data-sharing feature was introduced in Java 10, is extended in this JEP. It is now much easier to create a CDS archive and to use it. 
+           
+            
+$ java -XX:ArchiveClassesAtExit=my_app_cds.jsa -cp my_app.jar
+$ java -XX:SharedArchiveFile=my_app_cds.jsa -cp my_app.jar
+
+            6. ZGC: Uncommit Unused Memory - JEP 351 This JEP has improved ZGC by allowing the operating system to recover wasted heap memory. In Java 11, the Z Garbage Collector was introduced. It introduces a little wait before the heap memory cleanup. However, the operating system did not receive the unused RAM. This was an issue for IoT and microchip devices with small memory footprints. It has now been improved so that unneeded memory is returned to the operating system. 7. newFileSystem() Method The FileSystems class now has three additional methods to make it easier to use file system providers that handle a file's content as a file system. 
+           
+            
+newFileSystem(Path)
+newFileSystem(Path, Map<String,?>)
+newFileSystem(Path, Map<String,?>, ClassLoader) 
+
+            8. DOM and SAX Factories with Namespace Support New techniques for creating DOM and SAX factories that support Namespaces have been added. 
+            
+            newDefaultNSInstance() 
+            newNSInstance() 
+            newNSInstance is a kind of newNSInstance (String factoryClassName, ClassLoader classLoader) 
+            
+           
+            
+//java 13 onwards
+DocumentBuilder db = DocumentBuilderFactory.newDefaultNSInstance().newDocumentBuilder(); 
+// before java 13
+DocumentBuilderFactory dbf = DocumentBuilderFactory.newDefaultInstance(); 
+dbf.setNamespaceAware(true); 
+DocumentBuilder db = dbf.newDocumentBuilder();
+
+            In this article, we have discussed some of the features of Java version 13. 
+            
+            
+            Next Topic
+            Package Program in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

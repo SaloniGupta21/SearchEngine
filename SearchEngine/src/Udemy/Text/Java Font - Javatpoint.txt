@@ -1,0 +1,1114 @@
+
+
+ 
+  
+  Java Font - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Java Font In Java, Font is a class that belongs to the java.awt package. It implements the Serializable interface. FontUIResource is the direct known subclass of the Java Font class. It represents the font that are used to render the text. In Java, there are two technical terms that are used to represent font are characters and Glyphs. Types of Fonts in Java There are two types of fonts in Java: 
+            
+            Physical Fonts 
+            Logical Fonts 
+            Physical Fonts Physical fonts are actual Java font library. It contains tables that maps character sequence to glyph sequences by using the font technology such as TrueType Fonts (TTF) and PostScript Type 1 Font. Note that all implementation of Java must support TTF. Using other font technologies is implementation dependent. Physical font includes the name such as Helvetica, Palatino, HonMincho, other font names. The property of the physical font is that it uses the limited set of writing systems such as Latin characters or only Japanese and Basic Latin characters. It may vary as to configuration changes. If any application requires a specific font, user can bundle and instantiate that font by using the createFont() method of the Java Font class. Logical Fonts Java defines five logical font families that are Serif, SansSerif, Monospaced, Dialog, and DialogInput. It must be supported by the JRE. Note that JRE maps the logical font names to physical font because these are not the actual font libraries. Usually, mapping implementation is locale dependent. Each logical font name map to several physical fonts in order to cover a large range of characters. For example, AWT components such as Label and TextField uses logical fonts only. Font Faces and Names A font may have many faces such as heavy, regular, medium, oblique, gothic, etc. All font faces have the similar typograph design. A Font object have three different names that are: 
+            
+            Logical font name: It is the name that is used to construct the font. 
+            Font face name: It is the name of particular font face. For example, Helvetica Bold. 
+            Family name: It is the name of the font family. It determines the typograph design among several faces. 
+            The Java Font class represents an instance of a font face from a collection of font faces that are present in the system resources of the host system. Example of font faces are Arial Bold, Courier Bold Italic, etc. A font face (each differing in size, style, transform and font feature) may associate with several Font objects. Font Class Fields 
+            
+            
+              
+              Modifier 
+              Field 
+              Description 
+              
+              
+              static int 
+              BOLD 
+              The bold style constant. 
+              
+              
+              static int 
+              CENTER_BASELINE 
+              The baseline used in ideographic scripts like Chinese, Japanese, and Korean when laying out text. 
+              
+              
+              static String 
+              DIALOG 
+              A String constant for the canonical family name of the logical font "Dialog". 
+              
+              
+              static String 
+              DIALOG_INPUT 
+              A String constant for the canonical family name of the logical font "DialogInput". 
+              
+              
+              static int 
+              HANGING_BASELINE 
+              The baseline used in Devanigiri and similar scripts when laying out text. 
+              
+              
+              static int 
+              ITALIC 
+              The italicized style constant. 
+              
+              
+              static int 
+              LAYOUT_LEFT_TO_RIGHT 
+              A flag to layoutGlyphVector indicating that text is left-to-right as determined by Bidi analysis. 
+              
+              
+              static int 
+              LAYOUT_NO_LIMIT_CONTEXT 
+              A flag to layoutGlyphVector indicating that text in the char array after the indicated limit should not be examined. 
+              
+              
+              static int 
+              LAYOUT_NO_START_CONTEXT 
+              A flag to layoutGlyphVector indicating that text in the char array before the indicated start should not be examined. 
+              
+              
+              static int 
+              LAYOUT_RIGHT_TO_LEFT 
+              A flag to layoutGlyphVector indicating that text is right-to-left as determined by Bidi analysis. 
+              
+              
+              static String 
+              MONOSPACED 
+              A String constant for the canonical family name of the logical font "Monospaced". 
+              
+              
+              static String 
+              name 
+              The logical name of this Font, as passed to the constructor. 
+              
+              
+              static int 
+              PLAIN 
+              The plain style constant. 
+              
+              
+              static float 
+              pointSize 
+              The point size of this Font in float. 
+              
+              
+              static int 
+              ROMAN_BASELINE 
+              The baseline used in most Roman scripts when laying out text.  
+              
+              
+              static String 
+              SANS_SERIF 
+              A String constant for the canonical family name of the logical font "SansSerif". 
+              
+              
+              static String 
+              SERIF 
+              A String constant for the canonical family name of the logical font "Serif". 
+              
+              
+              protected int 
+              size 
+              The point size of this Font, rounded to integer. 
+              
+              
+              protected int 
+              style 
+              The style of this Font, as passed to the constructor. 
+              
+              
+              static int 
+              TRUETYPE_FONT 
+              Identify a font resource of type TRUETYPE. 
+              
+              
+              static int 
+              TYPE1_FONT 
+              Identify a font resource of type TYPE1. 
+              
+            
+            Font Class Constructors 
+            
+            
+              
+              Constructor 
+              Description 
+              
+              
+              Font(Font font) 
+              Creates a new Font from the specified font. 
+              
+              
+              Font(Map<?extends AttributedCharacterIterator.Attribute,?> attributes) 
+              Creates a new Font with the specified attributes. 
+              
+              
+              Font(String name, int style, int size) 
+              Creates a new Font from the specified name, style and point size. 
+              
+            
+            Font Class Methods 
+            
+            
+              
+              Methods 
+              Description 
+              
+              
+              canDisplay(char c) 
+              It checks if this Font has a glyph for the specified character. 
+              
+              
+              canDisplay(int codePoint) 
+              It checks if this Font has a glyph for the specified character. 
+              
+              
+              canDisplayUpTo(char[] text, int start, int limit) 
+              It indicates whether or not this Font can display the characters in the specified text starting at start and ending at limit. 
+              
+              
+              canDisplayUpTo(CharacterIterator iter, int start, int limit) 
+              It indicates whether or not this Font can display the text specified by the iter starting at start and ending at limit. 
+              
+              
+              canDisplayUpTo(String str) 
+              It indicates whether or not this Font can display a specified String. 
+              
+              
+              createFont(int fontFormat, File fontFile) 
+              It returns a new Font using the specified font type and the specified font file. 
+              
+              
+              createFont(int fontFormat, InputStream fontStream) 
+              It returns a new Font using the specified font type and input data. 
+              
+              
+              createGlyphVector(FontRenderContext frc, char[] chars) 
+              It creates a GlyphVector by mapping characters to glyphs one-to-one based on the Unicode cmap in this Font. 
+              
+              
+              createGlyphVector(FontRenderContext frc, CharacterIterator ci) 
+              It creates a GlyphVector by mapping the specified characters to glyphs one-to-one based on the Unicode cmap in this Font. 
+              
+              
+              createGlyphVector(FontRenderContext frc, int[] glyphCodes) 
+              It creates a GlyphVector by mapping characters to glyphs one-to-one based on the Unicode cmap in this Font. 
+              
+              
+              createGlyphVector(FontRenderContext frc, String str) 
+              It creates a GlyphVector by mapping characters to glyphs one-to-one based on the Unicode cmap in this Font. 
+              
+              
+              decode(String str) 
+              It returns the Font that the str argument describes. 
+              
+              
+              deriveFont(AffineTransform trans) 
+              It creates a new Font object by replicating the current Font object and applying a new transform to it. 
+              
+              
+              deriveFont(float size) 
+              It creates a new Font object by replicating the current Font object and applying a new size to it. 
+              
+              
+              deriveFont(int style) 
+              It creates a new Font object by replicating the current Font object and applying a new style to it. 
+              
+              
+              deriveFont(int style, AffineTransform trans) 
+              It creates a new Font object by replicating this Font object and applying a new style and transform. 
+              
+              
+              deriveFont(int style, float size) 
+              It creates a new Font object by replicating this Font object and applying a new style and size. 
+              
+              
+              deriveFont(Map<? extends AttributedCharacterIterator.Attribute,?> attributes) 
+              It creates a new Font object by replicating the current Font object and applying a new set of font attributes to it. 
+              
+              
+              equals(Object obj) 
+              It compares this Font object to the specified Object. 
+              
+              
+              getAttributes() 
+              It returns a map of font attributes available in this Font. 
+              
+              
+              getAvailableAttributes() 
+              It returns the keys of all the attributes supported by this Font. 
+              
+              
+              getBaselineFor(char c) 
+              It returns the baseline appropriate for displaying this character. 
+              
+              
+              getFamily() 
+              It returns the family name of this Font. 
+              
+              
+              getFamily(Locale l) 
+              It returns the family name of this Font, localized for the specified locale. 
+              
+              
+              getFont(Map<?extends AttributedCharacterIterator.Attribute,?> attributes) 
+              It returns a Font appropriate to the attributes. 
+              
+              
+              getFont(String nm) 
+              It returns a Font object from the system properties list. 
+              
+              
+              getFont(String nm, Font font) 
+              Gets the specified Font from the system properties list. 
+              
+              
+              getFontName() 
+              It returns the font face name of this Font. 
+              
+              
+              getFontName(Locale l) 
+              It returns the font face name of the Font, localized for the specified locale. 
+              
+              
+              getItalicAngle() 
+              It returns the italic angle of this Font. 
+              
+              
+              getLineMetrics(char[] chars, int beginIndex, int limit, FontRenderContext frc) 
+              It returns a LineMetrics object created with the specified arguments. 
+              
+              
+              getLineMetrics(CharacterIterator ci, int beginIndex, int limit, FontRenderContext frc) 
+              It returns a LineMetrics object created with the specified arguments. 
+              
+              
+              getLineMetrics(String str, FontRenderContext frc) 
+              It returns a LineMetrics object created with the specified String and FontRenderContext. 
+              
+              
+              getLineMetrics(String str, int beginIndex, int limit, FontRenderContext frc) 
+              It returns a LineMetrics object created with the specified arguments. 
+              
+              
+              getMaxCharBounds(FontRenderContext frc) 
+              It returns the bounds for the character with the maximum bounds as defined in the specified FontRenderContext. 
+              
+              
+              getMissingGlyphCode() 
+              It returns the glyphCode which is used when this Font does not have a glyph for a specified unicode code point. 
+              
+              
+              getName() 
+              It returns the logical name of this Font. 
+              
+              
+              getNumGlyphs() 
+              It returns the number of glyphs in this Font. 
+              
+              
+              getPeer() 
+              Font rendering is now platform independent. 
+              
+              
+              getPSName() 
+              It returns the postscript name of this Font. 
+              
+              
+              getSize() 
+              It returns the point size of this Font, rounded to an integer. 
+              
+              
+              getSize2D() 
+              It returns the point size of this Font in float value. 
+              
+              
+              getStringBounds(char[] chars, int beginIndex, int limit, FontRenderContext frc) 
+              It returns the logical bounds of the specified array of characters in the specified FontRenderContext. 
+              
+              
+              getStringBounds(CharacterIterator ci, int beginIndex, int limit, FontRenderContext frc) 
+              It returns the logical bounds of the characters indexed in the specified CharacterIterator in the specified FontRenderContext. 
+              
+              
+              getStringBounds(String str, FontRenderContext frc) 
+              It returns the logical bounds of the specified String in the specified FontRenderContext. 
+              
+              
+              getStringBounds(String str, int beginIndex, int limit, FontRenderContext frc) 
+              It returns the logical bounds of the specified String in the specified FontRenderContext. 
+              
+              
+              getStyle() 
+              It returns the style of this Font. 
+              
+              
+              getTransform() 
+              It returns a copy of the transform associated with this Font. 
+              
+              
+              hashCode() 
+              It returns a hashcode for this Font. 
+              
+              
+              hasLayoutAttributes() 
+              It returns true if this Font contains attributes that require extra layout processing. 
+              
+              
+              hasUniformLineMetrics() 
+              It checks whether or not this Font has uniform line metrics. 
+              
+              
+              isBold() 
+              It indicates whether or not this Font object's style is BOLD. 
+              
+              
+              isItalic() 
+              It indicates whether or not this Font object's style is ITALIC. 
+              
+              
+              isPlain() 
+              It indicates whether or not this Font object's style is PLAIN. 
+              
+              
+              isTransformed() 
+              It indicates whether or not this Font object has a transform that affects its size in addition to the Size attribute. 
+              
+              
+              layoutGlyphVector(FontRenderContext frc, char[] text, int start, int limit, int flags) 
+              It returns a new GlyphVector object, performing full layout of the text if possible. 
+              
+              
+              toString() 
+              It converts this Font object to a String representation. 
+              
+            
+            Let' see an example of Java Font. JavaFontExample.java 
+           
+            
+import java.applet.Applet;
+import java.awt.Font;
+import java.awt.Graphics;
+public class JavaFontExample extends Applet
+{
+public void paint(Graphics gph) 
+{ 
+//creating a constructor of the font class and passing name, style, and size of the font
+//we can change these three parameters accordingly 
+Font font= new Font("Courier", Font.PLAIN, 20); 
+//setting font by invoking the setFont() method
+gph.setFont(font);
+gph.drawString("Javatpoint is the best learning platform.", 12, 45);
+}
+}
+
+            To execute the above program, follow the steps given below: i. Copy and paste the above code and save the file with the name JavaFontExample.java. ii. Create an HTM file and write the following code. JavaFontExample.html 
+           
+            
+<html>  
+<body>  
+<applet code="JavaFontExample" width=200 height=200>
+</applet>
+</body>  
+</html>  
+
+            iii. Open the Command Prompt and execute the following commands: 
+           
+            
+JavaFontExample.java
+appletviewer JavaFontExample.java
+
+            Output 1:  To get the following output, make the changes in the following statement: 
+           
+            
+Font font= new Font("Monospaced", Font.ITALIC, 30);  //name, face and size of font is changed
+
+            Output 2:  
+            
+            
+            Next Topic
+            Rotate Matrix by 90 Degrees in Java | Rotate Matrix in Java Clockwise and Anti-clockwise 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

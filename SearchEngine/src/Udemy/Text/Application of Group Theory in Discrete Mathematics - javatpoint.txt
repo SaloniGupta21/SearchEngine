@@ -1,0 +1,762 @@
+
+
+ 
+  
+  Application of Group Theory in Discrete Mathematics - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       DBMS 
+       DS 
+       DMS 
+       DAA 
+       Graph Theory 
+       Control System 
+       Aptitude 
+       Selenium 
+       Kotlin 
+       C# 
+       HTML 
+       CSS 
+       JavaScript 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Discrete Mathematics 
+      
+      
+      Discrete Mathematics 
+      
+      
+      Sets Theory 
+      
+      
+      Sets Introduction 
+      Types of Sets 
+      Sets Operations 
+      Algebra of Sets 
+      Multisets 
+      Inclusion-Exclusion Principle 
+      Mathematical Induction 
+      
+      
+      Relations 
+      
+      
+      Binary Relation 
+      Representation of Relations 
+      Composition of Relations 
+      Types of Relations 
+      Closure Properties of Relations 
+      Equivalence Relations 
+      Partial Ordering Relations 
+      
+      
+      Functions & Algorithms 
+      
+      
+      Functions 
+      Types of Functions 
+      Identity Functions 
+      Composition of Functions 
+      Mathematical Functions 
+      Algorithms & Functions 
+      
+      
+      Logic & Propositional 
+      
+      
+      Propositions & Compound Statements 
+      Basic Logical Operations 
+      Conditional & Biconditional Statements 
+      Tautologies & Contradictions 
+      Predicate Logic 
+      Normal Forms 
+      
+      
+      Counting Techniques 
+      
+      
+      Basic Counting Principles 
+      Permutations & Combinations 
+      Pigeonhole Principle 
+      
+      
+      Recurrence Relations 
+      
+      
+      Recurrence Relations 
+      Linear Recurrence Relations with Constant Coefficients 
+      Particular Solution 
+      Total Solution 
+      Generating Functions 
+      
+      
+      Probability Theory 
+      
+      
+      Probability 
+      Addition Theorem 
+      Multiplication Theorem 
+      Conditional Probability 
+      
+      
+      Graph Theory 
+      
+      
+      Introduction of Graphs 
+      Types of Graphs 
+      Representation of Graphs 
+      Isomorphic and Homeomorphic Graphs 
+      Regular and Bipartite Graphs 
+      Planar and Non-Planar Graphs 
+      Dijkstra's Algorithm 
+      Travelling Salesman Problem 
+      
+      
+      Binary Trees 
+      
+      
+      Introduction of Trees 
+      Binary Trees 
+      Traversing Binary Trees 
+      Binary Search Trees 
+      Minimum Spanning Tree 
+      
+      
+      Operator & Postulates 
+      
+      
+      Binary Operation 
+      Property of Binary Operations 
+      
+      
+      Group Theory 
+      
+      
+      SemiGroup 
+      Group 
+      SubGroup 
+      Normal Subgroup 
+      
+      
+      Ordered Sets & Lattices 
+      
+      
+      Partially Ordered Sets 
+      Hasse Diagrams 
+      Lattices 
+      
+      
+      Boolean Algebra 
+      
+      
+      Boolean Algebra 
+      Boolean Expression 
+      Canonical Forms 
+      Logic Gates & Circuits 
+      Karnaugh Maps 
+      
+      
+      Misc 
+      
+      
+      Proof of De Morgan's Law 
+      Discrete mathematics for Computer Science 
+      Abelian Groups in Discrete Mathematics 
+      Applications of Discrete Mathematics in Computer Science 
+      Rings in Discrete Mathematics 
+      Order of Group in Discrete Mathematics 
+      Principle of Duality in Discrete Mathematics 
+      Atomic Propositions in Discrete Mathematics 
+      Applications of Tree in Discrete Mathematics 
+      Quantifiers 
+      Algebraic Structure 
+      Counting principle 
+      Bijective Function in Discrete Mathematics 
+      Multinomial Theorem 
+      Lagrange's Mean Value Theorem 
+      Cauchy's Mean Value Theorem 
+      Rolle's Mean Value Theorem 
+      Semantic difference between Set and Type 
+      Application of Group Theory in Discrete Mathematics 
+      Directed and Undirected graph in Discrete Mathematics 
+      Bayes Formula for Conditional probability 
+      Difference between Function and Relation in Discrete Mathematics 
+      Recursive functions in discrete mathematics 
+      Arguments in Discrete Mathematics 
+      Elementary Matrix in Discrete Mathematics 
+      Hypergeometric Distribution in Discrete Mathematics 
+      
+      
+      DMS MCQ 
+      
+      
+      Discrete Matehmatics MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Application of Group Theory in Discrete Mathematics To learn the application of group theory in discrete mathematics, we will first learn about the group theory, which is described as follows: Group theory In the present day of computer science, mathematics, science, and statistics, the group is described as the most crucial ingredient. The group theory is a type of natural language. In the 19th century, group theory was discovered to provide the solution of algebraic expressions. In modern algebra, the group theory can be described as the study of groups. According to laymen terms, the group theory can be described as the study of a set of components in a group. Here the group is a type of acquisition of the elements that are integrated together so that they can perform some operations on them. The symmetries of a physical system can be easily described with the help of group theory. The group contains a binary operation and a set of elements. The group will be known as the finite group if it contains a finite number of components. The order of the group can be described by the number of components. There are also subgroups that can be described as a subset of a group that is bounded under any group. We can apply the binary operation on two elements of the set that together satisfy certain axioms. That means if we combine two elements of the set with the help of binary operation, it will generate another element of the group and that meets the four hypotheses that can be identity, associative, closure and inverse. These four hypotheses can also be known as group axioms. With the help of a multiplication operation, a group of integers can be performed. The group theory can also be referred to as the branch of abstract algebra. In discrete mathematics, the geometrical theory group can be referred to as the study of groups that are finitely produced by doing various researches of relationships between geometrical properties of space, topological and algebraic properties of groups. The group theory is a type of tool used to determine symmetry. In the group theory, there are two fundamental and influential concepts: symmetry components and symmetry operations. Properties of Group Theory In this, we are going to learn about the properties of group theory in discrete mathematics. Here the operation will be shown by the dot(.), and the group will be shown by G. The group G is an infinite or finite set of components, which is united with the help of binary operation or group operation. The operation which is used to determine a group is known as the Group Operation. Under that operation, a set will be treated as a group. In the group theory, the axioms are described as follows: Closure Suppose a group G contains the two elements 'a' and 'b'. The element will be closure if it contains the following relation: 
+           
+            (a, b) ? G 
+            ? (a . b) ? G
+            Associative  Suppose a group G contains the elements 'a', 'b', and 'c'. The element will be associative if it contains the following relation: 
+           
+            (a . b) . c = a . (b . c) for all a, b, c in G
+            Identity Suppose a group G contains the elements 'a', and another element 'e'. The element will be identified if it contains the following relation: 
+           
+            a . e = e . a for all a
+            Here, element 'e' can also be referred to as the identity element of G. Inverse Suppose a group G contains two the elements 'a', 'b', and also contain an inverse element 'e'. The element 'b' will be referred to inverse of 'a' if it contains the following relation: 
+           
+            a . b = b . a = e
+            There is also one more way to represent the inverse of 'a', which is described as follows: 
+           
+            a
+            -1
+            Applications of Group Theory In discrete mathematics and science, group theory is used to study algebraic structures, which are known as groups. In abstract algebra, the group is the center. The groups are also seen by the other well known algebraic structures such as vector spaces, fields, rings. These other algebraic structures are endowed with axioms and additional operations. The several parts of algebra are influenced by the methods of group theory. The group theory has two branches: the lie group and the linear algebra group. These branches have experienced advances. With the help of symmetry groups, various physical systems can be easily modeled, such as hydrogen and crystals atoms. So the group theory and the closely related theory are known as the representation theory because it contains a lot of important applications in the field of chemistry, physics, and material science. The group theory has a lot of beneficial applications and multiple facets. Here groups also mount in various supposedly impertinent entities. For example: Group theory will resemble geometry and topology, crystallography, quantum mechanisms, analysis and algebra, and more places. Some of them are described as follows: Physics The group theory plays an indispensable role in Physics. In Atomic and molecular spectroscopy, the group theory is used to find out the selection rules for spectroscopic transitions. Chemistry With the help of implementing group theory in chemistry, we are able to analyze the crystal and symmetries structure of molecules. It is used to include the spectroscopic properties of a module and also include the various physical and chemical properties of modules. In the field of molecular orbital theory, the powerful and standard tool is group theory because it provides the ability to study molecular properties. Computer In the field of symmetry, the group theory can be referred to as a powerful tool. The graph theory provides an ultimate impact on research in medical image analysis, computer vision, robotics and computer graphics. Mathematics The group theory is able to provide a classification of identical mathematical objects, and they usually manage those objects that possess symmetry. The group theory will be useful in mathematical functions and operations and in geometric figures. For example: a circle is highly symmetric, which means if we rotate the circle, it will become invariant. In public-key algorithms and cryptography, smooth data transmission is able to perform with the help of co-sets, groups, and subgroups. According to recent researches, the group theory is also exploited in music screening. Importance of Group Theory In the group theory, we are going to study the algebraic objects, which are referred to as groups. We can use these groups in models, and it also studies the symmetries of a specific object. With the help of Galois Theory, we can explain the group theory. In this theorem, a new way will be found to attack the group to a polynomial. This polynomial will provide the proof of un-solvability of a fifth-degree polynomial. The groups are mostly used in the topology, mainly in the algebraic topology, to capture certain invariants of space. Public-key cryptography also uses the group theory, which is used to efficiently carry out certain computations. The remainder of the integer will be modeled by the cyclic group, which is used to carrying out large computations. Examples of Group Theory The various examples of group theory are described as follows: Example 1: Suppose there is a group G. Now, we have to prove that the element e ? G is unique. We also have to prove that 'a' unique inverse is contained by each element a ? G. The syntax 'a-1' will be used to denote the unique inverse. Solution: Here we will consider two identities elements e and e'. On the basis of the definition, we will get e' = e * e' = e. Similarly, we will assume b and b' to be inverse of a. After that, we will get the following: b = b * e = b * (a * b') = (b * a) * b' = e * b' = b' Example 2: Suppose group G contains two elements 'a' and 'b' and also the inverse of them as 'a-1' and 'b-1'. Now we have to find out the inverse of 'ab'. Solution: Using the following way, we can describe the inverse of product of 'a' and 'b'. a * b = a-1 * b-1 We have (a * b) * (a-1 * b-1) = a (b * b-1) a-1 = aea-1 = e Similarly, (a-1 * b-1) * (a * b) = e Therefore, (ab)-1 = a-1 b-1 
+            
+            
+            Next Topic
+            Directed and Undirected graph in Discrete Mathematics 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,819 @@
+
+
+ 
+  
+  What is Interleaved Memory - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            What is Interleaved Memory? Interleaved memory is designed to compensate for the relatively slow speed of dynamic random-access memory (DRAM) or core memory by spreading memory addresses evenly across memory banks. In this way, contiguous memory reads and writes use each memory bank, resulting in higher memory throughput due to reduced waiting for memory banks to become ready for the operations. It is different from multi-channel memory architectures, primarily as interleaved memory does not add more channels between the main memory and the memory controller. However, channel interleaving is also possible, for example, in Freescale i.MX6 processors, which allow interleaving to be done between two channels. With interleaved memory, memory addresses are allocated to each memory bank.  Example of Interleaved Memory It is an abstraction technique that divides memory into many modules such that successive words in the address space are placed in different modules. Suppose we have 4 memory banks, each containing 256 bytes, and then the Block Oriented scheme (no interleaving) will assign virtual addresses 0 to 255 to the first bank and 256 to 511 to the second bank. But in Interleaved memory, virtual address 0 will be with the first bank, 1 with the second memory bank, 2 with the third bank and 3 with the fourth, and then 4 with the first memory bank again. Hence, the CPU can access alternate sections immediately without waiting for memory to be cached. There are multiple memory banks that take turns for the supply of data. In the above example of 4 memory banks, data with virtual addresses 0, 1, 2 and 3 can be accessed simultaneously as they reside in separate memory banks. Hence we do not have to wait to complete a data fetch to begin the next operation. An interleaved memory with n banks is said to be n-way interleaved. There are still two banks of DRAM in an interleaved memory system, but logically, the system seems one bank of memory that is twice as large. In the interleaved bank representation below with 2 memory banks, the first long word of bank 0 is flowed by that of bank 1, followed by the second long word of bank 0, followed by the second long word of bank 1 and so on. The following image shows the organization of two physical banks of n long words. All even long words of the logical bank are located in physical bank 0, and all odd long words are located in physical bank 1.  Why do we use Memory Interleaving? When the processor requests data from the main memory, a block (chunk) of data is transferred to the cache and then to processor. So whenever a cache miss occurs, the data is to be fetched from the main memory. But main memory is relatively slower than the cache. So to improve the access time of the main memory, interleaving is used. For example, we can access all four modules at the same time, thus achieving parallelism. The data can be acquired from the module using the higher bits. This method uses memory effectively. Types of Interleaved Memory In an operating system, there are two types of interleaved memory, such as: 1. High order interleaving: In high order memory interleaving, the most significant bits of the memory address decides memory banks where a particular location resides. But, in low order interleaving the least significant bits of the memory address decides the memory banks. The least significant bits are sent as addresses to each chip. One problem is that consecutive addresses tend to be in the same chip. The maximum rate of data transfer is limited by the memory cycle time. It is also known as Memory Banking.  2. Low order interleaving: The least significant bits select the memory bank (module) in low-order interleaving. In this, consecutive memory addresses are in different memory modules, allowing memory access faster than the cycle time.  Benefits of Interleaved Memory An instruction pipeline may require instruction and operands both at the same time from main memory, which is not possible in the traditional method of memory access. Similarly, an arithmetic pipeline requires two operands to be fetched simultaneously from the main memory. So, to overcome this problem, memory interleaving comes to resolve this. 
+            
+            It allows simultaneous access to different modules of memory. The modular memory technique allows the CPU to initiate memory access with one module while others are busy with the CPU in reading or write operations. So, we can say interleave memory honors every memory request independent of the state of the other modules. 
+            So, for this obvious reason, interleave memory makes a system more responsive and fast than non-interleaving. Additionally, with simultaneous memory access, the CPU processing time also decreases and increasing throughput. Interleave memory is useful in the system with pipelining and vector processing. 
+            In an interleaved memory, consecutive memory addresses are spread across different memory modules. Say, in a byte-addressable 4 way interleave memory, if byte 0 is in the first module, then byte 1 will be in the 2nd module, byte 2 will be in the 3rd module, byte 3 will be in the 4th module, and again byte 4 will fall in the first module, and this goes on. 
+            An n-way interleaved memory where main memory is divided into n-banks and system can access n operands/instruction simultaneously from n different memory banks. This kind of memory access can reduce the memory access time by a factor close to the number of memory banks. In this memory interleaving memory location, i can be found in bank i mod n. 
+            Interleaving DRAM Main memory is usually composed of a collection of DRAM memory chips, where many chips can be grouped together to form a memory bank. With a memory controller that supports interleaving, it is then possible to layout these memory banks so that the memory banks will be interleaved. Data in DRAM is stored in units of pages. Each DRAM bank has a row buffer that serves as a cache for accessing any page in the bank. Before a page in the DRAM bank is read, it is first loaded into the row-buffer. If the page is immediately read from the row-buffer, it has the shortest memory access latency in one memory cycle. Suppose it is a row buffer miss, which is also called a row-buffer conflict. It is slower because the new page has to be loaded into the row-buffer before it is read. Row-buffer misses happening as access requests on different memory pages in the same bank are serviced. A row-buffer conflict incurs a substantial delay for memory access. In contrast, memory accesses to different banks can proceed in parallel with high throughput. In traditional layouts, memory banks can be allocated a contiguous block of memory addresses, which is very simple for the memory controller and gives an equal performance in completely random access scenarios compared to performance levels achieved through interleaving. However, memory reads are rarely random due to the locality of reference, and optimizing for close together access gives far better performance in interleaved layouts. The way memory is addressed does not affect the access time for memory locations that are already cached, impacting only on memory locations that need to be retrieved from DRAM. 
+            
+            
+            Next Topic
+            Difference between Trap and Interrupt in Operating System 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

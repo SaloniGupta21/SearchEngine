@@ -1,0 +1,1209 @@
+
+
+ 
+  
+  Remove Duplicate Elements from an Array in C - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       C 
+       C++ 
+       C# 
+       Java 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Cloud 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     C/C++ Training 
+      
+      C Tutorial 
+      
+      
+      What is C Language 
+      History of C  
+      Features of C 
+      How to install C 
+      First C Program 
+      Compilation Process in C 
+      printf scanf 
+      Variables in C 
+      Data Types in c 
+      Keywords in c 
+      C Identifiers 
+      C Operators 
+      C Comments 
+      C Format Specifier 
+      C Escape Sequence 
+      ASCII value in C 
+      Constants in C 
+      Literals in C 
+      Tokens in C 
+      C Boolean 
+      Static in C 
+      Programming Errors in C 
+      Compile time vs Runtime 
+      Conditional Operator in C 
+      Bitwise Operator in C 
+      2s complement in C 
+      C Fundamental Test 
+      
+      
+      C Control Statements 
+      
+      
+      C if-else 
+      C switch 
+      if-else vs switch 
+      C Loops 
+      C do-while loop 
+      C while loop 
+      C for loop 
+      Nested Loops in C 
+      Infinite Loop in C 
+      C break 
+      C continue 
+      C goto 
+      Type Casting 
+      C Control Statement Test 
+      
+      
+      C Functions 
+      
+      
+      What is function 
+      Call: Value & Reference 
+      Recursion in c 
+      Storage Classes 
+      C Functions Test 
+      
+      
+      C Array 
+      
+      
+      1-D Array 
+      2-D Array 
+      Return an Array in C 
+      Array to Function 
+      C Array Test 
+      
+      
+      C Pointers 
+      
+      
+      C Pointers 
+      C Pointer to Pointer 
+      C Pointer Arithmetic 
+      Dangling Pointers in C 
+      sizeof() operator in C 
+      const Pointer in C 
+      void pointer in C 
+      C Dereference Pointer 
+      Null Pointer in C 
+      C Function Pointer 
+      Function pointer as argument in C 
+      C Pointers Test 
+      
+      
+      C Dynamic Memory 
+      
+      
+      Dynamic memory 
+      
+      
+      C Strings 
+      
+      
+      String in C 
+      C gets() & puts() 
+      C String Functions 
+      C strlen() 
+      C strcpy() 
+      C strcat() 
+      C strcmp() 
+      C strrev() 
+      C strlwr() 
+      C strupr() 
+      C strstr() 
+      C String Test 
+      
+      
+      C Math 
+      
+      
+      C Math Functions 
+      
+      
+      C Structure Union 
+      
+      
+      C Structure 
+      typedef in C 
+      C Array of Structures 
+      C Nested Structure 
+      Structure Padding in C 
+      C Union 
+      C Structure Test 
+      
+      
+      C File Handling 
+      
+      
+      C File Handling 
+      C fprintf() fscanf() 
+      C fputc() fgetc() 
+      C fputs() fgets() 
+      C fseek() 
+      C rewind() 
+      C ftell() 
+      
+      
+      C Preprocessor 
+      
+      
+      C Preprocessor 
+      C Macros 
+      C #include 
+      C #define 
+      C #undef 
+      C #ifdef 
+      C #ifndef 
+      C #if 
+      C #else 
+      C #error 
+      C #pragma 
+      C Preprocessor Test 
+      
+      
+      C Command Line 
+      
+      
+      Command Line Arguments 
+      
+      
+      C Misc 
+      
+      
+      C Expressions 
+      Data Segments 
+      Flow of C Program 
+      Classification of Programming Languages 
+      Enum in C 
+      What is getch() in C 
+      What is the function call in C 
+      typedef vs define in C 
+      
+      
+      C Programming Test 
+      
+      
+      C Programming Test 
+      
+      
+      C Programs 
+      
+      
+      Top 10+ C Programs 
+      Fibonacci Series 
+      Prime Number 
+      Palindrome Number 
+      C program to compare the two strings 
+      Strings Concatenation in C 
+      Factorial 
+      Armstrong Number 
+      Sum of digits 
+      Count the number of digits in C 
+      Reverse Number 
+      Swap Number 
+      Print "Hello" without ; 
+      Assembly code in C 
+      C program without main 
+      Matrix Multiplication 
+      Decimal to Binary 
+      Number in Characters 
+      Alphabet Triangle 
+      Number Triangle 
+      Fibonacci Triangle 
+      Hexadecimal to Binary 
+      Hexadecimal to Decimal 
+      Octal to Hexadecimal in C 
+      Strong number in C 
+      Star Program in C 
+      itoa Function in C 
+      Extra Long Factorials in C 
+      Leap year program in C 
+      Perfect Number Program in C 
+      Variables vs Constants 
+      Round Robin Program in C with Output 
+      C Program to find the roots of quadratic equation 
+      Type Casting vs Type Conversion 
+      How to run a C program in Visual Studio Code 
+      Modulus Operator in C/C++ 
+      Sum of first N natural numbers in C 
+      Big O Notation in C 
+      LCM of two numbers in C 
+      while loop vs do-while loop in C 
+      Memory Layout in C 
+      Balanced Parenthesis in C 
+      Binary to Decimal Number in C 
+      GCD of two numbers in C 
+      Getchar() function in C 
+      flowchart in C 
+      Simpson Method 
+      Pyramid Patterns in C 
+      Random Function in C 
+      Floyd's Triangle in C 
+      C Header Files 
+      abs() function in C 
+      Atoi() function in C 
+      Structure Pointer in C 
+      sprintf() in C 
+      Range of Int in C 
+      C Program to convert 24 Hour time to 12 Hour time 
+      What is double in C 
+      What is the main in C 
+      Calculator Program in C 
+      Calloc in C 
+      user-defined vs library function in C 
+      Memset C 
+      ASCII Table in C 
+      Static function in C 
+      Reverse a String in C 
+      Twin Prime Numbers in C 
+      strchr() function in C 
+      Structure of a C program 
+      Power Function in C 
+      Malloc in C 
+      Table Program in C 
+      Types of Recursion in C 
+      Convert Uppercase to Lowercase in C 
+      Unary Operator in C 
+      Arithmetic Operator in C 
+      Ceil Function in C 
+      Relational Operator in C 
+      Assignment Operator in C 
+      Pre-increment and Post-increment Operator in C 
+      Pointer vs array in C 
+      Restrict keyword in C 
+      The exit() function in C 
+      Const Qualifier in C 
+      Sequence Points in C 
+      Anagram in C 
+      Increment and Decrement Operators in C 
+      Logical AND Operator in C 
+      Shift Operators in C 
+      Near, Far, and Huge pointers in C language 
+      Magic Number in C 
+      Remove Duplicate Elements from an Array in C 
+      Generic Linked list in C 
+      isalnum() function in C 
+      isalpha() function in C 
+      Bisection Method in C 
+      snprintf() function in C 
+      
+      
+      MCQ 
+      
+      
+      C language MCQ 
+      C language MCQ Part 2 
+      
+      
+      Math 
+      
+      
+      Prime Numbers List 
+      Composite Numbers List 
+      Square Numbers List 
+      Binary Numbers List 
+      Fibonacci Numbers List 
+      Ounces in a Cup 
+      Ounces in a Pound 
+      Ounces in a Gallon 
+      Ounces in a Liter 
+      Ounces in a Pint 
+      Ounces in a Quart 
+      Ounces in a Tablespoon 
+      
+      
+      C Interview 
+      
+      
+      C Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Remove Duplicate Elements from an Array in C This section will discuss the removing or deletion of the duplicate elements from an array in the C programming language. When the same number of elements occurs in sorted or unsorted array, then the elements of the array is called the duplicate elements. And we need to delete these duplicate elements or same number from an array to make the resultant array consists of unique elements. For example, there is an integer type array arr[10] that contains { 5, 8, 3, 3, 5, 9} elements. In this array, 3 and 5 occurs two times. Hence, these elements are duplicate elements. So, after deleting the duplicate elements from an array arr[], we get 5, 8, 3,9 elements. Steps to delete the duplicate elements from unsorted array Step 1: Input the size of an array from the user and store into the size variable. Step 2: Use for loop to read the elements of an array and store in arr[i] variable. Step 3: To get the duplicate elements from an array we need to use two for loops. Where the first loop start from 0 to size. And the structure of the loop is: for (i = 0; i < size; i++). Another loop selects each element of the array and compare with the corresponding element to get the duplicate elements. And the structure of the inner loop is: for (j = i + 1; j < size; j++) and the code to find the subsequent same element is: if (arr[i] == arr[j]). Step 4: If any duplicate element is encountered, delete the duplicate element from an array and the size of array is decrement by 1 such that, size = size - 1. Step 5: After that, print the unique elements of an array and the code is: 
+           
+            
+for (i = 0; i < size; i++)
+{
+printf ("%d \t" , arr[i]);
+}
+
+            Example 1: Program to remove the duplicate elements from an array Let's consider an example to delete the same number or duplicate elements from an array in the C programming language. 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+int main ()
+{
+	// declare local variables 
+	int arr[20], i, j, k, size;
+	
+	printf (" Define the number of elements in an array: ");
+	scanf (" %d", &size);
+	
+	printf (" \n Enter %d elements of an array: \n ", size);
+	// use for loop to enter the elements one by one in an array
+	for ( i = 0; i < size; i++)
+	{
+		scanf (" %d", &arr[i]);
+	}
+	
+	
+	// use nested for loop to find the duplicate elements in array
+	for ( i = 0; i < size; i ++)
+	{
+		for ( j = i + 1; j < size; j++)
+		{
+			// use if statement to check duplicate element
+			if ( arr[i] == arr[j])
+			{
+				// delete the current position of the duplicate element
+				for ( k = j; k < size - 1; k++)
+				{
+					arr[k] = arr [k + 1];
+				}
+				// decrease the size of array after removing duplicate element
+				size--;
+				
+			// if the position of the elements is changes, don't increase the index j
+				j--;	
+			}
+		}
+	}
+	
+	
+	/* display an array after deletion or removing of the duplicate elements */
+	printf (" \n Array elements after deletion of the duplicate elements: ");
+	
+	// for loop to print the array
+	for ( i = 0; i < size; i++)
+	{
+		printf (" %d \t", arr[i]);
+	}
+	return 0;
+}
+
+            When we execute the above program in C compiler, it produces the given below output in the console screen. 
+           
+            Define the number of elements in an array: 10
+
+ Enter 10 elements of an array:
+ 57
+12
+89
+32
+62
+12
+89
+35
+67
+75
+
+ Array elements after deletion of the duplicate elements:  57    12      89      32      62      35      67      75
+
+            Remove the Duplicate Elements from Sorted Array Suppose we have a given sorted array and the task is to remove the same number of elements from the array. For example, there is an integer type array whose size is 5 and contains arr[] = {2, 2, 3, 3, 5} elements. In this sorted array, 2 and 3 numbers occurs two times. Hence, these elements are duplicate elements. So, after deleting the duplicate elements from an array arr[], we get 2, 3, 5 elements and the new size of array is 3. Algorithm to delete the duplicate elements from sorted array Following is the algorithm to delete the duplicate array's elements from the sorted array in the C programming language. 
+            
+            Define the size of elements of the array. 
+            Read the array elements from the user. 
+            Repeat from i = 1 to num. 
+              
+              if (arr[i] != arr [i + 1] 
+              temp [j++] = arr[i] 
+              temp [j++] = arr[n- 1] 
+              Repeat from i = 1 to j 
+              arr[i] = temp[i] 
+              arr [i] = temp [i] 
+              Return j. 
+              
+            Print unique elements of the array. 
+            Example 2: Program to remove the duplicate elements from sorted array using the user-defined function  Let's consider an example to delete the same number or duplicate elements from sorted array in the C programming language. 
+           
+            
+/* program to delete the duplicate elements from sorted array in C. */
+#include <stdio.h>
+
+int duplicate_element ( int arr[], int num)
+{
+	// check num is equal to 0 and num == 1
+	if (num == 0 || num == 1)
+		return num;
+		
+	// create temp array to store same number	
+	int temp [num];	
+	
+	// declare variable
+	int i, j = 0;
+	
+	// use for loop to check duplicate element
+	for (i = 0; i < num - 1; i++)
+	{
+		// check the element of i is not equal to (i + 1) next element
+		if (arr [i] != arr[i + 1])
+			temp[j++] = arr[i];
+	}
+	temp[j++] = arr[ num - 1];
+
+
+	// check the original array's elements with temporary array's elements
+	for (i = 0; i < j; i++)
+	{
+		arr[i] = temp[i];
+		}	
+		
+	return j;	
+}
+
+int main ()
+{
+	int num;
+	printf (" Define the no. of elements of the array: ");
+	scanf (" %d", &num);
+	
+	
+	int arr[num], i;
+	
+	printf (" Enter the elements: ");
+	// use loop to read elements one by one
+	for ( i = 0; i < num; i++)
+	{
+		scanf (" %d", &arr[i]);
+	}
+	
+	printf (" \n Elements before removing duplicates: ");
+	for ( i = 0; i < num; i++)
+	{
+		printf (" %d", arr[i]);
+	}
+	
+	num = duplicate_element (arr, num);
+	
+	// print array after removing duplicates elements
+	printf (" \n Display array's elements after removing duplicates: ");
+	for ( i = 0; i < num; i++)
+	{
+		printf (" %d", arr[i]);
+		}	
+		
+	return 0;	
+	
+}
+
+            When we execute the above program in C compiler, it produces the given below output in the console screen. 
+           
+            Define the no. of elements of the array: 10
+ Enter the elements: 5
+6
+6
+7
+8
+8
+9
+10
+11
+11
+
+ Elements before removing duplicates:  5 6 6 7 8 8 9 10 11 11
+ Display array's elements after removing duplicates:  5 6 7 8 9 10 11
+
+            Example 3: Program to remove the duplicate array elements using pointer  Let's consider an example to print the unique array elements by removing the duplicate element using the pointers in the C programming language. 
+           
+            
+/* program to delete the duplicate elements from sorted array using pointers in C. */
+#include <stdio.h>
+#include <stdlib.h>
+
+// declare variable
+int i, j;
+
+// definition of the function
+int remove_element ( int *ptr, int num)
+{
+int temp;
+
+// use for loop 
+
+for ( i = 0; i < num-1; i++)
+{
+	for (j = i + 1; j < num; j++)
+	{
+		// if statement to check the same number int sorted array
+		if ( *(ptr+i) == *(ptr+j))
+		{
+			temp = *(ptr + j);
+			*(ptr + j) = *(ptr + num - 1);
+			*(ptr + num - 1) = temp;
+			num--;
+		}
+	}
+}	
+	
+    printf (" After removing the duplicate elements: ");
+	for ( i = 0; i < num; i++)
+	{
+		printf (" %d \t", *(ptr+i));
+	}
+	return 0;
+}
+
+
+int main ()
+{
+	// declare local variable
+	int num, *ptr;
+	printf (" Define the size of the array element: ");
+	scanf (" %d", &num);
+	
+	ptr = (int *) malloc (num * sizeof(int));
+	
+	printf (" \n Enter the elements of the array: \n");
+	// use for loop to read elements
+	for ( i = 0; i < num; i++)
+	{
+		scanf (" %d", (ptr+i));
+	}
+
+	// call function to print the unique elements
+	remove_element (ptr, num);
+	return 0;
+}
+
+            When we execute the above program in C compiler, it produces the given below output in the console screen. 
+           
+            Define the size of the array element: 10
+
+ Enter the elements of the array:
+5
+5
+6
+7
+7
+8
+8
+9
+10
+11
+ After removing the duplicate elements:  5       11      6       7       10      8       9
+
+            Example 4: Delete Duplicate Elements from a sorted array by creating separate index for same elements Let's consider an example to display the unique elements from a sorted array by creating extra space for same number of element/ index in the C programming language. 
+           
+            
+#include <stdio.h>
+#include <conio.h>
+
+/* deleteDuplicate() function to remove same elements
+and return new array size. */
+int deleteDuplicate (int arr[], int num)
+{
+	
+	if (num == 0 || num == 1)
+		return num;
+
+
+// store index of next unique element
+int i, j = 0;
+
+// use for loop to find and remove the duplicate elements
+for (i = 0; i < num - 1; i++)
+{
+	if ( arr[i] != arr[i+1])
+	{
+		arr[j++] = arr[i];
+	}	
+	
+}
+arr[j++] = arr[num -1];
+return j;
+}
+
+
+int main ()
+{
+	int i;
+	// initialize sorted array
+	int arr[] = {5, 10, 10, 15, 15, 20, 25, 25, 30, 30};
+	
+	// get the size of the array
+	int num = sizeof(arr) / sizeof(arr[0]);
+	
+	/* call deleteDuplicate() function to 
+	delete duplicate element and return new size. */
+	num = deleteDuplicate(arr, num);
+	
+	printf (" Display the unique elements from the sorted array: \n ");
+	// display the updated element of the sorted array
+	for ( i = 0; i < num; i++)
+	{
+		printf (" %d \t", arr[i]);
+	}
+	return 0;
+}
+
+            When we execute the above program in C compiler, it produces the given below output in the console screen. 
+           
+            Display the unique elements from the sorted array:
+  5      10      15      20      25      30
+
+            
+            
+            
+            Next Topic
+            Generic Linked list in C 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

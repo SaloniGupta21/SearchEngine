@@ -1,0 +1,641 @@
+
+
+ 
+  
+  List Of Properties Of Magnetic Lines Of Forces - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       List Of 
+       Chemistry 
+       Biology 
+       Maths 
+       GK 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      List Of 
+      
+      
+      List Of 
+      Billionaires 
+      Mughal Emperors 
+      European Countries 
+      Apps Banned in India 
+      US Presidents 
+      Presidents of India 
+      States in India 
+      Inorganic Compounds 
+      Continents 
+      Marvel Movies in order 
+      List of Fruits 
+      List of Government Banks in India 
+      Chinese app in India 
+      Countries in the World 
+      Union Territories in India 
+      List of Colors 
+      List of Finance Minister in India 
+      List of Indian Mobile 
+      List of Indian Snacks 
+      List of Fundamental Rights 
+      List of Cabinet Minister of India 
+      List of IIM in India 
+      List of Asian Countries 
+      List of Banks in India 
+      List of Outdoor Games 
+      List of courses after 12th Commerce 
+      List of iPhone 
+      List of Animals 
+      List of China Products in India 
+      List of US states 
+      List of Pirates of the Caribbean Movies 
+      List of Chinese Products in India 
+      List of diploma courses after 10th 
+      List of African Countries 
+      List of DD Channels 
+      List of Banks Integrated with PFMS 
+      List of Indoor Games 
+      List of Cities in India 
+      List Of Cities In USA 
+      List of the Indian Festivals 
+      List of Schemes by Narendra Modi Government 
+      List of High Courts in India 
+      List of Chief Justices of India 
+      List of Popular English Songs 
+      List Of Cities In Canada 
+      List of Banks with Zero Balance Account 
+      List Of Birds 
+      List of Input Devices 
+      List of Kitchen Items 
+      List Of Makeup Items 
+      List of Pet Animals 
+      List Of Professions 
+      List Of Properties Of Magnetic Lines Of Forces 
+      List of Engineering Colleges in Bangalore 
+      List of IIT in India 
+      List Of Insurance Companies In India 
+      List of Flowers 
+      List Of Common Characteristics Of Living Things 
+      List of Monuments In India 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            List Of Properties Of Magnetic Lines Of Forces Any object that attracts iron and creates a magnetic field around itself is called a magnet. All recognized metals and numerous compounds had been investigated for magnetization by the end of the nineteenth century and all were determined to have had some magnetic property.   The property of diamagnetism, the term for materials that display a mild repulsion by both poles of a permanent magnet was perhaps the most frequent. When placed close to a magnet, some materials, such as chromium, demonstrate paramagnetism or the ability to produce weak magnetization. When the magnet is withdrawn, the magnetization vanishes. Characteristics of Magnet  A magnet has a few common attributes which are listed below: 1. Attractive property This attribute demonstrates that the magnetic strength somewhere at pole ends is high. 2. Directive property By holding the magnet in mid-air, this feature aids in determining which pole of the magnet is northern and southern. 3. Law of magnetic poles Similar poles oppose each other, whereas dissimilar poles attract each other, according to the rule of magnetic poles. 4. Pair property The Northern Pole and the Southern Pole may be discovered on both sides of a magnet even when it is divided in half. 5. A sure test of magnetization This test is used to determine whether a certain rod is magnetic or not by measuring the attraction or repulsion between the iron rod and the magnet. Magnetic Lines Of Forces  The magnetic lines of force are drawn around the magnet in the given figure, showing the region wherein the magnet's force is measured. The magnetic field is the way of referring to this area. Whenever an iron item is brought near a magnet but not within its magnetic field, the magnet will not pull the object towards it. On the other hand, when an item enters into the magnetic field, the magnet's force is activated and the object is pulled. The structure of these lines of force conveys information about the nature of the magnet's forces. The magnetic lines of force, also known as flux, go from the north to the south. Properties Of Magnetic Lines Of Forces 
+            
+            Magnetic lines of force are circular, constant curves that run through the length of the magnet's body. Within a matter, they move from the south pole to the north pole, while in the atmosphere, i.e. outside the magnet, they flow from the north pole to the south pole. 
+            At every position, the tangent to the magnetic line of force indicates the direction of the magnetic field. 
+            The magnetic lines of forces never cross or intersect each other and doing so would result in two magnetic field values at a single place, which is not feasible. 
+            The magnetic field is greater at the magnet's poles because the lines of force are either entering or originating and are crowded together. While the magnetic field is weak away from the poles as they are comparatively at a fewer distance. 
+            The magnetic lines' intensity remains constant throughout and is proportionate to their proximity. When they travel from a high-permeability region to a low-permeability one, their density falls. With increasing distance from the poles, their density diminishes. 
+            
+            
+            
+            Next Topic
+            List of Engineering Colleges in Bangalore 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

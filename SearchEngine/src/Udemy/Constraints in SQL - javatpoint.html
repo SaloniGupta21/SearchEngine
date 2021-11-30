@@ -1,0 +1,1240 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Constraints in SQL - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Constraints in SQL - javatpoint">
+  <meta property="og:description" content="Constraints in SQL with sql, tutorial, examples, insert, update, delete, select, join, database, table, join etc, SQL CAST Function, SQL Formatter."> 
+  <meta name="keywords" content="sql, tutorial, examples, insert, update, delete, select, join, database, table, join, what is sql, sql data types, sql operators, sql syntax, sql primary keys, sql vs nosql, sql where, sql and, sql or">
+  <meta name="description" content="Constraints in SQL with sql, tutorial, examples, insert, update, delete, select, join, database, table, join etc, SQL CAST Function, SQL Formatter.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/constraints-in-sql"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Constraints in SQL - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Constraints in SQL with sql, tutorial, examples, insert, update, delete, select, join, database, table, join etc, SQL CAST Function, SQL Formatter.">
+  <meta property="og:url" content="https://www.javatpoint.com/constraints-in-sql">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/icon/home.png" alt="home"> Home</a></li> 
+       <li><a href="sql-tutorial" class="selected"><img src="https://static.javatpoint.com/images/icon/sql.png" alt="sql"> SQL</a></li> 
+       <li><a href="pl-sql-tutorial"><img src="https://static.javatpoint.com/images/icon/plsql.png" alt="plsql"> PL/SQL</a></li> 
+       <li><a href="mysql-tutorial"><img src="https://static.javatpoint.com/images/icon/mysql.png" alt="mysql"> MySQL</a></li> 
+       <li><a href="mongodb-tutorial"><img src="https://static.javatpoint.com/images/icon/mongodb.png" alt="mongodb"> MongoDB</a></li> 
+       <li><a href="postgresql-tutorial"><img src="https://static.javatpoint.com/images/icon/postgresql.png" alt="postgresql"> PostgreSQL</a></li> 
+       <li><a href="sql-server-tutorial"><img src="https://static.javatpoint.com/images/icon/sqlserver.png" alt="sql server"> SQL Server</a></li> 
+       <li><a href="oracle-tutorial"><img src="https://static.javatpoint.com/images/icon/oracle.png" alt="oracle"> Oracle</a></li> 
+       <li><a href="cassandra-tutorial"><img src="https://static.javatpoint.com/images/icon/cassandra.png" alt="cassandra"> Cassandra</a></li> 
+       <li><a href="sqlite-tutorial"><img src="https://static.javatpoint.com/images/icon/sqlite.png" alt="sqlite"> SQLite</a></li> 
+       <li><a href="dbms-tutorial"><img src="https://static.javatpoint.com/images/icon/dbms.png" alt="dbms"> DBMS</a></li> 
+       <li><a href="python-tutorial"><img src="https://static.javatpoint.com/images/icon/python.png" alt="python"> Python</a></li> 
+       <li><a href="java-tutorial"><img src="https://static.javatpoint.com/images/icon/java.png" alt="java"> Java</a></li> 
+       <li><a href="https://www.javatpoint.com/aptitude/quantitative"><img src="https://static.javatpoint.com/images/icon/aptitude.png" alt="aptitude"> Aptitude</a></li> 
+       <li><a href="sql-interview-questions"><img src="https://static.javatpoint.com/images/icon/interview.png" alt="interview questions"> Interview Q</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <a target="_blank" href="https://training.javatpoint.com/oracle-training.jsp" class="training">Oracle Training</a> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-tutorial">What is SQL</a> 
+      <a href="sql-syntax" class="l1">SQL Syntax</a> 
+      <a href="sql-data-types" class="l1">SQL Data Types</a> 
+      <a href="sql-operators" class="l1">SQL Operators</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Database</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-create-database" class="l1">SQL CREATE Database</a> 
+      <a href="sql-drop-database" class="l1">SQL DROP Database</a> 
+      <a href="sql-rename-database" class="l1">SQL RENAME Database</a> 
+      <a href="sql-select-database" class="l1">SQL SELECT Database</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Table</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-table" class="l1">What is Table</a> 
+      <a href="sql-create-table" class="l1">SQL CREATE TABLE</a> 
+      <a href="sql-drop-table" class="l1">SQL DROP TABLE</a> 
+      <a href="sql-delete-table" class="l1">SQL DELETE TABLE</a> 
+      <a href="sql-rename-table" class="l1">SQL RENAME TABLE</a> 
+      <a href="sql-truncate-table" class="l1">SQL TRUNCATE TABLE</a> 
+      <a href="sql-copy-table" class="l1">SQL COPY TABLE</a> 
+      <a href="sql-temp-table" class="l1">SQL TEMP TABLE</a> 
+      <a href="sql-alter-table" class="l1">SQL ALTER TABLE</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Select</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-select" class="l1">SELECT Statement</a> 
+      <a href="sql-select-unique" class="l1">SQL SELECT UNIQUE</a> 
+      <a href="sql-select-distinct" class="l1">SQL SELECT DISTINCT</a> 
+      <a href="sql-select-count" class="l1">SQL SELECT COUNT</a> 
+      <a href="sql-select-top" class="l1">SQL SELECT TOP</a> 
+      <a href="sql-select-first" class="l1">SQL SELECT FIRST</a> 
+      <a href="sql-select-last" class="l1">SQL SELECT LAST</a> 
+      <a href="sql-select-random" class="l1">SQL SELECT RANDOM</a> 
+      <a href="sql-select-in" class="l1">SQL SELECT IN</a> 
+      <a href="sql-select-from-multiple-tables" class="l1">SQL SELECT Multiple</a> 
+      <a href="sql-select-date" class="l1">SQL SELECT DATE</a> 
+      <a href="sql-select-sum" class="l1">SQL SELECT SUM</a> 
+      <a href="sql-select-null" class="l1">SQL SELECT NULL</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Clause</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-where" class="l1">SQL WHERE</a> 
+      <a href="sql-and" class="l1">SQL AND</a> 
+      <a href="sql-or" class="l1">SQL OR</a> 
+      <a href="sql-with" class="l1">SQL WITH</a> 
+      <a href="sql-select-as" class="l1">SQL AS</a> 
+      <a href="having-clause-in-sql">SQL HAVING Clause</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Order By</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-order-by" class="l1">ORDER BY Clause</a> 
+      <a href="sql-order-by-asc" class="l1">ORDER BY ASC</a> 
+      <a href="sql-order-by-desc" class="l1">ORDER BY DESC</a> 
+      <a href="sql-order-by-random" class="l1">ORDER BY RANDOM</a> 
+      <a href="sql-order-by-limit" class="l1">ORDER BY LIMIT</a> 
+      <a href="sql-order-by-multiple-columns" class="l1">ORDER BY Multiple Cols</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Insert</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-insert" class="l1">INSERT Statement</a> 
+      <a href="sql-insert-into-values" class="l1">INSERT INTO Values</a> 
+      <a href="sql-insert-into-select" class="l1">INSERT INTO SELECT</a> 
+      <a href="sql-insert-multiple-rows" class="l1">INSERT Multiple Rows</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Update</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-update" class="l1">UPDATE Statement</a> 
+      <a href="sql-update-with-join" class="l1">SQL UPDATE JOIN</a> 
+      <a href="sql-update-date" class="l1">SQL UPDATE DATE</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Delete</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-delete" class="l1">DELETE Statement</a> 
+      <a href="sql-delete-table" class="l1">SQL DELETE TABLE</a> 
+      <a href="sql-delete-row" class="l1">SQL DELETE ROW</a> 
+      <a href="sql-delete-all-rows" class="l1">SQL DELETE All Rows</a> 
+      <a href="sql-delete-duplicate-rows" class="l1">DELETE Duplicate Rows</a> 
+      <a href="sql-delete-database" class="l1">SQL DELETE DATABASE</a> 
+      <a href="sql-delete-view" class="l1">SQL DELETE VIEW</a> 
+      <a href="sql-delete-join" class="l1">SQL DELETE JOIN</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Join</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-join">SQL JOIN</a> 
+      <a href="sql-outer-join" class="l1">SQL Outer Join</a> 
+      <a href="sql-left-join" class="l1">SQL Left Join</a> 
+      <a href="sql-right-join" class="l1">SQL Right Join</a> 
+      <a href="sql-full-join" class="l1">SQL Full Join</a> 
+      <a href="sql-cross-join" class="l1">SQL Cross Join</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Keys</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-primary-key" class="l1">Primary Key</a> 
+      <a href="sql-foreign-key" class="l1">Foreign Key</a> 
+      <a href="sql-composite-key" class="l1">Composite Key</a> 
+      <a href="unique-key-in-sql" class="l1">Unique Key</a> 
+      <a href="alternate-key-in-sql" class="l1">Alternate Key</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Difference</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-vs-nosql" class="l1">SQL vs NoSQL</a> 
+      <a href="in-vs-exists">IN vs EXISTS</a> 
+      <a href="group-by-vs-order-by">Group By vs Order By</a> 
+      <a href="where-vs-having">WHERE vs HAVING</a> 
+      <a href="where-condition-in-sql">Where condition in SQL</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL Injection</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-injection">SQL Injection</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-formatter">SQL Formatter</a> 
+      <a href="sql-group-by">SQL group by</a> 
+      <a href="sql-add-drop-update-column-operation">SQL add/drop/update column operation</a> 
+      <a href="sql-cast-function">SQL CAST Function</a> 
+      <a href="sql-comments">SQL Comments</a> 
+      <a href="sql-concat-function">SQL CONCAT Function</a> 
+      <a href="cte-sql">CTE SQL</a> 
+      <a href="how-to-use-distinct-in-sql">How to use distinct in SQL</a> 
+      <a href="joining-three-or-more-tables-in-sql">Joining Three or More Tables in SQL</a> 
+      <a href="what-is-web-sql">What is Web SQL</a> 
+      <a href="how-to-create-functions-in-sql">How to create functions in SQL</a> 
+      <a href="how-to-run-sql-script">How to run SQL Script</a> 
+      <a href="how-to-delete-duplicate-rows-in-sql">How to Delete Duplicate Rows in SQL</a> 
+      <a href="sql-nth-highest-salary">Nth Highest salary</a> 
+      <a href="12-codds-rules">12 Codd's Rules</a> 
+      <a href="sql-except">SQL EXCEPT</a> 
+      <a href="types-of-sql-join">Types of SQL JOIN</a> 
+      <a href="change-datatype-of-column-in-sql">Change datatype of column in SQL</a> 
+      <a href="sql-auto-increment">SQL Auto Increment</a> 
+      <a href="sql-like">SQL Like</a> 
+      <a href="commit-and-rollback-in-sql">Commit and Rollback in SQL</a> 
+      <a href="sql-concatenate">SQL Concatenate</a> 
+      <a href="sql-get-month-from-the-date">SQL get month from the date</a> 
+      <a href="savepoint-in-sql">Savepoint in SQL</a> 
+      <a href="sql-order-by-date">SQL ORDER BY DATE</a> 
+      <a href="time-datatype-in-sql">TIME Datatype in SQL</a> 
+      <a href="sql-between">SQL BETWEEN</a> 
+      <a href="crud-operations-in-sql">SQL CRUD Operations</a> 
+      <a href="sql-index">SQL INDEX</a> 
+      <a href="scalar-functions-in-sql">Scalar Functions in SQL</a> 
+      <a href="set-operators-in-sql">SET Operators in SQL</a> 
+      <a href="types-of-sql-commands">Types of SQL Commands</a> 
+      <a href="tcl-commands-in-sql">TCL Commands in SQL</a> 
+      <a href="sql-subquery">SQL Subquery</a> 
+      <a href="sql-view">SQL View</a> 
+      <a href="constraints-in-sql">Constraints in SQL</a> 
+      <a href="pattern-matching-in-sql">Pattern Matching in SQL</a> 
+      <a href="sql-date-functions">SQL Date Functions</a> 
+      <a href="ddl-commands-in-sql">DDL Commands in SQL</a> 
+      <a href="dml-commands-in-sql">DML Commands in SQL</a> 
+      <a href="sql-case">SQL CASE</a> 
+      <a href="sql-inner-join">SQL Inner Join</a> 
+      <a href="sql-in-operator">SQL IN Operator</a> 
+      <a href="check-constraint-in-sql">Check Constraint in SQL</a> 
+      <a href="sql-clauses">SQL CLAUSES</a> 
+      <a href="sql-logical-operators">SQL LOGICAL OPERATORS</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">SQL MCQ</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-mcq">SQL MCQ</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">PL/SQL Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="pl-sql-tutorial" class="l1">PL/SQL Tutorial</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Interview</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-interview-questions" class="l1">SQL Interview</a> 
+      <a href="pl-sql-interview-questions" class="l1">PL/SQL Interview</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Quiz</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="sql-quiz" class="l1">SQL Quiz</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="pattern-matching-in-sql">next &#x2192;</a> 
+            <a class="next" href="sql-view">&#x2190; prev</a> 
+           </div> <h1 class="h1">Constraints in SQL</h1> <p>Constraints in SQL means we are applying certain conditions or restrictions on the database. This further means that before inserting data into the database, we are checking for some conditions. If the condition we have applied to the database holds true for the data which is to be inserted, then only the data will be inserted into the database tables.</p> <h3 class="h3">Constraints in SQL can be categorized into two types:</h3> 
+           <ol class="points"> 
+            <li><strong>Column Level Constraint:</strong><br> Column Level Constraint is used to apply a constraint on a single column.</li> 
+            <li><strong>Table Level Constraint:</strong><br> Table Level Constraint is used to apply a constraint on multiple columns.</li> 
+           </ol> <h3 class="h3">Some of the real-life examples of constraints are as follows:</h3> 
+           <ol class="points"> 
+            <li>Every person has a unique email id. This is because while creating an email account for any user, the email providing services such as Gmail, Yahoo or any other email providing service will always check for the availability of the email id that the user wants for himself. If some other user already takes the email id that the user wants, then that id cannot be assigned to another user. This simply means that no two users can have the same email ids on the same email providing service. So, here the email id is the constraint on the database of email providing services.</li> 
+            <li>Whenever we set a password for any system, there are certain constraints that are to be followed. These constraints may include the following: 
+             <ul class="points"> 
+              <li>There must be one uppercase character in the password.</li> 
+              <li>Password must be of at least eight characters in length.</li> 
+              <li>Password must contain at least one special symbol.</li> 
+             </ul></li> 
+           </ol> <h3 class="h3">Constraints available in SQL are:</h3> 
+           <ol class="points"> 
+            <li>NOT NULL</li> 
+            <li>UNIQUE</li> 
+            <li>PRIMARY KEY</li> 
+            <li>FOREIGN KEY</li> 
+            <li>CHECK</li> 
+            <li>DEFAULT</li> 
+            <li>CREATE INDEX</li> 
+           </ol> <p>Now let us try to understand the different constraints available in SQL in more detail with the help of examples. We will use MySQL database for writing all the queries.</p> <h3 class="h3">1. NOT NULL</h3> 
+           <ul class="points"> 
+            <li>NULL means empty, i.e., the value is not available.</li> 
+            <li>Whenever a table's column is declared as NOT NULL, then the value for that column cannot be empty for any of the table's records.</li> 
+            <li>There must exist a value in the column to which the NOT NULL constraint is applied.</li> 
+           </ul> <h4 class="n">NOTE: NULL does not mean zero. NULL means empty column, not even zero.</h4> <p><strong>Syntax to apply the NOT NULL constraint during table creation:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype NOT NULL, ColumnName2 datatype,&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply a NOT NULL constraint on one of the table's column while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE student(StudentID INT NOT NULL, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql.png" alt="Constraints in SQL"> <p>To verify that the not null constraint is applied to the table's column and the student table is created successfully, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql2.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the NOT NULL constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName CHANGE Old_ColumnName New_ColumnName Datatype NOT NULL;
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply a NOT NULL constraint to one of the table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student CHANGE StudentID StudentID INT NOT NULL;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql3.png" alt="Constraints in SQL"> <p>To verify that the not null constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql4.png" alt="Constraints in SQL"> <h3 class="h3">2. UNIQUE</h3> 
+           <ul class="points"> 
+            <li>Duplicate values are not allowed in the columns to which the UNIQUE constraint is applied.</li> 
+            <li>The column with the unique constraint will always contain a unique value.</li> 
+            <li>This constraint can be applied to one or more than one column of a table, which means more than one unique constraint can exist on a single table.</li> 
+            <li>Using the UNIQUE constraint, you can also modify the already created tables.</li> 
+           </ul> <p><strong>Syntax to apply the UNIQUE constraint on a single column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype UNIQUE, ColumnName2 datatype,&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply a UNIQUE constraint on one of the table's column while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT UNIQUE, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql5.png" alt="Constraints in SQL"> <p>To verify that the unique constraint is applied to the table's column and the student table is created successfully, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql6.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the UNIQUE constraint on more than one column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype, ColumnName2 datatype,&#x2026;., ColumnNameN datatype, UNIQUE (ColumnName1, ColumnName 2));
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply a UNIQUE constraint on more than one table's column while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), UNIQUE(StudentID, Student_PhoneNumber));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql7.png" alt="Constraints in SQL"> <p>To verify that the unique constraint is applied to more than one table's column and the student table is created successfully, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql8.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the UNIQUE constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName ADD UNIQUE (ColumnName);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply a UNIQUE constraint to one of the table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student ADD UNIQUE (StudentID);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql9.png" alt="Constraints in SQL"> <p>To verify that the unique constraint is applied to the table's column and the student table is created successfully, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql10.png" alt="Constraints in SQL"> <h3 class="h3">3. PRIMARY KEY</h3> 
+           <ul class="points"> 
+            <li>PRIMARY KEY Constraint is a combination of NOT NULL and Unique constraints.</li> 
+            <li>NOT NULL constraint and a UNIQUE constraint together forms a PRIMARY constraint.</li> 
+            <li>The column to which we have applied the primary constraint will always contain a unique value and will not allow null values.</li> 
+           </ul> <p><strong>Syntax of primary key constraint during table creation:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype PRIMARY KEY, ColumnName2 datatype,&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply the PRIMARY KEY constraint while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT PRIMARY KEY, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql11.png" alt="Constraints in SQL"> <p>To verify that the primary key constraint is applied to the table's column and the student table is created successfully, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql12.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the primary key constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName ADD PRIMARY KEY (ColumnName);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply the PRIMARY KEY constraint to the table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student ADD PRIMARY KEY (StudentID);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql13.png" alt="Constraints in SQL"> <p>To verify that the primary key constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql14.png" alt="Constraints in SQL"> <h3 class="h3">4. FOREIGN KEY</h3> 
+           <ul class="points"> 
+            <li>A foreign key is used for referential integrity.</li> 
+            <li>When we have two tables, and one table takes reference from another table, i.e., the same column is present in both the tables and that column acts as a primary key in one table. That particular column will act as a foreign key in another table.</li> 
+           </ul> <p><strong>Syntax to apply a foreign key constraint during table creation:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE tablename(ColumnName1 Datatype(SIZE) PRIMARY KEY, ColumnNameN Datatype(SIZE), FOREIGN KEY( ColumnName ) REFERENCES PARENT_TABLE_NAME(Primary_Key_ColumnName));
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create an employee table and apply the FOREIGN KEY constraint while creating a table.</p> <p>To create a foreign key on any table, first, we need to create a primary key on a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE employee (Emp_ID INT NOT NULL PRIMARY KEY, Emp_Name VARCHAR (40), Emp_Salary VARCHAR (40));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql15.png" alt="Constraints in SQL"> <p>To verify that the primary key constraint is applied to the employee table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC employee;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql16.png" alt="Constraints in SQL"> <p>Now, we will write a query to apply a foreign key on the department table referring to the primary key of the employee table, i.e., Emp_ID.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE department(Dept_ID INT NOT NULL PRIMARY KEY, Dept_Name VARCHAR(40), Emp_ID INT NOT NULL, FOREIGN KEY(Emp_ID) REFERENCES employee(Emp_ID));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql17.png" alt="Constraints in SQL"> <p>To verify that the foreign key constraint is applied to the department table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC department;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql18.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the foreign key constraint with constraint name:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE tablename(ColumnName1 Datatype PRIMARY KEY, ColumnNameN Datatype(SIZE), CONSTRAINT ConstraintName FOREIGN KEY( ColumnName ) REFERENCES PARENT_TABLE_NAME(Primary_Key_ColumnName));
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create an employee table and apply the FOREIGN KEY constraint with a constraint name while creating a table.</p> <p>To create a foreign key on any table, first, we need to create a primary key on a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE employee (Emp_ID INT NOT NULL PRIMARY KEY, Emp_Name VARCHAR (40), Emp_Salary VARCHAR (40));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql19.png" alt="Constraints in SQL"> <p>To verify that the primary key constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC employee;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql20.png" alt="Constraints in SQL"> <p>Now, we will write a query to apply a foreign key with a constraint name on the department table referring to the primary key of the employee table, i.e., Emp_ID.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE department(Dept_ID INT NOT NULL PRIMARY KEY, Dept_Name VARCHAR(40), Emp_ID INT NOT NULL, CONSTRAINT emp_id_fk FOREIGN KEY(Emp_ID) REFERENCES employee(Emp_ID));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql21.png" alt="Constraints in SQL"> <p>To verify that the foreign key constraint is applied to the department table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC department;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql22.png" alt="Constraints in SQL"> <p><strong>Syntax to apply the foreign key constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE Parent_TableName ADD FOREIGN KEY (ColumnName) REFERENCES Child_TableName (ColumnName);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table employee and department. Later, we decided to apply a FOREIGN KEY constraint to the department table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC employee;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql23.png" alt="Constraints in SQL"> <br> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE department ADD FOREIGN KEY (Emp_ID) REFERENCES employee (Emp_ID);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql24.png" alt="Constraints in SQL"> <p>To verify that the foreign key constraint is applied to the department table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC department;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql25.png" alt="Constraints in SQL"> <h3 class="h3">5. CHECK</h3> 
+           <ul class="points"> 
+            <li>Whenever a check constraint is applied to the table's column, and the user wants to insert the value in it, then the value will first be checked for certain conditions before inserting the value into that column.</li> 
+            <li><strong>For example:</strong> if we have an age column in a table, then the user will insert any value of his choice. The user will also enter even a negative value or any other invalid value. But, if the user has applied check constraint on the age column with the condition age greater than 18. Then in such cases, even if a user tries to insert an invalid value such as zero or any other value less than 18, then the age column will not accept that value and will not allow the user to insert it due to the application of check constraint on the age column.</li> 
+           </ul> <p><strong>Syntax to apply check constraint on a single column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype CHECK (ColumnName1 Condition), ColumnName2 datatype,&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply CHECK constraint to check for the age less than or equal to 15 while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), Age INT CHECK( Age &lt;= 15));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql26.png" alt="Constraints in SQL"> <p>To verify that the check constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql27.png" alt="Constraints in SQL"> <p><strong>Syntax to apply check constraint on multiple columns:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype, ColumnName2 datatype CHECK (ColumnName1 Condition AND ColumnName2 Condition),&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply CHECK constraint to check for the age less than or equal to 15 and a percentage greater than 85 while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), Age INT, Percentage INT, CHECK( Age &lt;= 15 AND Percentage &gt; 85));
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql28.png" alt="Constraints in SQL"> <p>To verify that the check constraint is applied to the age and percentage column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql29.png" alt="Constraints in SQL"> <p><strong>Syntax to apply check constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName ADD CHECK (ColumnName Condition);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table student. Later, we decided to apply the CHECK constraint on the student table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student ADD CHECK ( Age &lt;=15 );
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql30.png" alt="Constraints in SQL"> <p>To verify that the check constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql31.png" alt="Constraints in SQL"> <h3 class="h3">6. DEFAULT</h3> <p>Whenever a default constraint is applied to the table's column, and the user has not specified the value to be inserted in it, then the default value which was specified while applying the default constraint will be inserted into that particular column.</p> <p><strong>Syntax to apply default constraint during table creation:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE TABLE TableName (ColumnName1 datatype DEFAULT Value, ColumnName2 datatype,&#x2026;., ColumnNameN datatype);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create a student table and apply the default constraint while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40) DEFAULT "anuja.k8@gmail.com");
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql32.png" alt="Constraints in SQL"> <p>To verify that the default constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql33.png" alt="Constraints in SQL"> <p><strong>Syntax to apply default constraint on an existing table's column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName ALTER ColumnName SET DEFAULT Value;
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Consider we have an existing table student. Later, we decided to apply the DEFAULT constraint on the student table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student ALTER Student_Email_ID SET DEFAULT "anuja.k8@gmail.com";
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql34.png" alt="Constraints in SQL"> <p>To verify that the default constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql35.png" alt="Constraints in SQL"> <h3 class="h3">7. CREATE INDEX</h3> <p>CREATE INDEX constraint is used to create an index on the table. Indexes are not visible to the user, but they help the user to speed up the searching speed or retrieval of data from the database.</p> <p><strong>Syntax to create an index on single column:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE INDEX IndexName ON TableName (ColumnName 1);
+</textarea>
+           </div> <p><strong>Example:</strong></p> <p>Create an index on the student table and apply the default constraint while creating a table.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE INDEX idx_StudentID ON student (StudentID);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql36.png" alt="Constraints in SQL"> <p>To verify that the create index constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql37.png" alt="Constraints in SQL"> <p><strong>Syntax to create an index on multiple columns:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+CREATE INDEX IndexName ON TableName (ColumnName 1, ColumnName 2, ColumnName N);
+</textarea>
+           </div> <p><strong>Example:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; CREATE INDEX idx_Student ON student (StudentID, Student_PhoneNumber);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql38.png" alt="Constraints in SQL"> <p>To verify that the create index constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql39.png" alt="Constraints in SQL"> <p><strong>Syntax to create an index on an existing table:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+ALTER TABLE TableName ADD INDEX (ColumnName);
+</textarea>
+           </div> <p>Consider we have an existing table student. Later, we decided to apply the DEFAULT constraint on the student table's column. Then we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; ALTER TABLE student ADD INDEX (StudentID);
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql40.png" alt="Constraints in SQL"> <p>To verify that the create index constraint is applied to the student table's column, we will execute the following query:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="sql">
+mysql&gt; DESC student;
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/sqlpages/images/constraints-in-sql41.png" alt="Constraints in SQL"> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="pattern-matching-in-sql">Pattern Matching in SQL</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="sql-view">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="pattern-matching-in-sql">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="accac9c9c8cecdcfc7ecc6cddacdd8dcc3c5c2d882cfc3c1">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/constraints-in-sql"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/constraints-in-sql"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/constraints-in-sql"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a3cbd1e3c9c2d5c2d7d3cccacdd78dc0ccce">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="147c66547e75627560647b7d7a603a777b793a">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

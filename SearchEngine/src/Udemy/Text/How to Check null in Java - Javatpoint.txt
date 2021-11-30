@@ -1,0 +1,934 @@
+
+
+ 
+  
+  How to Check null in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Check null in Java? In Java, null is a literal. It is mainly used to assign a null value to a variable. A null value is possible for a string, object, or date and time, etc. We cannot assign a null value to the primitive data types such as int, float, etc. In programming, usually we need to check whether an object or a string is null or not to perform some task on it. In order to check a null string, we have some predefined methods of string. Let's take some examples of different data types to understand how we can check whether they are null or not. String In Java, String can be null, empty, or blank, and each one of them is distinct. 1. An empty string is a string object having some value, but its length is equal to zero. For example: 
+           
+            
+String str1 = ""
+
+            2. A blank string is a string that has whitespace as its value. Its length is always greater than 0 and neither empty nor null. For example: 
+           
+            
+String str2 = ""
+
+            3. A null string has no value and makes a string null by assigning a null keyword as a value to it. For example: 
+           
+            
+String str3 = null
+
+            In order to check whether a String is null or not, we use the comparison operator(==). Let's take an example of it to understand how we can use it for null checking. NullCheckExample1.java 
+           
+            
+// import required classes and packages
+packagejavaTpoint.javacodes;
+// create class NullCheckExample1 class to check whether a string is empty or null
+class NullCheckExample1 {
+	// main() method start
+	public static void main(String[] args) {
+	    // create null, empty, and blank strings
+	    String string1 = null;
+	    String string2 = "";
+	    String string3 = " ";
+	    String string4 = "Test";
+	    // check whether string1 is null, empty, or blank
+	System.out.println("string1 is " + checkNullEmptyBlank(string1));
+	    // check whether string2 is null, empty, or blank
+	System.out.println("string2 is " + checkNullEmptyBlank(string2));
+	    // check whether string3 is null, empty, or blank
+	System.out.println("string3 is " + checkNullEmptyBlank(string3));
+	    // check whether string4 is null, empty, or blank
+	System.out.println("string4 is " + checkNullEmptyBlank(string4));
+	}
+	// create checkNullEmptyBlank() method which check whether the string is empty, null or blank and return result to the main() method
+	public static String checkNullEmptyBlank(String strToCheck) {
+	    // check whether the given string is null or not
+	if (strToCheck == null) {
+		return "NULL";
+	    }
+	    // check whether the given string is empty or not
+	else if(strToCheck.isEmpty()) {
+		return "EMPTY";
+	    }
+	    // check whether the given string is blank or not
+	else if(strToCheck.isBlank()) {
+		return "BLANK";
+	    }
+	else {
+		return "neither NULL, EMPTY nor BLANK";
+	    }
+	}
+}
+
+            Output:  Date andDateTime object Date and DateTime both are the non-primitive data types, so they can store a null value. Let's take an example of a date and time object to understand how we can check a null date or datetime object. NullCheckExample2.java 
+           
+            
+//import required classes and packages 
+packagejavaTpoint.javacodes;
+importjava.text.ParseException;
+importjava.text.SimpleDateFormat;
+importjava.util.Date;
+importjava.util.Scanner;
+//create class NullCheckExample2 class to check whether the Date object is null or not
+public class NullCheckExample2 {
+	// declare a variable of date type and initialize it with null
+	public static Date d1 = null;
+	public static Date finalResult;
+	// main() method start
+	public static void main(String args[])
+	{
+		// declare a variable of type string that will store the user-entered date in string format
+		String d2;
+		
+		// create scanner class object
+		Scanner sc = new Scanner(System.in);  
+	System.out.print("Enter Date in dd/mm/yyyy format:");  
+	
+	    // take input from user and initialize variable 
+	    d2 = sc.nextLine();  
+	
+	    // close scanner class obj
+	sc.close();
+	    // create an instance of the SimpleDateFormat class for modifying the date object
+	SimpleDateFormatobj = new SimpleDateFormat("dd/MM/yyyy");
+	
+	    // use try-catch to parse string to date
+	try {
+			
+		finalResult = obj.parse(d2);
+		
+	    } catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+	    // check whether date1 and date2 is null or not by using comparison operator
+	if(d1 == null) {
+		System.out.println("Date d1 is NULL.");
+	    }
+	
+	if(finalResult == null) {
+		System.out.println("Date d2 is NULL.");
+	}else {
+		System.out.println("Date d2 is not NULL.");
+	    }
+	}
+}
+
+            Output:  Java Object In order to check whether a Java object is Null or not, we can either use the isNull() method of the Objects class or comparison operator. Let's take an example to understand how we can use the isNull() method or comparison operator for null check of Java object. NullCheckExample3.java 
+           
+            
+// import required classes and packages
+packagejavaTpoint.javacodes;
+
+// create NullCheckExample3 class to check whether Java object is null or not
+public class NullCheckExample3 {
+
+	// main() method start
+	public static void main(String[] args) {
+
+		// create instance of User2
+		User2 userObj = new User2();
+		
+		// get data of User2 by calling 
+		User1 firstUser = userObj.getFirstUser();
+		
+		// check whether firstUser is null or not
+if (firstUser == null) {
+System.out.println("Object is Null");
+        } else {
+System.out.println("Object is not Null");
+
+            // set name for user1
+firstUser.setName("Paul");
+System.out.println(firstUser.getName());
+        }
+    }
+
+}
+
+// create User1 class having a name attribute
+class User1 {
+	
+	// declare name variable
+    String name;
+
+    // getter for getting name of User1
+public String getName() {
+	
+	// return name of User1
+return name;
+    }
+
+    // setter for setting name of User1
+public void setName(String name) {
+	this.name = name;
+    }
+}
+// create class User2 having variable of type User1
+class User2 {
+
+    User1 obj;
+
+    // getter to get object of User1
+public User1 getFirstUser() {
+returnobj;
+    }
+}
+
+            Output:  NullCheckExample4.java 
+           
+            
+// import required classes and packages
+packagejavaTpoint.javacodes;
+
+importjava.util.Objects;
+
+// create NullCheckExample3 class to check whether Java object is null or not
+public class NullCheckExample4 {
+
+	// main() method start
+	public static void main(String[] args) {
+
+		// create instance of User2
+		User2 userObj = new User2();
+		
+		// get data of User2 by calling 
+		User1 firstUser = userObj.getFirstUser();
+		
+		// check whether firstUser is null or not
+		if (Objects.isNull(firstUser) ){
+System.out.println("Object is Null");
+        } else {
+System.out.println("Object is not Null");
+
+            // set name for user1
+firstUser.setName("Paul");
+System.out.println(firstUser.getName());
+        }
+    }
+
+}
+
+// create User1 class having a name attribute
+class User1 {
+	
+	// declare name variable
+    String name;
+
+    // getter for getting name of User1
+public String getName() {
+	
+	// return name of User1
+return name;
+    }
+
+    // setter for setting name of User1
+public void setName(String name) {
+	this.name = name;
+    }
+
+}
+
+// create class User2 having variable of type User1
+class User2 {
+
+    User1 obj;
+
+    // getter to get object of User1
+public User1 getFirstUser() {
+returnobj;
+    }
+}
+
+            Output:  
+            
+            
+            Next Topic
+            Java Arrays Fill 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

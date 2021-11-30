@@ -1,0 +1,840 @@
+
+
+ 
+  
+  Internal Working of ArrayList in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Internal Working of ArrayList in Java What is an ArrayList? In Java, ArrayList is a resizable array implementation. ArrayList expands dynamically, ensuring that there is always room for more elements to be added. An array of the Object class serves as the ArrayList's underpinning data structure. In Java, there are three constructors for the ArrayList class. Its own readObject and writeObject methods are available. ArrayList's Object Array is transitory. RandomAccess, Cloneable, and java.io are all implemented and Serialization capable (that are Marker Interface in Java). Where do the elements in an ArrayList get saved? ArrayList is an array of the Object class that is defined as follows: 
+           
+            
+transient Object[] elementData;
+
+            Many programmers must be wondering why temporary and why not serialise an ArrayList instead. There is no difficulty serialising an ArrayList because it has its own version of readObject and writeObject procedures, that is, why this Object array is temporary. What happens while creating an ArrayList? To create an ArrayList in Java, there are three constructors. 1. public ArrayList(int initialCapacity): When the constructor is used we can provide some initial capacity rather than depending on the default capacity as defined in the ArrayList class. For example: 
+           
+            
+List<String> myList = new ArrayList<String>(7);
+
+            Code in the ArrayList class is as: 
+           
+            
+public ArrayList(int initialCapacity) 
+{
+  if (initialCapacity > 0) 
+  {
+    this.elementData = new Object[initialCapacity];
+  } 
+  else if (initialCapacity == 0) 
+  {
+    this.elementData = EMPTY_ELEMENTDATA;
+  } 
+  else 
+  {
+    throw new IllegalArgumentException("Illegal Capacity: " + initialCapacity);
+  }
+}
+
+            Where EMPTY_ELEMENTDATA is defined as: 
+           
+            
+private static final Object[] EMPTY_ELEMENTDATA = {};
+
+            It's clear that if the supplied capacity is more than zero, the elementData array will be formed with that capacity, but if the provided capacity is zero, the elementData array will be constructed with an empty Object array. When the first element is inserted, the ArrayList will expand. 2. public ArrayList(): The default constructor of ArrayList class is used to create an ArrayList as following, 
+           
+            
+ myList = new ArrayList();
+
+            Code in the ArrayList class for default constructor is as given below- 
+           
+            
+public ArrayList() 
+{
+    this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+}
+
+            Where DEFAULTCAPACITY_EMPTY_ELEMENTDATA is defined as 
+           
+            
+/**
+ * Shared empty array instance used for default sized empty instances. We
+ * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when
+ * first element is added.
+ */
+private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
+
+            As mentioned above initially it will be initialized with an empty array, it will grow only when first element is added to the list. 3. public ArrayList(Collection<? extends E> c): If we want to construct a list containing the elements of the specified collection we can use this constructor. In this constructor implementation checks for the length of the collection passed as parameter, if length is greater than zero then Arrays.copyOf method is used to copy the collection to the elementData array. 
+           
+            
+elementData = Arrays.copyOf(elementData, size, Object[].class);
+
+            How does an ArrayList automatically grow? When we add an element to an ArrayList, it first checks to see whether the array has enough capacity to contain the new element. If it doesn't, the new capacity is computed, which is 50% higher than the previous capacity, and the array is expanded by that amount (Actually uses Arrays.copyOf which returns the original array increased to the new length). The following Java code demonstrates the Java ArrayList implementation: 
+           
+            
+public boolean add(E e) 
+{
+  ensureCapacityInternal(size + 1);  // Increments modCount!!
+  elementData[size++] = e;
+  return true;
+}
+
+            
+           
+            
+private void ensureCapacityInternal(int minCapacity) 
+{
+  if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) 
+  {
+    minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);
+  }
+  ensureExplicitCapacity(minCapacity);
+}
+
+            Where DEFAULT_CAPACITY is defined as- 
+           
+            
+private static final int DEFAULT_CAPACITY = 10;
+
+            
+           
+            
+private void ensureExplicitCapacity(int minCapacity) {
+    modCount++;
+    // overflow-conscious code
+    if (minCapacity - elementData.length > 0)
+       grow(minCapacity);
+}
+
+            As mentioned above, it is decided whether the array needs to be expanded, and if so, the grow function is invoked. 
+           
+            
+private void grow(int minCapacity) 
+{
+    // overflow-conscious code
+    int oldCapacity = elementData.length;
+    int newCapacity = oldCapacity + (oldCapacity >> 1);
+    if (newCapacity - minCapacity < 0)
+        newCapacity = minCapacity;
+    if (newCapacity - MAX_ARRAY_SIZE > 0)
+        newCapacity = hugeCapacity(minCapacity);
+    // minCapacity is usually close to size, so this is a win:
+    elementData = Arrays.copyOf(elementData, newCapacity);
+}
+
+            Here, note that until Java 6, the new capacity computation looked like this: 
+           
+            
+ int newCapacity = (oldCapacity * 3)/2 + 1; 
+ int newCapacity = (oldCapacity * 3)/2 + 1;  
+
+            It will also increase by 50% of its previous capacity with the addition of a right shift operator. Let's understand through a Java program. Test.java 
+           
+            
+public class Test {
+    public static void main(String args[])  {
+       int a = 10;
+       System.out.println(a>>1);   
+    }    
+}
+
+            Output: 
+           
+            5  
+
+            If the capacity was set to 10 by default, 
+           
+            
+ int newCapacity = oldCapacity + (oldCapacity >> 1);
+
+            It will return 15 What happens if an element is removed from an ArrayList? When items are deleted from an ArrayList in Java, the gap produced by the removal of an element must be filled in the underlying array using either remove (int I (i.e. using index) or remove (Object o). Shifting any following components to the left does this (subtracts one from their indices). It is done via the System.arrayCopy method. 
+           
+            
+System.arraycopy(elementData, index+1, elementData, index, numMoved);
+
+            The source position is index+1, while the destination position is index. Because the element at position index has been deleted, items beginning at index+1 are transferred to the destination starting at index. 
+            
+            
+            Next Topic
+            Java Program to Print Matrix in Z Form 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,949 @@
+
+
+ 
+  
+  SQL Inner Join - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        SQL 
+        PL/SQL 
+        MySQL 
+        MongoDB 
+        PostgreSQL 
+        SQL Server 
+        Oracle 
+        Cassandra 
+        SQLite 
+        DBMS 
+        Python 
+        Java 
+        Aptitude 
+        Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     Oracle Training 
+      
+      SQL Tutorial 
+      
+      
+      What is SQL 
+      SQL Syntax 
+      SQL Data Types 
+      SQL Operators 
+      
+      
+      SQL Database 
+      
+      
+      SQL CREATE Database 
+      SQL DROP Database 
+      SQL RENAME Database 
+      SQL SELECT Database 
+      
+      
+      SQL Table 
+      
+      
+      What is Table 
+      SQL CREATE TABLE 
+      SQL DROP TABLE 
+      SQL DELETE TABLE 
+      SQL RENAME TABLE 
+      SQL TRUNCATE TABLE 
+      SQL COPY TABLE 
+      SQL TEMP TABLE 
+      SQL ALTER TABLE 
+      
+      
+      SQL Select 
+      
+      
+      SELECT Statement 
+      SQL SELECT UNIQUE 
+      SQL SELECT DISTINCT 
+      SQL SELECT COUNT 
+      SQL SELECT TOP 
+      SQL SELECT FIRST 
+      SQL SELECT LAST 
+      SQL SELECT RANDOM 
+      SQL SELECT IN 
+      SQL SELECT Multiple 
+      SQL SELECT DATE 
+      SQL SELECT SUM 
+      SQL SELECT NULL 
+      
+      
+      SQL Clause 
+      
+      
+      SQL WHERE 
+      SQL AND 
+      SQL OR 
+      SQL WITH 
+      SQL AS 
+      SQL HAVING Clause 
+      
+      
+      SQL Order By 
+      
+      
+      ORDER BY Clause 
+      ORDER BY ASC 
+      ORDER BY DESC 
+      ORDER BY RANDOM 
+      ORDER BY LIMIT 
+      ORDER BY Multiple Cols 
+      
+      
+      SQL Insert 
+      
+      
+      INSERT Statement 
+      INSERT INTO Values 
+      INSERT INTO SELECT 
+      INSERT Multiple Rows 
+      
+      
+      SQL Update 
+      
+      
+      UPDATE Statement 
+      SQL UPDATE JOIN 
+      SQL UPDATE DATE 
+      
+      
+      SQL Delete 
+      
+      
+      DELETE Statement 
+      SQL DELETE TABLE 
+      SQL DELETE ROW 
+      SQL DELETE All Rows 
+      DELETE Duplicate Rows 
+      SQL DELETE DATABASE 
+      SQL DELETE VIEW 
+      SQL DELETE JOIN 
+      
+      
+      SQL Join 
+      
+      
+      SQL JOIN 
+      SQL Outer Join 
+      SQL Left Join 
+      SQL Right Join 
+      SQL Full Join 
+      SQL Cross Join 
+      
+      
+      SQL Keys 
+      
+      
+      Primary Key 
+      Foreign Key 
+      Composite Key 
+      Unique Key 
+      Alternate Key 
+      
+      
+      Difference 
+      
+      
+      SQL vs NoSQL 
+      IN vs EXISTS 
+      Group By vs Order By 
+      WHERE vs HAVING 
+      Where condition in SQL 
+      
+      
+      SQL Injection 
+      
+      
+      SQL Injection 
+      
+      
+      Misc 
+      
+      
+      SQL Formatter 
+      SQL group by 
+      SQL add/drop/update column operation 
+      SQL CAST Function 
+      SQL Comments 
+      SQL CONCAT Function 
+      CTE SQL 
+      How to use distinct in SQL 
+      Joining Three or More Tables in SQL 
+      What is Web SQL 
+      How to create functions in SQL 
+      How to run SQL Script 
+      How to Delete Duplicate Rows in SQL 
+      Nth Highest salary 
+      12 Codd's Rules 
+      SQL EXCEPT 
+      Types of SQL JOIN 
+      Change datatype of column in SQL 
+      SQL Auto Increment 
+      SQL Like 
+      Commit and Rollback in SQL 
+      SQL Concatenate 
+      SQL get month from the date 
+      Savepoint in SQL 
+      SQL ORDER BY DATE 
+      TIME Datatype in SQL 
+      SQL BETWEEN 
+      SQL CRUD Operations 
+      SQL INDEX 
+      Scalar Functions in SQL 
+      SET Operators in SQL 
+      Types of SQL Commands 
+      TCL Commands in SQL 
+      SQL Subquery 
+      SQL View 
+      Constraints in SQL 
+      Pattern Matching in SQL 
+      SQL Date Functions 
+      DDL Commands in SQL 
+      DML Commands in SQL 
+      SQL CASE 
+      SQL Inner Join 
+      SQL IN Operator 
+      Check Constraint in SQL 
+      SQL CLAUSES 
+      SQL LOGICAL OPERATORS 
+      
+      
+      SQL MCQ 
+      
+      
+      SQL MCQ 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      Interview 
+      
+      
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      Quiz 
+      
+      
+      SQL Quiz 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            SQL Inner Join INNER JOIN in SQL is the most common and important type of join which allows users to access matching data from two or more database tables. When the join condition is met between the tables, then it returns all the common rows from them. The Venn diagram of INNER JOIN is shown in the following picture. The shaded region of the Venn diagram shows the intersection values of two tables:  Syntax of INNER JOIN in SQL 
+           
+            
+SELECT Column_Name1, Column_Name2, ….., Column_NameN
+FROM Table_Name1 INNER JOIN Table_Name2
+ON Table_Name1.Column_Name = Table_Name2.Column_Name;
+
+            Example of Inner Join in SQL Let's take two tables named Employee_Details and Department to understand the concept of INNER JOIN. The Employee_Details table contains Emp_ID, Emp_Name, Dept_ID, and Emp_Salary columns. The Department table contains Dept_Id and Dept_Name columns. We can check the data of Employee_Details and Department table using the following two different queries: 
+           
+            
+SELECT * FROM Department;
+
+            Output: 
+            
+            
+              
+              Dept_Id 
+              Dept_Name 
+              
+              
+              1001 
+              Finance 
+              
+              
+              1002 
+              Marketing 
+              
+              
+              1003 
+              Sales 
+              
+              
+              1004 
+              Coding 
+              
+              
+              1005 
+              Administration 
+              
+            
+             
+           
+            
+SELECT * FROM Employee_Details;
+
+            Output: 
+            
+            
+              
+              Emp_Id 
+              Emp_Name 
+              Dept_Id 
+              Emp_Salary 
+              
+              
+              1 
+              Akshay 
+              1001 
+              23000 
+              
+              
+              2 
+              Ram 
+              1002 
+              24000 
+              
+              
+              3 
+              Balram 
+              1004 
+              25000 
+              
+              
+              4 
+              Yatin 
+              NULL 
+              NULL 
+              
+              
+              5 
+              Manoj 
+              1004 
+              23000 
+              
+              
+              6 
+              Sheetal 
+              1003 
+              24000 
+              
+              
+              8 
+              Yogesh 
+              NULL 
+              NULL 
+              
+              
+              9 
+              Naveen 
+              NULL 
+              NULL 
+              
+              
+              10 
+              Tarun 
+              1004 
+              23000 
+              
+            
+            The following query joins these above two tables using INNER JOIN in structured Query Language: 
+           
+            
+SELECT 
+Employee_Details.Emp_Id, 
+Employee_Details.Emp_Name, Department.Dept_Name, Employee_Details.Emp_Salary, 
+
+FROM Department INNER JOIN Employee_Details 
+
+ON 
+Department.Dept_ID = Employee_Details.Emp_Id; 
+
+            Explanation of above INNER JOIN query: This query joins the Employee_Details and Department table and accesses the records from both the tables where Department.Dept_Id = Employee_Details.DeptId. It only fetches the details of those employees from both the tables whose Dept_Id in the Employee table matches with the Dept_Id of the Department table. If the Dept_Id is NULL or not matching, then that row would not show in the output. Output: 
+            
+            
+              
+              Emp_Id 
+              Emp_Name 
+              Dept_Name 
+              Emp_Salary 
+              
+              
+              1 
+              Akshay 
+              Finance 
+              23000 
+              
+              
+              2 
+              Ram 
+              Marketing 
+              24000 
+              
+              
+              3 
+              Balram 
+              Coding 
+              25000 
+              
+              
+              5 
+              Manoj 
+              Coding 
+              23000 
+              
+              
+              6 
+              Sheetal 
+              Sales 
+              24000 
+              
+              
+              10 
+              Tarun 
+              Coding 
+              23000 
+              
+            
+            
+            
+            
+            Next Topic
+            SQL IN Operator 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,864 @@
+
+
+ 
+  
+  Tasks in Real-Time Systems - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Tasks in Real-Time Systems A real-time operating system (RTOS) serves real-time applications that process data without any buffering delay. In an RTOS, the Processing time requirement is calculated in tenths of seconds increments of time. It is a time-bound system that is defined as fixed time constraints. In this type of system, processing must be done inside the specified constraints. Otherwise, the system will fail. Real-time tasks are the tasks associated with the quantitative expression of time. This quantitative expression of time describes the behavior of the real-time tasks. Real-time tasks are scheduled to finish all the computation events involved in it into timing constraint. The timing constraint related to the real-time tasks is the deadline. All the real-time tasks need to be completed before the deadline. For example, Input-output interaction with devices, web browsing, etc. Types of Tasks in Real-Time Systems There are the following types of tasks in real-time systems, such as:  1. Periodic Task In periodic tasks, jobs are released at regular intervals. A periodic task repeats itself after a fixed time interval. A periodic task is denoted by five tuples: Ti = < ?i, Pi, ei, Di > Where, 
+            
+            ?i: It is the phase of the task, and phase is the release time of the first job in the task. If the phase is not mentioned, then the release time of the first job is assumed to be zero. 
+            Pi: It is the period of the task, i.e., the time interval between the release times of two consecutive jobs. 
+            ei: It is the execution time of the task. 
+            Di: It is the relative deadline of the task. 
+            For example: Consider the task Ti with period = 5 and execution time = 3 Phase is not given so, assume the release time of the first job as zero. So the job of this task is first released at t = 0, then it executes for 3s, and then the next job is released at t = 5, which executes for 3s, and the next job is released at t = 10. So jobs are released at t = 5k where k = 0, 1. . . N  Hyper period of a set of periodic tasks is the least common multiple of all the tasks in that set. For example, two tasks T1 and T2 having period 4 and 5 respectively will have a hyper period, H = lcm(p1, p2) = lcm(4, 5) = 20. The hyper period is the time after which the pattern of job release times starts to repeat. 2. Dynamic Tasks It is a sequential program that is invoked by the occurrence of an event. An event may be generated by the processes external to the system or by processes internal to the system. Dynamically arriving tasks can be categorized on their criticality and knowledge about their occurrence times. 
+            
+            Aperiodic Tasks: In this type of task, jobs are released at arbitrary time intervals. Aperiodic tasks have soft deadlines or no deadlines. 
+            Sporadic Tasks:They are similar to aperiodic tasks, i.e., they repeat at random instances. The only difference is that sporadic tasks have hard deadlines. Three tuples denote a sporadic task: Ti =(ei, gi, Di) 
+              
+              Where 
+              ei: It is the execution time of the task. 
+              gi: It is the minimum separation between the occurrence of two consecutive instances of the task. 
+              Di: It is the relative deadline of the task. 
+              
+            3. Critical Tasks Critical tasks are those whose timely executions are critical. If deadlines are missed, catastrophes occur. For example, life-support systems and the stability control of aircraft. If critical tasks are executed at a higher frequency, then it is necessary. 4. Non-critical Tasks Non-critical tasks are real times tasks. As the name implies, they are not critical to the application. However, they can deal with time, varying data, and hence they are useless if not completed within a deadline. The goal of scheduling these tasks is to maximize the percentage of jobs successfully executed within their deadlines. Task Scheduling Real-time task scheduling essentially refers to determining how the various tasks are the pick for execution by the operating system. Every operating system relies on one or more task schedulers to prepare the schedule of execution of various tasks needed to run. Each task scheduler is characterized by the scheduling algorithm it employs. A large number of algorithms for real-time scheduling tasks have so far been developed. Classification of Task Scheduling Here are the following types of task scheduling in a real-time system, such as:  
+            
+            Valid Schedule: A valid schedule for a set of tasks is one where at most one task is assigned to a processor at a time, no task is scheduled before its arrival time, and the precedence and resource constraints of all tasks are satisfied. 
+            Feasible Schedule: A valid schedule is called a feasible schedule only if all tasks meet their respective time constraints in the schedule. 
+            Proficient Scheduler: A task scheduler S1 is more proficient than another scheduler S2 if S1 can feasibly schedule all task sets that S2 can feasibly schedule, but not vice versa. S1 can feasibly schedule all task sets that S2 can, but there is at least one task set that S2 cannot feasibly schedule, whereas S1 can. If S1 can feasibly schedule all task sets that S2 can feasibly schedule and vice versa, then S1 and S2 are called equally proficient schedulers. 
+            Optimal Scheduler: A real-time task scheduler is called optimal if it can feasibly schedule any task set that any other scheduler can feasibly schedule. In other words, it would not be possible to find a more proficient scheduling algorithm than an optimal scheduler. If an optimal scheduler cannot schedule some task set, then no other scheduler should produce a feasible schedule for that task set. 
+            Scheduling Points: The scheduling points of a scheduler are the points on a timeline at which the scheduler makes decisions regarding which task is to be run next. It is important to note that a task scheduler does not need to run continuously, and the operating system activates it only at the scheduling points to decide which task to run next. The scheduling points are defined as instants marked by interrupts generated by a periodic timer in a clock-driven scheduler. The occurrence of certain events determines the scheduling points in an event-driven scheduler. 
+            Preemptive Scheduler: A preemptive scheduler is one that, when a higher priority task arrives, suspends any lower priority task that may be executing and takes up the higher priority task for execution. Thus, in a preemptive scheduler, it cannot be the case that a higher priority task is ready and waiting for execution, and the lower priority task is executing. A preempted lower priority task can resume its execution only when no higher priority task is ready. 
+            Utilization: The processor utilization (or simply utilization) of a task is the average time for which it executes per unit time interval. In notations: for a periodic task Ti, the utilization ui = ei/pi, where 
+              
+              ei is the execution time and 
+              pi is the period of Ti. 
+              For a set of periodic tasks {Ti}: the total utilization due to all tasks U = i=1? n ei/pi. Any good scheduling algorithm's objective is to feasibly schedule even those task sets with very high utilization, i.e., utilization approaching 1. Of course, on a uniprocessor, it is not possible to schedule task sets having utilization of more than 1. 
+            Jitter Jitter is the deviation of a periodic task from its strict periodic behavior. The arrival time jitter is the deviation of the task from the precise periodic time of arrival. It may be caused by imprecise clocks or other factors such as network congestions. Similarly, completion time jitter is the deviation of the completion of a task from precise periodic points. The completion time jitter may be caused by the specific scheduling algorithm employed, which takes up a task for scheduling as per convenience and the load at an instant, rather than scheduling at some strict time instants. Jitters are undesirable for some applications. Sometimes actual release time of a job is not known. Only know that ri is in a range [ri-, ri+]. This range is known as release time jitter. Here 
+              
+              ri is how early a job can be released and, 
+              ri+ is how late a job can be released. 
+              Only the range [ei-, ei+] of the execution time of a job is known. Here 
+              
+              ei- is the minimum amount of time required by a job to complete its execution and, 
+              ei+ is the maximum amount of time required by a job to complete its execution. 
+              
+            Precedence Constraint of Jobs Jobs in a task are independent if they can be executed in any order. If there is a specific order in which jobs must be executed, then jobs are said to have precedence constraints. For representing precedence constraints of jobs, a partial order relation < is used, and this is called precedence relation. A job Ji is a predecessor of job Jj if Ji < Jj, i.e., Jj cannot begin its execution until Ji completes. Ji is an immediate predecessor of Jj if Ji < Jj, and there is no other job Jk such that Ji < Jk < Jj. Ji and Jj are independent if neither Ji < Jj nor Jj < Ji is true. An efficient way to represent precedence constraints is by using a directed graph G = (J, <) where J is the set of jobs. This graph is known as the precedence graph. Vertices of the graph represent jobs, and precedence constraints are represented using directed edges. If there is a directed edge from Ji to Jj, it means that Ji is the immediate predecessor of Jj. For example: Consider a task T having 5 jobs J1, J2, J3, J4, and J5, such that J2 and J5 cannot begin their execution until J1 completes and there are no other constraints. The precedence constraints for this example are: J1 < J2 and J1 < J5  Set representation of precedence graph: 
+            
+            < (1) = { } 
+            < (2) = {1} 
+            < (3) = { } 
+            < (4) = { } 
+            < (5) = {1} 
+            Consider another example where a precedence graph is given, and you have to find precedence constraints.  From the above graph, we derive the following precedence constraints: 
+            
+            J1< J2 
+            J2< J3 
+            J2< J4 
+            J3< J4 
+            
+            
+            
+            Next Topic
+            What is RPC in Operating System 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

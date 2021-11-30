@@ -1,0 +1,1121 @@
+
+
+ 
+  
+  Android Studio Ubuntu - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Linux 
+       C 
+       Java 
+       Python 
+       Shell Scripting 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Linux Tutorial 
+      
+      
+      Linux Tutorial 
+      What is Linux 
+      Advantages of Linux 
+      Linux History 
+      Linux Features 
+      Linux Bash 
+      Unix vs Linux 
+      Linux vs Windows 
+      Linux Distributions 
+      Linux Licensing 
+      Set Environment Variable 
+      Linux Set Command 
+      Linux export Command 
+      
+      
+      Linux Directories 
+      
+      
+      Linux Directories 
+      Linux Home Directory 
+      Linux pwd 
+      Linux cd 
+      Linux Absolute Relative 
+      Linux Path Completion 
+      Linux ls 
+      Linux mkdir 
+      Linux rmdir 
+      Rename Folder in Linux 
+      
+      
+      Linux Commands 
+      
+      
+      Linux commands List 
+      Commands with Example 
+      
+      
+      Linux Users 
+      
+      
+      Linux Users 
+      Linux Create User 
+      Local su Commands 
+      Linux User Management 
+      User Password 
+      Local Groups 
+      Add User to Group 
+      Linux id Command 
+      
+      
+      Linux Files 
+      
+      
+      Linux Files 
+      Linux File System 
+      Linux Create File 
+      Linux file 
+      Linux touch 
+      Linux rm 
+      Linux cp 
+      Linux mv 
+      Linux rename 
+      Linux install Command 
+      Linux read Command 
+      
+      
+      Linux File Contents 
+      
+      
+      Linux File Contents 
+      Open File in Linux 
+      Linux Edit File 
+      Linux which command 
+      Linux head 
+      Linux tail 
+      Linux cat 
+      Linux tac 
+      Linux more 
+      Linux less 
+      Linux strings command 
+      Linux Print 
+      
+      
+      Linux Process 
+      
+      
+      Kill Process Linux 
+      Linux terminating 
+      1) Linux kill 
+      2) Linux killall 
+      3) Linux pkill 
+      4) Linux xkill 
+      Nohup Command 
+      Linux at command 
+      Linux exit command 
+      
+      
+      Linux File Hierarchy 
+      
+      
+      Linux File Hierarchy 
+      Binary Directories 
+      Configuration Directories 
+      Data Directories 
+      Memory Directories 
+      Usr Directory 
+      var Directory 
+      Non-standard directories 
+      
+      
+      Linux Filters 
+      
+      
+      Linux Filters 
+      Linux cat 
+      Linux cut 
+      Linux grep 
+      Linux comm 
+      Linux sed 
+      Linux tee 
+      Linux tr 
+      Linux uniq 
+      Linux wc 
+      Linux od 
+      Linux sort 
+      Linux gzip 
+      
+      
+      AWK Command 
+      
+      
+      Linux AWK Command 
+      
+      
+      Programming with Linux 
+      
+      
+      Linux make command 
+      GCC Linux 
+      
+      
+      Linux I/O Redirection 
+      
+      
+      Linux I/O Redirection 
+      Linux Input Redirection 
+      Linux Output Redirection 
+      Linux Error Redirection 
+      
+      
+      Linux Unix Tools 
+      
+      
+      Linux Unix Tools 
+      Linux Find 
+      Linux Locate 
+      Linux Date 
+      Linux Cal 
+      Linux Sleep 
+      Linux Time 
+      Linux zcat/zmore 
+      Linux bzip2 / bunzip2 
+      Linux bzcat / bzmore 
+      Linux df 
+      
+      
+      Linux Regex 
+      
+      
+      Linux expr command 
+      Linux RegEx 
+      Linux Grep RegEx 
+      Linux rename RegEx 
+      Linux Sed RegEx 
+      
+      
+      File Security 
+      
+      
+      Linux File OwnerShip 
+      Linux chgrp Command 
+      Linux File Permission 
+      Linux chmod Command 
+      Linux chown command 
+      Linux Advance Permission 
+      Linux File Links 
+      1) Linux Inodes 
+      2) Linux Link Directories 
+      3) Linux Hard links 
+      4) Linux Soft links 
+      5) Linux Remove link 
+      
+      
+      Shell Commands 
+      
+      
+      Linux Shell Commands 
+      Linux Aliases 
+      Linux Arguments 
+      Linux Displaying Shell 
+      Linux Control Operators 
+      1) Semicolon 
+      2) Ampersand 
+      3) Dollar Question Mark 
+      4) Double Ampersand 
+      5) Double Vertical Bar 
+      6) Combining && and || 
+      7) Pound Sign 
+      8) ESC 
+      Linux File Globbing 
+      Linux Shell Embedding 
+      Linux Shell History 
+      Linux history Command 
+      Linux History Commands 
+      Linux Histroy Size 
+      Linux Bang Bang 
+      
+      
+      Linux Networking 
+      
+      
+      Linux Networking 
+      1) Linux ifconfig 
+      2) Linux ip 
+      Linux telnet Command 
+      SSH Linux 
+      Linux mail Command 
+      3) Linux traceroute 
+      4) Linux tracepath 
+      5) Linux ping 
+      6) Linux netstat 
+      7) Linux ss 
+      8) Linux dig 
+      9) Linux nslookup 
+      10) Linux route 
+      11) Linux host 
+      12) Linux arp 
+      13) Linux iwconfig 
+      14) Linux hostname 
+      15) Linux curl & wget 
+      Linux Curl Command 
+      16) Linux mtr 
+      17) Linux whois 
+      18) Linux ifplugstatus 
+      
+      
+      Linux Misc 
+      
+      
+      chkconfig command in Linux 
+      How to change user password in Linux 
+      Awk Command Usage 
+      How to unzip files in Linux 
+      Linux chroot Command 
+      Linux Watch Command 
+      Ubuntu Vs. Kali Linux 
+      Clear cache Linux 
+      7 QC Tools 
+      Linux Process Memory Usage 
+      Linux Tree Command 
+      Wine Linux 
+      Linux Commands to Check Disk Space 
+      Manjaro Vs. Ubuntu 
+      Architecture of Linux 
+      Linux Lite 
+      Linux Shell 
+      Linux Meaning 
+      Linux Foundation 
+      Linux List Directories 
+      Linux Shortcuts 
+      Best Linux Distro 
+      Who command in Linux 
+      Linux Server 
+      Debian vs Ubuntu 
+      Types of Files in Unix 
+      Linux Daemon 
+      Linux Zip Command 
+      CPU Utilization in Linux 
+      Linux Terminal 
+      Linux sudo 
+      Basic Linux Commands 
+      How to Check RAM in Linux 
+      Linux List Users 
+      Kill command 
+      Tar command 
+      Linux Find File 
+      Echo command 
+      Linux Change or set Password 
+      SSH Command 
+      What is sshd in Linux 
+      Linux Screen Command 
+      Linux Check Disk Space 
+      Run command in Linux 
+      Linux Memory Management 
+      Linux Reboot Command 
+      How to Inspect the Memory in Linux 
+      Ubuntu GNOME 
+      How to check open ports in Linux 
+      Linux vs Ubuntu 
+      Ping command in Linux 
+      Linux Source Command 
+      Linux Terminal Shortcuts 
+      Find IP Address in Linux 
+      Linux date Command 
+      Linux hosts (file) 
+      UNIX operating system 
+      Linux dpkg command 
+      Latest Kernel Linux Version 
+      Linux Package Manager 
+      Linux proc 
+      Linux Task Manager 
+      Linux Signals 
+      Parrot OS vs. Kali Linux 
+      Ubuntu Features 
+      Linux ISO 
+      Putty Command in Linux 
+      Check OS Version in Linux 
+      Linux Change Timezone 
+      Linux Load Average 
+      Linux Firewall 
+      RPM Command in Linux 
+      Cron Command 
+      Linux Change Hostname 
+      Ubuntu Disable Firewall 
+      Latest Release of Ubuntu 
+      Ubuntu Logo 
+      Ubuntu MATE 
+      Ubuntu Nvidia Drivers 
+      Zoom Ubuntu 
+      Install tar.gz Ubuntu 
+      Ubuntu Screen Recorder 
+      Ubuntu Server 
+      Ubuntu Wallpaper 
+      xVideoServiceThief Ubuntu Linux Free 
+      Restart Apache Ubuntu 
+      Ubuntu 20.04 LTS 
+      Ubuntu Bootable USB 
+      Ubuntu Desktop 
+      Ubuntu Font 
+      X videoservicethief Ubuntu 18 command 
+      Ubuntu Games 
+      Ubuntu Update Command 
+      Ubuntu LTS 
+      vscode for Ubuntu 
+      Android Studio Ubuntu 
+      AnyDesk Ubuntu 
+      Ask Ubuntu 
+      Boot Repair Ubuntu 
+      Install AWS CLI Ubuntu 
+      Install NVM Ubuntu 
+      Install JDK Ubuntu 
+      Install RVM Ubuntu 
+      Install Skype Ubuntu 
+      Ubuntu Budgie 
+      
+      
+      Linux Editors 
+      
+      
+      Linux Text Editors 
+      
+      
+      Linux vi Editor 
+      
+      
+      Vi Editor 
+      1) switch 
+      2) move 
+      3) jump 
+      4) delete 
+      5) undo and repeat 
+      6) cut, copy, paste 
+      7) cut, copy, paste blocks 
+      8) Start and end 
+      9) Joining 
+      10) word 
+      11) Search 
+      12) Replace all 
+      13) Text Buffers 
+      14) Abbreviations 
+      
+      
+      Linux System Admin 
+      
+      
+      Linux Admin Commands 
+      Linux uptime 
+      Linux service 
+       Linux pmap 
+       Linux wget command 
+      Linux ftp or sftp 
+      Linux free Command 
+      Linux top 
+      Linux last 
+      Linux ps 
+      Linux shutdown 
+      Linux info 
+      Linux env 
+      Linux du 
+      Linux init 
+      Linux Nano Editor 
+       Linux shred 
+      Linux mount 
+      Linux route 
+      
+      
+      Linux Man Pages 
+      
+      
+      Linux man 
+      Linux man -a 
+      Linux man -aw 
+      Linux man -f 
+      Linux man -k(apropos) 
+      Linux man whereis 
+      Whatis command in Linux 
+      
+      
+      Error Codes 
+      
+      
+      Linux Error Codes 
+      
+      
+      Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Android Studio Ubuntu What is Android Studio? Android Studio is an official IDE (Integrated Development Environment) for the development of an Android app that is based on the IntelliJ IDEA. Android Studio provides more aspects that increase our productivity when creating Android apps on top of the strong code editor of IntelliJ. Some of these aspects are mentioned below: 
+            
+            A formative build system (Gradle-based) 
+            A feature-rich and fast emulator 
+            A unified platform where we can develop for every Android device 
+            Apply modifications for pushing resource changes and code to our running application without rebooting our application 
+            Extensive testing frameworks and tools 
+            Lint tools for catching performance, version compatibility, usability, and other issues 
+            NDK and C++ support 
+            Support (built-in) for Google Cloud Platform, trying to make it convenient for integrating App Engine and Messaging of Google Cloud 
+            Project Structure of Android Studio All projects in Android Studio show the files of our project in the view of Android Studio. The view is coordinated by modules for providing fast access to the key source files of our project. Every build file is visible under Gradle Scripts on the top level and all modules of the app contain folders. These folders are: 
+            
+            res: It contains each non-code resource like bitmap images, UI strings, and XML layouts. 
+            java: It contains the source code files of Java such as JUnit test code. 
+            manifests: It contains the file, i.e., AndroidManifest.xml. 
+            On disk, the project structure of Android Studio differs through the flattened representation. We need to choose the Project using the drop-down of the Project to see the original project file structure. Also, we can customize the project file's view for focusing on the specific features of the development of our app. For example, choosing the view, i.e., Problems of our project will show many links for the source files including any recognized syntax and coding errors like a missing element closing tag of XML inside the layout file. By applying the Gradle flexibility, we can achieve each of them without changing the core source files of our app. Android Studio creates files are called build.gradle. These files are plain text files that apply Groovy syntax for configuring the build along with elements offered by the Android plugin for Gradle. All projects have one file of top-level build for the whole project and isolate the files of module-level build for all modules. Automatically, Android Studio generates the mandatory build files when we import an available project. What is a Gradle-based build system? Android Studio applies Gradle as the build system's foundation along with more specific compatibilities of Android offered via the Android plugin for Gradle. The build system executes as a consolidated tool from the menu of Android Studio and the terminal or command line independently. We can use the aspects of this build system for doing the below: 
+            
+            Extend, configure, and customize the process of the build. 
+            Establish more than one APK for our app along with different aspects using similar modules and projects. 
+            Reuse resources and code across source sets. 
+            Components of Gradle-based build system Build Variants A build system can support us to establish distinct versions of a similar application using one project. It is helpful when we have both a paid version and a free version of our app, or if we wish to distribute more than one APK for different configurations of devices on Google Play.  Multiple Support of APK Multiple support of APK permits us for efficiently creating more than one APK that is based on ABI or screen density. For example, we can create different APKs of any app for the mdpi and hdpi screen densities, even still examining them one variant and permitting them for sharing for test APK, ProGuard settings, dx, and javac. Resource Shrinking In Android Studio, resource shrinking automatically deletes unused resources through our library dependencies and package app. For example, if our application is using services of Google Play for accessing the functionalities of Google Drive, and we are currently not using Google Sign-In, resource shrinking can delete several drawable assets for the button, i.e., SignInButton. Managing dependencies Many dependencies for our project are described by a name inside the file, i.e., build.gradle. Gradle will take care of finding our dependencies and enabling them available in our build. We can declare the dependencies of the module, dependencies of remote binary, and dependencies of local binary in our file, i.e., build.gradle. By default, Android Studio can configure projects using the repository of Maven Central. This configuration is added in the build file (top-level) for the project. Profile and debug tools Gradle-based build system Android studio and assist us in debugging and enhancing the performance of our code, including performance analysis tools and inline debugging.  Inline debugging We can apply inline debugging for enhancing our code walk-throughs inside the view of the debugger along with inline verification of variable values, expressions, and references. 
+            
+            The information of inline debug includes: 
+            Tooltip values 
+            Operator and lambda expressions 
+            Method return values 
+            Referring many objects that can reference chosen object 
+            Inline variable values 
+            Performance profilers Android Studio offers performance profilers so we can easily track the memory and CPU usage, analyze network requests, optimize graphics performance, locate memory leaks, and find deallocated objects of our app. We can open the tab, i.e., Android Profiler using our app running on an emulator or device. Heap dump Simultaneously we can dump the Java heap and start garbage collection to the heap snapshot within the Android-specific binary format file (HPROF) when we are profiling the usage of memory in Android studio. The viewer of HPROF shows classes, a reference tree, and instances of all classes for helping us to find memory leaks and track the usage of memory. Memory profiler We can use a memory profiler for tracking the allocation of memory and see where the objects are allocated if we perform many actions. Understanding these allocations makes us for optimizing the performance and memory use of our app by managing the method calls corresponding to those actions. Access of data file The tools of Android SDK like logcat and Systrace generate debugging and performance data for complete app analysis. We need to open the tool window, i.e., Captures for viewing the available produced data files. We need to double-click on any file for viewing the data inside the list of the produced files. We need to right-click on any file, i.e., .hprof for converting them to a standard file format, i.e., Investigate our RAM usage. Code inspections Automatically, Android studio executes configured Lint and other types of IDE inspections for helping us easily recognize and solve problems along with the structural quality of our code. The Lint tool can check the source files of our Android project for internationalization, accessibility, usability, performance, security, potential bugs, and optimization development for correctness. Also, Android studio performs the code inspection of IntelliJ and validates many annotations for streamlining the workflow of our coding in inclusion to Lint checks. Android Studio Annotations Android Studio can support annotations for return values, parameters, and variables for helping us catch bugs like resource type conflicts and null pointer exceptions. The manager of Android SDK can package the library of Support-Annotations within the support repository of Android for application with Android Studio. Also, Android Studio can validate many configured annotations at the time of code inspection. Log messages We can check the adb output and the log messages of the device inside the Logcat window if we build and execute our app using Android Studio. Performance profiling We need to start the Android Profiler by selecting View > Tool Windows > Android Profiler if we wish to profile the network performance, memory, and CPU of our app. User Interface of Android Studio Some of the important components of the user interface of Android Studio are mentioned below:  
+            
+            Toolbar: It lets us carry out a huge variety of actions such as launching the tools of Android and running our app. 
+            Navigation bar: It helps us to navigate to our project and start files to edit. It gives a more compact structure view that is visible inside the window, i.e., Project. 
+            Editor Window: It is where we build and change code. The editor can modify depending on the latest file type. For example, the editor shows the Layout Editor if viewing the layout file. 
+            Tool Window bar: It executes around the IDE window's outside and includes the buttons that permit us for expanding or collapsing single tool windows. 
+            Tool Windows: It gives us access to unique tasks such as version control, search, project management, and more. We can spread them and collapse them. 
+            Status bar: It shows the status of the IDE itself, our project, and any messages or warnings. 
+            We can organize the primary window for giving ourselves more space on the screen by moving or hiding tool windows and toolbars. Also, we can use the shortcuts of the keyboard for accessing almost all features of IDE. We can search across the components of the user interface, actions, databases, source code, and so on, by double-clicking on the key, i.e., Shift, or pressing the magnifying glass inside the upper right-hand side of the Android Studio window. It can be very helpful when, for example, we are trying to locate a specific action of IDE that we have forgotten how to trigger. Tool Windows Android Studio pursues our context and brings up corresponding to windows automatically as we work rather than applying pre-set perspectives. The most generally used tool windows are by default pinned to a tool window are at many applications window edges. 
+            
+            For expending or collapsing a tool window, we need to click on the name of the tool inside the tool window bar. Also, we can attach, detach, unpin, pin, and drag tool windows. 
+            For returning to our current layout of the default tool window, we need to select Window > Restore Default Layout or customize our default layout by pressing Window > Store Current Layout as Default. 
+            For showing or hiding the whole tool window bar, we need to select the icon, i.e., the window inside the bottom left-hand side of the Android Studio Window. 
+            For locating a particular tool window, we need to hover on the icon of the window and choose the tool window using the menu. 
+            Also, we can use the shortcuts of the keyboard for opening the tool windows. Code completion of Android studio Android studio contains three code completion types that we can access with keyboard shortcuts. A few keyboard shortcuts for Android studio code completion are mentioned below: 
+            
+            
+              
+              Type 
+              Explanation 
+              Linux and Windows 
+              Mac 
+              
+              
+              Basic completion 
+              It shows basic recommendations for expressions, methods, types, variables, and so on. If we call common completion twice within a row, then we will see more outputs like non-imported static members and private members. 
+              Ctrl+Space 
+              Ctrl+Space 
+              
+              
+              Smart completion 
+              It shows corresponding options that are based on a context. This completion type is known to the data flows and expected type. If we call this completion twice within a row, then we will see more outputs like chains. 
+              Ctrl+Shift+Space 
+              Ctrl+Shift+Space 
+              
+              
+              Statement completion 
+              It completes the latest statement for us adding missing braces, brackets, formatting, etc. 
+              Ctrl+Shift+Enter 
+              Shift+Command+Enter 
+              
+            
+            Also, we can display intention actions and perform quick fixes by clicking Alt+Enter. Find sample code in Android Studio In Android Studio, the browser of the Code Sample supports us to find Google-provided and high-quality samples of Android code that are based on the highlighted symbol currently in our project. Navigation Here are a few tips to support us to move across Android Studio: 
+            
+            Switching between our accessed files (recently) with the help of an action, i.e., Recent Files. We need to click Control+E for bringing up the Recent Files action. 
+            Viewing the current file's structure with the help of an action, i.e., File Structure. We need to click Control+F12 for bringing up the File Structure action. 
+            Navigate to and search for a particular class in our project with the help of an action, i.e., Navigate to Class. We need to click Control+N for bringing up the Navigate to class action. 
+            Navigate to a folder or file with the help of an action, i.e., Navigate to File. We need to click Control+Shift+N for bringing up the Navigate to File action. 
+            Navigate to a field or method by name with the help of an action, i.e., Navigate to Symbol. We need to click Control+Shift+Alt+N for bringing up the Navigate to Symbol action. 
+            Formatting and Style Automatically, Android Studio uses styles and formatting as described in the style settings of our code as we edit. We can customize the style settings of the code using programming languages line describing conventions for blank lines, braces, wrapping, spaces, indents, and tabs. For customizing the style settings of our code, we need to press File > Settings > Editor > Code Style > (Android Studio > Preferences > Editor > Code Style in a Mac system). However, the IDE uses formatting automatically as we work. Also, we can call the action, i.e., Reformat Code explicitly by clicking Control+Alt+L or auto-indent every line by clicking Control+Alt+l. Prerequisites 
+            
+            64-bit distro capable of executing 32-bit applications. 
+            Min 3 GB RAM and 1 GB for Android emulator. 
+            GNU C library 2.19 or later. 
+            Min space of the disk of 2 GB. 
+            The min resolution of the screen must be 1280*800. 
+            First Method: Using the Ubuntu Software Centre Android Studio can easily be installed using the Ubuntu Software Centre. However, the desired application should available within the software store. 
+            
+             We need to check out the Ubuntu Software Centre for installing Android Studio and find Android Studio.   
+             We will need to select the button, i.e., Install when we found the application.    
+            We will be asked for a password for confirming the process of the installation. Within the application tray, we will have the icon of Android Studio when the process of the installation gets finished. 
+            We can see the section of the final setup when it is successfully installed. 
+            Second Method: With the Snap Tool It will become very convenient to install the software packages if the snap tool exists. We don't need to change any type or file in any command. However, we require to have the Snap that is installed in our computer inside the first position. Snap can be installed with the help of the following command: 
+           
+            
+$ sudo apt-get install snapd
+
+              We can continue installing Android Studio when the installation process of Snap is completed. It can be done with the help of the following command: 
+           
+            
+$ sudo snap install android-studio
+
+              We will have to wait for some time as it might take some minutes. It should be successfully installed, but for a few reasons, when it gives an error, then we need to include a parameter, i.e., --classic in the command as mentioned below: 
+           
+            
+$ sudo snap install android-studio --classic
+
+              We can see the section of the final setup when it is successfully installed. Third Method: With the Zip File Install Java OpenJDK We need the 8th version of the OpenJDK to be installed on our system for installing Android Studio. We will first install OpenJDK 8. We can simply begin by updating a package index as the installation process is very easy: We can use the following command for updating the package index: 
+           
+            
+$ sudo apt update
+
+              We will now install the 8th package version of the OpenJDK with the help of the following command: 
+           
+            
+$ sudo apt install openjdk-8-jdk
+
+              We can enter the following command for verifying the installation process to see the version: 
+           
+            
+$ java -version
+
+              Install Android studio We need to open the terminal with the help of the keyboard shortcut, i.e., Ctrl+Alt+T, and enter the following command for downloading and installing the snap package of the Android studio: 
+           
+            
+$ sudo snap install android-studio --classic
+
+              We will find the below output when the process of installation is finished: Android studio is installed on the Ubuntu desktop successfully. Getting started with Android studio We can begin Android Studio from our terminal or command line by entering android-studio in the terminal or by pressing the icon of Android Studio when the Android Studio application has been installed in our system with the help of the above methods. The following window will occur prompting us for importing the settings of Android Studio using the previous installation when we begin the Android Studio application for the very first time. The window, i.e., Setup Wizard will occur when we press on the button, i.e., OK. We need to press the next button for starting the post-installation steps and initial configuration. Now option to select the setup type we wish for Android Studio will occur. We can choose the options, i.e., Standard or Custom if we wish to customize the Android studio. We can choose the theme of UI and the Setup Wizard in the upcoming step. This step will help us to download and install the needed components of SDK. This process might take some time relying on the connection speed and our system. The welcome page would be represented when the IDE of Android Studio is loaded. 
+            
+            
+            Next Topic
+            AnyDesk Ubuntu 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

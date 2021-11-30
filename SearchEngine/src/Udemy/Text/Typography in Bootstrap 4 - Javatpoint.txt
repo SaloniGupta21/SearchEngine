@@ -1,0 +1,1354 @@
+
+
+ 
+  
+  Typography in Bootstrap 4 - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Bootstrap 4 
+       Bootstrap 
+       HTML 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       CSS 
+       XML 
+       JSON 
+       C 
+       Java 
+       PHP 
+       Ajax 
+       Quiz 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Bootstrap 4 Tutorial 
+      
+      
+      Bootstrap 4 Tutorial 
+      Environment setup 
+      Bootstrap 4 Layout 
+      Bootstrap 4 Buttons 
+      Bootstrap 4 Dropdown 
+      Bootstrap 4 Spinners 
+      Bootstrap 4 Badges 
+      Bootstrap 4 Progress Bars 
+      Bootstrap 4 Jumbotron 
+      Bootstrap 4 Text 
+      Bootstrap 4 Pagination 
+      Bootstrap 4 Carousel 
+      Bootstrap 4 Scrollspy 
+      Bootstrap 4 Tooltip 
+      Bootstrap 4 Accordion 
+      Bootstrap 4 Login Form 
+      Bootstrap 4 Checkboxes 
+      Bootstrap 4 Radio Button 
+      Bootstrap 4 Toast 
+      Bootstrap 4 registration form 
+      Bootstrap 4 Popover 
+      Bootstrap 4 testimonial slider 
+      Bootstrap 4 footer 
+      Bootstrap 4 Contact form 
+      Bootstrap 4 search box 
+      Bootstrap 4 File Upload 
+      Bootstrap 4 Sidebar 
+      Bootstrap 4 Data table 
+      Bootstrap 4 toggle switch 
+      Bootstrap 4 Header 
+      Bootstrap 4 Tabs 
+      Bootstrap 4 Flexbox 
+      Bootstrap 4 Modal 
+      Bootstrap 4 Input groups 
+      Bootstrap 4 Responsive Table 
+      Bootstrap 4 colors 
+      Bootstrap 4 Button Groups 
+      Multi step progress bar in Bootstrap 4 
+      Typography in Bootstrap 4 
+      Bootstrap 4 custom form 
+      Bootstrap 4 Datepicker 
+      
+      
+      MCQ 
+      
+      
+      Bootstrap 4 MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Typography in Bootstrap 4 In this article, we will understand about the typography in Bootstrap 4. What do you mean by Typography in Bootstrap 4. In Bootstrap 4, Typography is a feature for styling and formatting the text content. It is used to create customized headings, inline subheadings, lists, paragraphs, aligning, adding more design-oriented font styles and much more. Following classes and tags are used to implement the typography feature in bootstrap 4: 1. text-muted: This class is used for color the text and adds text-muted fades in the text. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 5px solid red;
+}  
+h2:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h2 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> javatpoint //A Normal Text.</h2>
+	<h2 class="text-muted"> javatpoint  //A Muted Text.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-muted class. Output: Following is the output of this example:  2. display: This class is used to create better headings in bootstrap 4. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 5px solid red;
+}  
+h2:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h2 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> javatpoint //A Normal Text. </h2>
+	<h2 class="display-3">  javatpoint  //A display class.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created a display class. Output: Following is the output of this example:  3. lead: It is used to make a paragraph stand out i.e. Visually better. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 5px solid red;
+}  
+h2:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h2 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> javatpoint //A Normal Text. </h2>
+	<h2 class="lead">  javatpoint  //A lead class.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of lead class in Bootstrap 4. Output: Following is the output of this example:  4. mark: This tag is used to highlight the text. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 5px solid red;
+}  
+mark {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> javatpoint //A Normal Text.</h2>
+	<mark> javatpoint - A Highlighted class </mark>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of mark tag in typography. Output: Following is the output of this example:  5. small: This tag is used to create secondary subheadings. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 5px solid red;
+}  
+small {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2 class="text-success"> Javatpoint 
+	<small> A CS Portal </small> 
+	</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of a small tag in bootstrap 4. Output: Following is the output of this example.  6. initialism: It is used to render abbreviations in slightly small text sizes. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 100;  
+  font-size: 20px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  border: 2px solid red;
+}  
+abbr {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<abbr title="Javatpoint" class="text-success initialism"> Javatpoint </abbr> is a CS portal
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of an initialism class with an abbr tag. Output: Following is the output of this example:  7. blockquote: This tag is used to quote content. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 Typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+    border: 5px solid red;
+}  
+blockquote {
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<blockquote> JavaTpoint // Blockquote tag </blockquote>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of a blockquote tag. Output: Following is the output of this example:  8. blockquote-footer: It is the footer details for identifying the source of the Quote. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 Typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+    border: 5px solid red;
+}  
+blockquote-footer {
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 90px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<blockquote class="blockquote-footer"> JavaTpoint a CS portal // Blockquote-footer class </blockquote>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of blockquote footer class. Output: Following is the output of this example:  9. text-center: This class is used to align the text to center. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 10;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+border: 5px solid red;
+}  
+</style>  
+<body>
+<h1> Example </h1>
+	<h2 class="display-4 text-center"> JavaTpoint a CS portal // display-4 text-center class </h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-centre class. Output: Following is the output of this example:  10. text-truncate: This class is used to shorten the longer text by truncating with ellipsis. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 100;  
+  font-size: 20px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 2px solid red;
+}  
+h2 {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> JavaTpoint //A Normal Text.</h2>
+	<h2 width="70%" class="text-truncate">
+	 This is a text-truncate example </h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-truncate class. Output: Following is the output of this example:  11. text-uppercase: This class is used to transform text to uppercase. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 100;  
+  font-size: 20px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s; 
+  border: 2px solid red;
+}  
+h2 {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> JavaTpoint //A Normal Text.</h2>
+	<h2 class="text-uppercase"> JavaTpoint  // Text uppercase.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-uppercase. Output: Following is the output of this example: 12. text-lowercase: This class is used to transform text to lowercase. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 100;  
+  font-size: 20px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  border: 2px solid red;
+} 
+h2 {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> JavaTpoint //A Normal Text.</h2>
+	<h2 class="text-lowercase"> JavaTpoint  // Text lowercase.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-lowercase class. Output: Following is the output of this example:  13. text-capitalize: It is used to transform text to capitalize the first letter of each word leaving other letters in lowercase. Example: 
+           
+            
+<! DOCTYPE html>      
+<html lang="en">      
+<head>      
+  <title> Bootstrap 4 typography Example </title>      
+  <meta charset="utf-8">      
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>      
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>      
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">      
+</head>      
+<style>  
+.hm-gradient {  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  
+}  
+h1:hover {  
+  font-size: 3rem;  
+  transition: all 1s;  
+}  
+h1 {  
+  position: relative;  
+  padding: 40;  
+  margin: 40;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 100;  
+  font-size: 20px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+  border: 2px solid red;
+}  
+h2 {  
+  position: relative;   
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}
+</style>  
+<body>
+<h1> Example </h1>
+	<h2> JavaTpoint //A Normal Text.</h2>
+	<h2 class="text-capitalize"> JavaTpoint  // Text Captalize.</h2>
+</body>
+</html>
+
+            Explanation: In the above example, we have created an example of text-capitalize. Output: Following is the output of this example:  
+            
+            
+            Next Topic
+            Bootstrap 4 custom form 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

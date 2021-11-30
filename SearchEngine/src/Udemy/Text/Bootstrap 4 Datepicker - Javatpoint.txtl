@@ -1,0 +1,348 @@
+Bootstrap 4 Datepicker - Javatpoint ? SCROLL TO TOP Home Bootstrap 4 Bootstrap HTML JavaScript jQuery jQuery UI CSS XML JSON C Java PHP Ajax Quiz Projects Interview Q Bootstrap 4 Tutorial Bootstrap 4 Tutorial Environment setup Bootstrap 4 Layout Bootstrap 4 Buttons Bootstrap 4 Dropdown Bootstrap 4 Spinners Bootstrap 4 Badges Bootstrap 4 Progress Bars Bootstrap 4 Jumbotron Bootstrap 4 Text Bootstrap 4 Pagination Bootstrap 4 Carousel Bootstrap 4 Scrollspy Bootstrap 4 Tooltip Bootstrap 4 Accordion Bootstrap 4 Login Form Bootstrap 4 Checkboxes Bootstrap 4 Radio Button Bootstrap 4 Toast Bootstrap 4 registration form Bootstrap 4 Popover Bootstrap 4 testimonial slider Bootstrap 4 footer Bootstrap 4 Contact form Bootstrap 4 search box Bootstrap 4 File Upload Bootstrap 4 Sidebar Bootstrap 4 Data table Bootstrap 4 toggle switch Bootstrap 4 Header Bootstrap 4 Tabs Bootstrap 4 Flexbox Bootstrap 4 Modal Bootstrap 4 Input groups Bootstrap 4 Responsive Table Bootstrap 4 colors Bootstrap 4 Button Groups Multi step progress bar in Bootstrap 4 Typography in Bootstrap 4 Bootstrap 4 custom form Bootstrap 4 Datepicker MCQ Bootstrap 4 MCQ next ? ? prev Bootstrap 4 Datepicker In this article, we can understand how to use a Date picker in Bootstrap 4. Firstly we can understand the basics of bootstrap 4 and Date picker option. After that we can learn this concept with the help of various examples. What do you mean by Bootstrap 4? Bootstrap 4 is used for adding design in HTML documents similar to cascading style sheets. It is free to download and use. The link below is used to add Bootstrap to a template. <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> What do you mean by date picker in bootstrap 4? A date picker is a graphical user interface widget in bootstrap. It allows the user to select a date from a calendar and/or time from a time range. Date pickers let users select a date or range of dates. Let's take various examples of date picker options in Bootstrap 4. Example 1: 
+<! DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> date of birth in bootstrap </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+</head>  
+<style>
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+html {
+  box-sizing: border-box;  
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);    
+}
+body {    
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);    
+	font-family: 'Exo', sans-serif;
+}     
+
+h1 {    
+  position: relative;    
+  padding: 40;    
+  margin: 40;    
+  font-family: "Raleway", sans-serif;    
+  font-weight: 300;    
+  font-size: 40px;    
+  color: #080808;    
+  -webkit-transition: all 0.4s ease 0s;    
+  -o-transition: all 0.4s ease 0s;    
+  transition: all 0.4s ease 0s;    
+  border: 5px solid red;  
+    font-family: 'Exo', sans-serif;
+}    
+h2 {    
+  position: relative;    
+  padding: 10;    
+  margin: 10;    
+  font-family: "Raleway", sans-serif;    
+  font-weight: 300;    
+  font-size: 20px;    
+  color: #080808;    
+  -webkit-transition: all 0.4s ease 0s;    
+  -o-transition: all 0.4s ease 0s;    
+  transition: all 0.4s ease 0s;    
+  text-align: center;    
+    font-family: 'Exo', sans-serif;
+}  
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-2 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+</style>
+<body>
+    <div class="container">
+	<h1> Example: Date picker in Bootstrap 4 </h1>
+      <h2> Schedule your meeting </h2>
+      <form>
+        <div class="form-group">
+          <label for="name"> Name </label>
+          <input type="email" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="inputDate">Date </label>
+          <input type="input" class="form-control" id="inputDate">
+        </div>
+        <button type="submit" class="custom btn btn-2"> Submit </button>
+      </form>
+    </div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"> </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"> </script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" type="text/css" />
+<script>
+$('#inputDate').datepicker({
+});
+</script>
+  </body>
+</html>
+ Explanation: In this example, we have created a date picker in Bootstrap. In which users can select the date according to their choice. Output: Below is the output of this example. Example 2: 
+<! DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> date of birth in bootstrap </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+</head>  
+<style>
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+body {    
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);    
+	font-family: 'Exo', sans-serif;
+}     
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 10px;
+  font-family: "Overpass Mono", monospace;
+}
+h1 {    
+  position: relative;    
+  padding: 10;    
+  margin: 10;    
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;    
+  font-size: 40px;    
+  color: #080808;    
+  -webkit-transition: all 0.4s ease 0s;    
+  -o-transition: all 0.4s ease 0s;    
+  transition: all 0.4s ease 0s;    
+  text-align: center;     
+}    
+.giz-calendar {
+  margin: auto; 
+  border-radius: 4px;
+  max-width: 32rem;
+  min-height: 1.6rem;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12); }
+  .giz-calendar button {
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    background-color: transparent;
+    padding: 0.6rem 0.8rem; }
+    .giz-calendar button > span {
+      line-height: 1.75;
+      letter-spacing: -0.08rem; }
+  .giz-calendar .giz-calendar-header {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    background-color: blue;
+    padding: 0.8rem 2.4rem; }
+    .giz-calendar .giz-calendar-header button {
+      color: #fff; }
+      .giz-calendar .giz-calendar-header button:hover {
+        background-color: #0000000d; }
+      .giz-calendar .giz-calendar-header button .giz-calendar-year-title {
+        font-size: 2.56rem; }
+      .giz-calendar .giz-calendar-header button .giz-calendar-title {
+        font-size: 3.3rem; }
+  .giz-calendar .giz-calendar-content {
+    background: #fff;
+    padding: 0.8rem 1rem; }
+    .giz-calendar .giz-calendar-content .active {
+      background-color: blue;
+      color: #fff; }
+    .giz-calendar .giz-calendar-content .hide {
+      display: none; }
+    .giz-calendar .giz-calendar-content button {
+      height: 3.5rem;
+      width: 3.5rem;
+      font-size: 1.4rem;
+      display: inline-block;
+      border-radius: 50%;
+      background: transparent; }
+      .giz-calendar .giz-calendar-content button:hover:not(.active) {
+        background: #0000000d; }
+    .giz-calendar .giz-calendar-content .giz-calendar-title-switch {
+      align-items: center;
+      margin: 0.8rem 0rem;
+      display: flex;
+      justify-content: space-between; }
+      .giz-calendar .giz-calendar-content .giz-calendar-title-switch .giz-calendar-title-slide {
+        font-size: 1.6rem; }
+        .giz-calendar .giz-calendar-content .giz-calendar-title-switch .giz-calendar-title-slide:hover {
+          cursor: pointer;
+          font-weight: 600; }
+      .giz-calendar .giz-calendar-content .giz-calendar-title-switch button:hover {
+        background: #0000000d; }
+    .giz-calendar .giz-calendar-content .giz-calendar-weekday {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      color: #0000008a;
+      place-items: center;
+      margin-bottom: 0.8rem;
+      font-size: 1.2rem; }
+    .giz-calendar .giz-calendar-content .giz-calendar-day {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      align-items: center;
+      grid-template-rows: repeat(6, 1fr);
+      place-items: center; }
+      .giz-calendar .giz-calendar-content .giz-calendar-day .giz-calendar-day-count {
+        font-size: 1.2rem !important; }
+    .giz-calendar .giz-calendar-content .giz-calendar-month {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      place-items: center;
+      grid-row-gap: 0.8rem;
+      grid-template-rows: auto;
+      margin-bottom: 0.8rem; }
+      .giz-calendar .giz-calendar-content .giz-calendar-month .giz-calendar-month-count {
+        font-size: 1.6rem; }
+      .giz-calendar .giz-calendar-content .giz-calendar-month button {
+        width: auto;
+        border-radius: 4px;
+        padding: 0.3rem 2.5rem; }
+    .giz-calendar .giz-calendar-content .giz-calendar-action {
+      display: flex;
+      justify-content: flex-end; }
+      .giz-calendar .giz-calendar-content .giz-calendar-action button {
+        width: auto;
+        border-radius: 4px;
+        padding: 0.3rem 2.5rem;
+        color: blue; }
+        .giz-calendar .giz-calendar-content .giz-calendar-action button:hover {
+          background-color: blue;
+          color: #fff; 
+}
+</style>
+<body>
+    <h1> Example: Date picker in Bootstrap 4 </h1>
+<main>
+  <div class="container"> 
+    <div class="giz-calendar">
+      <div class="giz-calendar-header">
+        <div> <button> <span class="giz-calendar-year-title"> 2021 </span></button> </div>
+        <div> <button> <span class="giz-calendar-title">  16 November </span> </button> </div>
+      </div>
+      <div class="giz-calendar-content">
+        <div class="giz-calendar-title-switch">
+          <div> <button class="giz-button-rounded"> <i class="fas fa-chevron-left"> </i> </button> </div>
+          <div class="giz-calendar-title-slide"> November 2021 </div>
+          <div>
+            <button class="giz-button-rounded"> <i class="fas fa-chevron-right"> </i> </button>
+          </div>
+        </div>
+        <div class="calendar-hide">
+          <div class="giz-calendar-weekday">
+            <div> Sun</div>
+            <div> Mon </div>
+            <div> Tue </div>
+            <div> Wed </div>
+            <div> Thu </div>
+            <div> Fri </div>
+            <div> Sat </div>
+          </div>
+          <div class="giz-calendar-day">
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 1 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 2 </span> </button> </div>
+   <div> <button class="active"> <span class="giz-calendar-day-count"> 3 </span> </button> </div>
+         <div> <button class="active"> <span class="giz-calendar-day-count"> 4 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 5 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 6 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 7 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 8 </span> </button> </div>
+ <div> <button class="active"> <span class="giz-calendar-day-count"> 9 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 10 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 11 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 12 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 13 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 14 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 15 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 16 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 17 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 18 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 19 </span> </button> </div>
+       <div> <button class="active"> <span class="giz-calendar-day-count"> 20 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 21 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 22 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 23 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 24 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 25 </span> </button> </div>
+<div> <button class="active"> <span class="giz-calendar-day-count"> 26 </span> </button> </div>
+    <div> <button class="active"> <span class="giz-calendar-day-count"> 27 </span> </button> </div>
+    <div> <button class="active"> <span class="giz-calendar-day-count"> 28 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 29 </span> </button> </div>
+            <div> <button class="active"> <span class="giz-calendar-day-count"> 30 </span> </button> </div>
+          </div>
+        </div>
+        <div class="hide calendar-show">
+          <div class="giz-calendar-month">
+            <div> <button class="active"> <span class="giz-calendar-month-count"> Jan </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Feb </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Mar </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Apr</span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> May </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> June </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> July </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Aug </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Sep </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Oct </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Nov </span> </button> </div>
+            <div> <button> <span class="giz-calendar-month-count"> Dec </span> </button> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+</main>
+<script>
+$(document).ready(function() {
+       $(".giz-calendar-day button, .giz-calendar-month button").click(function() {
+       $(this).addClass('active');
+       $(".giz-calendar-day button, .giz-calendar-month button").not(this).removeClass("active");
+   });
+$(".giz-calendar-title-slide").click(function() {
+    $(".calendar-show").toggle();
+$(".calendar-hide").toggle();
+});
+});
+</script>
+  </body>
+</html>
+ Explanation: In this example, we have created a date picker in Bootstrap. In which users can select the date according to their choice. Output: Below is the output of this example. Next Topic # ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

@@ -1,0 +1,907 @@
+
+
+ 
+  
+  Top View of a Binary Tree in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Top View of a Binary Tree in Java In this section, we will learn about the top view of a binary tree in Java and the different approaches to achieve it. In the top view of a binary tree, we print only those nodes of the binary tree that are visible when the binary tree is viewed from the top. For example, consider the following binary tree.  The top view of the above binary tree is: 
+           
+            
+7 4 3 2 1
+
+            For the following binary tree:  The top view of the above binary tree is: 
+           
+            
+6 3 2 1
+
+            Note: In the top view of a binary tree, the order in which the nodes are displayed in the output is not relevant. All one should care about is that all of the nodes that are visible from the top side of the binary tree should be included in the output. Approach 1: Using Queue In this approach, we need to group the nodes whose horizontal distance is the same by taking the root node as the reference. We perform a level order traversal of the tree using a queue so that the topmost nodes are visited before the nodes that are lying below it. Hashing technique is used to identify whether a given horizontal distance is seen or not. Implementation Let's see the implementation of the top view of a binary tree using the horizontal distance approach. FileName: TopViewExample.java 
+           
+            
+// important import statements
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Queue;
+import java.util.Map.Entry;
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// l and r represents the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = null;
+l = null;
+}
+}
+public class TopViewExample 
+{
+BinaryTreeNode rt;
+// constructor of the class
+public TopViewExample() { rt = null; }
+// method that displays the top view of the binary tree
+private void TopView(BinaryTreeNode root)
+{
+class QueObj 
+{
+BinaryTreeNode node;
+int horDis;
+// constructor of the class QueObj
+QueObj(BinaryTreeNode node, int horDis)
+{
+this.node = node;
+this.horDis = horDis;
+}
+}
+Queue<QueObj> que = new LinkedList<QueObj>();
+Map<Integer, BinaryTreeNode> mp = new TreeMap<Integer, BinaryTreeNode>();
+if (root == null) 
+{
+return;
+}
+else 
+{
+que.add(new QueObj(root, 0));
+}
+while (!que.isEmpty()) 
+{
+QueObj tempNode = que.poll();
+if (!mp.containsKey(tempNode.horDis)) 
+{
+mp.put(tempNode.horDis, tempNode.node);
+}
+if (tempNode.node.l != null) 
+{
+// -1 for the left node
+que.add(new QueObj(tempNode.node.l, tempNode.horDis - 1));
+}
+if (tempNode.node.r != null) 
+{
+// +1 for the right node
+que.add(new QueObj(tempNode.node.r, tempNode.horDis + 1));
+}
+}
+// loop for printing the values of the node that are visible from the top view
+for (Entry<Integer, BinaryTreeNode> entry : mp.entrySet()) 
+{
+System.out.print(entry.getValue().v + " ");
+}
+}
+// main method
+public static void main(String[] argvs)
+{
+// creating an object of the class TopViewExample
+TopViewExample tv = new TopViewExample();
+// root node of the binary tree
+tv.rt = new BinaryTreeNode(3);
+// other nodes of the binary tree
+tv.rt.l = new BinaryTreeNode(4);
+tv.rt.r = new BinaryTreeNode(2);
+tv.rt.l.l = new BinaryTreeNode(7);
+tv.rt.l.r = new BinaryTreeNode(6);
+tv.rt.r.l = new BinaryTreeNode(5);
+tv.rt.r.r = new BinaryTreeNode(1);
+System.out.println("The following are the nodes present in the top view of the Binary Tree");
+tv.TopView(tv.rt);
+}
+}
+
+            Output: 
+           
+            The following are the nodes present in the top view of the Binary Tree
+7 4 3 2 1
+
+            Approach 2: Using Two Variables In the previous approach, we have discussed the top view of the tree using a queue. In this approach, we will be using two variables instead of a queue. One variable is used to identify the depth of a node taking the root node as a reference, and another for finding the vertical distance from the root node. For indexing, we use vertical distancing. If any other node with the same vertical distance is visited again, then we have to check whether the depth of the new node is higher or lower as compared to the current node. We do the replacement when the depth is lower of the new node. Implementation Let's see the implementation of the top view of a binary tree using the two variables. FileName: TopViewExample1.java 
+           
+            
+// important import statements
+import java.util.Map;
+import java.util.Queue;
+import java.util.TreeMap;
+import java.util.Map.Entry;
+import java.util.LinkedList;
+
+class PairSet
+{
+int first;
+int second;
+PairSet() 
+{
+
+}
+PairSet(int m, int n)
+{
+first = m;
+second = n;
+}
+}
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// l and r represents the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = null;
+l = null;
+}
+}
+public class TopViewExample1 
+{
+BinaryTreeNode rt;
+// constructor of the class
+public TopViewExample1() { rt = null; }
+// a map to keep the node value pair and its level
+// with respect to the vertical distance from the root.
+public TreeMap<Integer, PairSet> mp = new TreeMap<>();
+// method for filling the map
+public void fillMap(BinaryTreeNode rt, int d, int i)
+{
+if (rt == null)
+{
+return;
+}
+if (mp.get(d) == null) 
+{
+mp.put(d, new PairSet(rt.v, i));
+}
+else if (mp.get(d).second > i) 
+{
+mp.put(d, new PairSet(rt.v, i));
+}
+fillMap(rt.l, d - 1, i + 1);
+fillMap(rt.r, d + 1, i + 1);
+}
+// method that prints the topView of the binary tree
+public void topView(BinaryTreeNode rt)
+{
+fillMap(rt, 0, 0);
+for (Map.Entry<Integer, PairSet> en : mp.entrySet()) 
+{
+System.out.print(en.getValue().first + " ");
+}
+}
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class TopViewExample1
+TopViewExample1 tv = new TopViewExample1();
+// root node of the binary tree
+tv.rt = new BinaryTreeNode(3);
+// other nodes of the binary tree
+tv.rt.l = new BinaryTreeNode(4);
+tv.rt.r = new BinaryTreeNode(2);
+tv.rt.l.l = new BinaryTreeNode(7);
+tv.rt.l.r = new BinaryTreeNode(6);
+tv.rt.r.l = new BinaryTreeNode(5);
+tv.rt.r.r = new BinaryTreeNode(1);
+System.out.println("The following are the nodes present in the top view of the Binary Tree");
+tv.topView(tv.rt);
+}
+
+            Output: 
+           
+            The following are the nodes present in the top view of the Binary Tree
+7 4 3 2 1
+
+            
+            
+            
+            Next Topic
+            Tribonacci Series in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

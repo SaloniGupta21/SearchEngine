@@ -1,0 +1,1265 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Ubuntu LTS - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Ubuntu LTS - javatpoint">
+  <meta property="og:description" content="Ubuntu LTS with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc."> 
+  <meta name="keywords" content="linux, tutorial, beginners, professionals, introduction, example, command, file, directory, permission, backup, ls, man, pwd, cd, chmod, man, shell, pipes, filters, regex, vi">
+  <meta name="description" content="Ubuntu LTS with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/ubuntu-lts"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Ubuntu LTS - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Ubuntu LTS with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/ubuntu-lts">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="linux-tutorial" class="selected">Linux</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="python-tutorial">Python</a></li> 
+       <li><a href="shell-scripting-tutorial">Shell Scripting</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="xml-tutorial">XML</a></li> 
+       <li><a href="ajax-tutorial">Ajax</a></li> 
+       <li><a href="android-tutorial">Android</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-tutorial"><span>Linux Tutorial</span></a> 
+      <a href="what-is-linux"><span>What is Linux</span></a> 
+      <a href="advantages-of-linux">Advantages of Linux</a> 
+      <a href="linux-history"><span>Linux History</span></a> 
+      <a href="linux-features"><span>Linux Features</span></a> 
+      <a href="linux-bash">Linux Bash</a> 
+      <a href="unix-vs-linux" class="l1">Unix vs Linux</a> 
+      <a href="linux-vs-windows">Linux vs Windows</a> 
+      <a href="linux-distributions"><span>Linux Distributions</span></a> 
+      <a href="linux-licensing"><span>Linux Licensing</span></a> 
+      <a href="linux-set-environment-variable">Set Environment Variable</a> 
+      <a href="linux-set-command">Linux Set Command</a> 
+      <a href="linux-export-command">Linux export Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Directories</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-directories">Linux Directories</a> 
+      <a href="linux-home-directory">Linux Home Directory</a> 
+      <a href="linux-pwd">Linux pwd</a> 
+      <a href="linux-cd">Linux cd</a> 
+      <a href="linux-absolute-relative-paths">Linux Absolute Relative</a> 
+      <a href="linux-path-completion">Linux Path Completion</a> 
+      <a href="linux-ls">Linux ls</a> 
+      <a href="linux-mkdir">Linux mkdir</a> 
+      <a href="linux-rmdir">Linux rmdir</a> 
+      <a href="rename-folder-in-linux">Rename Folder in Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Commands</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-commands-list">Linux commands List</a> 
+      <a href="linux-commands">Commands with Example</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Users</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-users">Linux Users</a> 
+      <a href="linux-create-user">Linux Create User</a> 
+      <a href="linux-su-commands">Local su Commands</a> 
+      <a href="linux-user-management">Linux User Management</a> 
+      <a href="linux-user-password">User Password</a> 
+      <a href="linux-groups">Local Groups</a> 
+      <a href="linux-add-user-to-group">Add User to Group</a> 
+      <a href="linux-id-command">Linux id Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Files</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-files">Linux Files</a> 
+      <a href="linux-file-system">Linux File System</a> 
+      <a href="linux-create-file">Linux Create File</a> 
+      <a href="linux-file">Linux file</a> 
+      <a href="linux-touch">Linux touch</a> 
+      <a href="linux-rm">Linux rm</a> 
+      <a href="linux-cp">Linux cp</a> 
+      <a href="linux-mv">Linux mv</a> 
+      <a href="linux-rename">Linux rename</a> 
+      <a href="linux-install-command">Linux install Command</a> 
+      <a href="linux-read-command">Linux read Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux File Contents</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-contents">Linux File Contents</a> 
+      <a href="open-file-in-linux">Open File in Linux</a> 
+      <a href="linux-edit-file">Linux Edit File</a> 
+      <a href="linux-which-command">Linux which command</a> 
+      <a href="linux-head">Linux head</a> 
+      <a href="linux-tail">Linux tail</a> 
+      <a href="linux-cat">Linux cat</a> 
+      <a href="linux-tac">Linux tac</a> 
+      <a href="linux-more">Linux more</a> 
+      <a href="linux-less">Linux less</a> 
+      <a href="linux-strings-command">Linux strings command</a> 
+      <a href="linux-print">Linux Print</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Process</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="kill-process-linux">Kill Process Linux</a> 
+      <a href="linux-terminating">Linux terminating</a> 
+      <a href="linux-kill">1) Linux kill</a> 
+      <a href="linux-killall">2) Linux killall</a> 
+      <a href="linux-pkill">3) Linux pkill</a> 
+      <a href="linux-xkill">4) Linux xkill</a> 
+      <a href="linux-nohup-command">Nohup Command</a> 
+      <a href="linux-at-command">Linux at command</a> 
+      <a href="linux-exit-command">Linux exit command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux File Hierarchy</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-hierarchy-system">Linux File Hierarchy</a> 
+      <a href="linux-fhs-binary-directories">Binary Directories</a> 
+      <a href="linux-fhs-configuration-directory">Configuration Directories</a> 
+      <a href="linux-fhs-data-directory">Data Directories</a> 
+      <a href="linux-fhs-memory-directory">Memory Directories</a> 
+      <a href="linux-unix-system-resources">Usr Directory</a> 
+      <a href="linux-fhs-variable-directory">var Directory</a> 
+      <a href="linux-fhs-non-standard-directories">Non-standard directories</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Filters</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-filters" class="l1">Linux Filters</a> 
+      <a href="linux-cat-filters" class="l1">Linux cat</a> 
+      <a href="linux-cut" class="l1">Linux cut</a> 
+      <a href="linux-grep" class="l1">Linux grep</a> 
+      <a href="linux-comm" class="l1">Linux comm</a> 
+      <a href="linux-sed" class="l1">Linux sed</a> 
+      <a href="linux-tee" class="l1">Linux tee</a> 
+      <a href="linux-tr" class="l1">Linux tr</a> 
+      <a href="linux-uniq" class="l1">Linux uniq</a> 
+      <a href="linux-wc" class="l1">Linux wc</a> 
+      <a href="linux-od" class="l1">Linux od</a> 
+      <a href="linux-sort" class="l1">Linux sort</a> 
+      <a href="linux-gzip" class="l1">Linux gzip</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">AWK Command</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-awk-command">Linux AWK Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Programming with Linux</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-make-command">Linux make command</a> 
+      <a href="gcc-linux">GCC Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux I/O Redirection</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-input-output-redirection">Linux I/O Redirection</a> 
+      <a href="linux-input-redirection">Linux Input Redirection</a> 
+      <a href="linux-output-redirection">Linux Output Redirection</a> 
+      <a href="linux-error-redirection">Linux Error Redirection</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Unix Tools</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-basic-unix-tools">Linux Unix Tools</a> 
+      <a href="linux-find">Linux Find</a> 
+      <a href="linux-locate">Linux Locate</a> 
+      <a href="linux-date">Linux Date</a> 
+      <a href="linux-cal">Linux Cal</a> 
+      <a href="linux-sleep">Linux Sleep</a> 
+      <a href="linux-time">Linux Time</a> 
+      <a href="linux-zcat-zmore">Linux zcat/zmore</a> 
+      <a href="linux-bzip2-bunzip2">Linux bzip2 / bunzip2</a> 
+      <a href="linux-bzcat-bzmore">Linux bzcat / bzmore</a> 
+      <a href="linux-df">Linux df</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Regex</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-expr-command">Linux expr command</a> 
+      <a href="linux-regular-expression"><span>Linux RegEx</span></a> 
+      <a href="linux-grep-regular-expressions"><span>Linux Grep RegEx</span></a> 
+      <a href="linux-rename-regular-expression"><span>Linux rename RegEx</span></a> 
+      <a href="linux-sed-regular-expression"><span>Linux Sed RegEx</span></a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">File Security</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-ownership">Linux File OwnerShip</a> 
+      <a href="linux-chgrp-command">Linux chgrp Command</a> 
+      <a href="linux-file-permissions">Linux File Permission</a> 
+      <a href="linux-chmod-command">Linux chmod Command</a> 
+      <a href="linux-chown-command">Linux chown command</a> 
+      <a href="linux-advanced-file-permission">Linux Advance Permission</a> 
+      <a href="linux-file-links">Linux File Links</a> 
+      <a href="linux-inodes">1) Linux Inodes</a> 
+      <a href="linux-file-links-directories">2) Linux Link Directories</a> 
+      <a href="linux-hard-links">3) Linux Hard links</a> 
+      <a href="linux-symbolic-links">4) Linux Soft links</a> 
+      <a href="linux-removing-links">5) Linux Remove link</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Shell Commands</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-shell-commands">Linux Shell Commands</a> 
+      <a href="linux-aliases">Linux Aliases</a> 
+      <a href="linux-arguments">Linux Arguments</a> 
+      <a href="linux-displaying-shell">Linux Displaying Shell</a> 
+      <a href="linux-control-operators">Linux Control Operators</a> 
+      <a href="linux-semicolon">1) Semicolon</a> 
+      <a href="linux-ampersand">2) Ampersand</a> 
+      <a href="linux-dollar-question-mark">3) Dollar Question Mark</a> 
+      <a href="linux-double-ampersand">4) Double Ampersand</a> 
+      <a href="linux-double-vertical-bar">5) Double Vertical Bar</a> 
+      <a href="linux-combining-and-or-operators">6) Combining &amp;&amp; and ||</a> 
+      <a href="linux-pound-sign">7) Pound Sign</a> 
+      <a href="linux-escaping-special-characters">8) ESC</a> 
+      <a href="linux-file-globbing">Linux File Globbing</a> 
+      <a href="linux-shell-embedding">Linux Shell Embedding</a> 
+      <a href="linux-shell-history">Linux Shell History</a> 
+      <a href="linux-history-command">Linux history Command</a> 
+      <a href="linux-shell-history-commands">Linux History Commands</a> 
+      <a href="linux-history-size">Linux Histroy Size</a> 
+      <a href="linux-bang-bang">Linux Bang Bang</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Networking</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-networking-commands">Linux Networking</a> 
+      <a href="linux-ifconfig">1) Linux ifconfig</a> 
+      <a href="linux-ip">2) Linux ip</a> 
+      <a href="linux-telnet-command">Linux telnet Command</a> 
+      <a href="ssh-linux">SSH Linux</a> 
+      <a href="linux-mail-command">Linux mail Command</a> 
+      <a href="linux-traceroute">3) Linux traceroute</a> 
+      <a href="linux-tracepath">4) Linux tracepath</a> 
+      <a href="linux-ping">5) Linux ping</a> 
+      <a href="linux-netstat">6) Linux netstat</a> 
+      <a href="linux-ss">7) Linux ss</a> 
+      <a href="linux-dig">8) Linux dig</a> 
+      <a href="linux-nslookup">9) Linux nslookup</a> 
+      <a href="linux-route">10) Linux route</a> 
+      <a href="linux-host">11) Linux host</a> 
+      <a href="linux-arp">12) Linux arp</a> 
+      <a href="linux-iwconfig">13) Linux iwconfig</a> 
+      <a href="linux-hostname">14) Linux hostname</a> 
+      <a href="linux-curl-and-wget">15) Linux curl &amp; wget</a> 
+      <a href="linux-curl-command">Linux Curl Command</a> 
+      <a href="linux-mtr">16) Linux mtr</a> 
+      <a href="linux-whois">17) Linux whois</a> 
+      <a href="linux-ifplugstatus">18) Linux ifplugstatus</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="chkconfig-command-in-linux">chkconfig command in Linux</a> 
+      <a href="how-to-change-user-password-in-linux">How to change user password in Linux</a> 
+      <a href="linux-awk-command-usage">Awk Command Usage</a> 
+      <a href="how-to-unzip-files-in-linux">How to unzip files in Linux</a> 
+      <a href="linux-chroot-command">Linux chroot Command</a> 
+      <a href="linux-watch-command">Linux Watch Command</a> 
+      <a href="ubuntu-vs-kali-linux">Ubuntu Vs. Kali Linux</a> 
+      <a href="clear-cache-linux">Clear cache Linux</a> 
+      <a href="linux-7-qc-tools">7 QC Tools</a> 
+      <a href="linux-process-memory-usage">Linux Process Memory Usage</a> 
+      <a href="linux-tree-command">Linux Tree Command</a> 
+      <a href="wine-linux">Wine Linux</a> 
+      <a href="linux-commands-to-check-disk-space">Linux Commands to Check Disk Space</a> 
+      <a href="manjaro-vs-ubuntu">Manjaro Vs. Ubuntu</a> 
+      <a href="architecture-of-linux">Architecture of Linux</a> 
+      <a href="linux-lite">Linux Lite</a> 
+      <a href="linux-shell">Linux Shell</a> 
+      <a href="linux-meaning">Linux Meaning</a> 
+      <a href="linux-foundation">Linux Foundation</a> 
+      <a href="linux-list-directories">Linux List Directories</a> 
+      <a href="linux-shortcuts">Linux Shortcuts</a> 
+      <a href="best-linux-distro">Best Linux Distro</a> 
+      <a href="who-command-in-linux">Who command in Linux</a> 
+      <a href="linux-server">Linux Server</a> 
+      <a href="debian-vs-ubuntu">Debian vs Ubuntu</a> 
+      <a href="types-of-files-in-unix">Types of Files in Unix</a> 
+      <a href="linux-daemon">Linux Daemon</a> 
+      <a href="linux-zip-command">Linux Zip Command</a> 
+      <a href="cpu-utilization-in-linux">CPU Utilization in Linux</a> 
+      <a href="linux-terminal">Linux Terminal</a> 
+      <a href="linux-sudo">Linux sudo</a> 
+      <a href="basic-linux-commands">Basic Linux Commands</a> 
+      <a href="how-to-check-ram-in-linux">How to Check RAM in Linux</a> 
+      <a href="linux-list-users">Linux List Users</a> 
+      <a href="kill-command-in-linux">Kill command</a> 
+      <a href="tar-command-in-linux">Tar command</a> 
+      <a href="linux-find-file">Linux Find File</a> 
+      <a href="echo-command">Echo command</a> 
+      <a href="linux-change-or-set-password">Linux Change or set Password</a> 
+      <a href="ssh-command">SSH Command</a> 
+      <a href="what-is-sshd-in-linux">What is sshd in Linux</a> 
+      <a href="linux-screen-command">Linux Screen Command</a> 
+      <a href="linux-check-disk-space">Linux Check Disk Space</a> 
+      <a href="run-command-in-linux">Run command in Linux</a> 
+      <a href="linux-memory-management">Linux Memory Management</a> 
+      <a href="linux-reboot-command">Linux Reboot Command</a> 
+      <a href="how-to-inspect-memory-in-linux">How to Inspect the Memory in Linux</a> 
+      <a href="ubuntu-gnome">Ubuntu GNOME</a> 
+      <a href="how-to-check-open-ports-in-linux">How to check open ports in Linux</a> 
+      <a href="linux-vs-ubuntu">Linux vs Ubuntu</a> 
+      <a href="ping-command-in-linux">Ping command in Linux</a> 
+      <a href="linux-source-command">Linux Source Command</a> 
+      <a href="linux-terminal-shortcuts">Linux Terminal Shortcuts</a> 
+      <a href="find-ip-address-in-linux">Find IP Address in Linux</a> 
+      <a href="linux-date-command">Linux date Command</a> 
+      <a href="linux-hosts-file">Linux hosts (file)</a> 
+      <a href="unix-operating-system">UNIX operating system</a> 
+      <a href="linux-dpkg-command">Linux dpkg command</a> 
+      <a href="latest-kernel-linux-version">Latest Kernel Linux Version</a> 
+      <a href="linux-package-manager">Linux Package Manager</a> 
+      <a href="linux-proc">Linux proc</a> 
+      <a href="linux-task-manager">Linux Task Manager</a> 
+      <a href="linux-signals">Linux Signals</a> 
+      <a href="parrot-os-vs-kali-linux">Parrot OS vs. Kali Linux</a> 
+      <a href="ubuntu-features">Ubuntu Features</a> 
+      <a href="linux-iso">Linux ISO</a> 
+      <a href="putty-command-in-linux">Putty Command in Linux</a> 
+      <a href="check-os-version-in-linux">Check OS Version in Linux</a> 
+      <a href="linux-change-timezone">Linux Change Timezone</a> 
+      <a href="linux-load-average">Linux Load Average</a> 
+      <a href="linux-firewall">Linux Firewall</a> 
+      <a href="rpm-command-in-linux">RPM Command in Linux</a> 
+      <a href="cron-command">Cron Command</a> 
+      <a href="linux-change-hostname">Linux Change Hostname</a> 
+      <a href="ubuntu-disable-firewall">Ubuntu Disable Firewall</a> 
+      <a href="latest-release-of-ubuntu">Latest Release of Ubuntu</a> 
+      <a href="ubuntu-logo">Ubuntu Logo</a> 
+      <a href="ubuntu-mate">Ubuntu MATE</a> 
+      <a href="ubuntu-nvidia-drivers">Ubuntu Nvidia Drivers</a> 
+      <a href="zoom-ubuntu">Zoom Ubuntu</a> 
+      <a href="install-tar-gz-ubuntu">Install tar.gz Ubuntu</a> 
+      <a href="ubuntu-screen-recorder">Ubuntu Screen Recorder</a> 
+      <a href="ubuntu-server">Ubuntu Server</a> 
+      <a href="ubuntu-wallpaper">Ubuntu Wallpaper</a> 
+      <a href="xvideoservicethief-ubuntu-linux-free">xVideoServiceThief Ubuntu Linux Free</a> 
+      <a href="restart-apache-ubuntu">Restart Apache Ubuntu</a> 
+      <a href="ubuntu-20-04-lts">Ubuntu 20.04 LTS</a> 
+      <a href="ubuntu-bootable-usb">Ubuntu Bootable USB</a> 
+      <a href="ubuntu-desktop">Ubuntu Desktop</a> 
+      <a href="ubuntu-font">Ubuntu Font</a> 
+      <a href="x-videoservicethief-ubuntu-18-command">X videoservicethief Ubuntu 18 command</a> 
+      <a href="ubuntu-games">Ubuntu Games</a> 
+      <a href="ubuntu-update-command">Ubuntu Update Command</a> 
+      <a href="ubuntu-lts">Ubuntu LTS</a> 
+      <a href="vscode-for-ubuntu">vscode for Ubuntu</a> 
+      <a href="android-studio-ubuntu">Android Studio Ubuntu</a> 
+      <a href="anydesk-ubuntu">AnyDesk Ubuntu</a> 
+      <a href="ask-ubuntu">Ask Ubuntu</a> 
+      <a href="boot-repair-ubuntu">Boot Repair Ubuntu</a> 
+      <a href="install-aws-cli-ubuntu">Install AWS CLI Ubuntu</a> 
+      <a href="install-nvm-ubuntu">Install NVM Ubuntu</a> 
+      <a href="install-jdk-ubuntu">Install JDK Ubuntu</a> 
+      <a href="install-rvm-ubuntu">Install RVM Ubuntu</a> 
+      <a href="install-skype-ubuntu">Install Skype Ubuntu</a> 
+      <a href="ubuntu-budgie">Ubuntu Budgie</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Editors</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-text-editors">Linux Text Editors</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux vi Editor</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="vi-editor">Vi Editor</a> 
+      <a href="linux-vi-switch">1) switch</a> 
+      <a href="linux-vi-move">2) move</a> 
+      <a href="linux-vi-jump">3) jump</a> 
+      <a href="linux-vi-delete">4) delete</a> 
+      <a href="linux-vi-undo-and-repeat">5) undo and repeat</a> 
+      <a href="linux-vi-cut-copy-paste">6) cut, copy, paste</a> 
+      <a href="linux-vi-cut-copy-paste-blocks">7) cut, copy, paste blocks</a> 
+      <a href="linux-vi-start-and-end">8) Start and end</a> 
+      <a href="linux-vi-joining">9) Joining</a> 
+      <a href="linux-vi-word">10) word</a> 
+      <a href="linux-vi-searhing">11) Search</a> 
+      <a href="linux-vi-replace-all">12) Replace all</a> 
+      <a href="linux-vi-text-buffers">13) Text Buffers</a> 
+      <a href="linux-vi-abbreviations">14) Abbreviations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux System Admin</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-system-admin-commands">Linux Admin Commands</a> 
+      <a href="linux-uptime">Linux uptime</a> 
+      <a href="linux-service">Linux service</a> 
+      <a href="linux-pmap"> Linux pmap</a> 
+      <a href="linux-wget"> Linux wget command</a> 
+      <a href="linux-ftp-and-sftp">Linux ftp or sftp</a> 
+      <a href="linux-free-command">Linux free Command</a> 
+      <a href="linux-top">Linux top</a> 
+      <a href="linux-last">Linux last</a> 
+      <a href="linux-ps">Linux ps</a> 
+      <a href="linux-shutdown">Linux shutdown</a> 
+      <a href="linux-info">Linux info</a> 
+      <a href="linux-env">Linux env</a> 
+      <a href="linux-du">Linux du</a> 
+      <a href="linux-init">Linux init</a> 
+      <a href="linux-nano-editor">Linux Nano Editor</a> 
+      <a href="linux-shred"> Linux shred</a> 
+      <a href="linux-mount">Linux mount</a> 
+      <a href="linux-route">Linux route</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Man Pages</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-man">Linux man</a> 
+      <a href="linux-man-a">Linux man -a</a> 
+      <a href="linux-man-aw">Linux man -aw</a> 
+      <a href="linux-man-f">Linux man -f</a> 
+      <a href="linux-man-k">Linux man -k(apropos)</a> 
+      <a href="linux-man-whereis">Linux man whereis</a> 
+      <a href="whatis-command-in-linux">Whatis command in Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Error Codes</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-error-codes">Linux Error Codes</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <a href="linux-interview-questions"><span>Linux Interview</span></a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="vscode-for-ubuntu">next &#x2192;</a> 
+            <a class="next" href="ubuntu-update-command">&#x2190; prev</a> 
+           </div> <h1 class="h1">Ubuntu LTS</h1> <p><strong>LTS</strong> is short for <strong>"Long Term Support"</strong>. Support means that during the release lifetime, there is a promise for updating the patch and maintaining the software. There is a precise development cycle in which contributors and engineers add to the release body.</p> <p>A longer cycle of beta testing, where more bug fixing and testing takes place for focusing on the stability and performance of the release. The software could become a security hazard without LTS. Vulnerabilities improve over time and systems become disclosed and implement poorly the longer they endure out-of-date.</p> <p>Besides, the system of the users will begin to fall behind if users attach with a similar version too long. The moves of the development forward while a few key aspects are backported to the previous releases occasionally.</p> <p>Ubuntu developers produce a fresh Ubuntu server and Ubuntu desktop version every six months. It means that always we will have the greatest and latest applications that the world of open-source will has to provide. Ubuntu OS is created with security. We get free updates of security for 9 months (at least) on the server and desktop.</p> 
+           <ul class="points"> 
+            <li>A new Long Term Support version is published every two years.</li> 
+            <li>A version of LTS (Long-Term Support) had 3 years of support on the 12.04 LTS version of Ubuntu and 5 five years on the Ubuntu server in previous versions.</li> 
+            <li>Starting with the 12.04 LTS release of Ubuntu, both releases received 5 years of support.</li> 
+            <li>Ubuntu makes the best work present for everyone on similar free terms, there are no other charges for an LTS release.</li> 
+            <li>Upgrades to the new releases of Ubuntu are always free.</li> 
+            <li>The designation of LTS uses only to some particular Ubuntu archive subsets. The LTS might not use to every remix and flavor of Ubuntu.</li> 
+            <li>For instance, for the 8.04 LTS release, <strong>Kubuntu</strong> select for moving to the 4.0 version of <strong>KDE</strong> and did not publish an LTS version. In the 10.04 version, The <strong>Netbook Edition</strong> wasn't an LTS version. The project would determine which flavors would be LTS and the duration of the support for all, early in the development cycle of an LTS.</li> 
+           </ul> <h2 class="h2">What is an LTS version?</h2> <p>An LTS of Ubuntu is a promise from <strong>Canonical</strong> for supporting and maintaining an Ubuntu release for 5 years. Canonical releases a fresh LTS in which every development from the 2 years acquired into an <strong>up-to-date</strong> and <strong>feature-rich</strong> version.</p> <p>These versions concentrate on stability and performance enhancement. An LTS is what Ubuntu suggests to large-scale enterprises, businesses, and normal users.</p> <p>However, there are developer releases every six months during those 2 years for dynamic users. These versions are kept relevant and up-to-date, with the greatest and latest contributors, but are supported for only 9 months at once.</p> <p>Whether we are a multinational corporation, an SME, or an individual user, reliability is important. The focus of Ubuntu is on maintaining <strong>security, trust</strong>, and <strong>reliability</strong>. The first LTS of Ubuntu with the support of 5 years was the 12.04 version of Ubuntu. Since then, the releases of Ubuntu have held a similar 2 years cadence.</p> <p>It is a good place for pointing out the convention of naming.</p> <p>Regardless of a developer release or an LTS, the convention of naming leads with the trails and year whether it's in October or April release. The upcoming release would be in 2020 October and be known as the 20.10 version.</p> <p>Also, an <strong>LTS</strong> is an opportunity for shining a light on the community of Ubuntu. Contributions from millions of developers enter together in a version that would be suggested to users to come for many years.</p> <p>The community faiths enough in Ubuntu that are various official Ubuntu flavors that depend on continuous development for their success. The trust moves both ways, all flavors publish an LTS along with similar flavors are approved by the complete Ubuntu archive and Ubuntu release cadence for updates and packages.</p> <h2 class="h2">Plan details of Releases</h2> 
+           <ol class="points"> 
+            <li>The developers of Ubuntu begin stabilizing the version early by limiting the range of new features significantly. They will select which feature they package into an LTS version, then which one they leave out and permit for users for optionally downloading and using from an isolated archive.</li> 
+            <li>Ignore structural modifications as far as possible, like modifying the default group of applications, several library transitions, and system layer modifications.<br> Furthermore, they specify an LTS to be: 
+             <ol class="pointsa"> 
+              <li><strong>Compatibility with new hardware:</strong> Ubuntu will establish point versions during the development cycle for providing functional support for desktop hardware and the new server.</li> 
+              <li><strong>Enterprise focused:</strong> Ubuntu is targeting multiple desktop and server installations, in which an average user is risk-averse moderately.</li> 
+              <li><strong>More tested:</strong> Ubuntu will minimize the development window and maximize the Beta cycle to permit more bug fixing and testing.</li> 
+             </ol> and clearly define that it's not:</li> 
+            <li><strong>Cutting-edge:</strong> Beginning with the development cycle of the 14.04 LTS version, automatic complete package import implemented from Debian unstable. It is because of using <strong>ProposedMigration</strong> within the Ubuntu archive.</li> 
+            <li><strong>Feature-based version:</strong> Ubuntu will concentrate on crystallizing functionality of available features, versus defining new ones, excluding for inside the area of Desktop Experience and Online Services. 
+             <ol class="points" type="i"> 
+              <li>Exceptions for preferred projects would be documented.</li> 
+              <li>Due to these 2 development areas are new relatively and they still need new features for satisfying the original causes for their creation.</li> 
+             </ol> </li> 
+           </ol> <h2 class="h2">Ubuntu LTS releases</h2> <p>Some of the LTS releases of Ubuntu are listed and discussed below:</p> <h3 class="h3">Ubuntu 14.04</h3> <p>The 14.04 LTS of Ubuntu would be supported for five years for <strong>Ubuntu Kylin, Eubuntu, Kubuntu, Ubuntu Core, Ubuntu Server,</strong> and <strong>Ubuntu Desktop</strong>. All other flavors would be supported for three years.</p> <h3 class="h3">Ubuntu 14.04 LTS Features</h3> <p>The 14.04.5 point version will ship by default with an <strong>X stack</strong> and <strong>updated kernel</strong> in an effort for supporting a wider range of hardware on an existing release of LTS. This new hardware enablement stack would be comprised of the <strong>X stack</strong> and <strong>kernel</strong> from the 16.04 release (<strong>Xenial</strong>).</p> <p>Those running cloud or virtual images should not require this new hardware enablement stack and hence it is suggested that they continue on the actual Trusty stack. There are some options for remaining on the actual Trusty stack.</p> <p>Install using a previous 14.04.1 or 14.04.0 point update and release.</p> <p>The previous 14.04.1 or 14.04.0 releases can be archived at <a href="http://old-releases.ubuntu.com/" rel="nofollow" target="_blank">http://old-releases.ubuntu.com/</a></p> <p>Perform an upgrade and update to Trusty through a previous release of Ubuntu. Those installing using the 14.04.02 point media and by default a new will receive automatically a new hardware enablement stack. Implement a network install with the <strong>netboot images</strong> instead of the <strong>new xenial-netboot, wily-netboot, vivid-netboot</strong>, or <strong>utopic-netboot images</strong>.</p> <img src="https://static.javatpoint.com/linux/images/ubuntu-lts.png" alt="Ubuntu LTS"> <p><strong>1. Updated Packages</strong></p> <p>Software of every type and package application is being updated over at a rapid pace as with all new releases. Several of these packages continued from an automatic sync from the unstable branch of Debian and others have been pulled explicitly in for the 14.04 LTS of Ubuntu.</p> <p><strong>2. The 4.4 version of Linux Kernel</strong></p> <p>The 14.04.5 point version by default will ship with the new 4.4 version of Linux Kernel from the matching X.org stack and the 16.04 version of Ubuntu. It is based on the Extended Upstream Stable Kernel 4.4.0 Release. The purpose of giving a new kernel within the 14.04.5 point version is for the hardware enablement.</p> <p><strong>3. The 3.4 version of Python</strong></p> <p>Eventually, we intend for shipping only Python 3 along with the desktop image of Ubuntu, not Python 2. The 14.04 LTS image of Ubuntu goes through this process. However, we can transform everything into Python 3 for the 14.04 LTS version of Ubuntu.</p> <p>If we have our programs that are based on <strong><em>Python 2</em></strong>.</p> <p>But, Python 2 will go on to be available (like a Python package) for a certain future. Although, we must consider porting our code to <strong><em>Python 3</em></strong> for best supporting Ubuntu future versions.</p> <p><strong>4. AppArmor</strong></p> 
+           <ul class="points"> 
+            <li>It has several features in the 14.04 LTS version of Ubuntu.</li> 
+            <li>It supports the signal's fine-grained mediation.</li> 
+            <li>It supports ptrace fine-grained mediation.</li> 
+            <li>It improves DBus mediation.</li> 
+            <li>It has newer abstractions for many applications that are running upon Unity.</li> 
+            <li>It has various new tunables that are supporting dovecot, directories of XDG users, and more.</li> 
+            <li>It has several updates for policy in support of bug fixes and new features.</li> 
+            <li>It has a new variable, i.e., @{profile_name} for referencing the latest profile name in the policy.</li> 
+            <li>AppArmor has new Python3 and Python libraries (python3-apparmor and python-apparmor).</li> 
+           </ul> <p>The policy of AppArmor has been accommodated for many packages that can ship it for working with these modifications. However, the local policy might need to be accommodated, especially for ptrace and signal rules.</p> <h2 class="h2">Ubuntu 16.04 LTS</h2> <p><strong>Introduction</strong></p> <p>The 16.04 LTS version of Ubuntu would be supported for five years for Ubuntu Kylin, Ubuntu Core, Ubuntu Server, and Ubuntu Desktop. Every other flavor would be supported for three years.</p> <h3 class="h3">Features of Ubuntu 16.04 LTS</h3> <img src="https://static.javatpoint.com/linux/images/ubuntu-lts2.png" alt="Ubuntu LTS"> 
+           <ul class="points"> 
+            <li><strong>Snap application format</strong><br>The 16.04 LTS version of Ubuntu defines a new format of application, i.e., <strong><em>'snap'</em></strong>. It could be installed with the traditional packages of deb. These two formats of packaging quite comfortably live next to each other and make Ubuntu for maintaining its existing processes for updates and development.</li> 
+            <li><strong>Updated Packages</strong><br>Software of every type and package application is being updated and upgraded at a rapid pace as with all new releases. Several of these packages continued from the unstable branch of Debian and others have been pulled explicitly in for the 16.04 version of Ubuntu.</li> 
+            <li><strong>The 4.4 version of Linux Kernel</strong><br>The 16.04 LTS version of Ubuntu works on the basis of the Long-term supported releases of Linux series 4.4.</li> 
+            <li><strong>Python 3</strong><br>By default, Python 2 isn't installed anymore on the touch, cloud, or server images. Python 3 version itself has been updated to the series of 3.5. If we have our programs that are based on the version, i.e., Python 2, then Python 2 would go on to be available (like a Python package) for a certain future. Although, for best supporting Ubuntu future versions, we should try porting our code to Python 3.</li> 
+            <li><strong>OpenSSH 7.2p2</strong><br>The recent releases of OpenSSH disable various pieces of unsafe, legacy, and/or weak cryptography. If we are remotely upgrading any system over SSH, then we should see that we are not depending on these for ensuring that we will continue the access after the process upgrade.</li> 
+            <li><strong>Golang 1.6</strong><br>The toolchain of <strong><em>golang</em></strong> was updated to the series of 1.6 and <strong><em>gccgo</em></strong> was updated to the release candidate 1 of GCC 6.1. Hence, a similar level of standard compiler and library features are given by both of these compilers on each completely supported architecture.</li> 
+            <li><strong>Apt 1.2</strong><br>The 1.2 version of Apt contains the new separation of privilege features that were introduced in the 1.1 version of Apt. Importantly, the users of unprivileged "_apt" are now used if making connections for outgoing networks and parsing the outcomes for several transport methods (like FTP, HTTPS, HTTP, etc).</li> 
+            <li><strong>Ubuntu for z Systems and IBM LinuxONE</strong><br>The 16.04 version of Ubuntu contains a newer port to z/architecture 64-bit for the mainframe computers of IBM. Practically, it is a complete Cloud and Ubuntu Server port along with the availability of a 95% binary package.</li> 
+            <li><strong>Ubuntu Desktop</strong><br>The basic theme for the 16.04 version on the desktop is incremental quality improvements and bug fixes. 
+             <ul class="points"> 
+              <li><strong>General</strong> 
+               <ul class="points"> 
+                <li>Mostly, GNOME is upgraded to version, i.e., 3.18. GLib updated to 2.48 (related to GNOME 3.20).</li> 
+                <li>All default libraries and applications ported to apply WebKit 2.</li> 
+                <li>Now, the GNOME calendar is by default included.</li> 
+                <li>Chromium upgraded to the 48 version.</li> 
+                <li>Brasero and Empathy are deleted from the default installation.</li> 
+               </ul> </li>
+             </ul></li> 
+            <li><strong>Compiz and Unity</strong> 
+             <ul class="points"> 
+              <li>Improved integration of launcher with devices and file manager</li> 
+              <li>Integrated support for the applications of gtk with headerbars</li> 
+              <li>Support to format removable devices using quicklist</li> 
+              <li>Activate spread of app by Super+Ctrl+W</li> 
+              <li>Improvements to key grabbing of GNOME</li> 
+              <li>An option, i.e., <strong><em>Unity control center</em></strong> for always showing menus</li> 
+              <li>Improvements for spread and switched backends</li> 
+              <li>Better support for dash theming</li> 
+              <li>Support to scale cursors in the environments of HiDPi</li> 
+              <li>The launcher could be gone to the bottom</li> 
+              <li>Display the launching state of icons in the launcher if applications are launched elsewhere</li> 
+             </ul> </li> 
+            <li><strong>LibreOffice</strong> 
+             <ul class="points"> 
+              <li>The 5.1 version of LibreOffice brings many improvements to the whole package.</li> 
+              <li>Some key points are mentioned below: 
+               <ul class="points"> 
+                <li>LibreOffice defaults to the theme, i.e., Breeze in Ubuntu</li> 
+                <li>Improvements to the language bindings and Python scripting</li> 
+                <li>Supports WebDAV by HTTPS</li> 
+               </ul></li> 
+             </ul></li> 
+            <li><strong>Ubuntu Server</strong> 
+             <ul class="points"> 
+              <li><strong>General</strong><br>Now, the mechanism of kernel crash dump supports kernel crash dumps (remote). It's now possible to transfer kernel crash dumps to the remote server with NFS or SSH protocols.</li> 
+             </ul> </li> 
+            <li><strong>OpenStack Mitaka</strong><br>The 16.04 version of Ubuntu contains the latest release of OpenStack. <strong><em>Mitaka</em></strong> includes the below components: 
+             <ul class="points"> 
+              <li>Barbican - OpenStack Key Manager</li> 
+              <li>Manila - OpenStack Filesystem</li> 
+              <li>Ironic - OpenStack Bare-metal</li> 
+              <li>Designate - OpenStack DNS</li> 
+              <li>Trove - OpenStack Database as a Service</li> 
+              <li>Swift - OpenStack Object Storage</li> 
+              <li>Horizon - OpenStack Dashboard</li> 
+              <li>Heat - OpenStack Orchestration</li> 
+              <li>Aodh and Ceilometer - OpenStack Telemetry</li> 
+              <li>Neutron - OpenStack Networking</li> 
+              <li>Nova - OpenStack Compute</li> 
+              <li>Cinder - OpenStack Block Storage</li> 
+              <li>Glance - OpenStack Imaging</li> 
+              <li>Keystone - OpenStack Identity</li> 
+             </ul></li> 
+           </ul> <h2 class="h2">Ubuntu 18.04 LTS</h2> <p><strong>Introduction</strong></p> <p>The 18.04 version of Ubuntu has a main archive that would be supported for five years. It will provide support for Ubuntu Core, Ubuntu Server, and Ubuntu Desktop. The 18.04 version of Ubuntu Studio would be supported for nine months. Every other flavor would be supported for three years.</p> <h3 class="h3">Ubuntu 18.04 LTS Features</h3> <img src="https://static.javatpoint.com/linux/images/ubuntu-lts3.png" alt="Ubuntu LTS"> 
+           <ul class="points"> 
+            <li><strong>Updated Packages</strong><br>The 18.04.4 release of Ubuntu ships using a v5.3 based Linux kernel that was updated from a v5.0 based kernel within the 18.04.3 release. It enables the current peripherals and hardware available from Intel, IBM, and others. The kernel of the 18.04 version provides new aspects that are inherited from upstream. These aspects are mentioned below: 
+             <ul class="points"> 
+              <li>It supports a number of AMD and Intel graphics chipsets.</li> 
+              <li>It includes new default management algorithms of networking queues for improving networking on congested and slow links.</li> 
+              <li>It preliminary supports WiFi 6.</li> 
+              <li>It supports the BTRFS swap file.</li> 
+              <li>It includes a new block controller for I/O latency.</li> 
+              <li>It includes several security-related improvements.</li> 
+             </ul> Also, we see remarkable specific achievements of Ubuntu with: 
+             <ul class="points"> 
+              <li>shiftfs filesystem offering improvements for LXD performance</li> 
+              <li>Further Security and AppArmor module improvements</li> 
+             </ul></li> 
+            <li><strong>OpenJDK</strong><br>The 8th version of OpenJDK has moved in the world and will be there for the 18.04 life for providing migration time for scripts, applications, and packages that can not be created using OpenJDK 11. The 8th version of OpenJDK has been updated in the 18.04 version until the 16.04 version of Ubuntu reaches EOL in 2021 April.</li> 
+            <li><strong>OpenSSL</strong><br>The <strong><em>OpenSSL (default)</em></strong> has been updated from the 1.1.0 version to the 1.1.1 LTS version. This version is bringing high performance and the ability for using TLSv1.3 in chosen packages.</li> 
+            <li><strong>Security Improvements</strong><br>In the 18.04 version of Ubuntu, gcc is as default for compiling applications like PIE (Position Independent Executables) and using immediate bindings as well for making mare productive use of <strong><em>ASLR (Address Space Layout Randomization)</em></strong>.<br> Every package inside <strong><em>"main"</em></strong> has been recreated for taking advantage of it along with some exceptions. Mitigation is in place for protecting against Meltdown and Spectre.</li> 
+            <li><strong>Network Configuration</strong> 
+             <ul class="points"> 
+              <li><strong>New since v18.04.2</strong><br>ioprovides its improved support for DHCP overrides, IPv6 Privacy Extensions, improved support of error reporting for 802.1x authentication, and WPA Enterprise wifi, and supports IP tunnels as well.</li> 
+              <li><strong>New since v16.04 LTS</strong><br>ifupdown has been detracted for ioand it is no longer available on new installs. An installer will produce a file of configuration for netplan.io in a directory, i.e., /etc/netplan. This configuration of netplan renders the configuration of backend-specific by either NetworkManager or systemd-networkd.</li> 
+             </ul></li> 
+            <li><strong>Ubuntu Desktop</strong> 
+             <ul class="points"> 
+              <li><strong>Fixes and updates in 18.04.2</strong> 
+               <ul class="points"> 
+                <li>Fixed the bugs which interrupted the login screen from occurring on early Intel GPUs generation (Atom and Core2 etc)</li> 
+                <li>Fixed the OSK bugs interrupting letters (uppercase) being entered</li> 
+                <li>Fixed leak of memory in Nautilus</li> 
+                <li>Fixed bugs in which 2 application instances were launched when we touched over the dock</li> 
+                <li>Updated version of Thunderbird to the 60.4.0 version</li> 
+                <li>Updated version of LibreOffice to the 6.0.7 version</li> 
+                <li>Updated version of Firefox to the 65 version</li> 
+                <li>Fixed the bugs using notifications startup ordering of Livepatch which is causing some missing notifications</li> 
+                <li>Fixed the bugs that caused the dock for showing over the lock screen</li> 
+                <li>Made a few improvements of performance to GNOME shell</li> 
+               </ul></li> 
+             </ul> </li>
+            <li><strong>New since v17.10</strong> 
+             <ul class="points"> 
+              <li>X is a display server (default). Wayland is facilitated as a Technical Preview and it is supposed to be the display server (default) for the 20.04 LTS version.</li> 
+              <li>The installer provides an option for minimal install for a common desktop platform with the core system and web browser utilities. Several official flavors of the 18.04 desktop are applying this new aspect as well.</li> 
+              <li>Many apps that are offered by GNOME are updated the 3.28 version.</li> 
+              <li>LibreOffice is updated to the 6.0 version.</li> 
+              <li>Now, emoji display in color in almost all apps. To input the emoji, keyboard shortcuts are Ctrl+; or Ctrl+.</li> 
+              <li>Now, the calendar provides its support for the weather forecast.</li> 
+              <li>A few utilities have been changed to the format of snap for newer installs (System Monitor, Logs, Characters, and Calculator). Snap apps give better isolation that permits them to be upgraded to fresh stable versions at the time of the lifecycle of LTS.</li> 
+              <li>By default, the Character app substitutes the previous Character Map.</li> 
+              <li>Ubuntu Software app permits easy switching.</li> 
+             </ul></li> 
+           </ul> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="vscode-for-ubuntu">vscode for Ubuntu</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="ubuntu-update-command">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="vscode-for-ubuntu">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="47212222232526242c072d2631263337282e29336924282a">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/ubuntu-lts"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/ubuntu-lts"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/ubuntu-lts"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="274f55674d4651465357484e49530944484a">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a1c9d3e1cbc0d7c0d5d1cec8cfd58fc2cecc8f">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

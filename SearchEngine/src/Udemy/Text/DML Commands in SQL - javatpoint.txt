@@ -1,0 +1,1153 @@
+
+
+ 
+  
+  DML Commands in SQL - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        SQL 
+        PL/SQL 
+        MySQL 
+        MongoDB 
+        PostgreSQL 
+        SQL Server 
+        Oracle 
+        Cassandra 
+        SQLite 
+        DBMS 
+        Python 
+        Java 
+        Aptitude 
+        Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+     Oracle Training 
+      
+      SQL Tutorial 
+      
+      
+      What is SQL 
+      SQL Syntax 
+      SQL Data Types 
+      SQL Operators 
+      
+      
+      SQL Database 
+      
+      
+      SQL CREATE Database 
+      SQL DROP Database 
+      SQL RENAME Database 
+      SQL SELECT Database 
+      
+      
+      SQL Table 
+      
+      
+      What is Table 
+      SQL CREATE TABLE 
+      SQL DROP TABLE 
+      SQL DELETE TABLE 
+      SQL RENAME TABLE 
+      SQL TRUNCATE TABLE 
+      SQL COPY TABLE 
+      SQL TEMP TABLE 
+      SQL ALTER TABLE 
+      
+      
+      SQL Select 
+      
+      
+      SELECT Statement 
+      SQL SELECT UNIQUE 
+      SQL SELECT DISTINCT 
+      SQL SELECT COUNT 
+      SQL SELECT TOP 
+      SQL SELECT FIRST 
+      SQL SELECT LAST 
+      SQL SELECT RANDOM 
+      SQL SELECT IN 
+      SQL SELECT Multiple 
+      SQL SELECT DATE 
+      SQL SELECT SUM 
+      SQL SELECT NULL 
+      
+      
+      SQL Clause 
+      
+      
+      SQL WHERE 
+      SQL AND 
+      SQL OR 
+      SQL WITH 
+      SQL AS 
+      SQL HAVING Clause 
+      
+      
+      SQL Order By 
+      
+      
+      ORDER BY Clause 
+      ORDER BY ASC 
+      ORDER BY DESC 
+      ORDER BY RANDOM 
+      ORDER BY LIMIT 
+      ORDER BY Multiple Cols 
+      
+      
+      SQL Insert 
+      
+      
+      INSERT Statement 
+      INSERT INTO Values 
+      INSERT INTO SELECT 
+      INSERT Multiple Rows 
+      
+      
+      SQL Update 
+      
+      
+      UPDATE Statement 
+      SQL UPDATE JOIN 
+      SQL UPDATE DATE 
+      
+      
+      SQL Delete 
+      
+      
+      DELETE Statement 
+      SQL DELETE TABLE 
+      SQL DELETE ROW 
+      SQL DELETE All Rows 
+      DELETE Duplicate Rows 
+      SQL DELETE DATABASE 
+      SQL DELETE VIEW 
+      SQL DELETE JOIN 
+      
+      
+      SQL Join 
+      
+      
+      SQL JOIN 
+      SQL Outer Join 
+      SQL Left Join 
+      SQL Right Join 
+      SQL Full Join 
+      SQL Cross Join 
+      
+      
+      SQL Keys 
+      
+      
+      Primary Key 
+      Foreign Key 
+      Composite Key 
+      Unique Key 
+      Alternate Key 
+      
+      
+      Difference 
+      
+      
+      SQL vs NoSQL 
+      IN vs EXISTS 
+      Group By vs Order By 
+      WHERE vs HAVING 
+      Where condition in SQL 
+      
+      
+      SQL Injection 
+      
+      
+      SQL Injection 
+      
+      
+      Misc 
+      
+      
+      SQL Formatter 
+      SQL group by 
+      SQL add/drop/update column operation 
+      SQL CAST Function 
+      SQL Comments 
+      SQL CONCAT Function 
+      CTE SQL 
+      How to use distinct in SQL 
+      Joining Three or More Tables in SQL 
+      What is Web SQL 
+      How to create functions in SQL 
+      How to run SQL Script 
+      How to Delete Duplicate Rows in SQL 
+      Nth Highest salary 
+      12 Codd's Rules 
+      SQL EXCEPT 
+      Types of SQL JOIN 
+      Change datatype of column in SQL 
+      SQL Auto Increment 
+      SQL Like 
+      Commit and Rollback in SQL 
+      SQL Concatenate 
+      SQL get month from the date 
+      Savepoint in SQL 
+      SQL ORDER BY DATE 
+      TIME Datatype in SQL 
+      SQL BETWEEN 
+      SQL CRUD Operations 
+      SQL INDEX 
+      Scalar Functions in SQL 
+      SET Operators in SQL 
+      Types of SQL Commands 
+      TCL Commands in SQL 
+      SQL Subquery 
+      SQL View 
+      Constraints in SQL 
+      Pattern Matching in SQL 
+      SQL Date Functions 
+      DDL Commands in SQL 
+      DML Commands in SQL 
+      SQL CASE 
+      SQL Inner Join 
+      SQL IN Operator 
+      Check Constraint in SQL 
+      SQL CLAUSES 
+      SQL LOGICAL OPERATORS 
+      
+      
+      SQL MCQ 
+      
+      
+      SQL MCQ 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      PL/SQL Tutorial 
+      
+      
+      Interview 
+      
+      
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      Quiz 
+      
+      
+      SQL Quiz 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            DML Commands in SQL DML is an abbreviation of Data Manipulation Language. The DML commands in Structured Query Language change the data present in the SQL database. We can easily access, store, modify, update and delete the existing records from the database using DML commands. Following are the four main DML commands in SQL: 
+            
+            SELECT Command 
+            INSERT Command 
+            UPDATE Command 
+            DELETE Command 
+            SELECT DML Command SELECT is the most important data manipulation command in Structured Query Language. The SELECT command shows the records of the specified table. It also shows the particular record of a particular column by using the WHERE clause. Syntax of SELECT DML command 
+           
+            SELECT column_Name_1, column_Name_2, ….., column_Name_N FROM Name_of_table;
+            Here, column_Name_1, column_Name_2, ….., column_Name_N are the names of those columns whose data we want to retrieve from the table. If we want to retrieve the data from all the columns of the table, we have to use the following SELECT command: 
+           
+            SELECT * FROM table_name;
+            Examples of SELECT Command Example 1: This example shows all the values of every column from the table. 
+           
+            SELECT * FROM Student;
+            This SQL statement displays the following values of the student table: 
+            
+            
+              
+              Student_ID 
+              Student_Name 
+              Student_Marks 
+              
+              
+              BCA1001 
+              Abhay 
+              85 
+              
+              
+              BCA1002 
+              Anuj 
+              75 
+              
+              
+              BCA1003 
+              Bheem 
+              60 
+              
+              
+              BCA1004 
+              Ram 
+              79 
+              
+              
+              BCA1005 
+              Sumit 
+              80 
+              
+            
+            Example 2: This example shows all the values of a specific column from the table. 
+           
+            SELECT Emp_Id, Emp_Salary FROM Employee;
+            This SELECT statement displays all the values of Emp_Salary and Emp_Id column of Employee table: 
+            
+            
+              
+              Emp_Id 
+              Emp_Salary 
+              
+              
+              201 
+              25000 
+              
+              
+              202 
+              45000 
+              
+              
+              203 
+              30000 
+              
+              
+              204 
+              29000 
+              
+              
+              205 
+              40000 
+              
+            
+            Example 3: This example describes how to use the WHERE clause with the SELECT DML command. Let's take the following Student table: 
+            
+            
+              
+              Student_ID 
+              Student_Name 
+              Student_Marks 
+              
+              
+              BCA1001 
+              Abhay 
+              80 
+              
+              
+              BCA1002 
+              Ankit 
+              75 
+              
+              
+              BCA1003 
+              Bheem 
+              80 
+              
+              
+              BCA1004 
+              Ram 
+              79 
+              
+              
+              BCA1005 
+              Sumit 
+              80 
+              
+            
+            If you want to access all the records of those students whose marks is 80 from the above table, then you have to write the following DML command in SQL: 
+           
+            SELECT * FROM Student WHERE Stu_Marks = 80;
+            The above SQL query shows the following table in result: 
+            
+            
+              
+              Student_ID 
+              Student_Name 
+              Student_Marks 
+              
+              
+              BCA1001 
+              Abhay 
+              80 
+              
+              
+              BCA1003 
+              Bheem 
+              80 
+              
+              
+              BCA1005 
+              Sumit 
+              80 
+              
+            
+            INSERT DML Command INSERT is another most important data manipulation command in Structured Query Language, which allows users to insert data in database tables. Syntax of INSERT Command 
+           
+            INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ; 
+            Examples of INSERT Command Example 1: This example describes how to insert the record in the database table. Let's take the following student table, which consists of only 2 records of the student. 
+            
+            
+              
+              Stu_Id 
+              Stu_Name 
+              Stu_Marks 
+              Stu_Age 
+              
+              
+              101 
+              Ramesh 
+              92 
+              20 
+              
+              
+              201 
+              Jatin 
+              83 
+              19 
+              
+            
+            Suppose, you want to insert a new record into the student table. For this, you have to write the following DML INSERT command: 
+           
+            INSERT INTO Student (Stu_id, Stu_Name, Stu_Marks, Stu_Age) VALUES (104, Anmol, 89, 19);
+            UPDATE DML Command UPDATE is another most important data manipulation command in Structured Query Language, which allows users to update or modify the existing data in database tables. Syntax of UPDATE Command 
+           
+            UPDATE Table_name SET [column_name1= value_1, ….., column_nameN = value_N] WHERE CONDITION;
+            Here, 'UPDATE', 'SET', and 'WHERE' are the SQL keywords, and 'Table_name' is the name of the table whose values you want to update. Examples of the UPDATE command Example 1: This example describes how to update the value of a single field.   Let's take a Product table consisting of the following records: 
+            
+            
+              
+              Product_Id 
+              Product_Name 
+              Product_Price 
+              Product_Quantity 
+              
+              
+              P101 
+              Chips 
+              20 
+              20 
+              
+              
+              P102 
+              Chocolates 
+              60 
+              40 
+              
+              
+              P103 
+              Maggi 
+              75 
+              5 
+              
+              
+              P201 
+              Biscuits 
+              80 
+              20 
+              
+              
+              P203 
+              Namkeen 
+              40 
+              50 
+              
+            
+            Suppose, you want to update the Product_Price of the product whose Product_Id is P102. To do this, you have to write the following DML UPDATE command: 
+           
+            UPDATE Product SET Product_Price = 80 WHERE Product_Id = 'P102' ;
+            Example 2: This example describes how to update the value of multiple fields of the database table.   Let's take a Student table consisting of the following records: 
+            
+            
+              
+              Stu_Id 
+              Stu_Name 
+              Stu_Marks 
+              Stu_Age 
+              
+              
+              101 
+              Ramesh 
+              92 
+              20 
+              
+              
+              201 
+              Jatin 
+              83 
+              19 
+              
+              
+              202 
+              Anuj 
+              85 
+              19 
+              
+              
+              203 
+              Monty 
+              95 
+              21 
+              
+              
+              102 
+              Saket 
+              65 
+              21 
+              
+              
+              103 
+              Sumit 
+              78 
+              19 
+              
+              
+              104 
+              Ashish 
+              98 
+              20 
+              
+            
+            Suppose, you want to update Stu_Marks and Stu_Age of that student whose Stu_Id is 103 and 202. To do this, you have to write the following DML Update command: 
+           
+            UPDATE Student SET Stu_Marks = 80, Stu_Age = 21 WHERE Stu_Id = 103 AND Stu_Id = 202;
+            DELETE DML Command DELETE is a DML command which allows SQL users to remove single or multiple existing records from the database tables. This command of Data Manipulation Language does not delete the stored data permanently from the database. We use the WHERE clause with the DELETE command to select specific rows from the table.  Syntax of DELETE Command 
+           
+            DELETE FROM Table_Name WHERE condition;
+            Examples of DELETE Command Example 1: This example describes how to delete a single record from the table.   Let's take a Product table consisting of the following records: 
+            
+            
+              
+              Product_Id 
+              Product_Name 
+              Product_Price 
+              Product_Quantity 
+              
+              
+              P101 
+              Chips 
+              20 
+              20 
+              
+              
+              P102 
+              Chocolates 
+              60 
+              40 
+              
+              
+              P103 
+              Maggi 
+              75 
+              5 
+              
+              
+              P201 
+              Biscuits 
+              80 
+              20 
+              
+              
+              P203 
+              Namkeen 
+              40 
+              50 
+              
+            
+            Suppose, you want to delete that product from the Product table whose Product_Id is P203. To do this, you have to write the following DML DELETE command: 
+           
+            DELETE FROM Product WHERE Product_Id = 'P202' ;
+            Example 2: This example describes how to delete the multiple records or rows from the database table.   Let's take a Student table consisting of the following records: 
+            
+            
+              
+              Stu_Id 
+              Stu_Name 
+              Stu_Marks 
+              Stu_Age 
+              
+              
+              101 
+              Ramesh 
+              92 
+              20 
+              
+              
+              201 
+              Jatin 
+              83 
+              19 
+              
+              
+              202 
+              Anuj 
+              85 
+              19 
+              
+              
+              203 
+              Monty 
+              95 
+              21 
+              
+              
+              102 
+              Saket 
+              65 
+              21 
+              
+              
+              103 
+              Sumit 
+              78 
+              19 
+              
+              
+              104 
+              Ashish 
+              98 
+              20 
+              
+            
+            Suppose, you want to delete the record of those students whose Marks is greater than 70. To do this, you have to write the following DML Update command: 
+           
+            DELETE FROM Student WHERE Stu_Marks > 70 ;
+            
+            
+            
+            Next Topic
+            SQL CASE 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

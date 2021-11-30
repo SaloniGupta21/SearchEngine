@@ -1,0 +1,597 @@
+
+
+ 
+  
+  Blackbody radiation - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Physics 
+       Chemistry 
+       Biology 
+       GK 
+       Maths 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Physics 
+      
+      
+      Vapor 
+      Kirchhoff's law 
+      Quantum Physics 
+      Boiling 
+      Carnot Engine 
+      Unit of Heat 
+      Heat Engine 
+      Blackbody radiation 
+      Dew point 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Blackbody radiation The blackbody radiations describe the absorption and emittance power of a system or a body. A blackbody is a body that absorbs all the incident radiations, which means the radiations falling on it. It also emits radiation at a rate similar to the rate of absorption. The radiations thus emitted by a blackbody are known as blackbody radiations. The black bodies are generally good absorbers and emitters. Note: Black color is a good absorber of heat and light. Example Let's understand the concept of blackbody radiations with the help of an example. Consider two bodies A and B placed in a room of equal surface areas. Body A is a blackbody (painted with black color), and body B has polished surface. After some time, the two bodies will be at room temperature. The radiations are allowed to fall on both bodies. We know that these two bodies have equal surface areas; hence the radiations falling on both will be the same.  Body A, the blackbody, will absorb most of the radiations and reflect a very few of them. However, the polished surface always reflects. Hence, body B will reflect most of the incident radiations and absorb a few of them. It means that these two bodies work oppositely. Since the temperature is constant, body A will emit the radiations faster, while body B emits at a slower rate. Thus, the good absorbers of heat are also good emitters. A blackbody is often known as the ideal radiator because of its good emitting properties. Is the absorbing efficiency of a blackbody is 100%? We have read that a blackbody absorbs all of the incident radiations, representing 100% of the radiations. But, the above example depicts that it absorbs most of it but reflects a few. It is because 100% efficiency is only an ideal case, which is practically impossible. It reflects only a few radiations, i.e., only around 1%. What will happen if the light is enclosed in a box painted black? Let a box painted black be placed with a small hole that allows the radiations to pass. When the radiation falls, it goes inside the hole and keeps on reflecting from one surface to the other in a closed box.  The radiations have little chance to escape from the hole because of the cone placed on the opposite side of the hole. After multiple reflections, it gets absorbed. It means that a few reflected radiations will not escape because of the pattern of the box. What is the behavior of real objects? The real object does not behave as a perfect blackbody, and emissions from such bodies are less than expected. The emissive power of a real object defines how a real body radiates emissions as compared to the blackbody, which is generally less. It depends on various factors, such as temperature, wavelength, and the angle of emissions. Theories The theories described under the blackbody radiation are spectrum and blackbody. The theories of blackbody are already explained above, and let's discuss the spectrum. Spectrum Spectrum defines the color of the radiations emitted by a blackbody as the temperature rises. The emissions at the room temperature (about 25 degrees Celsius) are at the infrared region of the spectrum, which is not visible by the human eye. When the temperature passes 500 degrees Celsius, the emission starts appearing to the human eye. It is the low intensity light with a grayish shade. As the temperature rises, the radiations appear in the form of dull red color, yellow, and so on. At very high temperatures, the radiations appear a bluish-white in color. The color charts at various temperatures is shown below:  The Sun is also a type of blackbody with a surface temperature of 5505 degrees Celsius. The electromagnetic radiation given by the sun is generally infrared, ultra-violet, and visible light. The radiations emitted by a blackbody are also known as thermal radiations. The emissions are the process of the internal body, where the internal energy is converted into electromagnetic energy. The emissions of a blackbody depend on the temperature and the frequency distribution. Though, an ideal blackbody is not a practical example. But, the radiation enclosed in a black box with one hole is somewhat an example of an ideal blackbody. Equation The equation of the blackbody radiation was discovered by a German physicist and the Nobel Prize winner named Max Carl Planck, Stefan- Boltzmann, and Wilhelm Carl Wien. Wien was also a German physicist. The laws described by them were named Planck's law of blackbody radiation, Stefan- Boltzmann's law of blackbody radiation, and Wien's displacement law of blackbody radiation. Let's discuss these laws and their equations in detail. Planck's law of black-body radiation The Plank's law was discovered by Max Carl Planck. The discovery of the energy quanta (atoms and particles as a part of the quantum mechanics) won him the Nobel Prize in the branch of physics in 1918. Though he had made many discoveries and inventions in the field of physics, he was known for the development of quantum theory. Planck's equation is given by:  Where,  Bv(T) is the spectral radiance whose unit is calculated as power/(area x solid angle x frequency). Stefan- Boltzmann law According to the Stefan- Boltzmann law, the discovery of the blackbody radiation is described in terms of the temperature. It is given by: j = ? T4 Where, J is the radiant emittance Sigma is the Stefan- Boltzmann constant T is the temperature It states that 'j (radiant emittance of the blackbody)' is directly proportional to the thermodynamic temperature, which is the temperature (T), defined in the field of thermodynamics. The radiant emittance of the blackbody is represented in terms of total energy radiated per unit surface area across all the wavelengths. Wien's displacement law According to the Wien displacement law, the curves of radiations are different at different wavelengths, which are inversely proportional to the temperature. The blackbody spectrum for shorter wavelengths was already discovered by Wien before the Max Carl Planck. The equation is given by: ? = b/T Wavelength at peak = Wien's displacement constant/Absolute temperature Where, Lambda (?) Wien's displacement constant (b) Absolute temperature (T) The Wien's displacement constant (b) is also known as the constant of proportionality. Blackbody radiation sources There are various sources that radiate or emit blackbody radiations. The amount of radiations emitted by a source depends on the spectrum, temperature, emissive power, warm-up time, cooling time, and the stability. No single object is a perfect blackbody radiator. But, in carbon or graphite form, a material can be a good blackbody radiator. Let's discuss some of the most common sources, which are discussed as follows: 
+            
+            Electric heaters 
+            Burglar alarms 
+            Stars 
+            Stoves 
+            Incandescent light bulbs 
+            The sources such as electric heaters and light bulbs convert the electric energy into the light energy. The filament is heated and starts radiating energy in the infrared region. As soon as the filament is heated to its full energy, it reaches and glows in almost white light. When the voltage is low, such sources emit light white light due to insufficient energy. The stars appear in different colors due to the radiations emitted by them at different temperatures. It is because stars are also a type of blackbody. In the case of stoves, it behaves like a blackbody at high temperatures. Applications of blackbody The applications of the blackbodies are as follows: 
+            
+            Lighting If the temperature of an object is high, the blackbody radiation of that body becomes visible in the form of light. The light is formed due to the thermal movement of charges. 
+            Security The radiations emitted by the blackbody at a specific wavelength and temperature helps in the security system, such as burglar alarms, photo sensors, etc. 
+            Thermal imaging The radiation emitted by the blackbody allows the visible detection from any mass, which further helps in the formation of the image through a thermograph. 
+            Heating The radiations at a specific temperature convert the body's internal radiation to electromagnetic radiations. After absorbing the radiations, a blackbody emits thermal radiations according to its temperature. 
+            
+            
+            
+            Next Topic
+            Dew point 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,1270 @@
+
+
+  
+   
+   
+   
+  
+  
+  
+  
+   
+  Kotlin Interview Questions (2021) - javatpoint 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+   
+    
+     
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+        
+        
+       
+      
+     
+     
+     
+       
+        Home 
+        Interview Questions 
+        Java 
+        SQL 
+        Python 
+        JavaScript 
+        Angular 
+        Selenium 
+        Spring Boot 
+        HR 
+        C 
+        Data Structure 
+        DBMS 
+        HTML 
+        C# 
+        C++ 
+      
+      
+      
+     
+     
+     
+     
+      
+      All Interview 
+      
+      
+      Interview Tips 
+      JOB/HR Interview 
+      Competency Interview 
+      Business Analyst 
+      Behavioral Interview 
+      
+      
+      Company Interview 
+      
+      
+      Company Interview 
+      IBM Interview 
+      Infosys Interview 
+      Capgemini Interview 
+      Cognizant Interview 
+      Wipro Interview 
+      Accenture Interview 
+      iGate Interview 
+      TCS Interview 
+      HCL Interview 
+      Adobe Interview 
+      Microsoft Interview 
+      DXC Technology Interview 
+      Ericsson Interview 
+      EXL Service Interview 
+      IndiaMART Interview 
+      Intuit Interview 
+      SpaceX Interview 
+      Sapient Interview 
+      Amazon Interview 
+      
+      
+      Technical Interview 
+      
+      
+      C Interview 
+      C++ Interview 
+      Data Structure Interview 
+      Linux Interview 
+      Unix Interview 
+      Shell Scripting 
+      Networking Interview 
+      CCNA Interview 
+      Android Interview 
+      Cloud Computing 
+      Hadoop Interview 
+      Testing/QTP Interview 
+      Selenium Interview 
+      Web Services Interview 
+      OS Interview 
+      Excel Interview 
+      SEO Interview 
+      Digital Marketing 
+      Python Interview 
+      Django Interview 
+      Pascal Interview 
+      Ruby Interview 
+      Ruby on Rails Interview 
+      Memcached Interview 
+      Go Interview 
+      OpenStack Interview 
+      Scala Interview 
+      Control Systems 
+      Electrical Machines 
+      Power System 
+      Digital Electronics 
+      Robotics Interview 
+      TypeScript Interview 
+      Swift Interview 
+      Blockchain Interview 
+      Bitcoin Interview 
+      AWS Interview 
+      Informatica Interview 
+      QA Interview 
+      React Interview 
+      GIT Interview 
+      J2EE Interview 
+      Deep Learning 
+      Salesforce Interview 
+      TestNG Interview 
+      Agile Interview 
+      Machine Learning 
+      API Testing 
+      Algorithm 
+      Java Design Pattern 
+      Teradata 
+      TensorFlow 
+      LINQ 
+      Mainframe 
+      Laravel 
+      JIRA 
+      JCL 
+      Pytorch 
+      ETL Testing 
+      Linked List 
+      DataStage 
+      Tableau 
+      SAP ABAP 
+      DAA 
+      Computer Graphics 
+      Data Science 
+      Software Engineering 
+      Power BI 
+      Xamarin 
+      Ansible 
+      Data Warehouse 
+      Ionic 
+      Devops 
+      React Native 
+      Python Pandas 
+      HTTP Interview 
+      Kali Linux Interview 
+      PowerShell Interview 
+      SharePoint Interview 
+      Talend Interview 
+      Microsoft Azure Interview 
+      R Interview 
+      Flutter Interview 
+      MATLAB Interview 
+      ES6 Interview 
+      RPA Interview 
+      Desktop Support Interview 
+      Angular 8 Interview 
+      GraphQL Interview 
+      Vue.js Interview 
+      Automation Anywhere Interview 
+      AI Interview 
+      UiPath Interview 
+      Blue Prism Interview 
+      SSIS Interview 
+      Mobile Computing Interview 
+      ITIL Interview 
+      SAS Interview 
+      Elasticsearch Interview 
+      Entity Framework Interview 
+      RxJS Interview 
+      Accounting Interview 
+      Electron.js Interview 
+      Knockout JS Interview 
+      Top Angular Interview 
+      IAS Interview Question 
+      Banking Interview 
+      Interview Questions for Freshers 
+      PowerPoint Interview 
+      BPO Interview 
+      Civil Engineering Interview 
+      Apache Spark Interview 
+      Data Mining Interview 
+      Java Support Interview 
+      Kubernetes Interview 
+      Web API Interview 
+      Scrum Master Interview 
+      System Design Interview 
+      SSB Interview Questions 
+      Teachers Interview Questions 
+      Finance Interview Questions 
+      Technical Support Interview 
+      Active Directory Interview 
+      Appium Interview 
+      Cucumber Interview 
+      Full-Stack Developer 
+      ServiceNow Interview 
+      Nursing Interview 
+      Sales Interview 
+      Microservices Interview 
+      Electrical Engineering Interview 
+      Accounts Payable Interview 
+      VISA Interview 
+      VLSI Interview 
+      AutoCAD Interview 
+      Verilog Interview 
+      OOPs Interview 
+      Web Developer Interview 
+      Express.js Interview 
+      CakePHP Interview 
+      Yii Interview 
+      Zend Framework Interview 
+      Java Concurrency Interview 
+      Symfony Interview 
+      Basic Interview 
+      Dynamic Programming Interview 
+      Programming Interview 
+      Next.js Interview 
+      Microsoft Java Interview 
+      AEM Interview 
+      Svelte.js Interview 
+      COBOL Interview 
+      Cyber Security Interview 
+      SQL Query Interview 
+      BGP Interview 
+      Apache Hive Interview 
+      Kafka Interview 
+      Embedded C Interview 
+      Pega Interview 
+      Kotlin Interview 
+      SAP MM Interview 
+      
+      
+      Web Interview 
+      
+      
+      HTML Interview 
+      CSS Interview 
+      JavaScript Interview 
+      jQuery Interview 
+      AngularJS Interview 
+      Angular Interview 
+      Angular 7 Interview 
+      Node.js Interview 
+      AJAX Interview 
+      XML Interview 
+      Dojo Interview 
+      Backbone.js Interview 
+      Ember.js Interview 
+      XHTML Interview 
+      XSLT Interview 
+      XPath Interview 
+      XQuery Interview 
+      XForms Interview 
+      SASS Interview 
+      CoffeeScript Interview 
+      LESS Interview 
+      Perl Interview 
+      Pure.CSS Interview 
+      Materialize Interview 
+      Framework7 Interview 
+      SVG Interview 
+      SAP FICO Interview 
+      
+      
+      PHP Interview 
+      
+      
+      PHP Interview 
+      Wordpress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      Magento Interview 
+      CodeIgniter Interview 
+      Phalcon Interview 
+      
+      
+      .Net Interview 
+      
+      
+      .Net Interview 
+      C# Interview 
+      ASP.NET Interview 
+      ADO.NET Interview 
+      WCF Interview 
+      WPF Interview 
+      Silverlight Interview 
+      F# Interview 
+      
+      
+      Java Interview 
+      
+      
+      Java 1 Interview 
+      Java 2 Interview 
+      Exception & String 
+      Multithreading  
+      Collections Interview 
+      JDBC Interview 
+      Servlet Interview 
+      JSP Interview 
+      EJB Interview 
+      Struts Interview 
+      Hibernate Interview 
+      Spring Interview 
+      Spring Boot Interview 
+      Spring MVC Interview 
+      JPA Interview 
+      Maven Interview 
+      JUnit Interview 
+      JSF Interview 
+      PrimeFaces Interview 
+      RichFaces Interview 
+      GWT Interview 
+      JDB Interview 
+      JOGL Interview 
+      jBPM Interview 
+      Jenkins Interview 
+      Java Constructor Interview 
+      Technical Architect Interview 
+      Array Interview Questions 
+      
+      
+      Database Interview 
+      
+      
+      DBMS Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      Oracle Interview 
+      MySql Interview 
+      SQL Server Interview 
+      MongoDB Interview 
+      Cassandra Interview 
+      DB2 Interview 
+      Access Interview 
+      SQLite Interview 
+      CouchDB Interview 
+      Neo4j Interview 
+      MariaDB Interview 
+      PouchDB Interview 
+      Redis Interview 
+      
+      
+      
+       
+          
+        
+       
+           
+        
+      
+      
+     
+     
+      
+      
+      
+       
+       
+        
+          Top 45+ Most Asked Kotlin Interview Questions and Answers 1) What is Kotlin? / Describe Kotlin in brief. Kotlin is a general-purpose, statically typed, open-source programming language that runs on the JVM. It runs on JVM and can be used anywhere Java is used today. It can be compiled either using Java source code or LLVM compiler. It is generally used to develop Android apps, server-side apps, and much more. 
+           2) What do you know about the history of Kotlin? Kotlin was developed by the JetBrains team. This project was started in 2010 to develop a language for Android apps development, and officially its first version was released in February 2016. Kotlin was developed under the Apache 2.0 license. 
+           3) What are the most important features of Kotlin? The most popular features of kotlin are: 
+           
+           Kotlin is Concise: Kotlin reduces the writing of the extra codes, making Kotlin more concise. 
+           Compact code: Kotlin is an OOPs-based programming language. Its code lines may be reduced by up to 40% compared to Java, making it an excellent choice for software development. 
+           Kotlin is Simple: Kotlin is a simple language to learn. When working with Kotlin, compiling the code is simple, resulting in improved performance for Android development. It also explains which types of data functions can be used throughout the code. 
+           Open Source: Kotlin is open source for Android, and it uses the JVM to combine the benefits of OOPs and functional programming. 
+           Null safety: Kotlin is null safety language. Kotlin aimed to eliminate the NullPointerException (null reference) from the code. 
+           A high number of extensions: Kotlin supports various extension functions and extension properties without modifying the code. It means that it can help to extend the functionality of classes without touching their code. Kotlin may support a variety of extension functions to help developers make existing code more appealing and wonderful. 
+           Full Java Interoperability: Kotlin provides full interoperability for Java code. Java code can utilize Kotlin code, and Kotlin code can use Java code. So, if you are familiar with OOPs programming and good in Java programming language, you can switch to Kotlin development easily. Also, if there are any Java-based applications, they can be used with Kotlin's environment. 
+           Smart Cast: Kotlin supports the smart cast technique. By using this technique, we can reduce the cost of an application while also improving its speed and performance. It technique uses typecasting or immutable data to manage the efficiency of programming. \ 
+           Low Learning Curve: Many businesses prefer Kotlin because of its low adoption cost. Most significantly, it is simple for developers to learn, especially if they have programming experience. 
+           Compilation Time: Kotlin is faster and better than Java in terms of its performance and fast compilation time. 
+           Tools-friendly: Kotlin is Tools-friendly. You can build the Kotlin programs by using the command line as well as any of Java IDE. 
+           
+           4) Why did you switch to Kotlin from Java? Why do some developers like to switch to Kotlin from Java? The Kotlin programing language seems to be simpler and cleaner than Java. It removes a lot of redundancies in code as compared to Java. Kotlin also offers some useful features that Java doesn't yet support, making the code more idiomatic. Kotlin has been added to Android Studio's list of supported languages recently. So, there is much to expect from Kotlin in easing out the development efforts and good support in the future. 
+           5) How does Kotlin work on Android? Kotlin is very much similar to the Java programming language. Like Java, the Kotlin code is also compiled into the Java bytecode and executed at runtime by the Java Virtual Machine, i.e., JVM. For example, when a Kotlin file named Main.kt is compiled, it will eventually turn into a class, and then the bytecode of the class will be generated. The name of the bytecode file will be MainKt.class, and this file will be executed by the JVM. 
+           6) What is the difference between the variable declaration with var and variable declaration with val? The variable declaration with var and the variable declaration with val is used for different purposes. If you want to declare some mutable (changeable) variable, you should use var. If you want to declare the immutable variable, you should use val because val variables can't be changed once you have assigned them. 
+           7) What is the difference between the variable declaration with val and variable declaration with const? Both the variables that are declared with val and const are immutable in nature. But the difference between the variable declaration with val and variable declaration with const is that the value of the const variable must be known at the compile-time. In contrast, the value of the val variable can be assigned at runtime also. 
+           8) How can you create a singleton in Kotlin? We can create a singleton in Kotlin by using an object. Syntax: 
+          
+           
+object SomeSingleton
+
+           The above Kotlin object will be compiled to the following equivalent Java code: 
+          
+           
+public final class SomeSingleton {
+   public static final SomeSingleton INSTANCE;
+   private SomeSingleton() {
+      INSTANCE = (SomeSingleton)this;
+      System.out.println("init complete");
+   }
+   static {
+      new SomeSingleton();
+   }
+}
+
+           The above way is preferred to implement singletons on a JVM because it enables thread-safe lazy initialization without relying on a locking algorithm like the complex double-checked locking. 
+           9) What is a primary constructor in Kotlin? In Kotlin, the primary constructor is a part of the class header. Unlike Java, it doesn't need you to declare a constructor in the body of the class. Kotlin facilitates you to declare the constructor in the class header itself: See the following example: 
+          
+           
+class Person constructor(name: String, age: Int, salary: Int) {
+} 
+
+           Just like functions or methods, it takes a series of parameters with their type. These parameters initialize the variables present in the class. If you do not have any annotations or modifiers (public, private, protected), you can omit the constructor keyword like the following example. 
+          
+           
+class Person (name: String, age: Int, salary: Int) {
+}
+
+           By removing the constructor keyword, you can get code that is simplified and easy to understand. 
+           10) What do you understand by Null safety in Kotlin? Null safety is one of the major advantages of using Kotlin. Kotlin's type system ensures eliminating the danger of null references from code, also known as The Billion Dollar Mistake. One of the most common pitfalls in many programming languages, including Java, is that accessing a member of a null reference will result in a null reference exception. In Java, this would be the equivalent of a NullPointerException or NPE for short. In Kotlin, the type system distinguishes between references that can hold null (nullable references) and those that cannot (non-null references). For example, a regular variable of type String can not hold null: 
+          
+           
+var a: String = "abc"
+a = null // compilation error
+
+           To allow nulls, we can declare a variable as nullable string, written "String?": 
+          
+           
+var b: String? = "abc"
+b = null // ok
+print(b)
+
+           
+           11) How can you ensure null safety in Kotlin? Null safety is a feature introduced in Kotlin. In Java, if you access some null variable, then you will get a NullPointerException. So, the following code in Kotlin will produce a compile-time error: 
+          
+           
+var name: String = "MindOrks"
+name = null //error
+
+           So, to overcome this issue, you have to assign null values to a variable, and you need to declare the name variable as a nullable string, and then during the access of this variable, you need to use a safe call operator; i.e.?. 
+          
+           
+var name: String? = "MindOrks"
+print(name?.length) // ok
+name = null // ok 
+
+           
+           12) What is a data class in Kotlin? In Kotlin, a data class is a class whose main purpose is to hold data. It is marked as "data". Syntax: 
+          
+           
+data class User(val name: String, val age: Int) 
+
+           The data classes must have to fulfill the following requirements to ensure consistency and meaningful behavior of the generated code: 
+           
+           The primary constructor must have at least one parameter 
+           , and all primary constructor parameters need to be marked as val or var. 
+           Data classes cannot be abstract, open, sealed, or inner. 
+           
+           13) What is the default behavior of Kotlin classes? By default, all classes are final in Kotlin. That's because Kotlin allows multiple inheritances for classes, and an open class is more expensive than a final class. 
+           14) Does Kotlin provide support for primitive Datatypes? No. Kotlin does not provide support for primitive Data types like in Java. 
+           15) Does Kotlin provide support for macros? No. Kotlin does not provide support for macros because the developers of Kotlin find it difficult to include them in the language. 
+           16) What is the use of the open keyword in Kotlin? In Kotlin, the classes and functions are final by default. So, it is not possible to inherit the class or override the functions. To achieve this, we need to use the open keyword before the class and function. 
+           17) What do you understand by the Ranges operator in Kotlin? Ranges operators help to iterate within a range. Its operator form is (..) For Example: 
+          
+           
+for (i in 1..15)
+print(i)
+
+           The above example will give the output to print from 1 to 15. 
+           18) Where should we use var and where val in Kotlin? In Kotlin, var is used where value is frequently changing. For example, while getting the location of the android device: 
+          
+           
+var integerVariable : Int? = null
+
+           In Kotlin, val is used where there is no change in value in the whole class. For example, when you want to set textview or button's text programmatically: 
+          
+           
+val stringVariables : String = "Button's Constant or final Text"
+
+           
+           19) What is the difference between a safe calls(?.) and a null check(!!) in Kotlin? Difference between safe calls(?.) and a null check(!!) in Kotlin: The safe call operator i.e. ?. is used to check if the variable's value is null or not. If it is null, then null will be returned otherwise it will return the desired value. 
+          
+           
+var name: String? = "JavaTpoint"
+println(name?.length) // 10
+name = null
+println(name?.length) // null
+
+           If you want to throw NullPointerException when the variable's value is null, you can use the null check or !! Operator. See the example: 
+          
+           
+var name: String? = "JavaTpoint"
+println(name?.length) // 10
+name = null
+println(name!!.length) // KotlinNullPointerException
+
+           
+           20) What is the basic difference between the fold and reduce in Kotlin? Also, specify when to use which? Difference between the fold and reduce in Kotlin: Fold: The fold takes an initial value and the first invocation of the lambda you pass to it. It will receive that initial value and the first element of the collection as parameters. 
+          
+           
+listOf(1, 2, 3).fold(0) { sum, element -> sum + element }
+
+           The first call to the lambda will be with parameters 0 and 1. The ability to pass in an initial value is useful if you have to provide a default value or parameter for your operation. Reduce: The "reduce" doesn't take an initial value. Instead, it starts with the first element of the collection as the accumulator. 
+          
+           
+listOf(1, 2, 3).reduce { sum, element -> sum + element }
+
+           In the above example, it is denoted by sum. The first call to the lambda here will be with parameters 1 and 2. 
+           21) What are the advantages of "when" over "switch" in Kotlin? The "switch" is used in Java, but in Kotlin, that switch gets converted to "when". When has a better design as compared to "switch", and it is more concise and powerful than a traditional switch. We can use "when" either as an expression or as a statement. Following are some examples of when usage in Kotlin: In two or more choices: 
+          
+           
+when(number) {
+    1 -> println("One")
+    2, 3 -> println("Two or Three")
+    4 -> println("Four")
+    else -> println("Number is not between 1 and 4")
+}
+
+           "when" without arguments: 
+          
+           
+when {
+    number < 1 -> print("Number is less than 1")
+    number > 1 -> print("Number is greater than 1")
+}
+
+           Any type passed in "when": 
+          
+           
+fun describe(obj: Any): String =
+    when (obj) {
+      1 -> "One"
+      "Hello" -> "Greeting"
+      is Long -> "Long"
+      !is String -> "Not a string"
+      else -> "Unknown"
+    }
+
+           Smart casting: 
+          
+           
+when (x) {
+    is Int -> print("X is integer")
+    is String -> print("X is string")
+}
+
+           Ranges: 
+          
+           
+when(number) {
+    1 -> println("One") //statement 1
+    2 -> println("Two") //statement 2
+    3 -> println("Three") //statement 3
+    in 4..8 -> println("Number between 4 and 8") //statement 4
+    !in 9..12 -> println("Number not in between 9 and 12") //statement 5
+    else -> println("Number is not between 1 and 8") //statement 6
+}
+
+           
+           22) What do you understand by the Null safety in Kotlin? In Kotlin, the main motive of the type system is to eliminate the danger of null references from code. It is also known as the Billion Dollar Mistake. One of the most common pitfalls in many programming languages, including Java, is that accessing a member of a null reference will result in a null reference exception. In Java, this would be the equivalent of a NullPointerException. In Kotlin, the type system distinguishes between references that can hold null (nullable references) and those that cannot (non-null references). For example, a regular variable of type String can not hold null: 
+          
+           
+var a: String = "abc"
+a = null // compilation error
+
+           To allow nulls, we can declare a variable as nullable string, written String?: 
+          
+           
+var b: String? = "abc"
+b = null // ok
+print(b)
+
+           
+           23) Do we have a ternary operator in Kotlin just like Java? No. In Kotlin, we don't have a ternary operator like Java, but we can use the functionality of the ternary operator by using if-else or Elvis operator. 
+           24) What is Elvis operator in Kotlin? In Kotlin, we can assign null values to a variable using the null safety property. To check if a value has null value, we can use if-else or can use the Elvis operator i.e. ?: For example: 
+          
+           
+var name:String? = "Mindorks"
+val nameLength = name?.length ?: -1
+println(nameLength)
+
+           In the above example, the Elvis operator(?:) we are using will return the length of the name if the value is not null; otherwise, if the value is null, then it will return -1. 
+           25) Why is Kotlin interoperable with Java? Kotlin is interoperable with Java because it uses JVM bytecode. It provides the facility to compile it directly to bytecode that helps to achieve faster compile-time and makes no difference between Java and Kotlin for JVM. 
+           26) What do you understand by lazy initialization in Kotlin? Kotlin provides the facility of lazy initialization, which specifies that your variable will not be initialized unless you use that variable in your code. It will be initialized only once. After that, you use the same value. In lazy initialization, the lazy() function is used that takes a lambda and returns an instance of lazy, which can serve as a delegate for implementing a lazy property: the first call to get() executes the lambda passed to lazy() and remembers the result, subsequent calls to get() simply return the remembered result. 
+          
+           
+val test: String by lazy {
+    val testString = "some value"
+}
+
+           
+           27) How many types of constructors are used in Kotlin? There are two types of constructors available in Kotlin: 
+           
+           Primary constructor 
+           Secondary constructor 
+           
+           28) What is Lateinit in Kotlin, and when is it used? Lateinit means late initialization. It is used when you do not want to initialize a variable in the constructor and instead initialize it later. You should declare that variable with lateinit keyword to guarantee the initialization, not before using it. It will not allocate memory until it is initialized. You cannot use lateinit for primitive type properties like Int, Long, etc. 
+          
+           
+lateinit var test: String
+fun doSomething() {
+    test = "Some value"
+    println("Length of string is "+test.length)
+    test = "change value"
+}
+
+           This is mainly used in the following cases: 
+           
+           Android: variables that get initialized in lifecycle methods. 
+           Using Dagger for DI: injected class variables are initialized outside and independently from the constructor. 
+           Setup for unit tests: test environment variables are initialized in a @Before - annotated method. 
+           Spring Boot annotations (e.g., @Autowired). 
+           
+           29) How can we convert a Kotlin source file to a Java source file? Follow the steps given below to convert your Kotlin source file to a Java source file: 
+           
+           First, open your Kotlin project in the IntelliJ IDEA / Android Studio. 
+           Then navigate to Tools > Kotlin > Show Kotlin Bytecode. 
+           Now, click on the Decompile button to get your Java code from the bytecode. 
+           
+           30) What kinds of programming types does Kotlin support? Kotlin supports the following programming types: 
+           
+           Procedural Programming 
+           Object-Oriented Programming 
+           
+           31) What is the use of @JvmStatic, @JvmOverloads, and @JvmFiled in Kotlin? Following are the main usage of @JvmStatic, @JvmOverloads, and @JvmFiled in Kotlin: 
+           
+           @JvmStatic: The @JvmStatic annotation is used to tell the compiler that the method is a static method, and you can use it in Java code. 
+           @JvmOverloads: The @JvmOverloads annotation is required when we need to use the default values passed as an argument in Kotlin code from the Java code. 
+           @JvmField: The @JvmField annotation is used to access the fields of a Kotlin class from Java code without any getters and setters. We need to use the @JvmField in the Kotlin code. 
+           
+           32) What are the names of some extension methods that Kotlin provides to java.io.File? Following are some extension methods that Kotlin provides to java.io.File: 
+           
+           bufferedReader(): It is used for reading the contents of a file into BufferedReader. 
+           readBytes(): It is used for reading the contents of the file to ByteArray. 
+           readText(): It is used for reading contents of the file to a single String. 
+           forEachLine(): It is used for reading a file line by line in Kotlin. 
+           readLines(): It is used for reading lines in the file to List. 
+           
+           33) What do you understand by data classes in Kotlin? Data classes are the type of classes that are made to store some data. In Kotlin, it is marked as data. The following is an example of a data class: 
+          
+           
+data class Developer(val name: String, val age: Int)
+
+           When we mark a class as a data class, we don't have to implement or create the following functions like we have to do in Java: hashCode(), equals(), toString(), copy(). The compiler automatically creates these internally, so it also leads to clean code. Although, there are a few other requirements that data classes need to fulfill. 
+           34) What is the use of Companion Objects in Kotlin? Companion Objects are required in Kotlin because Kotlin doesn't have static members or member functions, unlike Java or C#. If we need to write a function that can be called without having a class instance but needs access to the internals of a class, we can write it as a member of a companion object declaration inside that class. For example: 
+          
+           
+class EventManager {
+    companion object FirebaseManager {
+    }  
+}
+val firebaseManager = EventManager.FirebaseManager 
+
+           The companion object is a singleton, and it is a proper object which you can assign to a variable and pass it around. If you integrate with Java code and need a true static member, you can annotate a member inside a companion object with @JvmStatic. 
+           35) How can you handle null exceptions in Kotlin? In Kotlin, Elvis Operator is used to handling null expectations. 
+           36) How can we perform String Interpolation in Kotlin? In Kotlin, String Interpolation is used when you want to use some variable or perform some operation inside a string. For String Interpolation, we can use the $ sign to use some variable in the string or can perform some operation in between the {} sign. For example: 
+          
+           
+var name = "JavaTpoint"
+print("The best tutorial website is: $name")
+
+           
+           37) Name some features which are available in Kotlin but not in Java? Following are some important Kotlin features that are not available in Java: 
+           
+           Null Safety 
+           Operator Overloading 
+           Coroutines 
+           Range expressions 
+           Smart casts 
+           Companion Objects 
+           
+           38) What is the difference between == operator and === operator in Kotlin? In Kotlin, the == operator is generally used to compare the values stored in variables, and the === operator is used to check if the reference of the variables are equal or not. In the case of primitive types, the === operator is also used to check for the value and not reference. Example: 
+          
+           
+// primitive example
+val int1 = 10 
+val int2 = 10
+println(int1 == int2) // true
+println(int1 === int2) // true
+// wrapper example
+val num1 = Integer(10)
+val num2 = Integer(10)
+println(num1 == num2) // true
+println(num1 === num2) //false
+
+           
+           39) Can we use primitive types such as int, double, float in Kotlin? Kotlin doesn't support the primitive types so, we can't use primitive types directly in Kotlin. We can use classes like Int, Double, etc., as an object wrapper for primitives. But the compiled bytecode has these primitive types. 
+           40) What is the difference between lateinit and lazy in Kotlin? Following are the key differences between lateinit and lazy in Kotlin: 
+           
+           In Kotlin, lazy can only be used for val properties while lateinit can only be applied to var because it can't be compiled to a final field. Thus no immutability can be guaranteed. 
+           You have to use lateinit, if you want your property to be initialized from outside in a way probably unknown beforehand. 
+           Lateinit vs. lazy in Kotlin: 
+           
+           
+             
+             Lateinit 
+             Lazy 
+             
+             
+             The lateinit can be initialized from anywhere the object is seen. 
+             The lazy can only be initialized from the initializer lambda. 
+             
+             
+             In lateinit, multiple initializations are possible. 
+             The lazy can be initialized a single time only. 
+             
+             
+             The lateinit is non-thread safe. It is up to the user to initialize it correctly in a multi-threaded environment. 
+             The lazy support thread-safety by default and ensures that the initializer is invoked once. 
+             
+             
+             It is not eligible for nonnull properties. 
+             It is also not eligible for nonnull properties. 
+             
+             
+             You can use it only for var. 
+             You can use it only for val. 
+             
+             
+             It adds an isInitialized method to check whether the value has been initialized before. 
+             In this, the property is never able to un-initialize. 
+             
+             
+             It is not allowed on properties of primitive types. 
+             It is allowed on properties of primitive types. 
+             
+           
+           
+           41) What do you understand by destructuring in Kotlin? In Kotlin, destructuring is a convenient way to extract multiple values from data stored in objects and Arrays. It can be used in locations that receive data. It is used because sometimes, it is convenient to destructure an object into several variables. For Example: 
+          
+           
+val (name, age) = developer
+
+           Now, we can use name and age independently as follows: 
+          
+           
+println(name)
+println(age)
+
+           
+           42) What are coroutines in Kotlin? Unlike many other programming languages with similar capabilities, Kotlin doesn't have async and await keywords, and these keywords are not even part of its standard library. In Kotlin, kotlinx.coroutines is a rich library for coroutines developed by JetBrains. This library contains some high-level coroutine-enabled primitives, including launch, async, and others. Kotlin Coroutines provide us with an API to write our asynchronous code sequentially. According to Kotlin documentation, Coroutines are like lightweight threads. They are lightweight because while creating them, they don't allocate new threads. Instead, they use predefined thread pools and smart scheduling. Scheduling is the process of determining the work in a sequential process, and it decides which piece of work you will execute next. We can suspend and resume the Coroutines while execution. This means we can have a long-running task, which can be executed one by one. We can pause it any number of times and resume it when required. 
+           43) What is the difference between Launch and Async in Kotlin Coroutines? In Kotlin, the main difference between Launch and Async is that the launch{} does not return anything and the async{} returns an instance of Deferred, which has an await() function. In other words, we can say that launch is used to fire and forget, and async is used to perform a task and return a result. 
+           44) What are the extension functions in Kotlin? Extension functions are like extensive properties attached to any class in Kotlin. Extension functions are used to add methods or functionalities to an existing class even without inheriting the class. For example: Suppose, we have views where we need to play with the visibility of the views. So, we can create an extension function for views as follows: 
+          
+           
+fun View.show() {
+ this.visibility = View.VISIBLE
+}
+fun View.hide() {
+ this.visibility = View.GONE
+}
+and to use it, we use, like,
+toolbar.hide()
+
+           
+           45) What do you understand by the Kotlin double-bang (!!) operator? The Kotlin double-bang (!!) operator converts any value to a non-null type and throws a KotlinNullPointerException exception if the value is null. It is also called the not-null assertion operator. 
+          
+           
+Example: 
+fun main(args: Array<String>) {
+    var email: String?
+    email = null
+    println(email!!)
+}
+
+           This operator should be used in cases where the developer is 100% sure that its value is not null. 
+             
+         
+       
+       
+      
+      
+     You may also like: 
+      
+      Java Interview Questions 
+      SQL Interview Questions 
+      Python Interview Questions 
+      JavaScript Interview Questions 
+      Angular Interview Questions 
+      Selenium Interview Questions 
+      Spring Boot Interview Questions 
+      HR Interview Questions 
+      C Programming Interview Questions 
+      C++ Interview Questions 
+      Data Structure Interview Questions 
+      DBMS Interview Questions 
+      HTML Interview Questions 
+      IAS Interview Questions 
+      Manual Testing Interview Questions 
+      OOPs Interview Questions 
+      .Net Interview Questions 
+      C# Interview Questions 
+      ReactJS Interview Questions 
+      Networking Interview Questions 
+      PHP Interview Questions 
+      CSS Interview Questions 
+      Node.js Interview Questions 
+      Spring Interview Questions 
+      Hibernate Interview Questions 
+      AWS Interview Questions 
+      Accounting Interview Questions 
+      
+      
+      
+      Learn Latest Tutorials 
+       
+        
+        
+          
+         Splunk 
+          
+        
+        
+          
+         SPSS 
+          
+        
+        
+          
+         Swagger 
+          
+        
+        
+          
+         Transact-SQL 
+          
+        
+        
+          
+         Tumblr 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Regex 
+          
+        
+        
+          
+         Reinforcement Learning 
+          
+        
+        
+          
+         R Programming 
+          
+        
+        
+          
+         RxJS 
+          
+        
+        
+          
+         React Native 
+          
+        
+        
+          
+         Python Design Patterns 
+          
+        
+        
+          
+         Python Pillow 
+          
+        
+        
+          
+         Python Turtle 
+          
+        
+        
+          
+         Keras 
+          
+       
+      
+      
+      
+      Preparation 
+       
+        
+        
+          
+         Aptitude 
+          
+        
+        
+          
+         Reasoning 
+          
+        
+        
+          
+         Verbal Ability 
+          
+        
+        
+          
+         Interview Questions 
+          
+        
+        
+          
+         Company Questions 
+          
+       
+      
+      
+      
+      Trending Technologies 
+       
+        
+        
+          
+         Artificial Intelligence 
+          
+        
+        
+          
+         AWS 
+          
+        
+        
+          
+         Selenium 
+          
+        
+        
+          
+         Cloud Computing 
+          
+        
+        
+          
+         Hadoop 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Data Science 
+          
+        
+        
+          
+         Angular 7 
+          
+        
+        
+          
+         Blockchain 
+          
+        
+        
+          
+         Git 
+          
+        
+        
+          
+         Machine Learning 
+          
+        
+        
+          
+         DevOps 
+          
+       
+      
+      
+      
+      B.Tech / MCA 
+       
+        
+        
+          
+         DBMS 
+          
+        
+        
+          
+         Data Structures 
+          
+        
+        
+          
+         DAA 
+          
+        
+        
+          
+         Operating System 
+          
+        
+        
+          
+         Computer Network 
+          
+        
+        
+          
+         Compiler Design 
+          
+        
+        
+          
+         Computer Organization 
+          
+        
+        
+          
+         Discrete Mathematics 
+          
+        
+        
+          
+         Ethical Hacking 
+          
+        
+        
+          
+         Computer Graphics 
+          
+        
+        
+          
+         Software Engineering 
+          
+        
+        
+          
+         Web Technology 
+          
+        
+        
+          
+         Cyber Security 
+          
+        
+        
+          
+         Automata 
+          
+        
+        
+          
+         C Programming 
+          
+        
+        
+          
+         C++ 
+          
+        
+        
+          
+         Java 
+          
+        
+        
+          
+         .Net 
+          
+        
+        
+          
+         Python 
+          
+        
+        
+          
+         Programs 
+          
+        
+        
+          
+         Control System 
+          
+        
+        
+          
+         Data Mining 
+          
+        
+        
+          
+         Data Warehouse 
+          
+       
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+     
+     
+     
+      
+     
+      
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+   
+   
+     
+ 
+

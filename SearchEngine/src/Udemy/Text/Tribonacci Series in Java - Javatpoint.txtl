@@ -1,0 +1,68 @@
+Tribonacci Series in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Tribonacci Series in Java The Tribonacci series is similar to the Fibonacci series. The Tribonacci sequence is a generalization of the Fibonacci sequence where each term is the sum of the three preceding terms. Tribonacci Series A Tribonacci sequence or series is a sequence of integers such that each term from the fourth onward is the sum of the previous three terms. The Tribonacci sequence can be defined as follows: T0=0,
+T1=T2=1
+Tn=Tn-1+Tn-2+Tn-3 (n?3)
+ In other words, we can say that each term of the series is the sum of the previous three terms. The first few terms of Tribonacci series are: 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1705, 3136, 5768, 10609, 19513, 35890, 66012, 121415, 223317, 410744, 755476, 1389537, 2555757, 4700770, 8646064, 15902591, 29249425, 53798080, 98950096, 181997601, 334745777, 615693474, 1132436852… so on. Tribonacci Series Java Program In the Tribonacci sequence, the first three terms are initialized. From the fourth and onwards, we sum up the last three terms to get the next term. Let's implement the logic in a Java program. TribonacciSeries.java 
+import java.util.*;
+public class TribonacciSeries
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter No. of terms: ");
+int n=sc.nextInt();
+int a = 1, b = 0, c = 1;
+int d = a + b + c;
+System.out.println("\nTribonacci Series: ");
+System.out.print(a+"\t"+b+"\t"+c);
+for(int i=4; i<=n; i++)
+{
+System.out.print("\t"+d);
+a=b;
+b=c;
+c=d;
+d=a+b+c;
+}
+System.out.println();
+}
+}
+ Output: Enter No. of terms: 15
+Tribonacci Series is given below: 
+0	1	1	2	4	7	13	24	44	81	149	274	504 927	1705	
+ Find Nth Term of the Tribonacci Series NthTribonacciTerm.java 
+import java.util.*; 
+public class NthTribonacciTerm
+{
+//method to calculate Tribonnaci series 
+public static int tribonacciTerm(int n) 
+{
+if (n < 3) 
+return n;
+//initializing the first three terms of the Tribonnaci series
+int a = 0, b = 1, c = 1, d;
+//in the while loop --> is not an operator. These are two separate operators, -- and >.
+//the conditional's code decrements n by 1, while returning n's original value not decremented value
+//after that compares the original value with 3 using the > operator.
+//more specifically we can write it as while ((n--) > 3)   
+while (n-- > 3)   
+{
+d = a + b + c;
+a = b;
+b = c;
+c = d;
+}
+return c;
+}
+public static void main(String args[]) 
+{
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter the term: ");
+//reads an integer from the user 
+int n=sc.nextInt();
+//function calling
+int ans=tribonacciTerm(n); 
+System.out.println("The "+n+"th term of the Tribonacci series is: "+ans);
+}
+}
+ Output: Enter the term: 15
+The 15th term of the Tribonacci series is: 1705
+ Next Topic Hollow Diamond Pattern in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

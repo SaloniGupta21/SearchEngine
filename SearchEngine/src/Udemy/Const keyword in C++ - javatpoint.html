@@ -1,0 +1,1218 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Const keyword in C++ - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Const keyword in C++ - javatpoint">
+  <meta property="og:description" content="Const keyword in C++ with C++ tutorial for beginners and professionals, if-else, switch, break, continue, object and class, exception, static, structs, inheritance, aggregation etc."> 
+  <meta name="keywords" content="C++, tutorial, beginners, professionals, introduction, if-else, switch, break, continue, comments, arrays, templates, object and class, exception">
+  <meta name="description" content="Const keyword in C++ with C++ tutorial for beginners and professionals, if-else, switch, break, continue, object and class, exception, static, structs, inheritance, aggregation etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/const-keyword-in-cpp"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Const keyword in C++ - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Const keyword in C++ with C++ tutorial for beginners and professionals, if-else, switch, break, continue, object and class, exception, static, structs, inheritance, aggregation etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/const-keyword-in-cpp">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="cpp-tutorial" class="selected">C++</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="php-tutorial">PHP</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="xml-tutorial">XML</a></li> 
+       <li><a href="json-tutorial">JSON</a></li> 
+       <li><a href="ajax-tutorial">Ajax</a></li> 
+       <li><a href="nodejs-tutorial">Node.js</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+       <li><a href="training">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-tutorial">C++ Tutorial</a> 
+      <a href="c-vs-cpp">C vs C++</a> 
+      <a href="cpp-history">C++ History</a> 
+      <a href="cpp-features">C++ Features</a> 
+      <a href="cpp-installation">C++ Installation </a> 
+      <a href="cpp-program">C++ Program</a> 
+      <a href="cpp-basic-input-output">C++ cout, cin, endl</a> 
+      <a href="cpp-variable">C++ Variable</a> 
+      <a href="cpp-data-types">C++ Data types</a> 
+      <a href="cpp-keywords">C++ Keywords</a> 
+      <a href="cpp-operators">C++ Operators</a> 
+      <a href="cpp-identifiers">C++ Identifiers</a> 
+      <a href="cpp-expression">C++ Expression</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Control Statement</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-if-else">C++ if-else</a> 
+      <a href="cpp-switch">C++ switch</a> 
+      <a href="cpp-for-loop">C++ For Loop</a> 
+      <a href="cpp-while-loop">C++ While Loop</a> 
+      <a href="cpp-do-while-loop">C++ Do-While Loop</a> 
+      <a href="cpp-break-statement">C++ Break Statement</a> 
+      <a href="cpp-continue-statement">C++ Continue Statement</a> 
+      <a href="cpp-goto-statement">C++ Goto Statement</a> 
+      <a href="cpp-comments">C++ Comments</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Functions</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-functions">C++ Functions</a> 
+      <a href="call-by-value-and-call-by-reference-in-cpp">Call by value &amp; reference</a> 
+      <a href="cpp-recursion">C++ Recursion</a> 
+      <a href="cpp-storage-classes">C++ Storage Classes</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Arrays</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-arrays">C++ Arrays</a> 
+      <a href="cpp-passing-array-to-function">C++ Array to Function</a> 
+      <a href="cpp-multidimensional-array">Multidimensional Arrays</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Pointers</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-pointers">C++ Pointers</a> 
+      <a href="sizeof-operator-in-cpp">sizeof() operator in C++</a> 
+      <a href="cpp-array-of-pointers">C++ Array of Pointers</a> 
+      <a href="cpp-void-pointer">C++ Void Pointer</a> 
+      <a href="cpp-references">C++ References</a> 
+      <a href="cpp-reference-vs-pointer">Reference vs Pointer</a> 
+      <a href="function-pointer-in-cpp">Function Pointer in C++</a> 
+      <a href="cpp-memory-management">C++ Memory Management</a> 
+      <a href="malloc-vs-new-in-cpp">malloc() vs new in C++</a> 
+      <a href="free-vs-delete-in-cpp">free vs delete in C++</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Object Class</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-oops-concepts">C++ OOPs Concepts</a> 
+      <a href="cpp-object-and-class">C++ Object Class</a> 
+      <a href="cpp-constructor">C++ Constructor</a> 
+      <a href="cpp-copy-constructor">C++ Copy Constructor</a> 
+      <a href="cpp-destructor">C++ Destructor</a> 
+      <a href="cpp-this-pointer">C++ this Pointer</a> 
+      <a href="cpp-static">C++ static</a> 
+      <a href="cpp-structs">C++ Structs</a> 
+      <a href="cpp-enumeration">C++ Enumeration</a> 
+      <a href="cpp-friend-function">C++ Friend Function</a> 
+      <a href="cpp-math-functions">C++ Math Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Inheritance</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-inheritance">C++ Inheritance</a> 
+      <a href="cpp-aggregation">C++ Aggregation</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Polymorphism</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-polymorphism">C++ Polymorphism</a> 
+      <a href="cpp-overloading">C++ Overloading</a> 
+      <a href="cpp-function-overriding">C++ Overriding</a> 
+      <a href="cpp-virtual-function">C++ Virtual Function</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Abstraction</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="interfaces-in-cpp">C++ Interfaces</a> 
+      <a href="data-abstraction-in-cpp">C++ Data Abstraction</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Namespaces</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-namespaces">C++ Namespaces</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Strings</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-strings">C++ Strings</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Exceptions</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-exception-handling">C++ Exception Handling</a> 
+      <a href="cpp-try-catch">C++ try/catch</a> 
+      <a href="cpp-user-defined-exceptions">C++ User-Defined</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Templates</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-templates">C++ Templates</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Signal Handling</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-signal-handling">C++ Signal Handling</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ File &amp; Stream</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-files-and-streams">C++ File &amp; Stream</a> 
+      <a href="cpp-getline">C++ getline()</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-vs-csharp">C++ vs C#</a> 
+      <a href="cpp-int-to-string">C++ int to string</a> 
+      <a href="cpp-vs-python">C++ vs Python</a> 
+      <a href="structure-vs-class-in-cpp">Structure vs Class in C++</a> 
+      <a href="virtual-destructor-in-cpp">Virtual Destructor in C++</a> 
+      <a href="constructor-vs-destructor-in-cpp">Constructor vs Destructor in C++</a> 
+      <a href="bit-manipulation-cpp">Bit manipulation C++</a> 
+      <a href="what-is-a-reference-variable">What is a reference variable</a> 
+      <a href="friend-function-in-cpp">Friend Function in C++</a> 
+      <a href="snake-code-in-cpp">Snake Code in C++</a> 
+      <a href="inline-function-in-cpp">Inline function in C++</a> 
+      <a href="virtual-function-vs-pure-virtual-function-in-cpp">Virtual function vs Pure virtual function in C++</a> 
+      <a href="how-to-split-strings-in-cpp">How to Split strings in C++</a> 
+      <a href="range-based-for-loop-in-cpp">Range-based for loop in C++</a> 
+      <a href="type-conversion-in-cpp">Type Conversion in C++</a> 
+      <a href="lcm-of-two-numbers-in-cpp">LCM of two numbers in C++</a> 
+      <a href="convert-string-to-integer-in-cpp">Convert string to integer in C++</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ STL Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-stl-components">C++ STL Components</a> 
+      <a href="cpp-vector">C++ Vector</a> 
+      <a href="initialize-vector-in-cpp">Initialize Vector in C++</a> 
+      <a href="post/cpp-deque">C++ Deque</a> 
+      <a href="post/cpp-list">C++ List</a> 
+      <a href="cpp-set">C++ Set</a> 
+      <a href="cpp-stack">C++ Stack</a> 
+      <a href="cpp-queue">C++ Queue</a> 
+      <a href="priority-queue-in-cpp">C++ Priority Queue</a> 
+      <a href="post/cpp-map">C++ Map</a> 
+      <a href="post/cpp-multimap">C++ Multimap</a> 
+      <a href="post/cpp-map">C++ Map</a> 
+      <a href="post/cpp-bitset">C++ Bitset</a> 
+      <a href="cpp-algorithm">C++ Algorithm</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Iterators</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-iterators">C++ Iterators</a> 
+      <a href="cpp-bidirectional-iterator">C++ Bidirectional Iterator</a> 
+      <a href="cpp-forward-iterator">C++ Forward Iterator</a> 
+      <a href="cpp-input-iterator">C++ Input Iterator</a> 
+      <a href="cpp-output-iterator">C++ Output Iterator</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">C++ Programs</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-programs">C++Programs</a> 
+      <a href="fibonacci-series-in-cpp"><span>Fibonacci Series</span></a> 
+      <a href="prime-number-program-in-cpp"><span>Prime Number</span></a> 
+      <a href="palindrome-program-in-cpp"><span>Palindrome Number</span></a> 
+      <a href="factorial-program-in-cpp"><span>Factorial</span></a> 
+      <a href="armstrong-number-in-cpp"><span>Armstrong Number</span></a> 
+      <a href="sum-of-digits-program-in-cpp"><span>Sum of digits</span></a> 
+      <a href="cpp-program-to-reverse-number"><span>Reverse Number</span></a> 
+      <a href="cpp-program-to-swap-two-numbers-without-third-variable"><span>Swap Number</span></a> 
+      <a href="matrix-multiplication-in-cpp"><span>Matrix Multiplication</span></a> 
+      <a href="cpp-program-to-convert-decimal-to-binary"><span>Decimal to Binary</span></a> 
+      <a href="cpp-program-to-convert-number-in-characters"><span>Number in Characters</span></a> 
+      <a href="cpp-program-to-print-alphabet-triangle"><span>Alphabet Triangle</span></a> 
+      <a href="cpp-program-to-print-number-triangle"><span>Number Triangle</span></a> 
+      <a href="cpp-program-to-generate-fibonacci-triangle"><span>Fibonacci Triangle</span></a> 
+      <a href="char-array-to-string-in-cpp">Char array to string in C++</a> 
+      <a href="calculator-program-in-cpp">Calculator Program in C++</a> 
+      <a href="program-to-convert-infix-to-postfix-expression-in-cpp-using-the-stack-data-structure">Program to convert infix to postfix expression in C++ using the Stack Data Structure</a> 
+      <a href="cpp-program-to-merge-two-unsorted-arrays">C++ program to merge two unsorted arrays</a> 
+      <a href="cpp-coin-change-program">C++ coin change program</a> 
+      <a href="cpp-program-to-add-two-complex-numbers-using-class">C++ program to add two complex numbers using class</a> 
+      <a href="cpp-program-to-find-the-gcd-of-two-numbers">C++ program to find the GCD of two numbers</a> 
+      <a href="cpp-program-to-find-greatest-of-four-numbers">C++ program to find greatest of four numbers</a> 
+      <a href="delete-operator-in-cpp">Delete Operator in C++</a> 
+      <a href="how-to-concatenate-two-strings-in-cpp">How to concatenate two strings in c++</a> 
+      <a href="upcasting-and-downcasting-in-cpp">Upcasting and Downcasting in C++</a> 
+      <a href="cpp-dijkstra-algorithm-using-priority-queue">C++ Dijkstra Algorithm using the priority queue</a> 
+      <a href="constructor-overloading-in-cpp">Constructor overloading in C++</a> 
+      <a href="default-arguments-in-cpp">Default arguments in C++</a> 
+      <a href="dynamic-binding-in-cpp">Dynamic binding in C++</a> 
+      <a href="dynamic-memory-allocation-in-cpp">Dynamic memory allocation in C++</a> 
+      <a href="fast-input-and-output-in-cpp">Fast input and output in C++</a> 
+      <a href="hierarchical-inheritance-in-cpp">Hierarchical inheritance in C++</a> 
+      <a href="hybrid-inheritance-in-cpp">Hybrid inheritance in C++</a> 
+      <a href="multiple-inheritance-in-cpp">Multiple Inheritance in C++</a> 
+      <a href="cpp-bitwise-xor-operator">C++ Bitwise XOR Operator</a> 
+      <a href="different-ways-to-compare-strings-in-cpp">Different Ways to Compare Strings in C++</a> 
+      <a href="reverse-an-array-in-cpp">Reverse an Array in C++</a> 
+      <a href="cpp-date-and-time">C++ date and time</a> 
+      <a href="copy-elision-in-cpp">Copy elision in C++</a> 
+      <a href="array-of-sets-in-cpp">Array of sets in C++</a> 
+      <a href="smart-pointers-in-cpp">Smart pointers in C++</a> 
+      <a href="types-of-polymorphism-in-cpp">Types of polymorphism in C++</a> 
+      <a href="implementing-the-sets-without-cpp-stl-containers">Implementing the sets without C++ STL containers</a> 
+      <a href="scope-resolution-operator-in-cpp">Scope Resolution Operator in C++</a> 
+      <a href="static-member-function-in-cpp">Static Member Function in C++</a> 
+      <a href="const-keyword-in-cpp">Const keyword in C++</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">MCQ</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-mcq">C++ MCQ</a> 
+      <a href="cpp-mcq-part-2">C++ MCQ Part 2</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Interview Question</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="cpp-interview-questions">Interview Question</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="#">next &#x2192;</a> 
+            <a class="next" href="static-member-function-in-cpp">&#x2190; prev</a> 
+           </div> <h1 class="h1">Const keyword in C++</h1> <p>This section will discuss the const keyword in the C++ programming language. It is the const keywords used to define the constant value that cannot change during program execution. It means once we declare a variable as the constant in a program, the variable's value will be fixed and never be changed. If we try to change the value of the const type variable, it shows an error message in the program.</p> <img src="https://static.javatpoint.com/cpp/images/const-keyword-in-cpp.png" alt="Const keyword in C++"> <p><strong>Use const keywords with different parameters:</strong></p> 
+           <ul class="points"> 
+            <li>Use const variable</li> 
+            <li>Use const with pointers</li> 
+            <li>Use const pointer with variables</li> 
+            <li>Use const with function arguments</li> 
+            <li>Use const with class member functions</li> 
+            <li>Use const with class data members</li> 
+            <li>Use const with class objects</li> 
+           </ul> <h3 class="h3">1. Const variable</h3> <p>It is a const variable used to define the variable values that never be changed during the execution of a program. And if we try to modify the value, it throws an error.</p> <p><strong>Syntax</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+const data_type variable_name; 
+</textarea>
+           </div> <p><strong>Example: Program to use the const keyword in C++</strong></p> <p>Let's create a program to demonstrate the use of the const keyword in the C++ programming language.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+#include &lt;conio.h&gt;
+using namespace std;
+int main ()
+{
+// declare the value of the const
+const int num = 25;
+num = num + 10;
+return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> <p>It shows the compile-time error because we update the assigned value of the num 25 by 10.</p> <p><strong>Example: Let's create a simple program to demonstrate the use of the const keyword in the C++ programming language.</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+/* create a program to use the const keyword with different data types in the C++. */
+#include &lt;iostream&gt;
+#include &lt;conio.h&gt;
+using namespace std;
+int main ()
+{
+// declare variables
+const int x = 20;
+const int y = 25;
+int z;
+// add the value of x and y
+z = x + y;
+cout &lt;&lt; " The sum of the x and y is: " &lt;&lt; z &lt;&lt; endl;
+return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre> The sum of the x and y is: 42
+</pre>
+           </div> <p>In the above program, we declared and assigned the const variables x and y at initial. And then, store the result of two const variables to the 'z' variable to print the sum.</p> <h4 class="n">Note: While the declaration of the const variable in the C++ programming, we need to assign the value of the defined variables at the same time; else, it shows the compile-time error. </h4> <h3 class="h3">2. Constant pointer</h3> <p>To create a const pointer, we need to use the const keyword before the pointer's name. We cannot change the address of the const pointer after its initialization, which means the pointer will always point to the same address once the pointer is initialized as the const pointer.</p> <p><strong>Example: Program to demonstrate the constant pointer using the const keyword</strong></p> <p>Let's consider an example to use the const keyword with the constant pointer in the C++ programming language.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+using namespace std;
+int main ()
+{
+// declaration of the integer variables
+int x = 10, y = 20;
+
+// use const keyword to make constant pointer
+int* const ptr = &amp;x; //  const integer ptr variable point address to the variable x
+
+// ptr = &amp;y; // now ptr cannot changed their address
+*ptr = 15; // ptr can only change the value
+cout &lt;&lt; " The value of x: " &lt;&lt; x &lt;&lt; endl;
+cout &lt;&lt; " The value of ptr: " &lt;&lt; *ptr &lt;&lt; endl;
+return 0;
+} 
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>The value of x: 15
+The value of ptr: 15
+</pre>
+           </div> <p>In the above program, pointer ptr pointing to the address of int variable 'x' and ptr variable cannot be changed their address once it initialized, but the pointer ptr can change the value of x.</p> <h3 class="h3">3. Pointer to constant variable</h3> <p>It means the pointer points to the value of a const variable that cannot change.</p> <p><strong>Declaration of the pointer to the constant variable:</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+const int* x; 
+</textarea>
+           </div> <p>Here, x is a pointer that point to a const integer type variable, and we can also declare a pointer to the constant variable as,</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+char const* y;
+</textarea>
+           </div> <p>In this case, y is a pointer to point a char type const variable.</p> <p><strong>Example: Program to use the const keyword with a pointer to constant variable</strong> </p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+using namespace std;
+int main ()
+{
+// declare integer variable
+int x = 7, y = 10;
+
+const int *ptr = &amp;x; // here x become constant variable
+cout &lt;&lt; " \n The initial value of ptr:" &lt;&lt; *ptr;
+cout &lt;&lt; " \n The value of x: " &lt;&lt;x;
+
+// *ptr = 15; It is invalid; we cannot directly assign a value to the ptr variable
+ptr = &amp;y; //  here ptr variable pointing to the non const address 'y'
+
+cout &lt;&lt; " \n The value of y: " &lt;&lt;y;
+cout &lt;&lt; " \n The value of ptr:" &lt;&lt; *ptr; 
+return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>The initial value of ptr: 7
+The value of x: 7
+The value of y: 10
+The value of ptr: 10
+</pre>
+           </div> <p>In the above program, pointer ptr points to the const int (x) variable, and the value of the int (x) variable can never change.</p> <h3 class="h3">4. Constant function Arguments</h3> <p>We can declare the function arguments as the constant argument using the const keyword. And if the value of function arguments is declared const, it does not allow changing its value.</p> <p><strong>Syntax</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+return_type fun_name (const int x)
+{
+} 
+</textarea>
+           </div> <p>In the above syntax, return_type is represented whether the function will return a value or not. The fun_name() function contains a const argument whose value can never be changed once it defines in the program.</p> <p><strong>Example: Let's consider an example to use the const keyword with function arguments in the C++ programming language.</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+using namespace std;
+// create an integer Test() function contains an argument num
+int Test (const int num)
+{
+// if we change the value of the const argument, it thwrows an error.
+// num = num + 10;
+cout &lt;&lt; " The value of num: " &lt;&lt; num &lt;&lt; endl;
+return 0;
+}
+int main ()
+{
+// call function
+Test(5);
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>The value of num: 5
+</pre>
+           </div> <p>In the above program, the num is a constant argument, and we cannot update the num value. If we update the value of the num variable, it returns the compile-time error.</p> <h3 class="h3">5. Const Member function of class</h3> 
+           <ol class="points"> 
+            <li>A const is a constant member function of a class that never changes any class data members, and it also does not call any non-const function.</li> 
+            <li>It is also known as the read-only function.</li> 
+            <li>We can create a constant member function of a class by adding the const keyword after the name of the member function.</li> 
+           </ol> <p><strong>Syntax</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+return_type mem_fun() const
+{
+} 
+</textarea>
+           </div> <p>In the above syntax, mem_fun() is a member function of a class, and the const keyword is used after the name of the member function to make it constant.</p> <p><strong>Example: Program to use the const keyword with the member function of class</strong></p> <p>Let's consider an example to define the const keyword with the member function of the class.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+class ABC
+{
+// define the access specifier
+public:
+
+// declare int variables
+int A;
+// declare member function as constant using const keyword
+void fun () const
+{
+ A = 0; // it shows compile time error
+}
+};
+
+int main ()
+{
+	ABC obj;
+	obj.fun();
+	return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> <p>The above code throws a compilation error because the fun() function is a const member function of class ABC, and we are trying to assign a value to its data member 'x' that returns an error.</p> <h3 class="h3">6. Constant Data Members of class</h3> <p>Data members are like the variable that is declared inside a class, but once the data member is initialized, it never changes, not even in the constructor or destructor. The constant data member is initialized using the const keyword before the data type inside the class. The const data members cannot be assigned the values during its declaration; however, they can assign the constructor values.</p> <p><strong>Example: Program to use the const keyword with the Data members of the class</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+/* create a program to demonstrate the data member using the const keyword in C++. */
+#include &lt;iostream&gt;
+using namespace std;
+// create a class ABC
+class ABC
+{
+
+public:
+ // use const keyword to declare const data member
+const int A;
+// create class constructor
+ABC ( int y) : A(y)
+{
+cout &lt;&lt; " The value of y: " &lt;&lt; y &lt;&lt; endl;
+}
+};
+int main ()
+{
+ABC obj( 10); // here 'obj' is the object of class ABC
+cout &lt;&lt; " The value of constant data member 'A' is: " &lt;&lt; obj.A &lt;&lt; endl;
+// obj.A = 5; // it shows an error.
+// cout &lt;&lt; obj.A &lt;&lt; endl;
+return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>The value of y: 10
+The value of constant data member 'A' is: 10
+</pre>
+           </div> <p>In the above program, the object obj of the ABC class invokes the ABC constructor to print the value of y, and then it prints the value of the const data member 'A' is 10. But when the 'obj.A' assigns a new value of 'A' data member, it shows a compile-time error because A's value is constant and cannot be changed.</p> <h3 class="h3">7. Constant Objects</h3> <p>When we create an object using the const keyword, the value of data members can never change till the life of the object in a program. The const objects are also known as the read-only objects.</p> <p><strong>Syntax</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+const class_name obj_name;
+</textarea>
+           </div> <p>The const is a keyword used before the class' object's name in the above syntax to make it a constant object.</p> <p><strong>Example: Let's create a program to use the constant objects in the C++ programming language.</strong></p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+using namespace std;
+class ABC
+{
+public:
+// define data member
+int A;
+// create constructor of the class ABC
+ABC ()
+{
+A = 10; // define a value to A
+}
+};
+int main ()
+{
+// declare a constant object
+const ABC obj;
+cout &lt;&lt; " The value of A: " &lt;&lt; obj.A &lt;&lt; endl;
+// obj.A = 20; // It returns a compile time error
+return 0;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>The value of A: 10
+</pre>
+           </div> <p>In the above program, we assign the value of A is 10, the compiler prints "The value of A: 10", and when we assign the value of A to 20, the object of the class returns the compile time error in the program.</p> <h3 class="h3">Program to find the area of a circle using the const keyword</h3> <p>Let's consider an example to print the area of a circle using the const keyword in the C++ programming language.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+#include &lt;iostream&gt;
+using namespace std;
+int main ()
+{
+// declare variables
+int r;
+const double PI = 3.14;
+double result;
+cout &lt;&lt; " Input the radius of a circle: " &lt;&lt; endl;
+cin &gt;&gt; r;
+result = PI * r * r;
+cout &lt;&lt; " The area of a circle is: " &lt;&lt; result;
+}
+</textarea>
+           </div> <p><strong>Output</strong></p> 
+           <div class="codeblock3">
+            <pre>Input the radius of a circle: 
+5
+The area of a circle is: 78.5
+</pre>
+           </div> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="#">#</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="static-member-function-in-cpp">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="#">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a1c7c4c4c5c3c0c2cae1cbc0d7c0d5d1cec8cfd58fc2cecc">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/const-keyword-in-cpp"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/const-keyword-in-cpp"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/const-keyword-in-cpp"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5b33291b313a2d3a2f2b3432352f75383436">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="670f15270d0611061317080e09134904080a49">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

@@ -1,0 +1,607 @@
+
+
+ 
+  
+  How to Draw a Line in Photoshop - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Photoshop 
+       GIMP 
+       After Effect 
+       Illustrator 
+       Dreamweaver 
+       Adobe InDesign 
+       CorelDRAW 
+       HTML 
+       JavaScript 
+       Java 
+       SQL 
+       Python 
+       Android 
+       Cloud 
+       Servlet 
+       JSP 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Photoshop Tutorial 
+      
+      
+      Photoshop Tutorial 
+      Download & Install 
+      Photoshop Workspace 
+      Shortcut keys 
+      Layers in PS 
+      PS Layer Mask 
+      Smart object in PS 
+      Layer Effects & Styles 
+      Shapes in Photoshop 
+      How to Remove Background of an Image Using Photoshop 
+      How to Resize an Image in Photoshop 
+      Blending Modes in Photoshop 
+      Photoshop Brush Tool 
+      Photoshop Pen Tool 
+      How to Change Color in Photoshop 
+      How to Resize a layer in Photoshop 
+      How to Add Fonts in Photoshop 
+      How to Crop an Image in Photoshop 
+      Photoshop Vs Illustrator 
+      Photoshop Vs Lightroom 
+      Affinity Photo Vs. Photoshop 
+      How to Curve Text in Photoshop 
+      How to Flip an Image in Photoshop 
+      Clipping Mask in Photoshop 
+      How to Deselect in Photoshop 
+      How to Smooth Edges in Photoshop 
+      Drop Shadow in Photoshop 
+      How to Add Image in Photoshop 
+      How to Draw a Line in Photoshop 
+      How to Outline Text in Photoshop 
+      How to Undo/Redo in Photoshop 
+      Make Gif in Photoshop 
+      Blur Tool in Photoshop 
+      Photoshop Filters 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to Draw a Line in Photoshop Drawing a line in Photoshop is a straightforward process. But, it may be complicated for you if you never did it before. Most people select the brush, pencil, or pen tool to create a line. The line created by these tools may not be straight. However, we can create a straight line using these tools as well. There are several ways to create straight, horizontal, and curved lines in Photoshop. The question arises of which will be the most convenient way to create a line, depending on what kind of line you want to create. Some useful tools for creating a line are line tool, brush tool, pen tool, and pencil tool. The line tool is considered the easiest way to create a straight line. We can access the line tool under the Photoshop shape tools given in the toolbox. We can easily customize the line tool's lines such as strokes, thickness, etc. To create a line using the line tool, we have to drag out the pointer on the canvas, and it will create a new line. Like the line tool, the lines are easily created using other tools such as pen and brush tools. We have to press the Shift key for a straight line while dragging out the pointer. Let's get deeper into the line tool and other tools to create a new line. In this tutorial, we will discuss how to draw straight, horizontal, and curved lines using Photoshop. Further, we will discuss few tips for creating lines to create it as your expectations. Let's discuss each tool and understand how to create and customize the line using these tools: Photoshop Line Tool The line tool is one of the finest tools for creating a straight line. It can be found under the Photoshop shape tools. It creates a very thin rectangle using the stroke adjustment to provide the thickness of the width of the line. It is very easy to use the line tool. We can also create curved lines using the line tool. However, it isn't very easy to customize the curved lines. But we can customize the curved lines by following the warping layer rather than following a path. Let's go through the different methods and techniques to create and customize the lines using the line tool in Photoshop. Drawing a Line Using the Line Tool To create a line using the line tool, first, we need to create a new document. To create a new document, press the Ctrl+N key combination; it will open a new dialogue window. Here, specify the document size and background according to your requirement. The document with white background is considered as an ideal background. But, we can also choose a transparent background if required.  Click OK to create a new document. It will create a document of the specified size and background. Now, we can draw any shape on this document. To draw a line, activate the line tool. The Line tool can be found under the shape tools category, which is accessible using the U key. But, the line tool may not be your default tool, so it may activate the rectangle, ellipse, or any other shape tool as per your previous usage. The best way is to activate the line tool is to hold the shape icon in the toolbox. It will display all the available tool options.  Click on the Line Tool to activate it. Now, our line tool is activated. Make sure to customize it before using it. We can see several customization options such as thickness, color, etc., on the top options bar menu. Before drawing a line, double-check whether the line tool is selected as a shape or not.  If it is set to the path or fill pixels, click on the shape layers options highlighted in the above image. Now, our line will be created as a shape, not as a path. The next thing is to customize the width of the line, which can be set in the weight field. Define the width of the line. We can set it from 1 px to any of the required values. As we have discussed earlier in this article, the line tool works as a small rectangle format, so when we increase the weight of the line, it will increase the size of the rectangle that will be drawn.  Provide the width value in the above-highlighted section. Now, the next thing that is to be customized is the color of the line. The color is the last option in the above-given options bar. Click on the color box and specify any of the desired color.  Now, we are all set to draw a line. If we drag off the cursor, it will draw a line according to our hand movement, which may not be straight. So if you want to create a straight line, press the Shift key while dragging the pointer. It will create a proper straight line. Below are some examples of lines drawn using the line tool:  We have drawn few lines using the different weight values and the same color on dragging the pointer in different directions. Similarly, we can draw other lines with different colors and angles. Now, understand how to draw curved lines using the Line tool: How to Draw Curved Lines in Photoshop While drawing a line using the Shift key and dragging the pointer, we cannot make the curved lines; we can create straight lines at different angles. It will automatically set the line to an appropriate angle. Drawing a curved line is a quite tricky process. To draw a line on an exact angle, we have to combine two tools which are the Line tool and the transform tool. We can set the height, width, direction, and line wave using the transform tool. The Line tool creates a thin rectangle to make it a curve like a wave or an arc. Instead, we can use the warp adjustment tool to make it curved and wavy. To make a curved line, create a line, then activate the transform tool by pressing the Ctrl+T keys. Then select the warp mode icon from the options bar, which will appear after activating the transform tool.  Once we have activated the warp tool, it will display several handles on the line, just like the pen tool.  We can stretch these handles to create a shape, curve, or anything according to our imagination. However, there are many presets options available that will be very useful if you want to draw something like that.  The presets option can be accessed by the Warp drop-down menu available on the options bar window. For example, if we want to create an arc, we can select the arc option from these presets options, automatically converting the line into an arc. Also, we can define the bend angle from the bend option given just near the warp menu. The line tools work fine and easiest way for creating lines, but there are few limitations of the line tools that makes it an undesirable choice. For example, it does not work fine for creating lines along with a specific edge or shape that requires high-level expertise so that you can manually set it. However, it does most of the work for us, so we do not need to worry about adjustment. Here, other tools such as pen tools and brush tools come into the picture. Let's understand how to draw lines using the pen tool and brush tool. How to Draw Lines Using the Pen Tool The pen tool is one of the most creative and versatile tools provided by Photoshop. We can create anything that we can imagine using the Pen tool. It is used to create paths, shapes, selections, and even lines. It provides us with complete control over the path, which can be adjusted and reused. No matter, what we want to create, the pen tool allows us to create every type of lines, such as wave, straight line, lightning lines, and more. The pen tool's creativity is limitless. To create a line using the pen tool, activate the pen tool by pressing the P key or select it from the toolbox by clicking on the below icon:  Before drawing with a pen tool, we can also customize it. Make sure it is set to shape, not on the path. If it is not set to the shape by default, set it to shape by clicking on the below icon:  Next, we can set its color and other preferences from the above options bar. Once everything is set for your preferences, click anywhere on the image canvas to draw with the pen tool. First, start selecting the anchor points; these anchor points will control and define the drawing path. When we select the first anchor point, it will be your starting anchor point, and just clicking on a different spot will make it an ending anchor point and create a straight line for these endpoints. If we want to create a wavy line, click and drag an anchor point to curve a path; it will curve the drawing line.  To create an accurate straight line using the pen tool, we can simply follow the process that we used in the line tool. Press the Shift key while selecting another anchor point; it will go straight to create a line. How to Draw a line using Brush Tool A brush tool is also an effective tool for drawing a straight line; we can easily draw and colorize the straight lines. Additionally, it is much more effective than other line tools and pen tools to create stylish straight lines. We can choose from a wide range of available brushes in Photoshop to provide a style to the line. To create a line using the brush tool, first, we need to activate the brush tool. We can activate the brush tool by pressing the B key. Alternatively, we can select it from the toolbox give left to the workspace by clicking on the below icon:  It will activate the brush tool; now customize it using the options bar menu. There are several options available for the brush tool, such as size, color, style, and more to customize it.  Once we are done with the customization, we can start drawing using the brush tool. It works in a similar way a line tool does. To create a straight line, hold the Shift key and drag out the pointer in any direction where you want to create a line. To create a shape using multiple lines, we can keep following the process in different directions. Once we are done with the drawing, release the mouse pointer. Just like the Line tool, the brush tool also supports stroke settings to adjust its hardness, opacity, styles, and more settings from the options bar. The lines drawn with the brush tool are very soft in look. Below are some lines are drawn with the brush tool:  Now, we can easily draw lines using different tools in Photoshop. Summary: There are several ways to create straight, horizontal, and curved lines in Photoshop. The question arises of which will be the most convenient way to create a line, depending on what kind of line you want to create. We have discussed some useful tools for creating a line, such as a line tool, brush tool, pen tool. Now, we can understand the difference between lines drawn by these tools and their respective usage. So, you can choose any of the above tools that match your requirement. One common thing in all the above-discussed tools is the Shift key, which takes the pointer in a proper straight direction to draw a line. 
+            
+            
+            Next Topic
+            How to Outline Text in Photoshop 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

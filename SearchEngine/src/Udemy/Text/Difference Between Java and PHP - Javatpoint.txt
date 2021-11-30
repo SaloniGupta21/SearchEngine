@@ -1,0 +1,835 @@
+
+
+ 
+  
+  Difference Between Java and PHP - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Difference Between Java and PHP Java and PHP are both the two most popular programming languages. There are so many differences and similarities between both of them. Let's understand both of them one by one, and after that, we understand the similarities and differences between them.  Java Java is one of the widely used open-source programming languages that follow OOPs concepts. The Java code is compiled into byte code and run on a JVM. The language developed by Sun Microsystems has a VM platform that allows us to create compiled programs that we can run on any platform. So, Java code follows the concept of "Write Once, Run Anywhere". Let's take an example to understand how we can write the code in Java: CalculateCompoundInterest.java 
+           
+            
+//import required classes and packages
+package javaTpoint.JavaExample;
+import java.util.Scanner;
+//create class CalculateCompoundInterest to find compound interest
+public class CalculateCompundInterest {
+	// create the calculateInterest() method that calculate and print the compound interest
+	public static void calculateInterest(float p, float r, float t, float n) {
+		//calculate the compound interest
+		// formula to calculate cmpInterest = p * Math.pow(1 + (r / n), n * t)
+		double amount = p * Math.pow(1 + (r / n), n * t);
+		double cinterest = amount - p;
+		// print calculated compound interest and amount
+		System.out.println("Compound Interest after " + t + " years: "+cinterest);
+		System.out.println("Amount after " + t + " years: "+amount);
+	}
+	public static void main(String args[]) 
+	{
+		// create instance of the Scanner class to take input from the user
+		Scanner sc = new Scanner(System.in);
+		// declare variables
+		float p, r, t, n;
+	    // take input from the user for variables
+	    System.out.println("Enter value for the Principal(p) : ");
+	    p = sc.nextFloat();
+	    System.out.println("Enter value for the Rate of interest(r) : ");
+	    r = sc.nextFloat();
+	    System.out.println("Enter value for the Time period(t) : ");
+	    t = sc.nextFloat();
+	    System.out.println("Enter the number of times that interest is compounded per unit t(n)");
+	    n = sc.nextFloat();
+	    calculateInterest(p, r, t, n);
+	    sc.close();
+	}
+}
+
+            Output:  PHP Unlike Java, PHP is a server-side scripting language. We mainly use PHP for developing and designing web applications. Two main characteristics of PHP are as follows: 
+            
+            PHP code can be easily embedded in the html code. 
+            We can also write the html code in the PHP file. 
+            PHP codes are executed on the server because it is a server-side programming language. The HTML code embedded in the PHP file can be directly rendered on the browser after executing the PHP file on the server. CompoundInterestExample.html 
+           
+            
+<html>
+	<head>
+		<title>Find Compound Interest</title>
+	</head>
+	<body>
+		<form method="post">
+			<table border="0">
+				<tr>
+					<td><input type="text" name="number1" value="" placeholder="Enter principal:"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="number2" value="" placeholder="Enter Time Period:"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="number3" value="" placeholder="Enter Rate of Interest:"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+		<?php
+			if(isset($_POST['submit']))
+			{
+				// fetch input from fields
+				$principal = $_POST['num1'];
+				$time = $_POST['num2'];
+				$rate = $_POST['num3'];
+				//calculate simple interest
+				$simpleInterest = $principal * $time * $rate/100;
+				echo "Simple interest = ".$simpleInterest;
+				//calculate compound interest
+				$amount = $principal * pow((1 + $rate/100),$time);
+				$cmpInterest = $amount - $principal;
+				echo "Compound interest = ".$cmpInterest;
+				return 0;
+			}
+		?>
+	</body>
+</html>
+
+            Output:  Similarities Between Java and PHP These are the following similarities between Java and PHP: 
+            
+            Open-source Java and PHP are both freely available in the market to use. There is no need to pay an amount to use them. Both Java and PHP can be modified and redistributed by users. 
+            Follows OOPs Concepts Java and PHP both follow the concepts of OOPs such as Inheritance, Polymorphism, and Encapsulation, etc. The languages that follows OOPs are easy to understand. We can reuse the code in other programs to utilize time and memory. 
+            Syntax The process of defining data members, member function, classes, and looping structures is the same in both programming languages. It helps the developer to work on a cross-platform. 
+            Easy to learn Both the languages are very simple and easy to learn even for the fresher also. Learning PHP and Java is simple if we have knowledge of the syntax of both. 
+            Differences Between Java and PHP The following table describes thekeydifferences between Java and PHP: 
+            
+            
+              
+              Java 
+              PHP 
+              
+              
+              Java is an object-oriented, general-purpose programming language. 
+              PHP is an object-oriented server-side scripting language. 
+              
+              
+              Java is compiled and strongly-typed language. 
+              PHP is a dynamic and weak typed language. 
+              
+              
+              Java provides a rich set of APIs in comparison to PHP. 
+              PHP provides less API in comparison to JAVA. In PHP, It is very easy to rebuild and customize APIs. 
+              
+              
+              Method overloading and method overriding are supported in Java. 
+              PHP doesn't support method overloading and method overriding. 
+              
+              
+              Java provides several packages and deployment utilities. 
+              PHP has no packaging concept. 
+              
+              
+              For creating complex and large applications, Java is very fast. 
+              For creating web pages, it is very fast. 
+              
+              
+              It is a compiled type programming language. 
+              PHP is an interpreted language. 
+              
+              
+              In Java, OOP is available by default. 
+              PHP offers OOP as an option. 
+              
+              
+              For complex and large applications, Java is good to use. 
+              PHP is not good for large and complex projects. 
+              
+              
+              Java is a very secure programming language in comparison to PHP. 
+              PHP provides less security as compared to Java. 
+              
+            
+            
+            
+            
+            Next Topic
+            Difference Between replace() and replaceAll() in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

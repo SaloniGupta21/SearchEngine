@@ -1,0 +1,992 @@
+
+
+ 
+  
+  Email Workbook - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Excel 
+       MS Word 
+       PowerPoint 
+       C 
+       C# 
+       Java 
+       PHP 
+       HTML 
+       SQL 
+       PL/SQL 
+       Python 
+       Web Services 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      MS Excel Tutorial 
+      
+      
+      Excel Tutorial 
+      Workbook Window 
+      Create & Open Workbooks 
+      MS Excel Online 
+      Excel vs Google Sheets 
+      Office Button 
+      Ribbon and Tabs 
+      Features of Tabs 
+      Quick Access Toolbar 
+      Mini Toolbar 
+      Title, Help, Zoom, View 
+      
+      
+      Excel Worksheet 
+      
+      
+      Worksheet, Row, Column 
+      Moving on Worksheet 
+      Enter Data 
+      Select Data 
+      Delete Data 
+      Move Data 
+      Copy Paste Data 
+      Spell Check 
+      Insert Symbols 
+      
+      
+      Excel Calculation 
+      
+      
+      Addition 
+      Sigma Addition 
+      Subtraction 
+      Calculate Average 
+      Sigma Average 
+      
+      
+      Excel Fill Handle 
+      
+      
+      Fill Handle 
+      Fill Handle with Text 
+      Text with Numbers 
+      Fill Handle with Dates 
+      
+      
+      Excel Formula 
+      
+      
+      Create Formula 
+      Fill Handle in Formula 
+      Relative Referencing 
+      Absolute Referencing 
+      Instruction for Typing 
+      Quick Excel Functions 
+      
+      
+      Excel IF 
+      
+      
+      If Function 
+      If with Calculations 
+      Excel COUNTIF 
+      Advanced If 
+      
+      
+      Excel Advanced 
+      
+      
+      Excel Macros 
+      Excel sumif 
+      Excel vlookup 
+      What is Pivot Table 
+      Excel ISNA 
+      Find & Remove Duplicates 
+      Create drop-down List 
+      Merge cells in Excel 
+      
+      
+      Misc 
+      
+      
+      How to enable macros in excel 
+      How to calculate age in Excel 
+      How to create a Pivot Table in excel 
+      How to enable the Developer Tab in Excel 
+      How to Calculate Standard Deviation in Excel 
+      How to Calculate Time Difference in Excel 
+      How to Freeze Cells in Excel 
+      What-if Analysis in Excel 
+      How To Insert Checkbox in MS Excel 
+      How To Insert PDF in MS Excel 
+      How to change the Date Format in Excel 
+      How to compare two Excel sheet 
+      How To Apply Filter In Excel 
+      How To Move Columns In Excel 
+      How to add or remove Hyperlink in Excel 
+      How to calculate Mean in Excel 
+      How to Separate text in Excel 
+      How to recover a macro in Excel 
+      How to recover a Corrupted Excel file 
+      How to recover an Excel file 
+      How to remove comma in Excel 
+      How to sum a column in Excel 
+      How to remove the filter in Excel 
+      How to remove gridlines in Excel 
+      How To Convert Excel To CSV 
+      How To Create Table in Excel 
+      How to Calculate IRR in Excel 
+      How to Count Characters in Excel 
+      How to Make an Excel Sheet 
+      How to Replace Words in Excel 
+      How to Sort by Date in Excel 
+      How to hide formulas in Excel 
+      How to subtract in excel 
+      How to use the IF function in Excel 
+      How To Create A Graph In Excel 
+      How to use concatenate in Excel 
+      How to spell check in Excel 
+      How to Change Lowercase to Uppercase in Excel 
+      How to Create a Dashboard in Excel 
+      How to Delete Duplicate Rows in Excel 
+      How to use sumifs formula in Excel 
+      How to add page break in Excel 
+      How to remove the page break in Excel 
+      How to Convert Columns to Rows in Excel 
+      How to Convert Number to Words in Excel 
+      How to Make a Table in Excel 
+      How to Put Tick Mark in Excel 
+      How to Remove Passwords from Excel File 
+      How to Wrap Text in Excel 
+      How to insert comments in Excel 
+      How to add/remove Password from Excel 
+      How to use MS Excel 
+      How to sort in Excel 
+      How to record a macro in Excel 
+      How Many Rows and Columns in Excel 2007 
+      How to Search in Excel 
+      How to add a text box in Excel 
+      How to save Excel document 
+      How to set background image in Excel 
+      How to use COUNTIF function in Excel 
+      How to import the data from CSV file in Excel 
+      How to unlock scroll lock in Excel 
+      What is a cell in Excel 
+      Uses of MS Excel 
+      How to Reduce Excel File Size 
+      How to Save Excel File as PDF 
+      ODS to Excel 
+      How to lock cells in Excel 
+      How to unlock cells in Excel 
+      Hyperlink in Excel 
+      How to compare two columns in Excel 
+      Conditional formatting in Excel 
+      How to define custom rules for conditional formatting in Excel 
+      Data validation in Excel 
+      Apply data validation in Excel 
+      Remove spaces in Excel 
+      How to Save Excel File 
+      Watermark in Excel 
+      How to unhide columns in Excel 
+      How to delete blank rows in Excel 
+      Excel round off formula 
+      How to Add Watermark in Excel 
+      How to Remove Watermark in Excel 
+      Excel Save As Shortcut 
+      Excel Shortcut Keys 
+      Excel match function 
+      HLOOKUP formula in Excel 
+      What is the file extension for Excel 
+      Offset function in Excel 
+      Compound interest formula in Excel 
+      Excel password remover 
+      FV() function in Excel 
+      MS Excel Definition 
+      What is Excel 
+      Excelity login 
+      Income tax calculating formula in Excel 
+      Google Excel Spreadsheet 
+      Online Excel Viewer 
+      Online Excel Editor 
+      How to make pie charts in excel 
+      How to calculate number of days between two dates in Excel 
+      Excel Download 
+      Download MS Office 2019 using command prompt 
+      Download Windows and MS office activator 
+      Excel Header and Footer 
+      Excel to JPG 
+      JPG to Excel 
+      Salary slip format in Excel 
+      How to count colored cells in Excel 
+      Excel Substring formula 
+      CSV to Excel 
+      Word to Excel 
+      Regression analysis in Excel 
+      How to calculate CAGR in Excel 
+      Excel to Word 
+      Percentage formula in Excel 
+      Mail merge in Excel 
+      How to unhide rows in Excel 
+      How to Split Cells in Excel 
+      Current Date in Excel 
+      Index function in Excel 
+      How to remove formula in Excel 
+      Excel Features 
+      Flash Fill in Excel 
+      How to convert Excel to JSON 
+      Convert Excel to JSON using VBA code 
+      Round formula in Excel 
+      Excel formula 
+      Ratio in Excel 
+      Excel Delete Row Shortcut 
+      Insert Column Excel Shortcut 
+      Excel not equal to operator 
+      Logical operators in Excel 
+      Delete Data in Excel 
+      Excel Slicer 
+      Excel Difference Between Two Dates 
+      Excel Filter Shortcut 
+      Excel Charts 
+      Excel text function 
+      Excel LOOKUP() function 
+      MS Excel Grade Formula 
+      10 Disadvantages of Microsoft Excel 
+      Shortcut Keys in Excel 2010 
+      Advanced Formulas in Excel 
+      Excel Merge Cells Shortcut 
+      Excel Paste Special Shortcut 
+      INDIRECT() function in Excel 
+      What is Relative Reference in Excel 
+      Excel Sum Shortcut 
+      Redo Shortcut in Excel 
+      Arrow key is not working in Excel 
+      Type of charts in Excel 
+      Nested If Function in Excel 
+      Lower() in excel 
+      Proper() in excel 
+      Types of References in Excel 
+      AND Function in Excel 
+      How to do subtraction in Excel 
+      Excel MAX() Function 
+      How to delete a Sheet in Excel 
+      How to Insert Chart in Excel 
+      Excel ISERROR() function 
+      Excel add-ins 
+      IF() in excel 
+      REPT() in excel 
+      What is Formatting in Excel 
+      OR Function in Excel 
+      Solver in Excel 
+      Excel AVERAGE() Function 
+      Excel MIN() Function 
+      Format Painter in Excel 
+      COUNTA function in excel 
+      Excel mid function 
+      Excel right function 
+      Excel Choose Function 
+      How to Use RIGHT Function in Excel 
+      NOT Function in Excel 
+      Excel COUNT() Function 
+      Line Chart Excel 
+      Excel RAND() function 
+      Excel find() function 
+      Excel tricks 
+      Dollar function in excel 
+      Left formula in excel 
+      Randbetween function in excel 
+      ROUNDDOWN Function in Excel 
+      Tenure Formula in Excel 
+      Excel TODAY and NOW 
+      How to unhide worksheet in Excel 
+      Freeze panes in Excel 
+      Excel PMT Function 
+      NETWORKDAYS Formula in Excel 
+      Pivot Chart in Excel 
+      Excel Hide Shortcut 
+      Unhide Shortcut in Excel 
+      Range in Excel 
+      Strikethrough in Excel 
+      How to password protect an Excel sheet 
+      Page Orientation in Excel 
+      Area Chart in Excel 
+      Bubble Chart Excel 
+      Autofill in Excel 
+      Convert rows to columns 
+      Analysis ToolPak 
+      Zoom In/Out in Excel 
+      Excel Format Painter Shortcut 
+      Excel Wrap Text Shortcut 
+      Uppercase Shortcut in Excel 
+      How to make a bar chart in Excel 
+      JSON to Excel 
+      Sparkline chart 
+      Why MS Excel is Important 
+      Waterfall Chart Excel 
+      Excel IRR formula 
+      Excel Pareto chart 
+      Column Chart 
+      Formatting Charts 
+      Pie Chart 
+      Doughnut Chart Excel 
+      Scatter Plot Excel 
+      Text to column in Excel 
+      Excel IFERROR() function 
+      Excel Median() function 
+      Gantt Chart Excel 
+      Consolidate data in Excel 
+      Excel Strikethrough Shortcut 
+      Flow Chart Excel 
+      Organization Chart Excel 
+      Excel box plot 
+      Excel Transpose Function 
+      Circular reference in Excel 
+      Excel Filter Function 
+      Excel VAR.S() Function 
+      Email Workbook 
+      Share Workbook 
+      Correlation in Excel 
+      How many sheets are there in excel workbook by default 
+      What is Mod Function in Excel 
+      Compatibility mode in Excel 
+      How to unprotect Excel sheet without password 
+      Adding Graphics 
+      Translate Worksheet 
+      Excel Large Function 
+      Excel Rank Function 
+      Cross Referencing in Excel 
+      Using Themes in Excel 
+      Excel IFNA Function 
+      Excel TRIM Function 
+      Excel DATEVALUE Function 
+      Excel SUBSTITUTE Function 
+      Special Symbols in Excel 
+      
+      
+      Shortcut Keys 
+      
+      
+      Excel Shortcut Keys 
+      
+      
+      Interview Questions 
+      
+      
+      Excel Interview 
+      HR Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Email Workbook Excel is one of the most powerful spreadsheet software with an extensive range of features and functions. We often use Excel to organize our data, either small or large data sets. When we are working on any team project, and we need to send a workbook to other users or the manager, email is the most common method. We can easily email a workbook after finishing the work or whenever needed for any reason. When emailing a workbook, we often use our email client's (such as Gmail, Yahoo, Outlook, etc.) web application via a browser. We first fill in the recipient's email address, type the subject, create an email body, attach a workbook using the file explorer, and then send it. It is the traditional way of sending a workbook over email. However, there are some other methods that can be even more helpful and save time when emailing a workbook.  In this article, we discuss some alternate methods to send our current workbook to specific persons quickly. We discuss step-by-step tutorials on each particular method that will help us understand the entire process easier. How to email a workbook through Excel? Excel has a wide range of built-in features. The best part of using Excel features is that we can use almost every feature in multiple ways. Likewise, it provides several ways to email a workbook or sends a workbook as an attachment. Following are some quick and easy methods to send the desired workbook over email: 
+            
+            Email a Workbook from within the Excel using Save & Send 
+            Email a Workbook from within the Excel using the VBA Code 
+            Email a Workbook using the shortcut from Quick Access Toolbar 
+            Before using any of the above methods, we need to configure an email client on our device and set it as a default email client. Throughout this article, we use Outlook, an email client by Microsoft, found in Windows devices by default. Let us now discuss each method in detail: Method 1: Email a Workbook from within the Excel using Save & Send The Save & Send command in Excel is the common method to email a workbook from within Excel. Excel allows us to quickly send the entire workbook as an attachment, PDF, XPS, or a Fax using the default email client. We need to perform the following steps to email a workbook using the Save & Send command in Excel: 
+            
+            First, we need to open a workbook that we wish to email to someone. 
+             Next, we need to click the File tab, select the option 'Save & Send'.  It will further display other sharing options. We need to click the option 'Send Using E-mail', as shown in the image below:  The above image is taken from Excel 2010. For Excel 2007, we must click the Office button and then the Send button.  In Excel 2013 and above versions, we need to go to File > Share > Email.   
+             In the next window, we will get the relevant options, as displayed in the following image: Since we want to email a workbook to other people, we need to select the block that says 'Send as Attachment'.   
+             After completing the previous step, Excel will launch an Outlook window. Using the Outlook window, we can specify recipients' names into the boxes next to the texts 'To' and 'Cc'. Also, we can enter any desired subject, type some message in the introduction box. The workbook will be automatically attached to it.   
+            After putting all the required details, we must click the Send button to email an attached workbook and the message to selected recipients. 
+            In this way, we can email a current workbook without leaving MS Excel. Method 2: Email a Workbook from within Excel using the VBA Code VBA is one of the powerful elements of Excel. It allows us to use various advanced tools and options using the coding within Excel. In this way, we can use some specific code to send the current workbook as an attachment We need to perform the following steps to send a current workbook through Outlook as an attachment using the VBA code within Excel: 
+            
+            First, we need to open a workbook that we want to email. 
+            Next, we need to open the Microsoft Visual Basic editor to insert the code to run. For this, we need to use the keyboard shortcut Alt + F11. After pressing the shortcut keys, we will get the VBA for the applications window, as shown below: 
+             We need to click the Insert tab in the VBA for the applications window and select the 'Module' option.   
+            After completing the previous step, we will get the VBA editor window where we must paste the following code: 
+            
+           
+            
+Sub SendWorkBook()
+'Update 20131209
+Dim OutlookApp As Object
+Dim OutlookMail As Object
+Set OutlookApp = CreateObject("Outlook.Application")
+Set OutlookMail = OutlookApp.CreateItem(0)
+On Error Resume Next
+              With OutlookMail
+    .To = "example@email.com"
+    .CC = ""
+    .BCC = ""
+    .Subject = "Excel Workbook"
+    .Body = "Please acknowledge after receiving the workbook"
+    .Attachments.Add Application.ActiveWorkbook.FullName
+    .Send
+End With
+Set OutlookMail = Nothing
+Set OutlookApp = Nothing
+End Sub
+
+            The above code will look like the following image:  In the above code, we can change the following lines accordingly. .To = "[email protected]" .CC = "" .BCC = "" .Subject = "Excel Workbook" .Body = "Please acknowledge after receiving the workbook" 
+            
+             After copying and modifying the code, we need to run this code to email a current workbook. We must press the F5 key on the keyboard, which will instantly run the code we copied within the editor. As soon as we run the code, Outlook will again ask for confirmation. We must click the Allow button to email a current workbook to a recipient specified within the code.   
+            In this way, we can email a current workbook using the VBA code without leaving MS Excel. Method 3: Email a Workbook using the shortcut from Quick Access Toolbar The Quick Access Toolbar (QAT) is one of the useful features of Excel. It can be used to add desired Excel features, and whenever required, they can be used in the quickest possible ways. Therefore, we can add a shortcut on QAT to send the current workbook to the desired recipient in just a few clicks. We only need to add the shortcut once, which can be used immediately as many times as needed without adding the shortcut again and again. To add a shortcut on QAT to email a workbook, we need to use the following steps: 
+            
+             First, we need to press a right-click button on any tab within the Excel window and click the 'Customize Quick Access Toolbar' option.   
+             We need to select the 'All Command' option under the 'Choose Command from' drop-down in the next window.   
+             We need to locate the option named 'Send to Mail Recipient', as shown below:   
+             By selecting the option 'Send to Mail Recipient', we need to click the Add button. Once the option is added to the right-hand side box, we must click the OK button to apply the preferences.   
+             After following the previous steps, we will get a new shortcut on our quick access toolbar. It will look like this:   
+            The above shortcut mainly helps to perform the following tasks in Excel: 
+            
+            Send a part of the worksheet in the Email body. 
+            Send a single Excel worksheet as the Email attachment. 
+            Send the entire workbook as an email attachment. 
+            Once the shortcut has been added to QAT, the main part of the method (emailing a workbook) comes to the action. Let us now understand how we can send an entire workbook using the shortcut we added: 
+            
+            First, we need to open a specific workbook that we want to email. 
+             Next, we must click the shortcut 'Send to Mail Recipient' from the quick access toolbar.   
+             In the next window that opens, we must select the radio button associated with an option 'Send the entire workbook as an attachment'. We need to click the OK button after selecting the corresponding radio button.  We can select the other option in the above image when sending any specific sheet or some specific part of the sheet from the workbook.  
+             After completing the previous step, Excel will create a new blank message within the default email client (Outlook in our case) and attach the current workbook to it. It will look like this:  In the above image, we need to specify the email address of the recipient/recipients to whom we wish to email a corresponding workbook.  
+             Once all the details are filled in, we must click the Send button to email a workbook to selected recipients.   
+            It is important to note that the 'Send' button will be displayed only after configuring the default email client on our device. In this way, we can email a current workbook using the shortcut from the QAT without leaving MS Excel. Important Things to Remember 
+            
+            An email client must be configured within the device to send the current workbook directly from Excel. 
+            Internet connection is required to email a workbook to the desired recipients. 
+            It is recommended to always double-verify the recipient's address before sending the workbook over email. In this way, we can eliminate the possibility of our important data reaching unwanted hands. 
+            After a workbook is sent through the Outlook window, it closes automatically. Therefore, it is recommended to go into Outlook and check the sent messages to ensure that the email has been sent successfully. 
+            
+            
+            
+            Next Topic
+            Share Workbook 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

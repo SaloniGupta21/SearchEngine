@@ -1,0 +1,975 @@
+
+
+ 
+  
+  Sort Dates in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Sort Dates in Java The sort() method that is a part of Comparator mechanism of Collection class that sorts the data in decreasing order. If we want to achieve the aim in generic while considering the boundary condition where the objects to be sorted are user-defined, we can use Comparator interface. Both ways are discussed below, where the user-defined type is also used to generate the object. There are several ways in Java for sorting things in an ArrayList by date. It can be accomplished either by using the Comparable<> interface or the Collections.sort() method; we can use any of the following ways. 
+            
+            Comparator interface 
+            sort() method 
+            1. Comparator interface Java Programs to sort elements of ArrayList by Date using Comparator interface. SortDate1.java 
+           
+            
+import java.util.*;
+class DateI
+{
+	String date; 
+	/* Constructor */
+	DateI(String date)
+	{
+		/* This keyword is used to refer current object */
+		this.date = date;
+	}
+}
+class sortCompare implements Comparator<DateI> 
+{
+	// Method of this class
+	@Override
+	public int compare(DateI a, DateI b)
+	{
+		/* Returns sorted data in ascending order */
+		return a.date.compareTo(b.date);
+	}
+}
+public class SortDate1 
+{
+	/* Driver Code */
+	public static void main(String args[])
+	{
+		ArrayList<DateI> dates = new ArrayList<>();
+		/* Adding data to the ArrayList */
+		dates.add(new DateI("2021-05-14"));
+		dates.add(new DateI("2019-06-24"));
+		dates.add(new DateI("1998-02-20"));
+		dates.add(new DateI("1999-04-26"));
+		/* Sort the ArrayList with Collections.sort() method */
+		Collections.sort(dates, new sortCompare());
+		System.out.println("Dates sorted in Ascending Order");
+		for (DateI d : dates) 
+		{
+			System.out.println(d.date);
+		}
+	}
+}
+
+            Output: 
+           
+            Dates sorted in Ascending Order
+1998-02-20
+1999-04-26
+2019-06-24
+2021-05-14
+
+            Let's see another example. SortDate2.java 
+           
+            
+import java.util.*;
+class DateI 
+{
+	String date;
+	/* Constructor */
+	DateI(String date)
+	{
+        /* This keyword is used to refer current object */
+		this.date = date;
+	}
+}
+class sortCompare implements Comparator<DateI> 
+{
+	@Override
+	// Method of this class
+	public int compare(DateI a, DateI b)
+	{
+		/* Returns sorted data in Descending order */
+		return b.date.compareTo(a.date);
+	}
+}
+public class SortDate2 {
+	/* Driver Code */
+	public static void main(String args[])
+	{
+		ArrayList<DateI> dates = new ArrayList<>();
+		/* Adding data to the ArrayList */
+		dates.add(new DateI("2021-05-14"));
+		dates.add(new DateI("2019-06-24"));
+		dates.add(new DateI("1998-02-20"));
+		dates.add(new DateI("1999-04-26"));
+        /* Sort the ArrayList with Collections.sort() method */
+		Collections.sort(dates, new sortCompare());
+		System.out.println("Dates sorted in Descending Order");
+    
+		for (DateI d : dates) 
+		{
+			System.out.println(d.date);
+		}
+	}
+}
+
+            Output: 
+           
+            Dates sorted in Descending Order
+2021-05-14
+2019-06-24
+1999-04-26
+1998-02-20
+
+            2. sort() method Java Programs to sort elements of ArrayList by Date using Collections.sort() method SortDate3.java 
+           
+            
+import java.util.*;
+public class SortDate3 
+{
+	/* Driver Code */
+	public static void main(String[] args)
+	{
+		/* Creating an ArrayList of String to store the Dates */
+		ArrayList<String> datesList = new ArrayList<>();
+		/* Adding date to ArrayList using standard add() method */
+		datesList.add("2020-03-25");
+		datesList.add("2019-01-27");
+		datesList.add("2020-03-26");
+		datesList.add("2020-02-26");
+		// Display message only
+		System.out.println(
+			"Dates Object before sorting : ");
+		/* Iterating in the ArrayList using for each loop */
+		for (String dates : datesList) {
+			// Printing the data from the list
+			System.out.println(dates);
+		}
+		/* Sorting the ArrayList using Collections.sort() method */
+		Collections.sort(datesList);
+		// Display message only
+		System.out.println("Dates Object after sorting : ");
+		/* Iterating in the ArrayList using for-each loop */
+		for(String dates : datesList) {
+			/* Printing the data from the list */
+			System.out.println(dates);
+		}
+	}
+}
+
+            Output: 
+           
+            Dates Object before sorting: 
+2020-03-25
+2019-01-27
+2020-03-26
+2020-02-26
+Dates Object after sorting: 
+2019-01-27
+2020-02-26
+2020-03-25
+2020-03-26
+
+            SortDate4.java 
+           
+            
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+ 
+public class SortDate4
+{
+/* Driver Code */
+public static void main(String[] args) 
+{
+//java 8
+sortDateTimeObject();
+sortDateTimeText();
+}
+ 
+private static void sortDateTimeObject() {
+List<LocalDateTime>dateTimeList=new ArrayList<LocalDateTime>();
+dateTimeList.add(LocalDateTime.of(2012, 05, 12, 5, 16));
+dateTimeList.add(LocalDateTime.of(2014, 03, 23, 11, 26));
+dateTimeList.add(LocalDateTime.of(2011, 02, 13, 9, 36));
+dateTimeList.add(LocalDateTime.of(2013, 11, 12, 5, 16));
+dateTimeList.add(LocalDateTime.of(2017, 8, 11, 21, 26));
+dateTimeList.add(LocalDateTime.of(2016, 9, 05, 19, 36));
+ 
+DateTimeFormatter dateTimeFormatter = DateTimeFormatter
+                .ofPattern("MM/dd/yyyy '@'hh:mm a");
+System.out.println("---> Date & Time Object List Before Sort (MM/dd/yyyy '@'hh:mm a)");
+for(LocalDateTime dateTime:dateTimeList)
+{
+System.out.println(dateTime.format(dateTimeFormatter));
+}
+// LocalDateTime  internally having Comparable interface no need additional Comparator
+Collections.sort(dateTimeList);
+ 
+System.out.println("---> Date & Time Object List After Sort (MM/dd/yyyy '@'hh:mm a)");
+for(LocalDateTime dateTime:dateTimeList)
+{
+System.out.println(dateTime.format(dateTimeFormatter));
+}
+ 
+}
+ 
+private static void sortDateTimeText()
+{
+List<String>dateStrList=new ArrayList<String>();
+// MM/dd/yyyy '@'hh:mm a
+dateStrList.add("01/21/2014 @03:13 PM");
+dateStrList.add("01/21/2011 @04:37 PM");
+dateStrList.add("01/21/2012 @10:41 AM");
+dateStrList.add("01/21/2013 @10:48 AM");
+dateStrList.add("01/22/2015 @06:16 AM");
+dateStrList.add("01/22/2013 @06:19 AM");
+dateStrList.add("01/21/2018 @05:19 PM");
+dateStrList.add("01/21/2013 @05:19 PM");
+ 
+System.out.println("---> Date & Time List Before Sort (MM/dd/yyyy '@'hh:mm a)");
+for(String dateStr:dateStrList)
+System.out.println(dateStr);
+ 
+//Sort String Date
+Collections.sort(dateStrList, new Comparator<String>() {
+DateFormat f = new SimpleDateFormat("MM/dd/yyyy '@'hh:mm a");
+@Override
+public int compare(String o1, String o2) {
+try {
+  return f.parse(o1).compareTo(f.parse(o2));
+    } catch (ParseException e) {
+      throw new IllegalArgumentException(e);
+    }
+}
+});
+ 
+System.out.println("---> Date & Time List After Sort (MM/dd/yyyy '@'hh:mm a)");
+for(String dateStr:dateStrList)
+System.out.println(dateStr);
+ }
+}
+
+            Output: 
+           
+            ---> Date & Time Object List Before Sort (MM/dd/yyyy '@'hh:mm a)
+05/12/2012 @05:16 AM
+03/23/2014 @11:26 AM
+02/13/2011 @09:36 AM
+11/12/2013 @05:16 AM
+08/11/2017 @09:26 PM
+09/05/2016 @07:36 PM
+---> Date & Time Object List After Sort (MM/dd/yyyy '@'hh:mm a)
+02/13/2011 @09:36 AM
+05/12/2012 @05:16 AM
+11/12/2013 @05:16 AM
+03/23/2014 @11:26 AM
+09/05/2016 @07:36 PM
+08/11/2017 @09:26 PM
+---> Date & Time List Before Sort (MM/dd/yyyy '@'hh:mm a)
+01/21/2014 @03:13 PM
+01/21/2011 @04:37 PM
+01/21/2012 @10:41 AM
+01/21/2013 @10:48 AM
+01/22/2015 @06:16 AM
+01/22/2013 @06:19 AM
+01/21/2018 @05:19 PM
+01/21/2013 @05:19 PM
+---> Date & Time List After Sort (MM/dd/yyyy '@'hh:mm a)
+01/21/2011 @04:37 PM
+01/21/2012 @10:41 AM
+01/21/2013 @10:48 AM
+01/21/2013 @05:19 PM
+01/22/2013 @06:19 AM
+01/21/2014 @03:13 PM
+01/22/2015 @06:16 AM
+01/21/2018 @05:19 PM
+
+            
+            
+            
+            Next Topic
+            Carmichael Numbers in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,1251 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>GDB Tutorial - Javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="GDB Tutorial - Javatpoint">
+  <meta property="og:description" content="GDB Tutorial with What is GDB, Installation of GDB, GDB Commands, GDB Debugger, GDB Example, GDB Ada, C, Go, C++, Rust, Pascal, Opencl, CLI Command etc."> 
+  <meta name="keywords" content="gdb, gdb tutorial, what is gdb, installation of gdb, gdb commands, gdb debugger, gdb example, gdb ada, c, go, cpp, rust, pascal, opencl, cli command">
+  <meta name="description" content="GDB Tutorial with What is GDB, Installation of GDB, GDB Commands, GDB Debugger, GDB Example, GDB Ada, C, Go, C++, Rust, Pascal, Opencl, CLI Command etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/gdb"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="GDB Tutorial - Javatpoint">
+  <meta name="twitter:description" property="og:description" content="GDB Tutorial with What is GDB, Installation of GDB, GDB Commands, GDB Debugger, GDB Example, GDB Ada, C, Go, C++, Rust, Pascal, Opencl, CLI Command etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/gdb">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="gdb" class="selected">GDB</a></li> 
+       <li><a href="cpp-tutorial">C++</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="bootstrap-tutorial">Bootstrap</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="xhtml-tutorial">XHTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="jquery-tutorial">jQuery</a></li> 
+       <li><a href="xml-tutorial">XML</a></li> 
+       <li><a href="json-tutorial">JSON</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">GDB Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="gdb">GDB Tutorial</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> <h1 class="h1">GDB Tutorial</h1> <img src="https://static.javatpoint.com/tutorial/gdb/images/gdb-tutorial.png" class="imageright" alt="GDB Tutorial"> <h2 class="h2">What is GDB?</h2> <p><strong>GDB</strong> stands for <strong>GNU Debugger</strong>. It is a powerful tool for debugging the programs of various programming languages like C, Fortran, Go, C++, etc. It runs on the Unix-like operating systems. This concept was written in 1986 by <strong>Richard Stallman</strong>. It is actually a free software, which is released under the GNU GPL. This debugger is written in a C language.</p> <p>Following are the various languages supported by the GDB:</p> 
+           <ul class="points"> 
+            <li>Ada</li> 
+            <li>Assembly</li> 
+            <li>C</li> 
+            <li>Fortran</li> 
+            <li>Go</li> 
+            <li>OpenCL</li> 
+            <li>Modula-2</li> 
+            <li>C++</li> 
+            <li>D</li> 
+            <li>Pascal</li> 
+            <li>Rust</li> 
+           </ul> <p>GDB uses the simple CLI (Command Line Interface), so that users or programmers can understand it easily. It allows users to inspect what the program or code is doing at a specific point during its execution.</p> <p>It also enables the users/programmers to stop a program at a certain point and print the value of a specific variable at that point. It also operates on the binary files produced by the process of compilation.</p> <h2 class="h2">Installation of GDB</h2> <p>Firstly, we have to check that the GNU debugger is already installed on a Unix or Linux operating system or not. For this, we have to run the following command in the terminal:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+gdb -help
+</textarea>
+           </div> <p>If GDB is already installed, then the above command will show the options which are available with GDB. If this tool is not installed, then we have to install the GDB on our system.</p> <p>We can easily install the GDB on our Linux machine using the following two different ways or process:</p> <p><strong>1. Using the pre-built gdb binaries:</strong></p> <p>In this process, we have to run the following two commands on our ubuntu terminal. The following first command is used to update the dependencies:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+sudo apt-get update
+</textarea>
+           </div> <p>After the successful execution of above command, run the following command which installs the GDB:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+sudo apt-get install gdb
+</textarea>
+           </div> <p><strong>2. Using the compilation process of the downloaded source code</strong></p> <p>In this process, we have to follow the given steps for downloading the GDB:</p> <p>1. In this step, we have to download the source code by using the <a href="https://ftp.gnu.org/gnu/gdb/" rel="nofollow" target="_blank">http://ftp.gnu.org/gnu/gdb/</a> site in the command.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+wget "http://ftp.gnu.org/gnu/gdb/gdb-7.11.tar.gz
+</textarea>
+           </div> <p>2. Now, we have to extract the downloaded source code:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+tar -xvzf gdb-7.11.tar.gz
+</textarea>
+           </div> <p>3. After extracting, we have to configure and compile the source code by running the following three commands one by one:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+cd gdb-7.11
+gdb-7.11$ ./configure
+gdb-7.11$ make
+</textarea>
+           </div> <p>4. After the completion of the above commands. Now, we have to install the GDB using the command which is given below:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+make install
+</textarea>
+           </div> <p>The above command installs the binaries of a GDB <strong>/usr/local/bin</strong> and libraries of GDB in <strong>/usr/local/lib</strong> by default.</p> <p>After the successful execution of the above command, we have successfully compiled and installed the GNU Debugger in our Linux system.</p> <p>After this, we can easily see the version of GDB by typing the following command and verify that it is successfully installed or not:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+gdb --version
+</textarea>
+           </div> <h2 class="h2">GDB Commands</h2> <p>GDB is a command-line tool. So, we have to learn about the commands of GDB before learn about how to use the GDB.</p> <p>GDB provides the various commands, which helps users for debugging the code or programs. The following table shows the list of command with their description:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>S. No.</th> 
+              <th>Name of a Command</th> 
+              <th>Description</th> 
+             </tr> 
+             <tr> 
+              <td>1.</td> 
+              <td><strong>Attach</strong></td> 
+              <td>This command attaches the GNU Debugger with the process which is running.</td> 
+             </tr> 
+             <tr> 
+              <td>2.</td> 
+              <td><strong>backtrace</strong></td> 
+              <td>This command displays the call stack for the thread which is selected currently.</td> 
+             </tr> 
+             <tr> 
+              <td>3.</td> 
+              <td><strong>backtrace full</strong></td> 
+              <td>This command displays the value of local variables.</td> 
+             </tr> 
+             <tr> 
+              <td>4.</td> 
+              <td><strong>b fun</strong></td> 
+              <td>This command sets a breakpoint at the starting of function.</td> 
+             </tr> 
+             <tr> 
+              <td>5.</td> 
+              <td><strong>b N</strong></td> 
+              <td>This command sets a breakpoint at Nth line number of a file which is executing currently.</td> 
+             </tr> 
+             <tr> 
+              <td>6.</td> 
+              <td><strong>b main</strong></td> 
+              <td>This command sets a breakpoint at the starting of a program.</td> 
+             </tr> 
+             <tr> 
+              <td>7.</td> 
+              <td><strong>b</strong></td> 
+              <td>This command sets a breakpoint at the current line of a file which is executing.</td> 
+             </tr> 
+             <tr> 
+              <td>8.</td> 
+              <td><strong>b +N</strong></td> 
+              <td>This command sets a breakpoint after the N lines from the current line of a file.</td> 
+             </tr> 
+             <tr> 
+              <td>9.</td> 
+              <td><strong>Bt</strong></td> 
+              <td>This command displays the stack trace.</td> 
+             </tr> 
+             <tr> 
+              <td>10.</td> 
+              <td><strong>C</strong></td> 
+              <td>This 'command' allows the GDB to run the program till the next breakpoint or error.</td> 
+             </tr> 
+             <tr> 
+              <td>11.</td> 
+              <td><strong>Clear</strong></td> 
+              <td>This command deletes the breakpoint at a particular location.</td> 
+             </tr> 
+             <tr> 
+              <td>12.</td> 
+              <td><strong>checkpoint</strong></td> 
+              <td>This command helps in creating a new checkpoint.</td> 
+             </tr> 
+             <tr> 
+              <td>13.</td> 
+              <td><strong>d</strong></td> 
+              <td>This command deletes or removes all the breakpoint from the program. This command is different from clear command.</td> 
+             </tr> 
+             <tr> 
+              <td>14.</td> 
+              <td><strong>d N</strong></td> 
+              <td>This command deletes/removes the breakpoint at Nth line number.</td> 
+             </tr> 
+             <tr> 
+              <td>15.</td> 
+              <td><strong>d 1 2</strong></td> 
+              <td>This command deletes or removes the breakpoint 1, and 2 from the program.</td> 
+             </tr> 
+             <tr> 
+              <td>16.</td> 
+              <td><strong>delete checkpoint</strong></td> 
+              <td>This command deletes or removes the checkpoint which is created previously.</td> 
+             </tr> 
+             <tr> 
+              <td>17.</td> 
+              <td><strong>detach</strong></td> 
+              <td>This command detaches the GNU Debugger from the process.</td> 
+             </tr> 
+             <tr> 
+              <td>18.</td> 
+              <td><strong>disable</strong></td> 
+              <td>This command disables all the breakpoints or particular breakpoints of a program.</td> 
+             </tr> 
+             <tr> 
+              <td>19.</td> 
+              <td><strong>down</strong></td> 
+              <td>This command only selects the frame which is one level down.</td> 
+             </tr> 
+             <tr> 
+              <td>20.</td> 
+              <td><strong>down N</strong></td> 
+              <td>This command selects those frame or frames which are N level down.</td> 
+             </tr> 
+             <tr> 
+              <td>21.</td> 
+              <td><strong>enable</strong></td> 
+              <td>This command enables all the breakpoints or particular breakpoints of a program.</td> 
+             </tr> 
+             <tr> 
+              <td>22.</td> 
+              <td><strong>enable once</strong></td> 
+              <td>This command enables the breakpoint and after the first hit, it is disabled automatically.</td> 
+             </tr> 
+             <tr> 
+              <td>23.</td> 
+              <td><strong>enable delete</strong></td> 
+              <td>This command enables the breakpoint and after the first hit, it is deleted automatically.</td> 
+             </tr> 
+             <tr> 
+              <td>24.</td> 
+              <td><strong>finish</strong></td> 
+              <td>This command continues the execution to the end of the function.</td> 
+             </tr> 
+             <tr> 
+              <td>25.</td> 
+              <td><strong>frame</strong></td> 
+              <td>This command selects the stack frame. It also displays the stack frame which is selected currently.</td> 
+             </tr> 
+             <tr> 
+              <td>26.</td> 
+              <td><strong>gdb</strong></td> 
+              <td>This command starts the GNU debugger. It starts with no files of debugging.</td> 
+             </tr> 
+             <tr> 
+              <td>27.</td> 
+              <td><strong>gdb --help</strong></td> 
+              <td>This command describes the various options of a command line.</td> 
+             </tr> 
+             <tr> 
+              <td>28.</td> 
+              <td><strong>gdb --version</strong></td> 
+              <td>This command prints the version of GDB and some information about GDB.</td> 
+             </tr> 
+             <tr> 
+              <td>29.</td> 
+              <td><strong>help</strong></td> 
+              <td>This command displays the list of classes of commands.</td> 
+             </tr> 
+             <tr> 
+              <td>30.</td> 
+              <td><strong>help</strong> &lt;cmd&gt;</td> 
+              <td>This command describes the command about how to use it.</td> 
+             </tr> 
+             <tr> 
+              <td>31.</td> 
+              <td><strong>i</strong></td> 
+              <td>This command provides the list of all the info command.</td> 
+             </tr> 
+             <tr> 
+              <td>32.</td> 
+              <td><strong>info address</strong></td> 
+              <td>This command displays the address of a specified symbol.</td> 
+             </tr> 
+             <tr> 
+              <td>33.</td> 
+              <td><strong>info b</strong></td> 
+              <td>This command displays the list of all the breakpoints.</td> 
+             </tr> 
+             <tr> 
+              <td>34.</td> 
+              <td><strong>info breakpoints</strong></td> 
+              <td>This command displays the information about breakpoints.</td> 
+             </tr> 
+             <tr> 
+              <td>35.</td> 
+              <td><strong>info checkpoints</strong></td> 
+              <td>This command provides the list of checkpoints which are created.</td> 
+             </tr> 
+             <tr> 
+              <td>36.</td> 
+              <td><strong>info functions</strong></td> 
+              <td>This command shows the list of function of the program.</td> 
+             </tr> 
+             <tr> 
+              <td>37.</td> 
+              <td><strong>info registers</strong></td> 
+              <td>This command displays the content/list of registers which are in use.</td> 
+             </tr> 
+             <tr> 
+              <td>38.</td> 
+              <td><strong>info watch</strong></td> 
+              <td>This command displays the defined watchpoints.</td> 
+             </tr> 
+             <tr> 
+              <td>39.</td> 
+              <td><strong>info source</strong></td> 
+              <td>This command displays the information of a file which is used currently.</td> 
+             </tr> 
+             <tr> 
+              <td>40.</td> 
+              <td><strong>Info sources</strong></td> 
+              <td>This command provides the list of all source files which are in use.</td> 
+             </tr> 
+             <tr> 
+              <td>41.</td> 
+              <td><strong>info symbol</strong></td> 
+              <td>This command prints the symbol name which resides at the particular address.</td> 
+             </tr> 
+             <tr> 
+              <td>42.</td> 
+              <td><strong>Info lines</strong></td> 
+              <td>This command shows the starting and ending addresses of the specified source line in a code.</td> 
+             </tr> 
+             <tr> 
+              <td>43.</td> 
+              <td><strong>info args</strong></td> 
+              <td>This command shows the argument values of the function of the frame which is used currently.</td> 
+             </tr> 
+             <tr> 
+              <td>44.</td> 
+              <td><strong>info locals</strong></td> 
+              <td>This command shows the information about the local variables.</td> 
+             </tr> 
+             <tr> 
+              <td>45.</td> 
+              <td><strong>info frame</strong></td> 
+              <td>This command shows the advanced information about the stack frame.</td> 
+             </tr> 
+             <tr> 
+              <td>46.</td> 
+              <td><strong>info break</strong> &lt;breakpoint-number&gt;</td> 
+              <td>This command prints the information about the particular breakpoint.</td> 
+             </tr> 
+             <tr> 
+              <td>47.</td> 
+              <td><strong>info vector</strong></td> 
+              <td>This command shows the information of the vector registers.</td> 
+             </tr> 
+             <tr> 
+              <td>48.</td> 
+              <td><strong>info variables</strong></td> 
+              <td>This command shows the list of static or global variables which are present in the debugged program or code.</td> 
+             </tr> 
+             <tr> 
+              <td>49.</td> 
+              <td><strong>kill</strong></td> 
+              <td>This command stops the execution of the program.</td> 
+             </tr> 
+             <tr> 
+              <td>50.</td> 
+              <td><strong>print</strong></td> 
+              <td>This command displays the value of a specified expression.</td> 
+             </tr> 
+             <tr> 
+              <td>51.</td> 
+              <td><strong>p var</strong></td> 
+              <td>This command prints or displays the value of variable 'var' which is used currently.</td> 
+             </tr> 
+             <tr> 
+              <td>52.</td> 
+              <td><strong>p/x variable</strong></td> 
+              <td>This command prints the value of an integer variable in the hexadecimal format.</td> 
+             </tr> 
+             <tr> 
+              <td>53.</td> 
+              <td><strong>p/d variable</strong></td> 
+              <td>This command prints the value of the variable as a signed integer.</td> 
+             </tr> 
+             <tr> 
+              <td>54.</td> 
+              <td><strong>p/o variable</strong></td> 
+              <td>This command prints the value of an integer variable in the octal format.</td> 
+             </tr> 
+             <tr> 
+              <td>55.</td> 
+              <td><strong>p/a variable</strong></td> 
+              <td>This command prints the value of a variable as a hex address.</td> 
+             </tr> 
+             <tr> 
+              <td>56.</td> 
+              <td><strong>q</strong> or <strong>quit</strong></td> 
+              <td>This command exits the GNU debugger.</td> 
+             </tr> 
+             <tr> 
+              <td>57.</td> 
+              <td><strong>run</strong> or <strong>r</strong></td> 
+              <td>This command runs the program from the beginning to the end or to the next breakpoint.</td> 
+             </tr> 
+             <tr> 
+              <td>58.</td> 
+              <td><strong>s</strong></td> 
+              <td>This command executes the next line or statement of a program.</td> 
+             </tr> 
+             <tr> 
+              <td>59.</td> 
+              <td><strong>s N</strong></td> 
+              <td>This command executes the next Nth line or statement of a program.</td> 
+             </tr> 
+             <tr> 
+              <td>60.</td> 
+              <td><strong>select-frame</strong></td> 
+              <td>This command is used to select a stack frame.</td> 
+             </tr> 
+             <tr> 
+              <td>61.</td> 
+              <td><strong>show args</strong></td> 
+              <td>This command displays the list of arguments.</td> 
+             </tr> 
+             <tr> 
+              <td>62.</td> 
+              <td><strong>set args</strong></td> 
+              <td>This command specifies the list of argument list which is empty.</td> 
+             </tr> 
+             <tr> 
+              <td>63.</td> 
+              <td><strong>set</strong> var = v</td> 
+              <td>This command assigns the value 'v' to the variable 'var'.</td> 
+             </tr> 
+             <tr> 
+              <td>64.</td> 
+              <td><strong>set args</strong> arglist</td> 
+              <td>This command specifies the default arguments for the debugged program.</td> 
+             </tr> 
+             <tr> 
+              <td>65.</td> 
+              <td><strong>show env</strong></td> 
+              <td>This command displays all the environment variables.</td> 
+             </tr> 
+             <tr> 
+              <td>66.</td> 
+              <td><strong>show env '</strong>var'</td> 
+              <td>This command displays the value of 'var', which is an environment variable.</td> 
+             </tr> 
+             <tr> 
+              <td>67.</td> 
+              <td><strong>step</strong></td> 
+              <td>This command executes the next line of the code.</td> 
+             </tr> 
+             <tr> 
+              <td>68.</td> 
+              <td><strong>step N</strong></td> 
+              <td>This command executes the next Nth line of a code.</td> 
+             </tr> 
+             <tr> 
+              <td>69.</td> 
+              <td><strong>tbreak</strong></td> 
+              <td>This command is similar to the break command, but it is a temporary breakpoint. The breakpoint will be automatically deleted after the one hit.</td> 
+             </tr> 
+             <tr> 
+              <td>70.</td> 
+              <td><strong>up</strong></td> 
+              <td>This command only selects the frame which is one level up.</td> 
+             </tr> 
+             <tr> 
+              <td>71.</td> 
+              <td><strong>up N</strong></td> 
+              <td>This command selects those frame or frames which are N level up.</td> 
+             </tr> 
+             <tr> 
+              <td>72.</td> 
+              <td><strong>undisplay</strong></td> 
+              <td>This command removes the automatically displayed expression, which is set by the <strong>display</strong> command.</td> 
+             </tr> 
+             <tr> 
+              <td>73.</td> 
+              <td><strong>unset env</strong> var</td> 
+              <td>This command removes the variable 'var' from the environment.</td> 
+             </tr> 
+             <tr> 
+              <td>74.</td> 
+              <td><strong>where</strong></td> 
+              <td>This command displays the number of a current line and the function in which you are.</td> 
+             </tr> 
+             <tr> 
+              <td>75.</td> 
+              <td><strong>x</strong> Address Expr</td> 
+              <td>This command displays the information of memory at an address which is given in command.</td> 
+             </tr> 
+            </tbody>
+           </table> <h2 class="h2">How to Use GNU Debugger</h2> <p>Till now, we have studied what is GDB and what are its commands, now we have to learn about the example and how to use it.</p> <p>In this section, we learn how to debug a program using the GNU debugger.</p> <p>Now, we have to follow the steps on how to run a program with GDB:</p> <p><strong>Step 1:</strong> Firstly, we have to create a program of C or C++ in the text editor. So, we create the following code for finding a factorial of a number. And, we save this code with the <strong>.c</strong> extension.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+# include &lt;stdio.h&gt;
+int main()
+{
+      int i, number, j; //Declare three variables
+      printf ("Enter the number: "); 
+      scanf ("%d", &amp;number );   // Enter the Number whose factorial to be calculate
+     for (i=number; i&gt;0; i--)  // This loop executes (number-0) times.         
+     {
+	j=j*i;    
+      }
+      printf("The factorial of %d is %d\n",number,j);
+}
+</textarea>
+           </div> <p><strong>Step 2:</strong> Now, we have to compile and build the above <strong>program.c</strong> in terminal with the help of debugging symbols.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+gcc -g program.c
+</textarea>
+           </div> <p>In the above command, we use the <strong>-g</strong> option, which is used for compiling the program in debugging mode.</p> <p><strong>Step 3:</strong> Now, we have to run the program with the GDB, so type the following command in the terminal after the above command:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+gdb a.out
+</textarea>
+           </div> <p>The above command gives the following console of GDB of the current program. </p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+GNU gdb (Ubuntu 8.1-0ubuntu3.2) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+&lt;http://www.gnu.org/software/gdb/bugs/&gt;.
+Find the GDB manual and other documentation resources online at:
+&lt;http://www.gnu.org/software/gdb/documentation/&gt;.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) 
+</textarea>
+           </div> <p>In this console, we have to use the GDB commands for analyzing, and debugging the program.</p> <p><strong>Step 4:</strong> And, at last after debugging, exit the GDB by typing the <strong>quit</strong> or <strong>q</strong> command on the prompt of GDB.</p> <h2 class="h2">GDB Example</h2> <p>In this section, we will learn about how to use the commands of GDB with the example of the C programming language:</p> <p>This example finds the factorial of a given number. In this program, there is an error for the debugging purpose.</p> 
+           <div class="codeblock">
+            <textarea name="code" class="Cpp">
+# include &lt;stdio.h&gt;
+int main()
+{
+      int i, number, j; //Declare three variables
+      printf ("Enter the number: "); 
+      scanf ("%d", &amp;number );   // Enter the Number whose factorial to be calculate
+     for (i=number; i&gt;0; i--)  // This loop executes (number-0) times.         
+     {
+	j=j*i;    
+      }
+      printf("The factorial of %d is %d\n",number,j);
+}
+</textarea>
+           </div> <p>Now, check the output of the program by typing the following two commands in the terminal. The first command is for compiling the program:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+gcc program.c
+</textarea>
+           </div> <p>And, the second command is to run the program:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+./a.out
+</textarea>
+           </div> <p>After typing the above command, we will see the following output:</p> 
+           <div class="codeblock3">
+            <pre>Enter the number: 6
+The factorial of 6 is 23592240
+</pre>
+           </div> <p>In this output, the factorial of 6 is wrong, so we have to again compile the above program for debugging by using the <strong>-g</strong> option in the command:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+gcc -g program.c
+</textarea>
+           </div> <p>Now, launch the GDB debugger for debugging the problem by typing the following command. In this command, a.out is a file which is produced after the compilation.</p> <p>The above command gives the following console, which allows us to run the commands of GDB for debugging:</p> <img src="https://static.javatpoint.com/tutorial/gdb/images/gdb-example.png" alt="GDB Tutorial"> <p>Now, we use the following steps to debug the above program:</p> <p><strong>Step 1:</strong> Firstly, we have to set a breakpoint in this factorial program by using the following syntax:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+break line number
+</textarea>
+           </div> <p>After placing the breakpoint in c program, the debugger will stop at it, and gives us a prompt for debugging. So, before executing the program from starting, we have to place the given breakpoint in the program:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+break 10
+</textarea>
+           </div> <p>This command gives the following statement:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Breakpoint 1 at 0x776: file program.c, line 10.
+</textarea>
+           </div> <p><strong>Step 2:</strong> Now, we have to execute the c program from starting in gdb debugger by using the following syntax:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+run &lt;args&gt;
+</textarea>
+           </div> <p>we can easily run the program from starting using the above command. We can also provide the command line arguments to the code by passing the arguments in the above command. But, our program does not need the command line arguments, so we use only run:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+run
+</textarea>
+           </div> <p>After the typing of the above command, it gives the following prompt for debugging and execute the program until the first breakpoint:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Starting program: /home/sumit/Desktop/a.out 
+Enter the number: 6
+</textarea>
+           </div> <p>After typing 6, it will give the following prompt:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+Breakpoint 2, main () at program.c:10
+10			j=j*i; 
+</textarea>
+           </div> <p><strong>Step 3:</strong> Now, we have to print the values of a variable which are used in this program by using the following syntax:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+print &lt;variable&gt;
+</textarea>
+           </div> <p>Type the following commands for displaying the value of variables of the above program on the console:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+(gdb) print i
+$1 = 6    // This is the values of variable i, because in for loop we assign the value of num to variable i.
+(gdb) print number
+$2 = 6    // This is the value of variable number.
+(gdb) print j
+$3 = 32767  // This is the value of a variable j. 
+(gdb) 
+</textarea>
+           </div> <p>In the above values, the value of <strong>variable j</strong> is the garbage, so due to this the output of the factorial program is wrong.</p> <p>Therefore, firstly we have to initialize the value of variable <strong>j</strong> as <strong>1</strong> and execute the above program again.</p> 
+           <hr> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="67010202030506040c270d0611061317080e09134904080a">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/gdb"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/gdb"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/gdb"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f09882b09a91869184809f999e84de939f9d">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9af2e8daf0fbecfbeeeaf5f3f4eeb4f9f5f7b4">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

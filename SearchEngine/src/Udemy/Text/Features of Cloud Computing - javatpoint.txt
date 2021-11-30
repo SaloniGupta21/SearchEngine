@@ -1,0 +1,643 @@
+
+
+ 
+  
+  Features of Cloud Computing - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+      
+       Home 
+       C 
+       Java 
+       SQL 
+       Cloud Computing 
+       Android 
+       JavaScript 
+       AJAX 
+       Design Pattern 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Cloud Tutorial 
+      
+      
+      Cloud Computing 
+      Advantage & Disadvantage 
+      History of Cloud 
+      Cloud Computing Architecture 
+      Cloud Computing Technologies 
+      Cloud Computing vs Grid Computing 
+      How Cloud work 
+      Cloud Computing Applications 
+      Security Risks of Cloud Computing 
+      
+      
+      Types of Cloud 
+      
+      
+      Types of Cloud 
+      Public Cloud 
+      Private Cloud 
+      Hybrid Cloud 
+      Community Cloud 
+      
+      
+      Cloud Service Models 
+      
+      
+      Cloud Service Models 
+      IaaS Layer 
+      PaaS Layer 
+      SaaS Layer 
+      
+      
+      Virtualization 
+      
+      
+      What is Virtualization 
+      Data Virtualization 
+      Hardware Virtualization 
+      Software Virtualization 
+      Server Virtualization 
+      Storage Virtualization 
+      OS Virtualization 
+      Linux Virtualization 
+      Windows Virtualization 
+      
+      
+      Cloud Service Providers 
+      
+      
+      Cloud Service Provider Companies 
+      Amazon EC2 
+      AWS vs Azure vs GCP 
+      
+      
+      Miscellaneous 
+      
+      
+      Cloud Server 
+      Cloud Deployment Model 
+      Cloud Hypervisor 
+      Cloud Computing Examples 
+      Cloud Computing Jobs 
+      Features of Cloud Computing 
+      
+      
+      Cloud Computing MCQ 
+      
+      
+      Cloud Computing MCQ 
+      
+      
+      Interview 
+      
+      
+      Interview Questions 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Features of Cloud Computing Cloud computing is becoming popular day by day. Continuous business expansion and growth requires huge computational power and large-scale data storage systems. Cloud computing can help organizations expand and securely move data from physical locations to the 'cloud' that can be accessed anywhere. Cloud computing has many features that make it one of the fastest growing industries at present. The flexibility offered by cloud services in the form of their growing set of tools and technologies has accelerated its deployment across industries. This blog will tell you about the essential features of cloud computing.  1. Resources Pooling Resource pooling is one of the essential features of cloud computing. Resource pooling means that a cloud service provider can share resources among multiple clients, each providing a different set of services according to their needs. It is a multi-client strategy that can be applied to data storage, processing and bandwidth-delivered services. The administration process of allocating resources in real-time does not conflict with the client's experience. 2. On-Demand Self-Service It is one of the important and essential features of cloud computing. This enables the client to continuously monitor server uptime, capabilities and allocated network storage. This is a fundamental feature of cloud computing, and a customer can also control the computing capabilities according to their needs. 3. Easy Maintenance This is one of the best cloud features. Servers are easily maintained, and downtime is minimal or sometimes zero. Cloud computing powered resources often undergo several updates to optimize their capabilities and potential. Updates are more viable with devices and perform faster than previous versions. 4. Scalability And Rapid Elasticity A key feature and advantage of cloud computing is its rapid scalability. This cloud feature enables cost-effective handling of workloads that require a large number of servers but only for a short period. Many customers have workloads that can be run very cost-effectively due to the rapid scalability of cloud computing. 5. Economical This cloud feature helps in reducing the IT expenditure of the organizations. In cloud computing, clients need to pay the administration for the space used by them. There is no cover-up or additional charges that need to be paid. Administration is economical, and more often than not, some space is allocated for free. 6. Measured And Reporting Service Reporting Services is one of the many cloud features that make it the best choice for organizations. The measurement and reporting service is helpful for both cloud providers and their customers. This enables both the provider and the customer to monitor and report which services have been used and for what purposes. It helps in monitoring billing and ensuring optimum utilization of resources. 7. Security Data security is one of the best features of cloud computing. Cloud services make a copy of the stored data to prevent any kind of data loss. If one server loses data by any chance, the copied version is restored from the other server. This feature comes in handy when multiple users are working on a particular file in real-time, and one file suddenly gets corrupted. 8. Automation Automation is an essential feature of cloud computing. The ability of cloud computing to automatically install, configure and maintain a cloud service is known as automation in cloud computing. In simple words, it is the process of making the most of the technology and minimizing the manual effort. However, achieving automation in a cloud ecosystem is not that easy. This requires the installation and deployment of virtual machines, servers, and large storage. On successful deployment, these resources also require constant maintenance. 9. Resilience Resilience in cloud computing means the ability of a service to quickly recover from any disruption. The resilience of a cloud is measured by how fast its servers, databases and network systems restart and recover from any loss or damage. Availability is another key feature of cloud computing. Since cloud services can be accessed remotely, there are no geographic restrictions or limits on the use of cloud resources. 10. Large Network Access A big part of the cloud's characteristics is its ubiquity. The client can access cloud data or transfer data to the cloud from any location with a device and internet connection. These capabilities are available everywhere in the organization and are achieved with the help of internet. Cloud providers deliver that large network access by monitoring and guaranteeing measurements that reflect how clients access cloud resources and data: latency, access times, data throughput, and more. Benefits of Cloud Services Cloud services have many benefits, so let's take a closer look at some of the most important ones. Flexibility Cloud computing lets users access files using web-enabled devices such as smartphones and laptops. The ability to simultaneously share documents and other files over the Internet can facilitate collaboration between employees. Cloud services are very easily scalable, so your IT needs can be increased or decreased depending on the needs of your business. Work from anywhere Users of cloud systems can work from any location as long as you have an Internet connection. Most of the major cloud services offer mobile applications, so there are no restrictions on what type of device you're using. It allows users to be more productive by adjusting the system to their work schedules. Cost savings Using web-based services eliminates the need for large expenditures on implementing and maintaining the hardware. Cloud services work on a pay-as-you-go subscription model. Automatic updates With cloud computing, your servers are off-premises and are the responsibility of the service provider. Providers update systems automatically, including security updates. This saves your business time and money from doing it yourself, which could be better spent focusing on other aspects of your organization. Disaster recovery Cloud-based backup and recovery ensure that your data is secure. Implementing robust disaster recovery was once a problem for small businesses, but cloud solutions now provide these organizations with the cost-effective solutions with the expertise they need. Cloud services save time, avoid large investments and provide a third party experience for your company. Conclusion Various features of cloud computing are helping both the host and the customer. A host also has various advantages, which benefit the customers. These days, the organization is in dire need of data storage. The previously mentioned features of cloud computing make it a popular choice among various organizations across industries. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

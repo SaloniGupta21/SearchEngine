@@ -1,0 +1,1193 @@
+
+
+ 
+  
+  PDF Handling in Python - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Python 
+        If Else 
+        For Loop 
+        Function 
+        Array 
+        String 
+        Regex 
+        List 
+        Set 
+        Tuple 
+        Dictionary 
+        Programs 
+        Numpy 
+        Interview Questions 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Python Tutorial 
+      
+      
+      Python Tutorial 
+      Python Features 
+      Python History 
+      Python Applications 
+      Python Install 
+      Python Example 
+      Python Variables 
+      Python Data Types 
+      Python Keywords 
+      Python Literals 
+      Python Operators 
+      Python Comments 
+      Python If else 
+      Python Loops 
+      Python For Loop 
+      Python While Loop 
+      Python Break 
+      Python Continue 
+      Python Pass 
+      Python Strings 
+      Python Lists 
+      Python Tuples 
+      Python List Vs Tuple 
+      Python Sets 
+      Python Dictionary 
+      Python Functions 
+      Python Built-in Functions 
+      Python Lambda Functions 
+      Python Files I/O 
+      Python Modules 
+      Python Exceptions 
+      Python Date 
+      Python Regex 
+      Python Sending Email 
+      Read CSV File 
+      Write CSV File 
+      Read Excel File 
+      Write Excel File 
+      Python Assert 
+      Python List Comprehension 
+      Python Collection Module 
+      Python Math Module 
+      Python OS Module 
+      Python Random Module 
+      Python Statistics Module 
+      Python Sys Module 
+      Python IDEs 
+      Python Arrays 
+      Command Line Arguments 
+      Python Magic Method 
+      Python Stack & Queue 
+      PySpark MLlib 
+      Python Decorator 
+      Python Generators 
+      Web Scraping Using Python 
+      Python JSON 
+      Python Itertools 
+      Python Multiprocessing 
+      How to Calculate Distance between Two Points using GEOPY 
+      Gmail API in Python 
+      How to Plot the Google Map using folium package in Python 
+      Grid Search in Python 
+      Python High Order Function 
+      nsetools in Python 
+      Python program to find the nth Fibonacci Number 
+      Python OpenCV object detection 
+      Python SimpleImputer module 
+      Second Largest Number in Python 
+      
+      
+      Python OOPs 
+      
+      
+      Python OOPs Concepts 
+      Python Object Class 
+      Python Constructors 
+      Python Inheritance 
+      Abstraction in Python 
+      
+      
+      Python MySQL 
+      
+      
+      Environment Setup 
+      Database Connection 
+      Creating New Database 
+      Creating Tables 
+      Insert Operation 
+      Read Operation 
+      Update Operation 
+      Join Operation 
+      Performing Transactions 
+      
+      
+      Python MongoDB 
+      
+      
+      Python MongoDB 
+      
+      
+      Python SQLite 
+      
+      
+      Python SQLite 
+      
+      
+      Python Questions 
+      
+      
+      How to install Python in Windows 
+      How to reverse a string in Python 
+      How to read CSV file in Python 
+      How to run Python Program 
+      How to take input in Python 
+      How to convert list to string in Python 
+      How to append element in the list 
+      How to compare two lists in Python 
+      How to convert int to string in Python 
+      How to create a dictionary in Python 
+      How to create a virtual environment in Python 
+      How to declare a variable in Python 
+      How to install matplotlib in Python 
+      How to install OpenCV in Python 
+      How to print in same line in Python 
+      How to read JSON file in Python 
+      How to read a text file in Python 
+      How to use for loop in Python 
+      Is Python scripting language 
+      How long does it take to learn Python 
+      How to concatenate two strings in Python 
+      How to connect Database in Python 
+      How to convert list to dictionary in Python 
+      How to declare a global variable in Python 
+      How to reverse a number in Python 
+      What is an object in Python 
+      Which is the fastest implementation of Python 
+      How to clear Python shell 
+      How to create a DataFrames in Python 
+      How to develop a game in Python 
+      How to install Tkinter in Python 
+      How to plot a graph in Python 
+      How to print pattern in Python 
+      How to remove an element from a list in Python 
+      How to Round number in Python 
+      How to sort a dictionary in Python 
+      Strong Number in Python 
+      How to Convert Text to Speech in Python  
+      Bubble Sort in Python 
+      Logging in Python 
+      Insertion Sort in Python 
+      Binary Search in Python 
+      Linear Search in Python 
+      Python vs Scala 
+      Queue in Python 
+      Stack in Python 
+      Heap Sort in Python 
+      Palindrome program in python 
+      Program of Cumulative sum in python 
+      Merge Sort in Python 
+      Python Matrix 
+      Python Unit Testing 
+      Forensics & Virtualization 
+      Best Books to Learn Python 
+      Best Books to Learn Django 
+      GCD of two number in python 
+      Python Program to generate a Random String 
+      How to One Hot Encode Sequence Data in Python 
+      How to write square root in Python 
+      Pointer in Python 
+      Python 2D array 
+      Python Memory Management 
+      Python Libraries for Data Visualization 
+      How to call a function in Python 
+      Git Modules in Python 
+      Top Python Frameworks for Gaming 
+      Python Audio Modules 
+      Wikipedia Module in Python 
+      Python random randrange() 
+      Permutation and Combination in Python 
+      Getopt module in Python 
+      Merge two Dictionaries in Python 
+      Multithreading in Python 3 
+      Static in Python 
+      How to get the current date in Python 
+      argparse in Python 
+      Python tqdm Module 
+      Caesar Cipher in Python 
+      Tokenizer in Python 
+      How to add two lists in Python 
+      Shallow Copy and Deep Copy in Python 
+      Atom Python 
+      Contains in Python 
+      Label Encoding in Python 
+      Django vs. Node JS 
+      Python Frameworks 
+      How to create a vector in Python using NumPy 
+      Pickle Module of Python 
+      How to convert Bytes to string in Python 
+      Python Program to Find Anagram 
+      How to convert List to Set 
+      Python vs JavaScript 
+      Python Holidays Module 
+      FuzzyWuzzy Python Library 
+      Dask Python 
+      Dask Python (Part 2) 
+      Mode in Python 
+      Menu-Driven Programs in Python 
+      Python Array vs. List 
+      What is duck typing in Python 
+      PEP 8 in Python 
+      Python User Groups 
+      Basic Commands in Python 
+      F String in Python 
+      How Brython Works 
+      How to use Brython in the Browser 
+      Arima Model in Python 
+      Python Modulus Operator 
+      MATLAB vs. Python 
+      Method Resolution Order in Python 
+      Monkey Patching in Python 
+      Python __call__ method 
+      Python heapq module 
+      Python Substring 
+      Project ideas for Python Beginners 
+      Python Faker 
+      Fizz-Buzz Program in Python 
+      Tabula Python 
+      Python Program to Print Prime Factor of Given Number 
+      Python Program to Print Pascal Triangle 
+      NamedTuple in Python 
+      OrderedDict in Python 
+      T-Test in Python 
+      Python return statement 
+      Getter and Setter in Python 
+      Enum class in Python 
+      Destructors in Python 
+      Curve Fit in Python 
+      Converting CSV to JSON in Python 
+      Underscore (_) in Python 
+      Set vs List in Python 
+      Locating and Executing Modules 
+      Flatten List in Python 
+      Pair Plot in Python 
+      Data Hiding in Python 
+      Python Program to Find Intersection of Two Lists 
+      How to Create Requirements.txt File in Python 
+      Tic-Tac-Toe in Python 
+      Python Asynchronous Programming - asyncio and await 
+      Python main() function 
+      strftime() function in Python 
+      Verbose Flag in Python Regex 
+      Python AST Module 
+      Python Requests Module - HTTP Request 
+      Shutil Module in Python 
+      Python epoch to Datetime 
+      Python del Statement 
+      Looping technique in Python 
+      Metaprogramming with Metaclasses in Python 
+      Precision Handling in Python 
+      Python Join List 
+      strip() function in Python 
+      Gradient Descent Algorithm 
+      Prettytable in Python 
+      Sentiment Analysis in Python 
+      Convert Python List to NumPy Arrays 
+      Traceback in Python 
+      Time clock() Method in Python 
+      Deque in Python 
+      Dictionary Comprehension in Python 
+      Python Data Analytics 
+      Python seek() Method 
+      Ternary Operator in Python 
+      How to Calculate the Area of the Circle using Python 
+      How to Write in Text File using Python 
+      Python KeyError 
+      Python super() Function 
+      max() function in Python 
+      Fraction Module in Python 
+      Popular Python Framework to Build API 
+      How to Check Python version 
+      Python %s - String Formatting 
+      Python seaborn Library 
+      Countplot in Python 
+      range() Vs. Xrange() Python 
+      Wordcloud Package in Python 
+      Convert dataframe into list 
+      ANOVA Test in Python 
+      Python program to find compound interest 
+      Ansible in Python 
+      Python Important Tips and Tricks 
+      Python Coroutines 
+      Double Underscores in Python 
+      re.search() VS re.findall() in Python Regex 
+      How to install statsmodels in Python 
+      Cos in Python 
+      vif in Python 
+      __add__ Method in Python 
+      Ethical Hacking with Python 
+      Class Variable vs Instance 
+      Perfect Number in Python 
+      EOL in Python 
+      Python Program to convert Hexadecimal String to Decimal String 
+      Different Methods in Python for Swapping Two Numbers without using third variable 
+      How to Change Plot Size in Matplotlib 
+      How to Get the Zip Code in Python 
+      Eel in Python 
+      Assignment Operators in Python 
+      Speech Recognition python 
+      Yield vs Return in Python 
+      Graphene Python 
+      Name Mangling in Python 
+      Python combination without itertools 
+      Python Comprehensions 
+      InfluxDB in Python 
+      Kafka Tutorial in Python 
+      Augmented Assignment Expressions in Python 
+      Python (x,y) Software 
+      Python Event-Driven programming 
+      Python Semaphore 
+      Python sorted reverse 
+      Automorphic Number in Python 
+      sizeof in Python 
+      Python Program for accepting the strings which contains all vowels 
+      Class-based views vs Function-Based Views 
+      How to handle cookies in Django 
+      agg() function in Python 
+      Amicable Numbers in Python 
+      Context Manager in Python 
+      Create BMI Calculator using Python 
+      String to Binary in Python 
+      What is script mode in Python 
+      Best Python libraries for Machine Learning 
+      Python Program to Display Calendar of Given Year 
+      How to open URL in Python 
+      Broken Pipe Error in Python 
+      Code Template for Creating Objects in Python 
+      Python program to calculate the best time to buy and sell stock 
+      Tuple to String in Python 
+      Kadane's Algorithm in Python 
+      Loggers in Django 
+      Weather App in Django 
+      Missing Data Conundrum: Exploration and Imputation Techniques 
+      Different Methods of Array Rotation in Python 
+      What is Operator Overloading in Python 
+      Defaultdict in Python 
+      Operator Module in Python 
+      Spinner Widget in the kivy Library of Python 
+      Number Plate Recognition using Python 
+      Obfuscating a Python program 
+      Convert string to dictionary in Python 
+      Convert string to JSON in Python 
+      DBSCAN algorithm in Python 
+      How to Write a Code for Printing the Python Exception/Error Hierarchy 
+      Principal Component Analysis (PCA) with Python 
+      Python Program to Find Number of Days Between Two Given Dates 
+      Object Recognition using Python 
+      Python VLC module 
+      Set to list in Python 
+      String to int in Python 
+      Internet of Things with Python 
+      Python pysftp module 
+      Amazing hacks of Python 
+      Average of list in Python 
+      Check Installed Modules in Python 
+      choice() in Python 
+      Convert List to dataframe in Python 
+      Convert String to Float in Python 
+      Decorators with Parameters in Python 
+      Dynamic Typing in Python 
+      Fabs in Python 
+      How to Remove Decimal in Python 
+      Python Closure 
+      Python Glob Module 
+      Writing a Python Module 
+      Modules vs Packages in Python 
+      SNMP module in Python 
+      Average of list in Python 
+      Append vs Extend vs Insert in Python 
+      How to Remove Duplicates from a list in Python 
+      Remove Multiple Characters from a String in Python 
+      Shuffle in Python 
+      floor() and ceil() Functions in Python 
+      sqrt(): Math Function of Python 
+      Python yfinance Module 
+      Difflib module in Python 
+      Convert the Column Type from String to Datetime Format in Pandas DataFrame 
+      Python wxPython Module 
+      Random Uniform Python 
+      Relational Operators in Python 
+      String to List in Python 
+      Chatbot in Python 
+      How to Convert float to int in Python 
+      Multiply All Elements in list of Python 
+      module vs function in Python 
+      Reverse a tuple in Python 
+      Tuple to Dictionary in Python 
+      datetime.timedelta() Function of Python 
+      Python Bio Module 
+      Python Dash Module 
+      How to Select rows in Pandas DataFrame Based on Conditions 
+      Typecasting in Python 
+      Dateutil module in Python 
+      Getpass module in Python 
+      Python Wand library 
+      Generate a QR Code using Python 
+      Best Python PDF Library 
+      Python Cachetools Module 
+      Python Cmdparser Module 
+      Python Dash module 
+      Python Emoji Module 
+      Python Nmap Module 
+      Python PyLab Module 
+      Working with PDF files in Python 
+      PDF Handling in Python 
+      Manipulating PDF using Python 
+      List All Functions from a Python Module 
+      Python list of Dictionaries 
+      Python Shelve Module 
+      Creating Interactive PDF forms using Python 
+      Python Newspaper Module 
+      How to Connect Wi-Fi using Python 
+      Best Python Libraries used for Ethical Hacking 
+      
+      
+      Python Tkinter (GUI) 
+      
+      
+      Python Tkinter 
+      Tkinter Button 
+      Tkinter Canvas 
+      Tkinter Checkbutton 
+      Tkinter Entry 
+      Tkinter Frame 
+      Tkinter Label 
+      Tkinter Listbox 
+      Tkinter Menubutton 
+      Tkinter Menu 
+      Tkinter Message 
+      Tkinter Radiobutton 
+      Tkinter Scale 
+      Tkinter Scrollbar 
+      Tkinter Text 
+      Tkinter Toplevel 
+      Tkinter Spinbox 
+      Tkinter PanedWindow 
+      Tkinter LabelFrame 
+      Tkinter MessageBox 
+      
+      
+      Python Web Blocker 
+      
+      
+      Introduction 
+      Building Python Script 
+      Script Deployment on Linux 
+      Script Deployment on Windows 
+      
+      
+      Python MCQ 
+      
+      
+      Python MCQ 
+      Python MCQ Part 2 
+      
+      
+      Related Tutorials 
+      
+      
+      NumPy Tutorial 
+      Django Tutorial 
+      Flask Tutorial 
+      Pandas Tutorial 
+      Pytorch Tutorial 
+      Pygame Tutorial 
+      Matplotlib Tutorial 
+      OpenCV Tutorial 
+      Openpyxl Tutorial 
+      Python CGI 
+      Python Design Pattern 
+      
+      
+      Python Programs 
+      
+      
+      Python Programs 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            PDF Handling in Python Python is considered an extremely flexible programming language with a wide range of libraries, and it is a high-level language with easy-to-read and writes syntax. The reach of Python is being expanded in different sectors like Machine Learning, Web Development, Cybersecurity, Application Development, and a lot more. Thus, this programming language is widely chosen among programmers, engineers and developers. In the following tutorial, we will be working on PDFs with the help of the Python programming language. PDFs, abbreviated for Portable Document Format, is a file format of a document containing texts, tables, images, and many more, which are usually utilized whenever we require to save files that cannot be modified any further or be easily shared or printed. The PDF file format was developed by Adobe in the year 1993 in order to present documents involving the formatted text and images in a way independent of software, applications, operating systems, and hardware. The following tutorial has been divided into different parts in order for us to understand mostly everything related to PDF handling and processing using Python. So, let's get started. Some Famous Python PDF Libraries Python offers a large variety of libraries that are used to manipulate a PDF file. Some famous libraries that are utilized generally while working with PDFs are: 
+            
+            PDFMiner, 
+            PyPDF4, 
+            PyPDF2, 
+            Python-docx, 
+            PyMuPDF, 
+            and a lot more. While there are different packages that are utilized in order to perform different functional operations with PDFs in Python, we will only discuss the working of some of the libraries such as PDFMiner, PyPDF2, PyMuPDF, reportlab, and a few more in this tutorial. PyPDF2 is considered one of the widely chosen Python modules to work with PDFs. This package is easy-to-use and offers various features. But when we talk about the extraction of texts, the PDFMiner package is more precise and dependable. PDFMiner was specifically designed for the users to extract texts from PDF files. There are different scenarios where one package is more efficient than the other in different aspects when we take PDF files manipulation into account. Hence, we will discuss different libraries utilized to manipulate PDF files based on their comfort and reliability in this tutorial. Text Extraction from PDFs using Python PDFs are composed of various contents such as Text, Tables, Images, Forms, and many more. These files are the graphical interpretations of the data. They deliver information on the exact location of a display or a paper. However, they don't have a logical structure specified for sentences or paragraphs and can't adapt themselves when the size of the display alters. The PDFMiner package performs the work for the users by evaluating the layouts and predicting the location of texts and other contents. PDFMiner is considered one of the robust libraries utilized to perform operations like extracting texts from PDF files. Thus, in the following section, we will demonstrate the usage of PDFMiner for Text Extraction. First of all, we have to install the PDFMiner package. Installing the PDFMiner Package We can install the PDFMiner package using the following command: Syntax: 
+           
+            
+$ pip install pdfminer
+
+            Once the installation is complete, we will head onto the main part, extracting texts using the PDFMiner library. Let us consider the following example demonstrating the extraction of texts with the help of PDFMiner in Python. Example: 
+           
+            
+from io import StringIO
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfparser import PDFParser
+O_string = StringIO()
+with open('my_file.pdf', 'rb') as input_file:
+    my_parser = PDFParser(input_file)
+    my_doc = PDFDocument(my_parser)
+    rsrcmgr = PDFResourceManager()
+    my_device = TextConverter(rsrcmgr, O_string, laparams = LAParams())
+    my_interpreter = PDFPageInterpreter(rsrcmgr, my_device)
+    for my_page in PDFPage.create_pages(my_doc):
+        my_interpreter.process_page(my_page)
+print(O_string.getvalue())
+
+            Output: 
+           
+            A Simple PDF File 
+ This is a small demonstration .pdf file - 
+ just for use in the Virtual Mechanics tutorials. More text. And more 
+ text. And more text. And more text. And more text. 
+ And more text. And more text. And more text. And more text. And more
+ text. And more text. Boring, zzzzz. And more text. And more text. And
+ more text. And more text. And more text. And more text. And more text.
+ And more text. And more text.
+ And more text. And more text. And more text. And more text. And more
+ text. And more text. And more text. Even more. Continued on page 2 ...
+ Simple PDF File 2
+ ...continued from page 1. Yet more text. And more text. And more text.
+ And more text. And more text. And more text. And more text. And more
+ text. Oh, how boring typing this stuff. But not as boring as watching
+ paint dry. And more text. And more text. And more text. And more text.
+ Boring.  More, a little more text. The end, and just as well.
+
+            Explanation: In the above snippet of code, we have imported the StringIO module from the io library and required functions and classes from the PDFMiner module. We created a StringIO object and used the with statement to open the pdf file from the directory. As per the PDFMiner documentation, PDFPageInterpreter is used to process page contents, while PDFResourceManager is used to store shared resources such as fonts or images. PDFPage is utilized for performing page-by-page analysis of data. LAParams loads up the Layout analysis of characters, textbox, text lines, images, and figures. With the help of these, the TextConverter function helps in converting a PDF document into text. We are providing "my_file.pdf" as a PDF file to be analyzed and executed with the help of the PDFMiner module. We can extract texts from a PDF file using the process_page function. At last, the print(text) function will print out the extracted text from a PDF. So, in this manner, the texts can be extracted from a PDF file using the PDFMiner library. Image Extraction from PDFs using Python Whenever we want to extract images from PDF, we can utilize PyMuPDF. This library uses an additional module, fitz, which makes the image extraction from a PDF file easier. Before starting to work with the modules directly, let us install the required libraries. Installing the PyMuPDF Package We can install the PyMuPDF package using the following command: Syntax: 
+           
+            
+$ pip install pymupdf
+$ pip install fitz
+
+            Once the installation is complete, we will head onto the main part, extracting texts using the PyMuPDF library and the fitz module. Let us consider the following example demonstrating the extraction of images in Python. Example: 
+           
+            
+# PyMuPDF
+import fitz
+import io
+from PIL import Image
+# path to our input file
+my_file = "file2.pdf" 
+# Input PDF file
+my_pdf = open(my_file)
+for page_num in range(len(my_pdf)):
+   cur_page = my_pdf[page_num]
+   img = cur_page.getImageList()
+   for image_num, image in enumerate(cur_page.getImageList()):
+       # get the XREF of the image
+       xref = image[0]
+       # extract the image bytes
+       cur_image = my_pdf.extractImage(xref)
+       imgBytes = cur_image["image"]
+       # get the image extension
+       img_ext = cur_image["ext"]
+       # load it to PIL
+       image = Image.open(io.BytesIO(imgBytes))
+       # save it to local disk
+       image.save(open(f"page{page_num + 1}_img{image_num}.{img_ext}", "wb"))
+
+            Output: 
+           
+            [+] Found a total of 2 images in page 0
+[+] Found a total of 2 images in page 1   
+
+            Explanation: In the above snippet of code, we have imported the required modules. We have then loaded the PDF file using the fitz module. Then we go page by page and find the list of images. We have then converted the image bytes in the PDFs to actual images and saved them locally. Thus, in this manner, we have extracted the images out of a PDF file. Tables Extraction from PDFs using Python Tables extraction from PDF files is a bit easy as compared to images and text extraction. Python offers a predefined library known as camelot, which we can use to extract tables. So, before we start implementing the code, it becomes necessary to install the library at first. Installing the camelot library We can install the camelot module using the following command with the pip installer: Syntax: 
+           
+            
+$ pip install camelot
+
+            Once the installation is done, let us head on to extracting tables from the PDF files in Python. Example: 
+           
+            
+import camelot
+# reading the pdf file
+my_tables = camelot.read_pdf("my_table.pdf")
+print(my_tables[0].df)
+
+            Explanation: In the above snippet of code, we have imported the camelot library. We have then extracted the tables from the PDF file using the read_pdf() function of the camelot library and stored them in a variable as a list. At last, we have printed one of the extracted tables using the index value of the table along with the df attribute. Hence, we have successfully extracted tables from PDF files. Extracting URLs from PDFs using Python Extracting URLs is considered as another handy function that Python offers. Python has a predefined library known as "pdfx", which is usually utilized to extract URLs from a PDF file. We can utilize the libraries such as PDFMiner, PyPDF2, and many more in order to extract texts and use regular expressions to find out the URLs. Nevertheless, this procedure is long and hectic. Thus, in order to shorten the length of the code, we will be using the pdfx library to extract URLs from a PDF file. Installing the pdfx library We can install the pdfx library using the following command with the pip installer: Syntax: 
+           
+            
+$ pip install pdfx
+
+            Once the installation is complete, let us consider the following example to understand the extraction of URLs from PDFs. Example: 
+           
+            
+import pdfx
+# reading the PDF File
+my_pdf = pdfx.PDFx("sample-url.pdf")
+# get list of URLS
+print(my_pdf.get_references_as_dict())
+
+            Output: 
+           
+            {'url': ['https://www.javatpoint.com/python-pass', 'https://www.javatpoint.com/python-tutorial', 'https://www.javatpoint.com/python-seaborn-library', 'https://www.javatpoint.com/', 'https://www.javatpoint.com/chatbot-in-python', 'https://www.javatpoint.com/python-if-else']}  
+
+            Explanation: In the above snippet of code, we have imported the pdfx library. We have then used the PDFx() function to read the PDF file from the directory. We have then used the get_references_as_dict() function to extract all the URLs available in the input PDF file in the form of a dictionary. Pages Extraction from PDFs as an Image using Python In this section, we will understand the extraction of the pages from a PDF file in the form of an image. In order to accomplish the task, we will need another short and simple library known as pdf2image. This library is usually utilized when we want to take the PDF files into images. Let us begin by installing the library. Installing the pdf2image library We can use the following command with the pip installer to install the pdf2image library: Syntax: 
+           
+            
+$ pip install pdf2image
+
+            Once the installation is completed, let us consider the following example to understand the working of the pdf2image library. Example: 
+           
+            
+from pdf2image import convert_from_path
+my_pages = convert_from_path("my_file.pdf", 120) 
+n = 0
+# iterating through pages
+for page in my_pages:
+   n += 1
+   page.save(f"output{n}.jpg", "JPEG")
+
+            Explanation: In the above snippet of code, we have imported the convert_from_path function from the pdf2image library. We have then used the imported function along where we have provided the value 120. This value is known as the DPI or Dots Per Inch. Higher the value, a clearer and bigger-sized image will be formed. We are iterating through each page by saving the pages as JPEG images. 
+            
+            
+            Next Topic
+            Manipulating PDF using Python 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

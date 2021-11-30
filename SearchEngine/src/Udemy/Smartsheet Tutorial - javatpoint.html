@@ -1,0 +1,1185 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Smartsheet Tutorial - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Smartsheet Tutorial - javatpoint">
+  <meta property="og:description" content="Smartsheet Tutorial with What is Smartsheet, What Does Smartsheet do, Advantages and Disadvantages, How We Create New Smartsheet, How to Rename an Item in a Sheet etc."> 
+  <meta name="keywords" content="smartsheet, what is smartsheet, what does smartsheet do, advantages of smartsheet, disadvantages of smartsheet, how we start working on smartsheet, how we create new smartsheet, how to rename an item in a sheet, how to refresh the sheet, rows and hierarchy, column type reference, attachments in smartsheet">
+  <meta name="description" content="Smartsheet Tutorial with What is Smartsheet, What Does Smartsheet do, Advantages and Disadvantages, How We Create New Smartsheet, How to Rename an Item in a Sheet etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/smartsheet"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Smartsheet Tutorial - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Smartsheet Tutorial with What is Smartsheet, What Does Smartsheet do, Advantages and Disadvantages, How We Create New Smartsheet, How to Rename an Item in a Sheet etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/smartsheet">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="smartsheet" class="selected">Smartsheet</a></li> 
+       <li><a href="python-tutorial">Python</a></li> 
+       <li><a href="php-tutorial">PHP</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="cpp-tutorial">C++</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="https://www.javatpoint.com/aptitude/quantitative">Aptitude</a></li> 
+       <li><a href="reasoning">Reasoning</a></li> 
+       <li><a href="selenium-tutorial">Selenium</a></li> 
+       <li><a href="data-structure-tutorial">DS</a></li> 
+       <li><a href="dbms-tutorial">DBMS</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="android-tutorial">Android</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="https://training.javatpoint.com">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Smartsheet Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="smartsheet">Smartsheet</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> <h1 class="h1">SMARTSHEET TUTORIAL</h1> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet.png" class="imageright" alt="Smartsheet Tutorial"> 
+           <ul class="points"> 
+            <li>Smartsheet is an online <strong><em>Project Management</em></strong> tool which is developed by <strong><em>Smartsheet Inch</em></strong>.</li> 
+            <li>Smartsheet is a Software-as-a-Service (SaaS) provided for Work management, and Collaboration.</li> 
+            <li>Smartsheet is a <strong><em>Cloud-Based</em></strong> project management tool which is designed in such a way that the number of employees can use it easily.</li> 
+           </ul> <p>In our Smartsheet tutorial, we are going to discuss the following topics-</p> 
+           <ul class="points"> 
+            <li><a href="#What">What is Smartsheet</a></li> 
+            <li><a href="#do">What Does Smartsheet do</a></li> 
+            <li><a href="#Advantages">Advantages of Smartsheet</a></li> 
+            <li><a href="#Disadvantages">Disadvantages of Smartsheet</a></li> 
+            <li><a href="#Start-Working">How to Start Working on Smartsheet</a></li> 
+            <li><a href="#Create-New">How to Create New Smartsheet</a></li> 
+            <li><a href="#Rename-Item">How to Rename an Item in a Sheet</a></li> 
+            <li><a href="#Modify-Rule">How to Modify the Rule Permission Settings for the Sheet</a></li> 
+            <li><a href="#Data-and-Formatting">Data and Formatting Options</a></li> 
+            <li><a href="#Save-Sheet">How to Save the Sheet Data</a></li> 
+            <li><a href="#Refresh-Sheet">How to Refresh the Sheet</a></li> 
+            <li><a href="#Rows-and-Hierarchy">Rows and Hierarchy</a> 
+             <ol class="points"> 
+              <li><a href="#Indent">How to Indent a Row</a></li> 
+              <li><a href="#Rows-and-Hierarchy">Rows and Hierarchy</a></li> 
+              <li><a href="#Remove-Hierarchy">Remove Hierarchy</a></li> 
+             </ol></li> 
+            <li><a href="#Column-Type-Reference">Column Type Reference</a> 
+             <ol class="points"> 
+              <li><a href="#Change-its-Types">How to Edit a Column to Change its Types</a></li> 
+              <li><a href="#Create-Column-Description">Create a Column Description</a></li> 
+              <li><a href="#Edit-Column-Description">Edit Column Description Information</a></li> 
+              <li><a href="#Set-up-Dropdown-Column">How to Set up a Dropdown Column in a Sheet</a></li> 
+              <li><a href="#Edit-Dropdown-Column">How to Edit Dropdown Column Properties</a></li> 
+             </ol></li> 
+            <li><a href="#Attachments">Attachments in Smartsheet</a> 
+             <ol class="points"> 
+              <li><a href="#Attach-File-or-Link">How to Attach a File or Link from an Online Resource</a></li> 
+              <li><a href="#Supported-File-Types">Supported File Types for Attachments in the Smartsheet</a></li> 
+              <li><a href="#Maximum-File-Sizes">Maximum File Sizes based on the User &amp; Method of Upload</a></li> 
+             </ol></li> 
+            <li><a href="#Conversations">Conversations in Smartsheet</a> 
+             <ol class="points"> 
+              <li><a href="#Conversations-in-the-Context">Have Conversations in the Context of your Work</a></li> 
+              <li><a href="#Interact-with-Comment">Interact with Comment in a Sheet (Grid View or a Card View)</a></li> 
+              <li><a href="#Create-New-Comment">Create a New Comment which is Applied to the Entire Smartsheet</a></li> 
+              <li><a href="#Reply-Existing-Comment">How to Reply an Existing Comment</a></li> 
+              <li><a href="#Edit-E-mail-Print-or-Delete-Comment">Edit, E-mail, Print or Delete a Comment</a></li> 
+              <li><a href="#Give-Context-to-Comments">Use File Attachment to Give Context to Comments</a></li> 
+              <li><a href="#Attached-to-a-Comment">How to Delete a File which is Attached to a Comment</a></li> 
+              <li><a href="#Comment-Panel">How to Delete an Attachment from the Comment Panel</a></li> 
+             </ol></li> 
+            <li><a href="#Conditional-Formatting">Conditional Formatting in the Smartsheet</a> 
+             <ol class="points"> 
+              <li><a href="#Create-Conditional-Formatting">How to Create a Conditional Formatting Rule</a></li> 
+              <li><a href="#Set-Conditions">How to Set the Conditions for the Rule</a></li> 
+              <li><a href="#Set-Format">Set the Format for the Rule</a></li> 
+              <li><a href="#Formatting-Options">Formatting Options</a></li> 
+              <li><a href="#Condition-Clone-or-Rearrange">Add a Condition, Clone, or Rearrange a Rule</a></li> 
+              <li><a href="#Delete-or-Disable">Delete or Disable a Conditional Formatting Rule</a></li> 
+             </ol></li> 
+            <li><a href="#Formula-Basics">Formula Basics</a> 
+             <ol class="points"> 
+              <li><a href="#Create-and-Edit-Formula">Create and Edit Formula in Smartsheet</a></li> 
+              <li><a href="#Functions">Functions</a></li> 
+              <li><a href="#Edit-Existing-Formula">Edit an Existing Formula</a></li> 
+              <li><a href="#Copy-Formula">Copy a Formula with Drag-Fill or Auto-Fill</a></li> 
+              <li><a href="#Areas-where-Formula">Areas where Formula Use is Restricted</a></li> 
+             </ol></li> 
+            <li><a href="#Sharing">Sharing in Smartsheet</a> 
+             <ol class="points"> 
+              <li><a href="#Share-Item">Share a Smartsheet Item</a></li> 
+              <li><a href="#Sharing-Options">More Sharing Options</a></li> 
+              <li><a href="#Workspace">How to Share an Item from the Workspace</a></li> 
+              <li><a href="#Default-Sharing">How to set a Default Sharing View</a></li> 
+             </ol></li> 
+            <li><a href="#Contacts">Contacts</a> 
+             <ol class="points"> 
+              <li><a href="#Add-Contacts">How to Add Contacts to My Smartsheet Contacts</a></li> 
+              <li><a href="#Contacts-Individually">Add Contacts Individually</a></li> 
+              <li><a href="#Edit-or-Delete-Contacts">How to Edit or Delete Contacts in Smartsheet</a></li> 
+              <li><a href="#Export-Contact">How to Export Contact from Your Smartsheet Contact List</a></li> 
+             </ol></li> 
+            <li><a href="#Groups">Groups in Smartsheet</a> 
+             <ol class="points"> 
+              <li><a href="#Create-Group">How to Create a Group in Smartsheet</a></li> 
+              <li><a href="#Manage-Existing-Group">How to Manage an Existing Group</a></li> 
+              <li><a href="#Edit Group">Edit Group</a></li> 
+              <li><a href="#Share-Smartsheet-Item">How to Share a Smartsheet Item with a Group</a></li> 
+             </ol></li> 
+            <li><a href="#Card-View">Card View in Smartsheet</a></li> 
+            <li><a href="#Basic-Gantt-View">Basic Gantt View</a></li> 
+            <li><a href="#Calendar-View">Calendar View</a></li> 
+            <li><a href="#Proofing">Proofing</a></li> 
+           </ul> 
+           <hr> <h2 id="What" class="h2">What is Smartsheet</h2> <p>Smartsheet is an online project management tool which is used for task allotment, calendar management, share documents, track project progress, and to handle other work. Smartsheet is developed by <strong><em>Smartsheet Inc</em></strong>.</p> <p>Smartsheet is a cloud-based tool, and a spreadsheet tool used for project management. Smartsheet competes against various task management products such as <strong><em>Asana</em></strong> and <strong><em>Trello</em></strong>.</p> <h2 id="do" class="h2">What does Smartsheet Do</h2> <p>In the Smartsheet, we use spreadsheets known as sheets. Spreadsheet performs every task like a Smartsheet, but there are some differences between the smartsheet and spreadsheet, such as Smartsheet contains all the collaboration functionality incorporated into it, which is beyond the standard spreadsheet functionality.</p> <p>There are various tasks which are performed by the Smartsheet:</p> 
+           <ol class="points"> 
+            <li>Collaboration</li> 
+            <li>Set up alerts</li> 
+            <li>Attach Files</li> 
+            <li>Have discussions</li> 
+            <li>Request updates</li> 
+            <li>Set up web forms</li> 
+            <li>Publish the sheet</li> 
+           </ol> <p><strong>1. Collaboration: -</strong> In the Smartsheet, collaboration means we can also invite other members of the project team to collaborate on a sheet. It means they have the authority to edit and view the sheet.</p> <p><strong>2. Set up Alerts:-</strong> Set up alerts means, within the sheet, we can set up reminders and notification for the tasks.</p> <p><strong>3. Attach Files:-</strong> In the smartsheet, we can attach the files to a row or overall sheet. The files are stored on the server of the smartsheet, and the files can be accessed when we log in to the smartsheet and view the sheet.</p> <p><strong>4. Have Discussions:-</strong> We can also set up discussions about the whole project or a few tasks. The detail of the discussion is stored in the sheet.</p> <p><strong>5. Request Updates:-</strong> Requests update means we can request updates from the collaborators regarding the progress of the job, which is allotted to the collaborators.</p> <p><strong>6. Set Up Web Forms:-</strong> Smartsheet provides the feature of setting up web forms. In this, we can set up the feedback forms, and the responses, which are given by the user. It can be populated into a sheet automatically.</p> <p><strong>7. Publish the Sheet:-</strong> We can make the sheet available through the external URL so that others can see the sheet.</p> <h2 id="Features" class="h2">Features of Smartsheet</h2> <p>There are various features of the smartsheet, which makes the project tracking and collaboration easy.</p> 
+           <ol class="points"> 
+            <li>Shared sheets</li> 
+            <li>Collaboration</li> 
+            <li>Mobility</li> 
+            <li>Alerts and Reminders</li> 
+            <li>Shared workspace</li> 
+            <li>Permissions levels</li> 
+            <li>Upload files</li> 
+            <li>View history of changes</li> 
+            <li>Advanced reports</li> 
+            <li>Send and receive updates via e-mail</li> 
+            <li>Send Sheets</li> 
+           </ol> <p><strong>Shared Sheets: -</strong> In the smartsheet, we can share and manage any kind of work. Also, there is no limit of users. We can invite the number of users to edit and view your sheet.</p> <p><strong>Collaboration:-</strong> Collaboration is easy in the smartsheet, no matter whether it is collaboration on a particular task or sharing the work with the colleagues because all the project information and all the associated files notes are placed in one centralized location.</p> <p><strong>Mobility:-</strong> Smartsheet increases productivity by editing tasks, creating projects, and cooperating with the team members using any device (laptop, PC, phone, etc.) with the internet signal. In the smartsheet, users can instantaneously add files, view attachments, and also takes action on the notifications at anytime, anywhere that makes it helpful to know the status of the project for everyone.</p> <p><strong>Alerts and Reminders: -</strong> In the smartsheet, there is a feature of automated alerts and reminders that gives the facility of automating alerts and reminders for all the upcoming jobs and approaching deadlines that makes it easy for all the team members to keep track of all the due dates. So, in this way, all the tasks are completed on time. It is also helpful to simplify and modernize the work process.</p> <p><strong>Shared Workspaces: -</strong> Smartsheet provides the facility of securely collaborating among the clients, internal team members, and the partners. It makes the setup easy for others via shared folders and sheet.</p> <p><strong>Permission Levels:-</strong> Permission levels mean control access privileges related to the workspaces, rows, and sheets.</p> <p><strong>Upload Files:-</strong> In the smartsheet, we can easily upload the files to a workspace, row, or sheet.</p> <p><strong>View history of changes:-</strong> We can see the history of changes in the sheet, and who made the changes.</p> <p><strong>Advanced Reports: -</strong> With the help of Smartsheet, we can quickly make a report to check where the things stand and to check performance about the work.</p> <p><strong>Send and Receive Updates via E-mail: -</strong> In the smartsheet, there is no login requirement for people to update your sheet through e-mail.</p> <p><strong>Send Sheet: -</strong> We can easily send the sheets in the form of <strong>PDF</strong> or <strong>Excel</strong> attachments.</p> <h2 id="Target" class="h2">Target Market</h2> <p>Smartsheet can be used by any person or in any business, no matter whether a business is small or large.</p> <p>Various notable customers are:</p> 
+           <ul class="points"> 
+            <li>Netflix</li> 
+            <li>Cisco</li> 
+            <li>Aramark</li> 
+            <li>Box</li> 
+            <li>Hilton</li> 
+            <li>Behr</li> 
+            <li>World Vision</li> 
+            <li>Weyerhaeuser</li> 
+            <li>Colliers International</li> 
+            <li>Veritiv</li> 
+           </ul> <h2 id="Advantages" class="h2">Advantages of Smartsheet</h2> <p>There are various advantages of smartsheet:</p> 
+           <ol class="points"> 
+            <li>Easy user-interface</li> 
+            <li>Availability of Gantt charts</li> 
+            <li>Efficient mobile app</li> 
+            <li>Excellent card view</li> 
+           </ol> <p><strong>1. Easy User-Interface: -</strong> As compared to spreadsheet, smartsheet design is simple, clean, and professional.</p> <p><strong>2. Availability of Gantt chart: -</strong> Gantt chart is useful to estimate the progress of the work. With the help of the Gantt chart, we can easily check who is working in a particular task and when they did this task.</p> <p><strong>3. Excellent Mobile App: -</strong> Smartsheet comprises incredible mobile app functionality. Smartsheet is a user-friendly tool. Smartsheet is designed for iOS as well as Android devices.</p> <p><strong>4. Excellent Card View: -</strong> Every project management software do not contain a card view, but most of them are working to offer the feature of card view in their project management software.</p> <h2 id="Disadvantages" class="h2">Disadvantages of Smartsheet</h2> <p>There are various disadvantages of Smartsheet:</p> 
+           <ol class="points"> 
+            <li><strong>Lack of Time Tracking Feature: -</strong> In every project management software, time tracking is an essential feature. Such feature is not present in the Smartsheet project management tool and relies on the third-party integrations.</li> 
+            <li><strong>Not all Excel Formulas Work on Smartsheet:-</strong> Another disadvantage of Smartsheet is there are several Excel formulas that do not work on the Smartsheet.</li> 
+           </ol> <h2 id="Start-Working" class="h2">How to Start Working on Smartsheet</h2> <p>There are various steps to sign in to the smartsheet:</p> <p><strong>Step 1.</strong> If we want to use a smartsheet, we have many login options to login to Smartsheet. Also, we can create an account by Sign Up. But in this tutorial, we will login via the Google account. So, visit the following link <a href="https://app.smartsheet.com" rel="nofollow" target="_blank">https://app.smartsheet.com</a>.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet2.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> When we click on the link, a login page will open as shown above. We have to log in with the help of an e-mail address and password.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet3.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> A dashboard will open after successful login to our smartsheet account as shown above and we can start working.</p> <h2 id="Create-New" class="h2">How to Create a New Sheet</h2> <p>To create a new item, we have to follow the following steps:</p> <p><strong>Step 1.</strong> First, we have to click on the <strong>Menu</strong> icon (menu icon is present in the upper-left side of the Smartsheet window).</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet4.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> After clicking the <strong>menu icon,</strong> click on the <strong>Create</strong> option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet5.png" alt="Smartsheet Tutorial"> <h4 class="n">Note: It is must that an item name contains up to 50 characters.</h4> <p><strong>Step 3.</strong> Next, we have to select the title of the sheet which we want to create, and after choosing the title of the sheet we can start filling item in the sheet, and in this way our first sheet is created</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet6.png" alt="Smartsheet Tutorial"> <h4 class="n">Note: The sheet which we created will not be visible to others until we share the sheet with others.</h4> <h2 id="Rename-Item" class="h2">How to Rename an Item in a Sheet</h2> <p>There are various steps which we have to follow to rename an item in a Smartsheet:</p> <p><strong>Step 1.</strong> To rename an item, right-click on that item that we want to rename and then select <strong>Rename</strong> option. The below figure show the pictorial representation to rename an item:</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet7.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> After clicking on the rename option, type the new name of that item, which we want to rename, and then click OK. The below figure shows the item after rename:</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet8.png" alt="Smartsheet Tutorial"> <h2 id="Overview" class="h2">Overview of the Smartsheet Item</h2> 
+           <ol class="points"> 
+            <li><strong>Grid:</strong> Grid contains not any predefined column. Grid is a clean slate, and we use a grid when we start from scratch.</li> 
+            <li><strong>Task List: -</strong> Task List contains various predefined columns such as Task Name, Assigned To, Due Date, Status, and Comments.</li> 
+            <li><strong>Forms: -</strong> In the smartsheet, we make a three-column sheet and a form attached to this sheet. We use this form at that time when we know how data is collected from others with a form.</li> 
+            <li><strong>Report: -</strong> Report is used to generate a report so that we can check the performance and position of the project.</li> 
+            <li><strong>Dashboard/Portal:-</strong> Using a dashboard/Portal, we can create a visual summary of the sheet data.</li> 
+           </ol> <h2 id="Create-Copy" class="h2">How to Create a Copy of a Sheet</h2> <p>There are various steps to create a copy of a sheet:</p> <p><strong>Step 1.</strong> To create a copy of a sheet, select the sheet which we want to copy and after choosing the sheet, it will open. Click on the <strong>file</strong> and select <strong>Save as New</strong> to display the <strong>Save as New</strong> window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet9.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, we have to type the name of the new sheet under "Name your sheet" as shown below:</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet10.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Under the <strong>Save in,</strong> we can choose the folder or location where we want to save the copied sheet.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet11.png" alt="Smartsheet Tutorial"> <p><strong>Step 4.</strong> Next, we have three options, i.e., <strong>Sharing Options, Automated Workflow &amp; Alert Options, and Data &amp; Formatting Options.</strong> We can choose one of the options from them by clicking on it. Then, select the item that we want to save with a copy of our sheet.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet12.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Click on the <strong>Save</strong> button.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet13.png" alt="Smartsheet Tutorial"> <h2 id="Modify-Rule" class="h2">How to Modify the rule permission settings for the sheet.</h2> <p><em>We use this to control who can receive notifications and requests from the sheet.</em></p> <p>We have to follow the following steps to modify the rule permission settings for the sheet:</p> <p><strong>Step 1.</strong> First, we click on the <strong>Automation</strong> option on the menu bar.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet14.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, we click on the <strong>Manage Workflows.</strong></p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet15.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Next, to modify the permission levels in the automation window, click on the <strong>Setting</strong> icon, which is present on the upper-right side of the window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet16.png" alt="Smartsheet Tutorial"> <p><strong>Step 4.</strong> After clicking on the setting icon, the page of the permission levels will open, and after that, we can modify the automation permissions setting for the sheet.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet17.png" alt="Smartsheet Tutorial"> <p><strong>Step 5.</strong> Last, we have to select one of the options from the given options <strong>(Restricted, Limited, Unrestricted),</strong> and when we choose the option, click <strong>OK</strong>.</p> <h2 id="Data-and-Formatting" class="h2">Data &amp; Formatting Options</h2> <p>There are various options available in the data and formatting options:</p> 
+           <ol class="points"> 
+            <li>Sheet data and formatting</li> 
+            <li>Comments</li> 
+            <li>Attachments</li> 
+            <li>Cell Links</li> 
+            <li>Sheet Links</li> 
+            <li>Sheet Filters</li> 
+            <li>Forms</li> 
+           </ol> <p><strong>1. Sheet Data and Formatting: -</strong> Sheet data and formatting contains the information which we can type into the cells and the information regarding the manual formatting, which is applied to the cells.</p> <p><strong>2. Comments:-</strong> Comments comprises all the row comments and the sheet-level comments.</p> <p><strong>3. Attachments:-</strong> Attachments comprise attachments of all the rows and Sheet-level.</p> <p><strong>4. Cell Links:-</strong> Cell links include <strong><em>inbound</em></strong> cell links. c</p> <p><strong>5. Sheet Hyperlinks:-</strong> Sheet hyperlinks contain hyperlinks of the other sheets.</p> <p><strong>6. Sheet Filters: -</strong> Sheet filters contain sheet filters.</p> <p><strong>7. Forms:-</strong> Forms contain forms which are attached to the sheet.</p> <h2 id="Save-Sheet" class="h2">How to Save the Sheet Data</h2> <p>We can perform various actions to save the sheet data:</p> 
+           <ol class="points"> 
+            <li>To save the sheet data, we can use the shortcut key <strong>Ctrl + S</strong> for <a href="https://www.javatpoint.com/windows">Windows</a> and <strong>Cmd + S</strong> for Mac.</li> 
+            <li>We can also use auto-save options. For auto-save, we have to click on <strong>Account &gt; Personal Settings &gt; Settings.</strong></li> 
+            <li>If we want to save the sheet from outside of the Smartsheet, export the sheet to any format of your choice, then we can save the sheet from outside of the Smartsheet.</li> 
+           </ol> <h2 id="Refresh-Sheet" class="h2">How to Refresh the Sheet</h2> <p>We can refresh the sheet by performing the following steps:</p> 
+           <ol class="points"> 
+            <li>Click on the <strong>File</strong></li> 
+            <li>After clicking on the file option, select the refresh option and refresh the sheet.</li> 
+           </ol> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet18.png" alt="Smartsheet Tutorial"> <h2 id="Rows-and-Hierarchy" class="h2">Rows and Hierarchy</h2> <p>In a Sheet, rows are the essential element. Rows include information such as task name, customer name, order information, etc. In a row, we can also add some information like comments and attachments. In a row, there is a reminder which we can use to keep track of the essential items like due dates. In Smartsheet, the information can also be shared with the help of the send row option, and for updating on row items, we can request from the team members.</p> <p>Smartsheet provides a wonderful feature of indent tool. With the help of an indent tool, we can create a row hierarchy. So, in a project, instead of using hundreds of rows, we condense the data so that we can only focus on a specific aspect.</p> <h2 id="Indent" class="h2">Hierarchy: Indent or Outdent Rows</h2> <p>Indent row means making a hierarchy on a sheet. If we indent a row, it becomes the child of the row that is above it. We can only create the hierarchy from the child row; it means we cannot generate the hierarchy from the parent row.</p> <h3 class="h3">How to Indent a Row</h3> <p>There are various steps which we use to indent a row:</p> <p><strong>Step 1.</strong> To indent a row, select that row which we want to indent. Then right-click on that row. We can easily see in the below figure that we have selected a row named <strong><em>Business case</em></strong>.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet19.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, we click on the <strong>Indent</strong> option</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet20.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Now, we can see in the below figure that the row is indented and has become the child of the row, above it.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet21.png" alt="Smartsheet Tutorial"> <h2 id="Remove-Hierarchy" class="h2">Remove Hierarchy</h2> <p><strong><em>Remove Hierarchy means outdent a row</em></strong>.</p> <p>There are various steps to remove hierarchy:</p> <p><strong>Step 1.</strong> To remove the hierarchy, select the row in which we want to remove hierarchy. In the below figure, we can easily see that we have selected a row named <strong>Business Case</strong>.</p> <p><strong>Step 2.</strong> Then, right-click on a cell of a row which we want to outdent or remove hierarchy and click on the <strong>Outden</strong>t option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet22.png" alt="Smartsheet Tutorial"> <br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet23.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> We can easily see in the below figure the row after removing hierarchy or outdenting a row.</p> <h3 class="h3">Hierarchy Best Practices</h3> <p>There are some essentials points which we have to keep in our mind while working with hierarchy:</p> 
+           <ul class="points"> 
+            <li>There is no limit to indent. We can apply it to any number of rows according to the need.</li> 
+            <li>If we want to delete a parent row, we also have to delete the indented child rows. It means we cannot delete the parent row without deleting the child row, which is indented.</li> 
+            <li>If we click the row which contains the items below it, the child row will move along with that item which we selected.</li> 
+           </ul> <h2 id="Column-Type-Reference" class="h2">Column Type Refrence</h2> <p>Columns in Smartsheet are the same as the columns in a spreadsheet except that the Smartsheet column contains some unique features that make the Smartsheet more powerful and easier. Column type means the type of data that is allowed to enter into a column. In the Smartsheet, we work with configurable columns and default columns.</p> 
+           <ul class="points"> 
+            <li><strong>Default Columns: -</strong> The column which we cannot remove or change is known as a Default column. In every sheet primary column is present. Primary column is obligatory we cannot delete the primary column from the sheet.<br> The column values are the key descriptor for the row. The column contains a type which is Text/Number.<br> There are various types of column display icons which we use to alert some row-specific activities: 
+             <ol class="points"> 
+              <li><strong>The<img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet24.png" alt="Smartsheet Tutorial">Icon used for Attachments: -</strong> Each row contains an icon for attachments. By using this, we can easily attach some attachments with the row. If we want to review the attachments, then click on the icon.</li> 
+              <li><strong>The<img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet25.png" alt="Smartsheet Tutorial">Icon used for Comments: -</strong> Each row contains an item for comment. Comment icon is used for commenting. If we want to review the comment, then we have to click on the comment icon.</li> 
+              <li><strong>The<img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet26.png" alt="Smartsheet Tutorial">Icon used for Row Action Indicators: -</strong> The row action indicators icon is used to display the icon for update requests, pending reminders, allocation alerts, and locks that are linked with the row.</li> 
+             </ol></li> 
+            <li><strong>Primary Column: -</strong> The column which we cannot change is known as Primary column. The primary column is a column that has a type of Number or Text.</li> 
+            <li><strong>Configurable Columns:-</strong> In the Smartsheet, there are various types of configurable columns: 
+             <ol class="points"> 
+              <li>Text/Number</li> 
+              <li>Contact List</li> 
+              <li>Date</li> 
+              <li>Dropdown List (Single-Select)</li> 
+              <li>Dropdown List (Multi-Select)</li> 
+              <li>Checkbox</li> 
+              <li>Symbols</li> 
+              <li>Auto-Number/System 
+               <ol class="points"> 
+                <li><strong>Text/Number: -</strong> Text/Number column type comprises of text values, numeric values, or the combination of both values, i.e., text as well as numeric. For comment, Text/Number is the best selection. For project expenses, the number type is the best option.</li> 
+                <li><strong>Contact List: -</strong> The contact list column type is used to store the values like an owner, assigned to, etc,. With the help of the contact list column type, we can contact the collaborators easily. In addition to that, the contact list column type is also helpful to <strong><em>send reminder</em></strong> and <strong><em>generate report</em></strong> which consists of the tasks list that is assigned to an individual team member.<br> If we use the contact list column type, by using different options, we can define the chosen contact values in the value box. Contact name and email address are the acceptable values for the contact list.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet27.png" alt="Smartsheet Tutorial"><br> In the contact list, we can also set-up the preferred contacts, which helps to access the contact quickly only by clicking the dropdown arrow.</li> 
+                <li><strong>Date:-</strong> In the cell of the date column, there is a calendar icon. By clicking on the calendar icon, we can easily choose a specific date. If we want to type a date manually, it is also allowed in the date column. The date column type is helpful in displaying the items in the calendar view.<br> There are various formats of date in the smartsheet. We can set up the format of the date with the help of personal settings in the smartsheet account.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet28.png" alt="Smartsheet Tutorial"></li> 
+                <li><strong>Dropdown List (Single-Select): -</strong> The dropdown list contains a list of values. We select one value from the list of values.<br> If we want to remove any item from the dropdown list, first select that item, which we want to remove and then click on the delete button or backspace.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet29.png" alt="Smartsheet Tutorial"></li> 
+                <li><strong>Dropdown List (Multi-Select): -</strong> The dropdown list (multi-select) contains the list of values. We can select multiple values from the list of values. When we use dropdown list (multi-select) option, then we can type the values to be used in the list.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet30.png" alt="Smartsheet Tutorial"></li> 
+                <li><strong>Checkbox: -</strong> Checkbox column contains the checkbox, which can be checked or unchecked.</li> 
+                <li><strong>Symbols:</strong> <strong>-</strong> In the Symbol table, visual images are present. The symbol column is used to specify the status of the row. In the symbol column, we cannot add any symbol manually.</li> 
+                <li><strong>Auto-Number/System:</strong> <strong>-</strong> Auto-Number/System is the type of column in which the values for each row are generated automatically. We use Auto-Number/System when we need to enter values like the part number, Invoice number, row IDs, customer numbers, and so on.</li> 
+               </ol></li> 
+             </ol></li> 
+           </ul> <h2 id="Change-its-Types" class="h2">How to Edit a Column to Change its Type</h2> <p>If we want to modify the existing column properties, we have to follow the following steps:</p> <p><strong>Step 1:</strong> First, click on the dropdown arrow. Dropdown arrow is present under the column header.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet31.png" alt="Smartsheet Tutorial"> <p><strong>Step 2:</strong> Next, select the edit column properties.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet32.png" alt="Smartsheet Tutorial"> <p><strong>Step 3:</strong> Then, we can change the properties of the existing column</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet33.png" alt="Smartsheet Tutorial"> <h2 id="Create-Column-Description" class="h2">Create a Column Description</h2> <p>There are various steps to create a column description:</p> <p><strong>Step 1:</strong> First, right-click on the column header and choose <strong>Add Column Description.</strong></p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet34.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Then the column description window will appear. Finally, we can create the column description.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet35.png" alt="Smartsheet Tutorial"> <h2 id="Edit-Column-Description" class="h2">Edit Column Description Information</h2> <p>There are various steps to edit the column description information:</p> <p><strong>Step 1.</strong> First, right click on the column header and then click on the option named <strong><em>Edit Column Description</em></strong>.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet36.png" alt="Smartsheet Tutorial"> <p><strong>Step2.</strong> Next, modify the desired changes in the column description window and click on the <strong>OK</strong> button.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet37.png" alt="Smartsheet Tutorial"> <h2 id="Set-up-Dropdown-Column" class="h2">How to Set Up a Dropdown Column in a Sheet</h2> <p>There are various steps to set up a dropdown column in a sheet:</p> <p><strong>Step 1.</strong> First, click on the dropdown arrow, which is present below the column header. Then choose the option either <em>insert column right or insert column left, </em>which is based on the need where we want to insert an extra dropdown column.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet38.png" alt="Smartsheet Tutorial"> <p><strong>Step 2:</strong> Next, we have to type the name of the column in the <strong>Nam</strong>e box.</p> <p><strong>Step 3.</strong> Select column types, either Dropdown (Single Select) or Dropdown (Multi-Select).</p> <p><strong>Step 4.</strong> Next, type the value in the Value box based on the need means which type of value we want to get appeared in the list.</p> <p><strong>Step 5.</strong> Click on the <strong>OK</strong> button.</p> <h2 id="Edit-Dropdown-Column" class="h2">How to Edit Dropdown Column Properties</h2> <p>Edit dropdown column properties means to add or delete values from the dropdown list.</p> <p>There are various steps to edit the dropdown column property:</p> <p><strong>Step 1.</strong> First, click on the dropdown arrow and select <strong><em>Edit Column Properties</em></strong> option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet39.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, alter the listed value, which is stored in the value box. If you want to delete the value from the dropdown list, then select the value which we want to remove and press <strong><em>Delete</em></strong> and <strong><em>Backspace</em></strong>.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet40.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Then, click on the <strong>Save</strong> button.</p> <h3 class="h3">Some Important Tips While Working with Dropdown Columns:</h3> <p>There are various essential points which we should keep in mind while working with the dropdown columns:</p> 
+           <ol class="points"> 
+            <li>In the Multi-Select dropdown column, we can select any number of values.</li> 
+            <li>Free text values are stored alphabetically in the Multi-Select drop-down columns at the end of the cell to which they are added.</li> 
+           </ol> <h2 id="Attachments" class="h2">Attachments in Smartsheet</h2> <p>In the Smartsheet, we can easily manage and attach files in our sheet so that all the work can be accessed at one place. With the help of desktop and cloud storage providers, we can easily attach our files. The attachment feature in Smartsheet helps us to keep all the project related information at one place.</p> <h3 class="h3">Attach Files Stored on Your Computer to a Sheet</h3> <p>In the Smartsheet, every kind of file can be attached to a sheet, row, or comment. It is helpful in the situation where we want to relate the files to the items which we are tracking in the smartsheet.</p> <p>In the Smartsheet, we can attach files that are stored on the computer or the files which are stored on the cloud.</p> <h3 id="Attach-File-or-Link" class="h3">How to Attach a File or Link from an Online Resource</h3> <p>We can attach files with the help of a workspace, sheet, row, and comment.</p> <p>So, let us discuss all these one by one.</p> 
+           <ol class="points"> 
+            <li><strong>Attach files from the workspace: -</strong> First, from the workspace, click on the icon named attachment's, which is present in the upper-right side of the workspace. Then, we can attach the files easily.<br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet41.png" alt="Smartsheet Tutorial"></li> 
+            <li><strong>Sheet Attachments: -</strong> For the sheet attachment, open the sheet in which we want to add the attachment and again click on the attachment's icon, which is present on the right side of the sheet. Then, click on the option named <strong>Attach Files to Sheet.</strong><br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet42.png" alt="Smartsheet Tutorial"></li> 
+            <li><strong>Row Attachments: -</strong> On the row present in the sheet, click on the icon named <strong>attachment</strong>, and attach the attachment based on the requirement<br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet43.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">Behaviors of row-level attachments</h3> <p>The behaviors of row-level attachments are:</p> 
+           <ul class="points"> 
+            <li>At a time, only in one row, we can attach files.</li> 
+            <li>If a file is already attached to a row, then the attachment icon will be displayed on the left of the row number.</li> 
+            <li>If there is a file that is already attached to any row, then we cannot attach that file with another row or any area of the sheet.</li> 
+           </ul> <p><strong>3. Comment Attachments: -</strong> In a row, there is a comment icon, so we have to click on the comment icon, and after that, we have to click on the add attachment option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet44.png" alt="Smartsheet Tutorial"> <h2 id="Supported-File-Types" class="h2">Supported file types for attachments in the Smartsheet</h2> <p>There are various files types that support attachments in the Smartsheet:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>File Type</th> 
+              <th>Examples of Extensions</th> 
+             </tr> 
+             <tr> 
+              <td>Microsoft Office Suite</td> 
+              <td>.pptx, .xlsx, .docx</td> 
+             </tr> 
+             <tr> 
+              <td>Most Image Formats</td> 
+              <td>.png, .gif, .jpg</td> 
+             </tr> 
+             <tr> 
+              <td>Portable Document Format</td> 
+              <td>.pdf</td> 
+             </tr> 
+            </tbody>
+           </table> <h2 id="Browsers-and-Uploaded" class="h2">Supported Browsers and Uploaded Quantities</h2> 
+           <ul class="points"> 
+            <li>At a time, we can upload 100 files. In the Smartsheet, there is no limit of file attachment. We can attach any number of files on a row or sheet. But there is a restriction on the amount of the storage space.</li> 
+            <li>If a browser support HTML 5, we can only upload that type of files which are having the size more than the 30 MB.</li> 
+           </ul> <h2 id="Unsupported-File-Types" class="h2">Unsupported File Types</h2> <p>Due to some security issues, Smartsheet does not support some types of files. For example: In the Smartsheet, we cannot upload the .exe file (executable file).</p> <h2 id="What" class="h2">Maximum file sizes based on the user and method of upload</h2> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>User or type of Upload</th> 
+              <th>Maximum File Size</th> 
+             </tr> 
+             <tr> 
+              <td>Anyone uploading files from a Smartsheet form</td> 
+              <td>30 MB</td> 
+             </tr> 
+             <tr> 
+              <td>Free User</td> 
+              <td>250 MB</td> 
+             </tr> 
+             <tr> 
+              <td>Trail User</td> 
+              <td>30 MB</td> 
+             </tr> 
+             <tr> 
+              <td>Licensed User</td> 
+              <td>250 MB</td> 
+             </tr> 
+            </tbody>
+           </table> <h2 id="Conversations" class="h2">Conversations in Smartsheet</h2> <p>Smartsheet offers a wonderful feature of conversations. With the help of the conversation feature, we can easily manage our work, and it provides effective communication among all the collaborators regarding the work.</p> <p>By using @mention, user can directly reply from the mail. This saves time because there is no need to switch between the apps.</p> <h2 id="Conversations-in-the-Context" class="h2">Having Conversations in the Context of Your Work</h2> <p>Conversations provide easy tracking of the work and discussion regarding work can also be done in one place. We can apply conversations to a particular row or to the whole sheet based on the requirement. In the conversation panel, we can work with comments.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet45.png" alt="Smartsheet Tutorial"> <p>If we want to make direct comments to a particular person, then we have to type the @&lt;email address&gt; (for example, @javatpoint.com) in the comment section to tag the person.</p> <h2 id="Interact-with-Comment" class="h2">Interaction with Comments in a Sheet</h2> <p>In the Smartsheet, all the comments for the sheets, rows, and cards are available in the conversation panel. If we want to review the conversation, we have to click on the conversation icon, which is present in the right panel.</p> <p>In the conversations, all the comments appear chronologically on the basis of the date.</p> <p>There are various tips which we have to keep in mind while working with the comments:</p> 
+           <ul class="points"> 
+            <li>If we want to view the different collection of comments, then click on All, which is present at the top of the panel. If we want to display only those comments, which are applied to the whole sheet, then we click on the sheet.</li> 
+            <li>If we want to go on that row where the comment was made, first, we have to click on the row number and click on that person's name who wrote the comment in the conversation panel.</li> 
+           </ul> <h2 id="New-Comment-for-Row" class="h2">Create a New Comment for a Row (Grid View or a Card View)</h2> 
+           <ul class="points"> 
+            <li>If we want to write a comment for any row, then in the comment column of the row, we have to click on the <strong>Add a comment</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet46.png" alt="Smartsheet Tutorial"></li> 
+            <li>If we want to write a comment for a specific card, then we have to right-click on the card and then click on the comments option.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet47.png" alt="Smartsheet Tutorial"></li> 
+           </ul> <h2 id="Create-New-Comment" class="h2">Creating a New Comment applied to the Entire Sheet</h2> <p>When we want to require a general conversation related to the sheet, and then we use sheet comments. It is not for a specific row but we use it for an entire sheet.</p> <p>There are various steps to create a new comment on the entire sheet:</p> <p><strong>Step 1.</strong> First, click on the conversation's icon, which is in the right panel.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet48.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, type the comment in the <strong>add a comment box.</strong></p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet49.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Last, click on the option named <strong>post comment</strong> and then press enter.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet50.png" alt="Smartsheet Tutorial"> <h2 id="Reply-Existing-Comment" class="h2">How to Reply an Existing Comment</h2> <p>There are various steps which we have to perform to reply an existing comment:</p> <p><strong>Step 1.</strong> Click on the <strong>Reply</strong> option in the conversation panel.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet51.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Then, type a reply in the reply box.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet52.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Last, click on the post comment icon.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet53.png" alt="Smartsheet Tutorial"> <h2 id="Edit-E-mail-Print-or-Delete-Comment" class="h2">Edit, E-mail, Print or Delete a Comment</h2> <p>If we want to edit, email, print, or delete a comment, then click on the <strong>More Options</strong> icons, which is on the right side of the conversation panel.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet54.png" alt="Smartsheet Tutorial"> <h2 id="Give-Context-to-Comments" class="h2">Use File Attachments to Give Context to Comments</h2> <p>If we want to give some additional context to comment, then we can add some attachments along with the comment. To add an attachment to the comment, click on the icon named <strong>Attachments</strong>. The Attachment icon is present at the lowermost side of the add comment box.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet55.png" alt="Smartsheet Tutorial"> <h2 id="Remove-Attachments-from-Comment" class="h2">Remove Attachments from a Comment</h2> <p>There are various steps to remove an attachment from a comment:</p> <p><strong>Step 1.</strong> First, from the comment which contains an attachment, click on the menu icon, present in the right of the conversation panel, and then select the option named edit comment.</p> <p><strong>Step 2.</strong> Next, we have to move the mouse over the attachment and then click on the Delete option so that the file is deleted.</p> <p><strong>Step 3.</strong> Last, we have to click on the save option so that the changes are saved.</p> <h2 id="Attached-to-a-Comment" class="h2">How to Delete a File Attached to a Comment</h2> <p>We cannot delete the files that are attached to a comment from the attachments panel. If we want to delete the file, we only have one option: we have to delete the file from the comment itself, or we can delete that comment in which the file is attached.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet56.png" alt="Smartsheet Tutorial"> <h2 id="Comment-Panel" class="h2">How to Delete an Attachment from the Comment Panel</h2> <p>There are various steps to delete an attachment from the comment panel.</p> <p><strong>Step 1.</strong> First, click on the icon named <strong>More Options,</strong> which is present on the right side of the comment panel.</p> <p><strong>Step 2.</strong> Select the option named <strong>Edit Comment.</strong></p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet57.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Next, we have to move the mouse over the attachment, which we want to delete, and then click on the trash icon.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet58.png" alt="Smartsheet Tutorial"> <h2 id="Conditional-Formatting" class="h2">Conditional Formatting in the Smartsheet</h2> <p>In the Smartsheet, conditional formatting is used to create the rules on the sheet. So, the conditional formatting helps us to create the rules on the sheet. Because of the Conditional formatting, the appearance of the sheet cell is changed.</p> <h3 class="h3">How to Create a Conditional Formatting Rule</h3> <p>There are various steps to create a conditional formatting rule:</p> <p><strong>Step 1.</strong> First, on the toolbar, we have to click on the <strong>conditional formatting</strong> icon so that the conditional formatting window is displayed.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet59.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, to make a new conditional formatting rule, click on the option named <strong>Add New Rule.</strong></p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet60.png" alt="Smartsheet Tutorial"> <h3 class="h3">How to Set the Conditions for the Rule</h3> <p>There are various steps to set the conditions for the rule:</p> <p><strong>Step 1.</strong> First, click on the <strong>Set Condition</strong> option so that the set condition window is displayed.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet61.png" alt="Smartsheet Tutorial"> <h4 class="n">Note: The criteria differ based on the type of the column. For example: If the column type is a date, then we can only apply the formatting on the basis of the date means the date in the past or date in the next days. If the column is a checkbox type, then we can only apply the formatting on the basis of the checked box, or unchecked box.</h4> <p><strong>Step 2.</strong> If we want to customize the rule again, then click on the defined custom criteria option.</p> <p><strong>Step 3.</strong> If we want to display the formatting on the rows where the condition is not applied then choose the checkbox to use format when the condition is not met.</p> <p><strong>Step 4.</strong> Next, when all the conditions are set, then click on OK.</p> <h3 class="h3">Set the Format for the Rule</h3> <p>There are various steps to set the format for the rule:</p> <p><strong>Step 1.</strong> To set the format for the rule first, from the conditional formatting window, we have to click on the option <strong>this format</strong>. The below figure shows how the formatting option is displayed within the window:</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet62.png" alt="Smartsheet Tutorial"> <p>We can apply formatting based on the requirement means we can use formatting only on a particular column in the row or the entire rows. If we do not define the limit of the formatting when it takes place, then, by default, the formatting will be applied on the entire row.</p> <p><strong>Step 2.</strong> Next, click on the OK.</p> <h2 id="Formatting-Options" class="h2">Formatting Options</h2> <p>The below table shows the various type of formatting options that we use for the formatting:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>Option Name</th> 
+              <th>Use of the Option</th> 
+             </tr> 
+             <tr> 
+              <td>Font Type and Font Size</td> 
+              <td>Font type is used to set the type of the font such as Arial, Times, Verdana, Tahoma, or Auto. Font size is used to change the size of the font.</td> 
+             </tr> 
+             <tr> 
+              <td><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet63.png" alt="Smartsheet Tutorial"></td> 
+              <td>Bold, italics, underscore, and strike through are used for the font.</td> 
+             </tr> 
+             <tr> 
+              <td><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet64.png" alt="Smartsheet Tutorial">(Background)</td> 
+              <td>The Background option is used to apply the background color to the cells.</td> 
+             </tr> 
+             <tr> 
+              <td><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet65.png" alt="Smartsheet Tutorial">(Font color)</td> 
+              <td>Used to apply a color to the font</td> 
+             </tr> 
+            </tbody>
+           </table> <h2 id="Condition-Clone-or-Rearrange" class="h2">Add a Condition, Clone, or Rearrange a Rule</h2> <h3 class="h3">Add a Condition</h3> <p>There are various steps to add a condition:</p> <p><strong>Step 1.</strong> First, on the toolbar, click on the <strong>Conditional Formatting</strong> icon.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet66.png" alt="Smartsheet Tutorial"> <br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet67.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Then, to view the additional options, click on the drop-down arrow, which appear in the left side of the rule in the conditional formatting window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet68.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Next, select Add Condition (Add) to add conditions to a rule.</p> <p>The Add condition (AND) rule is used to apply an "AND" operator in the rule, which indicates that there are various conditions that should be met for the format to be applied.</p> <h3 class="h3">Clone a Rule</h3> <p>Cloning a rule means copy an existing rule so that it can be used in a similar new rule. If we want to clone a rule, click on the drop-down, which is on the left of the rule, and then select the cloned rule.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet69.png" alt="Smartsheet Tutorial"> <h3 class="h3">Rearrange Rules</h3> <p>If we want to execute the rule in a specific order, then we can rearrange the rule. So, to rearrange the rule, click and drag on the rules up or down in the list.</p> <h3 id="Delete-or-Disable" class="h3">Delete or Disable a Conditional Formatting Rule</h3> <p>There are various steps to delete or disable a conditional formatting rule:</p> <p><strong>Step 1.</strong> First, on the toolbar, click on the conditional formatting icon. When we click on the conditional formatting icon, then the list of all the existing rules will appear.</p> <p><strong>Step 2.</strong> Next, select one of the following:</p> 
+           <ul class="points"> 
+            <li><strong>To temporarily turn off:</strong> We use a <strong>Disable</strong> option if we want to use the existing rule later. If we want to disable the rule, click on the drop-down arrow and select <strong>Disable Rule.</strong> If we want to again use that rule which we disabled, click on the option <strong>Enable Rule.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet70.png" alt="Smartsheet Tutorial"></li> 
+            <li><strong>To Delete the Rule Entirely:</strong> If we want to delete the rule permanently, then use the option <strong>To Delete the Rule Entirely.</strong> To use this rule, we have to click on the drop-down arrow and select the Delete Rule option.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet71.png" alt="Smartsheet Tutorial"></li> 
+           </ul> <h2 id="Formula-Basics" class="h2">Formula Basics</h2> <p>Smartsheet provides the facility of the formula's so that we can perform the calculations. We can apply the formula on the numeric values and values contained within the cells. With the help of the formulas, we can also automate symbols and drop-down fields.</p> <h3 id="Create-and-Edit-Formula" class="h3">Create and Edit Formulas in Smartsheet</h3> <p>In Smartsheet, formulas are used to calculate the numeric values and automate aspects of the sheet.</p> <h3 class="h4">Create a Formula</h3> <p>There are various files types which we use to create a formula:</p> 
+           <ul class="points"> 
+            <li>Text/Number</li> 
+            <li>Contact List Fields</li> 
+            <li>Date</li> 
+            <li>Dropdown List</li> 
+            <li>Checkbox</li> 
+            <li>Symbol</li> 
+           </ul> <p><strong>We can place a formula in a file with the help of the following:</strong></p> 
+           <ol class="points"> 
+            <li>Select the file.</li> 
+            <li>Then, in the field, type the equal sign, and then type the calculation.<br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet72.png" alt="Smartsheet Tutorial"></li> 
+            <li>When the formula is typed, then press the enter button. The result will be displayed as:<br> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet73.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 id="Functions" class="h3">Functions</h3> <p>Formulas may also contain functions like: SUM, AVG, etc. With the help of the function, we can perform calculations and data manipulation in the smartsheet.</p> <h3 class="h3">Formula Operators</h3> <p>There are various types of operators we use in the Smartsheet formulas:</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet74.png" alt="Smartsheet Tutorial"> <h3 id="Edit-Existing-Formula" class="h3">Edit an Existing Formula</h3> <p>We have to follow the following steps to edit an existing formula:</p> <p><strong>Step 1.</strong> First, double-click on the cell, which comprises the formula to edit the formula.</p> <p><strong>Step 2.</strong> Then, edit the formula and press the Enter key.</p> <h3 class="h3">Work with Percentage</h3> <p>In the Smartsheet, the percentage is treated as a value between 0 and 1. If we want to create a formula for percent, then we have to use decimals values.</p> <p><strong>For Example:</strong> =0.5 + 0.4</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It will give you 90% in a column formatted for percentage.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = 5+4</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will give you 900% in a column formatted for percentage.</p> <h3 id="Copy-Formula" class="h3">Copy a Formula with Drag-Fill or Auto-Fill</h3> <p>If there is any formula that we want to use in the multiple fields without typing the formula manually, then we have two methods. First is Drag fill, and the second is Auto-fill.</p> 
+           <ol class="points"> 
+            <li><strong>Drag-Fill: -</strong> In the drag-fill method, if we want to copy a formula in the sheet, then drag the formula from the lower-left corner of the selected filed. When the formula is copied, then automatically formula will change its respective field references.</li> 
+            <li><strong>Auto-Fill: -</strong> The auto-fill method is used when we want to automatically copy the formula into the desired field. When we use auto-fill, then automatically new formula changes its respective filed references.</li> 
+           </ol> <h3 id="Areas-where-Formula" class="h3">Areas Where Formula Use is Restricted</h3> <p>There are various fields where the formula cannot contain:</p> 
+           <ol class="points"> 
+            <li>Contact list fields that we used in resource management.</li> 
+            <li>Default columns (Row Action Indicator, Comments, Attachments).</li> 
+            <li>System Fields (such as Modified By).</li> 
+            <li>There are various fields which we use for resource management and dependencies: 
+             <ul class="points"> 
+              <li>Predecessors</li> 
+              <li>Duration</li> 
+              <li>Start Date</li> 
+              <li>End Date</li> 
+              <li>% Allocation</li> 
+              <li>% Complete</li> 
+             </ul></li> 
+           </ol> <h3 class="h3">Features where Formulas Cannot be Edited</h3> <p>In the Smartsheet, there are various features where we cannot edit the formulas:</p> 
+           <ol class="points"> 
+            <li>Forms</li> 
+            <li>Reports (In reports, we can only view the formula result, but we cannot edit the formula).</li> 
+            <li>Update Requests (In Update Requests, the result of the formula is the only view, but we cannot edit the formula).</li> 
+            <li>Dashboard (In Dashboard, we can only view the formula result, but we cannot edit the formula).</li> 
+           </ol> <h3 class="h3">Features where Formulas Cannot be created</h3> <p>In the Smartsheet, there are various features where we cannot create the Formulas:</p> 
+           <ol class="points"> 
+            <li>Forms</li> 
+            <li>Reports</li> 
+            <li>Update Requests</li> 
+            <li>Dashboard</li> 
+           </ol> <h2 id="Sharing" class="h2">Sharing in Smartsheet</h2> <p>Sharing is the core feature of the Smartsheet. With the help of sharing, all the information is shared among all the collaborators effectively. In the Smartsheet, we can easily share the entire sheet, or some part of the sheet. In addition to that, we can also set some permissions or restrictions on the sheet so that we can control the sharing of the sheet. Smartsheet provides quick and easy collaboration.</p> <h2 id="Share-Item" class="h2">Share a Smartsheet Item</h2> <p>There are various steps to share a Smartsheet item:</p> <p><strong>Step 1.</strong> First, click on the share button, which is at the top of the item.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet75.png" alt="Smartsheet Tutorial"> <p>If the share button does not appear, then click on the drop-down arrow, which is present on the right side of the Smartsheet window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet76.png" alt="Smartsheet Tutorial"> <p>Then the sharing form will appear. If the item in the sheet is not shared with anybody, then the <strong>Invite Details option</strong> will be seen. With the help of the <strong>Invite Details</strong> page, we can enable and disable the invitation email, and we can also draft a custom message.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet77.png" alt="Smartsheet Tutorial"> <p>When the sheet is shared with others, then by default, the list of all the existing collaborators will appear.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet78.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Next, in the <strong>Invite Collaborators</strong> box, write the email address of those persons which we want to share the sheet. If there are multiple email addresses, then separate them by using semicolon or comma.</p> <p><strong>Step 3.</strong> Then, select the <strong>permissions level.</strong></p> <p><strong>Step 4.</strong> Last, we have to click on the <strong>share</strong> button.</p> <h2 id="Sharing-Options" class="h2">More Sharing Options</h2> <p>In Smartsheet, sometimes there may be situations where we cannot share the Smartsheet items directly, then we have various options:</p> 
+           <ol class="points"> 
+            <li>Send as Attachment</li> 
+            <li>Use a Form</li> 
+            <li>Publish</li> 
+           </ol> <p><strong>1. Send as Attachment: -</strong> Send as Attachment feature is used when we want to share a PDF or Excel file of a smartsheet item. So, to share a PDF or Excel file, we have to email the file as an attachment with the help of the Send as Attachment feature. By using this feature, we can also share the data of specific rows to the people, if needed.</p> 
+           <ul class="points"> 
+            <li><strong>Send One or More Rows via Email</strong><br> There are various steps to send one or more rows via email: 
+             <ol class="points"> 
+              <li>First, we have to click on the drop-down arrow on that row which we want to send or share and then select the <strong>send</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet79.png" alt="Smartsheet Tutorial"></li> 
+              <li>Then the send form will be displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet80.png" alt="Smartsheet Tutorial"></li> 
+              <li>Next, in the <strong>To</strong> field, we have to type the email address of the person, with whom we want to share the row information. If we want to share the row information to the multiple email addresses, separate each email address with the help of the semicolon or comma.</li> 
+              <li>The subject line and message body of the email comprises of the default values. We can also edit it, if needed.</li> 
+              <li>We use two options <strong>customize</strong> and <strong>layout</strong> to specify the fields which we want to include in the email</li> 
+             </ol></li> 
+           </ul> <h4 class="n">Note: If we want to send a single row, then only the Layout option will be available otherwise not.</h4> <p>If there is any column which we don't want to send, then click on the <strong>Edit</strong> button and uncheck those columns which we don't want to send.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet81.png" alt="Smartsheet Tutorial"> 
+           <ol start="6"> 
+            <li>If we want to receive a copy of an email, then we have to select the option <strong>Cc me.</strong></li> 
+            <li>Then click on the <strong>Send</strong></li> 
+           </ol> <h2 id="Email-Attachment" class="h2">Send a Sheet as an Email Attachment</h2> <p>If we want to send a snapshot of the sheet, we can easily send it by attaching it as an Excel or PDF file to an email message.</p> <p>There are various steps to send a sheet as an email attachment:</p> 
+           <ol class="points"> 
+            <li>First, click on the File and select the option named <strong>Send as Attachment.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet82.png" alt="Smartsheet Tutorial"></li> 
+            <li>When we click on the send as attachment option, then the send as attachment form will be displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet83.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, in the <strong>To</strong> field, we have to type the email address of the person, with whom we want to share the row information. If we want to share the row information to the multiple email addresses, then separate each email address with the help of the semicolon or comma.</li> 
+            <li>Then, we have to edit the <strong><em>subject line</em></strong> and the <strong><em>message body</em></strong> if required. If we don't edit it, then by default, the sheet name gets comprised in the subject line.</li> 
+            <li>Next, select the type of attachment in the <strong><em>attach as</em></strong> option. Attachment can be in Excel or PDF.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet84.png" alt="Smartsheet Tutorial"></li> 
+            <li>Last, we have to select the option named <strong>Delivery</strong> to send as attachment email.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet85.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then click on the send button.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet86.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p><strong>2. Use a Form: - Use a form</strong> option is used when we want to gather information from the people. With the help of forms, we can also add new rows in the sheet on the basis of their submission of forms without having any direct sharing access to the sheet.</p> 
+           <ul class="points"> 
+            <li><strong>How to Create a Form</strong></li> 
+           </ul> <p>There are various steps to create a form:</p> <p><strong>Step 1.</strong> First, open the sheet in which we want to attach a form.</p> <p><strong>Step 2.</strong> Then, on the menu bar, select the option named <strong>Forms,</strong> which is in the upper-left side of the smartsheet window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet87.png" alt="Smartsheet Tutorial"> <p>If the form option is not appearing, then select the down-arrow icon, which is present on the upper-right side of the Smartsheet window.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet88.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Click on the <strong>create form</strong> option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet89.png" alt="Smartsheet Tutorial"> <p>When we create a new form, then all the columns of the sheet are automatically added to the form.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet90.png" alt="Smartsheet Tutorial"> <p>By default, the form title is the same as the name of the sheet. the field in the form is same as the column name in the sheet.</p> <p><strong>Step 3.</strong> Next, we have to choose the element from the center of the form preview to edit the setting of the elements appeared in the right panel.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet91.png" alt="Smartsheet Tutorial"> <p><strong>Step 4.</strong> If we want to adjust the form-level setting, then we have to click on the <strong>Setting</strong> option, which is present at the top of the form.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet92.png" alt="Smartsheet Tutorial"> <p><strong>Step 5.</strong> When the form settings are finished, then click on the <strong>Save</strong> button. The save button is on the upper-right side of the form.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet93.png" alt="Smartsheet Tutorial"> <p><strong>Step 6.</strong> Next, if we want to preview the form, select <strong>Open Form</strong> option to check that form configured is correct or not.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet94.png" alt="Smartsheet Tutorial"> <p><strong>Step 7.</strong> Next, if we want to email the form directly, click on the Share Form option. Then copy the link of the form or insert it on a webpage or dashboard.</p> <p><strong>Step 8.</strong> Last, to close the form, select the back arrow and then return back to the sheet.</p> <p><strong>3. Publish: -</strong> In the Smartsheet, there is no need of a Smartsheet account to share a Smartsheet item. With the help of a public link, sharing can be possible.</p> 
+           <ul class="points"> 
+            <li><strong>How to Publish a Sheet</strong><br> There are various steps to publish a sheet: 
+             <ol class="points"> 
+              <li>First, click on the Publish Icon so that the publish option is displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet95.png" alt="Smartsheet Tutorial"></li> 
+              <li>There are various publish options. So, based on the need, we have to click on the option and set the option ON.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet96.png" alt="Smartsheet Tutorial"></li> 
+              <li>When based on the need, we set the option ON, then a link of the sheet is created.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet97.png" alt="Smartsheet Tutorial"> <br> There are various options for publishing a sheet: 
+               <ol class="points" type="i"> 
+                <li><strong>Read-only Html: -</strong> This option offers a read-only view of the sheet. In this option, we cannot switch the calendar view to the Gantt view. In ready only html, comments and attachments are not available.</li> 
+                <li><strong>Read-Only-Full: -</strong> The user interface of read-only-full is richer than the read only-HTML. This option provides the facility of row collapsed, and the user can also open the row comments and attachments.<br> To control the accessibility of the link, the <strong>Access Control</strong> option is used. If we want to set the default view to the grid or calendar view, we use the option named <strong>Publish Settings.</strong></li> 
+                <li><strong>Edit by Anyone: -</strong> This option is suitable for allowing anyone to open the sheet and make the changes, but the changes are only possible if the user has the Edit-Level sharing permissions.</li> 
+                <li><strong>iCal (Calendar): -</strong> By using this option, anyone can add the dates with the help of the non-smartsheet calendar.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet98.png" alt="Smartsheet Tutorial"></li> 
+               </ol></li> 
+              <li>Next, to share an embedded code and URL of the sheet using the keyboard, URL is copied and then pasted into the webpage or email message.</li> 
+             </ol></li> 
+           </ul> <h2 id="Share-an-Item-from-Workspace" class="h2">How to Share an Item from the Workspace</h2> <p>There are various steps to share an item from the workspace:</p> 
+           <ol class="points"> 
+            <li>First, click on the <strong>Menu</strong> Menu icon is present at the upper-left side of the Smartsheet window.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet99.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, from Home, click on the <strong>Workspace</strong> option in which the sheet items reside.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet100.png" alt="Smartsheet Tutorial"></li> 
+            <li>We have to right-click on the name of the item and then click on the Share option so that the sharing form will be open.</li> 
+            <li>Next, we have to click in the Invite collaborators box and then choose or type the contacts in which we want to share an item.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet101.png" alt="Smartsheet Tutorial"></li> 
+            <li>Last, click on the share button if we only want to share the sheet items, but if we want to share the workspace, then we have to click on the Share Workspace.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet102.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h2 id="Default-Sharing" class="h2">How to Set a Default Sharing View</h2> <p>If you want to set a default sharing view, then you must have the admin-level sharing permissions, or you should be the owner of the sheet.</p> <p>There are various steps to set a default sharing view:</p> 
+           <ol class="points"> 
+            <li>First, to display the sharing window, click on the <strong>share</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet103.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, select <strong>collaborators</strong> so that the list of the current smartsheet user can be displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet104.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, we have to select the <strong>Edit</strong> button, which is at the right of the Default view.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet105.png" alt="Smartsheet Tutorial"></li> 
+            <li>Select any <strong>view</strong> among all the view types such as Grid view, Card View, Gantt View, or Calendar View. We can also select default card view lanes and filter if needed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet106.png" alt="Smartsheet Tutorial"></li> 
+            <li>Click on the <strong>Save</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet107.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h2 id="Contacts" class="h2">Contacts in Smartsheet</h2> <p>In the Smartsheet, with the help of the contact feature, we can easily assign the task, and sharing of sheets with vendors, colleagues, and clients. In the Smartsheet, we have two kinds of Smartsheet contact list one, <strong>the account list</strong>, and another one is <strong>My Smartsheet Contacts</strong>. The account list is handled by the System Administrator. My Smartsheet Contacts are used to share a smartsheet with collaborator and customers who are not the part of the organization.</p> <p>In the Smartsheet, contacts can also be imported from other email services such as Yahoo Mail, Gmail, Hotmail, etc.</p> <h2 id="Add-Contacts" class="h2">How to Add Contacts to My Smartsheet Contacts</h2> <h3 class="h3">Bulk Import Contacts</h3> <p>There are various steps to import contacts:</p> 
+           <ol class="points"> 
+            <li>First, click on the Account then click on My Smartsheet contacts.</li> 
+            <li>Next, click on the Import Contacts and choose Gmail, .csv (Yahoo, Outlook), or vcf (vCard File).</li> 
+           </ol> <p>There are various steps which we have to follow for the kind of contact we want to import:</p> 
+           <ol class="points"> 
+            <li><strong>Gmail: -</strong> Choose that contact, which we need to import into the smartsheet and click on the option named <strong>Import.</strong></li> 
+            <li> <strong>.csv (Outlook, Yahoo, etc.): -</strong> Choose .csv file, and then click <strong>Continue</strong>. Select the contact, which we need to import into the smartsheet and click on <strong>Import.</strong></li> 
+            <li> <strong>.vcf (vCard File): -</strong> Select vCard file, and then click on the <strong>Continue,</strong> and click on <strong>Import.</strong></li> 
+           </ol> <p>In your <strong>My Smartsheet,</strong> the contacts will be added.</p> <h2 id="Add-Contacts-Individually" class="h2">Add Contacts Individually</h2> <p>There are various steps to add contacts individually:</p> 
+           <ol class="points"> 
+            <li>First, click on the Account.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet108.png" alt="Smartsheet Tutorial"></li> 
+            <li>Click on the option named <strong>My Smartsheet Contacts.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet109.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, click on the <strong>Add</strong> button in my smartsheet contact form, so that the contact window is displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet110.png" alt="Smartsheet Tutorial"></li> 
+            <li>Last, we have to type the contact name and the email address and then click on OK.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet111.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p>In the list of contacts, the new contact is added.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet112.png" alt="Smartsheet Tutorial"> <h2 id="Edit-or-Delete-Contacts" class="h2">How to Edit or Delete Contacts in the Smartsheet</h2> <p>There are various steps to edit or delete contacts in the Smartsheet:</p> 
+           <ol class="points"> 
+            <li>Click on <strong>Account</strong> then click on the <strong>My Smartsheet Contacts.</strong> Then the My Smartsheet Contacts form will be display.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet113.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, right-click on that contact, which you want to delete or edit and then Select the option named <strong>Edit Contact</strong> or <strong>Delete Contact.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet114.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h2 id="Export-Contact" class="h2">How to Export Contact from your Smartsheet Contacts List</h2> <p>There are various steps to export contact from your smartsheet contacts list:</p> 
+           <ol class="points"> 
+            <li>Click on the Account.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet115.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, click on the option named My Smartsheet contacts, and then the My Smartsheet Contact form will be displayed.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet116.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, click on the option named Export Contacts and then click on <strong>.csv.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet117.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p>You will export the contacts from your my Smartsheet Contacts list as a.csv file to the place where the downloads are stored in the computer.</p> <h2 id="Groups" class="h2">Groups in Smartsheet</h2> <p>In the Smartsheet, groups are created for providing easy and fast control access to sheets and workspaces. In a group, we can easily add new team members. We can also remove an existing member from the group if they leave the organization.</p> <h2 id="Create-Group" class="h2">How to Create a Group in Smartsheet</h2> <p>There are various steps to create a group in Smartsheet:</p> <p><strong>Step 1.</strong> First, click on the <strong>Account.</strong></p> <p><strong>Step 2.</strong> Then, click on the option named <strong>Account Admin.</strong> After that, click on the <strong>Group Management</strong> option. Then the <strong>Group Management</strong> form will be displayed which contains the list of all the groups that are already present in the Smartsheet.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet118.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Next, we have to click on the <strong>Create a Group</strong> button so that the <strong>New group</strong> form appears.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet119.png" alt="Smartsheet Tutorial"> <p><strong>Step 4.</strong> Give a name to the group and also give its description.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet120.png" alt="Smartsheet Tutorial"> <p><strong>Step 5.</strong> Click on the <strong>Create</strong> option.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet121.png" alt="Smartsheet Tutorial"> <p>Then the form will display, and it contains the list of all the current team group members. By default, only your email address will be comprised to it.</p> <p><strong>Step 6.</strong> Click on the Add to Group button if you want to add new members into the group.</p> <p><strong>Step 7.</strong> Next, type the name and email address of the contact in the Smartsheet contact list, and the contact that we typed will be displayed in the drop-down list through auto-resolve.</p> <p>We can type any kind of contact that we want. But the contact should not be a part of the multi-user plan or the current smartsheet user.</p> <p>Then the form named <strong>Add to Group</strong> will be updated so that the contacts list which we selected will be displayed. Then, click on the <strong>Save</strong> button to finish the addition of the contacts to the group.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet122.png" alt="Smartsheet Tutorial"> <p><strong>Step 8.</strong> Next, we will add all the desired contacts into the group and then click on the Save button.</p> <h2 id="Manage-Existing-Group" class="h2">How to Manage an Existing Group</h2> <p>With the help of the group owner or the system admin, a group can be managed.</p> <p>There are various steps to manage an existing group:</p> <p><strong>Step 1.</strong> First, click on the Account.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet123.png" alt="Smartsheet Tutorial"> <p><strong>Step 2.</strong> Then, click on the option named group management so that the existing contact list appears, which is created by the group admin.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet124.png" alt="Smartsheet Tutorial"> <p><strong>Step 3.</strong> Next, to do a modification in the group, click on the drop-down arrow, which is present on the left side in the Account Administration box.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet125.png" alt="Smartsheet Tutorial"> <p>There are various options available to manage a group:</p> <p><strong>Edit Group: -</strong> The Edit group contains a list of members in the group. There are various operations we can perform with the edit group.</p> 
+           <ul class="points"> 
+            <li><strong>Add Members to the Group: -</strong> By using the option named <strong>Add to Group,</strong> we can add the new contacts in the group.</li> 
+            <li><strong>Remove Members from the Group: -</strong> By using the option called <strong>Remove from group,</strong> we can remove the contact from the existing group.</li> 
+            <li><strong>Edit Group Name and Description: -</strong> Using the option named <strong>edit group name and description</strong>, we can edit the group name and the group description.</li> 
+           </ul> <h2 id="Share-Smartsheet-Item" class="h2">How to Share a Smartsheet Item with a Group</h2> <p>There are various steps to share a Smartsheet item with a group:</p> 
+           <ol class="points"> 
+            <li>First, click on the <strong>Share</strong> button, which is present at the right side of the Smartsheet window.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet126.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, the Smartsheet sharing form will be open, and in this form in the Invite Collaborators box, we have to type the group name, or we can also click on the <strong>select contact</strong> icon so that the group name can be chosen from the list of the contacts.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet127.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p><strong>Step 3.</strong> Last, we have to click on the share sheet button.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet128.png" alt="Smartsheet Tutorial"> <h2 id="Card-View" class="h2">Card View in Smartsheet</h2> <p>There are four types of views used in Smartsheet. The card view is one of them. In the Smartsheet, the card view is used to view a sheet. With the help of card view, collaborators can easily share, see, and act on the projects together with the drag-and-drop cards so that work can be easily organized and prioritized. Card view is based on the agile project management methodology, but we can offer it to any team along with more visual methods so that the collaboration and communication can be done easily in the Smartsheet.</p> <p>Card view is used for organization and prioritization of work. Card view is drived by the different column types such as contact list, drop-down list, and the symbol, which offer numerous selections.</p> <p>Card view comprises information from the sheet's rows and on the basis of the drop-down list values, it is grouped. With the help of drag and drop, a card can be re-ordered, and we can also customize the cards so that the different fields can be displayed.</p> <p>In the Card View, with the help of the cards, work items or tasks are made up in our project. On the cards, field values show the information regarding the task. There are 10 fields in which the card can display 1 field for title filed, and the remaining 9 is used for other purposes.</p> <h3 class="h3">There are some essential points about the card view:</h3> 
+           <ol class="points"> 
+            <li>In the card view, the <strong>primary column</strong> in the sheet contains the title of the card.</li> 
+            <li>The information regarding the tasks is displayed by the fields on the card.</li> 
+            <li>The icon named <strong>reminders</strong> only appears if you set the reminder for the task in the Smartsheet.</li> 
+            <li><strong>Comments</strong> and <strong>attachment</strong> icons are only displayed if the task contains these items.</li> 
+           </ol> <h3 class="h3">How to Create a New Card</h3> <p>There are various steps to create a new card. We have to follow one of the following:</p> <p>1. If we want to add the card in the lane:</p> 
+           <ul class="points"> 
+            <li>Click on the icon named <strong>Card icon</strong>, at the end of the card's list.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet129.png" alt="Smartsheet Tutorial"></li> 
+            <li>Right-click on the card and then click on the <strong>Insert Above</strong> or <strong>Insert Below.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet130.png" alt="Smartsheet Tutorial"></li> 
+           </ul> <p>2. Then, fill the details in the edit form, and then click on the <strong>Enter</strong> button.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet131.png" alt="Smartsheet Tutorial"> <h2 id="Edit-Card" class="h2">How to Edit a Card</h2> <h3 class="h3">Add Data to a Card</h3> <p>There are various steps to edit or add data to a card:</p> 
+           <ol class="points"> 
+            <li>First, double-click on the data which you want to edit or add, and then the <strong>Edit</strong> form will open.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet132.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, make the changes which you want and then click the below figure shows the edit form after changes.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet133.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p>If we want to insert an image in a card, then first, remove the content of a field, or add a hyperlink then click on the arrow, which is next to the field name, which you need to edit.</p> <h3 class="h3">How to Change a Color Bar for a Card</h3> <p>We have two ways to change a color bar for a card:</p> 
+           <ol class="points"> 
+            <li>Manually, we can change the color.</li> 
+            <li>Automatically with the help of the conditional formatting rule, we can change the color.</li> 
+           </ol> <h3 class="h3">How to change a color manually</h3> <p>There are various steps to change the color manually:</p> 
+           <ol class="points"> 
+            <li>First, right-click on the edge of the card.</li> 
+            <li>Then, choose the color.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet134.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">How to change a Card color automatically by using conditional formatting</h3> <p>We can change the color of the card automatically with the help of the conditional formatting only if we have the Admin or Owner-level sharing permissions.</p> <h2 id="Basic-Gantt-View" class="h2">Basic Gantt View</h2> <p>Gantt view is another view which we used to view the sheet. Gantt's view provides you a visual timeline of your work. We use a Gantt chart in the waterfall model. Gantt chart is useful when we want to see the visual representation of our schedule.</p> <p>For Gantt view, it is must that in our Smartsheet, there are columns in which one contains a start date, and the second contains end date.</p> <p>With the help of the Gantt chart, we can do the following:</p> 
+           <ol class="points"> 
+            <li>We can see the critical path of the project.</li> 
+            <li>We can use hierarchy so that we can create the rows summary to the further organization of the project.</li> 
+            <li>We can display the 100 % completion of our tasks.</li> 
+            <li>We can see the dependencies and also track the relationship between the tasks.</li> 
+           </ol> <h3 class="h3">How to Add a Gantt Chart</h3> <p>There are various steps to add a Gantt chart:</p> 
+           <ol class="points"> 
+            <li>First, it is must that our sheet contains at least two date columns, the first column is used for the start date, and the second column is used for the end date.</li> 
+            <li>Then, in the toolbar, select the <strong>Gantt</strong> view icon so that the tasks appear in a timeline view based on their start date and finish date.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet135.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p>The Gantt chart will be displayed on the right side of the columns, and the divider divides the screen between the grid columns and the Gantt chart.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet136.png" alt="Smartsheet Tutorial"> 
+           <ol start="3"> 
+            <li>Next, in the Gantt Chart header, click on the icon named <strong>Project Settings</strong> to check that the Gantt chart is using the appropriate columns for the start date and the end date.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet137.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">Adjust the Project Settings</h3> <p>There are various steps to adjust the project settings:</p> 
+           <ol class="points"> 
+            <li>In the toolbar, click on the project setting icon.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet138.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, the project setting form will appear.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet139.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <p>We can perform the following to the project setting:</p> 
+           <ul class="points"> 
+            <li>For the automatic calculation of the task duration, enable the dependencies.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet140.png" alt="Smartsheet Tutorial"></li> 
+            <li>We can configure the holidays and non-working days.</li> 
+            <li>We can alter the Primary and Secondary Timeline Displays.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet141.png" alt="Smartsheet Tutorial"></li> 
+           </ul> <h3 class="h3">How to Apply Color to the Gantt Bars</h3> <p>If we want to change the color of the Gantt bar, follow the following steps:</p> 
+           <ol class="points"> 
+            <li>Right-click on that bar to change the color and select the option named <strong>Color Settings.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet142.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, the color dialog box will appear, and then we can change the Gantt bar's color.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet143.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">How to Adjust the Gantt Chart Timeline</h3> <p>We have 4 timelines zoom levels in the Smartsheet such as day, week, month, quarter. If the person has sheet's access than he/she can easily modify the timeline zoom level. So, if we want to modify the timeline zoom level then by clicking on the icon named <strong>Zoom in, or Zoom out</strong> that are present in the header of the Gantt Chart, we can modify.</p> <img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet144.png" alt="Smartsheet Tutorial"> <h2 id="Calendar-View" class="h2">Calendar View</h2> <p>The calendar view is another view which we use in Smartsheet. With the help of the calendar view, we can easily and interactively customize the view of our work on a calendar format. We can also overlay or publish the Smartsheet calendar on the Google calendar or Apple calendar.</p> <p>In the Smartsheet, if you want to make a calendar, then it is must that we have one date column. As Grid view and Gantt view, the calendar view is also driven by the different column types in the sheet.</p> <h2 id="Proofing" class="h2">Proofing</h2> <p>In the Smartsheet, with the help of proofing, stakeholders can easily approve and review the team's content. By using proofing features in the smartsheet, the team can upload the content, from the stakeholder's request for the feedback, and get approvals by using a simple, streamlined approval process.</p> <p>Proofing can be used:</p> 
+           <ul class="points"> 
+            <li>To provide particular information about a product design mock-up.</li> 
+            <li>Proofing is used to leave annotated comments and markups in PDFs and images.</li> 
+            <li>Proofing is used for review and annotate language modifications required on documents.</li> 
+           </ul> <h3 class="h3">How to Enable Proofing on a Sheet</h3> <p>There are various steps to enable proofing on a sheet:</p> 
+           <ol class="points"> 
+            <li>First, click on the icon named Proofing, which is on the upper-right side of the window.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet145.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, the Proofing panel will be displayed.</li> 
+            <li>Next, switch the <strong>Enable proofing on this sheet</strong> to on. The enable proofing on this sheet option is present at the bottom of the proofing panel.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet146.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, the proof column will be added to the sheet, and the proof column is added to the right of the attachment column, and this column is used to upload proofs for the review.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet147.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">How to Upload a Proof</h3> <p>When proofing is enabled, then we can upload the proofs for review.</p> <p>There are various steps to upload a proof:</p> 
+           <ol class="points"> 
+            <li>First, click on the <strong>Add a proof icon</strong> to that row where we want to add the proof so that the Proofs panel will be displayed. The upload file panel is present in the Proofs panel.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet148.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, to locate and upload the file for proofing, click on the option named <strong>Upload File.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet149.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">How to Create a Review Request</h3> <p>To receive a proof review request, it is must that a person has a valid email address.</p> <p>There are various steps to create a review request:</p> 
+           <ol class="points"> 
+            <li>First, choose the proof which you need others to review then select the option named <strong>Request Feedback</strong>, present at the top of the proofing panel.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet150.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, in the <strong>Send proof for review</strong> window, type the person's name or email address which you need to review your proof.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet151.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, we have to check the information contained in the <strong>Subject</strong> and the <strong>Message</strong> box to check that the information is the same that you want to send your reviewers.</li> 
+            <li>Then, click on the <strong>Send</strong> button.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet152.png" alt="Smartsheet Tutorial"></li> 
+           </ol> <h3 class="h3">How to Upload a Version of a Proof</h3> <p>There are various steps to upload a version of the proof:</p> 
+           <ol class="points"> 
+            <li>First, click on the <strong>Version,</strong> present at the upper side of the right side of the proofing panel.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet153.png" alt="Smartsheet Tutorial"></li> 
+            <li>Then, select the option named <strong>Create New Version.</strong><br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet154.png" alt="Smartsheet Tutorial"></li> 
+            <li>Next, we have to click on the option named <strong>Upload File</strong> button, present at the left side of the proofing panel.<br> <br><img src="https://static.javatpoint.com/tutorial/smartsheet/images/smartsheet155.png" alt="Smartsheet Tutorial"></li> 
+            <li>Last, choose the file from the computer which you want to upload and then upload (file can also be dragged from the upload section of the panel).</li> 
+           </ol> 
+           <hr> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f29497979690939199b29893849386829d9b9c86dc919d9f">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/smartsheet"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/smartsheet"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/smartsheet"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e9819ba983889f889d998680879dc78a8684">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="29415b6943485f485d594640475d074a464407">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

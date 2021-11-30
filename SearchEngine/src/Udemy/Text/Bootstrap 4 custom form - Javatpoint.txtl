@@ -1,0 +1,496 @@
+Bootstrap 4 custom form - Javatpoint ? SCROLL TO TOP Home Bootstrap 4 Bootstrap HTML JavaScript jQuery jQuery UI CSS XML JSON C Java PHP Ajax Quiz Projects Interview Q Bootstrap 4 Tutorial Bootstrap 4 Tutorial Environment setup Bootstrap 4 Layout Bootstrap 4 Buttons Bootstrap 4 Dropdown Bootstrap 4 Spinners Bootstrap 4 Badges Bootstrap 4 Progress Bars Bootstrap 4 Jumbotron Bootstrap 4 Text Bootstrap 4 Pagination Bootstrap 4 Carousel Bootstrap 4 Scrollspy Bootstrap 4 Tooltip Bootstrap 4 Accordion Bootstrap 4 Login Form Bootstrap 4 Checkboxes Bootstrap 4 Radio Button Bootstrap 4 Toast Bootstrap 4 registration form Bootstrap 4 Popover Bootstrap 4 testimonial slider Bootstrap 4 footer Bootstrap 4 Contact form Bootstrap 4 search box Bootstrap 4 File Upload Bootstrap 4 Sidebar Bootstrap 4 Data table Bootstrap 4 toggle switch Bootstrap 4 Header Bootstrap 4 Tabs Bootstrap 4 Flexbox Bootstrap 4 Modal Bootstrap 4 Input groups Bootstrap 4 Responsive Table Bootstrap 4 colors Bootstrap 4 Button Groups Multi step progress bar in Bootstrap 4 Typography in Bootstrap 4 Bootstrap 4 custom form Bootstrap 4 Datepicker MCQ Bootstrap 4 MCQ next ? ? prev Bootstrap 4 custom form In this article, we will understand the Bootstrap 4 custom form in detail. What do you mean by the custom form in Bootstrap 4? In bootstrap 4, forms are used to collect specific information from visitors to your website. Custom forms are those in which custom controls are added, i.e., custom radio button, custom checkbox, etc. Custom forms are of many types: contact form, registration form, etc. Example 1: 
+<! DOCTYPE html>        
+<html lang="en">        
+<head>        
+  <title> Bootstrap 4 Custom Form Example </title>        
+  <meta charset="utf-8">        
+  <meta name="viewport" content="width=device-width, initial-scale=1">        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>        
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>        
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>        
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">        
+</head>        
+<style>    
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+html {
+  box-sizing: border-box;  
+}
+body {    
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);    
+	font-family: 'Exo', sans-serif;
+}     
+h1 {    
+  position: relative;    
+  padding: 10;    
+  margin: 10;    
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;    
+  font-size: 40px;    
+  color: #080808;    
+  -webkit-transition: all 0.4s ease 0s;    
+  -o-transition: all 0.4s ease 0s;    
+  transition: all 0.4s ease 0s;    
+  text-align: center;     
+}    
+a {
+    background-color: #ff4757;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  a:hover {
+  text-decoration: none;
+  color: white;
+  }
+h2 {    
+  position: relative;    
+  padding: 10;    
+  margin: 10;    
+ font-family: 'Exo', sans-serif;
+  font-weight: 200;    
+  font-size: 20px;    
+  color: #080808;    
+  -webkit-transition: all 0.4s ease 0s;    
+  -o-transition: all 0.4s ease 0s;    
+  transition: all 0.4s ease 0s;    
+  text-align: center;    
+}  
+*, *:before {
+  box-sizing: inherit;
+}
+*:after {
+  box-sizing: inherit;
+}
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.form-capsule .form-group {
+    position: relative;
+}
+.form-capsule .form-group label {
+  position: absolute;
+  font-size: 0.8em;
+  top: 0px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 5px 0 10px 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+}
+.form-capsule .show-label label {
+  opacity: 1;
+}
+.form-capsule .form-control {
+    height: 50px;
+  padding: 15px 10px;
+  box-shadow: 0 0 0 2px transparent;  
+  transition: all 0.2s ease-out;
+}
+.form-capsule .form-control:focus {
+  box-shadow: 0 0 0 2px #000066;
+  outline: transparent;
+  border-color: transparent;
+}
+.form-capsule .show-label .form-control {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+.form-capsule .form-group-textarea label {
+    background-color: white;
+  width: auto;
+  right: 0;
+  left: 0;
+  margin: 1px 18px 1px 1px;
+  border-radius: 3px 3px 0 0;
+  padding-top:4px;
+}
+.form-capsule .form-group-textarea .form-control {
+  min-height: 100px;
+  height:auto;
+  max-width:100%;
+  min-width: 100%;
+}
+.form-capsule .form-group-markdown label {
+  background-color: white;
+  width: auto;
+  right: 0;
+  left: 0;
+  margin: 1px 18px 1px 1px;
+  border-radius: 3px 3px 0 0;
+  padding-top:4px;
+}
+.form-capsule .form-group-markdown .form-control {
+  margin-top: 10px;
+  min-height: 200px;
+  height: auto;
+  max-width:100%;
+  min-width: 100%;  
+}
+.form-capsule .markdown-upload-button {
+  cursor: pointer;
+  color: blue;
+}
+.form-capsule .markdown-preview {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 230px;  
+  width:100%;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+.form-capsule .form-group-select label {
+    opacity: 1;
+  z-index: 1;
+}
+.form-capsule .form-group-select .form-control {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select-wrapper {
+  position:relative;
+  z-index: 0;
+}
+.select-wrapper:before {
+    content:'';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width:50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  background-image: url("icons8-drop-down-24.png");
+}
+.help-block-inline {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  line-height: 50px;
+  margin: 0;
+  font-size: 90%;
+  color: #CCC;
+}
+.help-block-floating {
+  color: #555;  
+}
+.help-block-background {
+  right: 0;
+  background-color: #eee;
+  color: #555;
+  border-radius:0 3px 3px 0;
+  height: 48px;
+  margin: 1px;
+  padding: 0 12px;
+}
+.tooltip-icon {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.radio-group {
+  border: 1px solid #ccc;
+  border-radius: 4px;  
+}
+.radio {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+.radio+.radio {
+  border-bottom: 1px solid #ccc;
+  margin:0;
+}
+.radio:last-child {
+  border-bottom:0;
+}
+.radio-option {
+  display: none;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-2 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+.radio-option:checked + .radio-option-label:before {
+  border-color: #000666;
+  border-width: 5px;  
+}
+.radio-option-label {
+  display:table
+}
+.radio-option-label:before {
+  content:"";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  margin: 17px;
+  border-radius: 50%;
+  background-color: white;
+  transition: border-width 0.3s ease;
+}
+.radio-option-label-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 10px 10px 0;
+  width: 100%;
+  margin: 0;
+}
+</style>
+<body>
+<div class="container">
+<a id="button"></a>
+<h1> Example </h1>
+  <h2> Bootstrap 4 Custom Form </h2>
+  <form class="form-capsule" role="form">
+   <h4> Input field </h4>
+    <div class="row">
+      <div class="form-group col-sm-6">
+        <label for="email"> Enter Email </label>
+        <input type="email" class="form-control" id="email" placeholder="Enter Email" value="">
+      </div>
+      <div class="form-group col-sm-6">
+        <label for="pwd"> Password </label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="x"> Enter Price </label>
+      <input type="text" class="form-control" id="x" placeholder="Enter Price">
+      <span class=" help-block help-block-inline help-block-background"> $ </span>      
+    </div>
+    <div class="form-group">
+      <label for="i"> Enter Full Name </label>
+      <input type="text" class="form-control" id="i" placeholder="Enter Full Name">
+      <span class=" help-block help-block-inline">  </span>
+    </div>
+    <div class="form-group">
+      <label for="i"> Tooltip </label>
+      <input type="text" class="form-control" id="i" placeholder="Enter Phone Number ">
+      <span class="glyphicon glyphicon-exclamation-sign tooltip-icon" data-toggle="tooltip" data-placement="top" title="This is a tooltip tooltip trouble"> </span>
+    </div>
+    <br>
+    <h4> Enter Address </h4>
+    <div class="form-group form-group-textarea">
+      <label for="t"> Enter House No </label>
+      <textarea type="text" class="form-control" id="t" placeholder="House No"> </textarea>
+    </div>
+    <div class="form-group form-group-textarea">
+      <label for="t"> Enter City </label>
+      <textarea type="text" class="form-control" id="t" placeholder="Enter City"> </textarea>
+    </div>
+    <div class="form-group form-group-textarea">
+      <label for="t"> Enter State </label>
+      <textarea type="text" class="form-control" id="t" placeholder="Enter State"></textarea>
+      <span class="glyphicon glyphicon-exclamation-sign tooltip-icon" data-toggle="tooltip" data-placement="top" title="This is awesome tooltip"> </span>
+    </div>
+    <br>
+    <h4> Selet Hobbies </h4>
+    <div class="form-group form-group-select">
+      <label for="sel1"> Selet Hobbies </label>
+      <div class="select-wrapper">
+        <select class="form-control" id="sel1">
+            <option> Singing </option>
+            <option> Dancing </option>
+            <option> Gyming </option>
+            <option> Eating </option>
+			<option> Sleeping </option>
+          </select>
+      </div>
+    </div>
+    <br>
+    <h4> Tell me About yourself  </h4>
+    <div>
+      <ul class="nav nav-tabs">
+        <li class="active"> <a href="#markdown-write" data-toggle="tab"> Write </a> </li>
+        <li> <a href="#markdown-preview" data-toggle="tab"> Preview </a> </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="markdown-write">
+          <div class="form-group form-group-markdown">
+            <label for="markdown"> Tell me About yourself </label>
+            <textarea class="form-control" placeholder="Markdown" name="markdown" id="markdown"> </textarea>
+          </div>
+        </div>
+        <div class="tab-pane" id="markdown-preview">
+          <div id="markdown-result" class="markdown-preview"> </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <h4> Select Course </h4>
+    <div class="checkbox">
+      <label> <input type="checkbox" value=""> BCA </label>
+    </div>
+    <div class="checkbox">
+      <label> <input type="checkbox" value=""> BA </label>
+    </div>
+    <div class="checkbox">
+      <label> <input type="checkbox" value=""> BSC </label>
+    </div>
+	<div class="checkbox">
+      <label> <input type="checkbox" value=""> BCOM </label>
+    </div>
+	<div class="checkbox">
+      <label> <input type="checkbox" value=""> MSC </label>
+    </div>
+	<div class="checkbox">
+      <label> <input type="checkbox" value=""> MCA </label>
+    </div>
+	<div class="checkbox">
+      <label> <input type="checkbox" value=""> MCOM </label>
+    </div>
+    <br>
+    <h4> Select Gender </h4>
+    <div class="radio-group">
+      <div class="radio">
+        <input type="radio" class="radio-option" id="r1" name="optradio">
+        <label class="radio-option-label" for="r1">
+          <div class="radio-option-label-text"> Male </div>
+        </label>
+      </div>
+      <div class="radio">
+        <input type="radio" class="radio-option" id="r2" name="optradio">
+        <label class="radio-option-label" for="r2">
+          <div class="radio-option-label-text"> Female </div>
+        </label>
+      </div>
+      <div class="radio">
+        <input type="radio" class="radio-option" id="r3" name="optradio">
+        <label class="radio-option-label" for="r3">
+          <div class="radio-option-label-text"> Transgender </div>
+        </label>
+      </div>
+    </div>
+  </form>
+  <br>
+<div class="form-group">
+          <label for="group2"> Upload Resume </label>
+          <div class="input-group" id="group2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon2"> <i class="far fa-file-image"> </i> </span>
+            </div>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="file2" aria-describedby="addon2">
+              <label class="custom-file-label" for="file2"> Choose file </label>
+            </div>
+          </div>
+        </div>
+        <div class="custom-control custom-checkbox form-group">
+            <input type="checkbox" class="custom-control-input" id="checkTerms">
+            <label class="custom-control-label" for="checkTerms"> I have read and understood the Terms & Conditions. </label>
+        </div>
+        <button type="submit" class="custom-btn btn-2"> Submit </button>
+  </form>
+</div>
+<script>
+document.getElementsByTagName("h1")[0].style.fontSize = "3vw";
+$(document).ready(function(){
+     var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+$('body').on('keyup keydown cut paste change focus drop',".form-control", function() {
+    if($(this).val().length != 0) {
+      $(this).closest('.form-group').addClass('show-label');
+    } else {
+      $(this).closest('.form-group').removeClass('show-label');
+    }
+  });
+  $('.form-control').each(function() {
+    if($(this).val().length != 0) {
+      $(this).closest('.form-group').addClass('show-label');
+    }
+  }); 
+  $('[data-toggle="tooltip"]').tooltip({
+    container: '.container',
+    viewport: {
+      selector: '.container',
+      padding: 15
+    }
+  });   
+});
+</script>
+</body>
+</html>
+ Explanation: In the above example we have created an example of custom form in bootstrap 4. Output: Following is the output of this example: Next Topic Bootstrap 4 Datepicker ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

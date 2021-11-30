@@ -1,0 +1,159 @@
+Dictionary Class in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Dictionary Class in Java In Java, Dictionary is the list of key-value pairs. We can store, retrieve, remove, get, and put values in the dictionary by using the Java Dictionary class. In this section, we will discuss the Java Dictionary class that stores data in key-value pairs just like the Map interface. Java Dictionary Class Java Dictionary class is an abstract class parent class of any class. It belongs to java.util package. Its direct known subclass is the Hashtable class. Like the Hashtable class, it also maps the keys to values. Note that every key and value is an object and any non-null object can be used as a key and as a value. The Dictionary class hierarchy is as follows: Every key is associated with at most one value, as shown in the following figure. Once the value is stored in a dictionary object, we can retrieve it by using the key. Syntax: 
+public abstract class Dictionary<K, V> extends Object
+ Note: The class is obsolete. So, implement the map interface instead of extending the class. Dictionary Class Constructor The class has only a constructor called a sole constructor. Syntax: 
+public Dictionary()
+ Dictionary Class Methods All the methods of the Dictionary class are abstract. The following table describes the methods. Method Description public abstract Enumeration elements() It returns an enumeration of the values in this dictionary. The returned enum object generates all the elements contained in entries in this dictionary. public abstract V get(Object key) It returns the value to which the key is mapped in this dictionary. It parses an object (key) in this dictionary. Note that if this dictionary contains an entry for the specified key, the associated value is returned; otherwise, null is returned. It throws NullPointerException if the key is null. public abstract boolean isEmpty() The method checks if this dictionary maps no keys to value. It returns true if and only if this dictionary contains no entries, else returns false. public abstract Enumeration keys() It returns an enum of the keys in this dictionary. The returned enum object generates all the keys for which this dictionary contains entries. public abstract V put(K key, V value) The method is used to insert key-value pair in the dictionary. It maps the specified key to the specified value in this dictionary. Note that neither key nor value can be null. If the dictionary already contains an entry for the specified key, the value already in this dictionary for that key is returned, after modifying the entry to contain the new element. If the dictionary does not already have an entry for the specified key, an entry is created for the specified key and value, and null is returned. It parses key and value as a parameter. It throws NullPointerException if the key or value is null. public abstract V remove(Object key) The method parses a key that we want to remove. It removes the key and associated value. Note that the method does nothing if the key is not in the dictionary. It throws NullPointerException if the key is null. public abstract int size() It returns the number of entries (distinct keys) in this dictionary. Java Dictionary Programs Use of Dictionary.put() Method The put() method inserts the elements in the dictionary. The following program demonstrates the same. InsertElementExample.java 
+import java.util.*;
+public class InsertElementExample
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(102, "Brisbane");
+dict.put(103, "Melbourne");
+dict.put(104, "Perth");
+dict.put(105, "Lismore");
+dict.put(106, "Mount Gambier");
+dict.put(107, "Nelson Bay");
+dict.put(108, "Canberra");
+//prints keys and corresponding values
+System.out.println(dict);
+}
+}
+ Output: {108=Canberra, 107=Nelson Bay, 106=Mount Gambier, 105=Lismore, 104=Perth, 103=Melbourne, 102=Brisbane, 101=Sydney}
+ Use of Dictionary.size() Method The size of the dictionary is the number of elements the dictionary contains. In the following program, the size of the dictionary is 6. DictionarySizeExample.java 
+import java.util.*;
+public class DictionarySizeExample
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(102, "Brisbane");
+dict.put(103, "Melbourne");
+dict.put(104, "Perth");
+dict.put(107, "Nelson Bay");
+dict.put(108, "Canberra");
+//prints the size of the dictionary
+System.out.println("The size of the dictionary is: "+dict.size());
+}
+}
+ Output: The size of the dictionary is: 6
+ Use of Dictionary.get() Method By using the get() method, we can retrieve the value of a specified key. DictionaryGetElement.java 
+import java.util.*;
+public class DictionaryGetElement
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(102, "Brisbane");
+dict.put(103, "Melbourne");
+dict.put(104, "Perth");
+dict.put(107, "Nelson Bay");
+dict.put(108, "Canberra");
+//gets the value of the specified key
+System.out.println("The value of the specified key is: "+dict.get(103));
+}
+}
+ Output: The value of the specified key is: Melbourne
+ Use of Dictionary.isEmpty() Method It returns true if dictionary is empty, else returns false. EmptyCheckExample.java 
+import java.util.*;
+public class EmptyCheckExample
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(102, "Brisbane");
+dict.put(103, "Melbourne");
+dict.put(104, "Perth");
+//checks if the dictionary is empty or not
+System.out.println("Is the dictionary empty? \n"+dict.isEmpty());
+}
+}
+ Output: Is the dictionary empty? 
+false
+ Use of Dictionary.remove() Method The method removes the key and corresponding value that we have parsed in the method. The removed value is returned by the method. RemoveElementExample.java 
+import java.util.*;
+public class RemoveElementExample
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(108, "Canberra");
+dict.put(106, "Mount Gambier");
+dict.put(104, "Perth");
+dict.put(102, "Brisbane");
+//removes the corresponding value of the specified key
+System.out.println("The removed value is: "+dict.remove(106));
+}
+}
+ Output: The removed value is: Mount Gambier
+ Use of elements() and key() Methods RemoveElementExample.java 
+import java.util.*;
+public class IterateKeyAndValuesExample
+{
+public static void main(String args[])
+{
+//creating a dictionary
+Dictionary dict = new Hashtable();
+//adding values in the dictionary
+dict.put(101, "Sydney");
+dict.put(102, "Brisbane");
+dict.put(103, "Melbourne");
+dict.put(104, "Perth");
+dict.put(105, "Lismore");
+dict.put(106, "Mount Gambier");
+dict.put(107, "Nelson Bay");
+dict.put(108, "Canberra");
+System.out.println("Dictionary values are: \n");
+//loop iterate over the values stored in the dictionary
+for(Enumeration enm = dict.elements(); enm.hasMoreElements();)
+{
+//prints the value    
+System.out.println(enm.nextElement());
+}
+System.out.println("\nDictionary keys are: \n");
+//loop iterate over the keys stored in the dictionary
+for(Enumeration enm = dict.keys(); enm.hasMoreElements();)
+{
+//prints the keys    
+System.out.println(enm.nextElement());
+}
+}
+}
+ Output: Dictionary values are: 
+
+Canberra
+Nelson Bay
+Mount Gambier
+Lismore
+Perth
+Melbourne
+Brisbane
+Sydney
+
+Dictionary keys are: 
+
+108
+107
+106
+105
+104
+103
+102
+101
+ Difference Between the HashMap and Dictionary Class The Java HashMap class and the Dictionary class both perform a similar function. The only difference is that HashMap implements the Map Interface while the Dictionary class does not. According to Java documentation, the Dictionary class is no longer in use because it is outdated. Instead of the Dictionary class, the HashMap class is used. Since we can say that HashMap is a type of dictionary. Next Topic Left View of a Binary Tree in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

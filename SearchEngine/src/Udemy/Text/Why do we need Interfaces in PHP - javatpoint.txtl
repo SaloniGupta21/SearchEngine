@@ -1,0 +1,139 @@
+Why do we need Interfaces in PHP - javatpoint ? SCROLL TO TOP Home PHP MySQL Laravel WordPress Magento 2 CodeIgniter YII HTML CSS JavaScript jQuery Python Java SQL Interview Q PHP Training PHP Tutorial PHP Tutorial Install PHP PHP Code PHP Echo PHP Print PHP Echo vs Print PHP Variable PHP Variable Scope PHP $ and $$ PHP Constants PHP Magic Constants PHP Data Types PHP Operators PHP Comments Control Statement PHP If else PHP Switch PHP For Loop PHP foreach loop PHP While Loop PHP Do While Loop PHP Break PHP Continue PHP Programs 20 PHP Programs PHP Functions PHP Functions Parameterized Function PHP Call By Value PHP Call By Reference PHP Default Arguments PHP Variable Arguments PHP Recursive Function PHP Arrays PHP Array PHP Indexed Array PHP Associative Array Multidimensional Array PHP Array Functions PHP Strings PHP String PHP String Functions PHP Math PHP Math Functions PHP Form PHP Form: Get Post PHP Include PHP include & require State Management PHP Cookie PHP Session PHP File PHP File Handling PHP Open File PHP Read File PHP Write File PHP Append File PHP Delete File Upload Download PHP File Upload PHP Download File PHP Misc require_once include_once MVC Architecture PHP vs. JavaScript PHP vs. HTML PHP vs. Node.js PHP vs Python PhpStorm PHP PDO Top 10 PHP frameworks phpMyAdmin Count All Array Elements Create Newline Get Current Page URL Remove First Element from Array Remove Last Element from Array Change Date Format Get IP Address PHP MySql Login System var_dump() function PHP Regular Expressions preg_match() function preg_replace() function isset() function print_r() function Types of Errors in PHP Display All Errors PHP error_reporting PHP header() PHP unset() function Get & Post Methods Form Validation Exception Handling in PHP PHP try-catch PHP Pagination What is a Website How to make a website How to cite a website in APA format How to cite a website in MLA format How to download video from the website PHP array_push break vs continue in PHP How to Install Composer on Windows PHPMyAdmin Login PHP alert Creation of custom php.ini file in CPanel Downgrade php 7.4 to 7.3 Ubuntu Multiple File Upload using Dropzone JS in PHP PHP Dropzone File Upload on Button Click PHP find value in an array PHP Codeigniter 3 Ajax Pagination using Jquery How to Convert array into string in PHP PHP Codeigniter 3 Create Dynamic Tree View using Bootstrap Treeview JS CRUD Operation using PHP & Mongodb PHP Ajax Multiple Image Upload PHP Multidimensional Array Search By Value PHP urlencode() Function Image Gallery CRUD using PHP MySQL How to get selected option value in PHP Array to string conversion in PHP PHP Contact Form PHP string Concatenation PHP Laravel 5.6 - Rest API with Passport PHP compare dates PHP Registration Form PHP ternary operator PHP basename() Function Why do we need Interfaces in PHP file_put_contentss() Function in PHP Is_array() Function in PHP PHP Mail PHP Mail PHP MySQLi MySQLi CONNECT MySQLi CREATE DB MySQLi CREATE Table MySQLi INSERT MySQLi UPDATE MySQLi DELETE MySQLi SELECT MySQLi Order by PHP JSON PHP JSON Example PHP OOPs Concepts OOPs Concepts OOPs Abstract Class OOPs Abstraction OOPs Access Specifiers OOPs Const Keyword OOPs Constructor OOPs Destructor Abstract vs Class vs Interface Encapsulation Final Keyword OOPs Functions OOPs Inheritance OOPs Interface OOPs Overloading OOPs Type Hinting PHP Topics Compound Types PHP Float PHP Integer is_null() Function PHP Boolean Special Types Inheritance Task Special Types PHP Encryption Two-way Encryption Heredoc Syntax PHP MCQ PHP MCQ Related Tutorials MySQL Tutorial WordPress Tutorial CodeIgniter Tutorial YII Tutorial Laravel Tutorial Magento 2 Tutorial Interview Questions PHP Interview WordPress Interview Joomla Interview Drupal Interview next ? ? prev Why do we need Interfaces in PHP? The interface is another property of PHP that enables the developer to build a program without any complex methods. It inherits the same public method that a class holds. Due to these properties, an interface can define methods. Still, we cannot define the method in that particular interface, and we have to define the method inside the child class where we call the interface. Interfaces are also similar to classes, and the only difference is class is altered with an interface, and the methods do not have any content defined inside. We use interfaces in PHP. A single class cannot implement two functions with the same method name as the compiler will return an error. Similarly, like traits, we can also use an interface to access multiple inheritances as a class can initiate multiple interfaces, which will eventually help in inheriting traits from multiple parent classes Example 
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+interface fruit {
+  public function taste();
+}
+
+class mango implements fruit {
+  public function taste() {
+    echo "very sweet !!!";
+  }
+}
+
+$fru = new mango();
+$fru->taste();
+?>
+ 
+</body>
+</html>
+ Output: very sweet !!!
+ In the above program, we have declared an interface fruit with a function taste() inside. We have declared a class mango and assigned the interface fruit to it; we have defined the function taste(). Finally, we have created an object all called our child class. Due to the interface, our child class mango can access the interface fruit and retrieve the function taste() from it Uses of Interface 1) To inherit properties of the parent class To implement an interface using class, we have to use the implement keyword and the expand keyword to assign the hierarchy of the parent class Syntax: 
+Class parent - class{
+  Statement . . .
+  . . . . . . . . 
+  . . . . . . . .
+}
+
+Interface interface - name {
+  Statement . . .
+  . . . . . . . . 
+  . . . . . . . .
+  Function return type ()
+}
+
+Class child - class expands parent - class implements interface - name{
+Function return type(){
+Function description. .
+. . . . . . . . . . . . 
+}
+}
+ Example: 
+<?php
+  
+class parentClass {
+   public function parentFunction() {
+    echo "this is the first class";
+     }
+}
+  
+interface firstInterface {
+   public function interfaceFunction();
+}
+  
+class childClass extends parentClass implements firstInterface {
+  
+    function interfaceFunction() {
+        echo " this is interface which is defined inside child class";
+    }
+  
+    public function childFunction() {
+    echo " this is inherited child class using interface ";
+    }
+}
+  
+$ obj = new childClass();
+$ obj -> parentFunction();
+$ obj -> interfaceFunction();
+$ obj -> childFunction();
+?>
+ Output: this is the first class 
+this is interface which is defined inside child class 
+this is an inherited child class using an interface
+ In the above program, we have a parent class parentClass which contains a function parentFunction(), and we have an interface called firstInterface, which holds the function named interfaceFunction(). Still, we cannot define the declared function inside our created interface, and we have to define the declared function inside the child class. In the end, we have a child class with the name childClass with function childFunction() and inherited the function from the interface using the extends and implement property of PHP. Also, we have defined our interfaceFunction() in the child. And to access the classes and interface, we have created an object obj and invoked all the functions using the same object. 2) To inherit properties of multiple interfaces To implement an interface using class, we have to use the implement keyword, and a single class can even implement more than one interface simultaneously 
+Interface first - interface {
+  Statement . . .
+  . . . . . . . . 
+  Function return one ()
+
+}
+
+Interface second - interface {
+  Statement . . .
+  . . . . . . . . 
+  Function return two ()
+
+}
+
+Class child - class implements first - interface, second - interface  {
+  Statement . . .
+  . . . . . . . . 
+  Function return one(){
+  Function description. .
+  . . . . . . . . . . . . 
+  }
+  Function return two(){
+  Function description. .
+  . . . . . . . . . . . . 
+  }
+
+}
+ Example: 
+<?php
+  
+interface firstInterface {
+   public function interfaceone();
+}
+  
+interface secondInterface {
+   public function interfacetwo();
+}
+  
+class childClass implements firstInterface, secondInterface {
+  
+    function interfaceone() {
+        echo "this is the first interface";
+    }
+  
+    function interfacetwo() {
+        echo "this is the second interface";
+    }
+  
+    public function childFunction()
+    {
+        echo "this is child inherited from both interfaces";
+    }
+}
+  
+$obj = new childClass();
+$obj->interfaceone();
+$obj->interfacetwo();
+$obj->childFunction();
+?>
+ Output: this is the first interface
+this is the second interface
+this is a child inherited from both interfaces
+ In the above program, we have declared two interfaces, first with the name firstInterface with function interfaceone() and second with name secondInterface with function onterfacetwo(). Still, we have only declared the interface functions and will define the same function in the child class. In the end, we have a child class with the name childClass with function childFunction() and inherited both the interfaces using the implements clause. Inside the function, we have given the definition of functions declared in interfaces. And to access the classes and interfaces, we have created an object with the name obj and called all the functions using the same object. Importance of using Interfaces: The interface provides the developer with a more structured format that is quite difficult to achieve with classes. We can easily use the multiple inheritance property of OPPs in a single strand programming language like PHP using an interface. By implementing an interface, the object's caller needs to care only about the object's interface, not implementations of the object's methods. The interface allows unrelated classes to implement the same methods regardless of their positions in the class inheritance hierarchy. We cannot implement multiple interfaces with the same method name as it will end up in confusion and method ambiguity. We can easily make a hierarchy between two classes using the extend keyword. Next Topic file_put_contentss() Function in PHP ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

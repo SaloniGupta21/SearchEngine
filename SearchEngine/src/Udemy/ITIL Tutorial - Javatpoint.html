@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>ITIL Tutorial - Javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="ITIL Tutorial - Javatpoint">
+  <meta property="og:description" content="ITIL Tutorial with What is ITIL, Why ITIL, Important Terms used in the ITIL, Service Lifecycle in ITIL, Advantages of ITIL, Service Lifecycle, Service Design, Service Transition etc."> 
+  <meta name="keywords" content="itil, itil tutorial, what is itil, why itil, important terms used in the itil, service lifecycle in itil, advantages of itil">
+  <meta name="description" content="ITIL Tutorial with What is ITIL, Why ITIL, Important Terms used in the ITIL, Service Lifecycle in ITIL, Advantages of ITIL, Service Lifecycle, Service Design, Service Transition etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/itil"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="ITIL Tutorial - Javatpoint">
+  <meta name="twitter:description" property="og:description" content="ITIL Tutorial with What is ITIL, Why ITIL, Important Terms used in the ITIL, Service Lifecycle in ITIL, Advantages of ITIL, Service Lifecycle, Service Design, Service Transition etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/itil">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="itil" class="selected">ITIL</a></li> 
+       <li><a href="net-framework">.Net</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="ado-net-tutorial">ADO.NET</a></li> 
+       <li><a href="asp-net-tutorial">ASP.NET</a></li> 
+       <li><a href="sql-server-tutorial">SQL Server</a></li> 
+       <li><a href="f-sharp-tutorial">F#</a></li> 
+       <li><a href="angularjs-tutorial">AngularJS</a></li> 
+       <li><a href="nodejs-tutorial">Node.js</a></li> 
+       <li><a href="expressjs-tutorial">Express.js</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="ajax-tutorial">Ajax</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">ITIL Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="itil">ITIL Tutorial</a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> <h1 class="h1">ITIL Tutorial</h1> <img src="https://static.javatpoint.com/tutorial/itil/images/itil-tutorial.png" class="imageright" alt="ITIL Tutorial"> <h2 class="h2">What is ITIL?</h2> <p><strong>ITIL</strong> is an abbreviation of <strong>Information Technology Infrastructure Library</strong>.</p> <p>It is a framework which helps the IT professionals for delivering the best services of IT. This framework is a set of best practices to create and improve the process of ITSM (IT Service Management). It provides a framework within an organization, which helps in planning, measuring, and implementing the services of IT.</p> <p>The main motive of this framework is that the resources are used in such a way so that the customer get the better services and business get the profit.</p> <p>It is not a standard but a collection of best practices guidelines.</p> <p>This framework was introduced by <strong>HMSO (Her Majesty's Stationery Office)</strong> in the U.K in the year of 1989. It was developed based on C.C.T.A. (Central Communication and Telecommunication Agency).</p> <p>Following are the various popular services of IT which are covered by the Information Technology Infrastructure Library <strong>(ITIL)</strong>:</p> 
+           <ul class="points"> 
+            <li>Cloud Services</li> 
+            <li>Data processing and storage</li> 
+            <li>IT Consulting</li> 
+            <li>Help desk support</li> 
+            <li>IoT</li> 
+            <li>Network security</li> 
+           </ul> <h2 class="h2">Why ITIL?</h2> <p>Following are the various reasons which allows the <a href="https://www.javatpoint.com/it-full-form">IT</a> and Business managers to use this method:</p> 
+           <ul class="points"> 
+            <li>It is used to enhance the resource and capabilities.</li> 
+            <li>It is used for planning the processes with particular goals in mind.</li> 
+            <li>It helps in integrating business and service strategies.</li> 
+            <li>It also helps to control the IT budget and investment.</li> 
+            <li>This framework also helps in changing the organizational culture.</li> 
+            <li>It also helps in developing the IT and business partnerships.</li> 
+            <li>It also offers the maximum values to the customers.</li> 
+            <li>It also improves the relationship with the costumers by delivering the services.</li> 
+            <li>It also offers the good management of services.</li> 
+            <li>It also helps in measuring, optimizing, and monitoring the performance of the service provider.</li> 
+            <li>It allows them to define the roles for each task.</li> 
+            <li>It manages the service failure.</li> 
+            <li>It helps managers by providing the service which is reliable and useful.</li> 
+           </ul> <h2 class="h2">Important Terms used in the ITIL</h2> <p>There are various following terms used in the ITIL which are required to learn:</p> <p><strong>1. Capabilities:</strong></p> <p>Capability or capacity is the level of strength of the services and infrastructure of IT. It is an intangible asset of any organization or business.</p> <p><strong>2. Resources:</strong></p> <p>It is a term that includes the people, infrastructure, money, applications, etc which may help in delivering IT services.</p> <p><strong>3. Baseline:</strong></p> <p>It is referred to as a (starting) initial point of a service or project. In this framework, it is used for measuring how the operations of IT are performing.</p> <p><strong>4. Process:</strong></p> <p>This term is a set of activities, which are designed to perform a particular objective. It accepts one or more defined inputs and transforms them into an output which is defined. Process is a term which is triggered by the particular events.</p> <p><strong>5. Service</strong></p> <p>It is a means of delivering the values to the customers by achieving the customer's result without defining the costs and risks. Sometimes, this term is also a synonym for IT service, service package or core service.</p> <p><strong>6. ITIL Role</strong></p> <p>Role is a term, which is a collection of specific activities, authorities, and responsibilities granted to an individual or team.</p> <p><strong>7. Business Case:</strong></p> <p>The business case is a term describing the expected expense and profit which can be achieved as the result of a change.</p> <p><strong>8. Function:</strong></p> <p>In ITIL framework, function is a group of tools and people which is used to perform one or more activities or processes.</p> <p><strong>9. Process Owner:</strong></p> <p>A Process Owner has a responsibility to manage the overall performance, design, integration, improvement of a single process.</p> <p><strong>10. Process Manager:</strong></p> <p>In large organizations, there are separate Process Manager and Process Owner for the better management. In any organization, the role of a Process Manager is to manage the processes operationally.</p> <p><strong>11. Service Owner:</strong></p> <p>The service owner is a person in an organization, whose role is to deliver the specific service as per the SLA (Service Level Agreement). Also, he is responsible for managing the overall performance, design, and integration of a single service.</p> <p><strong>12. ITSM (IT Service Management):</strong></p> <p>It is a term in the ITIL framework, which provides the services of IT in a focused and client-friendly manner. The main component of ITSM is a framework which design the services according to the SLA. And, that framework is known as SLM (Service Level Management).</p> <p><strong>13. CI (Configuration Item):</strong></p> <p>It is a component having a direct impact on the delivering IT services. The information for each Configuration Item is automatically stored in the configuration record within the CMS (Configuration Management system).</p> <p>This term includes the services of IT, software, hardware, building, and the formal documentation such as SLAs (Service Level Agreement).</p> <p><strong>14. CMDB (Configuration Management Database):</strong></p> <p>This component is used for storing the configuration records, which contains the attributes and the relationships of CI. It is a term, which also tracks the inter-relationship between all the Configuration Items.</p> <p><strong>15. CMS (Configuration Management System):</strong></p> <p>A CMS is a collection of tools and databases, which manages the configuration data of IT services providers. It is a component, which also contains the information about the problems, changes, known errors, and incidents. It may also contain data about suppliers, business units, customers, employees and the end-users.</p> <p>The CMS is used by all the processes of ITSM and maintained by the configuration management.</p> <p><strong>16. Change:</strong></p> <p>Change is the modification of anything, which may affect the services of IT.</p> <p><strong>17. Service Manager:</strong></p> <p>The Service Manager is responsible for the development and improvement of all the IT services.</p> <p><strong>18. Access:</strong></p> <p>This term in ITIL allows the users to access the level and scope of the functionality of a service or data.</p> <p><strong>19. Product Manager:</strong></p> <p>The Product Manager is responsible for the performance, improvement, and quality check of the group of related IT services.</p> <p><strong>20. Risk:</strong></p> <p>This term is defined as an uncertain event. If it occurs, there is an effect on the IT services positively or negatively.</p> <p><strong>21. Problem:</strong></p> <p>In the ITIL framework, this term is defined as the unknown causes of one or more incidents.</p> <p><strong>22. Known Error:</strong></p> <p>The Known Error is stored in the KEBD i.e., Known Error Database. These errors are created and managed by Problem Management.</p> <p><strong>23. Incident:</strong></p> <p>It is a component in ITIL, which is the reduction in the quality of the IT service or an unplanned interruption to the organization's IT services. It is also defined as the failure of a configuration item.</p> <p><strong>24. Service Level Agreement (SLA):</strong></p> <p>In the ITIL framework, there is an SLA agreement in an organization between the customer and the IT service provider. This agreement describes the services of IT and defines the responsibilities of the customer and the provider. Service Level Agreement also describes the document level service targets.</p> <p><strong>25. Operational Level Agreement (OLA):</strong></p> <p>In ITIL, there is also an Operational Level Agreement in an organization of IT between the service provider and other parts of that organization. This term defines the services or goods which are to be provided. And, it also defines the responsibilities of both the parties.</p> <h2 class="h2">Service Lifecycle in ITIL</h2> <p>The ITIL framework is completely based on the lifecycle of a service. The lifecycle of IT Service Management is also called as a 'Plan-Do-Check-Act (PDCA)' or 'Deming Cycle'. It helps the service providers to achieve a better understanding of its structure. It also defines the process that how the services are started and maintained.</p> <p>The lifecycle of a service in the framework of ITIL is broadly classified into the following five stages:</p> <img src="https://static.javatpoint.com/tutorial/itil/images/service-lifecycle-in-itil.png" alt="ITIL Tutorial"> 
+           <ol class="points"> 
+            <li>Service Strategy</li> 
+            <li>Service Design</li> 
+            <li>Service Transition</li> 
+            <li>Service Operations</li> 
+            <li>Continual Service Improvement</li> 
+           </ol> <p>Each stage in this lifecycle contains the various process of ITIL and all the stages are interconnected. Now, we will learn about each stage of service lifecycle one by one.</p> <h3 class="h3">Service Strategy</h3> <p><strong>Service Strategy</strong> is the first and initial stage in the lifecycle of the ITIL framework. The main aim of this stage is that it offers a strategy on the basis of the current market scenario and business perspective for the services of IT.</p> <p>This stage mainly defines the plans, position, patters, and perspective which are required for a service provider. It establishes the principles and policies which guide the whole lifecycle of IT service.</p> <p>Following are the various essential services or processes which comes under the <strong>Service Strategy</strong> stage:</p> 
+           <ul class="points"> 
+            <li>Financial Management</li> 
+            <li>Demand Management</li> 
+            <li>Service Portfolio Management</li> 
+            <li>Business Relationship Management</li> 
+            <li>Strategy Management</li> 
+           </ul> <p><strong>Strategy Management:</strong></p> <p>The aim of this management process is to define the offerings, rivals, and capabilities of a service provider to develop a strategy to serve customers.</p> <p>According to the version 3 (V3) of ITIL, this process includes the following activities for IT services:</p> 
+           <ol class="points"> 
+            <li>Identification of Opportunities</li> 
+            <li>Identification of Constraints</li> 
+            <li>Organizational Positioning</li> 
+            <li>Planning</li> 
+            <li>Execution</li> 
+           </ol> <p>Following are the three sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Strategic Service Assessment</li> 
+            <li>Service Strategy Definition</li> 
+            <li>Service Strategy Execution</li> 
+           </ol> <p><strong>Financial Management:</strong></p> <p>This process helps in determining and controlling all the costs which are associated with the services of an IT organization. It also contains the following three basic activities:</p> <p>1. Accounting 2. charging 3. Budgeting</p> <p>Following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Financial Management Support</li> 
+            <li>Financial Planning</li> 
+            <li>Financial Analysis and Reporting</li> 
+            <li>Service Invoicing</li> 
+           </ol> <p><strong>Demand Management</strong></p> <p>This management process is critical and most important in this stage. It helps the service providers to understand and predict the customer demand for the IT services. Demand management is a process which also work with the process of Capacity Management. Following are basic objectives of this process:</p> 
+           <ul class="points"> 
+            <li>This process balances the resources demand and supply.</li> 
+            <li>It also manages or maintains the quality of service.</li> 
+           </ul> <p>According to the version 3 (V3) of ITIL, this process performs the following 3 activities:</p> 
+           <ol class="points"> 
+            <li>Analysing current Usage of IT services</li> 
+            <li>Anticipate the Future Demands for the Services of IT.</li> 
+            <li>Influencing Consumption by Technical or Financial Means</li> 
+           </ol> <p>Following are the two sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Demand Prognosis</li> 
+            <li>Demand Control.</li> 
+           </ol> <p><strong>Business Relationship Management</strong></p> <p>This management process is responsible for maintaining a positive and good relationship between the service provider and their customers. It also identifies the needs of a customer. And, then ensure that the services are implemented by the service provider to meet those requirements.</p> <p>This process has been released as a new process in the ITIL 2011.</p> <p>According to the version 3 (V3) of ITIL, this process performs the following various activities:</p> 
+           <ul class="points"> 
+            <li>This process is used to represent the service provider to the customer in a positive manner.</li> 
+            <li>This process identifies the business needs of a customer.</li> 
+            <li>It also acts as a mediator if there is any case of conflicting requirements from the different businesses.</li> 
+           </ul> <p>Following are the six sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Maintain Customer Relationships</li> 
+            <li>Identify Service Requirements</li> 
+            <li>Sign up Customers to standard Services</li> 
+            <li>Customer Satisfaction Survey</li> 
+            <li>Handle Customer Complaints</li> 
+            <li>Monitor Customer Complaints.</li> 
+           </ol> <p><strong>Service Portfolio Management</strong></p> <p>This management process defines the set of customer-oriented services which are provided by a service provider to meet the customer requirements. The primary goal of this process is to maintain the service portfolio.</p> <p>Following are the three types of services under this management process:</p> <p>1. Live Services 2. Retired Services 3. Service Pipeline.</p> <p>Following are the three sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Define and Analyse the new services or changed services of IT.</li> 
+            <li>Approve the changes or new IT services</li> 
+            <li>Service Portfolio review.</li> 
+           </ol> <h3 class="h3">Service Design</h3> <p>It is the second phase or a stage in the lifecycle of a service in the framework of ITIL. This stage provides the blueprint for the IT services. The main goal of this stage is to design the new IT services. We can also change the existing services in this stage.</p> <p>Following are the various essential services or processes which comes under the Service Design stage:</p> 
+           <ul class="points"> 
+            <li>Service Level Management</li> 
+            <li>Capacity Management</li> 
+            <li>Availability Management</li> 
+            <li>Risk Management</li> 
+            <li>Service Continuity Management</li> 
+            <li>Service Catalogue Management</li> 
+            <li>Information Security Management</li> 
+            <li>Supplier Management</li> 
+            <li>Compliance Management</li> 
+            <li>Architecture Management</li> 
+           </ul> <p><strong>Service Level Management</strong></p> <p>In this process, the <strong>Service Level Manager</strong> is the process owner. This management is fully redesigned in the ITIL 2011.</p> <p>Service Level Management deals with the following two different types of agreements:</p> 
+           <ol class="points"> 
+            <li>Operational Level Agreement</li> 
+            <li>Service Level Agreement</li> 
+           </ol> <p>According to the version 3 (V3) of ITIL, this process performs the following activities:</p> 
+           <ul class="points"> 
+            <li>It manages and reviews all the IT services to match service Level Agreements.</li> 
+            <li>It determines, negotiates, and agrees on the requirements for the new or changed IT services.</li> 
+           </ul> <p>Following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Maintenance of SLM framework</li> 
+            <li>Identifying the requirements of services</li> 
+            <li>Agreements sign-off and activation of the IT services</li> 
+            <li>Service level Monitoring and Reporting.</li> 
+           </ol> <p><strong>Capacity Management</strong></p> <p>This management process is accountable for ensuring that the capacity of the IT service can meet the agreed capacity in a cost-effective and timely manner. This management process is also working with other processes of ITIL for accessing the current infrastructure of IT.</p> <p>According to the version 3 (V3) of ITIL, this process performs the following activities:</p> 
+           <ul class="points"> 
+            <li>It manages the performance of the resources so that the IT services can easily meet their SLA targets.</li> 
+            <li>It creates and maintains the capacity plan which aligns with the strategic plan of an organization.</li> 
+            <li>It reviews the performance of a service and the capacity of current service periodically.</li> 
+            <li>It understands the current and future demands of customer for the resources of IT.</li> 
+           </ul> <p>Following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Business Capacity Management</li> 
+            <li>Service Capacity Management</li> 
+            <li>Component Capacity Management</li> 
+            <li>Capacity Management Reporting</li> 
+           </ol> <p><strong>Availability Management</strong></p> <p>In this process, the <strong>Availability Manager</strong> is the owner. This management process has a responsibility to ensure that the services of IT meet the agreed availability goals. This process also confirms that the services which are new or changed does not affect the existing services.</p> <p>It is used for defining, planning, and analysing all the availability aspects of the services of IT.</p> <p>According to the version 3 (V3) of ITIL, this process contains the following two activities:</p> 
+           <ol class="points"> 
+            <li>Reactive Activity</li> 
+            <li>Proactive Activity</li> 
+           </ol> <p>Following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Design the IT services for availability</li> 
+            <li>Availability Testing</li> 
+            <li>Availability Monitoring and Reporting</li> 
+           </ol> <p><strong>Risk Management</strong></p> <p>In this process, the <strong>Risk Manager</strong> is the owner. This management process allows the risk manager to check, assess, and control the business risks. If any risk is identified in the process of business, the risk of that entry is created in the ITIL Risk Register.</p> <p>According to the version 3 (V3) of ITIL, this process performs the following activities in the given order:</p> 
+           <ul class="points"> 
+            <li>It identifies the threats.</li> 
+            <li>It finds the probability and impact of risk.</li> 
+            <li>It checks the way for reducing those risks.</li> 
+            <li>It always monitors the risk factors.</li> 
+           </ul> <p>Following are the four sub-processes which comes under the Risk process:</p> 
+           <ol class="points"> 
+            <li>Risk Management Support</li> 
+            <li>Impact on business and Risk analysis</li> 
+            <li>Monitoring the Risks.</li> 
+            <li>Assessment of Required Risk Mitigation</li> 
+           </ol> <p><strong>Service Catalogue Management (SCM)</strong></p> <p>In this process, the <strong>Service Catalogue Manager</strong> is the owner. This management process allows the Catalogue Manager to give the huge information about all the other management processes.</p> <p>It contains the services in the service operation phase which are presently active.</p> <p>It is a process which certifies that the service catalogue is maintained, produced, and contains all the accurate information for all the operational IT services.</p> <p>Following are the two types or aspects of service catalogue in ITIL framework:</p> 
+           <ol class="points"> 
+            <li>BSC or Business Service Catalogue</li> 
+            <li>TSC or Technical Service Catalogue</li> 
+           </ol> <p>Under this management process, no sub-process is specified or defined.</p> <p><strong>Service Continuity Management</strong></p> <p>In this process, the <strong>IT Service Continuity Manager</strong> is specified as the owner. It allows the continuity manager to maintain the risks which could impact on the service of IT.</p> <p>This process is bound with other processes of ITIL such as capacity and availability management to access and plan the resources which are needed to manage the desired service level.</p> <p>The ITSCM consists of the following four activities or stages:</p> 
+           <ol class="points"> 
+            <li>Initiation</li> 
+            <li>Requirements and Strategy</li> 
+            <li>Implementation</li> 
+            <li>Ongoing Operation</li> 
+           </ol> <p><strong>Information Security Management</strong></p> <p>In this process, the <strong>Information Security Manager</strong> is specified as the owner. The main aim of this management process is to verify the confidentiality, integrity, and availability of the data, information, and services of an IT organization.</p> <p>The main objective of this process is to control the access of information in the organizations.</p> <p>According to the version 3 (V3) of ITIL, this process performs the following four activities:</p> <p>1. Plan &nbsp;&nbsp; 2. Implement &nbsp;&nbsp; 3. Evaluation &nbsp;&nbsp; 4. Maintain</p> <p>According to the version 3 (V3) of ITIL, following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Design of Security controls</li> 
+            <li>Validation and Testing of Security</li> 
+            <li>Management of Security Incidents</li> 
+            <li>Security Review</li> 
+           </ol> <p><strong>Supplier Management</strong></p> <p>In this process, the <strong>Supplier Manager</strong> plays a role as an owner. The supplier manager is responsible to verify that all the suppliers meet their contractual commitments.</p> <p>It also works with the Financial and knowledge management, which helps in selecting the suppliers on the basis of previous knowledge.</p> <p>Following are the various activities which are involved in this process:</p> 
+           <ul class="points"> 
+            <li>It manages the sub-contracted suppliers.</li> 
+            <li>It manages the relationship with the suppliers.</li> 
+            <li>It helps in implementing the supplier policy.</li> 
+            <li>It also manages the supplier policy and supports the SCMIS.</li> 
+            <li>It also manages or maintains the performance of the suppliers.</li> 
+           </ul> <p>According to the version 3 (V3) of ITIL, following are the six sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Provide the Framework of Supplier Management</li> 
+            <li>Evaluation and selection of new contracts and suppliers</li> 
+            <li>Establish the new contracts and suppliers</li> 
+            <li>Process the standard orders</li> 
+            <li>Contract and Supplier Review</li> 
+            <li>Contract Renewal or Termination.</li> 
+           </ol> <p><strong>Compliance Management</strong></p> <p>In this process, the <strong>Compliance Manager</strong> plays a role as an owner. This management process allows the compliance manager to check and address all the issues which are associated with regulatory and non-regulatory compliances.</p> <p>Under this compliance management process, no sub-process is specified or defined.</p> <p>Here, the role of Compliance Manager is to certify that the guidelines, legal requirements, and standards are being followed properly or not. This manager works in parallel with the following three managers:</p> 
+           <ol class="points"> 
+            <li>Information Security Manager</li> 
+            <li>Financial Manager</li> 
+            <li>Service Design Manager.</li> 
+           </ol> <p><strong>Architecture Management</strong></p> <p>In this process, the <strong>Enterprise Architect</strong> plays a role as an owner. The main aim of Enterprise Architect is to maintain and manage the architecture of the Enterprise.</p> <p>This management process helps the <strong>Enterprise Architect</strong> by verifying that all the deployed services and products operate according to the specified architecture baseline in the Enterprise.</p> <p>This process also defines and manages a baseline for the future technological development.</p> <p>Under this Architecture management process, no sub-process is specified or defined.</p> <h3 class="h3">Service Transition</h3> <p><strong>Service Transition</strong> is the third stage in the lifecycle of ITIL Management Framework.</p> <p>The main goal of this stage is to build, test, and develop the new or modified services of IT. This stage of service lifecycle manages the risks to the existing services. It also certifies that the value of a business is obtained.</p> <p>This stage also makes sure that the new and changed IT services meet the expectation of the business as defined in the previous two stages of service strategy and service design in the lifecycle.</p> <p>It can also easily manage or maintains the transition of new or modified IT services from the <strong>Service Design</strong> stage to <strong>Service Operation</strong> stage.</p> <p>There are following various essential services or processes which comes under the Service Transition stage:</p> 
+           <ul class="points"> 
+            <li>Change Management</li> 
+            <li>Release and Deployment Management</li> 
+            <li>Service Asset and Configuration Management</li> 
+            <li>Knowledge Management</li> 
+            <li>Project Management (Transition Planning and Support)</li> 
+            <li>Service Validation and Testing</li> 
+            <li>Change Evaluation</li> 
+           </ul> <p><strong>Change Management</strong></p> <p>In this process, the <strong>Change Manager</strong> plays a role as an owner. The Change Manager controls or manages the service lifecycle of all changes. It also allows the change Manager to implement all the essential changes to be required with the less disruption of IT services.</p> <p>This management process also allows its owner to recognize and stop any unintended change activity. Actually, this management process is tightly bound with the process <strong>"Service Asset and Configuration Management"</strong>.</p> <p>Following are the three types of changes which are defined by the ITIL.</p> 
+           <ol class="points"> 
+            <li>Normal Change</li> 
+            <li>Standard Change</li> 
+            <li>Emergency Change</li> 
+           </ol> <p>All these changes are also known as the Change Models.</p> <p>According to the version 3 (V3) of ITIL, following are the eleven sub-processes which comes under this Change management process:</p> 
+           <ol class="points"> 
+            <li>Change Management Support</li> 
+            <li>RFC (Request for Change) Logging and Review</li> 
+            <li>Change Assessment by the Owner (Change Manager)</li> 
+            <li>Assess and Implement the Emergency Changes</li> 
+            <li>Assessment of change Proposals</li> 
+            <li>Change Scheduling and Planning</li> 
+            <li>Change Assessment by the CAB</li> 
+            <li>Change Development Authorization</li> 
+            <li>Implementation or Deployment of Change</li> 
+            <li>Minor change Deployment</li> 
+            <li>Post Implementation Review and change closure</li> 
+           </ol> <p><strong>Release and Deployment Management</strong></p> <p>In this process, the <strong>Release Manager</strong> plays a role as an owner. Sometimes, this process is also known as the 'ITIL Release Management Process'.</p> <p>This process allows the Release Manager for managing, planning, and controlling the updates &amp; releases of IT services to the real environment.</p> <p>Following are the three types of releases which are defined by the ITIL.</p> 
+           <ol class="points"> 
+            <li>Minor release</li> 
+            <li>Major Release</li> 
+            <li>Emergency Release</li> 
+           </ol> <p>According to the version 3 (V3) of ITIL, following are the six sub-processes which comes under this Change management process:</p> 
+           <ol class="points"> 
+            <li>Release Management Support</li> 
+            <li>Release Planning</li> 
+            <li>Release build</li> 
+            <li>Release Deployment</li> 
+            <li>Early Life Support</li> 
+            <li>Release Closure</li> 
+           </ol> <p><strong>Service Asset and Configuration Management</strong></p> <p>In this process, the <strong>Configuration Manager</strong> plays a role as an owner.</p> <p>This management process is a combination of two implicit processes:</p> 
+           <ol class="points"> 
+            <li>Asset Management</li> 
+            <li>Configuration Management</li> 
+           </ol> <p>The aim of this management process is to manage the information about the (CIs) Configuration Items which are needed to deliver the services of IT. It contains information about versions, baselines, and the relationships between assets.</p> <p>According to the version 3 (V3) of ITIL, following are the five sub-processes which comes under this Change management process:</p> 
+           <ol class="points"> 
+            <li>Planning and Management</li> 
+            <li>Configuration Control and Identification</li> 
+            <li>Status Accounting and reporting</li> 
+            <li>Audit and Verification</li> 
+            <li>Manage the Information</li> 
+           </ol> <p><strong>Knowledge Management</strong></p> <p>In this process, the <strong>Knowledge Manager</strong> plays a role as an owner. This management process helps the Knowledge Manager by analysing, storing and sharing the knowledge and the data or information in an entire IT organization.</p> <p>Under this Knowledge Management Process, no sub-process is specified or defined.</p> <p><strong>Transition Planning and Support</strong></p> <p>In this process, the <strong>Project Manager</strong> plays a role as an owner. This management process manages the service transition projects. Sometimes, this process is also known as the Project Management Process.</p> <p>In this process, the project manager is accountable for planning and coordinating resources to deploy IT services within time, cost, and quality estimates.</p> <p>According to the version 3 (V3) of ITIL, this process performs the following activities:</p> 
+           <ul class="points"> 
+            <li>It manages the issues and risks.</li> 
+            <li>It defines the tasks and activities which are to be performed by the separate processes.</li> 
+            <li>It makes a group with the same type of releases.</li> 
+            <li>It manages each individual deployment as a separate project.</li> 
+           </ul> <p>According to the version 3 (V3) of ITIL, following are the four sub-processes which comes under this Project management process:</p> 
+           <ol class="points"> 
+            <li>Initiate the Project</li> 
+            <li>Planning and Coordination of a Project</li> 
+            <li>Project Control</li> 
+            <li>Project Communication and Reporting</li> 
+           </ol> <p><strong>Service Validation and Testing</strong></p> <p>In this process, the <strong>Test Manager</strong> plays a role as an owner. The main goal of this management process is that it verifies whether the deployed releases and the resulting IT service meets the customer expectations.</p> <p>It also checks whether the operations of IT are able to support the new IT services after the deployment. This process allows the Test Manager to remove or delete the errors which are observed at the first phase of the service operation stage in the lifecycle.</p> <p>It provides the quality assurance for both the services and components. It also identifies the risks, errors and issues, and then they are eliminated through this current stage.</p> <p>This management process has been released in the version 3 of ITIL as a new process.</p> <p>Following are the various activities which are performed under this process:</p> 
+           <ul class="points"> 
+            <li>Validation and Test Management</li> 
+            <li>Planning and Design</li> 
+            <li>Verification of Test Plan and Design</li> 
+            <li>Preparation of the Test Environment</li> 
+            <li>Testing</li> 
+            <li>Evaluate Exit Criteria and Report</li> 
+            <li>Clean up and closure</li> 
+           </ul> <p>According to the version 3 (V3) of ITIL, following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Test Model Definition</li> 
+            <li>Release Component Acquisition</li> 
+            <li>Release Test</li> 
+            <li>Service Acceptance Testing</li> 
+           </ol> <p><strong>Change Evaluation</strong></p> <p>In this process, the <strong>Change Manager</strong> plays a role as an owner. The goal of this management process is to avoid the risks which are associated with the major changes for reducing the chances of failures.</p> <p>This process is started and controlled by the change management and performed by the change manager.</p> <p>Following are the various activities which are performed under this process:</p> 
+           <ul class="points"> 
+            <li>It can easily identify the risks.</li> 
+            <li>It evaluates the effects of a change.</li> 
+           </ul> <p>According to the version 3 (V3) of ITIL, following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Change the Evaluation prior to Planning</li> 
+            <li>Change the Evaluation prior to Build</li> 
+            <li>Change the Evaluation prior to Deployment</li> 
+            <li>Change the Evaluation prior after Deployment</li> 
+           </ol> <h3 class="h3">Service Operations</h3> <p><strong>Service Operations</strong> is the fourth stage in the lifecycle of ITIL. This stage provides the guidelines about how to maintain and manage the stability in services of IT, which helps in achieving the agreed level targets of service delivery.</p> <p>This stage is also responsible for monitoring the services of IT and fulfilling the requests. In this stage, all the plans of transition and design are measured and executed for the actual efficiency. It is also responsible for resolving the incidents and carrying out the operational tasks.</p> <p>There are following various essential services or processes which comes under the stage of Service Operations:</p> 
+           <ul class="points"> 
+            <li>Event Management</li> 
+            <li>Access Management</li> 
+            <li>Problem Management</li> 
+            <li>Incident Management</li> 
+            <li>Application Management</li> 
+            <li>Technical Management</li> 
+           </ul> <p><strong>Event Management</strong></p> <p>In this process, the <strong>IT Operations Manager</strong> plays a role as an owner. The main goal of this management process is to make sure that the services of IT and CIs are constantly monitored. It also helps in categorizing the events so that appropriate action can be taken if needed.</p> <p>In this Management process, the process owner takes all the responsibilities of processes and functions for the multiple service operations.</p> <p>Following are the various purposes of Event Management Process:</p> 
+           <ul class="points"> 
+            <li>It allows the IT Operations Manager to decide the appropriate action for the events.</li> 
+            <li>It also provides the trigger for the execution of management activities of many services.</li> 
+            <li>It helps in providing the basis for service assurance and service improvement.</li> 
+           </ul> <p>The Event Monitoring Tools are divided into two types, which are defined by the Version 3 (V3) of ITIL:</p> 
+           <ol class="points"> 
+            <li>Active Monitoring Tool</li> 
+            <li>Passive Monitoring Tool</li> 
+           </ol> <p>Following are the three types of events which are defined by the ITIL:</p> 
+           <ol class="points"> 
+            <li>Warning</li> 
+            <li>Informational</li> 
+            <li>Exception</li> 
+           </ol> <p>According to the version 3 (V3) of ITIL, following are the four sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Event Monitoring and Notification</li> 
+            <li>First level Correlation and Event Filtering</li> 
+            <li>Second level Correlation and Response Selection</li> 
+            <li>Event Review and Closure.</li> 
+           </ol> <p><strong>Access Management</strong></p> <p>In this process, the <strong>Access Manager</strong> plays a role as an owner. This type of Management process is also sometimes called as the <strong>'Identity Management'</strong> or <strong>'Rights Management'</strong>.</p> <p>The role of a process manager is to provide the rights to use the services for authorized users.</p> <p>In this Management process, the owner of a process follows those policies and guidelines which are defined by the (ISM) '<strong>Information Security Management</strong>'.</p> <p>Following are the six activities which come under this management process and are followed sequentially:</p> 
+           <ol class="points"> 
+            <li>Request Access</li> 
+            <li>Verification</li> 
+            <li>Providing Rights</li> 
+            <li>Monitoring or Observing the Identity Status</li> 
+            <li>Logging and Tracking Status</li> 
+            <li>Restricting or Removing Rights</li> 
+           </ol> <p>According to the version 3 (V3) of ITIL, following are the two sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Maintenance of Catalogue of User Roles and Access profiles</li> 
+            <li>Processing of User Access Requests.</li> 
+           </ol> <p><strong>Problem Management</strong></p> <p>In this process, the <strong>Problem Manager</strong> plays a role as an owner. The main goal of this management process is to maintain or manage the life cycle of all the problems which happen in the services of IT. In the ITIL Framework, the problem is referred to as "<strong>an unknown cause or event of one or more incident</strong>".</p> <p>It helps in finding the root cause of the problem. It also helps in maintaining the information about the problems.</p> <p>Following are the ten activities which come under this management process and are followed sequentially. These ten activities are also called as a lifecycle of Problem Management:</p> 
+           <ol class="points"> 
+            <li>Problem Detection</li> 
+            <li>Problem Logging</li> 
+            <li>Categorization of a Problem</li> 
+            <li>Prioritization of a Problem</li> 
+            <li>Investigation and Diagnosis of a Problem</li> 
+            <li>Identify Workaround</li> 
+            <li>Raising a Known Error Record</li> 
+            <li>Resolution of a Problem</li> 
+            <li>Problem Closure</li> 
+            <li>Major Problem Review</li> 
+           </ol> <p><strong>Incident Management</strong></p> <p>In this process, the <strong>Incident Manager</strong> plays a role as an owner. The main goal of this management process is to maintain or manage the life cycle of all the incidents which happen in the services of IT.</p> <p>An incident is a term which is defined as the failure of any Configuration Item (CI) or reduction in the quality of services of IT.</p> <p>This management process maintains the satisfaction of users by managing the qualities of IT service. It increases the visibility of incidents.</p> <p>According to the version 3 (V3) of ITIL, following are the nine sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Incident Management Support</li> 
+            <li>Incident Logging and Categorization</li> 
+            <li>Pro-active User Information</li> 
+            <li>First Level Support for Immediate Incident Resolution</li> 
+            <li>Second Level Support for Incident Resolution</li> 
+            <li>Handling of Major Incidents</li> 
+            <li>Incident Monitoring and Escalation</li> 
+            <li>Closure and Evaluation of Incident</li> 
+            <li>Management Reporting of Incident</li> 
+           </ol> <p><strong>Application Management</strong></p> <p>In this function, the <strong>Application Analyst</strong> plays a role as an owner.</p> <p>This management function maintains or improves the applications throughout the entire service lifecycle. This function plays an important and essential role in the applications and system management.</p> <p>Under this management function, no sub-process is specified or defined. But, this management function into the following six activities or stages:</p> <p>1. Define &nbsp;&nbsp; 2. Design &nbsp;&nbsp; 3. Build &nbsp;&nbsp; 4. Deploy &nbsp;&nbsp; 5. Operate &nbsp;&nbsp; 6. Optimize</p> <p><strong>Technical Management</strong></p> <p>In this function, the <strong>Technical Analyst</strong> plays a role as an owner. This function acts as standalone in the IT organizations, which basically consists of technical people and teams. The main goal of this function is to provide or offer the technical expertise. And, it also supports for maintaining or managing of IT infrastructure throughout the entire lifecycle of a service.</p> <p>The role of the Technical Analyst is to develop the skills, which are required to</p> <p>operate the day-to-day operations of IT infrastructure. Under this management function, no sub-process is specified or defined.</p> <h3 class="h3">Continual Service Improvement</h3> <p>It is the fifth stage in the lifecycle of ITIL service. This stage helps to identify and implement strategies, which is used for providing better services in future.</p> <p>Following are the various objectives or goals under this CSI:</p> 
+           <ul class="points"> 
+            <li>It improves the quality services by learning from the past failures.</li> 
+            <li>It also helps in analyzing and reviewing the improvement opportunities in every phase of the service lifecycle.</li> 
+            <li>It also evaluates the service level achievement results.</li> 
+            <li>It also describes the best guidelines to achieve the large-scale improvements in the quality of service.</li> 
+            <li>It also helps in describing the concept of KPI, which is a process metrics-driven for evaluating and reviewing the performance of the services.</li> 
+           </ul> <p>There are following various essential services or processes which comes under the stage of CSI:</p> 
+           <ul class="points"> 
+            <li>Service Review</li> 
+            <li>Process Evaluation</li> 
+            <li>Definition of CSI Initiatives</li> 
+            <li>Monitoring of CSI Initiatives</li> 
+           </ul> <p>This stage follows the following six-step approach (pre-defined question) for planning, reviewing, and implementing the improvement process:</p> <p><strong>Ques 1: What is the vision?</strong></p> <p>This question defines the long-term goals of the IT organizations.</p> <p><strong>Ques 2: Where are we now?</strong></p> <p>This question measures the values of defined KPI which are currently present. It also helps in analyzing the current position of the IT organization.</p> <p><strong>Ques 3: Where do we want to be?</strong></p> <p>This question describes the baseline objective of the IT organization.</p> <p><strong>Ques 4: How do we get there?</strong></p> <p>This question helps in defining the plans, which is used to achieve the objectives and KPI targets.</p> <p><strong>Ques 5: Did we get there?</strong></p> <p>When the plans have been implemented, the self-assessment is to be done.</p> <p><strong>Ques 6: How do we get up the momentum?</strong></p> <p>This is the last state, which helps in passing the process control again to the beginning.</p> <p><strong>Service Review</strong></p> <p>In this process, the <strong>CSI Manager</strong> plays a role as an owner. The main aim of this management process is to review the services of business and infrastructure on a regular basis.</p> <p>Sometimes, this process is also called as "<strong>ITIL Service Review and Reporting</strong>". Under this management process, no sub-process is specified or defined.</p> <p><strong>Process Evaluation</strong></p> <p>In this process, the <strong>Process Architect</strong> plays a role as an owner. The main aim of this management process is to evaluate the processes of IT services on a regular basis. This process accepts inputs from the process of <strong>Service Review</strong> and provides its output to the process of <strong>Definition of CSI Initiatives</strong>.</p> <p>In this process, the process owner is responsible for maintaining and managing the process architecture and also ensures that all the processes of services cooperate in a seamless way.</p> <p>According to the version 3 (V3) of ITIL, following are the five sub-processes which comes under this management process:</p> 
+           <ol class="points"> 
+            <li>Process Management support</li> 
+            <li>Process Benchmarking</li> 
+            <li>Process Maturity Assessment</li> 
+            <li>Process Audit</li> 
+            <li>Process Control and Review</li> 
+           </ol> <p><strong>Definition of CSI Initiatives</strong></p> <p>In this process, the <strong>CSI Manager</strong> plays a role as an owner. This management process is also called/known as a "<strong>Definition of Improvement Initiatives</strong>".</p> <p>Definition of CSI Initiatives is a process, which is used for describing the particular initiatives whose aim is to improve the qualities of IT services and processes.</p> <p>In this process, the CSI Manager (process owner) is accountable for managing and maintaining the CSI registers and also helps in taking the good decisions regarding improvement initiatives.</p> <p>Under this management process, no sub-process is specified or defined.</p> <p><strong>Monitoring of CSI Initiatives</strong></p> <p>In this process, the <strong>CSI Manager</strong> plays a role as an owner. This management process is also called as a "<strong>CSI Monitoring</strong>".</p> <p>Under this management process, no sub-process is specified or defined.</p> <h2 class="h2">Advantages of ITIL</h2> <p>Following are the various advantages or benefits of ITIL:</p> 
+           <ol class="points"> 
+            <li>One of the best advantages of ITIL is that it helps in increasing the customer satisfaction.</li> 
+            <li>It allows managers to improve the decision-making process.</li> 
+            <li>It is also used for creating the clear structure of an organization.</li> 
+            <li>It also helps managers by controlling the infrastructure services.</li> 
+            <li>It improves the interaction between the customers and the service provider.</li> 
+            <li>With the help of this framework, service delivery is also improved.</li> 
+            <li>It establishes the framework of ITSM for the organization.</li> 
+           </ol> 
+           <hr> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c1a7a4a4a5a3a0a2aa81aba0b7a0b5b1aea8afb5efa2aeac">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/itil"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/itil"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/itil"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f09882b09a91869184809f999e84de939f9d">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a52487a505b4c5b4e4a5553544e1459555714">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

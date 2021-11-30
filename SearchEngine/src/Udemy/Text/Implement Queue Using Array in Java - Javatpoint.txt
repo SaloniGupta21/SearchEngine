@@ -1,0 +1,787 @@
+
+
+ 
+  
+  Implement Queue Using Array in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Implement Queue Using Array in Java The queue is a type of data structure that can be implemented using an array or a linked list. Here, we have given a brief knowledge of the process of implementing a queue using an array. Queue A queue is data structure that is based on first-in first-out (FIFO) in which the first item input is also the first item removed. Items are added to the end of the line and removed from the beginning. When utilising an array to construct a queue, the fact that an array has a fixed size once declared poses an issue in the queue implementation. When elements are added to a queue and then deleted, a gap is created. To fill the gap, we can rearrange the remaining components to fill the space, but it is a time-consuming procedure. Another alternative is to use a circular queue, with the front and back pointing to the beginning of the array after the maximum size has been achieved. Queue Implementation in Java Queue Operations For a Queue-based system, the following three operations are used. insert: To add an item at the back / rear end of the queue. remove: To delete an item from the front of the queue. peek: Get a value from the front of the queue without having to remove it. Java Program for Queue Implementation Using an Array DemoQueue.java 
+           
+            
+public class DemoQueue 
+{
+  /* Member variable declaration */
+  private int maxSize;
+  private int[] queueArray;
+  private int front;
+  private int rear;
+  private int currentSize;
+  /* Constructor */
+  public DemoQueue(int size)
+  {
+    this.maxSize = size;
+    this.queueArray = new int[size];
+    front = 0;
+    rear = -1;
+    currentSize = 0;
+  }
+  /* Queue:Insert Operation */
+  public void insert(int item)
+  {
+    /* Checks whether the queue is full or not */
+    if(isQueueFull())
+    {
+      System.out.println("Queue is full!");
+      return;
+    }
+    if(rear == maxSize - 1)
+{
+      rear = -1;
+    }
+    /* increment rear then insert element to queue */
+    queueArray[++rear] = item;
+    currentSize++;
+    System.out.println("Item added to queue: " + item);
+  }
+  /* Queue:Delete Operation */  
+  public int delete()
+  {
+    /* Checks whether the queue is empty or not */
+    if(isQueueEmpty())
+    {
+      throw new RuntimeException("Queue is empty");
+    }
+    /* retrieve queue element then increment */
+    int temp = queueArray[front++];
+    if(front == maxSize)
+    {
+      front = 0;
+    }
+    currentSize--;
+    return temp;
+  }
+  /* Queue:Peek Operation */    
+  public int peek()
+  {
+    return queueArray[front];
+  }
+  /* Queue:isFull Operation */ 
+  public boolean isQueueFull()
+  {
+    return (maxSize == currentSize);
+  }    
+  /* Queue:isEmpty Operation */ 
+  public boolean isQueueEmpty()
+{
+    return (currentSize == 0);
+  }
+  /* Driver Code */
+  public static void main(String[] args) 
+  {
+    DemoQueue queue = new DemoQueue(10);
+    queue.insert(2);
+    queue.insert(3);
+    System.out.println("Item deleted from queue: " + queue.delete());
+    System.out.println("Item deleted from queue: " + queue.delete());
+    queue.insert(5);    
+    System.out.println("Item deleted from queue: " + queue.delete());    
+  }
+}
+
+            Output: 
+           
+            Item added to queue: 2
+Item added to queue: 3
+Item deleted from queue: 2
+Item deleted from queue: 3
+Item added to queue: 5
+Item deleted from queue: 5
+
+            As you can see from the code there are insertions and deletions as the front and back progress towards the higher index. Though not implemented as a circular queue, it will result in the queue becoming full and unable to accept new items, even if space has been made in the front due to the deletions. CurrentSize is a field that is increased with each entry and decremented with each removal to keep track of the current size. If maxSize = currentSize, the queue is genuinely full; otherwise, even if maxSize is reached, there remains room at the front that may be utilised to start from the beginning by wrapping the back. Similarly, after maxSize is reached, front can be wrapped to start from the beginning. Performance of Queue In a queue, items can be inserted and removed in O(1) time. 
+            
+            
+            Next Topic
+            Java 13 Features 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,73 @@
+Shortest Sum Contiguous Subarray - javatpoint ? SCROLL TO TOP Home DS DAA DBMS Aptitude Selenium Kotlin C# HTML CSS JavaScript jQuery Quiz Projects Interview Q Comment Forum Training DAA Tutorial DAA Tutorial DAA Algorithm Need of Algorithm Complexity of Algorithm Algorithm Design Techniques Asymptotic Analysis Asymptotic Analysis Analyzing Algorithm Control Structure Recurrence Recurrence Relation Recursion Tree Method Master Method Analysis of Sorting Bubble Sort Selection Sort Insertion Sort Divide and Conquer Introduction Max-Min Problem Binary Search Merge Sort Tower of Hanoi Sorting Binary Heap Quick Sort Stable Sorting Lower bound Theory Lower bound Theory Sorting in Linear Time Linear Time Counting Sort Bucket Sort Radix Sort Hashing Hashing Hash Tables Hashing Method Open Addressing Techniques Hash Function Binary Search Trees Binary Search Red Black Tree Red Black Tree Dynamic Programming Dynamic Programming Divide & Conquer Method vs Dynamic Programming Fibonacci sequence Matrix Chain Multiplication Matrix Chain Multiplication Example Matrix Chain Multiplication Algorithm Longest Common Sequence Longest Common Sequence Algorithm 0/1 Knapsack Problem DUTCH NATIONAL FLAG Longest Palindrome Subsequence Longest Increasing Subsequence Longest Common Subsequence Tabulation vs Memoization How to solve a dynamic programming problem Optimal Substructure Property Overlapping sub-problems Dynamic programming vs Greedy approach Regular Expression Matching Branch and bound vs backtracking Branch and bound Longest Repeated Subsequence Longest Common Substring Shortest Common Supersequence Dynamic Programming vs Divide and Conquer Maximum Sum Increasing Subsequence Wildcard Pattern Matching Largest Sum Contiguous Subarray Shortest Sum Contiguous Subarray Greedy Algorithm Greedy Algorithms Activity Selection Problem Fractional Knapsack problem Huffman Codes Algorithm of Huffman Code Activity or Task Scheduling Problem Travelling Sales Person Problem Dynamic Programming vs Greedy Method Backtracking Backtracking Introduction Recursive Maze Algorithm Hamiltonian Circuit Problems Subset Sum Problems N Queens Problems MST MST Introduction MST Applications Kruskal's Algorithm Prim's Algorithm Shortest Path Introduction Negative Weight Edges Representing Shortest Path Relaxation Dijkstra's Algorithm Bellman-Ford Algorithm Single Source Shortest Path in a directed Acyclic Graphs All-Pairs Shortest Paths Introduction Floyd-Warshall Algorithm Johnson's Algorithm Maximum Flow Flow networks and Flows Network Flow Problems Ford Fulkerson Algorithm Maximum bipartite matching Sorting Networks Comparison Network Bitonic Sorting Network Merging Network Complexity Theory Complexity Classes Polynomial Time Verification NP-Completeness Circuit Satisfiability 3-CNF Satisfiability Clique Problem Vertex Cover Problem Subset-Sum Problem Approximation Algo Introduction Vertex Cover Travelling Salesman Problem String Matching Introduction Naive String Matching Algorithm Rabin-Karp-Algorithm String Matching with Finite Automata Knuth-Morris-Pratt Algorithm Boyer-Moore Algorithm Interview Questions DAA Interview Questions next ? ? prev Shortest Sum Contiguous Subarray Subarray is basically a part of an array or it is an array within another array. Subarray contains contiguous elements whereas the supersequence does not contain the contiguous elements. Here, we will find the sum of the contiguous subarray which is minimum. Suppose we have given an array containing 'n' integers. The main aim is to find the sum of the elements of the contiguous array which is minimum. Let's understand through some examples. Example 1: 
+arr = {3, 2, 5, 5, 3, 2, 10}
+Number of elements in the array is 7.
+The smallest sum of the contiguous subarray: 2
+ Example 2: 
+arr = {-4, 5, -1, -6, 8}
+Number of elements in the array is 5
+The smallest sum of the contiguous subarray: -7
+ There are multiple techniques to solve this problem. The first solution to this problem is brute force approach. In this approach, we find all the possible arrays and then search for the subarray which has the minimum sum. Algorithm of brute force 
+min = ?
+for (int i=0; i<n; i++) 
+{
+   int sum;
+   for (int j=i; j<n;j++)
+   {
+       sum = sum+b[j];
+   }
+if(sum < min)
+{
+   min = sum;
+}
+}
+return min;
+ The above algorithm generates the time complexity of O(n2). The time complexity is high so we will use another approach to solve the problem. We will use Kaden's algorithm to solve the problem. Algorithm for the efficient approach 
+minimum_sum = INFINITY
+sum = 0
+for i in 1 to size_of_array:
+sum = min(array[i], array[i] + sum)
+minimum_sum = min(ans, sum)
+print(minimum_sum)
+ The time complexity of the above algorithm is O(n). It is the best possible time complexity because we need to go the elements only once. Implementation in C 
+#include <stdio.h>
+#include <limits.h>
+// Find the minimum sum subarray of a given size `k`
+void minimum_subarray(int arr[], int n, int k)
+{
+    // base case
+    if (n == 0 || n <= k) {
+        return;
+    } 
+    // stores the sum of elements in the current sum
+    int current_sum = 0;
+    // stores the sum of minimum sum subarray found so far
+    int minimum_sum = INT_MAX;
+    // stores ending index of the minimum sum subarray found so far
+    int last = 0; 
+    for (int i = 0; i < n; i++)
+    {
+        // add the current element to the current_sum
+        current_sum += arr[i];        
+        if (i + 1 >= k)
+        {
+            // update the minimum sum with a current sum value
+            if (minimum_sum > current_sum)
+            {
+                minimum_sum = current_sum;
+                last = i;
+            }
+            // remove a leftmost element from the array
+            current_sum -= arr[i + 1 - k];
+        }
+    }
+    printf("The minimum sum subarray is (%d, %d)", last - k + 1, last);
+}
+int main(void)
+{
+    int arr[] = { 10, 4, 2, 5, 6, 3, 8, 1 };
+    int k = 3; 
+    int n = sizeof(arr)/sizeof(arr[0]);
+   minimum_subarray(arr, n, k);
+    return 0;
+}
+ Output Next Topic # ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

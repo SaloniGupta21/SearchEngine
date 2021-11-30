@@ -1,0 +1,804 @@
+
+
+ 
+  
+  Difference Between replace() and replaceAll() in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Difference Between replace() and replaceAll() in Java The Java String class provides various methods to manipulate string. The replace() and replaceAll() method are one of them that are used to replace a string with a specified sub string. As the name of both the methods sounds same but their working is different. Let's understand replace(), replaceAll() and replaceFirst() methods and differentiate each one of them one by one. String.replace() Method The replace() method is one of the most used string methods for replacing all the occurrences of a character with the given character. The replace() method of JDK 1.5 replaces the char and a sequence of char values. Syntax: These are the following two types of replace() methods in the Java String class. 
+           
+            
+public string replace(char prevChar, char newChar)
+public String replace(CharSequence target, CharSequence replacement)
+
+            Parameters prevChar: The parameter defines the character of the string to be replace. newChar: The parameter defines the newChar that takes the place of the prevChar. target: The parameter defines the target sequence of characters. replacement: The parameter defines the replacement sequence of characters. Let's take an example to understand how we can use the replace() method in Java programs. ReplaceExample1.java 
+           
+            
+// import required classes and packages
+package javaTpoint.JavaExample;
+import java.util.Scanner;
+// create class ReplaceExample1 to understand both type of replace() method
+public class ReplaceExample1
+{  
+	// main() method start
+	public static void main(String args[]){  
+		// declare str1 str2, c, and subStr
+		String str1, str2, targetStr, replacementStr;
+		char prevChar, newChar;
+		
+		// create instance of Scanner class to take input string from user
+		Scanner sc = new Scanner(System.in);
+		// take 1st string from user
+		System.out.println("Enter 1st string :");
+		str1 = sc.nextLine();
+		System.out.println("Enter 2nd string :");
+		str2 = sc.nextLine();
+		System.out.println("Enter the target string for 1st string :");
+		targetStr = sc.nextLine();
+		System.out.println("Enter the replacement string for 1st string :");
+		replacementStr = sc.nextLine();
+		System.out.println("Enter character which you want to replace in 2nd string :");
+		prevChar = sc.next().charAt(0);
+		System.out.println("Enter character which take place of :"+prevChar+" in 2nd string :");
+		newChar = sc.next().charAt(0);
+		sc.close();
+		String replaceStr1 = str2.replace(prevChar, newChar);//replaces all occurrences of prevChar to newChar 
+		System.out.println("String after replacing "+prevChar+" with "+newChar+" is: "+replaceStr1);
+		String replaceStr2 = str1.replace(targetStr, replacementStr);//replaces all occurrences of targetStr with replacementStr 
+		System.out.println("String after replacing "+targetStr+" with "+replacementStr+" is: "+replaceStr2);
+	}
+}  
+
+            Output:  String.replaceAll() Method The replaceAll() method is similar to the String.replaceFirst() method. The only difference between them is that it replaces the sub-string with the given string for all the occurrences present in the string. Syntax: The syntax of the replaceAll() method is as follows: 
+           
+            
+public String replaceAll(String str, String replacement)
+
+            Parameters str: The parameter defines the sub-string that we need to replace in the string. replacement: The parameter defines the replacement string that takes the place of the str. Let's take an example to understand how we can use the replaceAll() method in our programs. ReplaceExample3.java 
+           
+            
+// import required classes and packages
+package javaTpoint.JavaExample;
+import java.util.Scanner;
+// create class ReplaceExample3 to understand replaceAll() method
+public class ReplaceExample3
+{  
+	// main() method start
+	public static void main(String args[]){  
+		// declare str1 str2, subStr
+		String str1, targetStr, replacementStr;
+		// create instance of Scanner class to take input string from user
+		Scanner sc = new Scanner(System.in);
+		// take 1st string from user
+		System.out.println("Enter 1st string :");
+		str1 = sc.nextLine();
+		System.out.println("Enter the target string for 1st string :");
+		targetStr = sc.nextLine();
+		System.out.println("Enter the replacement string for 1st string :");
+		replacementStr = sc.nextLine();		
+		sc.close();
+		String replaceStr1 = str1.replaceAll(targetStr, replacementStr);//replaces all occurrences of targetStr to replacementStr 
+		System.out.println("String after replacing "+targetStr+" with "+replacementStr+" is: "+replaceStr1);
+	}
+}
+
+            Output:  String.replaceFirst() Method The replaceFirst() method is another method for replacing the substring. It replaces the sub-string with the given string. The replaceFirst() method replaces only the first occurrence of the sub-string. Syntax: The syntax of the replaceFirst() method is as follows: 
+           
+            
+public String replaceFirst(String str, String replacement)
+
+            Parameters Str: The parameter defines the sub-string that we need to replace in the string. Replacement: The parameter defines the replacement string that takes the place of the str. Let's take an example to understand how we can use the replaceFirst() method in our programs. ReplaceExample2.java 
+           
+            
+// import required classes and packages
+package javaTpoint.JavaExample;
+import java.util.Scanner;
+// create class ReplaceExample2 to understand replaceFirst() method
+public class ReplaceExample2
+{  
+	// main() method start
+	public static void main(String args[]){  
+		// declare str1 str2, subStr
+		String str1, targetStr, replacementStr;
+		// create instance of Scanner class to take input string from user
+		Scanner sc = new Scanner(System.in);
+		// take 1st string from user
+		System.out.println("Enter 1st string :");
+		str1 = sc.nextLine();
+		System.out.println("Enter the target string for 1st string :");
+		targetStr = sc.nextLine();
+		System.out.println("Enter the replacement string for 1st string :");
+		replacementStr = sc.nextLine();		
+		sc.close();
+		String replaceStr1 = str1.replaceFirst(targetStr, replacementStr);//replaces first occurrences of targetStr to replacementStr 
+		System.out.println("String after replacing "+targetStr+" with "+replacementStr+" is: "+replaceStr1);
+	}
+
+            Output:  
+            
+            
+            Next Topic
+            Difference Between this and super in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

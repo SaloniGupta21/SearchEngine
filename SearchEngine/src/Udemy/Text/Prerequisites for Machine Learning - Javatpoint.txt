@@ -1,0 +1,719 @@
+
+
+ 
+  
+  Prerequisites for Machine Learning - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       AI 
+       Machine Learning 
+       DBMS 
+       Java 
+       Blockchain 
+       Control System 
+       Selenium 
+       HTML 
+       CSS 
+       JavaScript 
+       DS 
+       jQuery 
+       Quiz 
+       Interview Q 
+       Comment 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Machine Learning 
+      
+      
+      Machine Learning Tutorial 
+      Machine Learning Applications 
+      Life cycle of Machine Learning 
+      Install Anaconda & Python 
+      AI vs Machine Learning 
+      How to Get Datasets 
+      Data Preprocessing 
+      Supervised Machine Learning 
+      Unsupervised Machine Learning 
+      Supervised vs Unsupervised Learning 
+      
+      
+      Supervised Learning 
+      
+      
+      Regression Analysis 
+      Linear Regression 
+      Simple Linear Regression 
+      Multiple Linear Regression 
+      Backward Elimination 
+      Polynomial Regression 
+      
+      
+      Classification 
+      
+      
+      Classification Algorithm 
+      Logistic Regression 
+      K-NN Algorithm 
+      Support Vector Machine Algorithm 
+      Naïve Bayes Classifier 
+      
+      
+      Miscellaneous 
+      
+      
+      Classification vs Regression 
+      Linear Regression vs Logistic Regression 
+      Decision Tree Classification Algorithm 
+      Random Forest Algorithm 
+      Clustering in Machine Learning 
+      Hierarchical Clustering in Machine Learning 
+      K-Means Clustering Algorithm 
+      Apriori Algorithm in Machine Learning 
+      Association Rule Learning 
+      Confusion Matrix 
+      Cross-Validation 
+      Data Science vs Machine Learning 
+      Machine Learning vs Deep Learning 
+      Dimensionality Reduction Technique 
+      Machine Learning Algorithms 
+      Overfitting & Underfitting 
+      Principal Component Analysis 
+      What is P-Value 
+      Regularization in Machine Learning 
+      Examples of Machine Learning 
+      Semi-Supervised Learning 
+      Essential Mathematics for Machine Learning 
+      Overfitting in Machine Learning 
+      Types of Encoding Techniques 
+      Feature Selection Techniques in Machine Learning 
+      Bias and Variance in Machine Learning 
+      Machine Learning Tools 
+      Prerequisites for Machine Learning 
+      Gradient Descent in Machine Learning 
+      Machine Learning Experts Salary in India 
+      Machine Learning Models 
+      Machine Learning Books 
+      Linear Algebra for Machine learning 
+      Types of Machine Learning 
+      
+      
+      Related Tutorials 
+      
+      
+      Tensorflow Tutorial 
+      PyTorch Tutorial 
+      Data Science Tutorial 
+      AI Tutorial 
+      NLP Tutorial 
+      Reinforcement Learning 
+      
+      
+      Interview Questions 
+      
+      
+      Machine learning Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Prerequisites for Machine Learning Nowadays, machine learning has become one of the most sought-after technologies of the era, and undoubtedly it is the wave of the future. If you are interested in learning machine learning, then you must be aware of the prerequisites for machine learning. The machine learning prerequisites will help you to make a better career path.   Machine Learning is an interdisciplinary field of mathematics and computer science that aims to teach machines to perform cognitive activity similar to humans. In machine learning, the term learning specifies a way by which machines take input data, examine or analyze data, and gain insights from it. Machine learning systems use different algorithms to automatically learn patterns from datasets that may include structured data, numeric data, textual data, visual data, etc. In order to succeed in machine learning technology, it is very important to understand each concept in a proper way. In this topic, we will discuss the perquisites for machine learning so that you can make your base better for learning its advanced concepts. What are the prerequisites for machine learning? To get started with machine learning, you must be aware of the below points. 
+            
+            Educational Prerequisites for Machine learning Career 
+            Skills-based Prerequisites for Machine learning Career 
+            
+            
+            Statistics 
+            Linear Algebra 
+            Calculus 
+            Probability 
+            Programming Languages 
+            Educational Prerequisites for machine learning Does Master's/Ph.D. require to become a Machine learning engineer? This is one of the most common questions regarding educational qualification for ML among the aspirants who want to learn Machine learning and make a career in this. The answer for this is NO, it means, it is not necessary that you must have a master's or Ph.D. degree to learn and make a career in machine learning. There are lots of people who have made a career in this field without having a degree. However, having a Ph.D. or Master's degree will definitely give you additional benefits and will make the path smoother. The master's/Ph.D. certificate works as a way to showcase your skills, but in the end, your practical knowledge & skills will help you to either build a project or make a career in Machine learning. So, if you have enough time and funds to have a Master's or Ph.D. degree, you can do this, and it will surely give you benefit. But if you are not having a degree and have good ML skills, then also you can make the transition into Machine learning. Skill-based Prerequisites for Machine learning Career 1. Statistics Machine learning and statistics are the two tightly coupled fields, as most of the concepts of machine learning are either taken from statistics or are dependent on it. Machine learning techniques and algorithms are widely dependent on statistical concepts and theories; hence it is a crucial prerequisite for ML. Statistics is a field of mathematics that allows to draw the logical conclusion from the data. Every machine learning enthusiast must understand the statistical concepts in order to learn the working of algorithms such as logistic Regression, distribution, hypothesis testing, etc. It helps in performing the following task: 
+            
+            It contains various tools that allow us to get some outcomes from the available data and information. 
+            It finds outcomes from the data and transforms sample observations into meaningful information. 
+            Each raw data is not perfect and contains different impurities in it, such as incomplete data, corrupted data, etc. In such cases, statistical concepts help to identify these impurities. 
+            It helps in obtaining answers for different questions such as, who scored the maximum & minimum in the cricket tournament? Which technology is on-trend in 2021? etc. 
+            Statistical hypothesis tests enable in selecting the best model for any kind of predictive modeling problem. 
+            Some fundamental concepts of Statistics needed for ML are given below: 
+            
+            Combinatorics 
+            Axioms 
+            Bayes' Theorem 
+            Variance and Expectation 
+            Random Variables 
+            Conditional and Joint Distributions. 
+            2. Linear Algebra Linear algebra deals with the study of vectors & some rules of manipulating these vectors, matrices, and linear transform. It is one of the integral parts of machine learning and helps the ML algorithms to run on a huge number of datasets with multi-dimensionality. The concepts of linear algebra are widely used in developing algorithms in machine learning. It can perform the following task: 
+            
+            Linear algebra has vast application in machine learning. 
+            Linear algebra is essential for optimizing the data in machine learning. 
+            It is used in loss functions, regularisation, covariance matrices, Singular Value Decomposition (SVD), Matrix Operations, and support vector machine classification. 
+            Linear algebra is also used for performing Principal Component Analysis(PCA) for dimensionality reduction. 
+            Apart from the above applications, it is also used in neural networks and the data science field. 
+            Although linear algebra is one of the crucial prerequisites for machine learning, it is not required to go in-depth in this, at least not for the beginner; only understanding of the basic concept is enough to start. 3. Probability In the real world, there are various scenarios where the behavior or output can vary for the same input. Probability has always been an essential part of Mathematics, which measures the uncertainty of the event. The higher the probability of an event, the more chances that event will occur. In Machine learning, probability helps to make predictions with incomplete information. It helps in predicting the likelihood of future events. With the help of probability, we can model elements of uncertainty such as risk in a business process or transaction, i.e., we can work with non-deterministic problems. Whereas in traditional programming, we deal with deterministic problems; output is not affected by uncertainty. It also helps in hypothesis testing and distributions such as Gaussian distribution and Probability density function. Probability theory and statistics are related fields; probability deals with future events, whereas statistics deal with the analysis of past events. Below are some commonly used Probability concepts:  
+            
+            Maximum Likelihood Estimation 
+            Regression with Maximum 
+            Joint, Marginal, and Conditional Probability, 
+            Probability Distributions (Discrete, Continuous), 
+            Density Estimation 
+            Likelihood and Bayes Theorem, etc. 
+            4. Calculus Calculus is also an integral part of Machine learning, but it is not required to go in-depth of it at the beginner level; rather, only knowledge of basic concepts is enough. In machine learning, the process of getting the best parameters is known as optimization, and multivariate calculus helps in solving optimization problems in the ML model. It helps in optimization and getting good results from the model. In calculus, we don't need to solve complex derivatives manually; rather, we must understand how differentiation work and how it is applied for vector calculus. Multivariate calculus is not only used for algorithm training but also for gradient descent. Some crucial concepts of multivariate calculus are Derivatives, divergence, curvature, and quadratic approximations, Laplacian and Lagrangian Distribution, Directional Gradient, etc.  5. Programming Languages Apart from the mathematical concepts, it is very important to have a good knowledge of a programming language and coding capabilities for machine learning. Some of the most popular programming languages for machine learning are as follows: Python Python is the most powerful and easy language that anyone can learn. Python was initially developed in early 1991. Most of the developers and programmers choose Python as their favorite programming language for developing Machine learning & AI solutions. The best part about Python is it is very easy to learn compare to other programming languages and also offers great carrier opportunities for programmers and data scientists. Python provides excellent community support and an extensive set of libraries, along with the flexibility of programming languages. Python is a platform-independent language as well as it provides an extensive framework for Deep Learning and Machine Learning. Python is also a very portable language as it can be used on different platforms including Linux, Windows, Mac OS, and UNIX. R R is one of the great languages for statistical processing in programming. It may not be the perfect language for machine learning, but it provides great performance while dealing with large numbers. Some inbuilt features such as built-in functional programming, object-oriented nature, and vectorial computation make it a worthwhile programming language for machine learning. R contains several packages that are specially designed for ML, which are: 
+            
+            gmodels - This package provides different tools for the model fitting task. 
+            TM - It is a great framework that is used for text mining applications. 
+            RODBC - It is an ODBC interface. 
+            OneR - This package is used to implement the One Rule Machine Learning classification algorithm. 
+            Java: Java is the most widely used programming language by all developers and programmers in the world. Java can be easily implemented on the various platform due to JVM(Java Virtual Machine). The best things about Java is once it is written and compiled on one platform, then you should not need to compile it again and again. This is known as WORA (Once Written Read/Run Anywhere) principle. Java has so many features which make Java best for use in Machine learning. These are as follows: 
+            
+            Portable 
+            Memory manager 
+            Cross-platform. 
+            Easy to learn and use. 
+            Easy-to-code Algorithms. 
+            Built-in garbage collector. 
+            Swing and Standard Widget Toolkit. 
+            Simplified work with large-scale projects. 
+            Better user interaction. 
+            Easy to debug 
+            Selecting the correct Programming Language Apart from the above-mentioned programming languages, there are many other programming languages that are being used in Machine learning, such as C, C++, MATLAB, JavaScript, etc. However, choosing the best languages may become a challenging task for beginners. In machine learning, Python and R are the two most preferred languages because of their great benefits and vast libraries. However, other general-purpose languages can also be used, such as Java, C, C++, but make sure you are skilled with these languages. Apart from the above programming and mathematics skills, awareness of some basic concepts of machine learning is required to learn advanced concepts. These concepts include machine learning types (Supervised, unsupervised, Reinforcement learning), techniques, model building, etc. 
+            
+            
+            Next Topic
+            Gradient Descent in Machine Learning 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

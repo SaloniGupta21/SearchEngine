@@ -1,0 +1,1358 @@
+
+
+  
+   
+   
+   
+  
+  
+  
+  
+   
+  Top 60+ Most Asked SAP FICO Interview Question and Answers - JavaTpoint 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+   
+    
+     
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+        
+        
+       
+      
+     
+     
+     
+       
+        Home 
+        Interview Questions 
+        Java 
+        SQL 
+        Python 
+        JavaScript 
+        Angular 
+        Selenium 
+        Spring Boot 
+        HR 
+        C 
+        Data Structure 
+        DBMS 
+        HTML 
+        C# 
+        C++ 
+      
+      
+      
+     
+     
+     
+     
+      
+      All Interview 
+      
+      
+      Interview Tips 
+      JOB/HR Interview 
+      Competency Interview 
+      Business Analyst 
+      Behavioral Interview 
+      
+      
+      Company Interview 
+      
+      
+      Company Interview 
+      IBM Interview 
+      Infosys Interview 
+      Capgemini Interview 
+      Cognizant Interview 
+      Wipro Interview 
+      Accenture Interview 
+      iGate Interview 
+      TCS Interview 
+      HCL Interview 
+      Adobe Interview 
+      Microsoft Interview 
+      DXC Technology Interview 
+      Ericsson Interview 
+      EXL Service Interview 
+      IndiaMART Interview 
+      Intuit Interview 
+      SpaceX Interview 
+      Sapient Interview 
+      Amazon Interview 
+      
+      
+      Technical Interview 
+      
+      
+      C Interview 
+      C++ Interview 
+      Data Structure Interview 
+      Linux Interview 
+      Unix Interview 
+      Shell Scripting 
+      Networking Interview 
+      CCNA Interview 
+      Android Interview 
+      Cloud Computing 
+      Hadoop Interview 
+      Testing/QTP Interview 
+      Selenium Interview 
+      Web Services Interview 
+      OS Interview 
+      Excel Interview 
+      SEO Interview 
+      Digital Marketing 
+      Python Interview 
+      Django Interview 
+      Pascal Interview 
+      Ruby Interview 
+      Ruby on Rails Interview 
+      Memcached Interview 
+      Go Interview 
+      OpenStack Interview 
+      Scala Interview 
+      Control Systems 
+      Electrical Machines 
+      Power System 
+      Digital Electronics 
+      Robotics Interview 
+      TypeScript Interview 
+      Swift Interview 
+      Blockchain Interview 
+      Bitcoin Interview 
+      AWS Interview 
+      Informatica Interview 
+      QA Interview 
+      React Interview 
+      GIT Interview 
+      J2EE Interview 
+      Deep Learning 
+      Salesforce Interview 
+      TestNG Interview 
+      Agile Interview 
+      Machine Learning 
+      API Testing 
+      Algorithm 
+      Java Design Pattern 
+      Teradata 
+      TensorFlow 
+      LINQ 
+      Mainframe 
+      Laravel 
+      JIRA 
+      JCL 
+      Pytorch 
+      ETL Testing 
+      Linked List 
+      DataStage 
+      Tableau 
+      SAP ABAP 
+      DAA 
+      Computer Graphics 
+      Data Science 
+      Software Engineering 
+      Power BI 
+      Xamarin 
+      Ansible 
+      Data Warehouse 
+      Ionic 
+      Devops 
+      React Native 
+      Python Pandas 
+      HTTP Interview 
+      Kali Linux Interview 
+      PowerShell Interview 
+      SharePoint Interview 
+      Talend Interview 
+      Microsoft Azure Interview 
+      R Interview 
+      Flutter Interview 
+      MATLAB Interview 
+      ES6 Interview 
+      RPA Interview 
+      Desktop Support Interview 
+      Angular 8 Interview 
+      GraphQL Interview 
+      Vue.js Interview 
+      Automation Anywhere Interview 
+      AI Interview 
+      UiPath Interview 
+      Blue Prism Interview 
+      SSIS Interview 
+      Mobile Computing Interview 
+      ITIL Interview 
+      SAS Interview 
+      Elasticsearch Interview 
+      Entity Framework Interview 
+      RxJS Interview 
+      Accounting Interview 
+      Electron.js Interview 
+      Knockout JS Interview 
+      Top Angular Interview 
+      IAS Interview Question 
+      Banking Interview 
+      Interview Questions for Freshers 
+      PowerPoint Interview 
+      BPO Interview 
+      Civil Engineering Interview 
+      Apache Spark Interview 
+      Data Mining Interview 
+      Java Support Interview 
+      Kubernetes Interview 
+      Web API Interview 
+      Scrum Master Interview 
+      System Design Interview 
+      SSB Interview Questions 
+      Teachers Interview Questions 
+      Finance Interview Questions 
+      Technical Support Interview 
+      Active Directory Interview 
+      Appium Interview 
+      Cucumber Interview 
+      Full-Stack Developer 
+      ServiceNow Interview 
+      Nursing Interview 
+      Sales Interview 
+      Microservices Interview 
+      Electrical Engineering Interview 
+      Accounts Payable Interview 
+      VISA Interview 
+      VLSI Interview 
+      AutoCAD Interview 
+      Verilog Interview 
+      OOPs Interview 
+      Web Developer Interview 
+      Express.js Interview 
+      CakePHP Interview 
+      Yii Interview 
+      Zend Framework Interview 
+      Java Concurrency Interview 
+      Symfony Interview 
+      Basic Interview 
+      Dynamic Programming Interview 
+      Programming Interview 
+      Next.js Interview 
+      Microsoft Java Interview 
+      AEM Interview 
+      Svelte.js Interview 
+      COBOL Interview 
+      Cyber Security Interview 
+      SQL Query Interview 
+      BGP Interview 
+      Apache Hive Interview 
+      Kafka Interview 
+      Embedded C Interview 
+      Pega Interview 
+      Kotlin Interview 
+      SAP MM Interview 
+      
+      
+      Web Interview 
+      
+      
+      HTML Interview 
+      CSS Interview 
+      JavaScript Interview 
+      jQuery Interview 
+      AngularJS Interview 
+      Angular Interview 
+      Angular 7 Interview 
+      Node.js Interview 
+      AJAX Interview 
+      XML Interview 
+      Dojo Interview 
+      Backbone.js Interview 
+      Ember.js Interview 
+      XHTML Interview 
+      XSLT Interview 
+      XPath Interview 
+      XQuery Interview 
+      XForms Interview 
+      SASS Interview 
+      CoffeeScript Interview 
+      LESS Interview 
+      Perl Interview 
+      Pure.CSS Interview 
+      Materialize Interview 
+      Framework7 Interview 
+      SVG Interview 
+      SAP FICO Interview 
+      
+      
+      PHP Interview 
+      
+      
+      PHP Interview 
+      Wordpress Interview 
+      Joomla Interview 
+      Drupal Interview 
+      Magento Interview 
+      CodeIgniter Interview 
+      Phalcon Interview 
+      
+      
+      .Net Interview 
+      
+      
+      .Net Interview 
+      C# Interview 
+      ASP.NET Interview 
+      ADO.NET Interview 
+      WCF Interview 
+      WPF Interview 
+      Silverlight Interview 
+      F# Interview 
+      
+      
+      Java Interview 
+      
+      
+      Java 1 Interview 
+      Java 2 Interview 
+      Exception & String 
+      Multithreading  
+      Collections Interview 
+      JDBC Interview 
+      Servlet Interview 
+      JSP Interview 
+      EJB Interview 
+      Struts Interview 
+      Hibernate Interview 
+      Spring Interview 
+      Spring Boot Interview 
+      Spring MVC Interview 
+      JPA Interview 
+      Maven Interview 
+      JUnit Interview 
+      JSF Interview 
+      PrimeFaces Interview 
+      RichFaces Interview 
+      GWT Interview 
+      JDB Interview 
+      JOGL Interview 
+      jBPM Interview 
+      Jenkins Interview 
+      Java Constructor Interview 
+      Technical Architect Interview 
+      Array Interview Questions 
+      
+      
+      Database Interview 
+      
+      
+      DBMS Interview 
+      SQL Interview 
+      PL/SQL Interview 
+      Oracle Interview 
+      MySql Interview 
+      SQL Server Interview 
+      MongoDB Interview 
+      Cassandra Interview 
+      DB2 Interview 
+      Access Interview 
+      SQLite Interview 
+      CouchDB Interview 
+      Neo4j Interview 
+      MariaDB Interview 
+      PouchDB Interview 
+      Redis Interview 
+      
+      
+      
+       
+          
+        
+       
+           
+        
+      
+      
+     
+     
+      
+      
+      
+       
+       
+        
+          Top 60+ Most Asked SAP FICO Interview Question and Answers 1) What do you understand by the term SAP FICO? We already know that SAP stands for Systems, Applications & Products in Data Processing. In SAP FICO, FI stands for (Financial Accounting) and CO stands for (Controlling). To understand the concept well, we can divide the SAP FICO into two parts: SAP FI and SAP CO. The SAP FI takes care of accounting, preparation of financial statements, tax computations, etc. On the other hand, SAP CO takes care of inner orders, cost sheets, inventory sheets, cost allocations, etc. SAP FICO is the software that stores data, and also computes them, and retrieves the result according to the current marketing scenario. It is responsible for preventing data loss and also does the verification and reporting of data. 
+           2) What is the main usage of SAP FICO? The SAP FICO modules are mainly used within a company to manage financial tasks within an international framework of languages and currencies. 
+           
+           The FI part of SAP FICO deals mainly in financial accounting such as fixed assets, accrual, cash journal, tax accounting, general ledger, and other financial tasks. 
+           On the other hand, the CO part of SAP FICO deals with buying orders, stock sheets, cost sheets, cost assignments, and other tasks in this category. 
+           
+           3) What is the posting key, and why is it used? Posting Key is a two-digit numerical used to control and determine the transaction type entered in the line item. Posting Key is used to determine the following things: 
+           
+           Account Types 
+           Types of posting. Debit or Credit 
+           Field status of a transaction 
+           
+           4) What are the most important organizational elements in SAP FI? The most important organizational elements in SAP FI are: 
+           
+           Company Code 
+           Business Area 
+           Chart of Account 
+           Functional Area 
+           
+           5) What is the best way to manage transactions originating from different lines of businesses within a company? The best way to manage transactions originating from different lines of businesses within a company is to create Business Areas. Another way is to create different company codes for each business line. 
+           6) What are the other modules to which 'Financial Accounting' of SAP FICO is integrated? The other modules to which 'Financial Accounting' of SAP FICO is integrated are: 
+           
+           Sales and Distribution 
+           Production Planning 
+           Material Management 
+           Human Resource 
+           Controlling of financial transaction 
+           
+           7) What is the function of credit control in SAP FICO? Credit control is used to safeguard the business from overstretching its financial assets. Generally, we set a credit limit for the customers using SAP when the payment is made after the product's sale. Using this way, we can restrict the customer's amount to clear in their account before further starting a new purchase. 
+           8) What is the use of company code in SAP FICO? In SAP FICO, the company code generates financial statements such as Profit and Loss Statements, Balance sheets, etc. 
+           9) What are the options in SAP FICO for Fiscal years? In SAP FICO, the fiscal year is the way to store the financial data in the system. In SAP, you have 12 periods and four special periods. These periods are stored in fiscal year variant in the following way: 
+           
+           Calendar Year: From Jan-Dec, April-March 
+           Year dependent fiscal year 
+           
+           10) How many Chart of Accounts can a company code have? You can have only one Chart of Accounts for one company code that is assigned. 
+           11) What is the use of Chart of Accounts in SAP FICO? In SAP FICO, the Chart of Accounts is used to meet the daily needs of the company as well as the legal requirements of the country. The Chart of Accounts has two types: 
+           
+           Operating Chart of Accounts (COA): The Operating Chart of Accounts or operating COA is a record assigned to the company code and contains all the general ledger accounts. 
+           Country Chart of Accounts (COA): The Country Chart of Account is the list of general ledger accounts required to meet the country's legal requirements. 
+           
+           12) How many currencies can we configure for a Company Code? We can configure three currencies for a Company Code, one is a local currency, and two are parallel currencies. 
+           13) What do you understand by 'year shift' in the SAP calendar? The SAP system does not understand what a broken fiscal year is. For Example, from April 2020 to March 2021, it will only understand the calendar year. Suppose that the fiscal year is not a calendar year but the combination of the different months of two different calendar years for any business. In that case, one of the calendar years has to be classified as a fiscal year for SAP and the month falling in another year has to be adjusted into the fiscal year by shifting the year by using the sign -1 or +1. This shifting in the year is called the 'year shift'. For ExampleExample April 2020 to Dec 2020 is our first calendar year, and Jan 2021 to March 2021 is our second year, now if you are taking April-2020 to Dec-2020 as your fiscal year, then Jan-2021 to March-2021 automatically becomes the second year, and you have to adjust this year by using -1 shift, and vice versa if the scenario is reversed, here you will use +1 shift. 
+           14) What are the different types of modules to which FI is integrated? FI is integrated into the following types of modules: 
+           
+           Production Planning 
+           Human Resource 
+           Material Management 
+           Sales and Distribution 
+           
+           15) How input and output taxes are handled in SAP FICO? Every country has a tax procedure where tax codes are defined within this. It provides the flexibility to either expense out the Tax amounts or capitalize the same to stocks. 
+           16) What is the field status variant and field status group? The field status variants are contained within field status groups. On the other hand, the field status groups are maintained within the General Ledger account. You use it to define the fields while you post to the general ledger. 
+           17) What are validations and substitutions in SAP FICO? In SAP FICO, validations are used in the FI and CO modules to help ensuring data integrity when entering actual transactions online or in batch. On the other hand, the substitutions are used in the FI / CO / EC modules to derive or correct values being passed via integration or entered into the FI / CO modules. Validation and Substitution are defined for each functional area at the following levels: 
+           
+           Document Level 
+           Line item Level 
+           
+           18) What are the application areas in SAP that use validation and substitutions? Following are the application areas in SAP that use validation and substitutions: 
+           
+           FI- Financial accounting 
+           CO- Cost accounting 
+           AM- Asset accounting 
+           GL- Special purpose ledger 
+           CS- Consolidation 
+           PS- Project system 
+           RE- Real estate 
+           PC- Profit center accounting 
+           
+           19) What do you understand by year-dependent fiscal year variant? A year is called a year-dependent fiscal year variant if the number of days in a month is not as per the calendar month. For Example, in the year 2021, the month January ends on 30th, the month February ends on 27th, etc. 
+           20) How can you make vendor payments? There are two methods to make the vendor payments: Manual Payment: The manual payment method is done without the use of a medium such as cheques. Automatic Payment: The automatic payment method is done through DME (Data Medium Exchange), such as wire transfer or cheque. 
+           21) What is the use of FSV (Financial Statement Version) in SAP FICO? The Financial Statement Version or FSV is a reporting tool in SAP FICO. It can be used to extract final accounts from SAP like Profit and Loss Account and Balance Sheet. We can use multiple FSV's for generating the output of various external agencies such as Banks and other statutory authorities. 
+           22) What are the different steps involved in G/L posting? After completing the payroll run, we have to add results to the GL accounts, including cost centers. GL posting includes the following steps: 
+           
+           Groups together posting-relevant information from the payroll results. 
+           Creates summarized documents. 
+           Performs the relevant postings to appropriate GL accounts and cost centers. 
+           
+           23) What do you understand by a field status group? A field status group is used to control the fields which come up when the user does the transactions. In FIGL (Financial General Ledger) master, the field status group is stored. 
+           24) What are the most common G/L reports in SAP FI? Following are the several most common G/L reports that can be generated in SAP FI: 
+           
+           G/L Chart of Accounts List 
+           G/L Account Balances 
+           G/L Account List 
+           G/L Account Totals and Balances 
+           
+           25) What is the importance of financial statements within a business in SAP FICO? In SAP FICO, the financial statements are used to manage the company's financial assets. By creating and handling such financial statements and records, we create data that we can use later to develop further plans and investments for our company. 
+           26) How can you manage the credit limit for the customer in SAP FI? In SAP FI, the credit control is used to check the credit limit for the customer, and it can use one or more codes. It is used for credit management in Application components- Account Receivable (AR) and Sales and Distribution. 
+           27) How many fiscal year variants can you use at a time? We can define up to 16 posting periods in a fiscal year in the controlling component CO. We need to specify the fiscal year variant for each company code. When you create a controlling area, you also need to specify the fiscal year variant. Each company code requires a specific fiscal year variant. Thus, while creating a controlling area, you should also specify that code's fiscal year variant. The credit control area is determined in the following sequence: 
+           
+           User exit 
+           Distribution channel 
+           Customer master 
+           Company code for the sales organization 
+           
+           28) What is the use of Account Receivables in SAP FI? In SAP FI, Accounts Receivable components are used to record and manage the accounting data of all customers, and it is also an integral part of sales management. All postings in Accounts Receivable are also recorded directly in General Ledger. Different G/L accounts are updated depending on the transaction involved (for example, receivables, down payments, and bills of exchange). 
+           29) What are the benefits of using Business areas in a company? Business areas in a company can be used if other company codes require the same areas. Following are the benefits of using Business areas: 
+           
+           The business area is easy to configure as you need to attach to the company code and the other details in the business area, and it will get attached by itself. 
+           By using Business areas in controlling, you can create Profit and loss statements, Balance sheets, etc., for business areas, which is used for management accounting in a few companies. 
+           Note: Business areas are more used in Controlling as compared to Finance Accounting. 
+           30) What do you understand by company and company code in SAP FICO? In SAP FICO, a company is an organizational unit used in the legal consolidation module to roll up financial statements of several company codes. On the other hand, the company code is the smallest organizational unit for which a completely self-contained set of accounts can be drawn up for external reporting purposes. 
+           31) What is the relationship between company code and controlling area in SAP FICO? A controlling area may contain one or more company codes that must use the same operative chart of accounts as the controlling area. A controlling area can contain multiple company code assignments, but a single company code can be assigned to only one controlling area. 
+           32) What are the problems faced when we configure the business area? The main problem encountered when a business area is configured splitting of account balance which is more pertinent in the case of tax accounts. 
+           33) What do you understand by parallel and the local currency in SAP FICO? The local currency is the currency that is entered in the company code creation. The other two additional currencies are called parallel currencies. Parallel currencies can be used in foreign business transactions, and it is also used to do international transaction. The examples of two parallel currencies are GROUP CURRENCY and HARD CURRENCY. 
+           34) What are the customizing prerequisites for document clearing? The customizing prerequisite for document clearing is to check the items cleared and uncleared. This is done by open item management. Open item management is a process used to manage outstanding accounts, i.e., account payable and accounts receivable. For example, an invoice item that has not yet been paid is considered an open account until it is paid. 
+           35) What do you understand by FI-GL Accounting? Why is it used? The FI-GL Accounting stands for Financial- General Ledger. It is used to get an overview of external Accounting and accounts. It records all business transactions incorporated with all other operational areas in a software system and ensures that the Accounting data is always complete and accurate. 
+           36) What are the methods used to make vendor invoice payments? There are two methods used to make vendor invoice payments: Manual payment method is done without the use of any output medium like cheques etc. Automatic payment method is done using some output medium such as DME (Data Medium Exchange), cheques, Wire transfer, etc. 
+           37) What is the default exchange rate type picked up for all SAP transactions? For all SAP transactions, the default exchange rate type is M (Average Rate). 
+           38) What is the importance of GR/IR (Good Received/ Invoice Received) clearing account in SAP FICO? In SAP FICO, GR/IR stands for Good Received/ Invoice Received as an interim account. If the goods are received in the legacy system, and the invoice is not received, the provision is made. It passes the Accounting entry debiting the Inventory and crediting the GR/IR account. In the same way, when an invoice is received, the vendor account is credited, and the GR/IR account is debited. The GR/IR shows as un-cleared items till the time invoice is not received. 
+           39) What are the different accounting groups that can be created in Account Receivable in SAP FI? Following are the different accounting groups that can be created in Account Receivable in SAP FI: 
+           
+           
+             
+             Group 
+             Name 
+             
+             
+             X001 
+             Domestic Customers 
+             
+             
+             X002 
+             Export Customers 
+             
+             
+             X003 
+             One Time Customers 
+             
+           
+           
+           40) Is it possible to calculate depreciation to the day? How can you do that? Yes, it is possible to calculate depreciation to the day. The depreciation to the day function becomes active for an asset as soon as the asset has a corresponding depreciation key and is capitalized (posted to). Once this takes place, you cannot switch off this function for the asset, even if you change the depreciation key. 
+           41) What is the use of Account payable in SAP FI? How is it related to G/L? In SAP FI, Accounts payable is used to manage and record the accounting data for all the vendors. It is related to G/L in the following ways: 
+           
+           All invoices and deliveries are managed as per vendor requests. 
+           Payables are managed as per the payment program, and all payments can be made using checks, transfers, electronic transfers, etc. 
+           All the postings made in Account payable are also updated in General Ledger simultaneously, and the system also maintains forecasts and standard reports that can be used to keep track of all the open items. 
+           
+           42) What are the internal orders in SAP FICO? Where can you use this? Internal orders are generally used to plan, collect, and settle the costs of internal jobs and tasks. Internal orders can also be used to track the cost, and they are proposed to be incurred over a short-term basis. 
+           43) What do you understand by blocking a customer in SAP FI? When you block a customer account in AR so that postings are no longer made to that Account, this process is called blocking. We have to block a customer account before marking a customer master record for deletion. We should also block a customer that we use only as an alternative dunning recipient to ensure that nobody can post to that customer by mistake. We can set the following blocks for a customer in the Sales and Distribution (SD) application component: 
+           
+           Posting block 
+           Order block 
+           Delivery block 
+           Invoicing block  
+           
+           44) What are the different blocks that can be applied to a vendor account in SAP FI? We can apply the following blocks to a vendor account in SAP FI: 
+           
+           Posting block for certain company codes or all company codes. 
+           Purchasing block for certain purchasing organizations or all purchasing organizations. This block is only used if you have purchased and installed the purchasing application component. 
+           
+           45) What is the chart of depreciation in Asset Accounting? In Asset Accounting, the chart of depreciation is rated as the highest node, which is assigned to the company node. All the depreciation calculations are stored under the chart of depreciation. 
+           46) How can you create Credit Control Area in SAP FI? We can create Credit Control Area in SAP FI by using transaction code OB45 or path. To do this, follow the steps given below: 
+          
+           
+SPRO> enterprise structure >maintain structure>definition>financial accounting>maintain credit control area and then enter the following description: 
+
+           
+           
+           Update 
+           Name of the credit-control area in SAP 
+           Currency 
+           Description 
+           Credit Limit 
+           Risk Category 
+           Fiscal Variant 
+           Rep group 
+           
+           47) How can you manage the relationship between two currencies in SAP FI? To define and manage the relationship between two currencies in SAP FI, we use exchange rates. It is also used to translate an amount into another currency. Exchange rates are defined in the system for the following purposes: 
+           
+           Posting and Clearing: It translates amounts posted or cleared in foreign currency or checks a manually entered exchange rate during posting or clearing. 
+           Exchange Rate Differences: It is used to determine gains or losses from exchange rate differences. 
+           Foreign Currency Valuation: It is used to evaluate open items in foreign currency and foreign currency balance sheet accounts as part of the closing operations. 
+           
+           48) What is the field status group, and what does it use to control? The field status group is configured in FSV (Field Status Variant) to maintain field status for G/L (General Ledger) accounts. 
+           49) What are some most important tables in SAP FICO? SAP FICO tables are used to store the data on a screen. Sometimes, more than one table is linked to a particular screen. An SAP FICO consultant must know the table in the SAP software and its data structure. Following is a list of some most important tables of SAP FICO: SAP Tables: Enterprise structure 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             T001 
+             SAP Company-Code 
+             
+             
+             T005 
+             Countries in SAP 
+             
+             
+             TCURC 
+             SAP Currency-codes 
+             
+             
+             TCURR 
+             Exch-rate in SAP 
+             
+             
+             TCURT 
+             Currency-name in SAP 
+             
+             
+             T077S 
+             G/L Account-group 
+             
+             
+             T009 
+             Fiscal year variants in SAP 
+             
+             
+             T880 
+             Global-company-data in SAP 
+             
+             
+             T014 
+             Credit-control-area SAP 
+             
+             
+             T004 
+             SAP Chart of accounts (COA) 
+             
+             
+             T010O 
+             SAP Posting-period-variant (PPV) 
+             
+             
+             T010P 
+             Posting period variant names in SAP 
+             
+             
+             T001B 
+             Permitted posting periods in SAP 
+             
+             
+             T003 
+             Document-types in SAP 
+             
+             
+             T012 
+             House-banks in SAP 
+             
+           
+           SAP FI G/L Tables 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             SKA1 
+             Chart of accounts segment GL master data 
+             
+             
+             SKB1 
+             Company code segment G/l master data 
+             
+             
+             BNKA 
+             Bank master record in SAP 
+             
+             
+             BKPF 
+             SAP Accounting documents header 
+             
+             
+             BNKA 
+             Bank master record SAP 
+             
+             
+             BKPF 
+             Accounting documents header in SAP 
+             
+           
+           SAP Accounts Receivable Table 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             KNBK 
+             Bank details 
+             
+             
+             KNVK 
+             Contact persons 
+             
+             
+             KNVH 
+             Customer hierarchy 
+             
+             
+             KNVI 
+             Customer master tax indicator 
+             
+             
+             KNB1 
+             Customer master-Company code data 
+             
+             
+             KNA1 
+             Customer master-General data 
+             
+             
+             KNVV 
+             Customer master-Sales data 
+             
+             
+             KNVP 
+             Customer partners 
+             
+             
+             KNVS 
+             Shipment data for customer 
+             
+           
+           SAP FI Accounts payable tables 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             LFBK 
+             Bank details 
+             
+             
+             LFM2 
+             Purchasing data 
+             
+             
+             LFM1 
+             Purchasing organization data 
+             
+             
+             LFB5 
+             Vendor dunning data 
+             
+             
+             LFB1 
+             Vendor master-Company code data 
+             
+             
+             LFA1 
+             Vendor master-General data 
+             
+           
+           SAP tables: Assets Accounting 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             ANKB 
+             Asset classes: Depreciation area 
+             
+             
+             ANKT 
+             Asset classes: Description 
+             
+             
+             ANKA 
+             Asset classes: General data 
+             
+             
+             ANEP 
+             Asset line items 
+             
+             
+             ANLU 
+             Asset master record user fields 
+             
+             
+             ANEK 
+             Document header asset posting 
+             
+             
+             ANLZ 
+             Time-dependent asset allocation 
+             
+           
+           SAP CO Tables Following is the list of important SAP CO tables: Cost Center accounting tables 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             CSKS 
+             Cost center master data 
+             
+             
+             CSKT 
+             Cost center texts 
+             
+             
+             CRCO 
+             Assignment of work center to cost center 
+             
+             
+             COSP 
+             Cost totals for external postings 
+             
+             
+             COEP 
+             Line items (by period) 
+             
+             
+             COBK 
+             Document header 
+             
+             
+             COST 
+             Price totals 
+             
+           
+           Profit center Accounting tables 
+           
+           
+             
+             Table 
+             Description 
+             
+             
+             GLPCA 
+             Actual line items - Profit center 
+             
+             
+             GLPCO 
+             Object table for the account - Profit center 
+             
+             
+             GLPCP 
+             Plan line items - Profit center 
+             
+             
+             GLPCC 
+             Transaction attributes - Profit center 
+             
+             
+             CEPC 
+             Profit center master data table 
+             
+             
+             CEPCT 
+             Texts for profit center master data 
+             
+           
+           
+           50) What do you understand by posting period variants? In SAP FI, the posting period variants are accountable to control which Accounting period is open for posting and ensure that the closed periods remain balanced. In the fiscal year, the posting period is a period for which the transactions figures are updated. 
+           51) What is APP in SAP FICO? In SAP FICO, APP stands for "Automatic Payment Program". It is an SAP tool provided to companies to pay their vendors and customers. APP tools facilitate users to avoid mistakes that take place in posting manually. Another benefit is that payment through APP becomes more feasible when the number of employees is more in the company. 
+           52) How can you define the tolerances for invoice verification? In SAP FICO, the term tolerance specifies whether the payable places matching or tax hold on the invoice. Following is the list of instances of tolerance that can be defined for Logistics Invoice Verification: 
+           
+           Small differences 
+           Moving average price variances 
+           Quantity variances 
+           Price variances  
+           
+           53) What do you understand by the short-end fiscal year? A short-end fiscal year comes into existence when you change from a normal fiscal year to a non-calendar fiscal year or the other way around. This type of change occurs when an enterprise becomes part of a new co-corporate group. 
+           54) What do you understand by account group, and what is the use of it? Account group exists for the definition of GL account and Customer Master and Vendor. It is mainly used to control the data that needs to be entered at the time of the creation of a master record. 
+           55) What do you understand by cost center and profit center in Controlling? Cost Center: A Cost center is a component in an organization that is added to the cost and indirectly added to the organization's profit. For example, Marketing and Customer Service. A company's business unit can be classified as a profit center, cost center, or investment center. The simple and straightforward division of an organization can be classified as a cost center as the cost is easy to measure. Profit Center: In SAP FICO, a profit center is used to manage internal controlling. When a company is divided into profit centers, it allows you to delegate responsibility to decentralized units and allows you to treat them as separate companies in a company. 
+           56) What is the purpose of "Document type" in SAP FICO? Following is the list of main purposes of "Document type" in SAP FICO: 
+           
+           It is used to define the number range for documents. 
+           It is used to control the types of accounts posted, such as Assets, Vendor, Customer, Normal GL account, etc. 
+           It is also used for the reversal of entries. 
+           
+           57) In which application areas, validation and substitutions are used? Validation and substitutions are used in the following application areas: 
+           
+           AM-Asset accounting 
+           CS-Consolidation 
+           CO-Cost accounting 
+           FI- Financial accounting 
+           PC-Profit center accounting 
+           PS-Project system 
+           GL-Special purpose ledger 
+           RE-Real estate 
+           
+           58) Is the business area at the company code level? No. Business area is at the client level instead of the company code level, and it means other company codes can also be posted to the same business area. 
+           59) What are the one-time vendors in SAP FICO? In such companies especially dealing with high cash transactions, it is not practical to create new master records for every vendor trading partner. In these cases, one-time vendors come into existence, and they allow a dummy vendor code to be used on invoice entry and the information usually stored in the vendor master. 
+           60) In SAP, at what level the Customer and Vendor codes are stored? In SAP FICO, the Vendor and Customer codes are stored at the client level. By extending the company code view, any company code can use the customer and vendor code. 
+           61) What do you understand by accounting period variants and posting period variants in SAP FICO? In SAP FICO, accounting period variants are used to manage the accounting periods open for validation and for all closed periods to be deleted. These are used for opening and closing periods of the financial year for reservation purposes. These posting periods can be assigned to one or more companies. In SAP FICO, posting period variants are used to maintain accounting periods open to post while all closed periods are balanced. These are used to open or close periods in the fiscal year for posting. We can also use these posting periods to assign to one or more company codes. 
+            
+         
+       
+       
+      
+      
+     You may also like: 
+      
+      Java Interview Questions 
+      SQL Interview Questions 
+      Python Interview Questions 
+      JavaScript Interview Questions 
+      Angular Interview Questions 
+      Selenium Interview Questions 
+      Spring Boot Interview Questions 
+      HR Interview Questions 
+      C Programming Interview Questions 
+      C++ Interview Questions 
+      Data Structure Interview Questions 
+      DBMS Interview Questions 
+      HTML Interview Questions 
+      IAS Interview Questions 
+      Manual Testing Interview Questions 
+      OOPs Interview Questions 
+      .Net Interview Questions 
+      C# Interview Questions 
+      ReactJS Interview Questions 
+      Networking Interview Questions 
+      PHP Interview Questions 
+      CSS Interview Questions 
+      Node.js Interview Questions 
+      Spring Interview Questions 
+      Hibernate Interview Questions 
+      AWS Interview Questions 
+      Accounting Interview Questions 
+      
+      
+      
+      Learn Latest Tutorials 
+       
+        
+        
+          
+         Splunk 
+          
+        
+        
+          
+         SPSS 
+          
+        
+        
+          
+         Swagger 
+          
+        
+        
+          
+         Transact-SQL 
+          
+        
+        
+          
+         Tumblr 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Regex 
+          
+        
+        
+          
+         Reinforcement Learning 
+          
+        
+        
+          
+         R Programming 
+          
+        
+        
+          
+         RxJS 
+          
+        
+        
+          
+         React Native 
+          
+        
+        
+          
+         Python Design Patterns 
+          
+        
+        
+          
+         Python Pillow 
+          
+        
+        
+          
+         Python Turtle 
+          
+        
+        
+          
+         Keras 
+          
+       
+      
+      
+      
+      Preparation 
+       
+        
+        
+          
+         Aptitude 
+          
+        
+        
+          
+         Reasoning 
+          
+        
+        
+          
+         Verbal Ability 
+          
+        
+        
+          
+         Interview Questions 
+          
+        
+        
+          
+         Company Questions 
+          
+       
+      
+      
+      
+      Trending Technologies 
+       
+        
+        
+          
+         Artificial Intelligence 
+          
+        
+        
+          
+         AWS 
+          
+        
+        
+          
+         Selenium 
+          
+        
+        
+          
+         Cloud Computing 
+          
+        
+        
+          
+         Hadoop 
+          
+        
+        
+          
+         ReactJS 
+          
+        
+        
+          
+         Data Science 
+          
+        
+        
+          
+         Angular 7 
+          
+        
+        
+          
+         Blockchain 
+          
+        
+        
+          
+         Git 
+          
+        
+        
+          
+         Machine Learning 
+          
+        
+        
+          
+         DevOps 
+          
+       
+      
+      
+      
+      B.Tech / MCA 
+       
+        
+        
+          
+         DBMS 
+          
+        
+        
+          
+         Data Structures 
+          
+        
+        
+          
+         DAA 
+          
+        
+        
+          
+         Operating System 
+          
+        
+        
+          
+         Computer Network 
+          
+        
+        
+          
+         Compiler Design 
+          
+        
+        
+          
+         Computer Organization 
+          
+        
+        
+          
+         Discrete Mathematics 
+          
+        
+        
+          
+         Ethical Hacking 
+          
+        
+        
+          
+         Computer Graphics 
+          
+        
+        
+          
+         Software Engineering 
+          
+        
+        
+          
+         Web Technology 
+          
+        
+        
+          
+         Cyber Security 
+          
+        
+        
+          
+         Automata 
+          
+        
+        
+          
+         C Programming 
+          
+        
+        
+          
+         C++ 
+          
+        
+        
+          
+         Java 
+          
+        
+        
+          
+         .Net 
+          
+        
+        
+          
+         Python 
+          
+        
+        
+          
+         Programs 
+          
+        
+        
+          
+         Control System 
+          
+        
+        
+          
+         Data Mining 
+          
+        
+        
+          
+         Data Warehouse 
+          
+       
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+     
+     
+     
+      
+     
+      
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+   
+   
+     
+ 
+

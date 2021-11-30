@@ -1,0 +1,810 @@
+
+
+ 
+  
+  Fenwick Tree in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Fenwick Tree in Java In this section, we are going to learn about the Fenwick tree in Java. Fenwick tree is also called Binary Indexed Tree (BIT). Scenario Where Fenwick Tree is Used Let's understand in which scenario a segment tree comes in handy. Suppose, we have an array a[] = {0, 1, …, s - 1} and want to perform the following two tasks on the given array: 
+            
+            Computing the sum of the array elements from the index m to n, where 0 <= m <= n <= s - 1 
+            Changing the value of an element of the array a[] to a new value nv, i.e., one is required to do a[j] = nv, where 0 <= j <= s - 1. 
+            In order to find the solution of the above two tasks, we can use either Segment Tree or Fenwick tree. The Segment tree provides the optimized solution. Similar to the Segment tree, the Fenwick tree can also be represented using an array. The benefit of the Fenwick tree is that it is easy to code and acquires less space as compared to the Segment tree. Note: It is advised to go through the topic Segment Tree in Java first for a better understanding of the Fenwick tree. Representation of Fenwick Tree Using Array As stated above, the Fenwick tree is represented using an array. Let the fenArr[] array does the representation of the Fenwick tree. Each and every node of the Fenwick tree contains the sum of some of the elements of the input array. The size of the Fenwick Tree is the same as the size of the input array (which is s in our case). Construction of Fenwick Tree Using Array First, we allocate the memory for the fenArr[] array and then initialize that array with the values as 0. After that, we can perform various operations on that array. Operations on Fenwick Tree Computing sum a sub-array of the given input array a[]: To achieve the sum of elements of the subarray, we implement the method getArrSum(y). getArrSum(y): Returns the sum of the sub-array ar[0, …, y] using the fenArr[] that is constructed using the input array a[0, …, n]. Step 1: Do initialize the resultant total as 0 and the current index as y + 1. Step 2: Repeat steps a & b until the current index is > 0. 
+            
+            Add fenArr[idx] to the sum. 
+            Go to the parent of fenTree[idx]. The parent can be reached by truncating the last set bit from the current index, i.e., idx = idx - (idx & (-idx)) 
+            Step 3: Return the sum.  Updating the value at a particular index: To achieve the updation at a particular index, we implement the method updateFenwick(). Note that updating the value at a particular index does not create any impact on the input array a[]. It only creates an impact on the fenArr[] array. updateFenwick(y, v): The method updates the value at the index y with the value u. Step 1: Assign the value y + 1 to the current index. Step 2: Repeat steps a and b until the current index is equal to or less than s. 
+            
+            Add the value v to the fenArr[idx]. 
+            Go to the next element of the fenArr[idx]. By setting the last set bit of the current index one can find the next element that is, idx = idx + (idx & (-idx)). 
+             Working of a Fenwick Tree We know that any positive number can be represented as a sum of powers of 2, and this idea has been used in the Fenwick tree. For example, 21 can be written as 24 + 22 + 20 = 16 + 4 + 1. Each node of the Fenwick tree contains the sum of p elements, where p is a power of 2. Consider the above diagram (the diagram for getArrSum() operation), the resultant sum of the first 12 elements can be achieved by the addition of the 4 elements from the last (from 9 to 12) plus the summation of the first 8 elements (from 1 to 8). In the binary representation, the total number of bits of a number n that are set is O(log(n)). Therefore, one needs to do the traversal of at-most O(log(n)) nodes in both getArrSum() and updateFenwick() operations. Thus, the time complexity of the construction is O(n * log(n)) as the updateFenwick() operation is invoked for all of the n elements. Implementation of the Fenwick Tree Let's implement the Fenwick Tree along with the operations defined above. FileName: FenwickTreeExample.java 
+           
+            
+// Important import statements
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+public class FenwickTreeExample
+{
+// Max size of the Fenwick tree in this code
+final static int MAX_SIZE = 100;
+// the array that represents the fenwick tree
+private int fenArr[] = new int[MAX_SIZE];
+// s --> It is number of element available in the input array.
+// fenArr[0 ... s] --> The array that represents the Fenwick Tree
+// a[0 ... s - 1] --> It is the input array for which the prefix sum is generated.
+// Returns the sum of a[0... idx]. The method assumes
+// that the array is already preprocessed and
+// the partial sums of the array elements are kept
+// in fenArr[].
+int getArrSum(int idx)
+{
+// Initializing the result to 0
+int total = 0;
+// index in the fenTree[] is one more than the
+// index in the array a[]
+idx = idx + 1;
+// Traversing the ancestors of the fenTree[idx]
+while(idx > 0)
+{
+// Adding the current element of the array fenArr[]
+// to the total
+total = total + fenArr[idx];
+// Moving the index to the parent node in
+// getArrSum view
+idx -= idx & (-idx);
+}
+return total;
+}
+// Updating a node in the Fenwick Tree
+// at a given index in the array fenArr[]. The given input value
+// 'v' is added to the fenArr[idx] and therefore, it is also added to the
+// ancestors of the tree too.
+public void updateFenwick(int s, int idx, int v)
+{
+// index in the array fenArr[] is 1 more than the
+// index in the array a[]
+idx = idx + 1;
+// Traversing all the ancestors and adding 'v'
+while(idx <= s)
+{
+// Add 'val' to current node of BIT Tree
+fenArr[idx] = fenArr[idx]  + v;
+
+// Updating the idx to that of parent
+// in the update View
+idx = idx + (idx & (-idx));
+}
+}
+// Method to build the Fenwick tree
+// from the given array.
+void constructFenTree(int arr[], int s)
+{
+// Initializing fenArr[] as 0
+for(int i = 1; i <= s; i++)
+{
+fenArr[i] = 0;
+}
+// Storing the original values in the fenArr[]
+// using the mehtod updateFenwick()
+for(int j = 0; j < s; j++)
+{
+updateFenwick(s, j, arr[j]);
+}
+}
+// Main method
+public static void main(String argvs[])
+{
+// input array
+int a[] = {2, 21, 12, 31, 22, 33, 40, 15, 60, 17, 18, 19};
+// computing the length of the input array
+int s = a.length;
+// creating on object of the class FenwickTreeExample
+FenwickTreeExample treeObj = new FenwickTreeExample();
+// Building Fenwick tree from the given array
+treeObj.constructFenTree(a, s);
+// getting the total sum from index 0 to 6
+int total = treeObj.getArrSum(6);
+System.out.println("Sum of the elements in array a[0 ... 6]"+ " is: " + total);
+// at the index 3 value of the element of the input array
+// is getting updated or incremented with the value 7
+treeObj.updateFenwick(s, 3, 7);
+// Finding the sum after the value is getting updated
+total = treeObj.getArrSum(6);
+System.out.println("Sum of the elements in array a[0 ... 6] after update is: " + total);
+}
+}
+
+            Output: 
+           
+            Sum of the elements in array a[0 ... 6] is: 161
+Sum of the elements in array a[0 ... 6] after update is: 168
+
+            
+            
+            
+            Next Topic
+            How annotation works in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

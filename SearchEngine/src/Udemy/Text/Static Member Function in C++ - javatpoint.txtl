@@ -1,0 +1,189 @@
+Static Member Function in C++ - javatpoint ? SCROLL TO TOP Home C C++ C# Java PHP HTML CSS JavaScript jQuery XML JSON Ajax Node.js SQL Quiz Projects Interview Q Comment Forum Training C++ Tutorial C++ Tutorial C vs C++ C++ History C++ Features C++ Installation C++ Program C++ cout, cin, endl C++ Variable C++ Data types C++ Keywords C++ Operators C++ Identifiers C++ Expression C++ Control Statement C++ if-else C++ switch C++ For Loop C++ While Loop C++ Do-While Loop C++ Break Statement C++ Continue Statement C++ Goto Statement C++ Comments C++ Functions C++ Functions Call by value & reference C++ Recursion C++ Storage Classes C++ Arrays C++ Arrays C++ Array to Function Multidimensional Arrays C++ Pointers C++ Pointers sizeof() operator in C++ C++ Array of Pointers C++ Void Pointer C++ References Reference vs Pointer Function Pointer in C++ C++ Memory Management malloc() vs new in C++ free vs delete in C++ C++ Object Class C++ OOPs Concepts C++ Object Class C++ Constructor C++ Copy Constructor C++ Destructor C++ this Pointer C++ static C++ Structs C++ Enumeration C++ Friend Function C++ Math Functions C++ Inheritance C++ Inheritance C++ Aggregation C++ Polymorphism C++ Polymorphism C++ Overloading C++ Overriding C++ Virtual Function C++ Abstraction C++ Interfaces C++ Data Abstraction C++ Namespaces C++ Namespaces C++ Strings C++ Strings C++ Exceptions C++ Exception Handling C++ try/catch C++ User-Defined C++ Templates C++ Templates Signal Handling C++ Signal Handling C++ File & Stream C++ File & Stream C++ getline() C++ Misc C++ vs C# C++ int to string C++ vs Python Structure vs Class in C++ Virtual Destructor in C++ Constructor vs Destructor in C++ Bit manipulation C++ What is a reference variable Friend Function in C++ Snake Code in C++ Inline function in C++ Virtual function vs Pure virtual function in C++ How to Split strings in C++ Range-based for loop in C++ Type Conversion in C++ LCM of two numbers in C++ Convert string to integer in C++ C++ STL Tutorial C++ STL Components C++ Vector Initialize Vector in C++ C++ Deque C++ List C++ Set C++ Stack C++ Queue C++ Priority Queue C++ Map C++ Multimap C++ Map C++ Bitset C++ Algorithm C++ Iterators C++ Iterators C++ Bidirectional Iterator C++ Forward Iterator C++ Input Iterator C++ Output Iterator C++ Programs C++Programs Fibonacci Series Prime Number Palindrome Number Factorial Armstrong Number Sum of digits Reverse Number Swap Number Matrix Multiplication Decimal to Binary Number in Characters Alphabet Triangle Number Triangle Fibonacci Triangle Char array to string in C++ Calculator Program in C++ Program to convert infix to postfix expression in C++ using the Stack Data Structure C++ program to merge two unsorted arrays C++ coin change program C++ program to add two complex numbers using class C++ program to find the GCD of two numbers C++ program to find greatest of four numbers Delete Operator in C++ How to concatenate two strings in c++ Upcasting and Downcasting in C++ C++ Dijkstra Algorithm using the priority queue Constructor overloading in C++ Default arguments in C++ Dynamic binding in C++ Dynamic memory allocation in C++ Fast input and output in C++ Hierarchical inheritance in C++ Hybrid inheritance in C++ Multiple Inheritance in C++ C++ Bitwise XOR Operator Different Ways to Compare Strings in C++ Reverse an Array in C++ C++ date and time Copy elision in C++ Array of sets in C++ Smart pointers in C++ Types of polymorphism in C++ Implementing the sets without C++ STL containers Scope Resolution Operator in C++ Static Member Function in C++ Const keyword in C++ MCQ C++ MCQ C++ MCQ Part 2 Interview Question Interview Question next ? ? prev Static Member Function in C++ The static is a keyword in the C and C++ programming language. We use the static keyword to define the static data member or static member function inside and outside of the class. Let's understand the static data member and static member function using the programs. Static data member When we define the data member of a class using the static keyword, the data members are called the static data member. A static data member is similar to the static member function because the static data can only be accessed using the static data member or static member function. And, all the objects of the class share the same copy of the static member to access the static data. Syntax 
+static data_type data_member;
+ Here, the static is a keyword of the predefined library. The data_type is the variable type in C++, such as int, float, string, etc. The data_member is the name of the static data. Example 1: Let's create a simple program to access the static data members in the C++ programming language. 
+#include <iostream>
+#include <string.h>
+using namespace std;
+// create class of the Car
+class Car
+{
+private:
+int car_id;
+char car_name[20];
+int marks;
+
+public:
+// declare a static data member
+static int static_member;
+
+Car()
+{
+static_member++;
+}
+
+void inp()
+{
+cout << " \n\n Enter the Id of the Car: " << endl;
+cin >> car_id; // input the id
+cout << " Enter the name of the Car: " << endl;
+cin  >> car_name;
+cout << " Number of the Marks (1 - 10): " << endl;
+cin >> marks;  
+}
+
+// display the entered details
+void disp ()
+{
+cout << " \n Id of the Car: " << car_id;
+cout << "\n Name of the Car: " << car_name;
+cout << " \n Marks: " << marks;
+
+} 
+};
+
+// initialized the static data member to 0
+int Car::static_member = 0;
+
+ int main ()
+{
+// create object for the class Car
+Car c1;
+// call inp() function to insert values
+c1. inp ();
+c1. disp();
+
+//create another object
+Car c2;
+// call inp() function to insert values
+c2. inp ();
+c2. disp();
+
+
+ cout << " \n No. of objects created in the class: " << Car :: static_member <<endl;
+return 0;
+}
+ Output Enter the Id of the Car: 
+101
+Enter the name of the Car: 
+Ferrari
+Number of the Marks (1 - 10): 
+10
+
+Id of the Car: 101 
+Name of the Car: Ferrari 
+Marks: 10
+
+Enter the Id of the Car: 
+205
+Enter the name of the Car: 
+Mercedes
+Number of the Marks (1 - 10): 
+9
+
+Id of the Car: 205 
+Name of the Car: Mercedes 
+Marks: 9
+No. of objects created in the class: 2
+ Static Member Functions The static member functions are special functions used to access the static data members or other static member functions. A member function is defined using the static keyword. A static member function shares the single copy of the member function to any number of the class' objects. We can access the static member function using the class name or class' objects. If the static member function accesses any non-static data member or non-static member function, it throws an error. Syntax 
+class_name::function_name (parameter);
+ Here, the class_name is the name of the class. function_name: The function name is the name of the static member function. parameter: It defines the name of the pass arguments to the static member function. Example 2: Let's create another program to access the static member function using the class name in the C++ programming language. 
+#include <iostream>
+using namespace std;
+class Note
+{
+// declare a static data member
+static int num;
+
+public:
+// create static member function
+static int func ()
+{
+return num;
+}
+};
+// initialize the static data member using the class name and the scope resolution operator
+int Note :: num = 5; 
+
+int main ()
+{
+// access static member function using the class name and the scope resolution
+cout << " The value of the num is: " << Note:: func () << endl;
+return 0;
+} 
+ Output The value of the num is: 5
+ Example 3: Let's create another program to access the static member function using the class' object in the C++ programming language. 
+#include <iostream>
+using namespace std;
+class Note
+{
+// declare a static data member
+static int num;
+
+public:
+// create static member function
+static int func ()
+{
+cout << " The value of the num is: " << num << endl;	
+}
+};
+// initialize the static data member using the class name and the scope resolution operator
+int Note :: num = 15; 
+
+int main ()
+{
+	// create an object of the class Note
+	Note n;
+// access static member function using the object
+n.func();
+
+return 0;
+} 
+ Output The value of the num is: 15
+ Example 4: Let's consider an example to access the static member function using the object and class in the C++ programming language. 
+#include <iostream>
+using namespace std;
+class Member
+{
+
+private:
+// declaration of the static data members
+static int A;
+static int B;
+static int C;
+
+// declare public access specifier
+public:
+// define the static member function
+static void disp ()
+{
+cout << " The value of the A is: " << A << endl;
+cout << " The value of the B is: " << B << endl;
+cout << " The value of the C is: " << C << endl;
+}
+};
+// initialization of the static data members
+int Member :: A = 20;
+int Member :: B = 30;
+int Member :: C = 40;
+
+int main ()
+{
+// create object of the class Member
+Member mb;
+// access the static member function using the class object name
+cout << " Print the static member through object name: " << endl;
+mb. disp();
+// access the static member function using the class name
+cout << " Print the static member through the class name: " << endl;
+Member::disp();
+return 0;
+}
+ Output Print the static member through object name:
+The value of the A is: 20
+The value of the B is: 30
+The value of the C is: 40   
+Print the static member through the class name:
+The value of the A is: 20
+The value of the B is: 30
+The value of the C is: 40  
+ Next Topic Const keyword in C++ ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

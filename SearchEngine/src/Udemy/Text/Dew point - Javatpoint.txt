@@ -1,0 +1,637 @@
+
+
+ 
+  
+  Dew point - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Physics 
+       Chemistry 
+       Biology 
+       GK 
+       Maths 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Physics 
+      
+      
+      Vapor 
+      Kirchhoff's law 
+      Quantum Physics 
+      Boiling 
+      Carnot Engine 
+      Unit of Heat 
+      Heat Engine 
+      Blackbody radiation 
+      Dew point 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Dew point The dew point is related to the vapor pressure of the liquids. It is defined as the temperature point at which the saturation vapor pressure (maximum pressure by the vapors at a given temperature) equals the present vapor pressure. The temperature below the dew point temperature causes the vapors to reach the condensation state. It means that below the dew point, the vapor condenses, and the rate of condensation becomes greater than that of the evaporation. The condensation water, when it freezes, is known as frost, while on solid surface is known as dew. In the air, the condensation water is often known as cloud and fog. Let's consider an example of water vapors.  We know that water vapor is the gaseous form of water that contains water droplets. At the dew point, the air cannot hold more water in its gaseous state. We can also say that air is heavy and has no space for water droplets to fit into it. The higher the dew point, the more moisture the air would contain, which means the air's humidity increases. Dew point range in the atmosphere The atmosphere at different dew points is listed in the below table: 
+            
+            
+              
+              Dew point range 
+              Atmosphere condition 
+              
+              
+              Dew point < 55 
+              Dry and comfortable 
+              
+              
+              55 < dew point < 65 
+              Sticky 
+              
+              
+              Dew point > 65 
+              Heavy humid 
+              
+            
+            Humidity percentage at different temperatures The device used to measure the dew point temperature is a hygrometer. It is commonly known to measure water vapors or the moisture in the air and other places. The dew point of the air can also be controlled using a combination of sensors, a humidifier, and a dehumidifier. The humidifier is used to add moisture to the air when the air is dry, and the dehumidifier is used to remove the moisture from the air.  The table shows the humidity percentage at a different temperature range in Celsius as well as Fahrenheit. 
+            
+            
+              
+              Dew point temperature 
+              Relative humidity  
+              
+              
+              Below 10 Celsius 
+              Below 50 Fahrenheit 
+              Less than 25% 
+              
+              
+              10 - 16 Celsius 
+              50 - 59 Fahrenheit 
+              26% - 36% 
+              
+              
+              16 - 21 Celsius 
+              60 - 69 Fahrenheit 
+              37% - 51% 
+              
+              
+              21 - 26 Celsius 
+              70 - 80 Fahrenheit 
+              52% - 72% 
+              
+              
+              Above 26 Celsius 
+              Above 80 Fahrenheit 
+              Greater than 73% 
+              
+            
+            The above data clearly depicts that the higher the temperature, the higher will be the humidity percentage in the air. Dew point formula Here, we will discuss the dew point formula in terms of both degrees Celsius and degrees Fahrenheit. Dew point formula in degrees Celsius The dew point formula when the actual air temperature and the relative humidity are given is: Td = T - ((100 - RH)/5) Or RH = 100 - 5 (T - Td) Where, T d is the dew point temperature T is the actual air temperature RH is the relative humidity Dew point formula in degrees Fahrenheit Td = T - (9(100 - RH)/25) Or RH = 100 - 25/9 (T - Td) Where, T d is the dew point temperature T is the actual air temperature RH is the relative humidity Dew point vs. humidity Now, we must be confused about the relation between the dew point and the relative humidity of the air. Both the terms are explained as follows: The dew point describes the saturation point of the vapors, where the air is at the saturation state and cannot hold more water vapors. It means that the humidity will be 100%. It is because no more water vapors are required. The higher the dew point, the higher will be the humid atmosphere. The higher the humidity, the dew point becomes nearer to the present air temperature. For example, The temperature of the atmosphere is 28 degrees Celsius. The dew point temperature is also 28 degrees Celsius. It means that the saturation vapor pressure is also the same and the air is 100% humid. It cannot hold any more water vapors or moisture. Thus, the dew point can never be greater than the temperature of the air because humidity can never cross 100%. Now, The temperature of the atmosphere is 28 degrees Celsius. The dew point temperature is also 21 degrees Celsius. Using the above discussed formula, the relative humidity will now be 70%. Relationship of the dew point with the human comfort When the air temperature rises, the human body gets heated. The body uses the sweating method to cool down automatically. Hence, a person sweats more in the summers. The process of evaporation of sweat occurs faster because the air around us carries heat faster. On a normal day, one can also sweat by generating more body heat during exercise.  The rate of sweating depends on the moisture in the air. If the air contains a high amount of moisture, the sweat will not evaporate. Thus, a person feels stickier and hot on humid days. When the perspiration (sweating process) starts, the air around a person starts taking heat from the body, and the warm air rises and gets replaced by the other air. If the air around a heated body is moved faster, the evaporation of the sweat occurs faster. Thus, the fan or any breeze increases the speed of the air around a person, and the evaporation occurs faster by cooling the body. The dried air with less moisture causes dryness resulting in discomfort. The recommended air inside the room or indoors is around the room temperature (25 degrees Celsius). Numerical Examples Let's discuss some numerical examples related to dew point. Example 1: Find the relative humidity if the dew point temperature is 25 degrees Celsius and the actual temperature is 30 degrees Celsius? Solution: We know, the formula to calculate the relative humidity is given by: Td = T - ((100 - RH)/5) Where, T d is the dew point temperature T is the actual air temperature RH is the relative humidity Putting the values in the above formula, we get: 25 = 30 - (100-RH)/5 125 = 150- (100-RH) 100 - RH = 150 - 125 100- RH = 25 RH = 100 - 25 = 75% Thus, the relative humidity is 75%. Example 2: Find the dew point temperature when the temperature of air is 35 degrees Celsius and the humidity is 80 %? Solution: the formula to calculate the dew point temperature is given by: Td = T - ((100 - RH)/5) Putting the values in the above formula, we get: Td = 35 - (100-80)/5 Td = 35 - (20)/2 Td = 35 - 10 Td = 25 Hence, the dew point temperature is 25 degrees Celsius. Example 3: Find the humidity percentage when the temperature of air is 64 degrees Fahrenheit and the dew point temperature is 55 degrees Fahrenheit? Solution: The formula to calculate the dew point temperature is given by: RH = 100 - 25/9 (T - Td) Putting the values in the above formula, we get: RH = 100 - 25/9 (64 - 55) RH = 100 - 25/9 (9) RH = 100 - 25 RH = 75% Hence, the humidity is 75%. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

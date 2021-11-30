@@ -1,0 +1,129 @@
+The exit() function in C - javatpoint ? SCROLL TO TOP Home C C++ C# Java SQL HTML CSS JavaScript XML Ajax Android Cloud Design Pattern Quiz Projects Interview Q Comment Forum C/C++ Training C Tutorial What is C Language History of C Features of C How to install C First C Program Compilation Process in C printf scanf Variables in C Data Types in c Keywords in c C Identifiers C Operators C Comments C Format Specifier C Escape Sequence ASCII value in C Constants in C Literals in C Tokens in C C Boolean Static in C Programming Errors in C Compile time vs Runtime Conditional Operator in C Bitwise Operator in C 2s complement in C C Fundamental Test C Control Statements C if-else C switch if-else vs switch C Loops C do-while loop C while loop C for loop Nested Loops in C Infinite Loop in C C break C continue C goto Type Casting C Control Statement Test C Functions What is function Call: Value & Reference Recursion in c Storage Classes C Functions Test C Array 1-D Array 2-D Array Return an Array in C Array to Function C Array Test C Pointers C Pointers C Pointer to Pointer C Pointer Arithmetic Dangling Pointers in C sizeof() operator in C const Pointer in C void pointer in C C Dereference Pointer Null Pointer in C C Function Pointer Function pointer as argument in C C Pointers Test C Dynamic Memory Dynamic memory C Strings String in C C gets() & puts() C String Functions C strlen() C strcpy() C strcat() C strcmp() C strrev() C strlwr() C strupr() C strstr() C String Test C Math C Math Functions C Structure Union C Structure typedef in C C Array of Structures C Nested Structure Structure Padding in C C Union C Structure Test C File Handling C File Handling C fprintf() fscanf() C fputc() fgetc() C fputs() fgets() C fseek() C rewind() C ftell() C Preprocessor C Preprocessor C Macros C #include C #define C #undef C #ifdef C #ifndef C #if C #else C #error C #pragma C Preprocessor Test C Command Line Command Line Arguments C Misc C Expressions Data Segments Flow of C Program Classification of Programming Languages Enum in C What is getch() in C What is the function call in C typedef vs define in C C Programming Test C Programming Test C Programs Top 10+ C Programs Fibonacci Series Prime Number Palindrome Number C program to compare the two strings Strings Concatenation in C Factorial Armstrong Number Sum of digits Count the number of digits in C Reverse Number Swap Number Print "Hello" without ; Assembly code in C C program without main Matrix Multiplication Decimal to Binary Number in Characters Alphabet Triangle Number Triangle Fibonacci Triangle Hexadecimal to Binary Hexadecimal to Decimal Octal to Hexadecimal in C Strong number in C Star Program in C itoa Function in C Extra Long Factorials in C Leap year program in C Perfect Number Program in C Variables vs Constants Round Robin Program in C with Output C Program to find the roots of quadratic equation Type Casting vs Type Conversion How to run a C program in Visual Studio Code Modulus Operator in C/C++ Sum of first N natural numbers in C Big O Notation in C LCM of two numbers in C while loop vs do-while loop in C Memory Layout in C Balanced Parenthesis in C Binary to Decimal Number in C GCD of two numbers in C Getchar() function in C flowchart in C Simpson Method Pyramid Patterns in C Random Function in C Floyd's Triangle in C C Header Files abs() function in C Atoi() function in C Structure Pointer in C sprintf() in C Range of Int in C C Program to convert 24 Hour time to 12 Hour time What is double in C What is the main in C Calculator Program in C Calloc in C user-defined vs library function in C Memset C ASCII Table in C Static function in C Reverse a String in C Twin Prime Numbers in C strchr() function in C Structure of a C program Power Function in C Malloc in C Table Program in C Types of Recursion in C Convert Uppercase to Lowercase in C Unary Operator in C Arithmetic Operator in C Ceil Function in C Relational Operator in C Assignment Operator in C Pre-increment and Post-increment Operator in C Pointer vs array in C Restrict keyword in C The exit() function in C Const Qualifier in C Sequence Points in C Anagram in C Increment and Decrement Operators in C Logical AND Operator in C Shift Operators in C Near, Far, and Huge pointers in C language Magic Number in C Remove Duplicate Elements from an Array in C Generic Linked list in C isalnum() function in C isalpha() function in C Bisection Method in C snprintf() function in C MCQ C language MCQ C language MCQ Part 2 Math Prime Numbers List Composite Numbers List Square Numbers List Binary Numbers List Fibonacci Numbers List Ounces in a Cup Ounces in a Pound Ounces in a Gallon Ounces in a Liter Ounces in a Pint Ounces in a Quart Ounces in a Tablespoon C Interview C Interview Questions next ? ? prev The exit() function in C The exit() function is used to terminate a process or function calling immediately in the program. It means any open file or function belonging to the process is closed immediately as the exit() function occurred in the program. The exit() function is the standard library function of the C, which is defined in the stdlib.h header file. So, we can say it is the function that forcefully terminates the current program and transfers the control to the operating system to exit the program. The exit(0) function determines the program terminates without any error message, and then the exit(1) function determines the program forcefully terminates the execution process. Important points of the exit() function Following are the main points of the exit function in C programming as follows: We must include the stdlib.h header file while using the exit () function. It is used to terminate the normal execution of the program while encountered the exit () function. The exit () function calls the registered atexit() function in the reverse order of their registration. We can use the exit() function to flush or clean all open stream data like read or write with unwritten buffered data. It closed all opened files linked with a parent or another function or file and can remove all files created by the tmpfile function. The program's behaviour is undefined if the user calls the exit function more than one time or calls the exit and quick_exit function. The exit function is categorized into two parts: exit(0) and exit(1). Syntax of the exit() function 
+void exit ( int status);
+ The exit() function has no return type. int status: It represents the status value of the exit function returned to the parent process. Example 1: Program to use the exit() function in the for loop Let's create a program to demonstrate the exit (0) function for normal terminating the process in the C programming language. 
+#include <stdio.h>
+#include <stdlib.h>
+int main () 
+{
+// declaration of the variables
+int i, num;
+printf ( " Enter the last number: ");
+scanf ( " %d", &num);
+for ( i = 1; i<num; i++)
+{
+// use if statement to check the condition
+if ( i == 6 )
+
+/* use exit () statement with passing 0 argument to show termination of the program without any error message. */
+exit(0);  
+
+else
+
+printf  (" \n Number is %d", i);
+} 
+return 0;
+}
+ Output Enter the last number: 10
+
+ Number is 1
+ Number is 2
+ Number is 3
+ Number is 4
+ Number is 5
+ There are two types of exit status in C Following are the types of the exit function in the C programming language, as follows: EXIT_ SUCCESS EXIT_FAILURE EXIT_SUCCESS: The EXIT_ SUCCESS is the exit() function type, which is represented by the exit(0) statement. Where the '0' represents the successful termination of the program without any error, or programming failure occurs during the program's execution. Syntax of the EXIT SUCCESS 
+exit (EXIT_SUCCESS);
+ Example 1: Program to demonstrate the usage of the EXIT_SUCCESS or exit(0) function Let's create a simple program to demonstrate the working of the exit(0) function in C programming. 
+#include <stdio.h>
+#include <stdlib.>
+int main ()
+{
+printf ( " Start the execution of the program.  \n");
+printf (" Exit from the program. \n ");
+// use exit (0) function to successfully execute the program
+exit (0);
+printf ( "Terminate the execution of the program.\n ");
+return 0;
+}
+ Output Start the execution of the program.
+Exit from the program. 
+ Example 2: Program to use the EXIT_SUCCESS macro in the exit() function Let's create a C program to validate the whether the character is presents or not. 
+#include <stdio.h>
+#include <stdlib.h>
+int main () 
+{
+// declaration of the character type variable
+char ch;
+printf(" Enter the character: ");
+scanf (" %c", &ch);
+
+// use if statement to check the condition
+if ( ch == 'Y')
+{
+	printf(" Great, you did it. ");
+	exit(EXIT_SUCCESS); // use exit() function to terminate the execution of a program
+}
+else
+{
+	printf (" You entered wrong character!! ");
+}
+return 0;
+}
+ Output Enter the character: Y
+Great, you did it.
+ EXIT_FAILURE: The EXIT_FAILURE is the macro of the exit() function to abnormally execute and terminate the program. The EXIT_FAILURE is also represented as the exit(1) function. Whether the '1' represents the abnormally terminates the program and transfer the control to the operating system. Syntax of the EXIT_FAILURE 
+exit (EXIT_FAILURE); 
+ Example 1: Let's create a program to use the EXIT_FAILURE or exit(1) function 
+#include <stdio.h>
+#include <stdlib.h>
+int main ()
+{
+int num1, num2;
+printf (" Enter the num1: ");
+scanf ("%d", &num1);
+	
+printf (" \n Enter the num2: ");
+scanf ("%d", &num2);
+	
+if (num2 == 0)
+{
+printf (" \n Dividend cannot be zero. ");
+	
+// use EXIT_FAILURE
+exit(1);
+}
+
+float num3 = (float)num1 / (float)num2;
+printf (" %d / %d : %f", num1, num2, num3);
+
+// use the EXIT_SUCCESS
+exit(0);
+}
+ Output Enter the num1: 20
+Enter the num2: 6
+20 / 6 : 3.333333
+
+2nd Run
+Enter the num1: 20
+Enter the num2: 6
+Dividend cannot be zero
+ Example 2: Let's create another program to use the EXIT_FAILURE to terminate the C program. 
+#include <stdio.h>
+#include <stdlib.h> 
+int main ()
+{
+
+// declare the data type of a file	
+FILE *fptr = fopen ( "javatpoint.txt", "r" );
+// use if statement to check whether the fptr is null or not.
+if ( fptr == NULL)
+{
+fprintf ( stderr, "Unable to open the defined file \n" );
+exit ( EXIT_FAILURE); // use exit function to check termination
+}
+// use fclose function to close the file pointer
+fclose (fptr); 
+printf ( " Normal termination of the program. ");
+return 0;
+}
+ Output Unable to open the defined file.
+ Next Topic Const Qualifier in C ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

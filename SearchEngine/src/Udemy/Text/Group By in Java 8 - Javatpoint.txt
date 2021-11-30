@@ -1,0 +1,806 @@
+
+
+ 
+  
+  Group By in Java 8 - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Group By in Java 8 The Collectors.groupingBy() method in Java 8 now permits developers to perform GROUP BY operation directly. GROUP BY is a SQL aggregate operation that is quite useful. It enables you to categorise records based on specified criteria. In Java, how do you group by? For example, if you have a list of people, how do you organise them by city? Is it better to visit London, Paris, or Tokyo? We could accomplish this with a for loop, checking each individual, and placing them on a list of HashMaps with the same city, but in Java 8, you don't have to hack your way around like that; you have a far simpler alternative. To accomplish this, you can use the groupingBy() method provided by Stream and Collector. It has a substantial value because it is one of the most frequent ways to aggregate data, especially when combined with the different overloaded versions of groupingBy(), which also allows you to group items concurrently by utilising concurrent Collectors. How to group objects in Java 8? Example Here is a Java 8 and older version sample program for grouping objects based on their characteristics. First, we'll look at how we could achieve this in the pre-Java 8 environment, and then we'll look at a Java 8 group example. Looking at both techniques, it's clear that Java 8 has made your job a lot easier. To build a group of objects from a list in Java SE 6 or 7, you must iterate over the list, inspect each element, and place them into their own list. To store these groupings, you'll also need a Map. When you get the initial item for a new group, you make a list and add it to the list, but if the group already exists in Map, you just fetch it and add your element to it. The code is not difficult to write, but it does take 5 to 6 lines, and you must check for null references everywhere to avoid a NullPointerException. In Java 8, you retrieve the stream from the list and use a Collector to group them in one line of code. It's as simple as passing the grouping condition to the collector and it is complete. By simply modifying the grouping condition, you can create multiple groups. To establish a group of different criteria in the previous edition, you had to write the same 5 to 6 lines of code. You may even use the new Stream API to perform aggregate functions like sum(), count(), max(), and min() in specific groups, as shown in my previous streams examples. Individual groups are, after all, just a list of objects on which you may access the stream by invoking the stream() method. In other words, you can now accomplish SQL-style grouping in Java without having to use a loop. Grouping Objects Java Program GroupByDemo.java 
+           
+            
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.stream.Collectors;
+public class GroupByDemoInJava8 
+{
+    /* Driver Code */
+    public static void main(String args[]) throws IOException 
+    {
+        List<Employee> emp = new ArrayList<>();
+        emp.add(new Employee("Dipak", "Delhi", 21));
+        emp.add(new Employee("Sumit", "Delhi", 21));
+        emp.add(new Employee("Karan", "Delhi", 23));
+        emp.add(new Employee("Mona", "Udaipur", 23));
+        emp.add(new Employee("Rajesh", "Banglore", 23));
+        emp.add(new Employee("Niraj", "Banglore", 31));        
+        /* Group by Employees by city before Java 8 world */       
+        Map<String,List<Employee>> EmpByCity = new HashMap<>();
+        
+        for(Employee p : emp)
+        {
+            if(!EmpByCity.containsKey(p.getCity()))
+            {
+                EmpByCity.put(p.getCity(), new ArrayList<>());                
+            }
+            EmpByCity.get(p.getCity()).add(p);
+        }
+        System.out.println("Employees grouped by cities before Java 8 : " + EmpByCity);      
+        /* group objects of Employee class in Java 8 */
+        EmpByCity =  emp.stream().collect(Collectors.groupingBy(Employee::getCity));
+        System.out.println("Employees grouped by cities in Java 8: " + EmpByCity);
+        /* group Employees by age */
+        Map<Integer,List<Employee>> EmpByAge = emp.stream().collect(Collectors.groupingBy(Employee::getAge));
+        System.out.println("Employees grouped by age in Java 8: " + EmpByAge);
+    }
+}
+class Employee
+{
+    private String name;
+    private String city;
+    private int age;
+    public Employee(String name, String city, int age) 
+    {
+        this.name = name;
+        this.city = city;
+        this.age = age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getCity() {
+        return city;
+    }
+    public void setCity(String city) {
+        this.city = city;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    @Override
+    public String toString() {
+        return String.format("%s(%s,%d)", name, city, age);
+    }
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 79 * hash + Objects.hashCode(this.name);
+        hash = 79 * hash + Objects.hashCode(this.city);
+        hash = 79 * hash + this.age;
+        return hash;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Employee other = (Employee) obj;
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        if (!Objects.equals(this.city, other.city)) {
+            return false;
+        }
+        if (this.age != other.age) {
+            return false;
+        }
+        return true;
+    }
+}
+
+            Output: 
+           
+            Employees grouped by cities before Java 8 : {Delhi=[Dipak(Delhi,21), Sumit(Delhi,21), Karan(Delhi,23)], Banglore=[Rajesh(Banglore,23), Niraj(Banglore,31)], Udaipur=[Mona(Udaipur,23)]}
+Employees grouped by cities in Java 8: {Delhi=[Dipak(Delhi,21), Sumit(Delhi,21), Karan(Delhi,23)], Banglore=[Rajesh(Banglore,23), Niraj(Banglore,31)], Udaipur=[Mona(Udaipur,23)]}
+Employees grouped by age in Java 8: {21=[Dipak(Delhi,21), Sumit(Delhi,21)], 23=[Karan(Delhi,23), Mona(Udaipur,23), Rajesh(Banglore,23)], 31=[Niraj(Banglore,31)]}
+
+            We are categorising a list of Employee objects by their city in the above example. Three employee from Delhi, two from Udaipur, and one from Banglore are on our list. After sorting them by city, you can see that they each have their own list; there is one employee in the Udaipur list, three in the Delhi list, and two in the Banglore list. The groups formed by the Java 7 and Java 8 examples are identical. Later, it is divided into three groups based on their age, and as shown we have three groups for distinct age groups, 21, 23, and 31. 
+            
+            
+            Next Topic
+            Hashing Techniques in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

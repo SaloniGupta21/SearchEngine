@@ -1,0 +1,119 @@
+Constraints in SQL - javatpoint ? SCROLL TO TOP Home SQL PL/SQL MySQL MongoDB PostgreSQL SQL Server Oracle Cassandra SQLite DBMS Python Java Aptitude Interview Q Oracle Training SQL Tutorial What is SQL SQL Syntax SQL Data Types SQL Operators SQL Database SQL CREATE Database SQL DROP Database SQL RENAME Database SQL SELECT Database SQL Table What is Table SQL CREATE TABLE SQL DROP TABLE SQL DELETE TABLE SQL RENAME TABLE SQL TRUNCATE TABLE SQL COPY TABLE SQL TEMP TABLE SQL ALTER TABLE SQL Select SELECT Statement SQL SELECT UNIQUE SQL SELECT DISTINCT SQL SELECT COUNT SQL SELECT TOP SQL SELECT FIRST SQL SELECT LAST SQL SELECT RANDOM SQL SELECT IN SQL SELECT Multiple SQL SELECT DATE SQL SELECT SUM SQL SELECT NULL SQL Clause SQL WHERE SQL AND SQL OR SQL WITH SQL AS SQL HAVING Clause SQL Order By ORDER BY Clause ORDER BY ASC ORDER BY DESC ORDER BY RANDOM ORDER BY LIMIT ORDER BY Multiple Cols SQL Insert INSERT Statement INSERT INTO Values INSERT INTO SELECT INSERT Multiple Rows SQL Update UPDATE Statement SQL UPDATE JOIN SQL UPDATE DATE SQL Delete DELETE Statement SQL DELETE TABLE SQL DELETE ROW SQL DELETE All Rows DELETE Duplicate Rows SQL DELETE DATABASE SQL DELETE VIEW SQL DELETE JOIN SQL Join SQL JOIN SQL Outer Join SQL Left Join SQL Right Join SQL Full Join SQL Cross Join SQL Keys Primary Key Foreign Key Composite Key Unique Key Alternate Key Difference SQL vs NoSQL IN vs EXISTS Group By vs Order By WHERE vs HAVING Where condition in SQL SQL Injection SQL Injection Misc SQL Formatter SQL group by SQL add/drop/update column operation SQL CAST Function SQL Comments SQL CONCAT Function CTE SQL How to use distinct in SQL Joining Three or More Tables in SQL What is Web SQL How to create functions in SQL How to run SQL Script How to Delete Duplicate Rows in SQL Nth Highest salary 12 Codd's Rules SQL EXCEPT Types of SQL JOIN Change datatype of column in SQL SQL Auto Increment SQL Like Commit and Rollback in SQL SQL Concatenate SQL get month from the date Savepoint in SQL SQL ORDER BY DATE TIME Datatype in SQL SQL BETWEEN SQL CRUD Operations SQL INDEX Scalar Functions in SQL SET Operators in SQL Types of SQL Commands TCL Commands in SQL SQL Subquery SQL View Constraints in SQL Pattern Matching in SQL SQL Date Functions DDL Commands in SQL DML Commands in SQL SQL CASE SQL Inner Join SQL IN Operator Check Constraint in SQL SQL CLAUSES SQL LOGICAL OPERATORS SQL MCQ SQL MCQ PL/SQL Tutorial PL/SQL Tutorial Interview SQL Interview PL/SQL Interview Quiz SQL Quiz next ? ? prev Constraints in SQL Constraints in SQL means we are applying certain conditions or restrictions on the database. This further means that before inserting data into the database, we are checking for some conditions. If the condition we have applied to the database holds true for the data which is to be inserted, then only the data will be inserted into the database tables. Constraints in SQL can be categorized into two types: Column Level Constraint: Column Level Constraint is used to apply a constraint on a single column. Table Level Constraint: Table Level Constraint is used to apply a constraint on multiple columns. Some of the real-life examples of constraints are as follows: Every person has a unique email id. This is because while creating an email account for any user, the email providing services such as Gmail, Yahoo or any other email providing service will always check for the availability of the email id that the user wants for himself. If some other user already takes the email id that the user wants, then that id cannot be assigned to another user. This simply means that no two users can have the same email ids on the same email providing service. So, here the email id is the constraint on the database of email providing services. Whenever we set a password for any system, there are certain constraints that are to be followed. These constraints may include the following: There must be one uppercase character in the password. Password must be of at least eight characters in length. Password must contain at least one special symbol. Constraints available in SQL are: NOT NULL UNIQUE PRIMARY KEY FOREIGN KEY CHECK DEFAULT CREATE INDEX Now let us try to understand the different constraints available in SQL in more detail with the help of examples. We will use MySQL database for writing all the queries. 1. NOT NULL NULL means empty, i.e., the value is not available. Whenever a table's column is declared as NOT NULL, then the value for that column cannot be empty for any of the table's records. There must exist a value in the column to which the NOT NULL constraint is applied. NOTE: NULL does not mean zero. NULL means empty column, not even zero. Syntax to apply the NOT NULL constraint during table creation: 
+CREATE TABLE TableName (ColumnName1 datatype NOT NULL, ColumnName2 datatype,…., ColumnNameN datatype);
+ Example: Create a student table and apply a NOT NULL constraint on one of the table's column while creating a table. 
+CREATE TABLE student(StudentID INT NOT NULL, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+ To verify that the not null constraint is applied to the table's column and the student table is created successfully, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply the NOT NULL constraint on an existing table's column: 
+ALTER TABLE TableName CHANGE Old_ColumnName New_ColumnName Datatype NOT NULL;
+ Example: Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply a NOT NULL constraint to one of the table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student CHANGE StudentID StudentID INT NOT NULL;
+ To verify that the not null constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ 2. UNIQUE Duplicate values are not allowed in the columns to which the UNIQUE constraint is applied. The column with the unique constraint will always contain a unique value. This constraint can be applied to one or more than one column of a table, which means more than one unique constraint can exist on a single table. Using the UNIQUE constraint, you can also modify the already created tables. Syntax to apply the UNIQUE constraint on a single column: 
+CREATE TABLE TableName (ColumnName1 datatype UNIQUE, ColumnName2 datatype,…., ColumnNameN datatype);
+ Example: Create a student table and apply a UNIQUE constraint on one of the table's column while creating a table. 
+mysql> CREATE TABLE student(StudentID INT UNIQUE, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+ To verify that the unique constraint is applied to the table's column and the student table is created successfully, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply the UNIQUE constraint on more than one column: 
+CREATE TABLE TableName (ColumnName1 datatype, ColumnName2 datatype,…., ColumnNameN datatype, UNIQUE (ColumnName1, ColumnName 2));
+ Example: Create a student table and apply a UNIQUE constraint on more than one table's column while creating a table. 
+mysql> CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), UNIQUE(StudentID, Student_PhoneNumber));
+ To verify that the unique constraint is applied to more than one table's column and the student table is created successfully, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply the UNIQUE constraint on an existing table's column: 
+ALTER TABLE TableName ADD UNIQUE (ColumnName);
+ Example: Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply a UNIQUE constraint to one of the table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student ADD UNIQUE (StudentID);
+ To verify that the unique constraint is applied to the table's column and the student table is created successfully, we will execute the following query: 
+mysql> DESC student;
+ 3. PRIMARY KEY PRIMARY KEY Constraint is a combination of NOT NULL and Unique constraints. NOT NULL constraint and a UNIQUE constraint together forms a PRIMARY constraint. The column to which we have applied the primary constraint will always contain a unique value and will not allow null values. Syntax of primary key constraint during table creation: 
+CREATE TABLE TableName (ColumnName1 datatype PRIMARY KEY, ColumnName2 datatype,…., ColumnNameN datatype);
+ Example: Create a student table and apply the PRIMARY KEY constraint while creating a table. 
+mysql> CREATE TABLE student(StudentID INT PRIMARY KEY, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40));
+ To verify that the primary key constraint is applied to the table's column and the student table is created successfully, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply the primary key constraint on an existing table's column: 
+ALTER TABLE TableName ADD PRIMARY KEY (ColumnName);
+ Example: Consider we have an existing table student, without any constraints applied to it. Later, we decided to apply the PRIMARY KEY constraint to the table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student ADD PRIMARY KEY (StudentID);
+ To verify that the primary key constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ 4. FOREIGN KEY A foreign key is used for referential integrity. When we have two tables, and one table takes reference from another table, i.e., the same column is present in both the tables and that column acts as a primary key in one table. That particular column will act as a foreign key in another table. Syntax to apply a foreign key constraint during table creation: 
+CREATE TABLE tablename(ColumnName1 Datatype(SIZE) PRIMARY KEY, ColumnNameN Datatype(SIZE), FOREIGN KEY( ColumnName ) REFERENCES PARENT_TABLE_NAME(Primary_Key_ColumnName));
+ Example: Create an employee table and apply the FOREIGN KEY constraint while creating a table. To create a foreign key on any table, first, we need to create a primary key on a table. 
+mysql> CREATE TABLE employee (Emp_ID INT NOT NULL PRIMARY KEY, Emp_Name VARCHAR (40), Emp_Salary VARCHAR (40));
+ To verify that the primary key constraint is applied to the employee table's column, we will execute the following query: 
+mysql> DESC employee;
+ Now, we will write a query to apply a foreign key on the department table referring to the primary key of the employee table, i.e., Emp_ID. 
+mysql> CREATE TABLE department(Dept_ID INT NOT NULL PRIMARY KEY, Dept_Name VARCHAR(40), Emp_ID INT NOT NULL, FOREIGN KEY(Emp_ID) REFERENCES employee(Emp_ID));
+ To verify that the foreign key constraint is applied to the department table's column, we will execute the following query: 
+mysql> DESC department;
+ Syntax to apply the foreign key constraint with constraint name: 
+CREATE TABLE tablename(ColumnName1 Datatype PRIMARY KEY, ColumnNameN Datatype(SIZE), CONSTRAINT ConstraintName FOREIGN KEY( ColumnName ) REFERENCES PARENT_TABLE_NAME(Primary_Key_ColumnName));
+ Example: Create an employee table and apply the FOREIGN KEY constraint with a constraint name while creating a table. To create a foreign key on any table, first, we need to create a primary key on a table. 
+mysql> CREATE TABLE employee (Emp_ID INT NOT NULL PRIMARY KEY, Emp_Name VARCHAR (40), Emp_Salary VARCHAR (40));
+ To verify that the primary key constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC employee;
+ Now, we will write a query to apply a foreign key with a constraint name on the department table referring to the primary key of the employee table, i.e., Emp_ID. 
+mysql> CREATE TABLE department(Dept_ID INT NOT NULL PRIMARY KEY, Dept_Name VARCHAR(40), Emp_ID INT NOT NULL, CONSTRAINT emp_id_fk FOREIGN KEY(Emp_ID) REFERENCES employee(Emp_ID));
+ To verify that the foreign key constraint is applied to the department table's column, we will execute the following query: 
+mysql> DESC department;
+ Syntax to apply the foreign key constraint on an existing table's column: 
+ALTER TABLE Parent_TableName ADD FOREIGN KEY (ColumnName) REFERENCES Child_TableName (ColumnName);
+ Example: Consider we have an existing table employee and department. Later, we decided to apply a FOREIGN KEY constraint to the department table's column. Then we will execute the following query: 
+mysql> DESC employee;
+ 
+mysql> ALTER TABLE department ADD FOREIGN KEY (Emp_ID) REFERENCES employee (Emp_ID);
+ To verify that the foreign key constraint is applied to the department table's column, we will execute the following query: 
+mysql> DESC department;
+ 5. CHECK Whenever a check constraint is applied to the table's column, and the user wants to insert the value in it, then the value will first be checked for certain conditions before inserting the value into that column. For example: if we have an age column in a table, then the user will insert any value of his choice. The user will also enter even a negative value or any other invalid value. But, if the user has applied check constraint on the age column with the condition age greater than 18. Then in such cases, even if a user tries to insert an invalid value such as zero or any other value less than 18, then the age column will not accept that value and will not allow the user to insert it due to the application of check constraint on the age column. Syntax to apply check constraint on a single column: 
+CREATE TABLE TableName (ColumnName1 datatype CHECK (ColumnName1 Condition), ColumnName2 datatype,…., ColumnNameN datatype);
+ Example: Create a student table and apply CHECK constraint to check for the age less than or equal to 15 while creating a table. 
+mysql> CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), Age INT CHECK( Age <= 15));
+ To verify that the check constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply check constraint on multiple columns: 
+CREATE TABLE TableName (ColumnName1 datatype, ColumnName2 datatype CHECK (ColumnName1 Condition AND ColumnName2 Condition),…., ColumnNameN datatype);
+ Example: Create a student table and apply CHECK constraint to check for the age less than or equal to 15 and a percentage greater than 85 while creating a table. 
+mysql> CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40), Age INT, Percentage INT, CHECK( Age <= 15 AND Percentage > 85));
+ To verify that the check constraint is applied to the age and percentage column, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply check constraint on an existing table's column: 
+ALTER TABLE TableName ADD CHECK (ColumnName Condition);
+ Example: Consider we have an existing table student. Later, we decided to apply the CHECK constraint on the student table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student ADD CHECK ( Age <=15 );
+ To verify that the check constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ 6. DEFAULT Whenever a default constraint is applied to the table's column, and the user has not specified the value to be inserted in it, then the default value which was specified while applying the default constraint will be inserted into that particular column. Syntax to apply default constraint during table creation: 
+CREATE TABLE TableName (ColumnName1 datatype DEFAULT Value, ColumnName2 datatype,…., ColumnNameN datatype);
+ Example: Create a student table and apply the default constraint while creating a table. 
+mysql> CREATE TABLE student(StudentID INT, Student_FirstName VARCHAR(20), Student_LastName VARCHAR(20), Student_PhoneNumber VARCHAR(20), Student_Email_ID VARCHAR(40) DEFAULT "anuja.k8@gmail.com");
+ To verify that the default constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ Syntax to apply default constraint on an existing table's column: 
+ALTER TABLE TableName ALTER ColumnName SET DEFAULT Value;
+ Example: Consider we have an existing table student. Later, we decided to apply the DEFAULT constraint on the student table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student ALTER Student_Email_ID SET DEFAULT "anuja.k8@gmail.com";
+ To verify that the default constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ 7. CREATE INDEX CREATE INDEX constraint is used to create an index on the table. Indexes are not visible to the user, but they help the user to speed up the searching speed or retrieval of data from the database. Syntax to create an index on single column: 
+CREATE INDEX IndexName ON TableName (ColumnName 1);
+ Example: Create an index on the student table and apply the default constraint while creating a table. 
+mysql> CREATE INDEX idx_StudentID ON student (StudentID);
+ To verify that the create index constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ Syntax to create an index on multiple columns: 
+CREATE INDEX IndexName ON TableName (ColumnName 1, ColumnName 2, ColumnName N);
+ Example: 
+mysql> CREATE INDEX idx_Student ON student (StudentID, Student_PhoneNumber);
+ To verify that the create index constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ Syntax to create an index on an existing table: 
+ALTER TABLE TableName ADD INDEX (ColumnName);
+ Consider we have an existing table student. Later, we decided to apply the DEFAULT constraint on the student table's column. Then we will execute the following query: 
+mysql> ALTER TABLE student ADD INDEX (StudentID);
+ To verify that the create index constraint is applied to the student table's column, we will execute the following query: 
+mysql> DESC student;
+ Next Topic Pattern Matching in SQL ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

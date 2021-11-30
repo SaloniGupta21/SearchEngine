@@ -1,0 +1,708 @@
+
+
+ 
+  
+  Kali Linux vs Fedora - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Java 
+       Kali Linux 
+       Ethical Hacking 
+       Linux 
+       Shell Scripting 
+       C 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Python 
+       Android 
+       Quiz 
+       Projects 
+       Interview Q 
+       Forum 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Kali Linux Tutorial 
+      
+      
+      Kali Linux Tutorial 
+      Install Kali Linux 
+      Configuring & Updating 
+      Kali Linux Commands 
+      
+      
+      Kali Linux Tools 
+      
+      
+      Information Gathering Tools 
+      Vulnerability Analysis Tools 
+      Exploitation Tools 
+      Wireless Attack Tools 
+      Forensic Tools 
+      Web Application Tools 
+      Stress Testing Tools 
+      Sniffing & Spoofing Tools 
+      Password Attack Tools 
+      Maintaining Access Tools 
+      Reverse Engineering Tools 
+      Hardware Hacking Tools 
+      Reporting Tools 
+      Hacking Wifi using Kali Linux 
+      
+      
+      Misc. 
+      
+      
+      Kali Linux Latest Version 
+      Kali Linux net hunter 
+      Making a Kali Bootable USB Drive 
+      Kali Linux - Terminal 
+      Kali Linux root password reset 
+      Enable Root User in Kali Linux 
+      How to hack a Facebook account using Kali Linux 
+      How to Install XAMPP in Kali Linux 
+      How to run a java program on Kail Linux 
+      How to install XDM on Kali Linux 
+      Features of Kali Linux 
+      Use of Kali Linux 
+      How to install VPNbook on Kali Linux 
+      How to Check Kali Linux Version 
+      Kali Linux System Requirements 
+      Advantages and Disadvantages of Kali Linux 
+      Kali Linux Tools List 
+      How to install AnyDesk on Kali Linux 
+      Best WiFi Adapters for Kali Linux 
+      Install Mozilla Firefox In Kali Linux 
+      Kali Linux vs Fedora 
+      Sqlmap in Kali Linux 
+      Skipfish in Kali Linux 
+      Kali Linux Basic Commands 
+      Kali Linux Shortcut Keys 
+      How to take Screenshot in Kali Linux 
+      How to Update Kali Linux 
+      How to Change Time in Kali Linux 
+      Kill Process 
+      Social Engineering in Kali Linux 
+      
+      
+      Interview Questions 
+      
+      
+      Kali Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Difference Between Kali Linux and Fedora Kali Linux  Kali Linux (previously known as BackTrack Linux) is a Debian-based open-source Linux distribution for advanced penetration testing and security auditing. Kali Linux has a large number of tools for several information security tasks like Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Kali Linux is a multi-platform solution for information security professionals and enthusiasts that are both accessible and free. On March 13th, 2013, Kali Linux was published as a complete, top-to-bottom rebuild of BackTrack Linux, which fully adhering to Debian development standards. Features of Kali Linux There are various features of Kali Linux: 
+            
+            Kali Linux support Multi-language. 
+            Developed in a secure environment 
+            Free of cost 
+            Kali Linux comes with more than 600 useful tools such as Crunch, Nmap, Wireshark and Aircrack-ng. 
+            Kali Linux followed FHS to make it easier to locate libraries, support files, etc. 
+            Kali Linux is completely 
+            Fedora  Fedora OS is a Linux based open-source operating system which is developed by Red Hat. Fedora is Linux based, so it is open source and free to use. It uses the DNF package manager and gnome environment along with an anaconda installer. It supports 3 platforms: Workstation Fedora, which is designed for Personal Computers, Fedora Atomic designed for cloud computing; and Fedora Server designed for servers. Fedora is supported by RedHat, the world's second-largest Linux kernel contributor. Because it's developed by the same individuals who work extensively on the Kernel and know its ins and outs, using a RedHat distribution guarantees, it will be fine-tuned to function as efficiently as possible. Features of Fedora The following are the features of Fedora: 
+            
+            Fedora is very easy to use. 
+            Fedora provides much architecture. 
+            Fedora offers unique security features. 
+            It offers live mode tools. 
+            Fedora is actively developed 
+            It provides a very powerful firewall. 
+            It is a very reliable and stable operating system. 
+            Fedora supports a large community. 
+            Fedora enhances internet speed. 
+            The interface of Fedora OS is very attractive. 
+            Difference between Kali Linux and Fedora   
+            
+            
+              
+              S.No 
+              Kali Linux 
+              Fedora 
+              
+              
+              1. 
+              Kali Linux was developed by Offensive Security. 
+              Fedora was developed by RedHat. 
+              
+              
+              2. 
+              In March of 2013, Kali Linux was first released. 
+              In November of 2003, Fedora was first released. 
+              
+              
+              3. 
+              The discussion forum for Kali Linux is forums.Kali.org. 
+              The discussion forum for fedora is ask.fedoraproject.org. 
+              
+              
+              4. 
+              Kali Linux is used by ethical hackers or security researchers for security purposes. 
+              Fedora is used for daily use or on a server or on a cloud. 
+              
+              
+              5. 
+              Kali Linux is a fantastic choice for individuals with some experience with Linux. 
+              Fedora is a good choice for beginners to Linux. 
+              
+              
+              6. 
+              In comparison to Fedora, it has a less user-friendly interface. 
+              Fedora has an easy-to-use interface. 
+              
+              
+              7. 
+              Kali comes with a slew of hacking and penetration testing tools. 
+              Fedora does not include any hacking or penetration testing tools. 
+              
+              
+              8. 
+              The xfce environment is installed by default in the latest Kali, but we can modify it. 
+              The Gnome environment is installed by default in the Fedora releases, but we can change it. 
+              
+            
+            
+            
+            
+            Next Topic
+            Sqlmap in Kali Linux 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

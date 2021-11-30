@@ -1,0 +1,641 @@
+
+
+ 
+  
+  Adobe XD vs Figma - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Adobe XD 
+       Photoshop 
+       GIMP 
+       After Effect 
+       Illustrator 
+       Dreamweaver 
+       Adobe InDesign 
+       CorelDRAW 
+       HTML 
+       JavaScript 
+       Java 
+       SQL 
+       Python 
+       Android 
+       Cloud 
+       Servlet 
+       JSP 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Adobe XD Tutorial 
+      
+      
+      Adobe XD 
+      What is Adobe XD 
+      Adobe XD vs Figma 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Adobe XD Vs. Figma The UX design process now adopts a new level in designing. Modern tools such as Adobe XD, Figma, and Sketch are very advanced tools for designing the user interface for the different types of applications such as mobile applications, web applications, smartwatches, smart TVs, etc. All of these tools provide several features to create mockups and prototypes for the project. The more options available for the design, the more will be complications for the users to choose the right tool that may fulfill their requirements because we cannot have all the tools in our system. It will require more storage and obviously more cast for them to buy. The professionals have really been struggling to adapt a single tool for all of their requirements with modern features such as wireframing, prototyping, creating mockups, and development. Back in 2010, designers were heavily relied on Photoshop and illustrator for creating mockups and high-fidelity designs. At that time the Sketch was introduced, and it had changed the level of UI designing. In this section, we will discuss the two most popular UI/UX designing software which is Adobe XD and Figma.  Both the tools are leading graphic designing softwares. Millions of professionals over the Globe are using these tools. We will compare these tools based on different scenarios such as pricing, platform support, ease of use, collaboration and sharing, and so on. Let's understand both the tools in detail: What is Adobe XD? Adobe XD is a modern vector-based tool provided by Adobe Inc. it is mainly used to create mockups, wireframes, prototypes; however, it is a graphic design and editing software, so we can also use it for other graphical tasks such as designing artboard, banners, editing Photoshop files, etc. It is a fully packaged graphic designing software, so it can be used to design anything from smartwatches to fully-fledged mobile and web applications. It is an Adobe product, it supports only Windows and Mac OS operating systems. It is not available for Unix-based operating systems such as Linux. Adobe XD is a trendy tool among UI/UX designers because of its advanced features such as prototypes and animations. A complete project can be created and shared among the team for previewing and collaborating in the design. The Adobe XD work is shared as a web link that can be accessed by using any web browser on different platforms. It provides a powerful assets management feature. We can create different types of projects assets using Adobe XD and export in different web-supported image formats. It also provides options to export assets for specific operating systems such as Android and iPhone to fulfill the requirement of the development team. What is Figma? Figma is vector-based graphic editing software used to design and prototype the user interface for different types of devices such as mobile devices, web applications, smartwatches, and smart TVs. It is also one of the most used graphic designing software along with XD. It also supports prototyping like Adobe XD and collaboration and preview with the team. Figma provides support for most of the designing tools required for designing related elements. It also supports vector tools for providing the fully-fledged illustration. Further, it supports prototyping for making the element functional. We can also have the code for different elements and sections. It is a cloud-based designing tool that is quite similar to sketch in terms of features and functionality. But, the Figma is much better than Sketch in collaboration with the team. Figma simplifies the designing process with its extensive features. Its online browser support makes it different from other designing softwares. We can have our project work straight from our browser on any platform and any device. We can also start creating the work from any device without buying multiple licenses. Another reason behind its popularity is that it comes with a free plan where we can create and share up to 3 projects. So, it is enough for learning or working individually on a few small projects. Let's compare both the tools on the basis of different parameters. Platform Support Adobe XD provides desktop applications for the Windows and iOS operating systems. There is no web-based application for the Adobe XD for creating the designs. However, we can create a web-based sharable link for the entire project, including multiple artboards. Any web browser on any device can access the shared link. Viewers can pin and leave their feedback for a specific component that will be visible to the entire team. Comparatively, Figma supports a web-based application for designing and collaborating. It supports document editing over the web in any WebGL-supported browser. Figma also provides desktop applications for the Windows, Mac OS, and Linux operating systems. Figma provides Figma Mirror App to preview the design on your mobile device. It is good for mobile applications; we can have a live preview of the mobile application. This app allows both previewing static designs and interactive prototypes. So if we conclude comparison on the basis of the platform support, then Figma emerges as the winner because it runs on Windows, Mac OS as well as Chrome OS and Linux, comparatively Adobe XD does not provide support for Linux and Chrome OS. Toolbar Layout Figma and Adobe XD has a different layout approach. Figma provides a horizontal toolbar at the top of the workspace, containing menu options and asset selection options. Comparatively, Adobe XD provides vertical toolbar given left to the XD workspace, which contains different tools. Pricing Both Adobe XD and Figma offers a free plan for learning purposes. However, we can handle a few projects using their free plan. Let's discuss their premium plans: Figma offers a free plan for handling three projects by up to two editors. This plan also contains history for the previous 30 days and unlimited cloud storage. Their premium plan costs $12 to $15 USD per editor with a one-month subscription. Figma enterprise edition costs $ 45 per editor with one month subscription. Adobe XD comes with a few adobe Creative Cloud plans. However, its free version is also available, but the free version comes with some limitations. Adobe XD offers the following plans: Starter plan (free): It provides 1 active prototype and 1 active design specification. It also supports Adobe fonts and 2GB of cloud storage. XD, individual license without Creative Cloud subscription ($9.99 per month): It provides unlimited prototypes and design specs. It also supports Adobe Fonts and 100 GB of cloud storage for storing the documents. XD for teams ($22.99 per month per user): This plan includes an unlimited number of prototypes and design spaces. It also supports Adobe Fonts and 100GB of cloud storage. Further, it provides onboarding webinars, an admin console, and advanced technical support. XD for enterprise: Adobe enterprise plan supports everything for the team with 100GB of cloud storage. Further, it supports single sign-on integration, corporate controls of assets, administrator control of asset sharing options. For purchasing this plan, you will have to contact the Adobe team. Both the tools are quite similar in terms of pricing as they offer a minimum of $10 to $12 plans. But the free version of Figma offers more features than Adobe XD. Collaboration & Sharing Both Adobe XD and Figma provides collaboration and sharing features that allow the team to collaborate and review the designs. We can also share these designs with the client or users using a web link that is accessible from any web browser on any platform. Figma allows multiple users to review and edit the document simultaneously by using their Figma account. Figma provides a team libraries feature which is a key feature of the collaboration. This feature allows us to create the design system, components, color schemes, and text style for an individual contributor as well as the team. Means one team member can use the styles and components created by another team member. Adobe XD shared link can be reviewed by any number of users. These users can create a pin and provide their feedback on the particular element, which will be visible to the entire team. Frames & Artboards Frames and Artboards are the canvas for designing something in these tools. The canvas in Figma is known as Frames and in Adobe XD it is known as Artboards. Frames are a single background that contains designs and prototypes. We can create multiple frames on a single canvas. Frames are very helpful while working with different components as we can create a layered structure using the frames. Comparatively, Adobe XD uses Artboards to create a design structure. We have several predefined artboards for different types of mobile and web devices. Further, we can also create a custom size artboard according to our needs. However, these artboard sizes can be altered anytime during work. We can increase or decrease their size if needed. Developer Handoff Figma provides a developer handoff feature that allows a user to embed the specifications within a document. By using this feature, it is not necessary to update the link repeatedly. The development team can inspect the design files, view annotated points, and grab the code snippets for the particular element. Comparatively, Adobe XD provides a separate specification sheet for the user to publish the link for other users. Every time the designs are updated, we have to update the link to make it available for the team. Assets Management Both the tools provide an efficient way to export the assets for the project. In Figma, we can find the export option on the right side of the top menu bar. Comparatively, in Adobe XD we have to manually navigate to the Export option in the File menu, or we can press the Ctrl + E shortcut keys for the same. Repeat Grid Repeat grid is one of the finest features of the Adobe XD for the flawless workflow. It is useful for creating the same component multiple times and aligning them. Repeat grids are awesome to enhance the work speed. We can easily make copies of the elements and automatically arrange them as a grid in the respective directions. We can also adjust the vertical and horizontal spacing between objects. It will save a huge amount of the designer's time in creating the same cards and aligning them in equal spacing. So, we can reuse the components without manually copying and pasting them. Figma does not provide the repeat grid feature. 3D Transformation Adobe XD's 3D transformation is superb. We can land into an extensive and magical plane of the 3D user experience. We can rotate and move the objects in 3D space, also add the depth of the 3D transformation. Comparatively, Figma does not support the 3D transformation of the objects. Voice Prototyping Adobe XD supports voice prototyping. Voice prototyping lets us make the functionality using voice commands. We can set a specific voice command for a particular action. Comparatively, Figma does not support voice commands for prototyping. Responsive Resize Adobe Xd's responsive resize feature is simply awesome. We can design responsive elements for the different sizes of devices. The responsive resize will automatically scale the design according to the device size. Comparatively, Figma does not support responsive resize features for the designs. Let's see a comparative overview of both the tools: 
+            
+            
+              
+              Feature 
+              Adobe XD 
+              Figma 
+              
+              
+              Platform Support 
+              Windows, Mac OS 
+              Windows, Mac OS, Linux, Chrome OS 
+              
+              
+              Toolbar Layout 
+              The toolbar is given left to the workspace with the available tool options. 
+              The toolbar is given at the top with the menu options and assets options. 
+              
+              
+              Pricing 
+              It comes with a free version for learning purposes as well as corporate plans. 
+              It also provides a free version and corporate plans for handling a large number of projects and teams. 
+              
+              
+              Prototyping and animations 
+              It supports prototyping and animations for making the design functional. 
+              It also supports prototyping and animations for making the design functional. 
+              
+              
+              Voice Prototyping 
+              It supports voice prototyping. 
+              It does not support voice prototyping. 
+              
+              
+              Developer Handoff 
+              It supports developer handoff features to provide the assets and code snippets for the elements. 
+              It supports developer handoff features to provide the assets and code snippets for the elements. 
+              
+              
+              Frames & Artboards 
+              It uses artboards for designing the user interface. 
+              It uses frames for designing the user interface for different types of devices. 
+              
+              
+              3D transformation 
+              It supports 3D transformations in different directions with custom depth. 
+              It does not support 3D transformation. 
+              
+              
+              Responsive resize 
+              It supports a responsive resize feature for providing a responsive layout for different size devices. 
+              It does not support the responsive resize feature. 
+              
+              
+              Assets management 
+              It provides an efficient way to import assets in different image formats. 
+              It also supports assets management features for exporting assets in different image formats. 
+              
+              
+              Padding & Stacks 
+              Adobe XD supports padding and stacks feature to align and place the content within a component. 
+              It does not support padding and stacks feature to adjust the spacing within a component. 
+              
+            
+            Conclusion: Both Adobe XD and Figma are excellent tools for designing the user interface for different applications such as mobile and web applications. Adobe XD is a modern vector-based tool provided by Adobe Inc. it is mainly used to create mockups, wireframes, prototypes. In contrast, Figma is also a vector-based graphic editing software used to design and prototype the user interface for different types of devices such as mobile devices, web applications, smartwatches, and smart TVs. We have discussed several features of both the tools, including platform support, pricing, prototyping. Both the tools are superb in terms of functionality. However, Adobe XD supports more features than Figma. But, we cannot ignore the platform support feature of Figma. In terms of pricing, they have almost similar plans. So it is completely up to you which one meets your requirement. You can choose any of the tools for the perspective of your project. Both the tools are industry trends for the UI designing. 
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,884 @@
+
+
+ 
+  
+  How to be anonymous on the Internet - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Computer Fundamentals 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Computer 
+      
+      
+      Computer Fundamentals 
+      What is Computer 
+      History of Computer 
+      Types of Computer 
+      
+      
+      Computer Components 
+      
+      
+      Computer Components 
+      Input Devices 
+      Output Devices 
+      Central Processing Unit 
+      Hardware 
+      Software 
+      Operating System 
+      
+      
+      Computer Memory 
+      
+      
+      Computer Memory 
+      Register Memory 
+      Cache Memory 
+      Primary Memory 
+      RAM 
+      ROM 
+      Secondary Memory 
+      Memory Units 
+      
+      
+      Computer Network 
+      
+      
+      Computer Network 
+      
+      
+      Computer Virus 
+      
+      
+      Computer Virus 
+      
+      
+      Number Systems 
+      
+      
+      Number Systems 
+      
+      
+      Internet 
+      
+      
+      Internet 
+      Intranet 
+      Extranet 
+      Website 
+      
+      
+      Shortcut Keys 
+      
+      
+      Computer Shortcut Keys 
+      
+      
+      Terms 
+      
+      
+      Windows 
+      Computer Ports 
+      Program 
+      Printers 
+      Microphone 
+      Monitor 
+      Motherboard 
+      Incognito Mode 
+      Mouse 
+      Memory Card 
+      What is a CD 
+      What is ID 
+      ISO 
+      What is Character 
+      What is a server 
+      What is E-mail 
+      What is Keyboard 
+      What is Remote 
+      What is Webcam 
+      What is Data 
+      What is URL 
+      What is keypad 
+      What is hub 
+      What is File 
+      Bytes 
+      Exabyte 
+      Gb 
+      Kilobyte 
+      Megabyte 
+      Petabyte 
+      Terabyte 
+      What is HDD 
+      What is SSD 
+      Memory vs Storage 
+      Non-volatile memory 
+      What is M.2 SSD 
+      How To Reboot A Computer 
+      Multi-Level Cell 
+      NAND Flash Memory 
+      What is lock screen 
+      Block Storage 
+      USB flash drive 
+      VRAM 
+      Cloud Hosting 
+      CompactFlash card 
+      What is WAP? 
+      Classification of Memory 
+      Hardware vs Software 
+      Uses of Computer 
+      Uses of Internet 
+      What is Abacus 
+      Best Proxy Servers 
+      SSL vs TLS 
+      Web Console 
+      What is the GPU 
+      LAN vs WAN 
+      SSD vs HDD 
+      Introduction to Computer 
+      Data Migration 
+      JEDEC 
+      MLC vs TLC vs SLC NAND Flash 
+      VirtualBox Installation 
+      Num Lock 
+      What is a PC 
+      What is MAC 
+      Continuous Data Protection 
+      Persistent Storage 
+      What is Bit 
+      Software Definition 
+      What is a File System 
+      When was the first computer invented 
+      How many generations of the computer 
+      Minicomputer 
+      Fourth Generation of Computer 
+      What is a Username 
+      What is ALU 
+      
+      
+      Questions 
+      
+      
+      How to backup iPhone to Computer 
+      How To Flip Computer Screen 
+      What is Computer Science 
+      How To Speed Up Computer 
+      Why is my Computer so slow 
+      How much do computer engineers make 
+      How to Clean Computer Screen 
+      What is Computer Engineering 
+      What is Quantum Computing 
+      How does a computer work 
+      How to Check Computer Specs 
+      How to find computer IP address 
+      How to find computer name 
+      How to wipe a Computer 
+      Advantages of the Internet 
+      Disadvantages of the Internet 
+      Advantages of Computer 
+      What are the disadvantages of a computer 
+      How to factory reset a computer 
+      How to Build a Computer 
+      How to Post on Instagram from Computer 
+      How much do Computer Programmers make 
+      How to Fax from Computer 
+      How much does a computer cost 
+      How To Change Computer Name 
+      How to Connect Computer to TV 
+      How To Connect Printer To Computer 
+      What is Computer Programming 
+      How To Download Music From YouTube To Computer 
+      What is Edge Computing 
+      How To Download YouTube Videos To Computer 
+      How To Authorize A Computer on iTunes 
+      How To Connect Airpods To Computer 
+      How To Defrag a Computer 
+      Is Computer Science Hard 
+      What Does RAM Do In A Computer 
+      Who invented the computer 
+      How To Change Computer Password 
+      How To Hack A Computer 
+      How To Download Music To Computer 
+      What Does Compute Mean 
+      How Does A Quantum Computer Works 
+      How to clean Computer 
+      How to Edit Your File on Windows, Linux and MacOS 
+      How to Set up SSH SOCKS Tunnel for Private Browsing in Windows 
+      Small Computer System Interface 
+      What is Cyber Law 
+      How To Backup Computer 
+      How To Scan A Document To Computer 
+      How to Transfer Photos from Android to Computer 
+      What can you do with Computer Science Degree 
+      What is a Desktop 
+      Second Generation of Computer 
+      Third Generation of Computer 
+      Fourth Generation of Computer 
+      Fifth Generation of Computer 
+      input vs output device 
+      What is USB 
+      What is Recycle Bin 
+      What is Hybrid Topology 
+      Cache Memory vs Virtual Memory 
+      What is a storage device 
+      What is a Crimping Tool 
+      What is HDMI 
+      What is a Video Card 
+      GPU vs CPU 
+      What is a Sound Card 
+      Blu-ray vs. DVD 
+      What is a Floppy Disk 
+      What is a DIP Switch 
+      What is a Template 
+      History of Computer Networking 
+      What is a Firmware 
+      What is a Hard Copy 
+      What are the Computer Cables 
+      What is a Text File 
+      What is a Sound Card 
+      What is a Projector 
+      What is a Light Pen 
+      What is LCD 
+      What is Data Manipulation 
+      What is Webmail 
+      What is a Vacuum Tube 
+      What is a VDU 
+      What is Parallel Computing 
+      What is a transistor 
+      What is a Joystick 
+      What is a Speaker 
+      What is a Dynamic Website 
+      What is BIOS 
+      What is a Linker 
+      What is a Hyphen 
+      What is MP3 
+      What is File Explorer 
+      What is Video 
+      What is a Temporary File 
+      What is X86 
+      What is Ethernet 
+      What is the Digital Assistant 
+      What is a Language Processor 
+      What is a Network Drive 
+      What is an Optical Disc 
+      What is a Logic Bomb 
+      What is a MacBook 
+      What is a Print Spooler 
+      What Are Plugins 
+      What is a Telephone 
+      What is Flash 
+      What is a Hotspot 
+      Why does my computer turn off without warning 
+      Why is my Wi-Fi not working 
+      What is a Home Page 
+      What is Word Wrap 
+      Why does my laptop not turn on 
+      How to install an antivirus program on a computer 
+      What is a Low-Level Language 
+      Why don't any keys on my keyboard work 
+      How to Fix it When Your Mouse Scroll is Not Working 
+      What is Myspace 
+      What is Safe Mode 
+      How many keys are on a computer keyboard 
+      What is Reboot 
+      Why does Windows restart without warning 
+      How to increase your download speed 
+      Why is my Internet connection so slow 
+      Why is my online game so slow 
+      How to Test the Speed of Your Internet Connection 
+      Should I upgrade or buy a new computer 
+      What makes a computer fast and powerful 
+      Protect children from harmful material and people on the Internet 
+      What is a Multicore Processor 
+      Why does my download stop before it is finished 
+      How to protect yourself while on the Internet 
+      Is Facebook safe 
+      Is online banking safe 
+      How do I know if my computer was hacked 
+      How to prevent unauthorized computer access 
+      What should I do if I've been hacked 
+      How to be anonymous on the Internet 
+      What things to do when bored on the Internet 
+      How do I set up a home network 
+      How to connect a printer to your home network 
+      How to open or forward a port on a router 
+      Is it possible to crash or shut down the entire Internet 
+      What is a plotter 
+      
+      
+      MCQ 
+      
+      
+      Computer Fundamental MCQ 
+      Computer Fundamental MCQ 2 
+      
+      
+      Interview Questions 
+      
+      
+      HR Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How to be anonymous on the Internet This page is for people who are worried about others watching their internet activity or who want to remain anonymous while doing so. Remember that there are varying levels of anonymity and that even taking these precautions does not ensure 100% anonymity. Also, the process of becoming anonymous on the internet needs various modifications like you may need to replace your email provider, messaging apps, browser, operating system, and search engine.  Additionally, this page is not for you if you are trying to hide yourself or your identity while on the internet in order to do some illegal activities. A list of different strategies is given below in order to secure your identity when using the Internet. Privacy basics Following a few simple principles can help you maintain your online privacy for the most part. 
+            
+            Unless it is absolutely essential, do not reveal any personal information on the internet. In other circumstances, only fill in incomplete information, such as your last initial, when it is requested, such as your last name. 
+            Avoid being a victim of e-mail and web-based phishing schemes. Learn how to spot phishing scams and never submit sensitive information through email. 
+            Learn about malware and make sure you have at least one anti-spyware tool installed on your device to protect it if you are using Microsoft Windows. 
+            Public anonymous proxy When you use the Internet, your IP address, which is assigned to your computer or network, can trace your location and assist in identifying your visit. You can access the web with the help of using a web-based proxy to help keep your machine anonymous. You can use a web-based proxy to load a page on a separate computer and then view the results in your browser on your own computer. The following is a list of some of the anonymous web-based proxies that are currently accessible. https://proxify.com/ https://www.freeproxy.ca/ If you believe your connection has been hacked or sniffed, do not use it (for example, connecting to the Internet at a Wi-Fi hotspot). With the help of using an HTTPS proxy can help encrypt non-encrypted data transferred from the proxy to your computer, which can help prevent eavesdropping. You can also utilize an HTTPS connection if you are utilizing a proxy web service like Proxify. There are various good proxy add-ons available if you regularly need a proxy and use Mozilla Firefox as your browser. It is possible that the proxy server you use to access the Internet keeps records of who visits. A legal authority may be able to get identifying information in order to locate you. A person in control of the proxy could capture your information as well as use it if you submit sensitive information into a proxy, such as credit card numbers, usernames, or passwords. Use secure email services We utilize Gmail as our personal email provider since we are so immersed in the Google ecosystem. While we appreciate how simple it is to use, we do not like that Google saves all of our personal emails on its servers. There are, however, secure solutions, such as ProtonMail, which is owned by the same company that created ProtonVPN. ProtonMail cannot be ordered to pass over customer data to the government since it is based in Switzerland, which is not a part of the Five Eyes surveillance coalition. Rather, all email is encrypted from beginning to end using open source code, and the service is available for free on Android, iOS, and the web. Don't use voice assistants In your smart home, voice assistants make home automation simple. They are, however, well-known for invading people's privacy. For instance, the Google Assistant-compatible Nest Secure security system4 contains a hidden, unreported microphone, and employees at Amazon have acknowledged listening in on Alexa recordings3. Instead of utilizing voice assistants, use your app to manually control your IoT devices, such as smart lights, smart garage, smart locks, and others. Check for HTTPS If at all feasible, only visit websites that begin with "HTTPS" (Hypertext transfer protocol secure) instead of HTTP. HTTPS encrypts all communication between your browser and the websites you visit as it uses a secure socket layer (SSL), whereas HTTP does not. Boot from Anonym.OS LiveCD Anonym.OS is a LiveCD that allows a user to access the web anonymously as it boots off a CD and runs on a variant of OpenBSD. You can visit Anonym.OS website for download via the below link. https://sourceforge.net/projects/anonym-os/ Tor Tor, which stands for The Onion Router, is a technology that allows users to remain anonymous online. Tor was created with the intention of securing government communications for the US Navy. Tor protects your anonymity with the help of transporting data across the Internet through a network of virtual tunnels.  The software (typically a web browser) routes traffic through a router to a network of servers, letting the user remain anonymous while online. Tor is a free network that uses layered encryption in order to prevent the original data from being decrypted during transit. You can download Tor by using the below link. https://www.torproject.org/download/ Whonix Whonix is an operating system that values privacy, security, and anonymity. It is split into two portions, one of which runs Tor and acts as a gateway, and the other of which is on an entirely other networks. Alternate computer or connection Alternate computers or connections can also help to remain anonymous while on the internet. For example, if you connect to the internet with the help of using the network of another person like a café, library, school, or business, it can help you stay anonymous. You're logging in as their IP address, not yours when you use someone else's connection. Keep in mind, however, that if you used a login to gain access to the computer or network, that login might be linked to you. Use a VPN VPNs encrypt all online traffic from browsers and other web programmes, unlike Tor, which encrypts just web traffic from browsers. Your internet service provider (ISP) will be unable to observe any of your online activities because VPNs hide your browser history as well as your IP address. Use an encrypted messaging app Instead of sending a text message to a buddy on your Android, use an encrypted messaging app like Signal. Signal's open-source technology encrypts all messages from beginning to end. There is no advertising or tracking, and the company does not have access to your messages or phone conversations. Use ad-blockers Adware is the program that displays advertisements on your device, such as a tablet, phone, or computer system, and most websites and apps contain advertising even if you do not have adware. These ads can be irritating. In addition to removing adware, an ad blocker like AdBlock or Adblock Plus can be used. Private mode or Incognito mode In most current browsers, private mode, often known as incognito mode, is accessible. Incognito mode, often known as private browsing, InPrivate Browsing, or a private window, is a browser feature that prevents the storing of browsing history. When you view a web page, the text, pictures, and cookies it requires are often saved locally on your computer. While this mode does safeguard what you do locally and does not protect you from others with access to the server or search records. Any completed searches or forms may also be saved in autocomplete areas. When you close the browser window in Incognito mode, the data is either forgotten or not stored at all. Disable cookies Cookies are small pieces of information about your online behaviour that are used to produce targeted advertisements; they are anonymized and aggregated in some cases, but not always. Stay off social media More than three-quarters of parents use social media and share tales, photographs, or videos of their children on social media, according to research on social media and parenting. Worse still, more than 80% of these parent's post using their children's real names. This is not a good habit to share their children information on social media; this exposes their children to child identity theft; also, social media companies keep this data for a long period of time. Block and manage trackers There is a number of websites that keep track of and gather information about their visitors' surfing activities. Because these trackers are undetectable, most individuals are unaware that they are being followed. Ghostery is a free browser plugin that will show these trackers, often known as web bugs., and is available for all major web browsers. Then, you may choose which you want to prevent and which web bugs you want to track. In total, Ghostery monitors approximately 1,900 businesses. In the Ghostery Knowledge Library, each business has a profile that can assist you to figure out who is monitoring you and why, as well as what action you should take. Encrypted email Hotmail, Outlook, Gmail, and Yahoo Mail are popular and widely used email services, but these are not very privacy-friendly. Consider switching to more secure service for full Pretty Good Privacy (PGP) encrypted emails. Hushmail is a popular email service that offers users a private account with unlimited email aliases, no advertisements, built-in encryption. There is a basic free service provided, with additional capabilities available for a monthly cost. Hushmail, on the other hand, has already been compelled by a court to pass over user data to US authorities. Users' IP addresses are also recorded by the company. Although MyKolab is a comparable site that has never disclosed any user information, they are required to offer access to genuine interception requests; thus, this is still a possibility. Proxy server A proxy server is a computer that serves as a conduit between a computer and the internet, allowing your online activity to be processed. As a consequence, because the proxy replaces your IP address with its own, it can be a great method to keep your online identity safe. If the proxy is in a different nation than your own, you can fool websites and trackers into thinking you're surfing from another continent. Proxies can be used in a variety of ways, with both free and commercial services available. Ditch dropbox Dropbox, a cloud storage provider, has been dubbed "hostile to privacy" by Edward Snowden. That's a really devastating statement. There are a few viable options that provide more privacy if you are worried about sharing your data with the help of this method. Snowden recommends Spideroak, which touts itself as a zero-knowledge encrypted data backup, sharing, sync, access, and storage service. This is accessible in a restricted version as part of their free trial, which you can find on their website. A full-featured membership costs $12 per month. Give OnionShare a try if you simply want to swiftly exchange little or large files anonymously for free. It gets the job done; however, it has no feature-rich as Spideroak. Avoid javascript JavaScript can give every website that employs it detailed information about your system, which is a programming language and widely used on the internet. It is frequently used to provide more personalized and relevant advertising to you or to enhance your surfing experience, and it is nearly always utilised in an entirely benign manner. Some of this system or personal information, however, can and has been leaked before. Because many websites need you to allow JavaScript in order for them to function correctly, completely disabling JavaScript is not an option. You may blacklist or whitelist JavaScript activity using a browser extension, giving you more control over how and where your data is used. Both NoScript and ScriptSafe are simple to use and more popular for alternatives. Destroy all technology and live in a cave Finally, the only effective approach to maintain online anonymity is to avoid going online at all. Delete all of your accounts, and shut down and break your computer if you have already used the internet. Hopefully, you may leave a digital footprint; however, it may not be particularly significant. You should also shatter your phone, iPad, and smart TV if you are going to go this far. You could choose to live in a cave, in self-imposed exile, now that you've eliminated all connected technology from your life and aren't tempted to return to the online world. Other software products For consumers who discover that the solutions above do not fulfil their needs, are a variety of non-free software choices. A couple of these services are listed below. https://ntrepidcorp.com/home.html https://www.ipvanish.com/ https://www.hide-my-ip.com/ https://www.purevpn.com/ 
+            
+            
+            Next Topic
+            What things to do when bored on the Internet 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

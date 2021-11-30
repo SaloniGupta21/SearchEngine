@@ -1,0 +1,1127 @@
+
+
+ 
+  
+  Ubuntu Budgie - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Linux 
+       C 
+       Java 
+       Python 
+       Shell Scripting 
+       SQL 
+       HTML 
+       CSS 
+       JavaScript 
+       XML 
+       Ajax 
+       Android 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Linux Tutorial 
+      
+      
+      Linux Tutorial 
+      What is Linux 
+      Advantages of Linux 
+      Linux History 
+      Linux Features 
+      Linux Bash 
+      Unix vs Linux 
+      Linux vs Windows 
+      Linux Distributions 
+      Linux Licensing 
+      Set Environment Variable 
+      Linux Set Command 
+      Linux export Command 
+      
+      
+      Linux Directories 
+      
+      
+      Linux Directories 
+      Linux Home Directory 
+      Linux pwd 
+      Linux cd 
+      Linux Absolute Relative 
+      Linux Path Completion 
+      Linux ls 
+      Linux mkdir 
+      Linux rmdir 
+      Rename Folder in Linux 
+      
+      
+      Linux Commands 
+      
+      
+      Linux commands List 
+      Commands with Example 
+      
+      
+      Linux Users 
+      
+      
+      Linux Users 
+      Linux Create User 
+      Local su Commands 
+      Linux User Management 
+      User Password 
+      Local Groups 
+      Add User to Group 
+      Linux id Command 
+      
+      
+      Linux Files 
+      
+      
+      Linux Files 
+      Linux File System 
+      Linux Create File 
+      Linux file 
+      Linux touch 
+      Linux rm 
+      Linux cp 
+      Linux mv 
+      Linux rename 
+      Linux install Command 
+      Linux read Command 
+      
+      
+      Linux File Contents 
+      
+      
+      Linux File Contents 
+      Open File in Linux 
+      Linux Edit File 
+      Linux which command 
+      Linux head 
+      Linux tail 
+      Linux cat 
+      Linux tac 
+      Linux more 
+      Linux less 
+      Linux strings command 
+      Linux Print 
+      
+      
+      Linux Process 
+      
+      
+      Kill Process Linux 
+      Linux terminating 
+      1) Linux kill 
+      2) Linux killall 
+      3) Linux pkill 
+      4) Linux xkill 
+      Nohup Command 
+      Linux at command 
+      Linux exit command 
+      
+      
+      Linux File Hierarchy 
+      
+      
+      Linux File Hierarchy 
+      Binary Directories 
+      Configuration Directories 
+      Data Directories 
+      Memory Directories 
+      Usr Directory 
+      var Directory 
+      Non-standard directories 
+      
+      
+      Linux Filters 
+      
+      
+      Linux Filters 
+      Linux cat 
+      Linux cut 
+      Linux grep 
+      Linux comm 
+      Linux sed 
+      Linux tee 
+      Linux tr 
+      Linux uniq 
+      Linux wc 
+      Linux od 
+      Linux sort 
+      Linux gzip 
+      
+      
+      AWK Command 
+      
+      
+      Linux AWK Command 
+      
+      
+      Programming with Linux 
+      
+      
+      Linux make command 
+      GCC Linux 
+      
+      
+      Linux I/O Redirection 
+      
+      
+      Linux I/O Redirection 
+      Linux Input Redirection 
+      Linux Output Redirection 
+      Linux Error Redirection 
+      
+      
+      Linux Unix Tools 
+      
+      
+      Linux Unix Tools 
+      Linux Find 
+      Linux Locate 
+      Linux Date 
+      Linux Cal 
+      Linux Sleep 
+      Linux Time 
+      Linux zcat/zmore 
+      Linux bzip2 / bunzip2 
+      Linux bzcat / bzmore 
+      Linux df 
+      
+      
+      Linux Regex 
+      
+      
+      Linux expr command 
+      Linux RegEx 
+      Linux Grep RegEx 
+      Linux rename RegEx 
+      Linux Sed RegEx 
+      
+      
+      File Security 
+      
+      
+      Linux File OwnerShip 
+      Linux chgrp Command 
+      Linux File Permission 
+      Linux chmod Command 
+      Linux chown command 
+      Linux Advance Permission 
+      Linux File Links 
+      1) Linux Inodes 
+      2) Linux Link Directories 
+      3) Linux Hard links 
+      4) Linux Soft links 
+      5) Linux Remove link 
+      
+      
+      Shell Commands 
+      
+      
+      Linux Shell Commands 
+      Linux Aliases 
+      Linux Arguments 
+      Linux Displaying Shell 
+      Linux Control Operators 
+      1) Semicolon 
+      2) Ampersand 
+      3) Dollar Question Mark 
+      4) Double Ampersand 
+      5) Double Vertical Bar 
+      6) Combining && and || 
+      7) Pound Sign 
+      8) ESC 
+      Linux File Globbing 
+      Linux Shell Embedding 
+      Linux Shell History 
+      Linux history Command 
+      Linux History Commands 
+      Linux Histroy Size 
+      Linux Bang Bang 
+      
+      
+      Linux Networking 
+      
+      
+      Linux Networking 
+      1) Linux ifconfig 
+      2) Linux ip 
+      Linux telnet Command 
+      SSH Linux 
+      Linux mail Command 
+      3) Linux traceroute 
+      4) Linux tracepath 
+      5) Linux ping 
+      6) Linux netstat 
+      7) Linux ss 
+      8) Linux dig 
+      9) Linux nslookup 
+      10) Linux route 
+      11) Linux host 
+      12) Linux arp 
+      13) Linux iwconfig 
+      14) Linux hostname 
+      15) Linux curl & wget 
+      Linux Curl Command 
+      16) Linux mtr 
+      17) Linux whois 
+      18) Linux ifplugstatus 
+      
+      
+      Linux Misc 
+      
+      
+      chkconfig command in Linux 
+      How to change user password in Linux 
+      Awk Command Usage 
+      How to unzip files in Linux 
+      Linux chroot Command 
+      Linux Watch Command 
+      Ubuntu Vs. Kali Linux 
+      Clear cache Linux 
+      7 QC Tools 
+      Linux Process Memory Usage 
+      Linux Tree Command 
+      Wine Linux 
+      Linux Commands to Check Disk Space 
+      Manjaro Vs. Ubuntu 
+      Architecture of Linux 
+      Linux Lite 
+      Linux Shell 
+      Linux Meaning 
+      Linux Foundation 
+      Linux List Directories 
+      Linux Shortcuts 
+      Best Linux Distro 
+      Who command in Linux 
+      Linux Server 
+      Debian vs Ubuntu 
+      Types of Files in Unix 
+      Linux Daemon 
+      Linux Zip Command 
+      CPU Utilization in Linux 
+      Linux Terminal 
+      Linux sudo 
+      Basic Linux Commands 
+      How to Check RAM in Linux 
+      Linux List Users 
+      Kill command 
+      Tar command 
+      Linux Find File 
+      Echo command 
+      Linux Change or set Password 
+      SSH Command 
+      What is sshd in Linux 
+      Linux Screen Command 
+      Linux Check Disk Space 
+      Run command in Linux 
+      Linux Memory Management 
+      Linux Reboot Command 
+      How to Inspect the Memory in Linux 
+      Ubuntu GNOME 
+      How to check open ports in Linux 
+      Linux vs Ubuntu 
+      Ping command in Linux 
+      Linux Source Command 
+      Linux Terminal Shortcuts 
+      Find IP Address in Linux 
+      Linux date Command 
+      Linux hosts (file) 
+      UNIX operating system 
+      Linux dpkg command 
+      Latest Kernel Linux Version 
+      Linux Package Manager 
+      Linux proc 
+      Linux Task Manager 
+      Linux Signals 
+      Parrot OS vs. Kali Linux 
+      Ubuntu Features 
+      Linux ISO 
+      Putty Command in Linux 
+      Check OS Version in Linux 
+      Linux Change Timezone 
+      Linux Load Average 
+      Linux Firewall 
+      RPM Command in Linux 
+      Cron Command 
+      Linux Change Hostname 
+      Ubuntu Disable Firewall 
+      Latest Release of Ubuntu 
+      Ubuntu Logo 
+      Ubuntu MATE 
+      Ubuntu Nvidia Drivers 
+      Zoom Ubuntu 
+      Install tar.gz Ubuntu 
+      Ubuntu Screen Recorder 
+      Ubuntu Server 
+      Ubuntu Wallpaper 
+      xVideoServiceThief Ubuntu Linux Free 
+      Restart Apache Ubuntu 
+      Ubuntu 20.04 LTS 
+      Ubuntu Bootable USB 
+      Ubuntu Desktop 
+      Ubuntu Font 
+      X videoservicethief Ubuntu 18 command 
+      Ubuntu Games 
+      Ubuntu Update Command 
+      Ubuntu LTS 
+      vscode for Ubuntu 
+      Android Studio Ubuntu 
+      AnyDesk Ubuntu 
+      Ask Ubuntu 
+      Boot Repair Ubuntu 
+      Install AWS CLI Ubuntu 
+      Install NVM Ubuntu 
+      Install JDK Ubuntu 
+      Install RVM Ubuntu 
+      Install Skype Ubuntu 
+      Ubuntu Budgie 
+      
+      
+      Linux Editors 
+      
+      
+      Linux Text Editors 
+      
+      
+      Linux vi Editor 
+      
+      
+      Vi Editor 
+      1) switch 
+      2) move 
+      3) jump 
+      4) delete 
+      5) undo and repeat 
+      6) cut, copy, paste 
+      7) cut, copy, paste blocks 
+      8) Start and end 
+      9) Joining 
+      10) word 
+      11) Search 
+      12) Replace all 
+      13) Text Buffers 
+      14) Abbreviations 
+      
+      
+      Linux System Admin 
+      
+      
+      Linux Admin Commands 
+      Linux uptime 
+      Linux service 
+       Linux pmap 
+       Linux wget command 
+      Linux ftp or sftp 
+      Linux free Command 
+      Linux top 
+      Linux last 
+      Linux ps 
+      Linux shutdown 
+      Linux info 
+      Linux env 
+      Linux du 
+      Linux init 
+      Linux Nano Editor 
+       Linux shred 
+      Linux mount 
+      Linux route 
+      
+      
+      Linux Man Pages 
+      
+      
+      Linux man 
+      Linux man -a 
+      Linux man -aw 
+      Linux man -f 
+      Linux man -k(apropos) 
+      Linux man whereis 
+      Whatis command in Linux 
+      
+      
+      Error Codes 
+      
+      
+      Linux Error Codes 
+      
+      
+      Linux Interview 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Ubuntu Budgie Ubuntu Budgie can be described as an official community version of Ubuntu and provides the Budgie Desktop. It incorporates the thoroughly-tested and stable Ubuntu Core along with a traditional-looking, lightweight, and modern desktop integrated by the Solus project. The current version of Ubuntu budgie is 21.10 which was released in 2021 on 14 October. History of Ubuntu budgie Ubuntu budgie version began as a flavor of an unofficial community in parallel with the 16.04 LTS release of Ubuntu which is known as budgie-remix. The 16.10 version of budgie-remix was later published by strictly pursuing the time frame which was an issue for the 16.10 version of Ubuntu. Eventually, it was identified as a flavor of an official community of Ubuntu and it was renamed Ubuntu Budgie. The 17.04 version of Ubuntu Budgie was published in 2017 April and it was updated to the 17.10 version in 2017 October. In the 18.10 version of Ubuntu Budgie, the support for 32-bit has been dropped. The support for 32-bit has been dropped in the Ubuntu MATE flavor as well. Vincenzo Bovino was worked as the PR and new brand manager. Releases of Ubuntu budgie  Budgie remix 16.04 The 16.04 version of budgie-remix was published in 2016 on 25 April, 4 days after the publication of the 16.04 version of Ubuntu. The system includes the 10.2.5 version of Budgie Desktop. It has a window manager which is based on Mutter, notification center settings, a customizable panel. The theme, i.e., Arc-GTK+ is used in this release. Budgie-remix has the 3.18 version of Nautilus, as at the time Ubuntu OS had the 3.14 version of Nautilus as compared to the 16.04 version of Ubuntu. It also includes the 0.11.1 version of dock panel Plank, the 3.18 version of gedit, the 3.18 version of GNOME photos, the 3.4.3 version of gThumb, the 3.3 version of Rhythmbox, the 3.18 version of Totem, the 3.18 version of GNOME Terminal, the 5.1.2 version of LibreOffice, the 45.0 version of Mozilla Firefox, the 2.84 version of Transmission, the 3.18.9 version of GTK+, the 11.2.0 version of Mesa, the 1.18.3 version of XOrg, and the 4.4.0 version of Linux kernel. Budgie remix 16.10 The 16.10 version of budget-remix was published in 2016 on 16 October, three days after the publication of the 16.10 version of Ubuntu. The system includes the 10.2.7 version of a shell Budgie Desktop, the 3.22 version of GTK+, and the 4.8 version of Linux kernel. There are various new aspects that are implemented in this release such as support for more than one language at the time of the installation, home folder encryption, and full disk encryption. Also, it includes the Arc GTK+ design theme and a fresh Pocillo theme icon. David Mohammed (one of the budgie-remix developers) says: "This is our first release that follows the release cycle of Ubuntu - we worked to closely link our alpha and two beta versions in the same way as Ubuntu and other official communities. Based on the impressions of 16.04.1, the feedback and suggestions we received from our users, the new release comes with many new features, fixes, and optimization." Ubuntu budgie 17.04 The 17.04 version of Ubuntu budgie was published in 2017 on 19 April. Budgie-remix was rebranded to this term after the sharing became official for the community of Ubuntu. The system includes the 10.2.9 version of Budgie Desktop shell, the 4.10 version of the Linux kernel, the 17.0.3 version of Mesa, and the 1.19.3 version of Xorg. The application, i.e., Budgie-Welcome was updated and support for the indicator of the application appeared, all sound applets were handled, the 3.24 GNOME applications were activated, GNOME Terminal was substituted with Termix, and Google Chrome was replaced with Chromium, and support of GTK+ theme for Qt was activated. It applies the Arc GTK+ design theme and the theme Moka icons. In the record of the publication of this version, it was specified below: "A significant part of this development cycle was spent on integration with the Canonical assembly system. The key visible integration elements were the Plymouth settings, which used Ubiquity installer, processing packages to remove the identities of "budgie-remix" and replaced with the renewed identity of "Ubuntu Budgie"." Ubuntu Budgie 17.10 The 17.10 version of Ubuntu Budgie was published in 2017 on 19 October. The system includes the 10.4 version of Budgie Desktop shell and the 4.3 version of the Linux kernel. The Desktop Environment 10.4 of Budgie is equipped with a group of native aspects that contain a new patterned Alt+Tab, which support to switch the control of the window to the left side or the right side, support for Spotify within Raven, support for encrypted volumes, and SMB files from the applets addition, and supports customizing the occurrence of times and dates. In addition, there is also support for the panels of the right side or left side in the 10.4 version of Budgie Desktop, support to convert panels in a dock, dynamic and transparency auto-image for every panel, and the capability for replenishing the bottom panel to implement without a "jump" effect. Other improvements in the publication of the 17.10 version of Ubuntu Budgie contain Caffeine and Night Light tools, Tilix as the terminal emulator (default) rather than Termix, and support for the mode of Tilix Quake along with the F12 key as well. Also, it has new wallpapers and updated icons of the panel. Canonical withdrew the 17.10 distribution of Ubuntu in October and hide the link over the site to download in 2017 on 20 December. The reason was a typical bug with the damage of BIOS on a few models of the Lenovo notebook and one model of Acer. The 17.10.1 version was published on 12 January 2018, which included the correction of a genuine issue in the 17.10 version. Ubuntu Budgie 18.04 The 18.04 version of Ubuntu Budgie was published on 26 April 2018. The system contains the 4.15 version of the Linux kernel. It became possible for installing OpenVNC from the network manager. Several new applets have occurred like DropBy to download and view data through USB devices, Quick Note for all notes, Hot Corners to move windows to the screen's corner, Window Mover for quickly moving the window to other virtual desktops, Auto-Switch to type the layout of the keyboard to an application, Clockworks to view a few time zones, Windowpreviews to view open windows, etc. Every GNOME application has been updated to the 3.28 version, but Nautilus has the 3.26 version. The latest release of Ubuntu Budgie The 21.10 version of Ubuntu Budgie is a general version that would be supported for nine months until 2022 July. Long-term Releases like 20.04.3 facilitate stability on a longer-term (three years) as compared to the standard nine months release. Stability and critical fixes will be published for every supported component of Ubuntu Budgie. These would be initiated by ourselves, the wider Ubuntu community, and Canonical. Some areas that are covered in this release note are as follows: 
+            
+            Enhancements and new features 
+            Upgrading from the 20.04.3 or 21.04 version of Ubuntu Budgie 
+            Where to install Ubuntu Budgie 
+            Known problems when upgrading 
+            Mini apps and applets Summary of modifications: 
+            
+            Several updated translations from many brilliant translators 
+            Fix to spam the Syslog if previews were enabled but the end-users were logged into the session of a Wayland desktop 
+            Fix for the layouts of the Window Shuffler runnable installation path for working on stateless distributions 
+            The Window Shuffler Control option has been completely redesigned and revamped. 
+            Now, Window Shuffler contains an applet for re-arranging and automatically moving Windows, either one window or a set of windows. 
+            Now, Shuffler also contains Window Rules. 
+            The rules of the Shuffler Window permit us to open the application windows on particular workspaces. 
+            The Calculator of Applications Menu now displays a visual hint to copy the output to the layout. 
+            Transition through the modes of Grid to List of the Applications Menu is now disappear instead of a slide animation. 
+            A few themes oddly space the list of the category. Now, we have the user-configurable override inside the settings of the applet permitting us to manage the spacing. 
+            We no more install the schema of the elementary gsettings. It ensures that we do not clash with the pantheon install. Now, the entry of the elementary schema is detected in a schema of the budgie applications. 
+            Changes in the Budgie Calendar Applet: Manage correctly the appearance of AM/PM if using custom formats of the date. It also backported to the 20.04 or 20.10 version. 
+            Changes in the Budgie Calendar Applet: choose the current date if opening the popover. It also backported to the 20.04 or 20.10 version. 
+            Changes in the Budgie Calendar Applet: How & hide latest week option. It also backported to the 20.04 and 20.10 versions. 
+            Budgie-indicator-applet 0.7.0 version has been published. It has a fix for app indicators that are used for displaying huge/big icons. 
+            A new applet is known as CPU temp that shows the temperature of several sensors. This sensor has also been backported to the 20.04, 20.10, and 21.04 versions. 
+             Akira budgie-pixel-saver-applet now has got several enhancements which are listed as follows: 
+              
+              Considerable theming of title 
+              Drag and drop for unmaximizing 
+              Updates for ensuring work using arc theme 
+              Permit title's right alignment 
+              Increase the width of the configurable title to 200px 
+              The "pixelsaver" new style class for aiding theme maintainers 
+              Revamped the support of theming for window controls 
+               
+            Now, these changes are available in the 20.04 or 21.04 and 21.10 versions. 
+            
+            Now, we show a hint if we open the popover and scrolling on the icon of the panel modifies the workspace. 
+            Now, Brightness Controller has been re-implemented for using dbus control of GNOME. Hence, it should be distribution friendly and it will reflect a similar Power slider within GNOME settings. 
+            Desktop of Budgie The 10.5.3 version of Budgie is a minor publication that defines all fixes for many bugs, several quality-of-life developments, and also support for GNOME 40 stack.  Fixes and Cleanup of Bug The 10.5.3 version of Budgie defines many solutions for Budgie panel applets, several Window state tracking, and Raven. 
+            
+             Drop Queue use and cancelable in the NotificationView of Raven. 
+              
+              Rather than using any Queue (which is anyways not thread-safe), only update the reference to the NotificationWindow since we are just concerned about the Queue head to start with. 
+              Discarded Cancellable Usage for the scaling of async pixbuf. There has not been any scenario yet in which we haven't been able for scaling the icon in the time amount before a NotificationWindow is deleted. 
+               
+            Fix the icons of the application not scaling in the Notification Group Header of Raven. 
+            Fix problems with the icon of VirtualBox not being shown in the applet, i.e., IconTaskList. 
+            Fix regression in the icon, i.e., Budgie Desktop Settings managing. 
+            Now, CanGoNext/CanGoPrevious, playback status, and MPRIS metadata are performed immediately instead of being an unnecessary operation. 
+            Now, notifications apply a high priority timeout. 
+            Now, notification iconography applies a steady IconSize.DIALOG rather than IconSize.INVALID and just scales when the icon given is not already the wanted height. 
+             Sound indicator Raven and applet 
+              
+              Use standard unmute and mute methods, fixing problems such as muting using media keys and trying to unmute by the applet which will not work previously. 
+               
+            Budgie Desktop Settings prevention from being pinned by drag and drop, fixing a problem in which Budgie Desktop Settings was pinnable inadvertently and incapable to be unpinned. 
+             System Tray applet 
+              
+              Several improvements in stability like more proactive trapping of X11 error. 
+              Solve problems with Keepass leading to panel segfaults. 
+               
+            Raspberry Pi Modifications for the 21.10 version: 
+            
+            Support for Compute Module 4 board. 
+            Add the command line option, i.e., --force-arm-mode. 
+            Add the command line option, i.e., --force-findpi-mode. 
+            Add the command line option, i.e., --force-model modelname. 
+            Add the command line option, i.e., --model modelname -cpuinfo "CPU String to Match". 
+            Enhanced the discoverability of several options by using applying a mouse hover and showing a hint inside a 'status area'. 
+            Disable buttons and facilitate hint on the tab, i.e., Overclock when no '/boot/firmware/config.txt'. 
+            Disable buttons and give hint on the tab, i.e., Display when pibootctl is not detected. 
+            Themes 
+            
+            Snap has been generated for Pocillo and QogirBudgie GTK themes. It means now we can theme snap that is themable. 
+            WhiteSur GTK+4 compatible release present in Makeovers and backported to the 20.04, 20.10, and 21.04 versions. It is available for installing on the 21.10 version. 
+            QogirBudgie GTK+4 compatible release present in Makeovers. 
+            Vimix Theme GTK+4 compatible release present in Makeovers and backported to the 21.04 version. It is available for installing on the 21.10 version. 
+            Mojave Theme GTK+4 compatible release present in Makeovers and backported to the 21.04 version. It is available for installing on the 21.10 version. 
+            Pocillo Theme GTK+4 compatible release present. 
+            Updated icon theme, i.e., WhiteSur with several new icons. 
+            Updated the icon theme, i.e., default Pocillo with several new icons. 
+            Support for GNOME 40 The 10.5.3 version of Budgie Desktop define support for GNOME 40 stack. It specified several changes in gnome-shell, gsettings-desktop-schemas, and Mutter which impacted the capability for using Budgie Desktop upon GNOME 40 stack or in affiliation with GDM (the login manager of GNOME which advantages gnome-shell). In GNOME Settings Daemon and GNOME Shell 40, there were modifications defined which impacted the ability of Budgie for using dedicated screensavers like gnome-screensaver. Quality-of-life Upgrades There are a few quality of life upgrades shipping in the 10.5.3 version of Budgie: 
+            
+            WM and Mutter preference schema settings are only used for the Budgie session. 
+            The tracking of the application fullscreen status rewritten for using the window XIDs and decreasing instances in which a few unset flags will not output inside the application being deleted as the fullscreen application. 
+            Now, spacing is configurable within the status applet. 
+            Now, there is an option in Budgie and disclosed by the "Windows" section of Budgie Desktop Settings for automatically pausing notifications if a window is in full-screen mode and unpausing if there is no longer any full-screen window. It is helpful in decreasing distractions if watching or gaming content. 
+            The Lock Keys applet could be pressed to toggle NumLock and CapsLock if xdotool is present on the operating system. 
+            Additional 
+            
+            Now, Nemo Previews are available as a suggestion application in the Budgie Welcome to permit us for visualizing the content of any highlighted file. We need to just click space for toggling the viewer inside Nemo. It is backported to the 20.04 and 20.10 versions as well. 
+            Some fixes to the Budgie Desktop Environment have been established for making Budgie Desktop more friendly to other remote access or desktop environments that apply dash as a default shell. 
+            In Budgie Welcome, the IRC links are now indicating to Libera chat from the Ubuntu family has finished its collaboration with Freenode. 
+            The Drawing application has the 0.8.3 uploaded version. 
+            Now, the 21.10 wallpapers of the UB teams are on the daily ISO. 
+            Installing Budgie Desktop in Ubuntu The Budgie Desktop is the modern and latest budgie desktop that provides an elegant and minimal desktop experience and it is available for every major distribution of Linux. It is created in such a fashion that it can utilize fewer resources of the system. Budgie desktop contains an app launcher that is straightforward and called Budgie menu that includes several applications for us for working on and be useful. It offers a quick and easy way for searching and launching applications along with features such as type as you search and category-based filtering options. Also, Budgie contains a sidebar that could be accessed by pressing on the right-most side icons within the panel in which we can see notifications, settings for controlling components on the desktop, and calendar. We can experience several other aspects after installing and making use of the Budgie Desktop. In this article, we will show how to download and install Budgie Desktop on Ubuntu. Let's begin with the installation process. There is no requirement to include a PPA to install it in the Ubuntu operating system because Budgie is a segment of official repositories of Ubuntu. Simply, we will need to execute a command for the installation process. Step 1: We need to press the shortcut keys, i.e., Ctrl+Alt+T for launching the terminal. After that, we will enter the below command in our terminal to see the updates: 
+           
+            
+$ sudo apt update
+
+              Step 2: Now, we will execute the below command in our terminal for installing the Budgie Desktop: 
+           
+            
+$ sudo apt install ubuntu-budgie-desktop
+
+              Step 3: After the installation process, a prompt will occur where we need to select the display manager. We will select lightdm and then click on the Enter button. It will take some seconds to finish the process.  Step 4: We need to run the below command in our terminal for rebooting the system after the process is completed: 
+           
+            
+$ sudo reboot
+
+            After rebooting, we will see the below login screen. We will press the icon at the desktop bottom. 
+            
+             From there, choose the option, i.e., budgie-desktop.   
+            We will have the default appearance of the Budgie desktop. 
+            We can now use the Budgie menu by pressing on the leftmost side of the desktop. 
+            If we don't want the Budgie Desktop anymore and wish to switch back to our regular Ubuntu desktop, then we will need to remove it by executing the below commands in our terminal: 
+            
+           
+            
+$ sudo apt remove ubuntu-budgie-desktop ubuntu-budgie* lightdm
+
+               
+           
+            
+$ sudo apt autoremove
+
+               
+           
+            
+$ sudo apt install --reinstall gdm3
+
+              
+            
+            
+            Next Topic
+            # 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

@@ -1,0 +1,501 @@
+Zigzag Traversal of a Binary Tree in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Zigzag Traversal of a Binary Tree in Java The zigzag traversal of a binary tree means for the node at the top level we go from left to right, then for the next level, we go from right to left, and thus, we keep on changing the direction from left to right, and then from right to left. Note that at the top level, we can go from right to left, instead of left to right, then for the next level, we have to go from left to right. The important point to remember for the zigzag traversal of a binary tree in Java is that at each level, the direction of traversal is opposite of the previous level. In this tutorial, we will discuss the various approaches using which one can achieve the zigzag traversal of a binary tree. Note that each approach is very important from the interview point of view. For the following binary tree: The zigzag traversal is: 18 30 20 60 34 45 65 41 71 59 31 82 98 50 12 OR The zigzag traversal is: 18 20 30 65 45 34 60 12 50 98 82 31 59 71 41 Approach 1: Using Two Stacks The zigzag traversal of a binary tree can be achieved using two stacks. Treat the first stack as the currentLevel stack and the second stack as the nextLevel stack. A variable is also required to get the information about the current level order (whether the traversal is right to left or left to right). We do pop nodes from the currentlevel stack and display the value of nodes. Whenever the traversal for the current level order is from left to right, then we push its left child first, then its right child to the nextlevel stack. We know that a stack works on a Last In First Out (LIFO) principle. Therefore, the next time when nodes are popped off from the nextlevel stack, the order of traversal will be reversed. Similarly, when the order of traversal is from right to left, we push the right child first, then the left child of the current node. Note that after the end of each level (end of level means each node of that level is traversed), we must interchange the stacks, i.e., the nextlevel stack becomes the currentlevel stack, and the currentlevel stack becomes the nextlevel stack. Implementation Let's see the implementation of the zigzag traversal of a binary tree using two stacks. FileName: ZigZagTraversalExample.java 
+// import statement
+import java.util.*;
+
+class TreeNode 
+{
+// for holding value of the node
+int val;
+
+// for referring to the other nodes 
+// left for the left child and right to the right child
+TreeNode left, right;
+
+// constructor of the class TreeNode
+// the construct initializes the class fields
+public TreeNode(int i)
+{
+val = i;
+right = left = null;
+}
+}
+class BTreeZigZag 
+{
+TreeNode r;
+// method to display the
+// zigzag traversal of a binary tree
+void displayZigZagTraversal() 
+{
+// if node is null then return
+if (r == null) 
+{
+return;
+}
+// declaring two stacks
+// currLevel and the nextLevel stack
+Stack<TreeNode> currLevel = new Stack<TreeNode>();
+Stack<TreeNode> nextLevel = new Stack<TreeNode>();
+// push the root
+currLevel.push(r);
+boolean LtoR = true;
+// check if the stack is empty
+while (!currLevel.isEmpty()) 
+{
+// the node is popped out
+//  from the current level stack
+TreeNode currNode = currLevel.pop();
+// display the value of it
+System.out.print(currNode.val + " ");
+// store the data according to the current order.
+// if LtoR is true, then the traversal is from left to right
+// and if LtoR is false, then the traversal is from right to left
+if (LtoR) 
+{
+if (currNode.left != null) 
+{
+nextLevel.push(currNode.left);
+}
+if (currNode.right != null) 
+{
+nextLevel.push(currNode.right);
+}
+}
+else 
+{
+if (currNode.right != null) 
+{
+nextLevel.push(currNode.right);
+}
+if (currNode.left != null) 
+{
+nextLevel.push(currNode.left);
+}
+}
+if (currLevel.isEmpty()) 
+{
+// toggle the value of LtoR
+LtoR = !LtoR;
+// interchanging the currLevel stack 
+// and the nextLevel stack
+Stack<TreeNode> stk = currLevel;
+currLevel = nextLevel;
+nextLevel = stk;
+}
+}
+}
+}
+public class ZigZagTraversalExample 
+{
+// main method
+public static void main(String[] args)
+{
+// creating an object of the class BTreeZigZag 
+BTreeZigZag  tree = new BTreeZigZag ();
+// root node
+tree.r = new TreeNode(18);
+// remaining nodes of the tree
+tree.r.left = new TreeNode(20);
+tree.r.right = new TreeNode(30);
+tree.r.left.left = new TreeNode(60);
+tree.r.left.right = new TreeNode(34);
+tree.r.right.left = new TreeNode(45);
+tree.r.right.right = new TreeNode(65);
+tree.r.left.left.left = new TreeNode(12);
+tree.r.left.left.right = new TreeNode(50);
+tree.r.left.right.left = new TreeNode(98);
+tree.r.left.right.right = new TreeNode(82);
+tree.r.right.left.left = new TreeNode(31);
+tree.r.right.left.right = new TreeNode(59);
+tree.r.right.right.left = new TreeNode(71);
+tree.r.right.right.right = new TreeNode(41);
+System.out.println("The zigzag traversal of the binary tree is: ");
+tree.displayZigZagTraversal();
+}
+}
+ Output: The zigzag traversal of the binary tree is: 
+18 30 20 60 34 45 65 41 71 59 31 82 98 50 12
+ Time Complexity: There is only one while loop in the program. Therefore, the time complexity of the above program is O(n), where n is the total number of nodes present in the binary tree. Space Complexity: There are two stacks present in the program; each stack takes the space complexity of O(n), where n is the total number of nodes present in the binary tree. Thus, O(n) + O(n) = O(2 * n), which in terms of asymptotic complexity is equal to O(n). Approach 2: Using Deque The zigzag traversal of a binary tree can also be achieved using a deque. The important point to take care of is to decide whether the pop operation is performed from the front side or from the rear side. It is the pop operation that decides whether we are traversing from left to right or from right to left. Implementation Let's see the implementation of the zigzag traversal of a binary tree using a deque. FileName: ZigZagTraversalExample1.java 
+// import statement
+import java.util.*;
+
+class TreeNode 
+{
+// for holding value of the node
+int val;
+// for referring to the other nodes 
+// left for the left child and right to the right child
+TreeNode left, right;
+// constructor of the class TreeNode
+// the construct initializes the class fields
+public TreeNode(int i)
+{
+val = i;
+right = left = null;
+}
+}
+class BTreeZigZag1 
+{
+TreeNode r;
+// method to display the zigzag traversal
+public Vector<Integer> zigZagTraversal(TreeNode node)
+{
+Deque<TreeNode> dq = new LinkedList<TreeNode>();
+Vector<Integer> vec = new Vector<Integer>();
+dq.add(node);
+vec.add(node.val);
+TreeNode t;
+// setting the initial level as 1, because the root node has
+// been considered.
+int lvl = 1;
+while (dq.size() > 0) 
+{
+int n = dq.size();
+for (int j = 0; j < n; j++) 
+{
+// the popping mechanism
+// peek and remove from the last when the level is even
+if (lvl % 2 == 0) 
+{
+t = dq.peekLast();
+// remvoing from the end
+dq.pollLast();
+}
+// peek and remove from the beginning when the level is odd
+else 
+{
+t = dq.peekFirst();
+dq.pollFirst();
+}
+// the pushing mechanism
+// if the level is odd, we first add the right child, then the left child
+// if the level is even, we first add the left child, then the right child
+if (lvl % 2 != 0) 
+{
+// a null child is of no use
+// because a null child cannot have its children 
+if (t.right != null) 
+{
+dq.add(t.right);
+vec.add(t.right.val);
+}
+if (t.left != null) 
+{
+dq.add(t.left);
+vec.add(t.left.val);
+}
+}
+else if (lvl % 2 == 0)
+{
+// a null child is of no use
+// because a null child cannot have its children 
+if (t.left != null) 
+{
+dq.offerFirst(t.left);
+vec.add(t.left.val);
+}
+if (t.right != null) 
+{
+dq.offerFirst(t.right);
+vec.add(t.right.val);
+}
+}
+}
+// going to the next level
+lvl = lvl + 1;
+}
+return vec;
+}
+}
+public class ZigZagTraversalExample1
+{
+// main method
+public static void main(String[] args)
+{
+// creating an object of the class BTreeZigZag1 
+BTreeZigZag1  tree = new BTreeZigZag1 ();
+// root node
+tree.r = new TreeNode(18);
+// remaining nodes of the tree
+tree.r.left = new TreeNode(20);
+tree.r.right = new TreeNode(30);
+tree.r.left.left = new TreeNode(60);
+tree.r.left.right = new TreeNode(34);
+tree.r.right.left = new TreeNode(45);
+tree.r.right.right = new TreeNode(65);
+tree.r.left.left.left = new TreeNode(12);
+tree.r.left.left.right = new TreeNode(50);
+tree.r.left.right.left = new TreeNode(98);
+tree.r.left.right.right = new TreeNode(82);
+tree.r.right.left.left = new TreeNode(31);
+tree.r.right.left.right = new TreeNode(59);
+tree.r.right.right.left = new TreeNode(71);
+tree.r.right.right.right = new TreeNode(41);
+System.out.println("The zigzag traversal of the binary tree is: ");
+Vector<Integer> vec = tree.zigZagTraversal(tree.r);
+for (int j = 0; j < vec.size(); j++) 
+{ 
+// diplaying the node in the zigzag manner
+System.out.print(vec.get(j) + " ");
+}
+}
+}
+ Output: The zigzag traversal of the binary tree is: 
+18 30 20 60 34 45 65 41 71 59 31 82 98 50 12
+ Time Complexity: Since we are visiting a node only once; therefore, the time complexity of the above program is O(n), where n is the total number of nodes present in the binary tree. Space Complexity: The maximum size of the deque can go upto O((n + 1) / 2), which is equal to O(n) in terms of asymptotic complexity, where n is the total number of nodes present in the binary tree. Note that (n + 1) / 2 is the total number of leaf nodes in a full binary tree. Approach 3: Using Recursion Using recursion also one can achieve the zigzag traversal of the binary tree. The concept is to use the level order traversal of a binary tree in a different manner. The direction in which the traversal is going on will be determined by a variable whose value toggles between 0 and 1. Note that the value of the variable changes after the completion of the traversal of each level. Implementation Let's see the implementation of the zigzag traversal of a binary tree using recursion. FileName: ZigZagTraversalExample2.java 
+// import statement
+import java.util.*;
+class TreeNode 
+{
+// for holding value of the node
+int val;
+// for referring to the other nodes 
+// left for the left child and right to the right child
+TreeNode left, right;
+// constructor of the class TreeNode
+// the construct initializes the class fields
+public TreeNode(int i)
+{
+val = i;
+right = left = null;
+}
+}
+class BTreeZigZag2 
+{
+TreeNode r;
+// Recursive method for finding the height
+// of the binary tree
+// note that total levels in a tree are equal
+// to the height of the tree
+// height of the tree (taking reference from the root node) is equal to the  
+// max(height of the left subtree, height of the right subtree) + 1
+public int heightOfBTree(TreeNode r)
+{
+// base case
+if(r == null)
+{
+return 0;
+}
+int lh = heightOfBTree(r.left);
+int rh = heightOfBTree(r.right);
+return Math.max(lh + 1, rh + 1);
+}
+// Method for printing the node values from right to left
+public void displayRightToLeft(TreeNode r, int lvl)
+{
+// base case
+if(r == null)
+{
+return;
+}
+if(lvl == 1)
+{
+System.out.print(r.val + " ") ;
+}
+else if(lvl > 1)
+{
+displayRightToLeft(r.right, lvl - 1);
+displayRightToLeft(r.left, lvl - 1);
+}
+}
+// Method for priting the node values from left to right
+public void displayLeftToRight(TreeNode r, int lvl)
+{
+// base case
+if(r == null)
+{
+return;
+}
+// handling the root node 
+if(lvl == 1)
+{
+System.out.print(r.val + " ");
+}
+// handling the other nodes of the binary tree
+else if(lvl > 1)
+{
+displayLeftToRight(r.left, lvl - 1);
+displayLeftToRight(r.right, lvl - 1);
+}
+}
+// Method that prints the zigzag traversal of the binary tree
+public void displayZigZagTraversal(TreeNode r)
+{
+// a variable f is used for marking the change
+// in the level
+int f = 0;
+// Height of the tree
+int ht = heightOfBTree(r);
+// a loop for iterating across the levels 
+// 
+for(int j = 1; j <= ht; j++)
+{
+// If the flag value is one then display nodes from right to left
+if(f == 1)
+{
+// printing from right to left for the level j
+displayRightToLeft(r, j);
+// after the traversal of the level j is finished
+// toggle the value of f from 1 to 0
+f = 1 - f;
+}
+// If the flag value is one then display nodes from right to left
+else if(f == 0)
+{
+// printing from left to right for the level j
+displayLeftToRight(r, j);
+// after the traversal of the level j is finished
+// toggle the value of f from 1 to 0
+f = 1 - f;
+}
+}
+}
+}
+public class ZigZagTraversalExample2 
+{
+// main method
+public static void main(String[] argvs)
+{
+// creating an object of the class BTreeZigZag2 
+BTreeZigZag2 tree = new BTreeZigZag2();
+// root node
+tree.r = new TreeNode(18);
+// remaining nodes of the tree
+tree.r.left = new TreeNode(20);
+tree.r.right = new TreeNode(30);
+tree.r.left.left = new TreeNode(60);
+tree.r.left.right = new TreeNode(34);
+tree.r.right.left = new TreeNode(45);
+tree.r.right.right = new TreeNode(65);
+tree.r.left.left.left = new TreeNode(12);
+tree.r.left.left.right = new TreeNode(50);
+tree.r.left.right.left = new TreeNode(98);
+tree.r.left.right.right = new TreeNode(82);
+tree.r.right.left.left = new TreeNode(31);
+tree.r.right.left.right = new TreeNode(59);
+tree.r.right.right.left = new TreeNode(71);
+tree.r.right.right.right = new TreeNode(41);
+System.out.println("The zigzag traversal of the binary tree is: ");
+tree.displayZigZagTraversal(tree.r);
+}
+} 
+ Output: The zigzag traversal of the binary tree is: 
+18 30 20 60 34 45 65 41 71 59 31 82 98 50 12
+ Time Complexity: Since we are visiting a node only once; therefore, the time complexity of the above program is O(n), where n represents the total number of nodes present in the binary tree. Space Complexity: The space complexity of the above program is O(n). Approach 4: Using Stack and Queue In this approach, we do a level order traversal but not in the same direction for every level. In a level, when traversing from the direction left to right, we add all the encountered nodes to the array list keep. We also store the nodes for the next level in the stack. When traversing from the direction right to left, we pop the node from the stack that was being stored in the last step. The popped node is stored in the array list keep. We eventually return the array list keep. Note that the optimization of this approach is the approach where we used deque. Implementation Let's see the implementation of the zigzag traversal of using stack and queue. FileName: ZigZagTraversalExample3.java 
+// import statement
+import java.util.*;
+
+// instantiating this class 
+// creates a node
+class TreeNode 
+{
+// for holding value of the node
+int val;
+// for referring to the other nodes 
+// left for the left child and right to the right child
+TreeNode left, right;
+// constructor of the class TreeNode
+// the construct initializes the class fields
+public TreeNode(int i)
+{
+val = i;
+right = left = null;
+}
+}
+public class ZigZagTraversalExample3
+{
+TreeNode r = null;	
+ArrayList<Integer> zigzagLevelOrderTraversal(TreeNode root) 
+{
+// storing the element that has been traversed during zigzag traversal 
+ArrayList<Integer> keep = new ArrayList<Integer>();
+Queue<TreeNode> nodes = new LinkedList<TreeNode>();
+// the stack will be used when we traverse from left to right
+// and the stored nodes will be used when we traverse from right to left
+Stack<TreeNode> currentLevelNodes = new Stack<TreeNode>();
+nodes.add(root);
+// the value of l to r (left to right) 
+// will vary from 0 to 1
+int ltor = 1;
+while (!nodes.isEmpty()) 
+{
+if (ltor == 1) 
+{
+int size = nodes.size();
+for (int j = 0; j < size; j++) 
+{
+TreeNode currNode = nodes.peek();
+nodes.poll();
+keep.add(currNode.val);
+if (currNode.left != null) 
+{
+nodes.add(currNode.left);
+// adding nodes to the stack
+currentLevelNodes.push(currNode.left);
+}
+if (currNode.right != null) 
+{
+nodes.add(currNode.right);
+// adding nodes to the stack
+currentLevelNodes.push(currNode.right);
+}
+}
+} 
+else 
+{
+int size = nodes.size();
+for (int j = 0; j < size; j++) 
+{
+TreeNode currentNode = nodes.peek();
+nodes.poll();
+// using the stored nodes
+keep.add(currentLevelNodes.peek().val);
+currentLevelNodes.pop();
+if (currentNode.left != null) 
+{
+nodes.add(currentNode.left);
+}
+if (currentNode.right != null) 
+{
+nodes.add(currentNode.right);
+}
+}
+}
+// toggling between 0 & 1
+ltor = 1 - ltor;
+}
+return keep;
+}
+
+// main method
+public static void main(String[] argvs)
+{
+// creating an object of the class ZigZagTraversalExample3 
+ZigZagTraversalExample3 tree = new ZigZagTraversalExample3();
+// root node
+tree.r = new TreeNode(18);
+// remaining nodes of the tree
+tree.r.left = new TreeNode(20);
+tree.r.right = new TreeNode(30);
+tree.r.left.left = new TreeNode(60);
+tree.r.left.right = new TreeNode(34);
+tree.r.right.left = new TreeNode(45);
+tree.r.right.right = new TreeNode(65);
+tree.r.left.left.left = new TreeNode(12);
+tree.r.left.left.right = new TreeNode(50);
+tree.r.left.right.left = new TreeNode(98);
+tree.r.left.right.right = new TreeNode(82);
+tree.r.right.left.left = new TreeNode(31);
+tree.r.right.left.right = new TreeNode(59);
+tree.r.right.right.left = new TreeNode(71);
+tree.r.right.right.right = new TreeNode(41);
+System.out.println("The zigzag traversal of the binary tree is: ");
+ArrayList<Integer> list = tree.zigzagLevelOrderTraversal(tree.r);
+for(int i = 0; i < list.size(); i++)
+{
+System.out.print(list.get(i) + " ");
+}
+}
+}
+ Output: The zigzag traversal of the binary tree is: 
+18 30 20 60 34 45 65 41 71 59 31 82 98 50 12
+ Time Complexity: For the above program, the time complexity is O(n), where n represents the total number of nodes present in the binary tree. Space Complexity: The space complexity of the above program is O(n). Next Topic Java Get File Size ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

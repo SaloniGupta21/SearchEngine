@@ -1,0 +1,1238 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Android Studio Ubuntu - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Android Studio Ubuntu - javatpoint">
+  <meta property="og:description" content="Android Studio Ubuntu with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc."> 
+  <meta name="keywords" content="linux, tutorial, beginners, professionals, introduction, example, command, file, directory, permission, backup, ls, man, pwd, cd, chmod, man, shell, pipes, filters, regex, vi">
+  <meta name="description" content="Android Studio Ubuntu with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/android-studio-ubuntu"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Android Studio Ubuntu - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Android Studio Ubuntu with examples on files, directories, permission, backup, ls, man, pwd, cd, linux, linux introduction, chmod, man, shell, pipes, filters, regex, vi etc.">
+  <meta property="og:url" content="https://www.javatpoint.com/android-studio-ubuntu">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="linux-tutorial" class="selected">Linux</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="python-tutorial">Python</a></li> 
+       <li><a href="shell-scripting-tutorial">Shell Scripting</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="css-tutorial">CSS</a></li> 
+       <li><a href="javascript-tutorial">JavaScript</a></li> 
+       <li><a href="xml-tutorial">XML</a></li> 
+       <li><a href="ajax-tutorial">Ajax</a></li> 
+       <li><a href="android-tutorial">Android</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-tutorial"><span>Linux Tutorial</span></a> 
+      <a href="what-is-linux"><span>What is Linux</span></a> 
+      <a href="advantages-of-linux">Advantages of Linux</a> 
+      <a href="linux-history"><span>Linux History</span></a> 
+      <a href="linux-features"><span>Linux Features</span></a> 
+      <a href="linux-bash">Linux Bash</a> 
+      <a href="unix-vs-linux" class="l1">Unix vs Linux</a> 
+      <a href="linux-vs-windows">Linux vs Windows</a> 
+      <a href="linux-distributions"><span>Linux Distributions</span></a> 
+      <a href="linux-licensing"><span>Linux Licensing</span></a> 
+      <a href="linux-set-environment-variable">Set Environment Variable</a> 
+      <a href="linux-set-command">Linux Set Command</a> 
+      <a href="linux-export-command">Linux export Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Directories</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-directories">Linux Directories</a> 
+      <a href="linux-home-directory">Linux Home Directory</a> 
+      <a href="linux-pwd">Linux pwd</a> 
+      <a href="linux-cd">Linux cd</a> 
+      <a href="linux-absolute-relative-paths">Linux Absolute Relative</a> 
+      <a href="linux-path-completion">Linux Path Completion</a> 
+      <a href="linux-ls">Linux ls</a> 
+      <a href="linux-mkdir">Linux mkdir</a> 
+      <a href="linux-rmdir">Linux rmdir</a> 
+      <a href="rename-folder-in-linux">Rename Folder in Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Commands</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-commands-list">Linux commands List</a> 
+      <a href="linux-commands">Commands with Example</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Users</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-users">Linux Users</a> 
+      <a href="linux-create-user">Linux Create User</a> 
+      <a href="linux-su-commands">Local su Commands</a> 
+      <a href="linux-user-management">Linux User Management</a> 
+      <a href="linux-user-password">User Password</a> 
+      <a href="linux-groups">Local Groups</a> 
+      <a href="linux-add-user-to-group">Add User to Group</a> 
+      <a href="linux-id-command">Linux id Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Files</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-files">Linux Files</a> 
+      <a href="linux-file-system">Linux File System</a> 
+      <a href="linux-create-file">Linux Create File</a> 
+      <a href="linux-file">Linux file</a> 
+      <a href="linux-touch">Linux touch</a> 
+      <a href="linux-rm">Linux rm</a> 
+      <a href="linux-cp">Linux cp</a> 
+      <a href="linux-mv">Linux mv</a> 
+      <a href="linux-rename">Linux rename</a> 
+      <a href="linux-install-command">Linux install Command</a> 
+      <a href="linux-read-command">Linux read Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux File Contents</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-contents">Linux File Contents</a> 
+      <a href="open-file-in-linux">Open File in Linux</a> 
+      <a href="linux-edit-file">Linux Edit File</a> 
+      <a href="linux-which-command">Linux which command</a> 
+      <a href="linux-head">Linux head</a> 
+      <a href="linux-tail">Linux tail</a> 
+      <a href="linux-cat">Linux cat</a> 
+      <a href="linux-tac">Linux tac</a> 
+      <a href="linux-more">Linux more</a> 
+      <a href="linux-less">Linux less</a> 
+      <a href="linux-strings-command">Linux strings command</a> 
+      <a href="linux-print">Linux Print</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Process</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="kill-process-linux">Kill Process Linux</a> 
+      <a href="linux-terminating">Linux terminating</a> 
+      <a href="linux-kill">1) Linux kill</a> 
+      <a href="linux-killall">2) Linux killall</a> 
+      <a href="linux-pkill">3) Linux pkill</a> 
+      <a href="linux-xkill">4) Linux xkill</a> 
+      <a href="linux-nohup-command">Nohup Command</a> 
+      <a href="linux-at-command">Linux at command</a> 
+      <a href="linux-exit-command">Linux exit command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux File Hierarchy</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-hierarchy-system">Linux File Hierarchy</a> 
+      <a href="linux-fhs-binary-directories">Binary Directories</a> 
+      <a href="linux-fhs-configuration-directory">Configuration Directories</a> 
+      <a href="linux-fhs-data-directory">Data Directories</a> 
+      <a href="linux-fhs-memory-directory">Memory Directories</a> 
+      <a href="linux-unix-system-resources">Usr Directory</a> 
+      <a href="linux-fhs-variable-directory">var Directory</a> 
+      <a href="linux-fhs-non-standard-directories">Non-standard directories</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Filters</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-filters" class="l1">Linux Filters</a> 
+      <a href="linux-cat-filters" class="l1">Linux cat</a> 
+      <a href="linux-cut" class="l1">Linux cut</a> 
+      <a href="linux-grep" class="l1">Linux grep</a> 
+      <a href="linux-comm" class="l1">Linux comm</a> 
+      <a href="linux-sed" class="l1">Linux sed</a> 
+      <a href="linux-tee" class="l1">Linux tee</a> 
+      <a href="linux-tr" class="l1">Linux tr</a> 
+      <a href="linux-uniq" class="l1">Linux uniq</a> 
+      <a href="linux-wc" class="l1">Linux wc</a> 
+      <a href="linux-od" class="l1">Linux od</a> 
+      <a href="linux-sort" class="l1">Linux sort</a> 
+      <a href="linux-gzip" class="l1">Linux gzip</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">AWK Command</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-awk-command">Linux AWK Command</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Programming with Linux</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-make-command">Linux make command</a> 
+      <a href="gcc-linux">GCC Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux I/O Redirection</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-input-output-redirection">Linux I/O Redirection</a> 
+      <a href="linux-input-redirection">Linux Input Redirection</a> 
+      <a href="linux-output-redirection">Linux Output Redirection</a> 
+      <a href="linux-error-redirection">Linux Error Redirection</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Unix Tools</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-basic-unix-tools">Linux Unix Tools</a> 
+      <a href="linux-find">Linux Find</a> 
+      <a href="linux-locate">Linux Locate</a> 
+      <a href="linux-date">Linux Date</a> 
+      <a href="linux-cal">Linux Cal</a> 
+      <a href="linux-sleep">Linux Sleep</a> 
+      <a href="linux-time">Linux Time</a> 
+      <a href="linux-zcat-zmore">Linux zcat/zmore</a> 
+      <a href="linux-bzip2-bunzip2">Linux bzip2 / bunzip2</a> 
+      <a href="linux-bzcat-bzmore">Linux bzcat / bzmore</a> 
+      <a href="linux-df">Linux df</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Regex</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-expr-command">Linux expr command</a> 
+      <a href="linux-regular-expression"><span>Linux RegEx</span></a> 
+      <a href="linux-grep-regular-expressions"><span>Linux Grep RegEx</span></a> 
+      <a href="linux-rename-regular-expression"><span>Linux rename RegEx</span></a> 
+      <a href="linux-sed-regular-expression"><span>Linux Sed RegEx</span></a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">File Security</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-file-ownership">Linux File OwnerShip</a> 
+      <a href="linux-chgrp-command">Linux chgrp Command</a> 
+      <a href="linux-file-permissions">Linux File Permission</a> 
+      <a href="linux-chmod-command">Linux chmod Command</a> 
+      <a href="linux-chown-command">Linux chown command</a> 
+      <a href="linux-advanced-file-permission">Linux Advance Permission</a> 
+      <a href="linux-file-links">Linux File Links</a> 
+      <a href="linux-inodes">1) Linux Inodes</a> 
+      <a href="linux-file-links-directories">2) Linux Link Directories</a> 
+      <a href="linux-hard-links">3) Linux Hard links</a> 
+      <a href="linux-symbolic-links">4) Linux Soft links</a> 
+      <a href="linux-removing-links">5) Linux Remove link</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Shell Commands</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-shell-commands">Linux Shell Commands</a> 
+      <a href="linux-aliases">Linux Aliases</a> 
+      <a href="linux-arguments">Linux Arguments</a> 
+      <a href="linux-displaying-shell">Linux Displaying Shell</a> 
+      <a href="linux-control-operators">Linux Control Operators</a> 
+      <a href="linux-semicolon">1) Semicolon</a> 
+      <a href="linux-ampersand">2) Ampersand</a> 
+      <a href="linux-dollar-question-mark">3) Dollar Question Mark</a> 
+      <a href="linux-double-ampersand">4) Double Ampersand</a> 
+      <a href="linux-double-vertical-bar">5) Double Vertical Bar</a> 
+      <a href="linux-combining-and-or-operators">6) Combining &amp;&amp; and ||</a> 
+      <a href="linux-pound-sign">7) Pound Sign</a> 
+      <a href="linux-escaping-special-characters">8) ESC</a> 
+      <a href="linux-file-globbing">Linux File Globbing</a> 
+      <a href="linux-shell-embedding">Linux Shell Embedding</a> 
+      <a href="linux-shell-history">Linux Shell History</a> 
+      <a href="linux-history-command">Linux history Command</a> 
+      <a href="linux-shell-history-commands">Linux History Commands</a> 
+      <a href="linux-history-size">Linux Histroy Size</a> 
+      <a href="linux-bang-bang">Linux Bang Bang</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Networking</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-networking-commands">Linux Networking</a> 
+      <a href="linux-ifconfig">1) Linux ifconfig</a> 
+      <a href="linux-ip">2) Linux ip</a> 
+      <a href="linux-telnet-command">Linux telnet Command</a> 
+      <a href="ssh-linux">SSH Linux</a> 
+      <a href="linux-mail-command">Linux mail Command</a> 
+      <a href="linux-traceroute">3) Linux traceroute</a> 
+      <a href="linux-tracepath">4) Linux tracepath</a> 
+      <a href="linux-ping">5) Linux ping</a> 
+      <a href="linux-netstat">6) Linux netstat</a> 
+      <a href="linux-ss">7) Linux ss</a> 
+      <a href="linux-dig">8) Linux dig</a> 
+      <a href="linux-nslookup">9) Linux nslookup</a> 
+      <a href="linux-route">10) Linux route</a> 
+      <a href="linux-host">11) Linux host</a> 
+      <a href="linux-arp">12) Linux arp</a> 
+      <a href="linux-iwconfig">13) Linux iwconfig</a> 
+      <a href="linux-hostname">14) Linux hostname</a> 
+      <a href="linux-curl-and-wget">15) Linux curl &amp; wget</a> 
+      <a href="linux-curl-command">Linux Curl Command</a> 
+      <a href="linux-mtr">16) Linux mtr</a> 
+      <a href="linux-whois">17) Linux whois</a> 
+      <a href="linux-ifplugstatus">18) Linux ifplugstatus</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="chkconfig-command-in-linux">chkconfig command in Linux</a> 
+      <a href="how-to-change-user-password-in-linux">How to change user password in Linux</a> 
+      <a href="linux-awk-command-usage">Awk Command Usage</a> 
+      <a href="how-to-unzip-files-in-linux">How to unzip files in Linux</a> 
+      <a href="linux-chroot-command">Linux chroot Command</a> 
+      <a href="linux-watch-command">Linux Watch Command</a> 
+      <a href="ubuntu-vs-kali-linux">Ubuntu Vs. Kali Linux</a> 
+      <a href="clear-cache-linux">Clear cache Linux</a> 
+      <a href="linux-7-qc-tools">7 QC Tools</a> 
+      <a href="linux-process-memory-usage">Linux Process Memory Usage</a> 
+      <a href="linux-tree-command">Linux Tree Command</a> 
+      <a href="wine-linux">Wine Linux</a> 
+      <a href="linux-commands-to-check-disk-space">Linux Commands to Check Disk Space</a> 
+      <a href="manjaro-vs-ubuntu">Manjaro Vs. Ubuntu</a> 
+      <a href="architecture-of-linux">Architecture of Linux</a> 
+      <a href="linux-lite">Linux Lite</a> 
+      <a href="linux-shell">Linux Shell</a> 
+      <a href="linux-meaning">Linux Meaning</a> 
+      <a href="linux-foundation">Linux Foundation</a> 
+      <a href="linux-list-directories">Linux List Directories</a> 
+      <a href="linux-shortcuts">Linux Shortcuts</a> 
+      <a href="best-linux-distro">Best Linux Distro</a> 
+      <a href="who-command-in-linux">Who command in Linux</a> 
+      <a href="linux-server">Linux Server</a> 
+      <a href="debian-vs-ubuntu">Debian vs Ubuntu</a> 
+      <a href="types-of-files-in-unix">Types of Files in Unix</a> 
+      <a href="linux-daemon">Linux Daemon</a> 
+      <a href="linux-zip-command">Linux Zip Command</a> 
+      <a href="cpu-utilization-in-linux">CPU Utilization in Linux</a> 
+      <a href="linux-terminal">Linux Terminal</a> 
+      <a href="linux-sudo">Linux sudo</a> 
+      <a href="basic-linux-commands">Basic Linux Commands</a> 
+      <a href="how-to-check-ram-in-linux">How to Check RAM in Linux</a> 
+      <a href="linux-list-users">Linux List Users</a> 
+      <a href="kill-command-in-linux">Kill command</a> 
+      <a href="tar-command-in-linux">Tar command</a> 
+      <a href="linux-find-file">Linux Find File</a> 
+      <a href="echo-command">Echo command</a> 
+      <a href="linux-change-or-set-password">Linux Change or set Password</a> 
+      <a href="ssh-command">SSH Command</a> 
+      <a href="what-is-sshd-in-linux">What is sshd in Linux</a> 
+      <a href="linux-screen-command">Linux Screen Command</a> 
+      <a href="linux-check-disk-space">Linux Check Disk Space</a> 
+      <a href="run-command-in-linux">Run command in Linux</a> 
+      <a href="linux-memory-management">Linux Memory Management</a> 
+      <a href="linux-reboot-command">Linux Reboot Command</a> 
+      <a href="how-to-inspect-memory-in-linux">How to Inspect the Memory in Linux</a> 
+      <a href="ubuntu-gnome">Ubuntu GNOME</a> 
+      <a href="how-to-check-open-ports-in-linux">How to check open ports in Linux</a> 
+      <a href="linux-vs-ubuntu">Linux vs Ubuntu</a> 
+      <a href="ping-command-in-linux">Ping command in Linux</a> 
+      <a href="linux-source-command">Linux Source Command</a> 
+      <a href="linux-terminal-shortcuts">Linux Terminal Shortcuts</a> 
+      <a href="find-ip-address-in-linux">Find IP Address in Linux</a> 
+      <a href="linux-date-command">Linux date Command</a> 
+      <a href="linux-hosts-file">Linux hosts (file)</a> 
+      <a href="unix-operating-system">UNIX operating system</a> 
+      <a href="linux-dpkg-command">Linux dpkg command</a> 
+      <a href="latest-kernel-linux-version">Latest Kernel Linux Version</a> 
+      <a href="linux-package-manager">Linux Package Manager</a> 
+      <a href="linux-proc">Linux proc</a> 
+      <a href="linux-task-manager">Linux Task Manager</a> 
+      <a href="linux-signals">Linux Signals</a> 
+      <a href="parrot-os-vs-kali-linux">Parrot OS vs. Kali Linux</a> 
+      <a href="ubuntu-features">Ubuntu Features</a> 
+      <a href="linux-iso">Linux ISO</a> 
+      <a href="putty-command-in-linux">Putty Command in Linux</a> 
+      <a href="check-os-version-in-linux">Check OS Version in Linux</a> 
+      <a href="linux-change-timezone">Linux Change Timezone</a> 
+      <a href="linux-load-average">Linux Load Average</a> 
+      <a href="linux-firewall">Linux Firewall</a> 
+      <a href="rpm-command-in-linux">RPM Command in Linux</a> 
+      <a href="cron-command">Cron Command</a> 
+      <a href="linux-change-hostname">Linux Change Hostname</a> 
+      <a href="ubuntu-disable-firewall">Ubuntu Disable Firewall</a> 
+      <a href="latest-release-of-ubuntu">Latest Release of Ubuntu</a> 
+      <a href="ubuntu-logo">Ubuntu Logo</a> 
+      <a href="ubuntu-mate">Ubuntu MATE</a> 
+      <a href="ubuntu-nvidia-drivers">Ubuntu Nvidia Drivers</a> 
+      <a href="zoom-ubuntu">Zoom Ubuntu</a> 
+      <a href="install-tar-gz-ubuntu">Install tar.gz Ubuntu</a> 
+      <a href="ubuntu-screen-recorder">Ubuntu Screen Recorder</a> 
+      <a href="ubuntu-server">Ubuntu Server</a> 
+      <a href="ubuntu-wallpaper">Ubuntu Wallpaper</a> 
+      <a href="xvideoservicethief-ubuntu-linux-free">xVideoServiceThief Ubuntu Linux Free</a> 
+      <a href="restart-apache-ubuntu">Restart Apache Ubuntu</a> 
+      <a href="ubuntu-20-04-lts">Ubuntu 20.04 LTS</a> 
+      <a href="ubuntu-bootable-usb">Ubuntu Bootable USB</a> 
+      <a href="ubuntu-desktop">Ubuntu Desktop</a> 
+      <a href="ubuntu-font">Ubuntu Font</a> 
+      <a href="x-videoservicethief-ubuntu-18-command">X videoservicethief Ubuntu 18 command</a> 
+      <a href="ubuntu-games">Ubuntu Games</a> 
+      <a href="ubuntu-update-command">Ubuntu Update Command</a> 
+      <a href="ubuntu-lts">Ubuntu LTS</a> 
+      <a href="vscode-for-ubuntu">vscode for Ubuntu</a> 
+      <a href="android-studio-ubuntu">Android Studio Ubuntu</a> 
+      <a href="anydesk-ubuntu">AnyDesk Ubuntu</a> 
+      <a href="ask-ubuntu">Ask Ubuntu</a> 
+      <a href="boot-repair-ubuntu">Boot Repair Ubuntu</a> 
+      <a href="install-aws-cli-ubuntu">Install AWS CLI Ubuntu</a> 
+      <a href="install-nvm-ubuntu">Install NVM Ubuntu</a> 
+      <a href="install-jdk-ubuntu">Install JDK Ubuntu</a> 
+      <a href="install-rvm-ubuntu">Install RVM Ubuntu</a> 
+      <a href="install-skype-ubuntu">Install Skype Ubuntu</a> 
+      <a href="ubuntu-budgie">Ubuntu Budgie</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Editors</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-text-editors">Linux Text Editors</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux vi Editor</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="vi-editor">Vi Editor</a> 
+      <a href="linux-vi-switch">1) switch</a> 
+      <a href="linux-vi-move">2) move</a> 
+      <a href="linux-vi-jump">3) jump</a> 
+      <a href="linux-vi-delete">4) delete</a> 
+      <a href="linux-vi-undo-and-repeat">5) undo and repeat</a> 
+      <a href="linux-vi-cut-copy-paste">6) cut, copy, paste</a> 
+      <a href="linux-vi-cut-copy-paste-blocks">7) cut, copy, paste blocks</a> 
+      <a href="linux-vi-start-and-end">8) Start and end</a> 
+      <a href="linux-vi-joining">9) Joining</a> 
+      <a href="linux-vi-word">10) word</a> 
+      <a href="linux-vi-searhing">11) Search</a> 
+      <a href="linux-vi-replace-all">12) Replace all</a> 
+      <a href="linux-vi-text-buffers">13) Text Buffers</a> 
+      <a href="linux-vi-abbreviations">14) Abbreviations</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux System Admin</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-system-admin-commands">Linux Admin Commands</a> 
+      <a href="linux-uptime">Linux uptime</a> 
+      <a href="linux-service">Linux service</a> 
+      <a href="linux-pmap"> Linux pmap</a> 
+      <a href="linux-wget"> Linux wget command</a> 
+      <a href="linux-ftp-and-sftp">Linux ftp or sftp</a> 
+      <a href="linux-free-command">Linux free Command</a> 
+      <a href="linux-top">Linux top</a> 
+      <a href="linux-last">Linux last</a> 
+      <a href="linux-ps">Linux ps</a> 
+      <a href="linux-shutdown">Linux shutdown</a> 
+      <a href="linux-info">Linux info</a> 
+      <a href="linux-env">Linux env</a> 
+      <a href="linux-du">Linux du</a> 
+      <a href="linux-init">Linux init</a> 
+      <a href="linux-nano-editor">Linux Nano Editor</a> 
+      <a href="linux-shred"> Linux shred</a> 
+      <a href="linux-mount">Linux mount</a> 
+      <a href="linux-route">Linux route</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Linux Man Pages</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-man">Linux man</a> 
+      <a href="linux-man-a">Linux man -a</a> 
+      <a href="linux-man-aw">Linux man -aw</a> 
+      <a href="linux-man-f">Linux man -f</a> 
+      <a href="linux-man-k">Linux man -k(apropos)</a> 
+      <a href="linux-man-whereis">Linux man whereis</a> 
+      <a href="whatis-command-in-linux">Whatis command in Linux</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Error Codes</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="linux-error-codes">Linux Error Codes</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <a href="linux-interview-questions"><span>Linux Interview</span></a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="anydesk-ubuntu">next &#x2192;</a> 
+            <a class="next" href="vscode-for-ubuntu">&#x2190; prev</a> 
+           </div> <h1 class="h1">Android Studio Ubuntu</h1> <h2 class="h2">What is Android Studio?</h2> <p><strong><em>Android Studio</em></strong> is an <strong><em>official IDE (Integrated Development Environment)</em></strong> for the development of an Android app that is based on the <strong><em>IntelliJ IDEA.</em></strong> Android Studio provides more aspects that increase our productivity when creating Android apps on top of the strong code editor of <strong><em>IntelliJ.</em></strong></p> <p>Some of these aspects are mentioned below:</p> 
+           <ul class="points"> 
+            <li>A formative build system (Gradle-based)</li> 
+            <li>A feature-rich and fast emulator</li> 
+            <li>A unified platform where we can develop for every Android device</li> 
+            <li>Apply modifications for pushing resource changes and code to our running application without rebooting our application</li> 
+            <li>Extensive testing frameworks and tools</li> 
+            <li>Lint tools for catching performance, version compatibility, usability, and other issues</li> 
+            <li>NDK and C++ support</li> 
+            <li>Support (built-in) for Google Cloud Platform, trying to make it convenient for integrating App Engine and Messaging of Google Cloud</li> 
+           </ul> <h2 class="h2">Project Structure of Android Studio</h2> <p>All projects in Android Studio show the files of our project in the <strong><em>view</em></strong> of <strong><em>Android Studio.</em></strong> The view is coordinated by modules for providing fast access to the key source files of our project. Every build file is visible under <strong><em>Gradle Scripts</em></strong> on the top level and all modules of the app contain folders. These folders are:</p> 
+           <ul class="points"> 
+            <li><strong>res:</strong> It contains each non-code resource like bitmap images, UI strings, and XML layouts.</li> 
+            <li><strong>java:</strong> It contains the source code files of Java such as JUnit test code.</li> 
+            <li><strong>manifests:</strong> It contains the file, i.e., <strong><em>AndroidManifest.xml.</em></strong></li> 
+           </ul> <p>On disk, the project structure of Android Studio differs through the flattened representation. We need to choose the Project using the drop-down of the Project to see the original project file structure. Also, we can customize the project file's view for focusing on the specific features of the development of our app.</p> <p><strong><em>For example,</em></strong> choosing the view, i.e., <strong><em>Problems</em></strong> of our project will show many links for the source files including any recognized syntax and coding errors like a missing element closing tag of XML inside the layout file.</p> <p>By applying the <strong><em>Gradle flexibility,</em></strong> we can achieve each of them without changing the core source files of our app. Android Studio creates files are called <strong><em>build.gradle.</em></strong> These files are plain text files that apply Groovy syntax for configuring the build along with elements offered by the Android plugin for Gradle.</p> <p>All projects have one file of top-level build for the whole project and isolate the files of module-level build for all modules. Automatically, Android Studio generates the mandatory build files when we import an available project.</p> <h2 class="h2">What is a Gradle-based build system?</h2> <p><strong><em>Android Studio</em></strong> applies <strong><em>Gradle</em></strong> as the <strong><em>build system's foundation</em></strong> along with more specific compatibilities of Android offered via the <strong><em>Android plugin for Gradle.</em></strong> The build system executes as a consolidated tool from the menu of Android Studio and the terminal or command line independently. We can use the aspects of this build system for doing the below:</p> 
+           <ul class="points"> 
+            <li>Extend, configure, and customize the process of the build.</li> 
+            <li>Establish more than one APK for our app along with different aspects using similar modules and projects.</li> 
+            <li>Reuse resources and code across source sets.</li> 
+           </ul> <h2 class="h2">Components of Gradle-based build system</h2> <h3 class="h3">Build Variants</h3> <p>A build system can support us to establish distinct versions of a similar application using one project. It is helpful when we have both a paid version and a free version of our app, or if we wish to distribute more than one <strong><em>APK</em></strong> for different configurations of devices on <strong><em>Google Play.</em></strong></p> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu1.png" alt="Android Studio Ubuntu"> <h3 class="h3">Multiple Support of APK</h3> <p>Multiple support of <strong><em>APK</em></strong> permits us for efficiently creating more than one APK that is based on ABI or screen density. <strong><em>For example,</em></strong> we can create different APKs of any app for the <strong><em>mdpi</em></strong> and <strong><em>hdpi</em></strong> screen densities, even still examining them one variant and permitting them for sharing for test APK, ProGuard settings, dx, and javac.</p> <h3 class="h3">Resource Shrinking</h3> <p>In <strong><em>Android Studio,</em></strong> resource shrinking automatically deletes unused resources through our library dependencies and package app. <strong><em>For example,</em></strong> if our application is using services of <strong><em>Google Play</em></strong> for accessing the functionalities of Google Drive, and we are currently not using <strong><em>Google Sign-In,</em></strong> resource shrinking can delete several drawable assets for the button, i.e., <strong><em>SignInButton.</em></strong></p> <h3 class="h3">Managing dependencies</h3> <p>Many dependencies for our project are described by a name inside the file, i.e., <strong><em>build.gradle.</em></strong> Gradle will take care of finding our dependencies and enabling them available in our build. We can declare the dependencies of the module, dependencies of remote binary, and dependencies of local binary in our file, i.e., <strong><em>build.gradle.</em></strong> By default, Android Studio can configure projects using the repository of Maven Central. This configuration is added in the build file (top-level) for the project.</p> <h2 class="h2">Profile and debug tools Gradle-based build system</h2> <p>Android studio and assist us in debugging and enhancing the performance of our code, including performance analysis tools and inline debugging.</p> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu2.png" alt="Android Studio Ubuntu"> <h3 class="h3">Inline debugging</h3> <p>We can apply <strong><em>inline debugging</em></strong> for enhancing our code walk-throughs inside the view of the debugger along with inline verification of variable values, expressions, and references.</p> 
+           <ul class="points"> 
+            <li>The information of inline debug includes:</li> 
+            <li>Tooltip values</li> 
+            <li>Operator and lambda expressions</li> 
+            <li>Method return values</li> 
+            <li>Referring many objects that can reference chosen object</li> 
+            <li>Inline variable values</li> 
+           </ul> <h3 class="h3">Performance profilers</h3> <p>Android Studio offers performance profilers so we can easily track the memory and CPU usage, analyze network requests, optimize graphics performance, locate memory leaks, and find deallocated objects of our app. We can open the tab, i.e., Android Profiler using our app running on an emulator or device.</p> <h3 class="h3">Heap dump</h3> <p>Simultaneously we can dump the Java heap and start garbage collection to the heap snapshot within the Android-specific binary format file (HPROF) when we are profiling the usage of memory in Android studio.</p> <p>The viewer of HPROF shows classes, a reference tree, and instances of all classes for helping us to find memory leaks and track the usage of memory.</p> <h3 class="h3">Memory profiler</h3> <p>We can use a memory profiler for tracking the allocation of memory and see where the objects are allocated if we perform many actions. Understanding these allocations makes us for optimizing the performance and memory use of our app by managing the method calls corresponding to those actions.</p> <h3 class="h3">Access of data file</h3> <p>The tools of <strong><em>Android SDK</em></strong> like <strong><em>logcat</em></strong> and <strong><em>Systrace</em></strong> generate debugging and performance data for complete app analysis. We need to open the tool window, i.e., Captures for viewing the available produced data files.</p> <p>We need to double-click on any file for viewing the data inside the list of the produced files. We need to right-click on any file, i.e., <strong><em>.hprof</em></strong> for converting them to a standard file format, i.e., <strong><em>Investigate our RAM usage.</em></strong></p> <h3 class="h3">Code inspections</h3> <p>Automatically, Android studio executes configured Lint and other types of <strong><em>IDE inspections</em></strong> for helping us easily recognize and solve problems along with the structural quality of our code.</p> <p>The Lint tool can check the source files of our Android project for internationalization, accessibility, usability, performance, security, potential bugs, and optimization development for correctness. Also, Android studio performs the code inspection of IntelliJ and validates many annotations for streamlining the workflow of our coding in inclusion to Lint checks.</p> <h3 class="h3">Android Studio Annotations</h3> <p>Android Studio can support annotations for return values, parameters, and variables for helping us catch bugs like resource type conflicts and null pointer exceptions. The manager of Android SDK can package the library of Support-Annotations within the support repository of Android for application with Android Studio. Also, Android Studio can validate many configured annotations at the time of code inspection.</p> <h3 class="h3">Log messages</h3> <p>We can check the adb output and the log messages of the device inside the Logcat window if we build and execute our app using Android Studio.</p> <h3 class="h3">Performance profiling</h3> <p>We need to start the Android Profiler by selecting <strong><em>View &gt; Tool Windows &gt; Android Profiler</em></strong> if we wish to profile the network performance, memory, and CPU of our app.</p> <h2 class="h2">User Interface of Android Studio</h2> <p>Some of the important components of the user interface of Android Studio are mentioned below:</p> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu3.png" alt="Android Studio Ubuntu"> 
+           <ul class="points"> 
+            <li><strong>Toolbar:</strong> It lets us carry out a huge variety of actions such as launching the tools of Android and running our app.</li> 
+            <li><strong>Navigation bar:</strong> It helps us to navigate to our project and start files to edit. It gives a more compact structure view that is visible inside the window, i.e., <strong><em>Project.</em></strong></li> 
+            <li><strong>Editor Window:</strong> It is where we build and change code. The editor can modify depending on the latest file type. <strong><em>For example,</em></strong> the editor shows the <strong><em>Layout Editor</em></strong> if viewing the layout file.</li> 
+            <li><strong>Tool Window bar:</strong> It executes around the IDE window's outside and includes the buttons that permit us for expanding or collapsing single tool windows.</li> 
+            <li><strong>Tool Windows:</strong> It gives us access to unique tasks such as version control, search, project management, and more. We can spread them and collapse them.</li> 
+            <li><strong>Status bar:</strong> It shows the status of the IDE itself, our project, and any messages or warnings.</li> 
+           </ul> <p>We can organize the primary window for giving ourselves more space on the screen by moving or hiding tool windows and toolbars. Also, we can use the shortcuts of the keyboard for accessing almost all features of IDE.</p> <p>We can search across the components of the user interface, actions, databases, source code, and so on, by double-clicking on the key, i.e., <strong><em>Shift,</em></strong> or pressing the magnifying glass inside the upper right-hand side of the Android Studio window. It can be very helpful when, for example, we are trying to locate a specific action of IDE that we have forgotten how to trigger.</p> <h3 class="h3">Tool Windows</h3> <p>Android Studio pursues our context and brings up corresponding to windows automatically as we work rather than applying pre-set perspectives. The most generally used tool windows are by default pinned to a tool window are at many applications window edges.</p> 
+           <ul class="points"> 
+            <li>For expending or collapsing a tool window, we need to click on the name of the tool inside the tool window bar. Also, we can attach, detach, unpin, pin, and drag tool windows.</li> 
+            <li>For returning to our current layout of the default tool window, we need to select <strong>Window &gt; Restore Default Layout</strong> or customize our default layout by pressing <strong>Window &gt; Store Current Layout as Default.</strong></li> 
+            <li>For showing or hiding the whole tool window bar, we need to select the icon, i.e., the window inside the bottom left-hand side of the Android Studio Window.</li> 
+            <li>For locating a particular tool window, we need to hover on the icon of the window and choose the tool window using the menu.</li> 
+           </ul> <p>Also, we can use the shortcuts of the keyboard for opening the tool windows.</p> <h2 class="h2">Code completion of Android studio</h2> <p>Android studio contains three code completion types that we can access with keyboard shortcuts.</p> <p>A few keyboard shortcuts for Android studio code completion are mentioned below:</p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <th>Type</th> 
+              <th>Explanation</th> 
+              <th>Linux and Windows</th> 
+              <th>Mac</th> 
+             </tr> 
+             <tr> 
+              <td><strong>Basic completion</strong></td> 
+              <td>It shows basic recommendations for expressions, methods, types, variables, and so on. If we call common completion twice within a row, then we will see more outputs like non-imported static members and private members.</td> 
+              <td><strong>Ctrl+Space</strong></td> 
+              <td><strong>Ctrl+Space</strong></td> 
+             </tr> 
+             <tr> 
+              <td><strong>Smart completion</strong></td> 
+              <td>It shows corresponding options that are based on a context. This completion type is known to the data flows and expected type. If we call this completion twice within a row, then we will see more outputs like chains.</td> 
+              <td><strong>Ctrl+Shift+Space</strong></td> 
+              <td><strong>Ctrl+Shift+Space</strong></td> 
+             </tr> 
+             <tr> 
+              <td><strong>Statement completion</strong></td> 
+              <td>It completes the latest statement for us adding missing braces, brackets, formatting, etc.</td> 
+              <td><strong>Ctrl+Shift+Enter</strong></td> 
+              <td><strong>Shift+Command+Enter</strong></td> 
+             </tr> 
+            </tbody>
+           </table> <p>Also, we can display intention actions and perform quick fixes by clicking <strong><em>Alt+Enter.</em></strong></p> <h2 class="h2">Find sample code in Android Studio</h2> <p>In Android Studio, the browser of the Code Sample supports us to find Google-provided and high-quality samples of Android code that are based on the highlighted symbol currently in our project.</p> <h3 class="h3">Navigation</h3> <p>Here are a few tips to support us to move across Android Studio:</p> 
+           <ul class="points"> 
+            <li>Switching between our accessed files (recently) with the help of an action, i.e., <strong><em>Recent Files.</em></strong> We need to click <strong><em>Control+E</em></strong> for bringing up the <strong><em>Recent Files</em></strong> action.</li> 
+            <li>Viewing the current file's structure with the help of an action, i.e., <strong><em>File Structure.</em></strong> We need to click <strong><em>Control+F12</em></strong> for bringing up the <strong><em>File Structure</em></strong> action.</li> 
+            <li>Navigate to and search for a particular class in our project with the help of an action, i.e., <strong><em>Navigate to Class.</em></strong> We need to click <strong><em>Control+N</em></strong> for bringing up the <strong><em>Navigate to class</em></strong> action.</li> 
+            <li>Navigate to a folder or file with the help of an action, i.e., <strong><em>Navigate to File.</em></strong> We need to click <strong><em>Control+Shift+N</em></strong> for bringing up the <strong><em>Navigate to File</em></strong> action.</li> 
+            <li>Navigate to a field or method by name with the help of an action, i.e., <strong><em>Navigate to Symbol.</em></strong> We need to click <strong><em>Control+Shift+Alt+N </em></strong>for bringing up the <strong><em>Navigate to Symbol</em></strong> action.</li> 
+           </ul> <h3 class="h3">Formatting and Style</h3> <p>Automatically, Android Studio uses styles and formatting as described in the style settings of our code as we edit. We can customize the style settings of the code using programming languages line describing conventions for blank lines, braces, wrapping, spaces, indents, and tabs.</p> <p>For customizing the style settings of our code, we need to press <strong><em>File &gt; Settings &gt; Editor &gt; Code Style &gt; (Android Studio &gt; Preferences &gt; Editor &gt; Code Style</em></strong> in a Mac system).</p> <p>However, the IDE uses formatting automatically as we work. Also, we can call the action, i.e., <strong><em>Reformat Code</em></strong> explicitly by clicking <strong><em>Control+Alt+L</em></strong> or auto-indent every line by clicking <strong><em>Control+Alt+l.</em></strong></p> <h2 class="h2">Prerequisites</h2> 
+           <ul class="points"> 
+            <li>64-bit distro capable of executing 32-bit applications.</li> 
+            <li>Min 3 GB RAM and 1 GB for Android emulator.</li> 
+            <li>GNU C library 2.19 or later.</li> 
+            <li>Min space of the disk of 2 GB.</li> 
+            <li>The min resolution of the screen must be 1280*800.</li> 
+           </ul> <h3 class="h3">First Method: Using the Ubuntu Software Centre</h3> <p>Android Studio can easily be installed using the Ubuntu Software Centre. However, the desired application should available within the software store.</p> 
+           <ul class="points"> 
+            <li> We need to check out the <strong><em>Ubuntu Software Centre</em></strong> for installing <strong><em>Android Studio</em></strong> and find <strong><em>Android Studio.</em></strong><br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu4.png" alt="Android Studio Ubuntu"> </li> 
+            <li> We will need to select the button, i.e., <strong><em>Install</em></strong> when we found the application. <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu5.png" alt="Android Studio Ubuntu"> </li> 
+            <li>We will be asked for a password for confirming the process of the installation. Within the application tray, we will have the icon of <strong><em>Android Studio</em></strong> when the process of the installation gets finished.</li> 
+            <li>We can see the section of the final setup when it is successfully installed.</li> 
+           </ul> <h3 class="h3">Second Method: With the Snap Tool</h3> <p>It will become very convenient to install the software packages if the snap tool exists. We don't need to change any type or file in any command. However, we require to have the Snap that is installed in our computer inside the first position. Snap can be installed with the help of the following command:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo apt-get install snapd
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu6.png" alt="Android Studio Ubuntu"> <p>We can continue installing <strong><em>Android Studio</em></strong> when the installation process of Snap is completed. It can be done with the help of the following command:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo snap install android-studio
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu7.png" alt="Android Studio Ubuntu"> <p>We will have to wait for some time as it might take some minutes. It should be successfully installed, but for a few reasons, when it gives an error, then we need to include a parameter, i.e., <strong><em>--classic</em></strong> in the command as mentioned below:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo snap install android-studio --classic
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu8.png" alt="Android Studio Ubuntu"> <p>We can see the section of the final setup when it is successfully installed.</p> <h3 class="h3">Third Method: With the Zip File</h3> <h3 class="h4">Install Java OpenJDK</h3> <p>We need the 8<sup>th</sup> version of the <strong><em>OpenJDK</em></strong> to be installed on our system for installing <strong><em>Android Studio.</em></strong> We will first install <strong><em>OpenJDK 8.</em></strong> We can simply begin by updating a package index as the installation process is very easy:</p> <p>We can use the following command for updating the package index:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo apt update
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu9.png" alt="Android Studio Ubuntu"> <p>We will now install the 8<sup>th</sup> package version of the OpenJDK with the help of the following command:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo apt install openjdk-8-jdk
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu10.png" alt="Android Studio Ubuntu"> <p>We can enter the following command for verifying the installation process to see the version:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ java -version
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu11.png" alt="Android Studio Ubuntu"> <h2 class="h2">Install Android studio</h2> <p>We need to open the terminal with the help of the keyboard shortcut, i.e., Ctrl+Alt+T, and enter the following command for downloading and installing the snap package of the Android studio:</p> 
+           <div class="codeblock">
+            <textarea name="code" class="xml">
+$ sudo snap install android-studio --classic
+</textarea>
+           </div> <br> <img src="https://static.javatpoint.com/linux/images/android-studio-ubuntu12.png" alt="Android Studio Ubuntu"> <p>We will find the below output when the process of installation is finished:</p> <p>Android studio is installed on the Ubuntu desktop successfully.</p> <h2 class="h2">Getting started with Android studio</h2> <p>We can begin Android Studio from our terminal or command line by entering <strong><em>android-studio</em></strong> in the terminal or by pressing the icon of <strong><em>Android Studio</em></strong> when the <strong><em>Android Studio</em></strong> application has been installed in our system with the help of the above methods.</p> <p>The following window will occur prompting us for importing the settings of Android Studio using the previous installation when we begin the Android Studio application for the very first time.</p> <p>The window, i.e., <strong><em>Setup Wizard</em></strong> will occur when we press on the button, i.e.,<strong><em> OK.</em></strong> We need to press the next button for starting the post-installation steps and initial configuration. Now option to select the setup type we wish for <strong><em>Android Studio</em></strong> will occur. We can choose the options, i.e., <strong><em>Standard</em></strong> or <strong><em>Custom</em></strong> if we wish to customize the Android studio.</p> <p>We can choose the <strong><em>theme of UI</em></strong> and <strong><em>the Setup Wizard</em></strong> in the upcoming step. This step will help us to download and install the needed components of SDK. This process might take some time relying on the connection speed and our system. The welcome page would be represented when the IDE of Android Studio is loaded.</p> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="anydesk-ubuntu">AnyDesk Ubuntu</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="vscode-for-ubuntu">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="anydesk-ubuntu">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f6909393929497959db69c9780978286999f9882d895999b">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/android-studio-ubuntu"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/android-studio-ubuntu"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/android-studio-ubuntu"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b8d0caf8d2d9ced9ccc8d7d1d6cc96dbd7d5">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e8809aa882899e899c988781869cc68b8785c6">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

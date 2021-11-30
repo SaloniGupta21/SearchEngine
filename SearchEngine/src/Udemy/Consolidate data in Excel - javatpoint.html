@@ -1,0 +1,1147 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Consolidate data in Excel - javatpoint</title>
+  <link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png"> 
+  <link rel="stylesheet" type="text/css" href="https://static.javatpoint.com/link.css?v=5.0" async>
+  <link rel="dns-prefetch" href="https://clients1.google.com">
+  <link rel="dns-prefetch" href="https://static.javatpoint.com">
+  <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://feedify.net">
+  <meta name="theme-color" content="#4CAF50">
+  <meta property="og:title" content="Consolidate data in Excel - javatpoint">
+  <meta property="og:description" content="Consolidate data in Excel with topics of ribbon and tabs, quick access toolbar, mini toolbar, buttons, worksheet, data manipulation, function, formula, vlookup, isna and more."> 
+  <meta name="keywords" content="excel, tutorial, beginners, professionals, introduction, example, vlookup, formatting, insertion, design, layout, function, formula, vlookup, isna">
+  <meta name="description" content="Consolidate data in Excel with topics of ribbon and tabs, quick access toolbar, mini toolbar, buttons, worksheet, data manipulation, function, formula, vlookup, isna and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.javatpoint.com/consolidate-data-in-excel"> 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" property="og:title" content="Consolidate data in Excel - javatpoint">
+  <meta name="twitter:description" property="og:description" content="Consolidate data in Excel with topics of ribbon and tabs, quick access toolbar, mini toolbar, buttons, worksheet, data manipulation, function, formula, vlookup, isna and more.">
+  <meta property="og:url" content="https://www.javatpoint.com/consolidate-data-in-excel">
+  <meta property="og:site_name" content="www.javatpoint.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pagejavatpoint">
+  <meta name="twitter:domain" content="www.javatpoint.com">
+  <meta name="twitter:creator" content="@pagejavatpoint"> 
+  <link href="https://www.javatpoint.com/manifest.json" rel="manifest"> 
+  <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script> 
+  <script data-cfasync="false" type="text/javascript">
+(function (w, d) {
+  var siteId = "37780";
+  var targetElement =
+    d.getElementsByTagName("head")[0] || d.getElementsByTagName("body")[0];
+  var s = d.createElement("script");
+  s.src = "//cdn.adpushup.com/" + siteId + "/adpushup.js";
+  s.crossOrigin = "anonymous";
+  s.type = "text/javascript";
+  s.async = true;
+  targetElement.appendChild(s);
+  function sendErrorLog(log) {
+    var eventName = "script_error";
+    log.siteId = siteId;
+    var data = btoa(JSON.stringify(log));
+    var img = document.createElement("img");
+    img.src =
+      "https://aplogger.adpushup.com/log?event=HC_" + eventName + "&data=" + data;
+  }
+  var searchParams =
+    typeof URLSearchParams === "function" &&
+    new URLSearchParams(window.location.search);
+  if (searchParams) {
+    var isDebugModeOn = searchParams.has("apDebug");
+  }
+  w.addEventListener("error", function (event) {
+    try {
+      var filename = event.filename || "";
+      if (filename.indexOf("/" + siteId + "/adpushup.js") === -1) {
+        return;
+      }
+      var error = event.error;
+      if (error) {
+        var message = error.message;
+        var stack = error.stack;
+      }
+      message = message || event.message;
+      var log = {
+        message: message,
+        stack: stack || "",
+        timestamp: Math.floor(event.timeStamp),
+        type: "uncaughterror",
+      };
+      sendErrorLog(log);
+      !isDebugModeOn && event.preventDefault();
+    } catch (error) {}
+  });
+  w.addEventListener("unhandledrejection", function (event) {
+    var reason = event.reason;
+    if (typeof reason === "object") reason = JSON.stringify(reason);
+    var log = {
+      message: reason || "no reason found",
+      timestamp: Math.floor(event.timeStamp),
+      type: "unhandledrejection",
+    };
+    sendErrorLog(log);
+    !isDebugModeOn && event.preventDefault();
+  });
+  var ga = d.createElement("script");
+  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-Z0TZ7TDHS1";
+  ga.type = "text/javascript";
+  ga.async = true;
+  targetElement.appendChild(ga);
+  w.dataLayer = window.dataLayer || [];
+  w.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  w.gtag("js", new Date());
+  w.gtag("config", "G-Z0TZ7TDHS1", {
+    custom_map: { dimension1: "siteid" },
+  });
+  w.gtag("event", "script-call", {
+    send_to: "G-Z0TZ7TDHS1",
+    siteid: siteId,
+  });
+  s.onerror = function (msg) {
+    w.gtag("event", "ad-block", {
+      send_to: "G-Z0TZ7TDHS1",
+      siteid: siteId,
+    });
+  };
+})(window, document);
+</script> 
+ </head> 
+ <body onload="highlightlink()"> 
+  <button onclick="topFunction()" id="myBtn">&#x21e7; SCROLL TO TOP</button> 
+  <div id="page" style="margin:-8px;background-color:#f5f5f4;">
+   <div id="container"> 
+    <div class="header">
+     <table style="width:100%;margin-bottom:5px"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> 
+          <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a> 
+         </div> 
+         <div style="float:left;width:60%;">
+          <script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+          <gcse:search></gcse:search> 
+         </div> </td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+    <div class="headermobile"> 
+     <div style="margin-top:10px;padding:0px;text-align:left;"> 
+      <span style="float:left"><input type="image" src="https://www.javatpoint.com/images/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span> 
+      <span style="float:left"><a href="https://www.javatpoint.com"><img src="https://www.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo"></a></span> 
+     </div> 
+     <div style="margin:0px;padding:0px;clear:both"> 
+      <script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script> 
+      <gcse:search></gcse:search> 
+     </div> 
+    </div> 
+    <div id="link" style="clear:both"> 
+     <div class="ddsmoothmenu"> 
+      <ul> 
+       <li><a href="https://www.javatpoint.com">Home</a></li> 
+       <li><a href="excel-tutorial" class="selected">Excel</a></li> 
+       <li><a href="ms-word-tutorial">MS Word</a></li> 
+       <li><a href="powerpoint-tutorial">PowerPoint</a></li> 
+       <li><a href="c-programming-language-tutorial">C</a></li> 
+       <li><a href="c-sharp-tutorial">C#</a></li> 
+       <li><a href="java-tutorial">Java</a></li> 
+       <li><a href="php-tutorial">PHP</a></li> 
+       <li><a href="html-tutorial">HTML</a></li> 
+       <li><a href="sql-tutorial">SQL</a></li> 
+       <li><a href="pl-sql-tutorial">PL/SQL</a></li> 
+       <li><a href="python-tutorial">Python</a></li> 
+       <li><a href="web-services-tutorial">Web Services</a></li> 
+       <li><a href="examaccess">Quiz</a></li> 
+       <li><a href="free-java-projects">Projects</a></li> 
+       <li><a href="corejava-interview-questions">Interview Q</a></li> 
+       <li><a href="comment.jsp">Comment</a></li> 
+       <li><a href="forum">Forum</a></li> 
+       <li><a href="training">Training</a></li> 
+      </ul> 
+      <br style="clear: left"> 
+     </div>
+    </div> 
+    <div class="mobilemenu" style="clear:both"> 
+     <ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <div id="menu"> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">MS Excel Tutorial</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-tutorial">Excel Tutorial</a> 
+      <a href="what-is-workbook-window">Workbook Window</a> 
+      <a href="how-to-create-and-open-workbooks">Create &amp; Open Workbooks</a> 
+      <a href="what-is-microsoft-excel-online">MS Excel Online</a> 
+      <a href="excel-vs-google-sheets">Excel vs Google Sheets</a> 
+      <a href="office-button-in-excel">Office Button</a> 
+      <a href="excel-ribbon-and-tabs">Ribbon and Tabs</a> 
+      <a href="features-of-the-tabs-in-excel">Features of Tabs</a> 
+      <a href="excel-quick-access-tool-bar">Quick Access Toolbar</a> 
+      <a href="excel-mini-tool-bar">Mini Toolbar</a> 
+      <a href="excel-title-bar">Title, Help, Zoom, View</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel Worksheet</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-work-sheet-rows-columns-cells">Worksheet, Row, Column</a> 
+      <a href="excel-moving-across-the-worksheet">Moving on Worksheet</a> 
+      <a href="excel-how-to-enter-data">Enter Data</a> 
+      <a href="excel-how-to-select-data">Select Data</a> 
+      <a href="excel-how-to-delete-data-rows-columns">Delete Data</a> 
+      <a href="excel-how-to-move-data">Move Data</a> 
+      <a href="excel-how-to-copy-paste-data">Copy Paste Data</a> 
+      <a href="excel-how-to-use-spell-check">Spell Check</a> 
+      <a href="excel-how-to-insert-symbols-special-characters">Insert Symbols</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel Calculation</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-how-to-do-addition">Addition</a> 
+      <a href="excel-using-sigma-button-to-do-addition">Sigma Addition</a> 
+      <a href="excel-how-to-do-subtraction">Subtraction</a> 
+      <a href="excel-how-to-calculate-average">Calculate Average</a> 
+      <a href="excel-using-sigma-button-to-calculate-average">Sigma Average</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel Fill Handle</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-fill-handle">Fill Handle</a> 
+      <a href="excel-fill-handle-with-text">Fill Handle with Text</a> 
+      <a href="excel-fill-handle-with-text-and-numbers">Text with Numbers</a> 
+      <a href="excel-fill-handle-with-dates">Fill Handle with Dates</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel Formula</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-creating-formulas">Create Formula</a> 
+      <a href="excel-fill-handle-in-formulas">Fill Handle in Formula</a> 
+      <a href="excel-relative-referencing">Relative Referencing</a> 
+      <a href="excel-absolute-referencing">Absolute Referencing</a> 
+      <a href="excel-instruction-while-typing-data">Instruction for Typing</a> 
+      <a href="quick-excel-functions">Quick Excel Functions</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel IF</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-if-function">If Function</a> 
+      <a href="excel-if-function-with-calculations">If with Calculations</a> 
+      <a href="how-to-use-count-countif-and-countifs-function">Excel COUNTIF</a> 
+      <a href="excel-advanced-if-functions">Advanced If</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Excel Advanced</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-macros">Excel Macros</a> 
+      <a href="excel-sumif-function">Excel sumif</a> 
+      <a href="excel-vlookup">Excel vlookup</a> 
+      <a href="excel-pivot-table">What is Pivot Table</a> 
+      <a href="excel-isna-function">Excel ISNA</a> 
+      <a href="how-to-find-and-remove-duplicates-in-microsoft-excel">Find &amp; Remove Duplicates</a> 
+      <a href="how-to-create-drop-down-list-in-excel">Create drop-down List</a> 
+      <a href="how-to-merge-cells-in-microsoft-excel">Merge cells in Excel</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Misc</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="how-to-enable-macros-in-excel">How to enable macros in excel</a> 
+      <a href="how-to-calculate-age-in-excel">How to calculate age in Excel</a> 
+      <a href="how-to-create-a-pivot-table-in-excel">How to create a Pivot Table in excel</a> 
+      <a href="how-to-enable-the-developer-tab-in-excel">How to enable the Developer Tab in Excel</a> 
+      <a href="how-to-calculate-standard-deviation-in-excel">How to Calculate Standard Deviation in Excel</a> 
+      <a href="how-to-calculate-time-difference-in-excel">How to Calculate Time Difference in Excel</a> 
+      <a href="how-to-freeze-cells-in-excel">How to Freeze Cells in Excel</a> 
+      <a href="what-if-analysis-in-excel">What-if Analysis in Excel</a> 
+      <a href="how-to-insert-checkbox-in-ms-excel">How To Insert Checkbox in MS Excel</a> 
+      <a href="how-to-insert-pdf-in-ms-excel">How To Insert PDF in MS Excel</a> 
+      <a href="how-to-change-the-date-format-in-excel">How to change the Date Format in Excel</a> 
+      <a href="how-to-compare-two-excel-sheet">How to compare two Excel sheet</a> 
+      <a href="how-to-apply-filter-in-excel">How To Apply Filter In Excel</a> 
+      <a href="how-to-move-columns-in-excel">How To Move Columns In Excel</a> 
+      <a href="how-to-add-or-remove-hyperlink-in-excel">How to add or remove Hyperlink in Excel</a> 
+      <a href="how-to-calculate-mean-in-excel">How to calculate Mean in Excel</a> 
+      <a href="how-to-separate-text-in-excel">How to Separate text in Excel</a> 
+      <a href="how-to-recover-a-macro-in-excel">How to recover a macro in Excel</a> 
+      <a href="how-to-recover-a-corrupted-excel-file">How to recover a Corrupted Excel file</a> 
+      <a href="how-to-recover-an-excel-file">How to recover an Excel file</a> 
+      <a href="how-to-remove-comma-in-excel">How to remove comma in Excel</a> 
+      <a href="how-to-sum-a-column-in-excel">How to sum a column in Excel</a> 
+      <a href="how-to-remove-the-filter-in-excel">How to remove the filter in Excel</a> 
+      <a href="how-to-remove-gridlines-in-excel">How to remove gridlines in Excel</a> 
+      <a href="how-to-convert-excel-to-csv">How To Convert Excel To CSV</a> 
+      <a href="how-to-create-table-in-excel">How To Create Table in Excel</a> 
+      <a href="how-to-calculate-irr-in-excel">How to Calculate IRR in Excel</a> 
+      <a href="how-to-count-characters-in-excel">How to Count Characters in Excel</a> 
+      <a href="how-to-make-an-excel-sheet">How to Make an Excel Sheet</a> 
+      <a href="how-to-replace-words-in-excel">How to Replace Words in Excel</a> 
+      <a href="how-to-sort-by-date-in-excel">How to Sort by Date in Excel</a> 
+      <a href="how-to-hide-formulas-in-excel">How to hide formulas in Excel</a> 
+      <a href="how-to-subtract-in-excel">How to subtract in excel</a> 
+      <a href="how-to-use-the-if-function-in-excel">How to use the IF function in Excel</a> 
+      <a href="how-to-create-a-graph-in-excel">How To Create A Graph In Excel</a> 
+      <a href="how-to-use-concatenate-in-excel">How to use concatenate in Excel</a> 
+      <a href="how-to-spell-check-in-excel">How to spell check in Excel</a> 
+      <a href="how-to-change-lowercase-to-uppercase-in-excel">How to Change Lowercase to Uppercase in Excel</a> 
+      <a href="how-to-create-a-dashboard-in-excel">How to Create a Dashboard in Excel</a> 
+      <a href="how-to-delete-duplicate-rows-in-excel">How to Delete Duplicate Rows in Excel</a> 
+      <a href="how-to-use-sumifs-formula-in-excel">How to use sumifs formula in Excel</a> 
+      <a href="how-to-add-page-break-in-excel">How to add page break in Excel</a> 
+      <a href="how-to-remove-the-page-break-in-excel">How to remove the page break in Excel</a> 
+      <a href="how-to-convert-columns-to-rows-in-excel">How to Convert Columns to Rows in Excel</a> 
+      <a href="how-to-convert-number-to-words-in-excel">How to Convert Number to Words in Excel</a> 
+      <a href="how-to-make-a-table-in-excel">How to Make a Table in Excel</a> 
+      <a href="how-to-put-tick-mark-in-excel">How to Put Tick Mark in Excel</a> 
+      <a href="how-to-remove-passwords-from-excel-file">How to Remove Passwords from Excel File</a> 
+      <a href="how-to-wrap-text-in-excel">How to Wrap Text in Excel</a> 
+      <a href="how-to-insert-comments-in-excel">How to insert comments in Excel</a> 
+      <a href="how-to-add-remove-password-from-excel">How to add/remove Password from Excel</a> 
+      <a href="how-to-use-ms-excel">How to use MS Excel</a> 
+      <a href="how-to-sort-in-excel">How to sort in Excel</a> 
+      <a href="how-to-record-a-macro-in-excel">How to record a macro in Excel</a> 
+      <a href="how-many-rows-and-columns-in-excel-2007">How Many Rows and Columns in Excel 2007</a> 
+      <a href="how-to-search-in-excel">How to Search in Excel</a> 
+      <a href="how-to-add-a-text-box-in-excel">How to add a text box in Excel</a> 
+      <a href="how-to-save-excel-document">How to save Excel document</a> 
+      <a href="how-to-set-background-image-in-excel">How to set background image in Excel</a> 
+      <a href="how-to-use-countif-function-in-excel">How to use COUNTIF function in Excel</a> 
+      <a href="how-to-import-the-data-from-csv-file-in-excel">How to import the data from CSV file in Excel</a> 
+      <a href="how-to-unlock-scroll-lock-in-excel">How to unlock scroll lock in Excel</a> 
+      <a href="what-is-a-cell-in-excel">What is a cell in Excel</a> 
+      <a href="uses-of-ms-excel">Uses of MS Excel</a> 
+      <a href="how-to-reduce-excel-file-size">How to Reduce Excel File Size</a> 
+      <a href="how-to-save-excel-file-as-pdf">How to Save Excel File as PDF</a> 
+      <a href="ods-to-excel">ODS to Excel</a> 
+      <a href="how-to-lock-cells-in-excel">How to lock cells in Excel</a> 
+      <a href="how-to-unlock-cells-in-excel">How to unlock cells in Excel</a> 
+      <a href="hyperlink-in-excel">Hyperlink in Excel</a> 
+      <a href="how-to-compare-two-columns-in-excel">How to compare two columns in Excel</a> 
+      <a href="conditional-formatting-in-excel">Conditional formatting in Excel</a> 
+      <a href="how-to-define-custom-rules-for-conditional-formatting-in-excel">How to define custom rules for conditional formatting in Excel</a> 
+      <a href="data-validation-in-excel">Data validation in Excel</a> 
+      <a href="apply-data-validation-in-excel">Apply data validation in Excel</a> 
+      <a href="remove-spaces-in-excel">Remove spaces in Excel</a> 
+      <a href="how-to-save-excel-file">How to Save Excel File</a> 
+      <a href="watermark-in-excel">Watermark in Excel</a> 
+      <a href="how-to-unhide-columns-in-excel">How to unhide columns in Excel</a> 
+      <a href="how-to-delete-blank-rows-in-excel">How to delete blank rows in Excel</a> 
+      <a href="excel-round-off-formula">Excel round off formula</a> 
+      <a href="how-to-add-watermark-in-excel">How to Add Watermark in Excel</a> 
+      <a href="how-to-remove-watermark-in-excel">How to Remove Watermark in Excel</a> 
+      <a href="excel-save-as-shortcut">Excel Save As Shortcut</a> 
+      <a href="excel-shortcut-keys">Excel Shortcut Keys</a> 
+      <a href="excel-match-function">Excel match function</a> 
+      <a href="hlookup-formula-in-excel">HLOOKUP formula in Excel</a> 
+      <a href="what-is-the-file-extension-for-excel">What is the file extension for Excel</a> 
+      <a href="offset-function-in-excel">Offset function in Excel</a> 
+      <a href="compound-interest-formula-in-excel">Compound interest formula in Excel</a> 
+      <a href="excel-password-remover">Excel password remover</a> 
+      <a href="fv-function-in-excel">FV() function in Excel</a> 
+      <a href="ms-excel-definition">MS Excel Definition</a> 
+      <a href="what-is-excel">What is Excel</a> 
+      <a href="excelity-login">Excelity login</a> 
+      <a href="income-tax-calculating-formula-in-excel">Income tax calculating formula in Excel</a> 
+      <a href="google-excel-spreadsheet">Google Excel Spreadsheet</a> 
+      <a href="online-excel-viewer">Online Excel Viewer</a> 
+      <a href="online-excel-editor">Online Excel Editor</a> 
+      <a href="how-to-make-pie-charts-in-excel">How to make pie charts in excel</a> 
+      <a href="how-to-calculate-number-of-days-between-two-dates-in-excel">How to calculate number of days between two dates in Excel</a> 
+      <a href="excel-download">Excel Download</a> 
+      <a href="download-ms-office-2019-using-command-prompt">Download MS Office 2019 using command prompt</a> 
+      <a href="download-windows-and-ms-office-activator">Download Windows and MS office activator</a> 
+      <a href="excel-header-and-footer">Excel Header and Footer</a> 
+      <a href="excel-to-jpg">Excel to JPG</a> 
+      <a href="jpg-to-excel">JPG to Excel</a> 
+      <a href="salary-slip-format-in-excel">Salary slip format in Excel</a> 
+      <a href="how-to-count-colored-cells-in-excel">How to count colored cells in Excel</a> 
+      <a href="excel-substring-formula">Excel Substring formula</a> 
+      <a href="csv-to-excel">CSV to Excel</a> 
+      <a href="word-to-excel">Word to Excel</a> 
+      <a href="regression-analysis-in-excel">Regression analysis in Excel</a> 
+      <a href="how-to-calculate-cagr-in-excel">How to calculate CAGR in Excel</a> 
+      <a href="excel-to-word">Excel to Word</a> 
+      <a href="percentage-formula-in-excel">Percentage formula in Excel</a> 
+      <a href="mail-merge-in-excel">Mail merge in Excel</a> 
+      <a href="how-to-unhide-rows-in-excel">How to unhide rows in Excel</a> 
+      <a href="how-to-split-cells-in-excel">How to Split Cells in Excel</a> 
+      <a href="current-date-in-excel">Current Date in Excel</a> 
+      <a href="index-function-in-excel">Index function in Excel</a> 
+      <a href="how-to-remove-formula-in-excel">How to remove formula in Excel</a> 
+      <a href="excel-features">Excel Features</a> 
+      <a href="flash-fill-in-excel">Flash Fill in Excel</a> 
+      <a href="how-to-convert-excel-to-json">How to convert Excel to JSON</a> 
+      <a href="convert-excel-to-json-using-vba-code">Convert Excel to JSON using VBA code</a> 
+      <a href="round-formula-in-excel">Round formula in Excel</a> 
+      <a href="excel-formula">Excel formula</a> 
+      <a href="ratio-in-excel">Ratio in Excel</a> 
+      <a href="excel-delete-row-shortcut">Excel Delete Row Shortcut</a> 
+      <a href="insert-column-excel-shortcut">Insert Column Excel Shortcut</a> 
+      <a href="excel-not-equal-to-operator">Excel not equal to operator</a> 
+      <a href="logical-operators-in-excel">Logical operators in Excel</a> 
+      <a href="delete-data-in-excel">Delete Data in Excel</a> 
+      <a href="excel-slicer">Excel Slicer</a> 
+      <a href="excel-difference-between-two-dates">Excel Difference Between Two Dates</a> 
+      <a href="excel-filter-shortcut">Excel Filter Shortcut</a> 
+      <a href="excel-charts">Excel Charts</a> 
+      <a href="excel-text-function">Excel text function</a> 
+      <a href="excel-lookup-function">Excel LOOKUP() function</a> 
+      <a href="ms-excel-grade-formula">MS Excel Grade Formula</a> 
+      <a href="10-disadvantages-of-microsoft-excel">10 Disadvantages of Microsoft Excel</a> 
+      <a href="shortcut-keys-in-excel-2010">Shortcut Keys in Excel 2010</a> 
+      <a href="advanced-formulas-in-excel">Advanced Formulas in Excel</a> 
+      <a href="excel-merge-cells-shortcut">Excel Merge Cells Shortcut</a> 
+      <a href="excel-paste-special-shortcut">Excel Paste Special Shortcut</a> 
+      <a href="indirect-function-in-excel">INDIRECT() function in Excel</a> 
+      <a href="what-is-relative-reference-in-excel">What is Relative Reference in Excel</a> 
+      <a href="excel-sum-shortcut">Excel Sum Shortcut</a> 
+      <a href="redo-shortcut-in-excel">Redo Shortcut in Excel</a> 
+      <a href="arrow-key-is-not-working-in-excel">Arrow key is not working in Excel</a> 
+      <a href="type-of-charts-in-excel">Type of charts in Excel</a> 
+      <a href="nested-if-function-in-excel">Nested If Function in Excel</a> 
+      <a href="lower-in-excel">Lower() in excel</a> 
+      <a href="proper-in-excel">Proper() in excel</a> 
+      <a href="types-of-references-in-excel">Types of References in Excel</a> 
+      <a href="and-function-in-excel">AND Function in Excel</a> 
+      <a href="how-to-do-subtraction-in-excel">How to do subtraction in Excel</a> 
+      <a href="excel-max-function">Excel MAX() Function</a> 
+      <a href="how-to-delete-a-sheet-in-excel">How to delete a Sheet in Excel</a> 
+      <a href="how-to-insert-chart-in-excel">How to Insert Chart in Excel</a> 
+      <a href="excel-iserror-function">Excel ISERROR() function</a> 
+      <a href="excel-add-ins">Excel add-ins</a> 
+      <a href="if-in-excel">IF() in excel</a> 
+      <a href="rept-in-excel">REPT() in excel</a> 
+      <a href="what-is-formatting-in-excel">What is Formatting in Excel</a> 
+      <a href="or-function-in-excel">OR Function in Excel</a> 
+      <a href="solver-in-excel">Solver in Excel</a> 
+      <a href="excel-average-function">Excel AVERAGE() Function</a> 
+      <a href="excel-min-function">Excel MIN() Function</a> 
+      <a href="format-painter-in-excel">Format Painter in Excel</a> 
+      <a href="counta-function-in-excel">COUNTA function in excel</a> 
+      <a href="excel-mid-function">Excel mid function</a> 
+      <a href="excel-right-function">Excel right function</a> 
+      <a href="excel-choose-function">Excel Choose Function</a> 
+      <a href="how-to-use-right-function-in-excel">How to Use RIGHT Function in Excel</a> 
+      <a href="not-function-in-excel">NOT Function in Excel</a> 
+      <a href="excel-count-function">Excel COUNT() Function</a> 
+      <a href="line-chart-excel">Line Chart Excel</a> 
+      <a href="excel-rand-function">Excel RAND() function</a> 
+      <a href="excel-find-function">Excel find() function</a> 
+      <a href="excel-tricks">Excel tricks</a> 
+      <a href="dollar-function-in-excel">Dollar function in excel</a> 
+      <a href="left-formula-in-excel">Left formula in excel</a> 
+      <a href="randbetween-function-in-excel">Randbetween function in excel</a> 
+      <a href="rounddown-function-in-excel">ROUNDDOWN Function in Excel</a> 
+      <a href="tenure-formula-in-excel">Tenure Formula in Excel</a> 
+      <a href="excel-today-and-now">Excel TODAY and NOW</a> 
+      <a href="how-to-unhide-worksheet-in-excel">How to unhide worksheet in Excel</a> 
+      <a href="freeze-panes-in-excel">Freeze panes in Excel</a> 
+      <a href="excel-pmt-function">Excel PMT Function</a> 
+      <a href="networkdays-formula-in-excel">NETWORKDAYS Formula in Excel</a> 
+      <a href="pivot-chart-in-excel">Pivot Chart in Excel</a> 
+      <a href="excel-hide-shortcut">Excel Hide Shortcut</a> 
+      <a href="unhide-shortcut-in-excel">Unhide Shortcut in Excel</a> 
+      <a href="range-in-excel">Range in Excel</a> 
+      <a href="strikethrough-in-excel">Strikethrough in Excel</a> 
+      <a href="how-to-password-protect-an-excel-sheet">How to password protect an Excel sheet</a> 
+      <a href="page-orientation-in-excel">Page Orientation in Excel</a> 
+      <a href="area-chart-in-excel">Area Chart in Excel</a> 
+      <a href="bubble-chart-excel">Bubble Chart Excel</a> 
+      <a href="autofill-in-excel">Autofill in Excel</a> 
+      <a href="convert-rows-to-columns">Convert rows to columns</a> 
+      <a href="analysis-toolpak">Analysis ToolPak</a> 
+      <a href="zoom-in-out-in-excel">Zoom In/Out in Excel</a> 
+      <a href="excel-format-painter-shortcut">Excel Format Painter Shortcut</a> 
+      <a href="excel-wrap-text-shortcut">Excel Wrap Text Shortcut</a> 
+      <a href="uppercase-shortcut-in-excel">Uppercase Shortcut in Excel</a> 
+      <a href="how-to-make-a-bar-chart-in-excel">How to make a bar chart in Excel</a> 
+      <a href="json-to-excel">JSON to Excel</a> 
+      <a href="sparkline-chart">Sparkline chart</a> 
+      <a href="why-ms-excel-is-important">Why MS Excel is Important</a> 
+      <a href="waterfall-chart-excel">Waterfall Chart Excel</a> 
+      <a href="excel-irr-formula">Excel IRR formula</a> 
+      <a href="excel-pareto-chart">Excel Pareto chart</a> 
+      <a href="column-chart">Column Chart</a> 
+      <a href="formatting-charts">Formatting Charts</a> 
+      <a href="pie-chart">Pie Chart</a> 
+      <a href="doughnut-chart-excel">Doughnut Chart Excel</a> 
+      <a href="scatter-plot-excel">Scatter Plot Excel</a> 
+      <a href="text-to-column-in-excel">Text to column in Excel</a> 
+      <a href="excel-iferror-function">Excel IFERROR() function</a> 
+      <a href="excel-median-function">Excel Median() function</a> 
+      <a href="gantt-chart-excel">Gantt Chart Excel</a> 
+      <a href="consolidate-data-in-excel">Consolidate data in Excel</a> 
+      <a href="excel-strikethrough-shortcut">Excel Strikethrough Shortcut</a> 
+      <a href="flow-chart-excel">Flow Chart Excel</a> 
+      <a href="organization-chart-excel">Organization Chart Excel</a> 
+      <a href="excel-box-plot">Excel box plot</a> 
+      <a href="excel-transpose-function">Excel Transpose Function</a> 
+      <a href="circular-reference-in-excel">Circular reference in Excel</a> 
+      <a href="excel-filter-function">Excel Filter Function</a> 
+      <a href="excel-var_s-function">Excel VAR.S() Function</a> 
+      <a href="email-workbook">Email Workbook</a> 
+      <a href="share-workbook">Share Workbook</a> 
+      <a href="correlation-in-excel">Correlation in Excel</a> 
+      <a href="how-many-sheets-are-there-in-excel-workbook-by-default">How many sheets are there in excel workbook by default</a> 
+      <a href="what-is-mod-function-in-excel">What is Mod Function in Excel</a> 
+      <a href="compatibility-mode-in-excel">Compatibility mode in Excel</a> 
+      <a href="how-to-unprotect-excel-sheet-without-password">How to unprotect Excel sheet without password</a> 
+      <a href="adding-graphics">Adding Graphics</a> 
+      <a href="translate-worksheet">Translate Worksheet</a> 
+      <a href="excel-large-function">Excel Large Function</a> 
+      <a href="excel-rank-function">Excel Rank Function</a> 
+      <a href="cross-referencing-in-excel">Cross Referencing in Excel</a> 
+      <a href="using-themes-in-excel">Using Themes in Excel</a> 
+      <a href="excel-ifna-function">Excel IFNA Function</a> 
+      <a href="excel-trim-function">Excel TRIM Function</a> 
+      <a href="excel-datevalue-function">Excel DATEVALUE Function</a> 
+      <a href="excel-substitute-function">Excel SUBSTITUTE Function</a> 
+      <a href="special-symbols-in-excel">Special Symbols in Excel</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Shortcut Keys</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="computer-shortcut-keys">Excel Shortcut Keys</a> 
+     </div> 
+     <div class="leftmenu2"> 
+      <h2 class="spanh2"><span class="spanh2">Interview Questions</span></h2> 
+     </div> 
+     <div class="leftmenu"> 
+      <a href="excel-interview-questions"><span>Excel Interview</span></a> 
+      <a href="job-interview-questions"><span>HR Interview</span></a> 
+      <a href="sql-interview-questions"><span>SQL Interview</span></a> 
+      <a href="pl-sql-interview-questions"><span>PL/SQL Interview</span></a> 
+     </div> 
+     <img src="https://www.javatpoint.com/wh.JPG" alt="JavaTpoint"> 
+     <br> 
+     <div id="leftad" style="margin-left:20px"> 
+      <div id="17c09743-0b89-427c-ba64-e09f6a1745a2" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("17c09743-0b89-427c-ba64-e09f6a1745a2");
+		});
+	</script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="onlycontent"> 
+     <div class="onlycontentad"> 
+      <div id="9bbcb75d-b5e2-40e1-a811-e7680d1f59a4" class="_ap_apex_ad"> 
+       <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("9bbcb75d-b5e2-40e1-a811-e7680d1f59a4");
+		});
+	</script> 
+      </div> 
+     </div> 
+     <div class="onlycontentinner"> 
+      <div id="city"> 
+       <table> 
+        <tbody>
+         <tr>
+          <td> 
+           <div id="bottomnextup"> 
+            <a class="next" href="excel-strikethrough-shortcut">next &#x2192;</a> 
+            <a class="next" href="gantt-chart-excel">&#x2190; prev</a> 
+           </div> <h1 class="h1">Consolidate data in Excel</h1> <p>Data consolidation is a very interesting and useful feature of Excel. It helps the user to gather the data together from different worksheets and collect them in a master workbook. In this way, it allows the users to take the data together. Data in a single table is easy to update.</p> <p>Consolidate is an Excel function that let the users to collect the data from different locations and summarize it into one Excel table. The main trouble with the data consolidation method is that it is a bit tricky to work with data consolidation. This chapter will guide you step by step to use data consolidation.</p> <h2 class="h2">Ways to consolidate data</h2> <p>In MS Excel, you can consolidate the data in two ways, either by category or position.</p> <h3 class="h3">Consolidate by category</h3> <p>When the data in all source sheets/workbooks is not arranged means not in order but uses the same labels (row and column heading), consolidate the data by position. This method can be used to consolidate the data from multiple worksheets, which have different layouts but the same data labels.</p> <h3 class="h3">Consolidate by position</h3> <p>Consolidate the data by category when the data in the source worksheets has the same order and also uses the same labels. Use it to consolidate the data from multiple worksheets.</p> <p><strong>For example,</strong> departmental budget worksheets created using the same template.</p> <p><strong>Important point</strong></p> <p>Consolidating data by category is the same as creating the pivot table. When the pivot table is created, a user can easily recognize the category. You can choose to create a pivot table if you want more flexible consolidation by category.</p> <h2 class="h2">What we can do with consolidate data?</h2> <p>An Excel user can do the following by the use of data consolidate -</p> 
+           <ol class="points"> 
+            <li><a href="#worksheets">Consolidate data from multiple worksheets and collect it in the same workbook</a></li> 
+            <li><a href="#workbooks">Consolidate data from multiple workbooks and put it into a new workbook</a></li> 
+           </ol> <p>Hence, we will show you the example for both of these cases. Continue with this chapter below.</p> <p>Before moving forward, you must know that the following processes will work with the newer version of Excel (versions above Excel 2007). If you are using a lower version from Excel 2007, it will not work.</p> <h3 class="h3">Where is consolidate option is present?</h3> <p>To consolidate the data, you can find the <strong>Consolidate</strong> option inside the Data tools section. This Data tool section is available inside the <strong>Data</strong> tab in the Excel ribbon. E.g.,</p> <p><strong>Data</strong> tab &gt; <strong>Data Tools</strong> section &gt; <strong>Consolidate</strong> feature</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel1.png" alt="Consolidate data in Excel"> <h2 id="worksheets" class="h2">Consolidate data from multiple worksheets within the same workbook</h2> <p>We have three sheets in an Excel workbook containing three years of expenditure on tea, coffee, and cold drink (on a quarterly basis). All three sheets are named Year1, Year2, and Year3, respectively. Means that - each worksheet contains a year of data and it is broken down into quarters.</p> <p>To consolidate the data within the same workbook, we can insert a new worksheet in the same workbook and name it as <strong>Consolidate Summery.</strong> This consolidated summery sheet will show the expenditure by year and quarter.</p> <p>See our three of worksheets for year1, year2, and year3 with data is as follows -</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel2.png" alt="Consolidate data in Excel"> <p>It does not matter that all three worksheets data is arranged in the same order (same arrangement of columns and rows). Excel will automatically arrange them for the users while consolidating.</p> <p>In this screenshot, you can see that all three years (1, 2, and 3) have different arrangements of rows and columns.</p> 
+           <ul class="points"> 
+            <li>Cold drink row does not have value for quarter4 in year 1 sheet.</li> 
+            <li>Year 2 worksheet does not have the row of cold drink and these quarters are also arranged in a different order.</li> 
+            <li>There is no quarter4 in year3. So, the number of rows and number of columns are different in all three sheets.</li> 
+           </ul> <p>Still, you can consolidate the data in a separate sheet within the same workbook.</p> <h3 class="h3">Steps to consolidate data</h3> <p>To consolidate the data, you must first to insert an empty worksheet to make it a master sheet to keep the data after consolidation.</p> <p><strong>Step 1:</strong> Insert a new worksheet within the same workbook. Renamed it as <strong>Consolidate Summery</strong> to make it easily recognizable.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel3.png" alt="Consolidate data in Excel"> <p><strong>Step 2:</strong> Inside consolidate summery worksheet, select the first cell or any other where the consolidated data will appear.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel4.png" alt="Consolidate data in Excel"> <p><strong>Step 3:</strong> Go to the <strong>Data</strong> tab in the Excel ribbon and click the <strong>Consolidate</strong> button inside the Data Tools section.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel5.png" alt="Consolidate data in Excel"> <p><strong>Step 4:</strong> A consolidate dialog box will open like below, provide the value and select the options you require.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel6.png" alt="Consolidate data in Excel"> <p>1. Select the function based on which you want to consolidate the data. E.g., <strong>SUM.</strong> You can select SUM inside the function dropdown list to consolidate data.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel7.png" alt="Consolidate data in Excel"> <p>2. In the Reference area, select the first data ranges of sheets one by one to consolidate.</p> <p>a. Keep the cursor on the reference area and go to the targeted sheet, i.e., Year1, without closing the consolidate panel.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel8.png" alt="Consolidate data in Excel"> <p>b. Now, select the range of data over here (including both headers) to add for consolidation.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel9.png" alt="Consolidate data in Excel"> <p>You will see that the selected range is automatically added to the reference field.</p> <p>c. Now, click the <strong>Add</strong> button to add this first set of data to the <strong>All References</strong> area in consolidate dialog box.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel10.png" alt="Consolidate data in Excel"> <p>d. Now, navigate to the <strong>Year2</strong> worksheet and select the range as in the above steps. After that, click the <strong>Add</strong> button to move it into all references field.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel11.png" alt="Consolidate data in Excel"> <p>e. See that another reference is added here.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel12.png" alt="Consolidate data in Excel"> <p>Continue the same process for other worksheets to add them in consolidate dialog.</p> <p>f. See that all three of them sheets range of data is added to inside the References field. Now, click the <strong>OK</strong> button here.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel13.png" alt="Consolidate data in Excel"> <h4 class="n">Tip: You can also provide the name to the targeted range of data of each data before start consolidate process so that you can recognize them easily.</h4> <p>3. To indicate that where the labels are located in source ranges, consolidate has two checkboxes: <strong>Top Row</strong> and <strong>Top Column.</strong> Mark them accordingly.</p> <p>4. Our data has a row header (Quater1, Quater2, Quater3, Quarter4) and column header (Tea, Milk, Coffee), so mark both checkboxes.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel14.png" alt="Consolidate data in Excel"> <p>5. Mark the <strong>Create links to source</strong> checkbox if you want automatic update in the consolidate sheet on changing in source data.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel15.png" alt="Consolidate data in Excel"> <p><strong>Step 5:</strong> When all settings are done, you can now click the <strong>OK</strong> button.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel16.png" alt="Consolidate data in Excel"> <p><strong>Step 6:</strong> Your data will be pasted inside the consolidate summery sheet (newly added sheet) within the same workbook.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel17.png" alt="Consolidate data in Excel"> <p><strong>Read out the consolidate summery</strong></p> <p>After consolidating the data, you must need to understand how this data is merged/consolidated. So, we will help you out with this. You remembered that you had chosen the SUM function. So, the resultant data for each year is summed up together and pasted in consolidate worksheet.</p> <p><strong>Step 7:</strong> On the left side of the Excel screen, you will find grouping tools <strong>(+),</strong> which you can use to expand and hide the data.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel18.png" alt="Consolidate data in Excel"> <p><strong>Step 8:</strong> Click the first grouping tool (+) to expand and see how the consolidated result is calculated for the <strong>Tea</strong> row.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel19.png" alt="Consolidate data in Excel"> <p>For tea row -</p> <p><strong>Quarter1:</strong> 281+296+311 = 888</p> <p><strong>Quarter2:</strong> 105+112+120 = 337</p> <p><strong>Quarter3:</strong> 106+109+117 = 332</p> <p><strong>Quarter4:</strong> 349 = 349</p> <p>Similar to this, consolidated data is calculated for other rows data. When you expand the grouping tool for the corresponding row, you will find it.</p> <h2 id="workbooks" class="h2">Consolidate data from multiple workbooks to a new workbook</h2> <p>This time, we have data in different workbooks instead of one from which we will collect together and consolidate in a new workbook. It contains the expenditure on tea, coffee, and cold drink for three years in separate workbooks broken down into quarters.</p> <p>To consolidate the data in a new workbook, the Excel users has to create a new Excel same workbook and name it <strong>Consolidate Summery.</strong> This consolidate summery workbook will show the expenditure by year and quarter.</p> <p>See our workbook data in three of workbooks for year1, year2 and year3 are as follows -</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel20.png" alt="Consolidate data in Excel"> <p>This type of consolidation requires when the user have data in different workbooks instead of one. In such a scenario, the Excel users can use <strong>consolidate data from different workbooks to a new workbook.</strong></p> <p>Three of the workbooks contain data in a different order and cold drink row in year2 workbook and quater4 column in year3 workbook are also missing. No need to be worried; Excel will automatically arrange them for you while consolidating the data. It might be possible that they do not have the same number of rows and columns in all three workbooks. Still, you can consolidate the data in a separate workbook.</p> <h3 class="h3">Steps to consolidate data from different workbooks</h3> <p>To consolidate the data in a new workbook from different workbooks, you have to first create a new Excel workbook that will keep the consolidated data.</p> <p><strong>Step 1:</strong> Create a new Excel workbook and save it by the name <strong>Consolidate Summery.</strong></p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel21.png" alt="Consolidate data in Excel"> <p><strong>Step 2:</strong> Inside the newly created workbook, select a cell where the consolidated data will appear and go to the <strong>Data</strong> tab in the Excel ribbon.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel22.png" alt="Consolidate data in Excel"> <p><strong>Step 3:</strong> Click the <strong>Consolidate</strong> button inside the Data Tools section.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel5.png" alt="Consolidate data in Excel"> <p><strong>Step 4:</strong> A consolidate dialog box will open like below, provide the value and select the required options.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel6.png" alt="Consolidate data in Excel"> 
+           <ol class="points"> 
+            <li> Firstly, select the function based on which you want to consolidate the data. E.g., <strong>SUM, MAX, MIN.</strong><br> We will select <strong>MAX</strong> inside the function dropdown list to consolidate data.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel23.png" alt="Consolidate data in Excel"> </li> 
+            <li> In the Reference area, select the first data ranges of sheets one by one to consolidate. 
+             <ol class="pointsa"> 
+              <li> Keep the cursor on the reference area and go to the targeted Excel workbook, i.e., Year1, without closing the consolidate panel.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel24.png" alt="Consolidate data in Excel"> </li> 
+              <li> Now, select the range of data of this workbook along with both headers to add it for consolidation.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel25.png" alt="Consolidate data in Excel"><br> Your selected data range of workbook1 is added in the reference column on the above selection. </li> 
+              <li> Now, click the <strong>Add</strong> button to add this first set of data to the <strong>All References</strong> area in consolidate dialog.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel26.png" alt="Consolidate data in Excel"> </li> 
+              <li> In the second workbook (year2) and select the range as in the above steps. After that, click the <strong>Add</strong> button to move it into all references field.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel27.png" alt="Consolidate data in Excel"> </li> 
+              <li> See that another reference is added here.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel28.png" alt="Consolidate data in Excel"><br> Continue the same process for other worksheets to add them in consolidate dialog. </li> 
+              <li> See that all three of them sheets range of data is added to inside the References field. Now, click the <strong>OK</strong> button here.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel29.png" alt="Consolidate data in Excel"> </li> 
+             </ol> </li> 
+            <li>To indicate where the labels are located in source ranges, consolidate has two checkboxes: <strong>Top Row</strong> and <strong>Top Column.</strong> Mark them accordingly.</li> 
+            <li> Our data has a row header (Quater1, Quater2, Quater3, Quarter4) and column header (Tea, Milk, Coffee), so mark both checkboxes. <br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel14.png" alt="Consolidate data in Excel"> </li> 
+            <li> Mark the <strong>Create links to source</strong> checkbox if you want automatic update in the consolidate sheet on changing in source data.<br> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel15.png" alt="Consolidate data in Excel"> </li> 
+           </ol> <p><strong>Step 5:</strong> When all settings are done, you can now click the <strong>OK</strong> button.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel30.png" alt="Consolidate data in Excel"> <p><strong>Step 6:</strong> Your data will be pasted inside the consolidate workbook (newly created workbook) as consolidate summery.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel31.png" alt="Consolidate data in Excel"> <p>Your data is consolidated based on the MAX function. So, now each row cell contains MAX value between all three years of workbooks for each quarter.</p> <p><strong>Analyze the consolidated data</strong></p> <p>After consolidating the data, you should how this data is consolidated understand how this data is merged/consolidated. So, we will help you out with this. You have remembered that you had chosen the MAX function. So, the resultant consolidated summery sheet shows the max value for each cell by comparing three of the workbooks data.</p> <p><strong>Step 7:</strong> On the left side of the Excel screen, you will find grouping tools <strong>(+),</strong> which you can use to expand and hide the data.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel32.png" alt="Consolidate data in Excel"> <p><strong>Step 8:</strong> Click the first grouping tool (+) to expand and see how the consolidated result is calculated for the <strong>Coffee</strong> row.</p> <img src="https://static.javatpoint.com/ms/excel/images/consolidate-data-in-excel33.png" alt="Consolidate data in Excel"> <p>In the above screenshot, we have circled the maximum value in each column for the <strong>Coffee</strong> row (all three workbooks consolidated data).</p> <p>You can understand this consolidated data with the help of the below table.</p> <p><strong>Result: After calculated consolidate summery</strong></p> 
+           <table class="alt"> 
+            <tbody>
+             <tr> 
+              <td colspan="4"></td> 
+              <td><strong>Quarter1</strong></td> 
+              <td><strong>Quarter2</strong></td> 
+              <td><strong>Quarter3</strong></td> 
+              <td><strong>Quarter4</strong></td> 
+             </tr> 
+             <tr> 
+              <td colspan="3" rowspan="4"><strong>Tea</strong></td> 
+              <td rowspan="4">Year1<br>Year2<br>Year3<br><strong>Result</strong></td> 
+              <td>281</td> 
+              <td>105</td> 
+              <td>106</td> 
+              <td>349</td> 
+             </tr> 
+             <tr> 
+              <td>296</td> 
+              <td>112</td> 
+              <td>109</td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td>311</td> 
+              <td>120</td> 
+              <td>117</td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td><strong>311</strong></td> 
+              <td><strong>120</strong></td> 
+              <td><strong>117</strong></td> 
+              <td><strong>349</strong></td> 
+             </tr> 
+             <tr> 
+              <td colspan="2" rowspan="4"><strong>Coffee</strong></td> 
+              <td colspan="2" rowspan="4">Year1<br>Year2<br>Year3<br><strong>Result</strong></td> 
+              <td>146</td> 
+              <td>132</td> 
+              <td>94</td> 
+              <td>244</td> 
+             </tr> 
+             <tr> 
+              <td>225</td> 
+              <td>51</td> 
+              <td>87</td> 
+              <td>262</td> 
+             </tr> 
+             <tr> 
+              <td>293</td> 
+              <td>103</td> 
+              <td>88</td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td><strong>293</strong></td> 
+              <td><strong>132</strong></td> 
+              <td><strong>94</strong></td> 
+              <td><strong>262</strong></td> 
+             </tr> 
+             <tr> 
+              <td rowspan="3"><strong>Cold Drink</strong></td> 
+              <td colspan="3" rowspan="3">Year1<br>Year3<br><strong>Result</strong></td> 
+              <td>81</td> 
+              <td>236</td> 
+              <td>315</td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td>92</td> 
+              <td>341</td> 
+              <td>397</td> 
+              <td></td> 
+             </tr> 
+             <tr> 
+              <td><strong>92</strong></td> 
+              <td><strong>341</strong></td> 
+              <td><strong>397</strong></td> 
+              <td></td> 
+             </tr> 
+            </tbody>
+           </table> <p>Firstly, all years values placed in same order with the help of label and then maximum value is found as resultant from it for each product.</p> 
+           <hr> 
+           <div class="nexttopicdiv"> 
+            <span class="nexttopictext">Next Topic</span>
+            <span class="nexttopiclink"><a href="excel-strikethrough-shortcut">Excel Strikethrough Shortcut</a></span> 
+           </div> <br><br> 
+           <div id="bottomnext"> 
+            <a style="float:left" class="next" href="gantt-chart-excel">&#x2190; prev</a> 
+            <a style="float:right" class="next" href="excel-strikethrough-shortcut">next &#x2192;</a> 
+           </div> <br><br> </td>
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <div>
+       <img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube"> 
+       <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span> 
+      </div> 
+      <hr class="hrhomebox"> 
+      <h3 class="h3">Feedback</h3> 
+      <ul class="points"> 
+       <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="37515252535556545c775d5641564347585e59431954585a">[email&nbsp;protected]</a></li> 
+      </ul> 
+      <hr class="hrhomebox"> 
+      <h2 class="h2">Help Others, Please Share</h2> 
+      <a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/consolidate-data-in-excel"><img src="https://www.javatpoint.com/images/facebook32.png" alt="facebook"></a> 
+      <a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/consolidate-data-in-excel"><img src="https://www.javatpoint.com/images/twitter32.png" alt="twitter"></a> 
+      <a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/consolidate-data-in-excel"><img src="https://www.javatpoint.com/images/pinterest32.png" alt="pinterest"></a> 
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+      <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Learn Latest Tutorials</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/splunk"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/splunk.png" alt="Splunk tutorial"> 
+          <p>Splunk</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/spss"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/spss.png" alt="SPSS tutorial"> 
+          <p>SPSS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/swagger"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/swagger.png" alt="Swagger tutorial"> 
+          <p>Swagger</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/t-sql"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/transact-sql.png" alt="T-SQL tutorial"> 
+          <p>Transact-SQL</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/tumblr"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/tumblr.png" alt="Tumblr tutorial"> 
+          <p>Tumblr</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="React tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/regex"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/regex.png" alt="Regex tutorial"> 
+          <p>Regex</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reinforcement-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react.png" alt="Reinforcement learning tutorial"> 
+          <p>Reinforcement Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/r-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/r-programming.png" alt="R Programming tutorial"> 
+          <p>R Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/rxjs"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/rxjs.png" alt="RxJS tutorial"> 
+          <p>RxJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/react-native-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/react-native.png" alt="React Native tutorial"> 
+          <p>React Native</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-design-pattern"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-design-patterns.png" alt="Python Design Patterns"> 
+          <p>Python Design Patterns</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-pillow"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-pillow.png" alt="Python Pillow tutorial"> 
+          <p>Python Pillow</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-turtle-programming"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python-turtle.png" alt="Python Turtle tutorial"> 
+          <p>Python Turtle</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/keras"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/keras.png" alt="Keras tutorial"> 
+          <p>Keras</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Preparation</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/aptitude/quantitative"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude"> 
+          <p>Aptitude</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reasoning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning"> 
+          <p>Reasoning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/verbal-ability"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability"> 
+          <p>Verbal Ability</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/interview-questions-and-answers"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions"> 
+          <p>Interview Questions</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions"> 
+          <p>Company Questions</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">Trending Technologies</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/artificial-intelligence.png" alt="Artificial Intelligence Tutorial"> 
+          <p>Artificial Intelligence</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/aws-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/amazon-web-services.png" alt="AWS Tutorial"> 
+          <p>AWS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/selenium-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/selenium.png" alt="Selenium tutorial"> 
+          <p>Selenium</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cloud-computing-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cloud-computing.png" alt="Cloud Computing tutorial"> 
+          <p>Cloud Computing</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/hadoop-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/hadoop.png" alt="Hadoop tutorial"> 
+          <p>Hadoop</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/reactjs-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/reactjs.png" alt="ReactJS Tutorial"> 
+          <p>ReactJS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-science"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-science.png" alt="Data Science Tutorial"> 
+          <p>Data Science</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/angular-7-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/angular7.png" alt="Angular 7 Tutorial"> 
+          <p>Angular 7</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/blockchain-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/blockchain.png" alt="Blockchain Tutorial"> 
+          <p>Blockchain</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/git"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/git.png" alt="Git Tutorial"> 
+          <p>Git</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/machine-learning"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/machine-learning.png" alt="Machine Learning Tutorial"> 
+          <p>Machine Learning</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/devops"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/devops.png" alt="DevOps Tutorial"> 
+          <p>DevOps</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+      <hr class="hrhomebox"> 
+      <fieldset class="gra1"> 
+       <h2 class="h3">B.Tech / MCA</h2> 
+       <div class="firsthomecontent"> 
+        <a href="https://www.javatpoint.com/dbms-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dbms.png" alt="DBMS tutorial"> 
+          <p>DBMS</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-structure-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-structures.png" alt="Data Structures tutorial"> 
+          <p>Data Structures</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/daa-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/daa.png" alt="DAA tutorial"> 
+          <p>DAA</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/os-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/operating-system.png" alt="Operating System tutorial"> 
+          <p>Operating System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-network-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-network.png" alt="Computer Network tutorial"> 
+          <p>Computer Network</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/compiler-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/compiler-design.png" alt="Compiler Design tutorial"> 
+          <p>Compiler Design</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-organization.png" alt="Computer Organization and Architecture"> 
+          <p>Computer Organization</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/discrete-mathematics.png" alt="Discrete Mathematics Tutorial"> 
+          <p>Discrete Mathematics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/ethical-hacking-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/ethical-hacking.png" alt="Ethical Hacking Tutorial"> 
+          <p>Ethical Hacking</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/computer-graphics-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/computer-graphics.png" alt="Computer Graphics Tutorial"> 
+          <p>Computer Graphics</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/software-engineering-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/software-engineering.png" alt="Software Engineering Tutorial"> 
+          <p>Software Engineering</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/html-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/web-technology.png" alt="html tutorial"> 
+          <p>Web Technology</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cyber-security-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cyber-security.png" alt="Cyber Security tutorial"> 
+          <p>Cyber Security</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/automata-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/automata.png" alt="Automata Tutorial"> 
+          <p>Automata</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/c-programming-language-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/c-programming.png" alt="C Language tutorial"> 
+          <p>C Programming</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/cpp-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/cpp.png" alt="C++ tutorial"> 
+          <p>C++</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/java-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/java.png" alt="Java tutorial"> 
+          <p>Java</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/net-framework"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/dot-net.png" alt=".Net Framework tutorial"> 
+          <p>.Net</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/python-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/python.png" alt="Python tutorial"> 
+          <p>Python</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/programs-list"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/programs.png" alt="List of Programs"> 
+          <p>Programs</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/control-system-tutorial"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/control-system.png" alt="Control Systems tutorial"> 
+          <p>Control System</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-mining"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-mining.png" alt="Data Mining Tutorial"> 
+          <p>Data Mining</p> 
+         </div> </a> 
+        <a href="https://www.javatpoint.com/data-warehouse"> 
+         <div class="homecontent">
+          <img class="lazyload" data-src="https://static.javatpoint.com/images/homeicon/data-warehouse.png" alt="Data Warehouse Tutorial"> 
+          <p>Data Warehouse</p> 
+         </div> </a> 
+       </div> 
+      </fieldset> 
+     </div> 
+     <br>
+     <br>
+     <div class="mobilemenu" style="clear:both"> 
+      <ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins>
+      <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     </div>
+    </div> 
+    <div id="right"> 
+     <div id="e59d93b5-7231-4043-a19e-e7ec340efd1f" class="_ap_apex_ad"> 
+      <script>
+		var adpushup = window.adpushup = window.adpushup || {};
+		adpushup.que = adpushup.que || [];
+		adpushup.que.push(function() {
+			adpushup.triggerAd("e59d93b5-7231-4043-a19e-e7ec340efd1f");
+		});
+	</script> 
+     </div> 
+     <br>
+     <br> 
+    </div> 
+    <div class="right1024" style="float:left;margin-left:10px;margin-top:120px;"> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+     <br>
+     <br> 
+     <ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins>
+     <script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script> 
+    </div> 
+    <br> 
+    <div id="footer" style="clear:both;width:100%"> 
+     <div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> 
+      <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcd4cefcd6ddcaddc8ccd3d5d2c892dfd3d1">[email&nbsp;protected]</a>, to get more information about given services. </p>
+      <ul class="points"> 
+       <li>Website Designing</li>
+       <li>Website Development</li>
+       <li>Java Development</li>
+       <li>PHP Development</li>
+       <li>WordPress</li>
+       <li>Graphic Designing</li>
+       <li>Logo</li>
+       <li>Digital Marketing</li>
+       <li>On Page and Off Page SEO</li>
+       <li>PPC</li>
+       <li>Content Development</li>
+       <li>Corporate Training</li>
+       <li>Classroom and Online Training</li>
+       <li>Data Entry</li>
+      </ul> 
+      <p style="padding-bottom:60px"></p>
+     </div>
+     <div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> 
+      <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> 
+      <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f49c86b49e95829580849b9d9a80da979b99da">[email&nbsp;protected]</a> <br>Duration: 1 week to 2 week<br></p>
+     </div>
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+     <script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+     <div style="margin-top:5px;text-align:center"> 
+      <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> 
+      <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a> 
+      <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+      <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a> 
+      <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+     </div>
+     <footer class="footer1">
+      <div class="column4">
+       <h3>Learn Tutorials</h3>
+       <a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+       <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+       <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+       <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+       <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+       <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+       <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+       <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+       <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+       <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+      </div>
+      <div class="column4">
+       <h3>Our Websites</h3>
+       <a href="https://www.javatpoint.com">Javatpoint.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+       <a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+       <a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+      </div>
+      <div class="column4">
+       <h3>Our Services</h3>
+       <p>Website Development</p>
+       <p>Android Development</p>
+       <p>Website Designing</p>
+       <p>Digital Marketing</p>
+       <p>Summer Training</p>
+       <p>Industrial Training</p>
+       <p>College Campus Training</p>
+      </div>
+      <div class="column4">
+       <h3>Contact</h3>
+       <p>Address: G-13, 2nd Floor, Sec-3</p>
+       <p>Noida, UP, 201301, India</p>
+       <p>Contact No: 0120-4256464, 9990449935</p>
+       <a href="https://www.javatpoint.com/contact-us">Contact Us</a> 
+       <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+       <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+       <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+       <br>
+       <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+      </div>
+     </footer>
+     <footer class="footer2">
+      <p>© Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+     </footer> 
+     <div id="bot-root"></div> 
+     <script> 
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script> 
+    </div> 
+   </div>
+  </div> 
+  <script src="https://static.javatpoint.com/js/shcoreandbrush.js"></script>
+  <script> dp.SyntaxHighlighter.HighlightAll('code'); </script> 
+  <script src="https://static.javatpoint.com/lazysizes.min.js" async></script>   
+ </body>
+</html>

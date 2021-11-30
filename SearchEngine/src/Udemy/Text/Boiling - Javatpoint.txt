@@ -1,0 +1,602 @@
+
+
+ 
+  
+  Boiling - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Physics 
+       Chemistry 
+       Biology 
+       GK 
+       Maths 
+       Reasoning 
+       Aptitude 
+       Verbal Ability 
+       Java 
+       JSP 
+       Android 
+       C# 
+       HTML 
+       CSS 
+       jQuery 
+       Programs 
+       Projects 
+       Interview Q 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Physics 
+      
+      
+      Vapor 
+      Kirchhoff's law 
+      Quantum Physics 
+      Boiling 
+      Carnot Engine 
+      Unit of Heat 
+      Heat Engine 
+      Blackbody radiation 
+      Dew point 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Boiling Boiling is a state to bring the liquid into the vaporization form. A liquid is heated till it reaches the vaporization state, known as the boiling state of that liquid. The temperature, at which the boiling state of the liquid is achieved, is known as the boiling point of the liquid. Impact of boiling on the three states of matter We have discussed the impact of boiling on the liquid. We commonly use the term boiling with the liquid only. But, what about the other states of the matter? And what will be the impact of boiling on the solid and gas? Boiling point is generally defined as the temperature at which the substance's vapor pressure becomes equal to the atmospheric pressure. Let's discuss this in detail. Solid Solid is the substance in which the atoms are tightly bound to each other. We can also say that solids have a high force of attraction. Metal has positive and negative ions between them, and it constitutes the electrostatic force that keeps the atoms of the solid strongly packed. Thus, the higher the energy required by a substance, the higher is the boiling point. The solid is heated in a furnace with very high temperatures. The metal first starts melting, which is its liquid state. At this point, the melting point is calculated when it melts completely. The heating continues till the melted metal starts vaporizing. When the metal starts vaporizing, the boiling point is calculated. We can also say that the state of a metal when its pressure is achieved is the boiling point.  Hence, the boiling points of the solids are generally very high. Note: The vaporizing state is the transition of a substance from the liquid state to the vapor state. Liquid The liquids do not have a melting point because it is already present in their liquid state. But, it varies in the case of liquids at different temperatures. The liquid is heated until it reaches the vaporizing state. But, sometimes, these liquids can become solid at low temperatures. The boiling point of liquids is low compared to solids because the atoms in the liquids are loosely packed. Thus, the boiling point of a liquid is defined as the temperature at which a liquid reaches its vaporization state. For example, The boiling point of benzene is 80 degrees Celsius, and benzene is liquid at room temperature. Gases The boiling point of gases is very less as compared to solids and gases. It is because gases are already present in the gaseous state. The atoms in the gas are very loosely packed. It takes a little heat to convert a gas into its vaporization state. For example, The boiling point of carbon disulfide is 46.2 degrees Celsius. Since carbon dioxide and oxygen are already in the vaporization state in the atmosphere, their boiling point is -78.5 degrees Celsius and -183 degrees Celsius. Types of Boiling  Let's discuss in detail. Natural Convection boiling The general requirement of a substance to be boiled is that the temperature at the walls of the container should be equal to the saturation temperature. But practically, boiling occurs when the liquid is heated above the saturation temperature. The vapor formation also occurs when the surface temperature is greater than the saturation temperature.  The general requirement for the natural convection boiling is given by: Saturation temperature < 5 degrees Celsius Nucleate boiling It is the most common type of boiling. The temperature of heat is generally high at the surface as compared to the saturated fluid temperature. The nucleate term refers to the formation of bubbles, which carry the heat flux from the surface to the main stream of the water. It enhances the heat transfer in the boiling process. The formation of these bubbles look likes the image shown below:  As soon as the bubble reaches the main fluid stream, it collapses. The temperature at the fluid stream is not as high as the surface where bubbles were initially created, and the energy in this process is effectively carried away. Film boiling As discussed, bubbles form at a specific temperature, allowing the heat transfer from the surface to the mainstream of the water. The increase in temperature causes the formation of vapor film on the surface. The temperature at the surface is much higher than the temperature of the liquid, as shown below:  The formed vapor layer has lower heat transferability. The material carrying out this process should be strong enough to withstand the temperature at the surface. Otherwise, it can harm the material. Such a process is known as burnout. Transition boiling The steam is produced during the boiling process from a vapor layer over the surface of the liquid, known as the insulating vapor layer. It adversely affects the heat flux because this layer covers a large portion of the surface. Thus, at this point, the transition boiling becomes unstable.  Boiling crisis: The transition from nucleate boiling to film boiling is known as boiling crisis. Critical heat Flux boiling The CHF or Critical Heat Flux is a type of boiling where a phase change occurs. The heat transfer in the above nucleate boiling cannot be increased. Sometimes, it is known as critical heat flux. A vapor film is created on the surface of the liquid when the temperature rises above the critical temperature. At this temperature, bubbles do not form. The vapor layer also decreases the efficiency of the heat transfer. At this point, the temperature on the surface of the liquid rises very rapidly. Contrast of boiling with other terms Let's discuss the comparison of boiling with melting, steaming, and evaporation. It will help to figure out the differences between these terms. 1. Boiling vs. Melting As the name implies, boiling means to boil and melting means to melt. When a substance changes its state from solid to liquid, it is termed as melting of that solid. When a substance changes its state from liquid to gas, it is termed as boiling of that liquid. Thus, we can say that melting is generally concerned with the solids and boiling with liquids.  The melting and boiling point of different substances are different. For example, the melting point of Iron is 1538 degrees Celsius, while its boiling point is 2862 degrees Celsius. 2. Steaming vs. Boiling  Steaming means to provide steam generated after the liquid is boiled. Steam has the highest amount of heat energy, and it is because of the additional latent heat of vaporization. The steaming process is generally used in cooking to preserve the color, nutrients, and flavor of food. The items to be steamed are kept away from the contact of the water. It is a type of moist heat. Boiling is a process where the items are kept submerged in the water, and it is preferred in the case of large-scale cooking. 3. Boiling vs. Evaporation Evaporation is defined as the process of converting the liquid state into vapors below the boiling point of that liquid. It is a slower process and occurs only from the surface of the liquid, and it does not produce any amount of bubbles during the process. Boiling is defined as the process of converting the liquid state into the vapors to the boiling point of that liquid. It is a faster process and occurs throughout the liquid, and it also produces bubbles during the process. Applications of Boiling The applications of boiling are as follows: 
+            
+             Water purification The water is boiled to make it suitable for drinking. The tap water in homes contains chemicals that are added to restrict the growth of germs in water, which is unfit for drinking. The boiling point of water is 100 degrees Celsius. At this temperature, any microbes or germs cannot survive. Hence, boiling is commonly used as the water purification technique.  
+             Cooking The boiling process is used for cooking the vegetables, pulses, etc. The boiled food is easy to digest as compared to the raw food. It is also used to boil the food items in the other water-based liquids, such as milk. The boiling point of water is 100 degrees Celsius or 212 degrees Fahrenheit. Cooking at a high elevation takes a longer time because it is a function of atmospheric pressure. Today, ready-made food items are available, which can be prepared within a few minutes by inserting the ready-made plastic packets into the boiling water. It is commonly preferred in campaigns, and it is also known as boil-in-the-bag.  
+             Steam generators It is an essential part of the team engine. The steam generator is used to generate the saturated steam from the boiling water. The turbine attached in the steam engine further converts the heat energy from the steam into the mechanical energy.  
+            Other applications of boiling include boilers, electronic coolers; sugar refining, refrigerators, air conditioners, and petroleum transportation. 
+            Advantages of boiling The advantages of boiling are as follows: 
+            
+            It is a safe method of cooking. 
+            Boiled food is easy to digest. 
+            It helps in the purification of the water. 
+            It is the suitable healthy method of cooking as compared to frying. 
+            It is a simple process and does not require any skills. 
+            Disadvantages of boiling The disadvantages of boiling are as follows: 
+            
+            It is a time-consuming process 
+            It requires a lot of fuel. 
+            The boiling process results in the loss of color, flavor, and nutrients in the food. 
+            To prevent the loss of nutrients in food, it is recommended to boil the vegetables, pulses, etc., in less amount of water, or the left over water should not be drained off. It can be consumed in different ways. Some items, such as beetroot, should be boiled with the peel to prevent the color loss. 
+            
+            
+            Next Topic
+            Carnot Engine 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

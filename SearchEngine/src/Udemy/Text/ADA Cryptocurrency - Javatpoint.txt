@@ -1,0 +1,623 @@
+
+
+ 
+  
+  ADA Cryptocurrency - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       Cryptocurrency 
+       Blockchain 
+       DBMS 
+       HTML 
+       CSS 
+       JavaScript 
+       Selenium 
+       DS 
+       Control System 
+       Java 
+       Selenium 
+       jQuery 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      Cryptocurrency 
+      
+      
+      Cryptocurrency 
+      Top 5 Cryptocurrencies 
+      Cryptocurrency List 
+      How cryptocurrency works 
+      Tron Cryptocurrency 
+      Matic (Polygon) Cryptocurrency 
+      Pi Cryptocurrency Value in INR 
+      Cryptocurrency Exchange in India 
+      Ripple Cryptocurrency 
+      Libra Cryptocurrency 
+      Cryptocurrency Mining 
+      ADA Cryptocurrency 
+      NEO Cryptocurrency 
+      BAT Cryptocurrency 
+      Letter Spacing 
+      Atom Cryptocurrency 
+      Dogecoin 
+      
+      
+      WazirX 
+      
+      
+      WazirX 
+      WazirX Review 
+      Open WazirX Account 
+      Deposit Money in WazirX 
+      Is WazirX safe 
+      Is WazirX legal in India 
+      
+      
+      Payoneer 
+      
+      
+      Payoneer 
+      Payoneer Fees & Timing 
+      Payoneer vs PayPal 
+      Payoneer Alternatives 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            ADA (Cardano) Cryptocurrency  Cardano is a decentralized cryptocurrency that is open to the public. It is distributed and fully accessible, with agreement attained through PoS (proof of stake). ADA allows peer-to-peer payments. Charles Hoskinson created Cardano in 2015. He is a co-founder of ETH (Ethereum). The Cardano Association, located in Zug, Switzerland, oversees and supervises the project's progress. Also, it is the biggest bitcoin to employ a proof-of-stake network, viewed as a more environmentally friendly option to concrete evidence. Original developer - Charles Hoskinson Initial launched- 27 September 2017 Stable Launched- 1.27.0/ 13 May 2021 Programming language- Haskell OS- Cross-platform Type- Distributed computing Active host- 2,486 License- Apache Development status- Active Official Site- Cardano.org Backstory Charles Hoskinson started developing the network in 2015 and debuted it in 2017. Hoskinson departed Eth following a disagreement with Vitalik Buterin, one of its co-founders. Hoskinson decided to startup capital and turned it into a for-profit company, whereas Buterin preferred to retain it as a charity. Following his departure, he co-founded a blockchain engineering company IOHK, whose core competency is the production of Cardano, in collaboration with the Cardano Association and Emurgo. The coin is called after ADA Lovelace, whereas the network is titled after Gerolamo Cardano. Technical Characteristics Cardano doesn't even have a white paper, which is unusual. Rather, it employs design guidelines to address challenges like interoperability, scalability, and regulatory requirements that plague existing cryptocurrencies. In opposition to Bitcoin and Ethereum, which utilize concrete evidence methods, Cardano adopts the Ouroboros PoS (proof-of-stake) system. Proof-of-stake blockchain networks consume very little power than proof-of-work blockchain systems. 
+            
+            Hoskinson predicted the Cardano network would utilize 6 GWh yearly in February 2021, below 0.01 % of the 110.53 TWh anticipated by Cambridge University for the Bitcoin system. 
+            Cardano surpassed Bitcoin as the largest concrete evidence digital currency in May 2021, with a market valuation of $77 billion. 
+            ADA is a cryptocurrency that appears on the Cardano network's transaction tier. This tier maintains records of transactions in the same way as Bitcoin does. The processing layer is called the second layer, and this layer is modelled after Ethereum and allows agreements and apps to operate on the system. On September 12th, 2021, Cardano plans to provide decentralized financial (Defi) capabilities, along with a cryptographic protocol update and the opportunity to produce decentralized apps (DApps). It also includes Plutus, a Haskell-based Turing-complete cryptographic protocol language, and Marlowe, specialized cryptographic protocol syntax for non-programmers in the banking system. Designers may conduct edge checks on their programs without exiting the interactive environment or uploading the program using Cardano's smart contract languages. Cardano owners can wager their ADA to get the return on their investors in the form of epoch payouts. History of ADA An ICO (initial coin offering) was used to finance Cardano. The currency had a market valuation of $600 million when it first launched. 
+            
+            It had a trade worth of $10 billion by the end of 2017 and shortly hit $33 billion in 2018 until reverting to $10 billion due to a perceived tightness of the cryptocurrency market. 
+            As per the Mashable, Cardano promises to solve current issues in the cryptocurrency industry, such as Bitcoin's slowness and inflexibility and Eth's lack of security and scalability. 
+            For bitcoin innovation, IOHK has cooperated with institutions. In 2017, IOHK aided in the establishment of the Blockchain-Based Laboratory at Edinburgh University. 
+            In 2020, IOHK gave the Institution of Wyoming $500,000 in ADA to encourage the implementation of distributed ledger technology. 
+            Georgia's Education ministry and the Free University of Tbilisi signed agreements in 2019 for using Cardano and Atala to establish a certificate authentication mechanism for Georgia. New Balance, a sneaker company, unveiled a trial initiative on the Cardano blockchain in 2019 to monitor the legitimacy of their latest basketball sneaker. 
+            In 2018, IOHK established collaboration with the Ethiopian government to enforce the technologies across the nation in many businesses. 
+            IOHK and the Ethiopia Education department declared a project to develop a Cardano-based authentication and tracking system for the nation's five million students in April 2021. 
+            
+            
+            
+            Next Topic
+            NEO Cryptocurrency 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

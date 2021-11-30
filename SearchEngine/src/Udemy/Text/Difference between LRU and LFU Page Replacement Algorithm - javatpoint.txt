@@ -1,0 +1,1111 @@
+
+
+ 
+  
+  Difference between LRU and LFU Page Replacement Algorithm - javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+       Home 
+       OS 
+       C 
+       Java 
+       PHP 
+       HTML 
+       CSS 
+       Bootstrap 
+       JavaScript 
+       jQuery 
+       jQuery UI 
+       Quiz 
+       Projects 
+       Interview Q 
+       Comment 
+       Forum 
+       Training 
+       
+       
+     
+     
+     
+     
+      
+     
+     
+      
+      OS Tutorial 
+      
+      
+      OS Tutorial 
+      Types of OS 
+      
+      
+      Process Management 
+      
+      
+      Introduction 
+      Attributes of a Process 
+      Process States 
+      Process Schedulers 
+      Process Queues 
+      Times Related to Process 
+      CPU Scheduling 
+      Scheduling Algorithms 
+      FCFS Scheduling 
+      Convoy Effect in FCFS 
+      FCFS with overhead 
+      SJF Scheduling 
+      Burst Time Prediction 
+      SRTF scheduling 
+      SRTF GATE 2011 Example 
+      Round Robin Scheduling 
+      RR scheduling Example 
+      HRRN Scheduling 
+      HRNN Example 
+      Priority Scheduling 
+      Non Preemptive Priority 
+      Preemptive Priority 
+      SRTF:IO bound processes 
+      
+      
+      Synchronization 
+      
+      
+      Introduction 
+      Critical Section Problem 
+      Lock Variable Mechanism 
+      TSL Mechanism 
+      Priority Inversion in TSL 
+      Turn Variable 
+      Interested Variable 
+      Paterson Solution 
+      Without Busy Waiting 
+      Sleep and Wake 
+      Semaphore Introduction 
+      Counting Semaphore 
+      Problem on counting semaphore 
+      Binary Semaphore 
+      
+      
+      Deadlocks 
+      
+      
+      Introduction 
+      strategies Handling 
+      Deadlock Prevention 
+      Deadlock Avoidance 
+      Resource Allocation Graph 
+      Detection using RAG 
+      Detection and Recovery 
+      
+      
+      Memory Management 
+      
+      
+      Introduction 
+      Fixed Partitioning 
+      Dynamic Partitioning 
+      Compaction 
+      Bit Map for Dynamic Partitioning 
+      Linked List for Dynamic Partitioning 
+      Partitioning Algorithms 
+      GATE on Best Fit & First Fit 
+      Need for Paging 
+      Paging with Example 
+      Binary Addresses 
+      Physical & Logical Address 
+      Page Table 
+      Mapping from page table 
+      Page Table Entry 
+      Page Table Size 
+      Finding Optimal Page Size 
+      Virtual Memory 
+      Look aside Buffer 
+      GATE question on TLB 
+      Demand Paging 
+      Inverted Page Table 
+      Page Replacement 
+      Gate on LRU and FIFO 
+      Numerical on LRU, FIFO 
+      Beladys Anamoly 
+      Segmentation 
+      Paging VS Segmentation 
+      Segmented Paging 
+      
+      
+      File Management 
+      
+      
+      Attributes of the File 
+      Operations on the File 
+      File Access Methods 
+      Directory Structure 
+      Single level Directory 
+      Two level Directory 
+      Tree structured Directory 
+      Acyclic Graph Directories 
+      File System 
+      File System Structure 
+      Master Boot Record 
+      On Disk Data Structures 
+      In memory Data structures 
+      Directory Implementation 
+      Allocation Methods 
+      Contiguous Allocation 
+      Linked List Allocation 
+      File Allocation Table 
+      Indexed Allocation 
+      Linked Index Allocation 
+      Inode 
+      Free space Management 
+      Disk Scheduling 
+      FCFS Scheduling 
+      SSTF Scheduling 
+      SCAN and C-SCAN 
+      Look and C-Look 
+      Numerical on SSTF 
+      Numerical on Disk 
+      
+      
+      Misc 
+      
+      
+      Functions of OS 
+      Mobile OS 
+      Swapping in OS 
+      Threads in OS 
+      Fedora Operating System 
+      Uses of Operating System 
+      Producer-Consumer problem 
+      Dining Philosophers Problem 
+      Readers Writers Problem 
+      History Of OS 
+      Banker's Algorithm in OS 
+      What is the context switching in the operating system 
+      Internal vs. External Fragmentation 
+      Multiprocessing Operating system 
+      Multiprogramming vs Multitasking 
+      Network Operating System 
+      Latest Operating System 
+      System Calls in Operating System 
+      Multitasking Operating System 
+      Distributed Operating System 
+      Fragmentation in Operating System 
+      Multithreading Models in Operating system 
+      Operating system services 
+      Batch Operating System 
+      Embedded Operating System 
+      Time-Sharing vs Real-Time Operating System 
+      Multi-User Operating System 
+      Memory Management 
+      Monolithic Structure of Operating System 
+      MS-DOS Operating System 
+      Spooling in Operating System 
+      Network Operating System vs Distributed Operating System 
+      Operating system vs Application software 
+      System Software vs Operating System 
+      Real-Time operating system 
+      Booting in Operating System 
+      Layered Structure of Operating System 
+      Multiprogramming vs. Time Sharing Operating System 
+      Distributed File System 
+      Multiprogramming Operating System 
+      Server Operating System 
+      32 bit vs 64 bit Operating System 
+      Single User Operating System 
+      Process vs Program 
+      Operating System Security 
+      Components of Operating System 
+      GUI Operating System 
+      Android Operating System 
+      Buffering in Operating System 
+      Device Driver in Operating System 
+      Best Operating System for Hacking 
+      Clustered Operating System 
+      Android vs Windows OS 
+      Scheduler vs Dispatcher 
+      Deadlock vs Starvation 
+      Semaphore vs Monitor 
+      Boot Block and Bad Block in Operating System 
+      Hard and Soft Real-Time Operating System 
+      Concurrency in Operating System 
+      Microkernel in Operating System 
+      Protection in Operating System 
+      Benefits of Multithreading 
+      Host vs Guest Operating System 
+      Livelock in Operating System 
+      Dual Mode Operations in Operating System 
+      What is Access Token in Operating System 
+      Deadlock Detection in Distributed Systems 
+      CUI vs GUI 
+      Monolithic vs layered Operating System 
+      Mutex vs Semaphore 
+      What is Interleaved Memory 
+      Trap vs Interrupt in Operating System 
+      Open-Source Operating System 
+      Multiple Processors Scheduling in Operating System 
+      Starvation and Aging in Operating Systems 
+      Best Android Operating System for PC 
+      Device Management in Operating System 
+      Disk Controller in Operating System 
+      Views of Operating System 
+      Tasks in Real-Time Systems 
+      What is RPC in Operating System 
+      C-SCAN vs SSTF Disk Scheduling Algorithm 
+      Look vs C-Look Disk Scheduling Algorithm 
+      SCAN vs C-SCAN Disk Scheduling Algorithm 
+      SCAN vs FCFS Disk Scheduling Algorithm 
+      Lamport's Bakery Algorithm 
+      Basic Disk vs Dynamic Disk 
+      What is Zombie Process 
+      FCFS vs SSTF Disk Scheduling Algorithm 
+      LRU vs LFU Page Replacement Algorithm 
+      SSTF vs C-LOOK Disk Scheduling Algorithm 
+      C-LOOK vs C-SCAN Disk Scheduling Algorithm 
+      Rotational Latency vs Disk Access Time in Disk Scheduling 
+      SSTF vs LOOK Disk Scheduling Algorithm 
+      Virtual vs Physical Address 
+      Address binding in Operating System 
+      Preemptive vs Non-Preemptive Scheduling 
+      Properties of Operating System 
+      What is Processor Affinity 
+      
+      
+      MCQ 
+      
+      
+      Operating System MCQ 
+      OS MCQ Part-2 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Difference between LRU and LFU Page Replacement Algorithm In this article, you will learn the difference between the LRU and LFU page replacement algorithms. But before discussing the differences, you need to know about the LRU and LFU page replacement algorithms. What is LRU Page Replacement Algorithm? The LRU stands for the Least Recently Used. It keeps track of page usage in the memory over a short period of time. It works on the concept that pages that have been highly used in the past are likely to be significantly used again in the future. It removes the page that has not been utilized in the memory for the longest time. LRU is the most widely used algorithm because it provides fewer page faults than the other methods. Example: Let's take the following reference string to understand the LRU Page Replacement algorithm. 5 0 1 2 0 3 2 0 3 4 1 0 5 0 4 3 2 1 2 0 1 Find the number of page faults when the LRU page replacement policy is used. Also, consider the page frame size to be three. Solution: Reference String: 5 0 1 2 0 3 2 0 3 4 1 0 5 0 4 3 2 1 2 0 1 
+            
+             
+             
+               
+               String 
+               5 
+               0 
+               1 
+               2 
+               0 
+               3 
+               2 
+               0 
+               3 
+               4 
+               1 
+               0 
+               5 
+               0 
+               4 
+               3 
+               2 
+               1 
+               2 
+               0 
+               1 
+               
+               
+               Frame 3 
+                
+                
+               1 
+               1 
+               1 
+               3 
+               3 
+               3 
+               3 
+               3 
+               3 
+               0 
+               0 
+               0 
+               0 
+               3 
+               3 
+               3 
+               3 
+               0 
+               0 
+               
+               
+               Frame 2 
+                
+               0 
+               0 
+               0 
+               0 
+               0 
+               0 
+               0 
+               0 
+               0 
+               1 
+               1 
+               1 
+               1 
+               4 
+               4 
+               4 
+               1 
+               1 
+               1 
+               1 
+               
+               
+               Frame 1 
+               5 
+               5 
+               5 
+               2 
+               2 
+               2 
+               2 
+               2 
+               2 
+               4 
+               4 
+               4 
+               5 
+               5 
+               5 
+               5 
+               2 
+               2 
+               2 
+               2 
+               2 
+               
+               
+               Miss/Hit 
+               M 
+               M 
+               M 
+               M 
+               H 
+               M 
+               H 
+               H 
+               H 
+               M 
+               M 
+               M 
+               M 
+               H 
+               M 
+               M 
+               M 
+               M 
+               H 
+               M 
+               H 
+               
+             
+             
+            Total number of reference strings = 21 Total number of page faults or page misses = 14 We know that, Total number of page hits = Total number of reference strings - Total number of page faults Total number of page hits = 21 - 14 = 7 Page fault probability = Total number of page faults / Total number of reference strings Page fault probability = 14/21 = 0.67 Page fault percentage = Total number of page faults / Total number of reference strings * 100 Page fault percentage = 14/21*100 = 67% Explanation:  
+            
+            Firstly, there are three empty frames in the memory. Therefore, when 5, 0, 1 come into the frame, they are allocated to the empty frame in order of their arrival. It occurs page fault because 5, 0, 1 are not present in the memory. 
+            When 2 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 5, which is the least recently used page. 
+            When 0 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 3 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 1, which is the least recently used page. 
+            When 2, 0, 3 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 4 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces page 2, which is the least recently used page. 
+            When 1 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 0, which is the least recently used page. 
+            When 0 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 3, which is the least recently used page. 
+            When 5 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 4, which is the least recently used page. 
+            When 0 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 4 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 1, which is the least recently used page. 
+            When 3 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 0, which is the least recently used page. 
+            When 2 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 5, which is the least recently used page. 
+            When 1 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 4, which is the least recently used page. 
+            When 2 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 0 comes, it is not present in the memory. Therefore, a page fault occurs, and it replaces the oldest page 3, which is the least recently used page. 
+            When 1 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            Advantages and Disadvantages of LRU Page Replacement Algorithm There are various advantages and disadvantages of the LRU Page Replacement Algorithm. These advantages and disadvantages are as follows: Advantages 
+            
+            LRU doesn't suffer from Belady's Anomaly. 
+            The page in the main memory that hasn't been used in the longest will be chosen for replacement. 
+            It gives fewer page faults than any other page replacement algorithm. So, LRU is the most commonly utilized method. 
+            It is a very effective algorithm. 
+            It helps in the full analysis. 
+            Disadvantages 
+            
+            It isn't to implement because it requires hardware assistance. 
+            It is expensive and more complex. 
+            It needs an additional data structure. 
+            What is LFU Page Replacement Algorithm? The LFU page replacement algorithm stands for the Least Frequently Used. In the LFU page replacement algorithm, the page with the least visits in a given period of time is removed. It replaces the least frequently used pages. If the frequency of pages remains constant, the page that comes first is replaced first. Example: Let's take the following reference string to understand the LFU Page Replacement algorithm. 7 0 2 4 3 1 4 7 2 0 4 3 0 3 2 7 Find the number of page faults when the LFU page replacement policy is used. Also, consider the page frame size to be three. Solution: Reference String: 7 0 2 4 3 1 4 7 2 0 4 3 0 3 2 7 
+            
+             
+             
+               
+               String 
+               7 
+               0 
+               2 
+               4 
+               3 
+               1 
+               4 
+               7 
+               2 
+               0 
+               4 
+               3 
+               0 
+               3 
+               2 
+               7 
+               
+               
+               Frame 3 
+                
+                
+               2 
+               2 
+               2 
+               1 
+               1 
+               1 
+               2 
+               2 
+               2 
+               3 
+               3 
+               3 
+               3 
+               3 
+               
+               
+               Frame 2 
+                
+               0 
+               0 
+               0 
+               3 
+               3 
+               3 
+               7 
+               7 
+               0 
+               0 
+               0 
+               0 
+               0 
+               2 
+               7 
+               
+               
+               Frame 1 
+               7 
+               7 
+               7 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               4 
+               
+               
+               Miss/Hit 
+               M 
+               M 
+               M 
+               M 
+               M 
+               M 
+               H 
+               M 
+               M 
+               M 
+               H 
+               M 
+               H 
+               H 
+               M 
+               M 
+               
+             
+             
+            Total number of reference strings = 16 Total number of page faults or page misses = 12 We know that, Total number of page hits = Total number of reference strings - Total number of page faults Total number of page hits = 16 - 12 = 4 Page fault probability = Total number of page faults / Total number of reference strings Page fault probability = 12/16 = 0.75 Page fault percentage = Total number of page faults / Total number of reference strings * 100 Page fault percentage = 12/16*100 = 75% Explanation: 
+            
+            Firstly, there are three empty frames in the memory. Therefore, when 7, 0, 2 come into the frame, they are allocated to the empty frame in order of their arrival. It occurs page fault because 7, 0, 2 are not present in the memory. 
+            When 4 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 7, which is the least frequently used page. 
+            When 3 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 0, which is the least frequently used page. 
+            When 1 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 2, which is the least frequently used page. 
+            When 4 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 7 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 3, which is the least frequently used page. 
+            When 2 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 1, which is the least frequently used page. 
+            When 0 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 7, which is the least frequently used page. 
+            When 4 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 3 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 2, which is the least frequently used page. 
+            When 0, 3 comes, it is present in the memory. Therefore, a page hit occurs, and no replacement occurs. 
+            When 2 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 0, which is the least frequently used page. 
+            When 7 comes, it is not present in the memory. Therefore, a page fault occurs, replacing 2, which is the least frequently used page. 
+            Main Differences between the LRU and LFU Page Replacement Algorithm  Here, you will learn the main differences between the LRU and LFU Page Replacement Algorithm. Various differences between the LRU and LFU Page Replacement Algorithm are as follows: 
+            
+            LRU stands for the Least Recently Used page replacement algorithm. In contrast, LFU stands for the Least Frequently Used page replacement algorithm. 
+            The LRU page replacement algorithm keeps track of page usage in the memory over a short time period. In contrast, In the LFU page replacement algorithm, the page with the least visits in a given period of time is removed. 
+            LRU removes the page that has not been utilized in the memory for the longest period of time. In contrast, LFU replaces the least frequently used pages. 
+            Head-to-head Comparison between the LRU and LFU Page Replacement Algorithm Here, you will learn the head-to-head comparison between the LRU and LFU Page Replacement Algorithm. The main differences between the LRU and LFU Page Replacement Algorithm are as follows: 
+            
+            
+              
+              LRU Page Replacement Algorithm 
+              LFU Page Replacement Algorithm 
+              
+              
+              LRU stands for the Least Recently Used page replacement algorithm. 
+              LFU stands for the Least Frequently Used page replacement algorithm. 
+              
+              
+              It removes the page that has not been utilized in the memory for the longest period of time. 
+              It replaces the least frequently used pages. 
+              
+              
+              It keeps track of page usage in the memory over a short time period. 
+              In the LFU page replacement algorithm, the page with the least visits in a given period of time is removed. 
+              
+            
+            
+            
+            
+            Next Topic
+            SSTF vs C-LOOK Disk Scheduling Algorithm 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

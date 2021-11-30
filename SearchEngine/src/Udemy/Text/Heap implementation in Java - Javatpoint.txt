@@ -1,0 +1,1064 @@
+
+
+ 
+  
+  Heap implementation in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Heap implementation in Java In Java, Heap is a special type of data structure where the root node or parent node is compared with its left and right children and arranged according to the order. Suppose, x is a root node and y is the child node, property key(x)<= key(y) will generate min-heap, and that relation is referred to as "Heap Property". Based on the order of the parent and child nodes, Heap can be classified in two forms, i.e., Min heap and Max heap. Let's understand both of them one by one and implement the code in Java. Min heap Min heap is a special type of heap data structure that is a complete binary tree in itself . Min heap has the following properties: 
+            
+            Root node value is always smaller in comparison to the other nodes of the heap. 
+            Each internal node has a key value that is always smaller or equal to its children. 
+            We can perform the following three operations in Min heap: insertNode() We can perform insertion in the Min heap by adding a new key at the end of the tree. If the value of the inserted key is smaller than its parent node, we have to traverse the key upwards for fulfilling the heap property. The insertion process takes O(log n) time. extractMin() It is one of the most important operations which we perform to remove the minimum value node, i.e., the root node of the heap. After removing the root node, we have to make sure that heap property should be maintained. The extractMin() operation takes O(Logn) time to remove the minimum element from the heap. getMin() The getMin() operation is used to get the root node of the heap, i.e., minimum element in O(1) time. Example:  Min heap Algorithm 
+           
+            
+proceduredesign_min_heap
+Array arr: of size n => array of elements
+// call min_heapify procedure for each element of the array to form min heap
+repeat for (k = n/2 ; k >= 1 ; k--)
+	call procedure min_heapify (arr, k);
+proceduremin_heapify (vararr[ ] , var k, varn)
+{
+varleft_child  = 2*k;
+varright_child = 2*k+1;
+var smallest;
+if(left_child<= n and arr[left_child ] <arr[ k ] )
+smallest = left_child;
+else
+smallest = k;
+if(right_child<= n and arr[right_child ] <arr[smallest] )
+smallest = right_child;
+if(smallest != k)
+    {
+swaparr[ k ] and  arr[ smallest ]);
+callmin_heapify (arr, smallest, n);
+    } 
+}
+
+            MinHeapJavaImplementation.java 
+           
+            
+// import required classes and packages
+packagejavaTpoint.javacodes;
+
+importjava.util.Scanner;
+
+// create class MinHeap to construct Min heap in Java
+classMinHeap { 
+	// declare array and variables
+privateint[] heapData; 
+privateintsizeOfHeap; 
+privateintheapMaxSize; 
+
+private static final int FRONT = 1; 
+    //use constructor to initialize heapData array
+publicMinHeap(intheapMaxSize)  { 
+this.heapMaxSize = heapMaxSize; 
+this.sizeOfHeap = 0; 
+heapData = new int[this.heapMaxSize + 1]; 
+heapData[0] = Integer.MIN_VALUE; 
+    } 
+
+    // create getParentPos() method that returns parent position for the node 
+privateintgetParentPosition(int position)  { 
+return position / 2; 
+    } 
+
+    // create getLeftChildPosition() method that returns the position of left child 
+privateintgetLeftChildPosition(int position)  { 
+return (2 * position); 
+    } 
+
+    // create getRightChildPosition() method that returns the position of right child
+privateintgetRightChildPosition(int position)  { 
+return (2 * position) + 1; 
+    } 
+
+    // checks whether the given node is leaf or not
+privatebooleancheckLeaf(int position)  { 
+if (position >= (sizeOfHeap / 2) && position <= sizeOfHeap) { 
+return true; 
+        } 
+return false; 
+    } 
+
+    // create swapNodes() method that perform swapping of the given nodes of the heap 
+    // firstNode and secondNode are the positions of the nodes
+private void swap(intfirstNode, intsecondNode)  { 
+int temp; 
+temp = heapData[firstNode]; 
+heapData[firstNode] = heapData[secondNode]; 
+heapData[secondNode] = temp; 
+    } 
+
+    // create minHeapify() method to heapify the node for maintaining the heap property
+private void minHeapify(int position)  { 
+
+        //check whether the given node is non-leaf and greater than its right and left child
+if (!checkLeaf(position)) { 
+if (heapData[position] >heapData[getLeftChildPosition(position)] || heapData[position] >heapData[getRightChildPosition(position)]) { 
+
+                // swap with left child and then heapify the left child 
+if (heapData[getLeftChildPosition(position)] <heapData[getRightChildPosition(position)]) { 
+swap(position, getLeftChildPosition(position)); 
+minHeapify(getLeftChildPosition(position)); 
+                } 
+
+                // Swap with the right child and heapify the right child 
+else { 
+swap(position, getRightChildPosition(position)); 
+minHeapify(getRightChildPosition(position)); 
+                } 
+            } 
+        } 
+    } 
+
+    // create insertNode() method to insert element in the heap
+public void insertNode(int data)  { 
+if (sizeOfHeap>= heapMaxSize) { 
+return; 
+        } 
+heapData[++sizeOfHeap] = data; 
+int current = sizeOfHeap; 
+
+while (heapData[current] <heapData[getParentPosition(current)]) {  
+swap(current, getParentPosition(current)); 
+current = getParentPosition(current); 
+        } 
+    } 
+
+    // crreatedisplayHeap() method to print the data of the heap 
+public void displayHeap()  { 
+System.out.println("PARENT NODE" + "\t" + "LEFT CHILD NODE" + "\t" + "RIGHT CHILD NODE");
+for (int k = 1; k <= sizeOfHeap / 2; k++) { 
+System.out.print(" " + heapData[k] + "\t\t" + heapData[2 * k] + "\t\t" + heapData[2 * k + 1]); 
+System.out.println(); 
+        } 
+    } 
+
+   // create designMinHeap() method to construct min heap
+public void designMinHeap()  { 
+for (int position = (sizeOfHeap / 2); position >= 1; position--) { 
+minHeapify(position); 
+        } 
+    } 
+
+    // create removeRoot() method for removing minimum element from the heap
+publicintremoveRoot()  { 
+intpopElement = heapData[FRONT]; 
+heapData[FRONT] = heapData[sizeOfHeap--]; 
+minHeapify(FRONT); 
+returnpopElement; 
+    } 
+}
+
+// create MinHeapJavaImplementation class to create heap in Java
+classMinHeapJavaImplementation{
+	
+	// main() method start
+public static void main(String[] arg)  { 
+	// declare variable
+	intheapSize;
+	
+	// create scanner class object
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Enter the size of Min Heap");
+	heapSize = sc.nextInt();
+	
+	MinHeapheapObj = new MinHeap(heapSize);
+	
+	for(inti = 1; i<= heapSize; i++) {
+		System.out.print("Enter "+i+" element: ");
+		int data = sc.nextInt();
+		heapObj.insertNode(data);
+	}
+	
+        // close scanner class obj
+sc.close();
+
+        //construct a min heap from given data
+heapObj.designMinHeap(); 
+
+        //display the min heap data
+System.out.println("The Min Heap is "); 
+heapObj.displayHeap(); 
+
+        //removing the root node from the heap
+System.out.println("After removing the minimum element(Root Node) "+heapObj.removeRoot()+", Min heap is:"); 
+heapObj.displayHeap(); 
+
+    } 
+}
+
+            Output:  Max heap Max heap is another special type of heap data structure that is also a complete binary tree in itself in Java. Max heap has the following properties: 
+            
+            Root node value is always greater in comparison to the other nodes of the heap. 
+            Each internal node has a key value that is always greater or equal to its children. 
+            We can perform the following three operations in Max heap: insertNode() We can perform insertion in the Max heap by adding a new key at the end of the tree. If the value of the inserted key is greater than its parent node, we have to traverse the key upwards for fulfilling the heap property. The insertion process takes O(log n) time. extractMax() It is one of the most important operations which we perform to remove the maximum value node, i.e., the root node of the heap. After removing the root node, we have to make sure that heap property should be maintained. The extractMax() operation takes O(Log n) time to remove the maximum element from the heap. getMax() The getMax() operation is used to get the root node of the heap, i.e., maximum element in O(1) time. Example:  Min heap Algorithm 
+           
+            
+proceduredesign_max_heap
+Array arr: of size n => array of elements
+// call min_heapify procedure for each element of the array to form max heap
+repeat for (k = n/2 ; k >= 1 ; k--)
+	call procedure max_heapify (arr, k);
+proceduremin_heapify (vararr[ ] , var k, varn)
+{
+varleft_child  = 2*k + 1;
+varright_child = 2*k+ 2;
+if(left_child<= n and arr[left_child] >arr[ largest ] )
+largest = left_child;
+else
+largest = k;
+if(right_child<= n and arr[right_child] >arr[largest] )
+largest = right_child;
+if(largest != k)
+    {
+swaparr[ k ] and  arr[ largest ]);
+callmax_heapify (arr, largest, n);
+    } 
+}
+
+            MaxHeapJavaImplementation.java 
+           
+            
+//import required classes and packages
+packagejavaTpoint.javacodes;
+
+importjava.util.Scanner;
+
+//create class MinHeap to construct Min heap in Java
+classMaxHeap { 
+	// declare array and variables
+	privateint[] heapData; 
+	privateintsizeOfHeap; 
+	privateintheapMaxSize; 
+
+	private static final int FRONT = 1; 
+
+	//use constructor to initialize heapData array
+	publicMaxHeap(intheapMaxSize)  { 
+		this.heapMaxSize = heapMaxSize; 
+		this.sizeOfHeap = 0; 
+		heapData = new int[this.heapMaxSize];
+	} 
+
+	// create getParentPos() method that returns parent position for the node 
+	privateintgetParentPosition(int position)  { 
+		return (position - 1) / 2; 
+	} 
+
+	// create getLeftChildPosition() method that returns the position of left child 
+	privateintgetLeftChildPosition(int position)  { 
+		return (2 * position); 
+	} 
+
+	// create getRightChildPosition() method that returns the position of right child
+	privateintgetRightChildPosition(int position)  { 
+		return (2 * position) + 1; 
+	} 
+
+	// checks whether the given node is leaf or not
+	privatebooleancheckLeaf(int position)  { 
+		if (position > (sizeOfHeap / 2) && position <= sizeOfHeap) { 
+			return true; 
+		} 
+		return false; 
+	} 
+
+	// create swapNodes() method that perform swapping of the given nodes of the heap 
+	// firstNode and secondNode are the positions of the nodes
+	private void swap(intfirstNode, intsecondNode)  { 
+		int temp; 
+		temp = heapData[firstNode]; 
+		heapData[firstNode] = heapData[secondNode]; 
+		heapData[secondNode] = temp; 
+	} 
+
+	// create maxHeapify() method to heapify the node for maintaining the heap property
+	private void maxHeapify(int position)  { 
+
+	     //check whether the given node is non-leaf and greater than its right and left child
+	if (!checkLeaf(position)) { 
+	if (heapData[position] <heapData[getLeftChildPosition(position)] || heapData[position] <heapData[getRightChildPosition(position)]) { 
+	
+	             // swap with left child and then heapify the left child 
+	if (heapData[getLeftChildPosition(position)] >heapData[getRightChildPosition(position)]) { 
+	swap(position, getLeftChildPosition(position)); 
+	maxHeapify(getLeftChildPosition(position)); 
+	             } 
+	
+	             // Swap with the right child and heapify the right child 
+	else { 
+	swap(position, getRightChildPosition(position)); 
+	maxHeapify(getRightChildPosition(position)); 
+	             } 
+	         } 
+	     } 
+	} 
+
+	// create insertNode() method to insert element in the heap
+	public void insertNode(int data)  { 
+		heapData[sizeOfHeap] = data; 
+		int current = sizeOfHeap; 
+
+		while (heapData[current] >heapData[getParentPosition(current)]) {  
+			swap(current, getParentPosition(current)); 
+			current = getParentPosition(current); 
+		} 
+		sizeOfHeap++;
+	} 
+
+	// create displayHeap() method to print the data of the heap 
+	public void displayHeap()  { 
+		System.out.println("PARENT NODE" + "\t" + "LEFT CHILD NODE" + "\t" + "RIGHT CHILD NODE");
+		for (int k = 0; k <sizeOfHeap / 2; k++) { 
+			System.out.print(" " + heapData[k] + "\t\t" + heapData[2 * k + 1] + "\t\t" + heapData[2 * k + 2]); 
+			System.out.println(); 
+		} 
+	} 
+
+	// create designMaxHeap() method to construct min heap
+	public void designMaxHeap()  { 
+		for (int position = 0;  position < (sizeOfHeap / 2); position++) { 
+			maxHeapify(position); 
+		} 
+	} 
+
+	// create removeRoot() method for removing maximum element from the heap
+	publicintremoveRoot()  { 
+		intpopElement = heapData[FRONT]; 
+		heapData[FRONT] = heapData[sizeOfHeap--]; 
+		maxHeapify(FRONT); 
+		returnpopElement; 
+	} 
+}
+
+//create MinHeapJavaImplementation class to create heap in Java
+classMaxHeapJavaImplementation{
+	
+	// main() method start
+public static void main(String[] arg)  { 
+	// declare variable
+	intheapSize;
+	
+	// create scanner class object
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Enter the size of Max Heap");
+	heapSize = sc.nextInt();
+	
+	MaxHeapheapObj = new MaxHeap(50);
+	
+	for(inti = 1; i<= heapSize; i++) {
+		System.out.print("Enter "+i+" element: ");
+		int data = sc.nextInt();
+		heapObj.insertNode(data);
+	}
+	
+     // close scanner class obj
+sc.close();
+
+     //construct a max heap from given data
+heapObj.designMaxHeap(); 
+
+     //display the max heap data
+System.out.println("The Max Heap is "); 
+heapObj.displayHeap(); 
+
+     //removing the root node from the heap
+System.out.println("After removing the maximum element(Root Node) "+heapObj.removeRoot()+", Max heap is:"); 
+heapObj.displayHeap(); 
+
+ } 
+}
+
+            Output:  
+            
+            
+            Next Topic
+            How to Check null in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

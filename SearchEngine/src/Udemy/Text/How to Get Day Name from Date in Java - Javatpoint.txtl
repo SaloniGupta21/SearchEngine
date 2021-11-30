@@ -1,0 +1,97 @@
+How to Get Day Name from Date in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev How to Get Day Name from Date in Java? In this section, we will create a Java program to get the day name from date. There are the following classes that are used when we deal with date and time in Java. Calendar Class: The class belongs to java.util package. It extends the Object class and implements the Serializable, cloneable, Comparable<Calendar> interfaces. It provides the methods for converting specific instance in time and a set of calendar fields (such as YEAR, MONTH, DAY, HOUR, DAY_OF MONTH, etc.) Date Class: The class belongs to the util package. It represents a specific instant in time, with millisecond precision. It allows the interpretation of dates as year, month, day, hour, minute, and second values. Besides this formatting and parsing of date strings is also allowed. LocalDate Class: It belongs to time package. It represents the date according to ISO-8601 calendar system, such as 2002-08-24. It is an immutable date-time object that represents a date in yyyy-mm-dd format. Also, we can access the other date fields, such as day-of-year, day-of-week and week-of-year. For example, the value "22nd December 2003" can be stored in a LocalDate. Note that the class does not store or represent a time or time-zone. SimpleDateFormat Class: The class belongs to java.text package. It extends the DateFormat class. SimpleDateFormatis a concrete class for formatting and parsing dates in a locale-sensitive manner. Format: Format is an abstract base class for formatting locale-sensitive information such as dates, messages, and numbers. DateFormat: The class belongs to java.text package. It extends the Format class. There are the following ways to get day name from date: Using SimpleDateFormat Class Using DateFormatSymbols Class Using GregorianCalendar Class Java Program to Get Day Name from Date Get Day Name of the Current Date Using SimpleDateFormat Class The following Java program demonstrate how to get today' date day name. In the following program, we have created an instance of the Calendar class and invoked the getInstance() method of the class. It returns a Calendar object whose calendar fields have been initialized with the current date and time. It may produce all calendar fields. We have parsed a date format in the SimpleDateFormat class constructor. In the print statement, we have called the format() method of the SimpleDateFormat class that formats the given Date into a date/time string and appends the result to the given StringBuffer. Inside the format() method we have called the getTime() method of the Calendar class. The method returns a Date object representing this Calendar's time value. Format class is a base class that contains other format classes such as DateFormat and SimpleDatefFormat class. In the Format class constructor, we have passed EEEE that represents the day name in week. In the next statement, we have invoked the format() method and parsed the object of the Date class. The method formats an object to produce a string. At last, print the string that shows the day name. GetDayNameExample1.java 
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Calendar;
+public class GetDayNameExample1
+{
+public static void main(String args[]) throws Exception 
+{
+//returns a Calendar object whose calendar fields have been initialized with the current date and time
+Calendar cal = Calendar.getInstance();
+//creating a constructor of the SimpleDateFormat class
+SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+//getting current date
+System.out.println("Today's date: "+sdf.format(cal.getTime()));
+//creating a constructor of the Format class
+//displaying full-day name
+Format f = new SimpleDateFormat("EEEE");
+String str = f.format(new Date());
+//prints day name
+System.out.println("Day Name: "+str);
+}
+}
+ Output: Today's date: 05-10-2021
+Day Name: Tuesday
+ Let's see another program for the same. Using DateFormatSymbols Class In the following program, we have create a constructor of the DateFormatSymbols() class and invoked the getWeekdays() method that returns the string of weekdays. We have store that weekdays in an array named dayNames[]. After that, we have created an instance of the Calendar class and invoked the getInstance() method of the class. It returns a Calendar object whose calendar fields have been initialized with the current date and time. It may produce all calendar fields. In the print statement, we have invoked the get() method of the Calendar class and passed the field DAY_OF_WEEK as an argument. It obtains the number for get and set indicating the day of the week. Therefore, it prints the day of the week. GetDayNameExample2.java 
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+import java.text.DateFormatSymbols;
+public class GetDayNameExample2
+{
+public static void main(String args[]) 
+{
+String dayNames[] = new DateFormatSymbols().getWeekdays();
+Calendar date = Calendar.getInstance();
+System.out.println("Today is "+ dayNames[date.get(Calendar.DAY_OF_WEEK)]);
+}
+}
+ Output: Today is Tuesday
+ Note: Your output may differ as shown above. Using GregorianCalendar Class Java GregorianCalendar Class belong to java.util package. It is a concreate subclass of the Calendar class. It provides the standard calendar system. In the following example, we have created an instance of the Date class and parsed a GregorianCalendar class object as an argument. In the GregorianCalendar class constructor we passed year, month and day of the month of which we want to know day. The getTime() method returns the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date object. The Date class constructor allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond. We have created a method dayName() that determines the day name of a specified date. Inside the method, we have created a constructor of the SimpleDateFormat class and parsed the pattern for day name i.e. EEEE. GetDayNameExample3.java 
+import java.util.*;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+public class GetDayNameExample3
+{
+public static void main(String args[]) 
+{
+Date d1 = (new GregorianCalendar (2005, Calendar.OCTOBER, 20)).getTime();
+//creating a constructor of the Date class
+Date d2 = new Date();
+//calling the method and prints the day name
+System.out.println("This date was on: " + dayName(d1));
+}
+//method to determine the day name
+public static String dayName(Date d) 
+{
+//EEEE represents full day name
+DateFormat f = new SimpleDateFormat("EEEE");
+try 
+{
+return f.format(d);
+}
+catch(Exception e) 
+{
+e.printStackTrace();
+return "";
+}
+}
+}
+ Output: This date was on: Thursday
+ Let's see another Java program for the same. GetDayNameExample4.java 
+import java.time.LocalDate;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class GetDayNameExample4
+{
+public static void main(String args[])    
+{
+try
+{
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", java.util.Locale.ENGLISH);
+Date date= sdf.parse("12/06/2021");
+//specifies the pattern to print
+sdf.applyPattern("EEE, d MMM yyyy");
+String str = sdf.format(date);
+//prints day name with date
+System.out.println(str);
+}
+catch (Exception e)
+{
+e.printStackTrace();
+}
+}
+}
+ Output: Sat, 12 Jun 2021
+ Next Topic Zigzag Array in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

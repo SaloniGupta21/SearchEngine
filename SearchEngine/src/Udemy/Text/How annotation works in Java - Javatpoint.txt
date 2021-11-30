@@ -1,0 +1,829 @@
+
+
+ 
+  
+  How annotation works in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            How annotation works in Java? In Java, annotations are metadata about the source code. They do not have any direct effect on the execution of the Java program. Annotations in Java were introduced in JDK 5. The main purpose of using annotation is that it gives instructions to the compiler at the build-time and at the runtime of program execution. Built-in Annotation in Java There are three built-in annotations in Java, 1. @Override The annotation is used while we perform inheritance. The child class overrides the method declared in the base class. It is recommended to use this annotation so that even if someone changes the name of the method in the base class, the compiler will show an error message. Otherwise, it can be a hectic task to identify such errors. Example: 
+           
+            
+/* Base Class */
+public class SampleParent {
+
+    public void dummymethod() {
+        System.out.println("Inside parent class");
+    }
+}
+
+/* Child Class */
+public class SampleChild extends SampleParent {
+
+    @Override
+    public void dummymethod() {
+        System.out.println("Inside child class");
+    }
+}
+
+            Here, the dummymethod() is initially declared inside SampleParent class and overridden inside SampleChild class. 2. @Deprecated The @Deprecated annotation is a type of built-in annotation used for the data members who are no longer used in the program. The compiler shows a warning message if a @Deprecated data member is called or used. It is recommended to us @Deprecated annotation to explain the reason behind deprecating the method, class, or data variable. Example: 
+           
+            
+@Deprecated
+/*  @deprecated Use another class.*/
+public class SampleAnnotate 
+{
+    /* Some code */
+}
+
+            Here, the class SampleAnnotate is deprecated using the @Deprecate annotation. And @deprecated symbol explains the reason. 3. @SuppressWarnings 
+           
+            
+public class SampleAnnotate 
+{
+    @Deprecated
+    /*  @deprecated Use another method.*/
+    void deprecatedmethod()
+    {
+        /* Some code */
+    }
+}
+class Sample extends SampleAnnotate
+{
+     @SuppressWarnings
+    /* Deprecated method can be overridden with @SuppressWarnings */
+    void deprecatedmethod()
+    {
+        /* Some code */
+    }
+}
+
+            Here, the deprecatedmethod() is deprecated in the base class but still can be overridden using @SuppressWarnings. Types of Annotations 1. Marker Annotation The purpose of marker annotation is to label a declaration. It does not contain any kind of data or members. Example: @Override 2. Single value Annotation An annotation that only contains one data value or method is called Single value annotation. The data element is named as value by default. Example: @Annotaionexample("DataMemberName") 3. Full Annotation This kind of annotation has multiple data elements split by using a comma. Example: @Annotaionexample(value1=" DataMemberName", value2=" DataMemberName") 4. Type Annotation Type annotation can be used to annotate the type of any method or a data variable. Type annotation is annotated using @Target annotation. Example: The following program demonstrates the type annotation. SampleTypeAnnotation.java 
+           
+            
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+/* @target annotation */
+@Target(ElementType.TYPE_USE)
+/* Declare type annotation */
+@interface AnnotationTypeExample{}
+public class SampleTypeAnnotaion
+{
+    /* Driver Code */
+	public static void main(String ar[]) 
+	{
+	    /* Annotating the type of a string */
+		@AnnotationTypeExample String string = "This program demonstrates type annotation";
+		System.out.println(string);
+		Annotatemethod();
+	}
+	/* Annotating return type of a method */
+	static @AnnotationTypeExample int Annotatemethod()
+	{
+		System.out.println("This method return type uses type annotation");
+		return 0;
+	}
+}
+
+            Output: 
+           
+            This program demonstrates type annotation
+This method return type uses type annotation
+
+            How to Create Custom Annotation? In order to create a custom annotation, the @interface annotation is used. It informs the Java compiler about the custom annotation. The following example shows how to create a custom annotation. 
+           
+            
+/* Custom annotation */
+@interface SampleCustomAnnotation 
+{
+    String empid();
+    String empname()
+    String emppost()
+    int empage();
+}
+
+            The following code shows the use of custom annotation declared above. 
+           
+            
+/* Custom Annotation is used here */
+@MyAnnotation(
+    empid="42",
+    empname="abc"
+    emppost="manager",
+    empage=28,
+)
+public class MyClass 
+{
+/* Some Code */
+}
+
+            All the data members declared inside the custom annotation are initialized in the above code. Annotation Placement 1. Levels of Annotation The annotations in Java program can be placed at the start of a class, method, variable, or interface. Following are the two levels of annotations. i) Class Level Annotation: The annotation that is placed just above the class is called a Class level annotation. Example: 
+           
+            
+@Entity
+public class Demo
+{
+	/* Some Code */
+}
+
+            Here, @Entity is a custom class-level annotation. ii) Method Level Annotation: The annotation that is placed just above a method is called a Method level annotation. Example: 
+           
+            
+@SampleAnnotation
+int Sample()
+{
+	/* method code */
+}
+
+            In the above code, the @SampleAnnotation is a custom annotation. 2. Type Annotation At first, programmers were allowed to only use annotations at the declaration part of data members. But now we can use annotation wherever a type is declared. Example: 
+           
+            
+@NonNull List<String> dummylist
+
+            The above example declares a String type of List with @NonNull annotation. 
+            
+            
+            Next Topic
+            How to Find Length of Integer in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

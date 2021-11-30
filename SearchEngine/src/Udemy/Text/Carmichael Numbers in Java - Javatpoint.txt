@@ -1,0 +1,802 @@
+
+
+ 
+  
+  Carmichael Numbers in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Carmichael Numbers in Java In this section, we will learn what is Carmichael number and also create Java programs to check if the given number is a Carmichael number or not. The Carmichael numbers program is frequently asked in Java coding interviews and academics. Carmichael Numbers A composite number n that are pseudoprimes to every base 'a' i.e. an-1? 1(mod n) for all integer 'a' with GCD(a, n)=1 are called absolute pseudoprime or Carmichael numbers. The number must satisfy the necessary and sufficient conditions for Carmichael numbers. n is absolute pseudoprime or Carmichael number if: 
+            
+            n is composite (a positive integer that can be formed by multiplying two smaller positive integers) and square-free (n is not divisible by the square of any prime). 
+            an-1?1(mod n) for all integers a with GCD(a, n)=1 
+            They are extremely rare. Note that every Carmichael number is the product of at least three distinct primes. In other words, we can say that a composite number n is a Carmichael number if whenever a relatively prime to 'n', we have: 
+           
+             a
+            n-1?1(mod n) 
+            Let's see how to calculate Carmichael number. Example of Carmichael Numbers Let's check 561 is a Carmichael number or not. If the number satisfies the above two conditions, it means 561 is a Carmichael number. 
+            
+            Consider 561=3*11*17, hence 561 is a composite number and satisfies the first condition. 
+            According to the second condition, a560 ?1(mod 561) for all integers 'a' with (a, n) = 1. 
+            Let, GCD (a, 561) = 1 Claim: a560 ? 1 mod 561 
+           
+             a
+            2? 1 mod 3
+             a
+            10? 1 mod 11
+             a
+            16? 1 mod 17 
+            Suppose, 'a' that is relatively prime to 561. So, a is not a multiple of 3 or 11 or 17. Now despite the fact that 561 is not prime it still satisfies the conclusion of the formal theorem we are going to show that 'a' raised to the power of 560 is congruent to 1 modulo 561. Now 3, 11, and 17 are prime numbers, and consequently by formosanal theorem, 'a' square is congruent to 1 modulo 3 'a' to the 10th power is congruent to 1 modulo 11, and 'a' to the 16th power is congruent to 1 modulo 17. Now we will take the first congruence, 'a' square is congruent to 1 modulo 3 and we will raise both sides the power to conclude that 'a' to the 80th power is congruent to 1 modulo 3. We can do the same thing with the next congruence. We can take 'a' to the power 10th power is congruent to 1 modulo 11 and raise both sides to the eight power to calculate that 'a' to the 80th power is congruent to 1 modulo 11 and finally we can take that last congruence 'a' to the 16th is congruent to 1 modulo 17 and we can raise both sides to the fifth power in order to calculate that 'a' to the 80th power is congruent to 1 modulo 17. 
+           
+             (a
+            2)
+            40? 1 mod 3
+             (a
+            10)
+            8? 1 mod 11
+             (a
+            16)
+            5? 1 mod 17 
+            Now, we will combine all together using the Chinese Remainder Theorem (CRT). We know that 'a' to the 80th power is 1 modulo 3, 11, and 17. So, we can conclude that 'a' to the 80th power is 1 modulo 561. Therefore, by CRT: 
+           
+             a
+            80=1 mod 561 
+            We are going to perform one more step here is that take 'a' to the 80th congruent to 1 modulo 561. Raise both sides to the 7th power, we found that 'a' to the 560 is congruent to 1 modulo 561. Therefore, 
+           
+             (a
+            80)
+            7=a
+            560? 1 mod 561 
+            So, despite the fact that 561 is not a prime number it still satisfies the conclusion of hermozilla theorem (whenever 'a' is relatively prime to n then a to the n minus first power is congruent to one modulo n). First few Carmichael numbers are 561, 1105, 1729, 2465, 2821, 6601, 8911, 10585, 15841. Algorithm 
+            
+            Read an integer n. 
+            Iterate from 2 to n and for every iteration check if gcd(b, n) = 1 and bn - 1 mod n = 1. If all the iterations satisfy the given conditions print "n is a Carmicheal number" else print "n is not a Carmicheal number". 
+            Stop 
+            Carmichael Numbers Java Program CheckCarmichaelNumber.java 
+           
+            
+import java.util.*;
+public class CheckCarmichaelNumber
+{
+//function finds the GCD of b and n
+static int gcd(int b, int n)
+{
+if (n == 0) 
+return b;     
+return gcd(n, b % n);  
+}
+//function to determine b^(n-1) mod n
+static int power(int b, int exp, int n)
+{
+if(exp == 0)
+return 1;
+int result = power(b, exp/2, n) % n;
+result = (result * result) % n;
+if (exp % 2 == 1)
+result = (result * b) % n;
+return result;
+}
+//function checks if gcd(b, n)=1 and b^(n-1) mod n = 1 or not
+static boolean checkCarmicheal(int n)
+{
+for(int b = 2; b<=n; b++)
+{
+if(gcd(b, n)==1 && power(b, n-1, n)!=1)
+//if the above condition does not satisfy
+return false;
+}
+//if the above condition satisfies
+return true;
+}
+//driver function
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter the Number: ");
+//reads an integer
+int n = sc.nextInt();
+//function calling
+if(checkCarmicheal(n)) 
+System.out.println(n+" is a Carmichael number.");
+else 
+System.out.println(n+" is not a Carmichael number.");
+}
+}
+
+            Output 1: 
+           
+            Enter the Number: 10585
+10585 is a Carmichael number.
+
+            Output 2: 
+           
+            Enter the Number: 564
+564 is not a Carmichael number.
+
+            
+            
+            
+            Next Topic
+            Contextual Keywords in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+

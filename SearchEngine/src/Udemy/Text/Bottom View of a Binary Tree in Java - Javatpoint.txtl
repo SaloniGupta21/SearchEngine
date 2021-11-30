@@ -1,0 +1,212 @@
+Bottom View of a Binary Tree in Java - Javatpoint ? SCROLL TO TOP Home Java Programs OOPs String Exception Multithreading Collections JavaFX JSP Spring Spring Boot Projects Interview Questions Java Training Java Tutorial What is Java History of Java Features of Java C++ vs Java Hello Java Program Program Internal How to set path? JDK, JRE and JVM JVM: Java Virtual Machine Java Variables Java Data Types Unicode System Operators Keywords Control Statements Java Control Statements Java If-else Java Switch Java For Loop Java While Loop Java Do While Loop Java Break Java Continue Java Comments Java Programs Java Object Class Java OOPs Concepts Naming Convention Object and Class Method Constructor static keyword this keyword Java Inheritance Inheritance(IS-A) Aggregation(HAS-A) Java Polymorphism Method Overloading Method Overriding Covariant Return Type super keyword Instance Initializer block final keyword Runtime Polymorphism Dynamic Binding instanceof operator Java Abstraction Abstract class Interface Abstract vs Interface Java Encapsulation Package Access Modifiers Encapsulation Java Array Java Array Java OOPs Misc Object class Object Cloning Math class Wrapper Class Java Recursion Call By Value strictfp keyword javadoc tool Command Line Arg Object vs Class Overloading vs Overriding Java String Java Regex Exception Handling Java Inner classes Java Multithreading Java I/O Java Networking Java AWT & Events Java Swing JavaFX Java Applet Java Reflection Java Date Java Conversion Java Collection Java JDBC Java Misc Java New Features RMI Internationalization Interview Questions Java MCQ next ? ? prev Bottom View of a Binary Tree in Java In this section, we will learn about the bottom view of a binary tree in Java using different approaches to achieve it. In the bottom view of a binary tree, we print only those nodes of the binary tree that are visible when the binary tree is viewed from the bottom. For example, consider the following binary tree. The bottom view is: 
+10 5 25 14 7
+ Note: In the Bottom view of a Binary Tree, the order in which the nodes are displayed in the output is not relevant. All one should care about is that all of the nodes that are visible from the bottom side of the binary tree should be included in the output. Approach 1: Using Queue We perform the level order traversal and store the nodes in a queue. We assume that the horizontal distance (horDis) of the root node is 0, moving one step to the level updates the horDis to -1, and moving one step updates the horDis to +1. Note that while doing the level order traversal, we also need to store the horizontal distance along with the nodes, and for doing that, we will use a map, where horDis will be key, and the data of the node will be value. Implementation Let's see the implementation of the bottom view of a binary tree using a queue. FileName: BottomViewExample.java 
+// Important import statements
+import java.util.Map.Entry;
+import java.util.*;
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// for keeping the horizontal distance value of the node 
+// taking root node as the reference
+int horDis;
+// l and r represent the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = null;
+l = null;
+horDis = Integer.MAX_VALUE;
+}
+}
+//Tree class
+class Tree
+{
+BinaryTreeNode rt; // root node of the tree
+// constructor of the tree
+public Tree() 
+{
+}
+// Parameterized constructor of the tree 
+public Tree(BinaryTreeNode node)
+{
+rt = node;
+}
+// a method that shows the bottom view of the tree
+public void bottomViewBT()
+{
+if (rt == null)
+{
+return;
+}
+// Initializing a variable 'horDis' with the value 0 for the root element.
+int horDis = 0;
+// A TreeMap that keeps the key-value pair where sorting is done on the key-value
+Map<Integer, Integer> mp = new TreeMap<>();
+// A queue to keep the nodes of the tree in the level order traversal
+Queue<BinaryTreeNode> que = new LinkedList<BinaryTreeNode>();
+// Assigning the initialized horizontal distance value to the root
+// node and adding the node to the queue.
+rt.v = horDis;
+que.add(rt);
+// Loop until the queue is empty (standard level order loop)
+while (!que.isEmpty())
+{
+BinaryTreeNode tmp = que.remove();
+// extracting the value of horizontal distance value from 
+// the dequeued node of the binary tree.
+horDis = tmp.horDis;
+// putting the dequeued node of the binary tree to the TreeMap using key
+// as the horizontal distance. Whenever we come across a node
+// that has the same horizontal distance, it is required to replace
+// the value in the TreeMap.
+mp.put(horDis, tmp.v);
+// If the node that has been dequeued contains a left child, then 
+// add the left child to the queue along with the horizontal distance hd - 1. It is because 
+// we are moving in the left direction
+if (tmp.l != null)
+{
+tmp.l.horDis = horDis - 1;
+que.add(tmp.l);
+}
+// If the node that has been dequeued contains a right child, then 
+// add the right child to the queue along with the horizontal distance hd + 1. It is because 
+// we are moving in the right direction
+if (tmp.r != null)
+{
+tmp.r.horDis = horDis + 1;
+que.add(tmp.r);
+}
+}
+// extracting the entries from map into a set s in order to traverse
+// an iterator.
+Set<Entry<Integer, Integer>> s = mp.entrySet();
+// Make an iterator
+Iterator<Entry<Integer, Integer>> itr = s.iterator();
+// Traverse the map elements using the iterator.
+while (itr.hasNext())
+{
+Map.Entry<Integer, Integer> me = itr.next();
+System.out.print(me.getValue() + " ");
+}
+}
+}
+public class BottomViewExample
+{
+// main method
+public static void main(String[] argvs)
+{
+// root node
+BinaryTreeNode rt = new BinaryTreeNode(20);
+// other nodes of the tree
+rt.l = new BinaryTreeNode(22);
+rt.r = new BinaryTreeNode(8);
+rt.l.l = new BinaryTreeNode(25);
+rt.l.r = new BinaryTreeNode(3);
+rt.r.r = new BinaryTreeNode(5);
+rt.l.r.r = new BinaryTreeNode(10);
+rt.l.r.l = new BinaryTreeNode(14);
+rt.l.r.l.r = new BinaryTreeNode(7);
+// creating an object of the class Tree
+Tree tr = new Tree(rt);
+System.out.println("The following are the nodes present in the bottom view of the Binary Tree: ");
+// invoking the method bottomViewBT
+tr.bottomViewBT();
+}
+}
+ Output: 10 5 25 14 7
+ Approach 2: Using HashMap() In the previous approach, we have discussed the bottom view of the tree using a queue. In this approach, we have used Map, where the key is the horizontal distance (horDis) and value is a pair(k, r), where r represents the height of the node and k represent the value of the node. We perform a preorder traversal of the binary tree. If we are observing the value of horizontal distance for the first time for the current node, then we insert it in map. Else, we do a comparison of the current node with the already present node in the map (at a similar horizontal distance). If the height of the current node is greater, we update the map; otherwise, not. Implementation Let's see the implementation of the bottom view of a binary tree using the HashMap. FileName: BottomViewExample1.java 
+// important import statements
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+// a node of a binary tree
+class BinaryTreeNode 
+{
+// for keeping the value of a node
+int v;
+// l and r represent the  
+// left child and the right child of a node
+BinaryTreeNode l, r;
+// constructor of the class BinaryTreeNode
+// the construct and initializes the class fields
+public BinaryTreeNode(int i)
+{
+v = i;
+r = null;
+l = null;
+}
+}
+public class BottomViewExample1
+{
+public void displayBottomViewUtil(BinaryTreeNode rt, int current, int horDis, TreeMap<Integer, int[]> mp)
+{
+// handling the base case
+if (rt == null)
+{
+return;
+}
+// If the node for the horizontal distance
+// is not present, then insert it in the map.
+if (!mp.containsKey(horDis))
+{
+mp.put(horDis, new int[]{ rt.v, current });
+}
+// Comparing the height for the 
+// existing node at the similar horizontal distance
+else
+{
+int[] p = mp.get(horDis);
+if (p[1] <= current)
+{
+p[1] = current;
+p[0] = rt.v;
+}
+mp.put(horDis, p);
+}
+// Recurring for the left subtree
+displayBottomViewUtil(rt.l, current + 1, horDis - 1, mp);
+// Recurring for the right subtree
+displayBottomViewUtil(rt.r, current + 1, horDis + 1, mp);
+}
+public void displayBottomView(BinaryTreeNode rt)
+{
+// Map to keep the Horizontal Distance,
+// data and height.
+TreeMap<Integer, int[]> mp = new TreeMap<>();
+displayBottomViewUtil(rt, 0, 0, mp);
+// Printing the values that are being stored by displayBottomViewUtil()
+for(int value[] : mp.values())
+{
+System.out.print(value[0] + " ");
+}
+}
+// main method
+public static void main(String argvs[])
+{
+// creating an object of the class BottomViewExample1
+BottomViewExample1 tv = new BottomViewExample1();
+// root node
+BinaryTreeNode rt = new BinaryTreeNode(20);
+// other nodes of the tree
+rt.l = new BinaryTreeNode(22);
+rt.r = new BinaryTreeNode(8);
+rt.l.l = new BinaryTreeNode(25);
+rt.l.r = new BinaryTreeNode(3);
+rt.r.r = new BinaryTreeNode(5);
+rt.l.r.r = new BinaryTreeNode(10);
+rt.l.r.l = new BinaryTreeNode(14);
+rt.l.r.l.r = new BinaryTreeNode(7);
+System.out.println("The following are the nodes present in the bottom view of the Binary Tree: ");
+tv.displayBottomView(rt);
+}
+}
+ Output: The following are the nodes present in the bottom view of the Binary Tree: 
+25 14 7 10 5
+ Next Topic Coercion in Java ? prev next ? For Videos Join Our Youtube Channel: Join Now Feedback Send your Feedback to [email protected] Help Others, Please Share Learn Latest Tutorials Splunk SPSS Swagger Transact-SQL Tumblr ReactJS Regex Reinforcement Learning R Programming RxJS React Native Python Design Patterns Python Pillow Python Turtle Keras Preparation Aptitude Reasoning Verbal Ability Interview Questions Company Questions Trending Technologies Artificial Intelligence AWS Selenium Cloud Computing Hadoop ReactJS Data Science Angular 7 Blockchain Git Machine Learning DevOps B.Tech / MCA DBMS Data Structures DAA Operating System Computer Network Compiler Design Computer Organization Discrete Mathematics Ethical Hacking Computer Graphics Software Engineering Web Technology Cyber Security Automata C Programming C++ Java .Net Python Programs Control System Data Mining Data Warehouse Javatpoint Services JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. Website Designing Website Development Java Development PHP Development WordPress Graphic Designing Logo Digital Marketing On Page and Off Page SEO PPC Content Development Corporate Training Classroom and Online Training Data Entry Training For College Campus JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected] Duration: 1 week to 2 week Like/Subscribe us for latest updates or newsletter Learn Tutorials Learn Java Learn Data Structures Learn C Programming Learn C++ Tutorial Learn C# Tutorial Learn PHP Tutorial Learn HTML Tutorial Learn JavaScript Tutorial Learn jQuery Tutorial Learn Spring Tutorial Our Websites Javatpoint.com Hindi100.com Lyricsia.com Quoteperson.com Jobandplacement.com Our Services Website Development Android Development Website Designing Digital Marketing Summer Training Industrial Training College Campus Training Contact Address: G-13, 2nd Floor, Sec-3 Noida, UP, 201301, India Contact No: 0120-4256464, 9990449935 Contact Us Subscribe Us Privacy Policy Sitemap About Me ? Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.

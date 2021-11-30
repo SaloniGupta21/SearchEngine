@@ -1,0 +1,866 @@
+
+
+ 
+  
+  Non-primitive data types in Java - Javatpoint
+   
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+  
+  
+  ? SCROLL TO TOP 
+  
+    
+    
+      
+      
+        
+         
+          
+           
+          
+         
+          
+           
+           
+       
+      
+      
+     
+     
+      
+       
+       
+      
+      
+       
+       
+      
+     
+     
+      
+       
+        Home 
+        Java 
+        Programs 
+        OOPs 
+        String 
+        Exception 
+        Multithreading 
+        Collections 
+        JavaFX 
+        JSP 
+        Spring 
+        Spring Boot 
+        Projects 
+        Interview Questions  
+       
+       
+      
+     
+     
+     
+      
+     
+     
+     Java Training 
+      
+      Java Tutorial 
+      
+      
+      What is Java 
+      History of Java  
+      Features of Java  
+      C++ vs Java  
+      Hello Java Program 
+      Program Internal 
+      How to set path?  
+      JDK, JRE and JVM  
+      JVM: Java Virtual Machine  
+      Java Variables 
+      Java Data Types 
+      Unicode System  
+      Operators  
+      Keywords  
+      
+      
+      Control Statements 
+      
+      
+      Java Control Statements 
+      Java If-else 
+      Java Switch 
+      Java For Loop 
+      Java While Loop 
+      Java Do While Loop 
+      Java Break 
+      Java Continue 
+      Java Comments 
+      Java Programs  
+      
+      
+      Java Object Class 
+      
+      
+      Java OOPs Concepts 
+      Naming Convention 
+      Object and Class 
+      Method 
+      Constructor 
+      static keyword  
+      this keyword 
+      
+      
+      Java Inheritance 
+      
+      
+      Inheritance(IS-A) 
+      Aggregation(HAS-A) 
+      
+      
+      Java Polymorphism 
+      
+      
+      Method Overloading 
+      Method Overriding 
+      Covariant Return Type 
+      super keyword 
+      Instance Initializer block 
+      final keyword 
+      Runtime Polymorphism 
+      Dynamic Binding 
+      instanceof operator 
+      
+      
+      Java Abstraction 
+      
+      
+      Abstract class 
+      Interface 
+      Abstract vs Interface 
+      
+      
+      Java Encapsulation 
+      
+      
+      Package 
+      Access Modifiers 
+      Encapsulation 
+      
+      
+      Java Array 
+      
+      
+      Java Array 
+      
+      
+      Java OOPs Misc 
+      
+      
+      Object class  
+      Object Cloning 
+      Math class  
+      Wrapper Class 
+      Java Recursion 
+      Call By Value  
+      strictfp keyword 
+      javadoc tool 
+      Command Line Arg 
+      Object vs Class 
+      Overloading vs Overriding 
+      
+      
+      Java String 
+      Java Regex 
+      Exception Handling 
+      Java Inner classes 
+      Java Multithreading 
+      Java I/O 
+      Java Networking 
+      Java AWT & Events 
+      Java Swing 
+      JavaFX 
+      Java Applet 
+      Java Reflection 
+      Java Date 
+      Java Conversion 
+      Java Collection 
+      Java JDBC 
+      Java Misc 
+      Java New Features 
+      RMI 
+      Internationalization 
+      Interview Questions 
+      Java MCQ 
+      
+      
+      
+      
+       
+        
+       
+      
+     
+     
+      
+       
+        
+       
+      
+      
+       
+        
+        
+         
+           
+            
+            next ? 
+            ? prev 
+            Non-primitive data types in Java Data types define the type of data that is stored in the variable. The type specifies the kind of data (different sizes and values). Java programming language has two types of data types 
+            
+            Primitive data types (predefined data types) 
+            Non-primitive data types 
+            In this section, we will understand the non-primitive data types, their uses and implementation in Java. Non-primitive data types Unlike primitive data types, these are not predefined. These are user-defined data types created by programmers. These data types are used to store multiple values. For example, consider an array that stores a group of values. Class is also a primitive type that stores different methods and variables. Therefore, these are also called as advanced data types in Java. Whenever a non-primitive data type is defined, it refers a memory location where the data is stored in heap memory i.e., it refers to the memory location where an object is placed. Therefore, a non-primitive data type variable is also called referenced data type or simply object reference variable. An object reference variable lives on the stack memory and the object to which it points always lives on the heap memory. The stack holds a pointer to the object on the heap. In Java programming, all non-primitive data types are simply called objects that are created by instantiating a class. Key points: 
+            
+            The default value of any reference variable is null. 
+            Whenever we are passing a non-primitive data type to a method, we are passing the address of that object where the data is stored. 
+            Types of Non-primitive data types There are five types of non-primitive data types in Java. They are as follows: 
+            
+            Class 
+            Object 
+            String 
+            Array 
+            Interface 
+            1. Class and objects: A class in Java is a user defined data type i.e. it is created by the user. It acts a template to the data which consists of member variables and methods. An object is the variable of the class, which can access the elements of class i.e. methods and variables. Example: In the following example, we are creating a class containing the variables and methods ( add() and sub() ). Here, we are accessing the methods using the object of the Class obj. ClassExample.java 
+           
+            
+public class ClassExample {
+	
+		// defining the variables of class
+		int a = 20;
+		int b = 10;
+		int c;
+
+		// defining the methods of class
+		public void add () {
+			int c = a + b;
+			System.out.println("Addition of numbers is: " + c);
+		}
+
+		public void sub () {
+			int c = a - b;
+			System.out.println("Subtraction of numbers is: " + c);
+		}
+	
+	// main method
+	public static void main (String[] args) {
+		// creating the object of class
+		ClassExample obj = new ClassExample();
+
+		// calling the methods
+		obj.add();
+		obj.sub();
+	}
+}
+
+            Output: 
+           
+            Addition of numbers is: 30
+Subtraction of numbers is: 10
+
+            2. Interface: An interface is similar to a class however the only difference is that its methods are abstract by default i.e. they do not have body. An interface has only the final variables and method declarations. It is also called a fully abstract class. Note: If the class implements an interface, it must implement all the methods of that interface. If not, we must declare the class as abstract. Example: In the following example, we are creating the interface CalcInterface with two abstract methods ( multiply() and divide() ). Here, the class InterfaceExample implements the interface and further defines the methods of that interface. Then, the object of class is used to access those methods. InterfaceExample.java 
+           
+            
+interface CalcInterface {
+	void multiply();
+	void divide();
+}
+public class InterfaceExample implements CalcInterface {
+	
+		// defining the variables of class
+		int a = 10;
+		int b = 20;
+		int c;
+
+		// implementing the interface methods
+		public void multiply() {
+			int c = a * b;
+			System.out.println("Multiplication of numbers is: " + c);
+		}
+		public void divide() {
+			int c = a / b;
+			System.out.println("Division of numbers is: " + c);
+		}
+	// main method
+	public static void main (String[] args) throws IOException {
+		InterfaceExample obj = new InterfaceExample();
+		// calling the methods
+		obj.multiply();
+		obj.divide();
+	}
+}
+
+            3. String: A string represents a sequence of characters for example "Javatpoint", "Hello world", etc. String is the class of Java. One of the ways to create a string and store a value in it is shown below: 
+           
+            
+String str = "You're the best";
+
+            Here, String type variable str has the value "You're the best". Click here to understand more about String in Java. Example: In the following example, we are creating a string with a value. Here, we are using one of the String class methods, substring() which prints the specified indexed part of the string. StringExample.java 
+           
+            
+public class StringExample {
+	public static void main(String[] args) {
+		
+		// creating a string and initializing it
+		String str = "Hello! This is example of String type";
+		
+		// applying substring() on above string
+		String subStr = str.substring(0,14);
+
+		// printing the string
+		System.out.println(subStr);
+	}
+}
+
+            Output: 
+           
+            Hello! This is
+
+            4. Array: An array is a data type which can store multiple homogenous variables i.e., variables of same type in a sequence. They are stored in an indexed manner starting with index 0. The variables can be either primitive or non-primitive data types. Following example shows how to declare array of primitive data type int: 
+           
+            
+int [ ] marks;
+
+            Following example shows how to declare array of non-primitive data type: 
+           
+            
+Student [ ] students; 
+
+            where, Student is the class name and [ ] creates an array of object students. Example: In the following example, we are creating two basic array, in which one is initialized and the other is declared (input is read from the user). Further, we are printing those array using the for loop. ArrayExample.java 
+           
+            
+// importing required packages
+import java.io. * ;
+import java.util. * ;
+
+public class ArrayExample {
+  public static void main(String[] args) throws IOException {
+    int i;
+    Scanner sc = new Scanner(System. in );
+    // declaring and initializing an array
+    int arr[] = {1, 2, 3, 6, 9};
+    // defining another array arr1
+    int arr1[] = new int[5];
+    // reading values from the user
+    System.out.println("Enter the numbers (size = 5) :");
+    for (i = 0; i < 5; i++) {
+      arr1[i] = sc.nextInt();
+    }
+    System.out.println("Previous array with initialized size is: ");
+    for (i = 0; i < 5; i++) {
+      System.out.print(arr[i] + " ");
+    }
+    System.out.println("\nThe new array we have entered is:");
+    for (i = 0; i < 5; i++) {
+      System.out.print(arr1[i] + " ");
+    }
+  }
+}
+
+            Output: 
+           
+            Enter the numbers (size = 5) :
+56
+43
+22
+1
+7
+Previous array with initialized size is:
+1 2 3 6 9
+The new array we have entered is:
+56 43 22 1 7
+
+            Difference between Primitive and Non-primitive Data types in Java 
+            
+            In Java, the primitive data types are system defined however we have to create and define the non-primitive data types. 
+            In primitive data type, variables can store only one value at a time. However in non-primitive data types, either multiple values of the same type or different type or both can be stored. 
+            All the data for primitive type variables are stored on the stack whereas, for reference types, the stack holds a pointer to the object on the heap. 
+            A primitive type starts with a lowercase letter, while non-primitive types start with an uppercase letter. 
+            The size of a primitive type depends on the data type, while non-primitive types have all the same size. 
+            
+            
+            
+            Next Topic
+            Pancake Number in Java 
+             
+            
+            ? prev 
+            next ? 
+             
+          
+        
+        
+       
+       
+      
+        
+        For Videos Join Our Youtube Channel:  Join Now 
+       
+       
+      Feedback 
+       
+       Send your Feedback to [email protected] 
+       
+       
+      Help Others, Please Share 
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       Learn Latest Tutorials 
+        
+         
+         
+           
+          Splunk 
+           
+         
+         
+           
+          SPSS 
+           
+         
+         
+           
+          Swagger 
+           
+         
+         
+           
+          Transact-SQL 
+           
+         
+         
+           
+          Tumblr 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Regex 
+           
+         
+         
+           
+          Reinforcement Learning 
+           
+         
+         
+           
+          R Programming 
+           
+         
+         
+           
+          RxJS 
+           
+         
+         
+           
+          React Native 
+           
+         
+         
+           
+          Python Design Patterns 
+           
+         
+         
+           
+          Python Pillow 
+           
+         
+         
+           
+          Python Turtle 
+           
+         
+         
+           
+          Keras 
+           
+        
+       
+       
+       
+       Preparation 
+        
+         
+         
+           
+          Aptitude 
+           
+         
+         
+           
+          Reasoning 
+           
+         
+         
+           
+          Verbal Ability 
+           
+         
+         
+           
+          Interview Questions 
+           
+         
+         
+           
+          Company Questions 
+           
+        
+       
+       
+       
+       Trending Technologies 
+        
+         
+         
+           
+          Artificial Intelligence 
+           
+         
+         
+           
+          AWS 
+           
+         
+         
+           
+          Selenium 
+           
+         
+         
+           
+          Cloud Computing 
+           
+         
+         
+           
+          Hadoop 
+           
+         
+         
+           
+          ReactJS 
+           
+         
+         
+           
+          Data Science 
+           
+         
+         
+           
+          Angular 7 
+           
+         
+         
+           
+          Blockchain 
+           
+         
+         
+           
+          Git 
+           
+         
+         
+           
+          Machine Learning 
+           
+         
+         
+           
+          DevOps 
+           
+        
+       
+       
+       
+       B.Tech / MCA 
+        
+         
+         
+           
+          DBMS 
+           
+         
+         
+           
+          Data Structures 
+           
+         
+         
+           
+          DAA 
+           
+         
+         
+           
+          Operating System 
+           
+         
+         
+           
+          Computer Network 
+           
+         
+         
+           
+          Compiler Design 
+           
+         
+         
+           
+          Computer Organization 
+           
+         
+         
+           
+          Discrete Mathematics 
+           
+         
+         
+           
+          Ethical Hacking 
+           
+         
+         
+           
+          Computer Graphics 
+           
+         
+         
+           
+          Software Engineering 
+           
+         
+         
+           
+          Web Technology 
+           
+         
+         
+           
+          Cyber Security 
+           
+         
+         
+           
+          Automata 
+           
+         
+         
+           
+          C Programming 
+           
+         
+         
+           
+          C++ 
+           
+         
+         
+           
+          Java 
+           
+         
+         
+           
+          .Net 
+           
+         
+         
+           
+          Python 
+           
+         
+         
+           
+          Programs 
+           
+         
+         
+           
+          Control System 
+           
+         
+         
+           
+          Data Mining 
+           
+         
+         
+           
+          Data Warehouse 
+           
+        
+       
+      
+     
+     
+      
+      
+       
+     
+     
+     
+      
+       
+      
+     
+      
+     
+     
+     
+      
+     
+      
+     
+      
+     
+     
+     
+      
+      Javatpoint Services 
+      JavaTpoint offers too many high quality services. Mail us on [email protected], to get more information about given services. 
+       
+       Website Designing
+       Website Development
+       Java Development
+       PHP Development
+       WordPress
+       Graphic Designing
+       Logo
+       Digital Marketing
+       On Page and Off Page SEO
+       PPC
+       Content Development
+       Corporate Training
+       Classroom and Online Training
+       Data Entry
+       
+      
+     
+      
+      Training For College Campus 
+      JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at [email protected]m. Duration: 1 week to 2 week
+     
+     
+     
+      
+      Like/Subscribe us for latest updates or newsletter  
+       
+       
+       
+       
+       
+       
+     
+     
+      
+       Learn Tutorials
+       Learn Java
+       Learn Data Structures
+       Learn C Programming
+       Learn C++ Tutorial
+       Learn C# Tutorial
+       Learn PHP Tutorial
+       Learn HTML Tutorial
+       Learn JavaScript Tutorial
+       Learn jQuery Tutorial
+       Learn Spring Tutorial
+      
+      
+       Our Websites
+       Javatpoint.com
+       Hindi100.com
+       Lyricsia.com
+       Quoteperson.com
+       Jobandplacement.com
+      
+      
+       Our Services
+       Website Development
+       Android Development
+       Website Designing
+       Digital Marketing
+       Summer Training
+       Industrial Training
+       College Campus Training
+      
+      
+       Contact
+       Address: G-13, 2nd Floor, Sec-3
+       Noida, UP, 201301, India
+       Contact No: 0120-4256464, 9990449935
+       Contact Us 
+       Subscribe Us 
+       Privacy Policy
+       Sitemap
+       
+       About Me
+      
+     
+     
+      © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.
+      
+      
+      
+     
+   
+   
+  
+   
+     
+ 
+
